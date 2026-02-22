@@ -10,8 +10,8 @@ Encontrar vagas relevantes e aplicar com material personalizado, investindo 5-10
 
 ```
 Automático (GitHub Actions, seg-sex 6h BRT):
-  1. Busca vagas PM/TPM remote LATAM/Worldwide (últimas 24h)
-  2. Pontua cada vaga contra perfil do candidato (0-100)
+  1. Busca vagas PM/TPM (Épico 1.2/1.3 - OK)
+  2. Pontua cada vaga contra perfil (Épico 1.5 - Pendente)
   3. Salva resultados no repositório
 
 Manual (Streamlit local, quando quiser):
@@ -53,6 +53,7 @@ GitHub Actions (nuvem, automático)         Streamlit (local, sob demanda)
 | Pipeline | GitHub Actions | Gratuito, roda na nuvem, máquina pode estar desligada |
 | Output | PDF | Aceito pela maioria das plataformas. DOCX e texto puro como melhorias futuras |
 | Feedback | JSON local | Simples. Insumo para recalibrar scoring. Migração para repo planejada |
+| Ambiente | .venv (POC) | Agilidade no desenvolvimento inicial. Docker planejado para o Épico 4 |
 
 ## Custo Estimado
 
