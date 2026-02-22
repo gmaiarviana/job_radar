@@ -1,19 +1,18 @@
 # ROADMAP - Job Radar
 
-Épicos incrementais do sistema de busca automatizada de vagas.
+📡 **Status:** Infraestrutura Base (Scaffolding) concluída. Perfil e stubs configurados.
 
 > **Filosofia:** POC → Protótipo → MVP. Validar cada etapa antes de avançar.
 
 ---
 
 ## ✅ Concluído
-
-### Validação de Fontes (Exploratório)
-Testamos APIs gratuitas (Remotive, Arbeitnow) e LLMs com web search (ChatGPT, Grok). APIs gratuitas trouxeram volume baixo e pouca relevância. ChatGPT com web search retornou as melhores vagas. Decisão: OpenAI API com web_search como fonte principal.
+- **Validação de Fontes:** Definição da stack (OpenAI web search + Claude Haiku).
+- **Scaffolding:** Estrutura de pastas, stubs de código, `profile.md` real, e CI/CD (`daily.yml`).
 
 ---
 
-## 📍 Próximos Passos
+## 📍 Próximos Passos (Plano Detalhado)
 
 ### ÉPICO 1: Fetch + Score (POC)
 
@@ -173,9 +172,6 @@ Testamos APIs gratuitas (Remotive, Arbeitnow) e LLMs com web search (ChatGPT, Gr
 ---
 
 ## 💡 Ideias Futuras
-
-Aguardando validação do MVP (Épicos 1-5).
-
 - **Deduplicação cross-dia:** Detectar mesma vaga em dias diferentes
 - **DOCX e texto puro:** Formatos alternativos de saída
 - **Cover letter por plataforma:** Adaptar para formulários específicos ("Why this company?")
@@ -186,13 +182,5 @@ Aguardando validação do MVP (Épicos 1-5).
 - **Fonte adicional (JSearch):** Fallback se OpenAI web search perder cobertura
 
 ---
-
-## 📝 Observações
-
-- Épicos 1 e 3 são os mais críticos — validam busca e geração de materiais
-- Épico 2 conecta tudo na interface — é onde a experiência se materializa
-- Épico 4 é automação do que já funciona manualmente
-- Épico 5 é refinamento contínuo — valor cresce com o tempo
-- Cada épico entrega valor isolado (posso usar fetch+score+generate via terminal antes do Streamlit existir)
 
 **Última atualização:** Fev 2026

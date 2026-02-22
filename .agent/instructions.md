@@ -27,4 +27,12 @@ This file contains specific rules, patterns, and optimizations discovered during
     - Generate: Claude Sonnet (high-quality writing).
 
 ## 5. Development Patterns
-- **Stubs**: Python stubs in `src/` are placeholders. To verify the full pipeline (fetch -> score -> generate), the scripts must actually write JSON files to the expected `data/` subdirectories. Output error messages if dependency files are missing.
+## 6. Functionality Closure (Lifecycle)
+At the end of every task or feature implementation, ALWAYS perform these steps:
+1. **Self-Correction**: Review the chat for any errors, repeated corrections, or environment quirks. Update this `instructions.md` file to prevent recurrence.
+2. **Roadmap Sync**: Update `ROADMAP.md`. **Keep future plans detailed and comprehensive** so they serve as a technical guide. Only simplify the "Done" section to keep the document focused on upcoming work; the code/git is the record for what's already completed.
+3. **Commit**: Ensure all changes are staged and pushed with a descriptive message.
+4. **Cleanup**: Check for root directory clutter. Ensure new scripts go to `src/` and data goes to `data/`.
+
+---
+*Last update: Feb 2026*
