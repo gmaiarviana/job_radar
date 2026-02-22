@@ -73,35 +73,36 @@ job-radar/
 ├── .env.example                 # Template de API keys
 ├── requirements.txt             # Dependências Python
 │
-├── app.py                       # Streamlit — interface principal
+├── app.py                       # Streamlit — interface principal (Épico 2)
 │
 ├── src/
-│   ├── fetch.py                 # Busca vagas (OpenAI web search)
-│   ├── score.py                 # Scoring contra perfil (Claude Haiku)
-│   ├── generate.py              # Gera currículo + cover letter (Claude Sonnet)
-│   └── notify.py                # Email para PERFECT_MATCH
+│   ├── fetch.py                 # Busca vagas (OpenAI web search) — Épico 1.3
+│   ├── score.py                 # Scoring contra perfil (Claude Haiku) — Épico 1.5
+│   ├── generate.py              # Gera currículo + cover letter (Claude Sonnet) — Épico 3.3
+│   └── notify.py                # Email para PERFECT_MATCH — Épico 4.3
 │
 ├── config/
-│   ├── profile.md               # Perfil condensado (~800 tokens)
+│   ├── career_narrative.md      # Narrativa completa — fonte da verdade (não vai pro LLM)
+│   ├── profile.md               # Perfil condensado (~800 tokens) — usado no scoring
 │   ├── resume_base.md           # Currículo base modular (seções reorganizáveis)
 │   ├── cover_letter_template.md # Template com voz do candidato
-│   └── search.yaml              # Parâmetros de busca (queries, thresholds)
+│   └── search.yaml              # Parâmetros de busca (queries, thresholds, pesos)
 │
 ├── data/
 │   ├── raw/                     # Vagas brutas (JSON por dia)
 │   │   └── YYYY-MM-DD.json
-│   ├── scored/                  # Vagas pontuadas (JSON por dia)
+│   ├── scored/                  # Vagas pontuadas — score ≥ 80 (JSON por dia)
 │   │   └── YYYY-MM-DD.json
-│   ├── feedback/                # Feedback do usuário (JSON)
+│   ├── feedback/                # Feedback do usuário — 👍/👎 (JSON, local)
 │   │   └── YYYY-MM-DD.json
-│   └── output/                  # PDFs gerados
+│   └── output/                  # PDFs gerados por vaga
 │       └── YYYY-MM-DD_empresa_titulo/
 │           ├── resume.pdf
 │           └── cover_letter.pdf
 │
 └── .github/
     └── workflows/
-        └── daily.yml            # GitHub Actions (seg-sex 6h BRT)
+        └── daily.yml            # GitHub Actions: fetch → score → notify → commit (seg-sex 9h UTC)
 ```
 
 ## Setup

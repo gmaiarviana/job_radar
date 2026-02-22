@@ -35,8 +35,10 @@ Thumbs.db
 *.log
 logs/
 
-# Data / output files
-*.csv
-*.json
-!package.json
-!package-lock.json
+# Data — vagas brutas e pontuadas SOBEM pro repo (GitHub Actions → git pull local)
+# Feedback e PDFs ficam apenas local
+data/feedback/
+data/output/
+
+# JSONs legados na raiz (antes da refatoração)
+/*.json

@@ -1,0 +1,39 @@
+# Parâmetros de busca de vagas
+# Usado pelo fetch.py
+
+search:
+  roles:
+    - "Product Manager"
+    - "Technical Program Manager"
+    - "TPM"
+
+  locations:
+    - "remote LATAM"
+    - "remote worldwide"
+    - "remote"
+
+  lookback_hours: 24
+
+  # Palavras que indicam vagas irrelevantes (hard filter)
+  exclude_keywords:
+    - "on-site only"
+    - "US only"
+    - "EU only"
+    - "no LATAM"
+
+scoring:
+  min_score: 80          # Score mínimo para salvar em scored/
+  perfect_match_score: 95 # Threshold para enviar email de alerta
+
+  # Pesos por critério (apenas referência para o prompt)
+  weights:
+    location: "eliminatório"   # Fora de LATAM/Worldwide = descarte automático
+    salary: 30                 # Salário >= $5k USD/mês
+    responsibilities_fit: 40   # Fit de responsabilidades com perfil
+    red_flags: "eliminatório"  # Senior-only, requer visto, etc.
+
+output:
+  raw_dir: "data/raw"
+  scored_dir: "data/scored"
+  feedback_dir: "data/feedback"
+  output_dir: "data/output"
