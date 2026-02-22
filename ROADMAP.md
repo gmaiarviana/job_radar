@@ -9,165 +9,190 @@
 ## ✅ Concluído
 
 ### Validação de Fontes (Exploratório)
-Testamos 3 categorias de fontes para busca de vagas:
-- **APIs gratuitas (Remotive, Arbeitnow):** Volume baixo, pouca relevância para PM/TPM remote LATAM
-- **ChatGPT/Grok com web search (manual):** Melhor cobertura e qualidade. ChatGPT retornou 3 vagas com score ≥ 82
-- **Decisão:** OpenAI API com web_search como fonte principal. APIs gratuitas descartadas.
+Testamos APIs gratuitas (Remotive, Arbeitnow) e LLMs com web search (ChatGPT, Grok). APIs gratuitas trouxeram volume baixo e pouca relevância. ChatGPT com web search retornou as melhores vagas. Decisão: OpenAI API com web_search como fonte principal.
 
 ---
 
 ## 📍 Próximos Passos
 
-### ÉPICO 1: Fetch — Busca de Vagas via OpenAI Web Search (POC)
+### ÉPICO 1: Fetch + Score (POC)
 
-**Objetivo:** Script que busca vagas usando OpenAI Responses API com web_search e retorna JSON estruturado.
+**Objetivo:** Validar que busca via OpenAI web search + scoring via Claude Haiku retorna vagas relevantes e bem pontuadas.
 
-**Critério de sucesso:** Rodar localmente uma vez e retornar ≥ 3 vagas relevantes (PM/TPM remote LATAM).
+**Critério de sucesso:** Rodar 3 dias consecutivos. Scoring com concordância ≥ 80% vs avaliação manual.
 
-#### 1.1 Prompt de busca otimizado
-- Prompt que instrui gpt-4o-mini a buscar vagas PM/TPM remote LATAM/Worldwide das últimas 24h
-- Output estruturado: título, empresa, salário, localização, URL, requisitos-chave, data
-- Prompt armazenado em `config/search.yaml` (editável sem mexer em código)
+#### 1.1 Perfil condensado
+- Criar `config/profile.md` derivado do Career Narrative
+- ~800 tokens: experiência, skills, critérios eliminatórios, preferências
+- Critérios eliminatórios explícitos: localização (Brasil/LATAM/Worldwide), salário (≥ $5k USD/mês), idioma (inglês obrigatório, outros = red flag)
 
-#### 1.2 Script fetch.py
-- Chama OpenAI Responses API com tool `web_search_preview`
-- Parseia resposta em lista de vagas (JSON)
+#### 1.2 Prompt de busca (fetch)
+- Prompt para gpt-4o-mini com web_search_preview
+- Instruções: buscar vagas PM/TPM remote LATAM/Worldwide, últimas 24h
+- Output estruturado: título, empresa, salário, localização, URL, requisitos, data
+- Parâmetros em `config/search.yaml`
+
+#### 1.3 Script fetch.py
+- Chama OpenAI Responses API com web_search
+- Parseia resposta em JSON
 - Salva em `data/raw/YYYY-MM-DD.json`
 - Tratamento de erro: API indisponível, resposta malformada, zero resultados
-- Log mínimo no stdout
 
-#### 1.3 Validação manual
-- Rodar script 3 dias consecutivos
-- Comparar resultados com busca manual no LinkedIn/remote.com
-- Avaliar: cobertura (encontrou as mesmas?), falsos positivos, vagas duplicadas entre dias
-- Documentar aprendizados para calibrar prompt
+#### 1.4 Prompt de scoring
+- System prompt com perfil + critérios de scoring
+- Input: vagas do fetch
+- Output por vaga: score 0-100, justificativa (1 linha), flag PERFECT_MATCH
+- Pesos explícitos: localização (eliminatório), salário, fit de responsabilidades, red flags
+
+#### 1.5 Script score.py
+- Lê `data/raw/YYYY-MM-DD.json`
+- Chama Claude Haiku com batch de vagas
+- Salva em `data/scored/YYYY-MM-DD.json` (top vagas, score ≥ 80)
+
+#### 1.6 Calibração manual
+- Candidato avalia 20-30 vagas manualmente
+- Compara com scores do LLM
+- Ajusta prompt/pesos até concordância ≥ 80%
 
 ---
 
-### ÉPICO 2: Score — Scoring contra Perfil via Claude Haiku
+### ÉPICO 2: Interface Streamlit (Protótipo)
 
-**Objetivo:** Script que recebe vagas brutas e retorna vagas pontuadas contra o perfil do candidato.
+**Objetivo:** Interface local para visualizar vagas, gerar materiais de aplicação, e dar feedback.
 
 **Dependência:** Épico 1 validado.
 
-**Critério de sucesso:** Scoring de 10 vagas com concordância ≥ 80% vs avaliação manual do candidato.
+**Critério de sucesso:** Jornada completa funcional — ver vagas → gerar currículo → download PDF → feedback.
 
-#### 2.1 Perfil condensado
-- Criar `config/profile.md` derivado do Career Narrative
-- ~800 tokens: experiência, skills, critérios eliminatórios, preferências
-- Testar: LLM consegue diferenciar vaga boa de vaga ruim com esse perfil?
+#### 2.1 Tela principal — vagas do dia
+- Lista de vagas pontuadas, ordenadas por score
+- Card por vaga: título, empresa, score (badge colorido), salário, justificativa, link direto
+- Cores: verde (≥ 90), amarelo (80-89)
+- Seletor de data para ver dias anteriores
 
-#### 2.2 Prompt de scoring
-- System prompt com perfil + instruções de scoring
-- Input: lista de vagas (título + descrição)
-- Output por vaga: score (0-100), justificativa (1 linha), flag PERFECT_MATCH (boolean)
-- Critérios explícitos no prompt: localização (peso alto), salário, fit de responsabilidades, red flags
+#### 2.2 Botão "Preparar aplicação"
+- Ao clicar: chama `generate.py` com dados da vaga + perfil
+- Loading indicator enquanto gera (~5-10 segundos)
+- Exibe preview do currículo e cover letter gerados
+- Botão de download PDF para cada um
 
-#### 2.3 Script score.py
-- Lê `data/raw/YYYY-MM-DD.json`
-- Chama Claude Haiku com batch de vagas
-- Salva em `data/scored/YYYY-MM-DD.json`
-- Filtra: top 5 com score ≥ 80
+#### 2.3 Feedback por vaga
+- Botões "👍 Bom match" / "👎 Não relevante" em cada card
+- Salva em `data/feedback/YYYY-MM-DD.json`
+- Visual: vaga fica marcada após feedback
 
-#### 2.4 Calibração
-- Candidato avalia manualmente 20-30 vagas (sim/não/talvez)
-- Comparar com scores do LLM
-- Ajustar prompt até concordância ≥ 80%
-- Documentar thresholds finais
-
----
-
-### ÉPICO 3: Render — Portal HTML Estático
-
-**Objetivo:** Gerar página HTML navegável com as vagas do dia e histórico.
-
-**Dependência:** Épico 2 validado.
-
-**Critério de sucesso:** Página acessível via GitHub Pages, mobile-friendly, com vagas pontuadas do dia.
-
-#### 3.1 Template HTML
-- Design simples, mobile-first
-- Card por vaga: título, empresa, score (badge colorido), salário, link direto, justificativa
-- Ordenado por score (maior primeiro)
-- Cores: verde (≥ 90), amarelo (80-89), cinza (< 80)
-
-#### 3.2 Script render.py
-- Lê `data/scored/YYYY-MM-DD.json`
-- Gera `docs/YYYY-MM-DD.html` (página do dia)
-- Atualiza `docs/index.html` (índice com links para cada dia)
-- Mantém últimos 30 dias no índice
-
-#### 3.3 Deploy GitHub Pages
-- Configurar branch `gh-pages` ou pasta `/docs` no main
-- Validar que página é acessível publicamente (ou privado se preferir)
+#### 2.4 Histórico
+- Sidebar ou aba com lista de dias passados
+- Vagas marcadas como "aplicado" (se usou "Preparar aplicação")
+- Contadores: vagas vistas, aplicações geradas, feedbacks dados
 
 ---
 
-### ÉPICO 4: Notify — Alertas por Email
+### ÉPICO 3: Geração de Materiais (POC)
 
-**Objetivo:** Enviar email quando houver vaga com score ≥ 95 (PERFECT_MATCH).
+**Objetivo:** Gerar currículo e cover letter personalizados por vaga, com qualidade de aplicação real.
 
-**Dependência:** Épico 2 validado. Pode rodar em paralelo com Épico 3.
+**Dependência:** Pode rodar em paralelo com Épico 2 (script independente).
 
-**Critério de sucesso:** Receber email com link direto para a vaga quando PERFECT_MATCH aparecer.
+**Critério de sucesso:** Materiais gerados para 5 vagas reais. Candidato considera ≥ 4 prontos para enviar com mínima edição.
 
-#### 4.1 Script notify.py
-- Lê `data/scored/YYYY-MM-DD.json`
-- Se alguma vaga tem `perfect_match: true`: envia email
-- Template do email: título da vaga, empresa, score, link, justificativa
-- Via Gmail SMTP (App Password) ou SendGrid free tier
+#### 3.1 Currículo base modular
+- Criar `config/resume_base.md` com seções do Career Narrative
+- Formato: Markdown estruturado com marcadores de seção
+- Seções: Summary (adaptável), Experience (bullets selecionáveis por role), Skills (modulares), Education
 
-#### 4.2 Proteção contra spam
-- Máximo 1 email por dia (agrupa todos os PERFECT_MATCH)
-- Não envia se não houver PERFECT_MATCH (silêncio = sem urgência)
+#### 3.2 Template de cover letter
+- Criar `config/cover_letter_template.md`
+- Voz do candidato: direto, sem clichês, conecta experiência com a vaga
+- Estrutura: abertura (por que essa empresa), fit (o que trago), fechamento
+
+#### 3.3 Script generate.py
+- Input: dados da vaga (do scored JSON) + resume_base + cover_letter_template
+- LLM: Claude Sonnet (qualidade de escrita)
+- Output: currículo adaptado + cover letter adaptada
+- Regra: reorganizar e enfatizar, sem inventar experiência
+- Salva Markdown intermediário + PDF final em `data/output/`
+
+#### 3.4 Geração de PDF
+- Markdown → PDF com formatação limpa
+- Biblioteca: weasyprint ou reportlab
+- Layout profissional, 1 página (currículo), 0.5-1 página (cover letter)
 
 ---
 
-### ÉPICO 5: Pipeline — Automação via GitHub Actions
+### ÉPICO 4: Pipeline Automatizado (MVP)
 
-**Objetivo:** Rodar pipeline completo automaticamente seg-sex às 6h BRT.
+**Objetivo:** Fetch + Score rodando automaticamente via GitHub Actions.
 
-**Dependência:** Épicos 1-4 validados localmente.
+**Dependência:** Épicos 1-3 validados localmente.
 
-**Critério de sucesso:** 5 dias consecutivos rodando sem intervenção manual, portal atualizado, emails enviados quando aplicável.
+**Critério de sucesso:** 5 dias consecutivos rodando sem intervenção, dados disponíveis para Streamlit via git pull.
 
-#### 5.1 Workflow daily.yml
+#### 4.1 Workflow daily.yml
 - Cron: `0 9 * * 1-5` (9h UTC = 6h BRT)
-- Steps: fetch → score → render → notify → commit + push
-- Secrets: `OPENAI_API_KEY`, `ANTHROPIC_API_KEY`, `SMTP_USER`, `SMTP_PASS`, `NOTIFY_EMAIL`
-- Timeout: 5 min (pipeline leve)
+- Steps: fetch → score → commit + push
+- Secrets: `OPENAI_API_KEY`, `ANTHROPIC_API_KEY`
+- Timeout: 5 min
 
-#### 5.2 Tratamento de falhas
+#### 4.2 Tratamento de falhas
 - Retry 1x se API falhar
-- Se falhar de novo: commit log de erro, não quebra pipeline
-- Notificação de falha via email (GitHub Actions nativo)
+- Se falhar: commit log de erro, pipeline não quebra
+- Badge no README com status
 
-#### 5.3 Monitoramento
-- Badge no README (status do último run)
-- Log de cada execução no stdout do Actions
-- Histórico de vagas acumulado no `/docs`
+#### 4.3 Alertas por email (PERFECT_MATCH)
+- Script notify.py roda após score
+- Envia email se alguma vaga tem score ≥ 95
+- Máximo 1 email/dia (agrupa PERFECT_MATCH)
+- Via Gmail SMTP (App Password)
+
+---
+
+### ÉPICO 5: Feedback Loop (Melhoria)
+
+**Objetivo:** Feedback do usuário alimenta o scoring das próximas rodadas.
+
+**Dependência:** Épicos 2 e 4 rodando.
+
+**Critério de sucesso:** Scoring melhora visivelmente após 2 semanas de feedback (menos falsos positivos/negativos).
+
+#### 5.1 Agregação de feedback
+- Script que lê todos `data/feedback/*.json`
+- Gera resumo: padrões de concordância/discordância
+- Identifica: que tipo de vaga o candidato rejeita? que tipo aceita?
+
+#### 5.2 Feedback no prompt de scoring
+- Inclui resumo de feedback como contexto adicional no prompt do score.py
+- Exemplo: "Candidato rejeitou vagas de startup early-stage sem salário listado"
+- Atualização manual (v1) — candidato revisa resumo antes de incluir
+
+#### 5.3 Persistência no repositório
+- Decide: feedback fica local ou sobe pro repo (via commit)?
+- Se repo: Actions consegue ler feedback para calibrar scoring automaticamente
+- Se local: candidato precisa rodar script de sync manual
 
 ---
 
 ## 💡 Ideias Futuras
 
-Não são épicos. Aguardando validação do MVP (Épicos 1-5).
+Aguardando validação do MVP (Épicos 1-5).
 
-- **Deduplicação cross-dia:** Detectar mesma vaga aparecendo em dias diferentes
-- **Fonte adicional (JSearch API):** Adicionar como fallback se OpenAI web search perder cobertura
-- **Tracking de aplicações:** Marcar vagas como "aplicado", "entrevista", "rejeitado"
-- **Analytics:** Dashboard com métricas (vagas/dia, score médio, tendências de mercado)
-- **Múltiplos perfis:** Suportar busca para diferentes posicionamentos (PM vs TPM vs hybrid)
-- **RSS feed:** Alternativa ao email para quem usa leitores RSS
-- **Telegram bot:** Push notification mais leve que email
+- **Deduplicação cross-dia:** Detectar mesma vaga em dias diferentes
+- **DOCX e texto puro:** Formatos alternativos de saída
+- **Cover letter por plataforma:** Adaptar para formulários específicos ("Why this company?")
+- **Tracking de aplicações:** Status (aplicado → entrevista → oferta → rejeitado)
+- **Analytics:** Vagas/dia, score médio, tendências de mercado, taxa de aplicação
+- **Múltiplos perfis:** Posicionamentos diferentes (PM puro vs TPM vs hybrid)
+- **VPS/Cloud:** Migrar Streamlit para acesso remoto (Hetzner, Streamlit Cloud)
+- **Fonte adicional (JSearch):** Fallback se OpenAI web search perder cobertura
 
 ---
 
 ## 📝 Observações
 
-- Cada épico entrega valor isoladamente (posso usar fetch+score manual mesmo sem portal)
-- Épicos 1 e 2 são os mais críticos — validam se a abordagem funciona
-- Épicos 3-5 são infraestrutura de entrega — só fazem sentido se 1+2 funcionarem
-- Custo total estimado: ~$2-3/mês após MVP completo
+- Épicos 1 e 3 são os mais críticos — validam busca e geração de materiais
+- Épico 2 conecta tudo na interface — é onde a experiência se materializa
+- Épico 4 é automação do que já funciona manualmente
+- Épico 5 é refinamento contínuo — valor cresce com o tempo
+- Cada épico entrega valor isolado (posso usar fetch+score+generate via terminal antes do Streamlit existir)
 
 **Última atualização:** Fev 2026

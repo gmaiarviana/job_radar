@@ -1,86 +1,107 @@
 # Job Radar
 
-Sistema automatizado de busca e scoring de vagas remotas para Product Manager / Technical Program Manager.
+Sistema automatizado de busca, scoring e aplicação a vagas remotas para Product Manager / Technical Program Manager.
 
 ## Objetivo
 
-Encontrar vagas relevantes com mínimo esforço diário (5-10 min). O sistema busca vagas via web search, pontua contra o perfil do candidato, e publica um portal HTML com as melhores oportunidades do dia.
+Encontrar vagas relevantes e aplicar com material personalizado, investindo 5-10 minutos por dia.
 
-## Como Funciona
+## Jornada do Usuário
 
 ```
-GitHub Actions (seg-sex, 6h BRT)
-│
-├─ FETCH: OpenAI API (gpt-4o-mini + web_search)
-│  Busca vagas PM/TPM remote LATAM/Worldwide nas últimas 24h
-│  Output: lista estruturada de vagas (JSON)
-│
-├─ SCORE: Anthropic API (Claude Haiku)
-│  Pontua cada vaga contra perfil do candidato (0-100)
-│  Filtra top 5 (score ≥ 80)
-│  Marca PERFECT_MATCH (score ≥ 95)
-│
-├─ RENDER: Gera HTML estático
-│  Página do dia + índice com histórico
-│  Push para branch gh-pages
-│
-└─ NOTIFY: Email (apenas PERFECT_MATCH)
-   Envia alerta quando score ≥ 95
+Automático (GitHub Actions, seg-sex 6h BRT):
+  1. Busca vagas PM/TPM remote LATAM/Worldwide (últimas 24h)
+  2. Pontua cada vaga contra perfil do candidato (0-100)
+  3. Salva resultados no repositório
+
+Manual (Streamlit local, quando quiser):
+  4. Abre o app: streamlit run app.py
+  5. Vê as vagas do dia com scores e justificativas
+  6. Clica "Preparar aplicação" nas vagas que interessam
+  7. Sistema gera currículo + cover letter personalizados (PDF)
+  8. Faz download, revisa, submete na plataforma
+  9. Marca "👍 Bom match" ou "👎 Não relevante" para calibrar scoring
+```
+
+## Arquitetura
+
+```
+GitHub Actions (nuvem, automático)         Streamlit (local, sob demanda)
+│                                          │
+├─ fetch.py: OpenAI web_search             │
+│  → busca vagas, salva JSON               │
+├─ score.py: Claude Haiku                  │
+│  → pontua contra perfil, salva JSON      │
+├─ commit no repo ──────── git pull ───────┤
+│                                          ├─ app.py: interface Streamlit
+│                                          ├─ vê vagas pontuadas
+│                                          ├─ clica "Preparar aplicação"
+│                                          ├─ generate.py: Claude Sonnet
+│                                          │  → currículo + cover letter (PDF)
+│                                          ├─ download PDF
+│                                          └─ feedback (salva local)
 ```
 
 ## Decisões Técnicas
 
 | Decisão | Escolha | Motivo |
 |---------|---------|--------|
-| Busca de vagas | OpenAI web_search | Melhor cobertura que APIs gratuitas (Remotive, Arbeitnow). Navega LinkedIn, Indeed, remote.com, Wellfound |
-| Scoring | Claude Haiku | Barato para análise de texto longo (perfil ~800 tokens + vagas). Consistente no scoring |
-| Infra | GitHub Actions + Pages | Gratuito. Sem servidor. Histórico versionado |
-| Entrega | HTML portal + email alertas | Portal para consulta ativa. Email só para urgências (PERFECT_MATCH) |
-| Frequência | Seg-sex, 6h BRT | Vagas postadas no dia anterior. Sem fins de semana |
-
-**Por que dois modelos?**
-- OpenAI com web_search é superior para *buscar* — navega sites, extrai dados estruturados
-- Claude Haiku é mais barato e consistente para *analisar* — scoring contra perfil longo
-- Separar busca de scoring dá flexibilidade para trocar qualquer um independentemente
+| Busca de vagas | OpenAI gpt-4o-mini + web_search | Melhor cobertura que APIs gratuitas. Navega LinkedIn, Indeed, remote.com, Wellfound |
+| Scoring | Claude Haiku | Barato para análise de texto longo. Consistente no scoring |
+| Geração de materiais | Claude Sonnet | Qualidade de escrita superior para currículo e cover letter |
+| Interface | Streamlit local | Botões funcionais, download integrado, feedback loop. Sem custo de hospedagem |
+| Pipeline | GitHub Actions | Gratuito, roda na nuvem, máquina pode estar desligada |
+| Output | PDF | Aceito pela maioria das plataformas. DOCX e texto puro como melhorias futuras |
+| Feedback | JSON local | Simples. Insumo para recalibrar scoring. Migração para repo planejada |
 
 ## Custo Estimado
 
-| Componente | Estimativa |
-|------------|-----------|
-| OpenAI web_search (~80 buscas/mês) | ~$1.00 |
-| OpenAI tokens (gpt-4o-mini) | ~$0.10 |
-| Claude Haiku scoring (~1k vagas/mês) | ~$1.50 |
-| GitHub Actions + Pages | Gratuito |
-| **Total** | **~$2-3/mês** |
+| Componente | Estimativa/mês |
+|------------|---------------|
+| OpenAI web_search (~80 buscas) | ~$1.00 |
+| Claude Haiku scoring (~1k vagas) | ~$1.50 |
+| Claude Sonnet geração (~30 aplicações) | ~$1.50 |
+| GitHub Actions + infra | Gratuito |
+| **Total** | **~$4/mês** |
 
 ## Estrutura do Projeto
 
 ```
 job-radar/
-├── README.md                # Este arquivo
-├── ROADMAP.md               # Épicos e progresso
-├── .env.example             # Template de API keys
+├── README.md                    # Este arquivo
+├── ROADMAP.md                   # Épicos e progresso
+├── .env.example                 # Template de API keys
+├── requirements.txt             # Dependências Python
+│
+├── app.py                       # Streamlit — interface principal
 │
 ├── src/
-│   ├── fetch.py             # Busca vagas (OpenAI web search)
-│   ├── score.py             # Scoring contra perfil (Claude Haiku)
-│   ├── render.py            # Gera HTML estático
-│   └── notify.py            # Email para PERFECT_MATCH
+│   ├── fetch.py                 # Busca vagas (OpenAI web search)
+│   ├── score.py                 # Scoring contra perfil (Claude Haiku)
+│   ├── generate.py              # Gera currículo + cover letter (Claude Sonnet)
+│   └── notify.py                # Email para PERFECT_MATCH
 │
 ├── config/
-│   ├── profile.md           # Perfil condensado do candidato
-│   └── search.yaml          # Parâmetros de busca (queries, thresholds, fontes)
+│   ├── profile.md               # Perfil condensado (~800 tokens)
+│   ├── resume_base.md           # Currículo base modular (seções reorganizáveis)
+│   ├── cover_letter_template.md # Template com voz do candidato
+│   └── search.yaml              # Parâmetros de busca (queries, thresholds)
 │
-├── templates/
-│   └── index.html           # Template do portal
+├── data/
+│   ├── raw/                     # Vagas brutas (JSON por dia)
+│   │   └── YYYY-MM-DD.json
+│   ├── scored/                  # Vagas pontuadas (JSON por dia)
+│   │   └── YYYY-MM-DD.json
+│   ├── feedback/                # Feedback do usuário (JSON)
+│   │   └── YYYY-MM-DD.json
+│   └── output/                  # PDFs gerados
+│       └── YYYY-MM-DD_empresa_titulo/
+│           ├── resume.pdf
+│           └── cover_letter.pdf
 │
-├── .github/
-│   └── workflows/
-│       └── daily.yml        # GitHub Actions (seg-sex 6h BRT)
-│
-└── docs/                    # HTML gerado (GitHub Pages serve daqui)
-    ├── index.html           # Índice com histórico
-    └── YYYY-MM-DD.html      # Página de cada dia
+└── .github/
+    └── workflows/
+        └── daily.yml            # GitHub Actions (seg-sex 6h BRT)
 ```
 
 ## Setup
@@ -89,59 +110,46 @@ job-radar/
 - Python 3.11+
 - Conta OpenAI com créditos API
 - Conta Anthropic com créditos API
-- Repositório GitHub (para Actions + Pages)
+- Repositório GitHub (para Actions)
 
-### Instalação Local
+### Instalação
 
 ```bash
 git clone <repo-url>
 cd job-radar
 python -m venv venv
-source venv/bin/activate  # Linux/Mac
+source venv/bin/activate
 pip install -r requirements.txt
 cp .env.example .env
 # Editar .env com API keys
 ```
 
+### Uso Diário
+
+```bash
+cd job-radar
+source venv/bin/activate
+git pull                    # Baixa vagas do dia (geradas pelo Actions)
+streamlit run app.py        # Abre interface no navegador
+```
+
 ### Variáveis de Ambiente
 
-```bash
-OPENAI_API_KEY=sk-...        # Para web search
-ANTHROPIC_API_KEY=sk-ant-... # Para scoring
-SMTP_USER=seu@gmail.com      # Para alertas por email
-SMTP_PASS=app-password       # App password do Gmail
-NOTIFY_EMAIL=seu@gmail.com   # Destinatário dos alertas
+```
+OPENAI_API_KEY=sk-...
+ANTHROPIC_API_KEY=sk-ant-...
+SMTP_USER=seu@gmail.com        # Opcional: alertas por email
+SMTP_PASS=xxxx-xxxx-xxxx-xxxx
+NOTIFY_EMAIL=seu@gmail.com
 ```
 
-### Execução Manual
+## Perfil e Materiais Base
 
-```bash
-python src/fetch.py          # Busca vagas do dia
-python src/score.py          # Pontua contra perfil
-python src/render.py         # Gera HTML
-python src/notify.py         # Envia alertas (se houver PERFECT_MATCH)
-```
+### config/profile.md
+Perfil condensado usado pelo LLM para scoring. Derivado do Career Narrative. ~800 tokens com critérios eliminatórios (localização, salário, idioma) e preferências (skills, indústria, cultura).
 
-### Deploy (GitHub Actions)
+### config/resume_base.md
+Currículo base em Markdown com seções modulares. O LLM reorganiza ênfases e bullets por vaga, sem inventar experiência. Seções: Summary (adaptável), Experience (bullets selecionáveis), Skills (modulares por tipo de vaga), Education & Certifications.
 
-1. Configurar secrets no repositório (`OPENAI_API_KEY`, `ANTHROPIC_API_KEY`, etc.)
-2. Ativar GitHub Pages (branch `gh-pages`, pasta `/docs`)
-3. Workflow roda automaticamente seg-sex às 6h BRT
-
-## Perfil do Candidato
-
-O arquivo `config/profile.md` contém o perfil condensado usado pelo LLM para scoring. Derivado do Career Narrative completo, otimizado para contexto de LLM (~800 tokens).
-
-**Critérios de scoring:**
-- Localização: Brasil/LATAM/Worldwide (elimina US-only)
-- Salário: ≥ $5,000 USD/mês
-- Título: PM, TPM, PO, ou híbridos
-- Experiência: 5+ anos tech, product/program management
-- Skills: Agile, data analysis, AI/GenAI, stakeholder management
-- Idioma: Inglês profissional obrigatório
-- Red flags: Mandarin/outro idioma obrigatório, presencial, visa sponsorship required
-
-## Referências
-
-- [Career Narrative](link-to-gdocs) — Documento completo de posicionamento
-- [Portal de Vagas](link-to-gh-pages) — HTML gerado diariamente
+### config/cover_letter_template.md
+Template com a voz do candidato. Estrutura fixa, conteúdo adaptado por vaga. Tom direto, sem clichês. O LLM preenche conexão com a empresa, fit específico, e motivação genuína baseada no Career Narrative.
