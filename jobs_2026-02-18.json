@@ -1,0 +1,32 @@
+{
+  "fetched_at": "2026-02-18T19:19:02.058554+00:00",
+  "sources": [
+    "remotive",
+    "arbeitnow"
+  ],
+  "total_jobs": 2,
+  "jobs": [
+    {
+      "source": "arbeitnow",
+      "title": "Founding Product Manager",
+      "company": "Cygrid GmbH",
+      "salary": "",
+      "location": "Berlin",
+      "job_type": "Full-time permanent,experienced",
+      "date": 1771424409,
+      "url": "https://www.arbeitnow.com/jobs/companies/cygrid-gmbh/founding-product-manager-berlin-490144",
+      "description": "Berlin • Cybersecurity &amp; AI Startup • Recently Funded A newly funded cybersecurity startup in Berlin is looking for a Product Manager to join as a founding team member and help design the core security, identity, and enforcement foundations of a next-generation AI-powered security risk management platform. We are an early-stage startup founded by experienced cybersecurity leaders with backgrounds in Israeli Intelligence units. We are looking for a hands-on Founding Product Manager for a hybrid role based in central of Berlin. If you are passionate about cybersecurity and AI tech, thrive in fast-paced startup environments, and enjoy building complex platforms from the ground up, this is an opportunity to make a real impact. We’re building a next-generation cyber risk platform that helps enterprises understand, measure, and reduce identity risk at scale. Our goal is to turn complex identity and security data into clear, actionable risk insights that CISOs and CTOs can trust. You will work from scratch on core platform components from day one, shaping how modern enterprises manage and reason about risk using cloud-native systems and AI-driven analysis and automated enforcement through AI Agents. Key Responsibilities Define and build product for new cyber security product from scratch Design end-to-end user journeys across the entire platform, from onboarding to daily usage and advanced workflows Define platform information architecture, navigation, and core UX principles Own"
+    },
+    {
+      "source": "arbeitnow",
+      "title": "Projektleiter F&E / R&D (m/w/d), Technical Product Owner",
+      "company": "Xylem",
+      "salary": "",
+      "location": "Ingolstadt",
+      "job_type": "full_time",
+      "date": 1771414295,
+      "url": "https://www.arbeitnow.com/jobs/companies/xylem/projektleiter-fe-rd-technical-product-owner-ingolstadt-441947",
+      "description": "Der Geschäftsbereich Xylem Analytics Germany ist an vier deutschen Standorten vertreten. Unsere Marken WTW, ebro, SI Analytics und STM haben sich als führende Anbieter von Mess- und Analysengeräten im Bereich der quantitativen und qualitativen Mess-Analytik etabliert. Für diesen Bereich suchen wir ab sofort Unterstützung als Projektleiter F&#x26;E / R&#x26;D (m/w/d), Technical Product Owner am Standort Mainz, Ingolstadt oder Weilheim (Bayern). In dieser Funktion geht es um die Leitung von Entwicklungsprojekten und Vorstudien gemäß den anzuwendenden Entwicklungsprozessen, sowie technische Betreuung der übertragenen Produktlinien über den Lebenszyklus in Zusammenarbeit mit dem Leader Sustaining Engineering. Aufgaben Leiten von interdisziplinären Projektteams bestehend aus F&#x26;E, PM, Einkauf, Supply Chain, QM, CS, Service, AV, Montage, etc. Federführende Erarbeitung der technischen Projekt-/Produktdefinition zusammen mit dem Produktmanager Erarbeitung und Dokumentation der konzeptionellen Lösung der Entwicklungsaufgaben, ggf. Erstellung von Entwicklerpflichtenheften;Termin- und Kostenplanung Technische und prozessuale Betreuung der Mitglieder der F&#x26;E internen und externen Projektteams im internationalen Umfeld Umfangreiches Projektmanagement (Koordination aller Vorgänge, Überwachung des Fortschritts) sowie Reporting, Gegenmaßnahmen bei Planabweichungen, Führen der Projektteams Produkteinführung in Fertigung &#x26; Reparatur, Durchführung von Schulungen Technische Produkt"
+    }
+  ]
+}
