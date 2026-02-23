@@ -1,0 +1,40 @@
+{
+  "fetched_at": "2026-02-22T19:53:51.240477+00:00",
+  "date": "2026-02-22",
+  "config_used": {
+    "roles": [
+      "Product Manager",
+      "Technical Program Manager",
+      "TPM"
+    ],
+    "locations": [
+      "remote LATAM",
+      "remote worldwide",
+      "remote"
+    ],
+    "lookback_hours": 24
+  },
+  "total_jobs": 2,
+  "jobs": [
+    {
+      "title": "Senior Technical Program Manager - Optical Payload Systems",
+      "company": "BLUE ORIGIN",
+      "source": "Invested in the Mission Job Board",
+      "salary": "$145,188-$203,263.2/year",
+      "location": "Remote Worldwide",
+      "url": "https://careers.investedinthemission.org/companies/blue-origin/jobs/67996746-senior-technical-program-manager-optical-payload-systems",
+      "requirements": "Experience in technical program management, leadership skills, and commitment to quality in spaceflight projects.",
+      "date": "4 days ago"
+    },
+    {
+      "title": "Senior Technical Program Manager, Security",
+      "company": "Databricks",
+      "source": "Lux Capital Job Board",
+      "salary": null,
+      "location": "Remote Worldwide",
+      "url": "https://jobs.luxcapital.com/companies/databricks/jobs/40874107-senior-technical-program-manager-security",
+      "requirements": "Experience leading security initiatives in highly technical environments and managing cross-functional teams.",
+      "date": "6+ months ago"
+    }
+  ]
+}

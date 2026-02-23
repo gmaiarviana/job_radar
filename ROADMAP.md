@@ -1,22 +1,8 @@
 # ROADMAP - Job Radar
 
-📡 **Status:** Infraestrutura Base (Scaffolding) concluída. Perfil e stubs configurados. Fetch funcional via OpenAI.
+## 📍 Próximos Passos (Estado Futuro)
 
-> **Filosofia:** POC → Protótipo → MVP. Validar cada etapa antes de avançar.
 
----
-
-## ✅ Concluído
-- **Validação de Fontes:** Definição da stack (OpenAI web search + Claude Haiku).
-- **Scaffolding:** Estrutura de pastas, stubs de código, `profile.md` real.
-- **Épico 1.1:** Perfil condensado em `config/profile.md`.
-- **Épico 1.2:** Prompt de busca (fetch) refinado em `src/fetch.py`.
-- **Épico 1.3:** Script `src/fetch.py` funcional usando `gpt-4o-mini-search-preview`.
-- **Épico 4.1:** Workflow `daily.yml` configurado para GitHub Actions.
-
----
-
-## 📍 Próximos Passos (Plano Detalhado)
 
 ### ÉPICO 1: Fetch + Score (POC) - ⏳ EM PROGRESSO
 
@@ -108,7 +94,13 @@
 - Envia email se alguma vaga tem score ≥ 95.
 - Via Gmail SMTP (App Password).
 
+#### 4.4 Tracking de Custos (PENDENTE)
+- Calcular custo de cada run (OpenAI Search + Claude Haiku).
+- Salvar metadados de custo no JSON de output (`data/scored/`).
+- Exibir resumo de custo no log do GitHub Actions e no app Streamlit.
+
 ---
+
 
 ### ÉPICO 5: Feedback Loop (Melhoria) - ⏳ PENDENTE
 

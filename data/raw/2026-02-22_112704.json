@@ -1,0 +1,29 @@
+{
+  "fetched_at": "2026-02-22T14:27:08.999460+00:00",
+  "date": "2026-02-22",
+  "config_used": {
+    "roles": [
+      "Product Manager",
+      "Technical Program Manager",
+      "TPM"
+    ],
+    "locations": [
+      "remote LATAM",
+      "remote worldwide",
+      "remote"
+    ],
+    "lookback_hours": 24
+  },
+  "total_jobs": 1,
+  "jobs": [
+    {
+      "title": "Senior Product Manager (AI Agents Platform)",
+      "company": "Nextiva",
+      "salary": "$110,000 - $210,000/year",
+      "location": "Remote LATAM",
+      "url": "https://scottsdalecc.uloop.com/jobs/view.php/2663112137/Nextiva-Senior-Product-Manager-AI-Agents-Platform",
+      "requirements": "5+ years in product management for SaaS/software, ideally with AI/ML products; Full lifecycle ownership from concept to launch.",
+      "date": "1h ago"
+    }
+  ]
+}

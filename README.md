@@ -2,16 +2,16 @@
 
 Sistema automatizado de busca, scoring e aplicação a vagas remotas para Product Manager / Technical Program Manager.
 
-## Objetivo
+## 🎯 Objetivo
 
-Encontrar vagas relevantes e aplicar com material personalizado, investindo 5-10 minutos por dia.
+Encontrar vagas altamente relevantes e automatizar a preparação de materiais de aplicação de alta qualidade, reduzindo o esforço manual para 5-10 minutos por dia.
 
-## Jornada do Usuário
+## 🧭 Jornada do Usuário
 
-```
+```text
 Automático (GitHub Actions, seg-sex 6h BRT):
-  1. Busca vagas PM/TPM (Épico 1.2/1.3 - OK)
-  2. Pontua cada vaga contra perfil (Épico 1.5 - Pendente)
+  1. Busca vagas PM/TPM (fetch.py)
+  2. Pontua cada vaga contra perfil (score.py)
   3. Salva resultados no repositório
 
 Manual (Streamlit local, quando quiser):
@@ -23,116 +23,58 @@ Manual (Streamlit local, quando quiser):
   9. Marca "👍 Bom match" ou "👎 Não relevante" para calibrar scoring
 ```
 
-## Arquitetura
+## 📂 Estrutura de Documentação
 
-```
-GitHub Actions (nuvem, automático)         Streamlit (local, sob demanda)
-│                                          │
-├─ fetch.py: OpenAI web_search             │
-│  → busca vagas, salva JSON               │
-├─ score.py: Claude Haiku                  │
-│  → pontua contra perfil, salva JSON      │
-├─ commit no repo ──────── git pull ───────┤
-│                                          ├─ app.py: interface Streamlit
-│                                          ├─ vê vagas pontuadas
-│                                          ├─ clica "Preparar aplicação"
-│                                          ├─ generate.py: Claude Sonnet
-│                                          │  → currículo + cover letter (PDF)
-│                                          ├─ download PDF
-│                                          └─ feedback (salva local)
-```
+Para facilitar o trabalho de agentes de IA:
 
-## Decisões Técnicas
+-   **`README.md`**: (Este arquivo) O que é o projeto e visão geral da jornada.
+-   **[ARCHITECTURE.md](file:///c:/Users/guilh/Desktop/projetos_epso/job_radar/ARCHITECTURE.md)**: Detalhes técnicos, decisões e fluxos internos.
+-   **[ROADMAP.md](file:///c:/Users/guilh/Desktop/projetos_epso/job_radar/ROADMAP.md)**: Planos futuros e próximos épicos técnicos.
+-   **`.agent/`**: Instruções de trabalho e workflows para agentes.
 
-| Decisão | Escolha | Motivo |
-|---------|---------|--------|
-| Busca de vagas | OpenAI gpt-4o-mini + web_search | Melhor cobertura que APIs gratuitas. Navega LinkedIn, Indeed, remote.com, Wellfound |
-| Scoring | Claude Haiku | Barato para análise de texto longo. Consistente no scoring |
-| Geração de materiais | Claude Sonnet | Qualidade de escrita superior para currículo e cover letter |
-| Interface | Streamlit local | Botões funcionais, download integrado, feedback loop. Sem custo de hospedagem |
-| Pipeline | GitHub Actions | Gratuito, roda na nuvem, máquina pode estar desligada |
-| Output | PDF | Aceito pela maioria das plataformas. DOCX e texto puro como melhorias futuras |
-| Feedback | JSON local | Simples. Insumo para recalibrar scoring. Migração para repo planejada |
-| Ambiente | .venv (POC) | Agilidade no desenvolvimento inicial. Docker planejado para o Épico 4 |
+---
 
-## Custo Estimado
+## 📝 Perfil e Materiais Base (Config)
+
+-   **`config/profile.md`**: O cérebro do scoring. Perfil condensado (~800 tokens) extraído da narrativa de carreira.
+-   **`config/resume_base.md`**: Currículo base modular. O sistema seleciona e enfatiza bullets sem inventar dados.
+-   **`config/cover_letter_template.md`**: Template com a "voz" do usuário, preenchido pelo LLM com fit específico por vaga.
+
+## 💰 Custo Estimado
 
 | Componente | Estimativa/mês |
-|------------|---------------|
-| OpenAI web_search (~80 buscas) | ~$1.00 |
-| Claude Haiku scoring (~1k vagas) | ~$1.50 |
-| Claude Sonnet geração (~30 aplicações) | ~$1.50 |
-| GitHub Actions + infra | Gratuito |
-| **Total** | **~$4/mês** |
+| :--- | :--- |
+| OpenAI Search (~80 buscas) | ~$1.00 |
+| Claude Haiku (Scoring) | ~$1.50 |
+| Claude Sonnet (Escrita) | ~$1.50 |
+| **Total** | **~$4.00** |
 
-## Estrutura do Projeto
+---
 
-```
-job-radar/
-├── README.md                    # Este arquivo
-├── ROADMAP.md                   # Épicos e progresso
-├── .env.example                 # Template de API keys
-├── requirements.txt             # Dependências Python
-│
-├── app.py                       # Streamlit — interface principal (Épico 2)
-│
-├── src/
-│   ├── fetch.py                 # Busca vagas (OpenAI web search) — Épico 1.3
-│   ├── score.py                 # Scoring contra perfil (Claude Haiku) — Épico 1.5
-│   ├── generate.py              # Gera currículo + cover letter (Claude Sonnet) — Épico 3.3
-│   └── notify.py                # Email para PERFECT_MATCH — Épico 4.3
-│
-├── config/
-│   ├── career_narrative.md      # Narrativa completa — fonte da verdade (não vai pro LLM)
-│   ├── profile.md               # Perfil condensado (~800 tokens) — usado no scoring
-│   ├── resume_base.md           # Currículo base modular (seções reorganizáveis)
-│   ├── cover_letter_template.md # Template com voz do candidato
-│   └── search.yaml              # Parâmetros de busca (queries, thresholds, pesos)
-│
-├── data/
-│   ├── raw/                     # Vagas brutas (JSON por dia)
-│   │   └── YYYY-MM-DD.json
-│   ├── scored/                  # Vagas pontuadas — score ≥ 80 (JSON por dia)
-│   │   └── YYYY-MM-DD.json
-│   ├── feedback/                # Feedback do usuário — 👍/👎 (JSON, local)
-│   │   └── YYYY-MM-DD.json
-│   └── output/                  # PDFs gerados por vaga
-│       └── YYYY-MM-DD_empresa_titulo/
-│           ├── resume.pdf
-│           └── cover_letter.pdf
-│
-└── .github/
-    └── workflows/
-        └── daily.yml            # GitHub Actions: fetch → score → notify → commit (seg-sex 9h UTC)
-```
-
-## Setup
+## 🛠️ Setup Rápido
 
 ### Pré-requisitos
 - Python 3.11+
-- Conta OpenAI com créditos API
-- Conta Anthropic com créditos API
-- Repositório GitHub (para Actions)
+- API Keys (OpenAI & Anthropic)
+- Repositório Git configurado
 
-### Instalação
+### Instalação (Windows/PowerShell)
 
-```bash
+```powershell
 git clone <repo-url>
 cd job-radar
 python -m venv venv
-source venv/bin/activate
+.\venv\Scripts\Activate.ps1
 pip install -r requirements.txt
 cp .env.example .env
-# Editar .env com API keys
+# Adicione suas API keys no .env
 ```
 
 ### Uso Diário
 
-```bash
-cd job-radar
-source venv/bin/activate
-git pull                    # Baixa vagas do dia (geradas pelo Actions)
-streamlit run app.py        # Abre interface no navegador
+```powershell
+git pull                    # Sincroniza vagas do Actions
+streamlit run app.py        # Revisa e gera materiais
 ```
 
 ### Variáveis de Ambiente
@@ -145,13 +87,5 @@ SMTP_PASS=xxxx-xxxx-xxxx-xxxx
 NOTIFY_EMAIL=seu@gmail.com
 ```
 
-## Perfil e Materiais Base
-
-### config/profile.md
-Perfil condensado usado pelo LLM para scoring. Derivado do Career Narrative. ~800 tokens com critérios eliminatórios (localização, salário, idioma) e preferências (skills, indústria, cultura).
-
-### config/resume_base.md
-Currículo base em Markdown com seções modulares. O LLM reorganiza ênfases e bullets por vaga, sem inventar experiência. Seções: Summary (adaptável), Experience (bullets selecionáveis), Skills (modulares por tipo de vaga), Education & Certifications.
-
-### config/cover_letter_template.md
-Template com a voz do candidato. Estrutura fixa, conteúdo adaptado por vaga. Tom direto, sem clichês. O LLM preenche conexão com a empresa, fit específico, e motivação genuína baseada no Career Narrative.
+---
+*Para detalhes técnicos de infraestrutura e decisões de design, veja [ARCHITECTURE.md](file:///c:/Users/guilh/Desktop/projetos_epso/job_radar/ARCHITECTURE.md).*

@@ -1,0 +1,70 @@
+{
+  "fetched_at": "2026-02-22T19:57:24.384103+00:00",
+  "date": "2026-02-22",
+  "config_used": {
+    "roles": [
+      "Product Manager",
+      "Technical Program Manager",
+      "TPM"
+    ],
+    "locations": [
+      "remote LATAM",
+      "remote worldwide",
+      "remote"
+    ],
+    "lookback_hours": 24
+  },
+  "total_jobs": 5,
+  "jobs": [
+    {
+      "title": "Technical Program Manager",
+      "company": "Planet",
+      "source": "Página de Carreira",
+      "salary": null,
+      "location": "Remote LATAM",
+      "url": "https://job-boards.greenhouse.io/planetlabs/jobs/7542179",
+      "requirements": "Experiência em desenvolvimento de software ou gerenciamento de programas em áreas como SaaS, desenvolvimento de plataformas, APIs, Analytics ou UX. Habilidade em liderar projetos multifuncionais em uma organização ampla.",
+      "date": "5 days ago"
+    },
+    {
+      "title": "Senior Technical Program Manager, Infrastructure",
+      "company": "Planet",
+      "source": "Página de Carreira",
+      "salary": "$153,000—$191,300 USD",
+      "location": "Remote LATAM",
+      "url": "https://job-boards.greenhouse.io/planetlabs/jobs/7555017",
+      "requirements": "Experiência em desenvolvimento de software ou gerenciamento de programas em áreas como SaaS, desenvolvimento de plataformas, APIs, Analytics ou UX. Habilidade em liderar projetos multifuncionais em uma organização ampla.",
+      "date": "6 days ago"
+    },
+    {
+      "title": "Worldwide Partner Program Manager, Services",
+      "company": "Palo Alto Networks",
+      "source": "Página de Carreira",
+      "salary": "$99,000 - $160,500 USD",
+      "location": "Remote LATAM",
+      "url": "https://remotive.com/remote/jobs/project-management/worldwide-partner-program-manager-services-3736405",
+      "requirements": "Experiência em gerenciamento de programas de serviços para parceiros, desenvolvimento de processos e sistemas, e identificação de dependências no ecossistema de parceiros.",
+      "date": "1 week ago"
+    },
+    {
+      "title": "Sr. Manager, Technical Writing & Documentation",
+      "company": "Twilio",
+      "source": "Página de Carreira",
+      "salary": null,
+      "location": "Remote LATAM",
+      "url": "https://startup.jobs/sr-manager-technical-writing-documentation-twilio-4702211",
+      "requirements": "Liderar uma equipe de redatores técnicos para capacitar clientes e desenvolvedores a aproveitar as plataformas de CDP e marketing da Twilio.",
+      "date": "today"
+    },
+    {
+      "title": "Senior Security Program Manager",
+      "company": "Keyrock",
+      "source": "Página de Carreira",
+      "salary": "Competitive Salary",
+      "location": "Remote LATAM",
+      "url": "https://network.bondex.app/job/8566894",
+      "requirements": "Liderar as principais iniciativas de segurança da Keyrock, garantindo execução eficaz em um ambiente de negociação dinâmico.",
+      "date": "last week"
+    }
+  ]
+}

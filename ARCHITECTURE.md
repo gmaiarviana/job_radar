@@ -1,28 +1,81 @@
 # Arquitetura - Job Radar
 
-Este documento descreve o design técnico e a organização do sistema.
+Este documento descreve o design técnico, a organização do sistema e as decisões arquiteturais. Serve como a fonte da verdade para o estado atual do projeto.
 
 ## 🏗️ Visão Geral
 
 O sistema é dividido em um pipeline de dados (nuvem/Actions) e uma interface de consumo (local/Streamlit).
 
-### Fluxo de Dados
-1. **Fetch:** Busca vagas via OpenAI Search (`src/fetch.py`).
-2. **Score:** Pontua vagas contra o perfil (`src/score.py`).
-3. **Notify:** Alerta sobre matches perfeitos (`src/notify.py`).
-4. **App:** Interface para revisão e geração de materiais (`app.py`).
-5. **Generate:** Cria currículos/cover letters personalizados (`src/generate.py`).
+### Mapa do Sistema
 
-### Organização de Diretórios
-- `config/`: Fontes de verdade (Perfil, Narrativa, Templates).
-- `src/`: Lógica principal do pipeline e ferramentas.
-- `data/`: Três camadas de dados (`raw`, `scored`, `feedback`) + `output` de PDFs.
-- `.github/workflows/`: Automação e cronogramas.
+```mermaid
+graph TD
+    A[GitHub Actions - Cloud] -->|Cron/Manual| B[fetch.py - OpenAI Web Search]
+    B -->|raw JSON| C[score.py - Claude Haiku]
+    C -->|scored JSON| D[git commit/push]
+    
+    E[Streamlit - Local] -->|git pull| D
+    E -->|Visualiza| F[app.py]
+    F -->|Clique: Preparar| G[generate.py - Claude Sonnet]
+    G -->|PDFs| H[data/output/]
+    F -->|Feedback| I[data/feedback/ JSON]
+```
 
-### Decisões Técnicas
-- **Storage:** JSON local e controle de versão (Git) para persistência simples.
-- **LLMs:** Multi-model pipeline (GPT-4o para busca, Claude Haiku para score, Claude Sonnet para escrita).
-- **Interface:** Streamlit para prototipagem rápida e funcionalidade local.
+### Componentes e Responsabilidades
+
+| Componente | Script | Modelo/Motor | Papel |
+| :--- | :--- | :--- | :--- |
+| **Search** | `src/fetch.py` | GPT-4o-mini + Search | Navega em LinkedIn, Indeed, etc., para buscar vagas brutas. |
+| **Score** | `src/score.py` | Claude Haiku | Avalia vagas contra o `config/profile.md` (Custo-benefício). |
+| **Interface** | `app.py` | Streamlit | UI para revisão, feedback e acionamento de geração. |
+| **Writer** | `src/generate.py`| Claude Sonnet | Redação de alta qualidade para CV e Cover Letter. |
+| **Notifier** | `src/notify.py` | SMTP | Alertas imediatos para `PERFECT_MATCH` (score > 95). |
+
+### Decisões Técnicas (Rationale)
+
+| Decisão | Escolha | Motivo |
+| :--- | :--- | :--- |
+| **Busca de vagas** | OpenAI GPT-4o-mini + Search | Melhor custo/cobertura. Navega em LinkedIn, Indeed, etc. |
+| **Scoring** | Claude Haiku | Rápido e barato para análise de texto longo. |
+| **Geração de materiais** | Claude Sonnet | Escrita superior e tom profissional. |
+| **Interface** | Streamlit Local | Agilidade no desenvolvimento e custo zero de hospedagem. |
+| **Pipeline** | GitHub Actions | Gratuito, automatizado e confiável (nuvem). |
+| **Persistência** | JSON (Data-as-Code) | Simplicidade; controle de versão serve como banco de dados. |
 
 ---
-**Última atualização:** 22 de Fevereiro de 2026
+
+## 📂 Estrutura do Projeto
+
+```text
+job-radar/
+├── app.py                       # Interface Streamlit principal
+├── src/
+│   ├── fetch.py                 # Core: Busca via OpenAI Search
+│   ├── score.py                 # Core: Scoring via Claude Haiku
+│   ├── generate.py              # Core: Writer via Claude Sonnet
+│   └── notify.py                # Utilitário: Alertas SMTP
+├── config/
+│   ├── career_narrative.md      # Fonte de verdade da carreira
+│   ├── profile.md               # Perfil condensado para LLMs
+│   ├── resume_base.md           # Templates modulares de currículo
+│   └── search.yaml              # Parâmetros de busca e pesos
+├── data/
+│   ├── raw/                     # JSONs brutos do dia
+│   ├── scored/                  # JSONs filtrados (score ≥ 80)
+│   ├── feedback/                # Feedback 👍/👎 (local)
+│   └── output/                  # PDFs gerados
+└── .github/workflows/
+    └── daily.yml                # Pipeline de automação (Cron)
+```
+
+## ⚙️ Infraestrutura e Ambiente
+
+- **Linguagem**: Python 3.11+
+- **APIs**: OpenAI (Search Preview), Anthropic (Claude).
+- **Ambiente**: Produção simulada via GitHub Actions; Consumo via Streamlit local.
+- **Segurança**: Chaves de API via `.env` (local) e Secrets (GitHub).
+
+---
+**Última atualização:** Fevereiro de 2026
+
+
