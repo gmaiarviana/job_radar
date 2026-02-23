@@ -129,4 +129,5 @@
 ## ✅ CONCLUÍDO RECENTEMENTE
 
 - **Garantia de Não-Sobrescrita (Timestamps)**: Implementação de timestamps em arquivos `data/scored/` e atualização de dependentes (`score`, `generate`, `notify`) para suportar múltiplas execuções manuais. (23 Fev 2026)
+- **Filtro de Localização e Refinamento de Prompt**: Implementação de filtro hard de localização antes do LLM e refinamento do system prompt para maior rigor em senioridade e local. (23 Fev 2026)
 - **Sistema de Protocolos e Closure**: Implementação da Constituição, Mapa de Decisões e Workflow `/finish` para garantir integridade e não-duplicação. (23 Fev 2026)

@@ -9,6 +9,50 @@ from anthropic import Anthropic
 # Carrega variáveis do arquivo .env
 load_dotenv()
 
+def apply_location_filter(jobs):
+    """
+    Filtra vagas com base na localização.
+    Retorna (vagas_para_score, vagas_filtradas)
+    """
+    # Critérios de descarte
+    negative_patterns = ["Remote USA", "US only", "EU only", "Europe only"]
+    # Exceções (se contiver isso, não descarta)
+    exclusion_patterns = ["LATAM", "Worldwide"]
+    
+    to_score = []
+    filtered = []
+    
+    for job in jobs:
+        location = job.get("location", "")
+        if not location:
+            to_score.append(job)
+            continue
+            
+        location_lower = location.lower()
+        should_filter = False
+        
+        # Verifica se algum padrão negativo aparece
+        for pattern in negative_patterns:
+            if pattern.lower() in location_lower:
+                should_filter = True
+                break
+        
+        # Se for filtrar, verifica se há exceção salvadora (ex: Worldwide no mesmo campo)
+        if should_filter:
+            for pattern in exclusion_patterns:
+                if pattern.lower() in location_lower:
+                    should_filter = False
+                    break
+        
+        if should_filter:
+            job_copy = job.copy()
+            job_copy["filter_reason"] = "location"
+            filtered.append(job_copy)
+        else:
+            to_score.append(job)
+            
+    return to_score, filtered
+
 def load_profile(profile_path):
     path = Path(profile_path)
     if not path.exists():
@@ -29,23 +73,35 @@ Sua tarefa é avaliar vagas de emprego para um candidato específico com base no
 # PERFIL DO CANDIDATO
 {profile_content}
 
-# INSTRUÇÕES DE SCORING
-Avali cada vaga em uma escala de 0 a 100 baseada nos seguintes pesos:
-1. **Localização (ELIMINATÓRIO):** Se não for 'Remote LATAM' ou 'Remote Worldwide', score = 0.
-2. **Nível (ELIMINATÓRIO):** Se for Junior, Pleno sem senioridade ou Estágio, score = 0.
-3. **Salário (PESO ALTO):** Alvo >= $5.500 USD/mês. Penalize se for menor ou se não estiver listado.
-4. **Fit de Cargo (PESO ALTO):** PM, TPM ou Híbrido.
-5. **Idioma:** Inglês é o idioma alvo para o mercado internacional.
+# INSTRUÇÕES DE SCORING (RIGOROSAS)
+Avali cada vaga em uma escala de 0 a 100. Seja extremamente rigoroso.
+
+1. **Localização (ELIMINATÓRIO):** 
+   - Se a vaga for EXCLUSIVA para USA, Europa (EU), ou qualquer região que NÃO seja LATAM ou Worldwide, o score DEVE ser 0.
+   - 'Remote' sem especificar LATAM ou Worldwide deve ser tratado com cautela (penalize se houver indícios de restrição geográfica).
+   - Apenas 'Remote LATAM' ou 'Remote Worldwide' podem receber score alto.
+
+2. **Nível (ELIMINATÓRIO):** 
+   - Se a vaga for Junior, Pleno sem senioridade (Mid-level), ou Estágio, o score DEVE ser 0.
+   - Buscamos Senior, Staff, Principal ou Lead.
+
+3. **Salário (PESO ALTO):** 
+   - Alvo >= $5.500 USD/mês (~$66k USD/year). 
+   - Se o salário estiver abaixo ou não estiver listado, penalize o score substancialmente.
+
+4. **Fit de Cargo (PESO ALTO):** 
+   - Foco em PM, TPM ou Híbrido. 
+   - Vagas puramente técnicas (SWE, EM) ou de marketing puro devem ter score 0.
 
 # FORMATO DE SAÍDA (JSON)
 Retorne APENAS um objeto JSON com a chave "scored_jobs", que é uma lista de objetos:
 - "title": (string) o título original da vaga
 - "score": (int) 0-100
-- "justification": (string) uma única linha explicando o score
+- "justification": (string) uma única linha explicando o score, começando pelo motivo principal.
 - "perfect_match": (boolean) true se score >= 95
 - "url": (string) o link original da vaga
 
-Seja rigoroso. Apenas vagas realmente alinhadas devem ter score > 80.
+CRITICAL: Se a vaga falhar em QUALQUER critério eliminatório, o score DEVE ser 0. Não dê scores intermediários (ex: 50) para vagas que deveriam ser descartadas.
     """
 
     user_content = "Avalie as seguintes vagas:\n" + json.dumps(jobs, indent=2, ensure_ascii=False)
@@ -116,7 +172,20 @@ def main():
         client = Anthropic(api_key=api_key)
         profile = load_profile("config/profile.md")
         
-        scored_jobs = score_jobs(client, jobs, profile)
+        # Filtro de Localização (Hard Filter) antes do LLM
+        jobs_to_score, filtered_jobs = apply_location_filter(jobs)
+        
+        if filtered_jobs:
+            print(f"[score.py] ℹ️ Vagas filtradas por localização: {len(filtered_jobs)}")
+            for f_job in filtered_jobs:
+                print(f"   - Ignorada: {f_job.get('title')} ({f_job.get('location')})")
+
+        if not jobs_to_score:
+            print("[score.py] ⚠️ Nenhuma vaga restou após o filtro de localização.")
+            scored_jobs = []
+        else:
+            print(f"[score.py] -> Enviando {len(jobs_to_score)} vagas para o Claude...")
+            scored_jobs = score_jobs(client, jobs_to_score, profile)
         
         # Filtra apenas o topo ou as relevantes (estamos salvando todas mas marcando score)
         # O ROADMAP pede top vagas, score >= 80 no JSON final
@@ -126,11 +195,15 @@ def main():
         # mas para o MVP/POC, a estrutura do prompt já pede o básico.
         
         output_data = {
-            "scored_at": date.today().isoformat(),
+            "scored_at": datetime.now().isoformat(),
             "source_file": raw_path.name,
-            "total_scored": len(scored_jobs),
-            "total_top": len(top_jobs),
-            "jobs": top_jobs
+            "summary": {
+                "total_raw": len(jobs),
+                "total_filtered": len(filtered_jobs),
+                "total_top": len(top_jobs)
+            },
+            "jobs": top_jobs,
+            "filtered_jobs": filtered_jobs
         }
 
         scored_path.write_text(json.dumps(output_data, indent=2, ensure_ascii=False), encoding="utf-8")

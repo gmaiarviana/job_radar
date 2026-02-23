@@ -76,6 +76,6 @@ job-radar/
 - **Segurança**: Chaves de API via `.env` (local) e Secrets (GitHub).
 
 ---
-**Última atualização:** Fevereiro de 2026
+**Última atualização:** 23 de Fevereiro de 2026
 
 
