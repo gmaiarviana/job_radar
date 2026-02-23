@@ -11,9 +11,9 @@ description: how to commit and push changes on this project (Windows PowerShell)
 git status
 ```
 
-2. Stage all changes:
+2. Stage only relevant changes:
 ```powershell
-git add .
+git add <file1> <file2> ...
 ```
 
 3. Commit with a descriptive message:

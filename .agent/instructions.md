@@ -1,36 +1,22 @@
 # Project Instructions — Job Radar
 
-This file contains specific rules, patterns, and optimizations discovered during the development of the Job Radar project.
+Este é o ponto de entrada para agentes de IA que trabalham neste projeto. Siga rigorosamente a estrutura modular de protocolos.
 
-## 1. Documentation Responsibilities
-To maintain context for AI agents and human collaborators:
-- **`README.md`**: High-level "what" and "why". Project explanation, user journey, and setup.
-- **`ARCHITECTURE.md`**: Technical "how" (current state). Modules, data flow, tech stack, and rationale.
-- **`ROADMAP.md`**: Technical "future" (state to be reached). Detailed implementation plans for upcoming work.
-- **`.agent/`**: Execution instructions and workflows.
+## 1. PROTOCOLOS FUNDAMENTAIS
+Consulte estes arquivos antes de iniciar qualquer trabalho:
+- **[CONSTITUTION.md](file:///c:/Users/guilh/Desktop/projetos_epso/job_radar/.agent/CONSTITUTION.md)**: Papéis (Claude Web vs Antigravity) e Princípio de Não-Duplicação.
+- **[decision_map.md](file:///c:/Users/guilh/Desktop/projetos_epso/job_radar/.agent/decision_map.md)**: Onde encontrar cada informação (Single Source of Truth).
+- **[closure_protocol.md](file:///c:/Users/guilh/Desktop/projetos_epso/job_radar/.agent/closure_protocol.md)**: Checklist obrigatório para finalização de tarefas.
 
-## 2. Process & Lifecycle
-- **Roadmap Sync (MANDATORY)**: Update `ROADMAP.md` at the end of EVERY implementation task. Keep future plans detailed as they serve as technical guides for the next steps.
-- **Cleanup**: Check for root directory clutter after each feature. Scripts go to `src/`, data to `data/`.
-- **Commit**: Stage and push changes with descriptive messages after verifying functionality.
+## 2. REGRAS GERAIS DE EXECUÇÃO
+- **Ambiente**: Windows PowerShell. Use `;` para encadear comandos.
+- **Python**: Use sempre `python` com o ambiente virtual ativo (`.\venv\Scripts\Activate.ps1`).
+- **Commits**: Sempre realize um commit ao finalizar uma funcionalidade, seguindo o protocolo de fechamento.
 
-## 3. Environment & Shell
-- **OS**: Windows
-- **Shell**: PowerShell (use chain commands with `;`, not `&&`).
-- **Python**: Use `python` and ensure `venv` is active (`.\venv\Scripts\Activate.ps1`).
+## 3. WORKFLOWS (Slash Commands)
+- `/commit`: Atalho para adicionar, commitar e dar push.
+- `/verify`: Verifica integridade dos stubs e diretórios.
+- `/finish`: Executa o protocolo de fechamento completo (Limpeza + Docs + Sync).
 
-## 4. Git & Data Flow
-- **Pattern**: Data-as-code.
-- **Gitignore Rules**:
-    - ✅ **Allowed**: `data/raw/*.json` and `data/scored/*.json`.
-    - 🚫 **Ignored**: `data/feedback/`, `data/output/`, and root level `.json`.
-
-## 5. Career Data & LLMs
-- **Source of Truth**: `config/career_narrative.md`.
-- **LLM Context**: `config/profile.md` (~800 tokens).
-- **Tone**: Professional, direct, no clichês.
-- **Model Choice**: 
-    - Fetch: OpenAI (search preview).
-    - Score: Claude Haiku (cost/vloume).
-    - Generate: Claude Sonnet (writing quality).
-
+---
+*Para uma visão geral do projeto, veja o [README.md](file:///c:/Users/guilh/Desktop/projetos_epso/job_radar/README.md). Para detalhes técnicos, veja o [ARCHITECTURE.md](file:///c:/Users/guilh/Desktop/projetos_epso/job_radar/ARCHITECTURE.md).*

@@ -126,4 +126,6 @@
 
 ---
 
-**Última atualização:** 23 Fev 2026
+## ✅ CONCLUÍDO RECENTEMENTE
+
+- **Sistema de Protocolos e Closure**: Implementação da Constituição, Mapa de Decisões e Workflow `/finish` para garantir integridade e não-duplicação. (23 Fev 2026)
