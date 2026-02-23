@@ -1,0 +1,60 @@
+{
+  "scored_at": "2026-02-23",
+  "source_file": "2026-02-22_170103.json",
+  "total_scored": 5,
+  "total_top": 4,
+  "jobs": [
+    {
+      "title": "Technical Program Manager",
+      "company": "Planet",
+      "source": "Página de Carreira",
+      "salary": null,
+      "location": "Remote LATAM",
+      "url": "https://job-boards.greenhouse.io/planetlabs/jobs/7542179",
+      "requirements": "Experiência em desenvolvimento de software ou gerenciamento de programas em áreas como SaaS, desenvolvimento de plataformas, APIs, Analytics ou UX. Habilidade em liderar projetos multifuncionais em uma organização ampla.",
+      "date": "5 days ago",
+      "score": 90,
+      "justification": "Vaga alinhada com o perfil do candidato, sendo uma posição de Technical Program Manager com localização remota na LATAM. Salário não informado, mas a descrição da vaga parece se adequar bem às habilidades do candidato.",
+      "perfect_match": true
+    },
+    {
+      "title": "Senior Technical Program Manager, Infrastructure",
+      "company": "Planet",
+      "source": "Página de Carreira",
+      "salary": "$162,600 - $203,200 USD",
+      "location": "Remote LATAM",
+      "url": "https://job-boards.greenhouse.io/planetlabs/jobs/7555017",
+      "requirements": "Experiência em desenvolvimento de software ou gerenciamento de programas em áreas como SaaS, desenvolvimento de plataformas, APIs, Analytics ou UX. Habilidade em liderar projetos multifuncionais em uma organização ampla.",
+      "date": "6 days ago",
+      "score": 95,
+      "justification": "Vaga alinhada com o perfil do candidato, sendo uma posição de Senior Technical Program Manager com localização remota na LATAM e faixa salarial adequada.",
+      "perfect_match": true
+    },
+    {
+      "title": "Sr. Program Manager II, Eng - UI Foundations (Remote)",
+      "company": "CrowdStrike",
+      "source": "Página de Carreira",
+      "salary": "$160,000 - $250,000 USD",
+      "location": "Remote LATAM",
+      "url": "https://designproject.io/jobs/jobs/sr-program-manager-ii-eng-ui-foundations-remote-at-crowdstrike-t8lblq",
+      "requirements": "Experiência em planejamento estratégico, escopo e execução de projetos de engenharia complexos dentro do grupo de produtos UI Foundations, focando na melhoria da experiência do usuário.",
+      "date": "4 months ago",
+      "score": 85,
+      "justification": "Vaga alinhada com o perfil do candidato, sendo uma posição de Program Manager com foco técnico e localização remota na LATAM. Faixa salarial adequada.",
+      "perfect_match": false
+    },
+    {
+      "title": "Technical Program Manager (remote)",
+      "company": "Jobgether",
+      "source": "Página de Carreira",
+      "salary": null,
+      "location": "Remote LATAM",
+      "url": "https://www.tealhq.com/job/technical-program-manager_7ea1a545ed9619549eb426b7cafd2c6db6b01",
+      "requirements": "Liderar equipes multifuncionais para impulsionar a entrega bem-sucedida de serviços gráficos e de jogos baseados em nuvem, gerenciando programas técnicos complexos que abrangem infraestrutura e integrações com parceiros.",
+      "date": "today",
+      "score": 85,
+      "justification": "Vaga alinhada com o perfil do candidato, sendo uma posição de Technical Program Manager com localização remota na LATAM. Salário não informado, mas a descrição da vaga parece se adequar bem às habilidades do candidato.",
+      "perfect_match": false
+    }
+  ]
+}

@@ -10,13 +10,13 @@
 
 **Critério de sucesso:** Rodar 3 dias consecutivos. Scoring com concordância ≥ 80% vs avaliação manual.
 
-#### 1.4 Prompt de scoring (PENDENTE)
+#### 1.4 Prompt de scoring - ✅ CONCLUÍDO
 - System prompt com perfil + critérios de scoring.
 - Input: vagas do fetch.
 - Output por vaga: score 0-100, justificativa (1 linha), flag PERFECT_MATCH.
 - Pesos explícitos: localização (eliminatório), salário (≥ $5k USD), fit de responsabilidades, red flags.
 
-#### 1.5 Script score.py (PENDENTE - STUB)
+#### 1.5 Script score.py - ✅ CONCLUÍDO
 - Lê `data/raw/YYYY-MM-DD.json`.
 - Chama Claude Haiku com batch de vagas.
 - Salva em `data/scored/YYYY-MM-DD.json` (top vagas, score ≥ 80).
@@ -126,4 +126,4 @@
 
 ---
 
-**Última atualização:** 22 Fev 2026
+**Última atualização:** 23 Fev 2026
