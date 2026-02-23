@@ -116,8 +116,19 @@
 
 ---
 
+### ÉPICO 6: Expansão de Fontes (Planejado)
+**Objetivo:** Reduzir dependência exclusiva do OpenAI Search e aumentar volume de vagas relevantes.
+- [ ] Integração com Himalayas API.
+- [ ] Integração com We Work Remotely RSS feed.
+- [ ] Agregação cross-fonte no `fetch.py`.
+
+### ÉPICO 7: Expansão de Busca (Planejado)
+**Objetivo:** Cobrir mais variações de cargos no `search.yaml`.
+- [ ] Adicionar títulos: Senior PM, AI Product Manager, Product Analyst, Strategy & Operations, Delivery Manager, Program Manager.
+
+---
+
 ## 💡 Ideias Futuras
-- **Deduplicação cross-dia:** Detectar mesma vaga em dias diferentes.
 - **DOCX e texto puro:** Formatos alternativos de saída.
 - **Cover letter por plataforma:** Adaptar para formulários específicos.
 - **Tracking de aplicações:** Status (aplicado → entrevista → oferta → rejeitado).
@@ -128,6 +139,8 @@
 
 ## ✅ CONCLUÍDO RECENTEMENTE
 
+- **Melhorias no Fetch (v1.5.1)**: Correção da deduplicação em lote no `fetch.py` com adição de logs explícitos e tracking separado para remoções locais/remotas. (23 Fev 2026)
+- **Melhorias no Fetch (v1.5)**: Extração literal de localização do JD, deduplicação cross-dia (7 dias) e filtro de vagas antigas (> 14 dias). (23 Fev 2026)
 - **Garantia de Não-Sobrescrita (Timestamps)**: Implementação de timestamps em arquivos `data/scored/` e atualização de dependentes (`score`, `generate`, `notify`) para suportar múltiplas execuções manuais. (23 Fev 2026)
-- **Filtro de Localização e Refinamento de Prompt**: Implementação de filtro hard de localização antes do LLM e refinamento do system prompt para maior rigor em senioridade e local. (23 Fev 2026)
+- **Filtro de Localização e Refinamento de Prompt**: Implementação de filtro hard de localização antes do LLM (no `score.py`) e refinamento do system prompt para maior rigor em senioridade e local. (23 Fev 2026)
 - **Sistema de Protocolos e Closure**: Implementação da Constituição, Mapa de Decisões e Workflow `/finish` para garantir integridade e não-duplicação. (23 Fev 2026)

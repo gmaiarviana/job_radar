@@ -34,10 +34,10 @@ def run_openai_search(client, roles, locations, lookback_hours):
     roles_str = ", ".join(roles)
     locs_str = ", ".join(locations)
     
-    # Prompt de busca refinado (v4) - Equilíbrio entre Cobertura e Qualidade
+    # Prompt de busca refinado (v5) - Foco em Localização Literal e Confiança
     prompt = f"""
     Busque de 5 a 10 vagas de emprego REAIS para os cargos solicitados. 
-    FOCO: Vagas publicadas recentemente (últimos 7 dias).
+    FOCO: Vagas publicadas recentemente (últimos 14 dias).
     
     CRITÉRIOS DE BUSCA:
     - Cargos: {roles_str}
@@ -47,14 +47,18 @@ def run_openai_search(client, roles, locations, lookback_hours):
     1. FONTE E LINK: Para cada vaga, forneça a 'source' (ex: LinkedIn, Greenhouse, Site da Empresa) e o link direto.
     2. PRIORIDADE DE LINK: Dê preferência absoluta para links de sistemas de rastreamento de candidatos (ATS) como greenhouse.io, lever.co, workday.com ou o portal de carreiras oficial da empresa.
     3. EVITE TERCEIROS: Não inclua vagas de sites agregadores suspeitos ou links que pareçam quebrados/antigos.
-    4. RECÊNCIA: Priorize o que foi postado há menos de 72 horas.
+    4. RECÊNCIA: Priorize o que foi postado recentemente.
+    5. EXTRAÇÃO DE LOCALIZAÇÃO (CRÍTICO): Extraia a localização EXATAMENTE como descrita no JD. 
+       Use frases literais se encontradas (ex: "based in EMEA", "United States only", "open to LATAM", "Remote Worldwide").
+       NÃO INFERA localização pelo contexto da busca. Se o JD diz "United States", coloque "United States", mesmo que a busca tenha sido por "Remote Worldwide".
 
     REGRAS DE OUTPUT (JSON):
     - "title": Título da vaga
     - "company": Empresa
     - "source": Onde a vaga foi encontrada (ex: 'LinkedIn', 'Página de Carreira')
     - "salary": Faixa salarial se mencionada (adicione valor MENSAL se possível ou anual), caso contrário null
-    - "location": Localização (ex: 'Remote LATAM')
+    - "location": Localização literal do JD (ex: 'EMEA only', 'United States')
+    - "location_confidence": "high" se a localização está explícita no JD, "low" se for ambígua ou ausente.
     - "url": Link DIRETAMENTE para a candidatura ou postagem oficial
     - "requirements": Resumo de 1-2 sentenças
     - "date": Tempo desde a publicação (ex: '2 days ago')
@@ -88,6 +92,111 @@ def run_openai_search(client, roles, locations, lookback_hours):
     except Exception as e:
         print(f"[fetch.py] ✗ Erro na chamada OpenAI: {e}")
         return []
+        
+def remove_duplicates(new_jobs, raw_dir):
+    """
+    Remove vagas que já foram salvas nos últimos 7 dias.
+    Uma vaga é duplicata se (título + empresa) já existem.
+    """
+    recent_keys = set()
+    today = date.today()
+    
+    # Busca arquivos dos últimos 7 dias
+    for i in range(8):  # 0 a 7 dias atrás
+        d = today.replace(day=today.day - i) if today.day > i else today # Simplificado para o exemplo, mas vamos usar algo mais robusto
+        # Melhor: listar todos os arquivos em raw_dir e filtrar por data no nome
+        pass
+
+    # Implementação robusta: lista todos os arquivos e filtra os recentes
+    try:
+        files = list(raw_dir.glob("*.json"))
+        for f in files:
+            # O nome do arquivo começa com YYYY-MM-DD
+            try:
+                file_date_str = f.name.split('_')[0]
+                file_date = datetime.strptime(file_date_str, "%Y-%m-%d").date()
+                days_diff = (today - file_date).days
+                if 0 <= days_diff <= 7:
+                    with open(f, "r", encoding="utf-8") as file:
+                        data = json.load(file)
+                        for job in data.get("jobs", []):
+                            key = (job.get("title", "").strip().lower(), 
+                                   job.get("company", "").strip().lower())
+                            recent_keys.add(key)
+            except (ValueError, IndexError):
+                continue
+    except Exception as e:
+        print(f"[fetch.py] ! Aviso ao ler duplicatas: {e}")
+
+    filtered_jobs = []
+    removed_recent = 0
+    removed_batch = 0
+    seen_in_batch = set()
+    
+    for job in new_jobs:
+        # Case-insensitive key for comparison
+        title = str(job.get("title", "") or "").strip().lower()
+        company = str(job.get("company", "") or "").strip().lower()
+        key = (title, company)
+        
+        if key in recent_keys:
+            removed_recent += 1
+            continue
+            
+        if key in seen_in_batch:
+            removed_batch += 1
+            continue
+            
+        # If not seen before, add to batch and filtered list
+        filtered_jobs.append(job)
+        seen_in_batch.add(key)
+    
+    # Logging as requested
+    if removed_recent > 0:
+        print(f"[fetch.py] 🧹 Removidas {removed_recent} vagas duplicatas já existentes (últimos 7 dias).")
+    if removed_batch > 0:
+        print(f"[fetch.py] 🧹 Removidas {removed_batch} duplicatas no mesmo lote.")
+    
+    return filtered_jobs
+
+def filter_old_jobs(jobs):
+    """
+    Descarta vagas com mais de 14 dias com base no campo 'date'.
+    Ex: '3 weeks ago', '1 month ago'.
+    """
+    filtered_jobs = []
+    discarded_count = 0
+    
+    # Padrões que indicam mais de 14 dias
+    old_patterns = ["week ago", "weeks ago", "month", "months"] # '1 week ago' pode ser 7 dias, mas '2 weeks' é 14. 
+    # Sendo conservador: '3 weeks', 'month', 'months' definitivamente > 14 dias.
+    # '2 weeks ago' pode ser exatamente 14 dias. O pedido diz "mais de 14 dias".
+    
+    critical_patterns = ["3 weeks", "4 weeks", "month", "months"]
+
+    for job in jobs:
+        date_str = job.get("date", "").lower()
+        is_old = False
+        
+        # Lógica simples de busca de texto
+        for p in critical_patterns:
+            if p in date_str:
+                is_old = True
+                break
+        
+        # '2 weeks ago' -> depende se é mais de 14 dias. Geralmente 14 dias é o limite.
+        if "2 weeks ago" in date_str:
+            is_old = True # 14 dias ou mais
+            
+        if is_old:
+            discarded_count += 1
+        else:
+            filtered_jobs.append(job)
+            
+    if discarded_count > 0:
+        print(f"[fetch.py] ⏳ Descartadas {discarded_count} vagas antigas (> 14 dias).")
+        
+    return filtered_jobs
 
 def main():
     parser = argparse.ArgumentParser(description="Busca vagas via OpenAI web search")
@@ -135,6 +244,11 @@ def main():
 
         print(f"[fetch.py] 🚀 Buscando vagas para {args.date}...")
         jobs = run_openai_search(client, roles, locations, lookback_hours)
+
+    # Filter and Deduplicate
+    if jobs:
+        jobs = filter_old_jobs(jobs)
+        jobs = remove_duplicates(jobs, output_dir)
 
     # Save results
     output_data = {
