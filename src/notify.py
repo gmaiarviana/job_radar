@@ -24,12 +24,17 @@ def main():
     parser.add_argument("--date", default=str(date.today()), help="Data no formato YYYY-MM-DD")
     args = parser.parse_args()
 
-    scored_path = Path("data/scored") / f"{args.date}.json"
-    if not scored_path.exists():
-        print(f"[notify.py] Nenhum scored JSON encontrado para {args.date}")
+    scored_dir = Path("data/scored")
+    scored_files = sorted(scored_dir.glob(f"{args.date}*.json"), reverse=True)
+
+    if not scored_files:
+        print(f"[notify.py] Nenhum arquivo scored encontrado para a data: {args.date}")
         return
 
-    jobs = json.loads(scored_path.read_text(encoding="utf-8"))
+    scored_path = scored_files[0]
+
+    data = json.loads(scored_path.read_text(encoding="utf-8"))
+    jobs = data.get("jobs", [])
     perfect_matches = [j for j in jobs if j.get("score", 0) >= PERFECT_MATCH_THRESHOLD]
 
     if not perfect_matches:

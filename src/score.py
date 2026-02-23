@@ -1,7 +1,7 @@
 import os
 import json
 import argparse
-from datetime import date
+from datetime import date, datetime
 from pathlib import Path
 from dotenv import load_dotenv
 from anthropic import Anthropic
@@ -91,7 +91,11 @@ def main():
         return
 
     raw_path = raw_files[0]
-    scored_path = Path("data/scored") / f"{args.date}.json"
+    
+    # Adicionando timestamp para evitar sobrescrita
+    timestamp = datetime.now().strftime("%H%M%S")
+    scored_filename = f"{args.date}_{timestamp}.json"
+    scored_path = Path("data/scored") / scored_filename
     scored_path.parent.mkdir(parents=True, exist_ok=True)
 
     print(f"[score.py] Pontuando vagas de {raw_path.name}...")

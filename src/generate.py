@@ -26,11 +26,15 @@ def main():
     parser.add_argument("--date", default=str(date.today()), help="Data no formato YYYY-MM-DD")
     args = parser.parse_args()
 
-    scored_path = Path("data/scored") / f"{args.date}.json"
-    if not scored_path.exists():
-        print(f"[generate.py] ❌ Arquivo não encontrado: {scored_path}")
+    scored_dir = Path("data/scored")
+    scored_files = sorted(scored_dir.glob(f"{args.date}*.json"), reverse=True)
+    
+    if not scored_files:
+        print(f"[generate.py] ❌ Nenhum arquivo scored encontrado para a data: {args.date}")
         print("[generate.py] Execute score.py primeiro.")
         return
+
+    scored_path = scored_files[0]
 
     print(f"[generate.py] Gerando materiais para job-id={args.job_id} ({args.date})...")
 

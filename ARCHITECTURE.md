@@ -60,8 +60,8 @@ job-radar/
 │   ├── resume_base.md           # Templates modulares de currículo
 │   └── search.yaml              # Parâmetros de busca e pesos
 ├── data/
-│   ├── raw/                     # JSONs brutos do dia
-│   ├── scored/                  # JSONs filtrados (score ≥ 80)
+│   ├── raw/                     # JSONs brutos (YYYY-MM-DD_HHMMSS.json)
+│   ├── scored/                  # JSONs filtrados (YYYY-MM-DD_HHMMSS.json)
 │   ├── feedback/                # Feedback 👍/👎 (local)
 │   └── output/                  # PDFs gerados
 └── .github/workflows/

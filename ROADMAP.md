@@ -128,4 +128,5 @@
 
 ## ✅ CONCLUÍDO RECENTEMENTE
 
+- **Garantia de Não-Sobrescrita (Timestamps)**: Implementação de timestamps em arquivos `data/scored/` e atualização de dependentes (`score`, `generate`, `notify`) para suportar múltiplas execuções manuais. (23 Fev 2026)
 - **Sistema de Protocolos e Closure**: Implementação da Constituição, Mapa de Decisões e Workflow `/finish` para garantir integridade e não-duplicação. (23 Fev 2026)
