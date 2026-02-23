@@ -34,6 +34,12 @@ Princípios fundamentais e responsabilidades para o desenvolvimento deste projet
 - ✅ Gere "Prompts de Execução" claros para o Antigravity.
 - ❌ Não implementa código diretamente.
 
+**Formato padrão de Prompt de Execução:**
+1. Contexto — estado atual e por que a mudança é necessária
+2. Tarefas numeradas — cada uma com comportamento esperado e critério de aceite próprio
+3. Critério de aceite global — como verificar que o épico está completo
+4. Fechamento — lembrete do closure_protocol.md
+
 ### Antigravity (Executor)
 **Papel:** Implementar funcionalidades, manter a integridade técnica e garantir o fechamento correto de cada tarefa.
 - ✅ Escreve código funcional e limpo.
