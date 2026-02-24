@@ -32,6 +32,7 @@ from src.fetch_pipeline import load_config, run_pipeline, remove_duplicates, fil
 from src.collectors.remotive import collect_remotive
 from src.collectors.openai_search import collect_openai_web_search
 from src.collectors.weworkremotely import collect_weworkremotely
+from src.collectors.jobicy import collect_jobicy
 
 load_dotenv()
 
@@ -66,7 +67,7 @@ def main():
         print(f"{LOG_PREFIX} 🧪 MODO DRY-RUN")
         print(f"  Roles: {roles}")
         print(f"  Locations: {locations}")
-        print(f"  Coletores: openai_web_search, remotive, weworkremotely")
+        print(f"  Coletores: openai_web_search, remotive, weworkremotely, jobicy")
         print(f"  Saída: {output_path}")
         return
 
@@ -85,6 +86,7 @@ def main():
 
     collectors_config.append(("remotive", collect_remotive))
     collectors_config.append(("weworkremotely", collect_weworkremotely))
+    collectors_config.append(("jobicy", collect_jobicy))
 
     if not collectors_config:
         print(f"{LOG_PREFIX} ✗ Nenhum coletor disponível. Abortando.")

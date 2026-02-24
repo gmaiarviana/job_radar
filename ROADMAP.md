@@ -1,6 +1,6 @@
 # ROADMAP - Job Radar
 
-📡 **Status:** Épico 1 concluído. Épico 2 em andamento: 2.1, 2.2 e 2.3 concluídos (refatoração multi-fonte + Remotive + We Work Remotely). Próximos: 2.4 Jobicy, 2.5 Quality Guard, 2.6 métricas.
+📡 **Status:** Épico 1 concluído. Épico 2 em andamento: 2.1, 2.2, 2.3 e 2.4 concluídos (refatoração multi-fonte + Remotive + We Work Remotely + Jobicy). Próximos: 2.5 Quality Guard, 2.6 métricas.
 
 > **Filosofia:** POC → Protótipo → MVP. Validar cada etapa antes de avançar.
 
@@ -27,12 +27,13 @@ A arquitetura está validada. O problema identificado é a estratégia de coleta
 
 ---
 
-### ÉPICO 2 (parcial): Fetch Multi-Fonte — 2.1, 2.2 e 2.3 concluídos
+### ÉPICO 2 (parcial): Fetch Multi-Fonte — 2.1, 2.2, 2.3 e 2.4 concluídos
 
 **O que foi construído:**
 - **2.1 Refatoração:** Pipeline com coletores independentes; schema único em `src/job_schema.py` (`id_hash`, `source`, `title`, `company`, `location`, `salary`, `jd_full`, `url`, `collected_at`, `date`); dedupe cross-fonte por `id_hash`; componentização em `src/job_schema.py`, `src/collectors/`, `src/fetch_pipeline.py`, `src/fetch.py` (CLI).
 - **2.2 Conector Remotive:** `src/collectors/remotive.py` — API Remotive, categorias `product` e `project-management`, filtro últimas 48h por `publication_date`.
 - **2.3 Conector We Work Remotely:** `src/collectors/weworkremotely.py` — RSS público (remote-management-and-finance), parse com `xml.etree.ElementTree`, filtro por título: product manager, program manager, TPM.
+- **2.4 Conector Jobicy:** `src/collectors/jobicy.py` — API Jobicy (`industry=product&count=50`), filtro últimas 48h por `pubDate`; fallback sem `industry` se API retornar 400; `jobIndustry` tratado como lista ou string.
 - Execução validada com venv; correção de encoding UTF-8 no console Windows para logs com emoji.
 
 **Lições aprendidas (evitar repetir):**
@@ -79,7 +80,7 @@ A arquitetura está validada. O problema identificado é a estratégia de coleta
 - Parser RSS com `urllib` + `xml.etree.ElementTree` (stdlib)
 - Filtro por keywords no título: product manager, program manager, TPM
 
-#### 2.4 Conector Jobicy
+#### ~~2.4 Conector Jobicy~~ ✅
 
 - Endpoint: `https://jobicy.com/api/v2/remote-jobs?industry=product&count=50`
 - API pública, sem key
