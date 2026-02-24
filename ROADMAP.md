@@ -28,7 +28,7 @@
 
 ---
 
-### ÉPICO 3: Fetch Estratégico — Greenhouse + Empresas-Alvo
+### ÉPICO 3: Fetch Estratégico — Greenhouse + Empresas-Alvo *(3.1 e 3.2 ✅)*
 
 **Objetivo:** Adicionar cobertura direta de empresas tech sérias via ATS (Greenhouse/Lever), sem depender de boards agregadores.
 

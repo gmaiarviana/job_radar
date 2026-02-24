@@ -84,23 +84,31 @@ def main():
     locations = search_config.get("locations", ["remote"])
     lookback_hours = search_config.get("lookback_hours", 24)
 
+    # Listas por ATS (uma única extração; Lever/Ashby usarão o mesmo padrão em 3.3/3.4)
+    try:
+        companies_data = load_companies()
+        all_entries_flat = [
+            c for entries in companies_data["companies"].values()
+            for c in entries if isinstance(c, dict)
+        ]
+        greenhouse_companies = [c for c in all_entries_flat if (c.get("ats") or "").strip().lower() == "greenhouse"]
+    except Exception as e:
+        companies_data = None
+        all_entries_flat = []
+        greenhouse_companies = []
+        _companies_load_error = e
+    else:
+        _companies_load_error = None
+
     if args.dry_run:
         print(f"{LOG_PREFIX} 🧪 MODO DRY-RUN")
         print(f"  Roles: {roles}")
         print(f"  Locations: {locations}")
         print(f"  Coletores: openai_web_search, remotive, weworkremotely, jobicy, greenhouse")
-        try:
-            companies_data = load_companies()
+        if companies_data is not None:
             n_sectors = len(companies_data["companies"])
-            n_companies = sum(len(entries) for entries in companies_data["companies"].values())
-            greenhouse_companies = [
-                c for entries in companies_data["companies"].values()
-                for c in entries if isinstance(c, dict) and (c.get("ats") or "").strip().lower() == "greenhouse"
-            ]
-            print(f"  Empresas-alvo (3.1): {n_companies} em {n_sectors} setores (config/companies.yaml)")
+            print(f"  Empresas-alvo (3.1): {len(all_entries_flat)} em {n_sectors} setores (config/companies.yaml)")
             print(f"  Greenhouse: {len(greenhouse_companies)} empresas configuradas")
-        except Exception:
-            pass  # opcional; não falha dry-run se companies.yaml ausente
         print(f"  Saída: {output_path}")
         return
 
@@ -121,16 +129,10 @@ def main():
     collectors_config.append(("weworkremotely", collect_weworkremotely))
     collectors_config.append(("jobicy", collect_jobicy))
 
-    try:
-        companies_data = load_companies()
-        greenhouse_companies = [
-            c for entries in companies_data["companies"].values()
-            for c in entries if isinstance(c, dict) and (c.get("ats") or "").strip().lower() == "greenhouse"
-        ]
-        if greenhouse_companies:
-            collectors_config.append(("greenhouse", lambda: collect_greenhouse(greenhouse_companies)))
-    except Exception as e:
-        print(f"{LOG_PREFIX} ! Empresas-alvo (greenhouse) não carregadas: {e}")
+    if greenhouse_companies:
+        collectors_config.append(("greenhouse", lambda: collect_greenhouse(greenhouse_companies)))
+    elif _companies_load_error is not None:
+        print(f"{LOG_PREFIX} ! Empresas-alvo (greenhouse) não carregadas: {_companies_load_error}")
 
     if not collectors_config:
         print(f"{LOG_PREFIX} ✗ Nenhum coletor disponível. Abortando.")
