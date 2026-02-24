@@ -11,7 +11,7 @@ O sistema é dividido em um pipeline de dados (nuvem/Actions) e uma interface de
 ```mermaid
 graph TD
     A[GitHub Actions - Cloud] -->|Cron/Manual| B[fetch.py - Pipeline multi-fonte]
-    B -->|coletores| B1[OpenAI Search + Remotive API]
+    B -->|coletores| B1[OpenAI Search + Remotive API + We Work Remotely RSS]
     B1 -->|raw| B2[job_schema + fetch_pipeline]
     B2 -->|raw JSON| C[score.py Stage 1 - Eliminatórios]
     C -->|surviving jobs| D[score.py Stage 2 - Deep Score]
@@ -28,7 +28,7 @@ graph TD
 
 | Componente | Script / Módulo | Modelo/Motor | Papel |
 | :--- | :--- | :--- | :--- |
-| **Search** | `src/fetch.py` (CLI) + `job_schema.py` + `fetch_pipeline.py` + `collectors/*` | OpenAI Search, Remotive API | Orquestra coletores, normaliza para schema único, dedupe por `id_hash`, grava em `data/raw/`. |
+| **Search** | `src/fetch.py` (CLI) + `job_schema.py` + `fetch_pipeline.py` + `collectors/*` | OpenAI Search, Remotive API, We Work Remotely RSS | Orquestra coletores, normaliza para schema único, dedupe por `id_hash`, grava em `data/raw/`. |
 | **Score** | `src/score.py` | Claude Haiku | Processo em 2 etapas: Eliminatórios (batch) e Deep Scoring (individual) contra o `config/profile.md`. |
 | **Interface** | `app.py` | Streamlit | UI para revisão, feedback e acionamento de geração. |
 | **Writer** | `src/generate.py`| Claude Sonnet | Redação de alta qualidade para CV e Cover Letter. |
@@ -38,7 +38,7 @@ graph TD
 
 | Decisão | Escolha | Motivo |
 | :--- | :--- | :--- |
-| **Busca de vagas** | Pipeline multi-fonte: OpenAI Search + Remotive (Épico 2); mais fontes no ROADMAP. | Coletores independentes; schema único; dedupe cross-fonte. |
+| **Busca de vagas** | Pipeline multi-fonte: OpenAI Search, Remotive, We Work Remotely (Épico 2); mais fontes no ROADMAP. | Coletores independentes; schema único; dedupe cross-fonte. |
 | **Scoring** | Claude Haiku | Rápido e barato para análise de texto longo. |
 | **Geração de materiais** | Claude Sonnet | Escrita superior e tom profissional. |
 | **Interface** | Streamlit Local | Agilidade no desenvolvimento e custo zero de hospedagem. |
@@ -59,7 +59,8 @@ job-radar/
 │   ├── collectors/              # Um módulo por fonte de vagas
 │   │   ├── __init__.py
 │   │   ├── remotive.py          # API Remotive (product, project-management; 48h)
-│   │   └── openai_search.py     # OpenAI gpt-4o-mini web search
+│   │   ├── weworkremotely.py    # RSS We Work Remotely (management/finance; filtro PM/TPM)
+│   │   └── openai_search.py    # OpenAI gpt-4o-mini web search
 │   ├── score.py                 # Scoring via Claude Haiku
 │   ├── generate.py              # Writer via Claude Sonnet
 │   └── notify.py                # Alertas SMTP
@@ -80,7 +81,7 @@ job-radar/
 ## ⚙️ Infraestrutura e Ambiente
 
 - **Linguagem**: Python 3.11+
-- **APIs**: OpenAI (Search Preview), Remotive (pública, sem key), Anthropic (Claude).
+- **APIs**: OpenAI (Search Preview), Remotive (pública, sem key), We Work Remotely (RSS público), Anthropic (Claude).
 - **Ambiente**: Produção simulada via GitHub Actions; Consumo via Streamlit local. Usar **venv** para desenvolvimento e validação (`python -m venv .venv` ou `venv`).
 - **Segurança**: Chaves de API via `.env` (local) e Secrets (GitHub).
 
