@@ -30,6 +30,7 @@ from openai import OpenAI
 
 from src.fetch_pipeline import (
     load_config,
+    load_companies,
     run_pipeline,
     remove_duplicates,
     filter_old_jobs,
@@ -51,7 +52,18 @@ def main():
     )
     parser.add_argument("--date", default=str(date.today()), help="Data no formato YYYY-MM-DD")
     parser.add_argument("--dry-run", action="store_true", help="Apenas mostra o que seria buscado")
+    parser.add_argument("--validate-companies", action="store_true", help="Valida config/companies.yaml (Épico 3.1) e sai")
     args = parser.parse_args()
+
+    if args.validate_companies:
+        try:
+            data = load_companies()
+            total = sum(len(entries) for entries in data["companies"].values())
+            print(f"{LOG_PREFIX} ✅ config/companies.yaml válido: {len(data['companies'])} setores, {total} empresas-alvo")
+            return
+        except Exception as e:
+            print(f"{LOG_PREFIX} ✗ Erro em config/companies.yaml: {e}")
+            return
 
     output_dir = Path("data/raw")
     output_dir.mkdir(parents=True, exist_ok=True)
@@ -74,6 +86,13 @@ def main():
         print(f"  Roles: {roles}")
         print(f"  Locations: {locations}")
         print(f"  Coletores: openai_web_search, remotive, weworkremotely, jobicy")
+        try:
+            companies_data = load_companies()
+            n_sectors = len(companies_data["companies"])
+            n_companies = sum(len(entries) for entries in companies_data["companies"].values())
+            print(f"  Empresas-alvo (3.1): {n_companies} em {n_sectors} setores (config/companies.yaml)")
+        except Exception:
+            pass  # opcional; não falha dry-run se companies.yaml ausente
         print(f"  Saída: {output_path}")
         return
 

@@ -23,6 +23,39 @@ def load_config() -> dict:
         return yaml.safe_load(f)
 
 
+# ATS suportados pelo Épico 3 (conectores implementados)
+SUPPORTED_ATS = frozenset(("greenhouse", "lever", "ashby"))
+
+
+def load_companies() -> dict:
+    """
+    Carrega config/companies.yaml (Épico 3.1).
+    Retorna dict com chave 'companies': setor -> lista de dicts (name, ats, ats_id, notes opcional).
+    Valida presença de name/ats/ats_id e que ats está em SUPPORTED_ATS.
+    """
+    config_path = Path("config/companies.yaml")
+    if not config_path.exists():
+        raise FileNotFoundError("Configuração config/companies.yaml não encontrada.")
+    with open(config_path, "r", encoding="utf-8") as f:
+        data = yaml.safe_load(f)
+    if not data or not isinstance(data.get("companies"), dict):
+        raise ValueError("config/companies.yaml deve ter chave 'companies' com dict de setores.")
+    for sector, entries in data["companies"].items():
+        if not isinstance(entries, list):
+            raise ValueError(f"Setor '{sector}' deve ser uma lista de empresas.")
+        for i, c in enumerate(entries):
+            if not isinstance(c, dict):
+                raise ValueError(f"Setor '{sector}', entrada {i}: empresa deve ser um dict.")
+            for key in ("name", "ats", "ats_id"):
+                if key not in c or not str(c[key]).strip():
+                    raise ValueError(f"Setor '{sector}', empresa '{c.get('name', '?')}': falta '{key}'.")
+            if c["ats"].lower().strip() not in SUPPORTED_ATS:
+                raise ValueError(
+                    f"Setor '{sector}', empresa '{c['name']}': ats '{c['ats']}' não suportado. Use: {', '.join(SUPPORTED_ATS)}."
+                )
+    return data
+
+
 def run_pipeline(collectors_config: list[tuple[str, Any]]) -> list[dict]:
     """
     Executa todos os coletores, normaliza para o schema único e deduplica por id_hash.

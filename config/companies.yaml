@@ -1,0 +1,339 @@
+# config/companies.yaml
+# Lista de empresas-alvo para coleta via ATS (Épico 3)
+# Fontes: análise manual + validação via ChatGPT, Grok e Claude
+#
+# NOTAS:
+# - ats_id: slug usado na URL do ATS (ex: boards.greenhouse.io/SLUG)
+# - Empresas com ATS "workday" ou "custom" foram excluídas (sem collector no Épico 3)
+#   e devem ser monitoradas manualmente via discover.py
+# - Slugs marcados com # [verificar] foram citados como incertos pelas fontes
+# - Política de contractor LATAM pode variar por vaga; o pipeline filtra por localização no score.py
+# - Última atualização: Fev 2026
+
+companies:
+
+  # -------------------------------------------------------------------
+  # HR TECH / REMOTE-FIRST
+  # Argumento: produto que o candidato usa/conhece; escala global; B2B
+  # -------------------------------------------------------------------
+  hr_tech:
+    - name: "Deel"
+      ats: "greenhouse"
+      ats_id: "deel"
+      notes: "Remote-first por definição; contratam LATAM contractors consistentemente"
+
+    - name: "Rippling"
+      ats: "greenhouse"
+      ats_id: "rippling"
+      notes: "Concorrente Deel/Remote; scope maior (HR + IT + payroll); Series F"
+
+    - name: "Andela"
+      ats: "lever"
+      ats_id: "andela"
+      notes: "Talent-as-a-service; remote-first; opera fortemente em LATAM/Africa"
+
+    - name: "Turing"
+      ats: "greenhouse"
+      ats_id: "turing"
+      notes: "Contractor-first por modelo de negócio; Series D"
+
+  # -------------------------------------------------------------------
+  # FINTECH
+  # Argumento: background Nubank (crédito, dados em escala, produto B2B)
+  # -------------------------------------------------------------------
+  fintech:
+    - name: "Nubank"
+      ats: "greenhouse"
+      ats_id: "nubank"
+      notes: "Boomerang hire; maioria CLT mas PJ possível para funções específicas"
+
+    - name: "Brex"
+      ats: "greenhouse"
+      ats_id: "brex"
+      notes: "Fundadores brasileiros; histórico de contratação LATAM; Series D"
+
+    - name: "Cloudwalk"
+      ats: "greenhouse"
+      ats_id: "cloudwalk"
+      notes: "Fintech brasileira; PJ remoto; background Nubank é argumento direto"
+
+    - name: "Pismo"
+      ats: "greenhouse"
+      ats_id: "pismo"
+      notes: "Adquirida pela Visa; banking infra B2B; PJ Brasil; background Nubank é direto"
+
+    - name: "Modern Treasury"
+      ats: "greenhouse"
+      ats_id: "moderntreasury"
+      notes: "Pagamentos via API; B2B puro; Series C"
+
+    - name: "Chainalysis"
+      ats: "greenhouse"
+      ats_id: "chainalysis"
+      notes: "Blockchain data/compliance; experiência crédito/fraude relevante; Series F"
+
+  # -------------------------------------------------------------------
+  # SAAS B2B / PRODUTIVIDADE
+  # Argumento: PO 2 anos em B2B SaaS; stakeholder management; escala
+  # -------------------------------------------------------------------
+  saas_b2b:
+    - name: "GitLab"
+      ats: "greenhouse"
+      ats_id: "gitlab"
+      notes: "100% remote worldwide; TPM em programa global é argumento central"
+
+    - name: "Miro"
+      ats: "greenhouse"
+      ats_id: "miro"
+      notes: "Colaboração B2B; remote worldwide; Series C"
+
+    - name: "Amplitude"
+      ats: "greenhouse"
+      ats_id: "amplitude"
+      notes: "Product analytics; background dados Nubank (150k req/dia) é fit direto"
+
+    - name: "Linear"
+      ats: "ashby"
+      ats_id: "linear"
+      notes: "Dev tool B2B premium; remote-first; Series B"
+
+    - name: "Vercel"
+      ats: "greenhouse"
+      ats_id: "vercel"
+      notes: "Infra frontend global; PM técnico + inglês fluente; Series E"
+
+    - name: "Grafana Labs"
+      ats: "greenhouse"
+      ats_id: "grafana"
+      notes: "Observability; 100% remote; Series D; métricas/dados = fit"
+
+    - name: "Snyk"
+      ats: "greenhouse"
+      ats_id: "snyk"
+      notes: "Dev security; programa 200+ engenheiros é argumento para TPM roles"
+
+    - name: "Sourcegraph"
+      ats: "greenhouse"
+      ats_id: "sourcegraph"
+      notes: "Code search com IA; TPM técnico para escala global; Series D"
+
+    - name: "Klaviyo"
+      ats: "greenhouse"
+      ats_id: "klaviyo"
+      notes: "Marketing automation SaaS; volumes massivos de dados em real-time; pública"
+
+    - name: "Temporal"
+      ats: "greenhouse"
+      ats_id: "temporal"
+      notes: "Orquestração de workflows/microserviços; background TPM sistemas complexos; Series B" # [verificar slug]
+
+    - name: "Whatnot"
+      ats: "greenhouse"
+      ats_id: "whatnot"
+      notes: "Social commerce marketplace; AI + dados real-time; Series D"
+
+  # -------------------------------------------------------------------
+  # DATA INFRA / DEV TOOLS
+  # Argumento: BA Nubank (ETL, Spark/Scala, Databricks); pipeline otimizados
+  # -------------------------------------------------------------------
+  data_infra:
+    - name: "Databricks"
+      ats: "greenhouse"
+      ats_id: "databricks"
+      notes: "Plataforma dados; background Spark/Scala Nubank é argumento direto; Series I"
+
+    - name: "dbt Labs"
+      ats: "greenhouse"
+      ats_id: "dbtlabs"
+      notes: "Padrão ouro em data transformation; ex-Nubank é prova social forte; Series D"
+
+    - name: "Airbyte"
+      ats: "greenhouse"
+      ats_id: "airbyte"
+      notes: "Data sync open-source; escala dados + AI PoCs; unicórnio Series B"
+
+    - name: "Fivetran"
+      ats: "greenhouse"
+      ats_id: "fivetran"
+      notes: "ETL/ELT SaaS; background pipeline Nubank é fit direto para entender produto"
+
+    - name: "Samsara"
+      ats: "greenhouse"
+      ats_id: "samsara"
+      notes: "IoT + dados operacionais; produto B2B técnico; escala global; pública"
+
+  # -------------------------------------------------------------------
+  # AI NATIVE / ENTERPRISE AI
+  # Argumento: PoCs LLM que geraram contratos; GCP GenAI Leader; Paper Agent
+  # -------------------------------------------------------------------
+  ai_native:
+    - name: "Writer"
+      ats: "greenhouse"
+      ats_id: "writer"
+      notes: "LLMs enterprise; PoCs reais + cert GCP GenAI = argumento matador; Series C"
+
+    - name: "Cohere"
+      ats: "greenhouse"
+      ats_id: "cohere"
+      notes: "LLM infra enterprise; remote global; Series C"
+
+    - name: "Scale AI"
+      ats: "ashby"
+      ats_id: "scaleai"
+      notes: "AI data infra; coordenação técnica massiva + AI PoCs; Series F"
+
+    - name: "Hugging Face"
+      ats: "lever"
+      ats_id: "huggingface"
+      notes: "GitHub da IA; cert GCP GenAI + PoCs LLM brilham aqui; Series D"
+
+  # -------------------------------------------------------------------
+  # HEALTHTECH
+  # Argumento: plataformas complexas B2B/B2C; dados; escala
+  # -------------------------------------------------------------------
+  healthtech:
+    - name: "Alma"
+      ats: "greenhouse"
+      ats_id: "helloalma"
+      notes: "Mental health marketplace; Series D; mencionada no ROADMAP original"
+
+    - name: "Spring Health"
+      ats: "greenhouse"
+      ats_id: "springhealth"
+      notes: "Mental health B2B2C; hipercrescimento; Series E ($3.3B valuation)"
+
+    - name: "Abridge"
+      ats: "greenhouse"
+      ats_id: "abridge"
+      notes: "AI para transcrição médica; rigor de dados é o forte; Series C"
+
+    - name: "Wellhub"
+      ats: "greenhouse"
+      ats_id: "gympass"
+      notes: "Marketplace wellness global; PJ Brasil + remote; Series F"
+
+    - name: "Tempus"
+      ats: "greenhouse"
+      ats_id: "tempus"
+      notes: "Health AI/dados; background BA dados + GCP GenAI; Series G"
+
+  # -------------------------------------------------------------------
+  # EDTECH
+  # -------------------------------------------------------------------
+  edtech:
+    - name: "Duolingo"
+      ats: "greenhouse"
+      ats_id: "duolingo"
+      notes: "Cultura produto/data forte; AI (LLMs) em aprendizado; pública"
+
+  # -------------------------------------------------------------------
+  # MARKETPLACE
+  # Argumento: PO B2B/B2C; gestão de plataformas com múltiplos stakeholders
+  # -------------------------------------------------------------------
+  marketplace:
+    - name: "QuintoAndar"
+      ats: "greenhouse"
+      ats_id: "quintoandar"
+      notes: "Proptech BR; marketplace escala; PJ Brasil; dados + AI"
+
+    - name: "Faire"
+      ats: "greenhouse"
+      ats_id: "faire"
+      notes: "B2B wholesale marketplace; ML matching + dados escala; Series G"
+
+    - name: "Rappi"
+      ats: "greenhouse"
+      ats_id: "rappi"
+      notes: "Marketplace LATAM; escala; PJ Brasil; Series F"
+
+    - name: "Verkada"
+      ats: "lever"
+      ats_id: "verkada"
+      notes: "IoT/segurança física; hardware + software; TPM para coordenação complexa; Series E"
+
+    - name: "Cloudflare"
+      ats: "greenhouse"
+      ats_id: "cloudflare"
+      notes: "Security/Edge; contratam BR via EOR (Deel); escala massiva de req/dia; pública"
+
+  # -------------------------------------------------------------------
+  # CLIMATE TECH
+  # Argumento: interesse pessoal + AI/dados como diferencial técnico
+  # -------------------------------------------------------------------
+  climate_tech:
+    - name: "Watershed"
+      ats: "ashby"
+      ats_id: "watershed"
+      notes: "ESG data SaaS; remote-first; dados complexos de carbono; Series C"
+
+    - name: "Pachama"
+      ats: "greenhouse"
+      ats_id: "pachama"
+      notes: "Reflorestamento via AI/satélite; PoCs LLM + dados geográficos; Series B (também agritech)"
+
+    - name: "Planet Labs"
+      ats: "greenhouse"
+      ats_id: "planetlabs"
+      notes: "Dados de satélite/clima; data-heavy; escala global; pública"
+
+    - name: "Climeworks"
+      ats: "greenhouse"
+      ats_id: "climeworks"
+      notes: "Carbon capture; projetos globais; SAFe para engenharia; Series F" # [verificar slug]
+
+    - name: "Zipline"
+      ats: "greenhouse"
+      ats_id: "flyzipline"
+      notes: "Logística/drones; operações técnicas + impacto social; Series F"
+
+  # -------------------------------------------------------------------
+  # AGRITECH / FOODTECH
+  # Argumento: interesse pessoal em regeneração; AI + dados como entrada
+  # -------------------------------------------------------------------
+  agritech:
+    - name: "Indigo Ag"
+      ats: "greenhouse"
+      ats_id: "indigoagriculture"
+      notes: "AgTech data/AI; escala engenheiros; background dados Nubank; pública" # [verificar: alguns dizem Workday]
+
+    - name: "Farmers Business Network"
+      ats: "lever"
+      ats_id: "fbn"
+      notes: "Marketplace agritech; B2B SaaS + dados escala; Series G" # [verificar: alguns dizem Workday]
+
+    - name: "NotCo"
+      ats: "greenhouse"
+      ats_id: "notco"
+      notes: "Food tech IA; Giuseppe (modelo LLM-like); cert GenAI fit; Series D"
+
+    - name: "Apeel Sciences"
+      ats: "greenhouse"
+      ats_id: "apeel"
+      notes: "Shelf-life/post-harvest AI; escritório São Paulo; supply chain global; Series F" # [verificar slug]
+
+    - name: "Hazel Technologies"
+      ats: "greenhouse"
+      ats_id: "hazeltechnologies"
+      notes: "Post-harvest; dados + supply chain; Series C" # [verificar slug]
+
+    - name: "Halter"
+      ats: "ashby"
+      ats_id: "halter"
+      notes: "Virtual fencing livestock com AI; remote worldwide; escala eng + dados"
+
+    - name: "ProducePay"
+      ats: "lever"
+      ats_id: "producepay"
+      notes: "Marketplace produtores agro; B2B + dados; remote LATAM forte"
+
+# -------------------------------------------------------------------
+# EXCLUÍDOS DO PIPELINE AUTOMÁTICO (monitorar via discover.py manualmente)
+# -------------------------------------------------------------------
+# - Remote.com: ATS próprio (não Greenhouse/Lever/Ashby)
+# - Syngenta Digital: Workday
+# - Coda: Workday
+# - Anduril Industries: restrição geográfica confirmada (não LATAM)
+# - Carbon Robotics: slug incerto; validar antes de adicionar
+# - EarthOptics: slug incerto; Stage menor; validar antes de adicionar
+# - Odoo: ATS custom
+# - GitLab: alguns reports indicam migração para Workday; validar boards.greenhouse.io/gitlab
