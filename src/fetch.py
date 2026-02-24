@@ -32,10 +32,12 @@ from src.fetch_pipeline import (
     load_config,
     load_companies,
     run_pipeline,
+    apply_seen_jobs_filter,
     remove_duplicates,
     filter_old_jobs,
     apply_quality_guard,
 )
+from src.seen_jobs import load_seen, mark_seen, save_seen
 from src.collectors.remotive import collect_remotive
 from src.collectors.openai_search import collect_openai_web_search
 from src.collectors.weworkremotely import collect_weworkremotely
@@ -118,8 +120,15 @@ def main():
         return
 
     print(f"{LOG_PREFIX} 🚀 Pipeline multi-fonte para {args.date}...")
+    seen = load_seen()
     jobs = run_pipeline(collectors_config)
     total_raw = len(jobs)
+
+    jobs, total_already_seen, total_throttled = apply_seen_jobs_filter(jobs, seen, max_new=20)
+    if total_already_seen > 0:
+        print(f"{LOG_PREFIX} 👁️ Já vistas (seen_jobs): {total_already_seen}")
+    if total_throttled > 0:
+        print(f"{LOG_PREFIX} ⏸️ Throttle: {total_throttled} novas acima do limite (20) ignoradas neste run")
 
     if jobs:
         jobs = filter_old_jobs(jobs)
@@ -130,6 +139,16 @@ def main():
     total_after_dedup = len(jobs)
 
     jobs, discarded = apply_quality_guard(jobs)
+
+    for job in jobs:
+        mark_seen(
+            job.get("id_hash") or "",
+            job.get("source") or "",
+            job.get("title") or "",
+            job.get("company") or "",
+            seen,
+        )
+    save_seen(seen)
     total_after_quality_guard = len(jobs)
     discarded_low_quality = len(discarded)
 
@@ -161,6 +180,8 @@ def main():
     coverage = {
         "sources": [name for name, _ in collectors_config],
         "total_raw": total_raw,
+        "total_already_seen": total_already_seen,
+        "total_throttled": total_throttled,
         "total_after_recent_filter": total_after_recent_filter,
         "total_after_dedup": total_after_dedup,
         "total_after_quality_guard": total_after_quality_guard,

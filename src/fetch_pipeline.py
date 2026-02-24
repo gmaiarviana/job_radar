@@ -10,6 +10,7 @@ from typing import Any
 import yaml
 
 from src.job_schema import normalize_job
+from src.seen_jobs import is_seen
 
 LOG_PREFIX = "[fetch]"
 
@@ -74,6 +75,33 @@ def run_pipeline(collectors_config: list[tuple[str, Any]]) -> list[dict]:
             all_normalized.append(job)
 
     return all_normalized
+
+
+def apply_seen_jobs_filter(
+    jobs: list[dict],
+    seen: dict,
+    max_new: int = 20,
+) -> tuple[list[dict], int, int]:
+    """
+    Separa jobs em novos (não vistos) e já vistos; limita novos a max_new (throttle).
+    Retorna (novos_para_processar, total_already_seen, total_throttled).
+    NÃO persiste o seen_jobs — responsabilidade do chamador (fetch.py).
+    """
+    already_seen: list[dict] = []
+    new_list: list[dict] = []
+    for job in jobs:
+        h = job.get("id_hash")
+        if not h:
+            new_list.append(job)
+            continue
+        if is_seen(h, seen):
+            already_seen.append(job)
+        else:
+            new_list.append(job)
+    n_already_seen = len(already_seen)
+    to_process = new_list[:max_new]
+    n_throttled = max(0, len(new_list) - max_new)
+    return to_process, n_already_seen, n_throttled
 
 
 def remove_duplicates(new_jobs: list[dict], raw_dir: Path) -> list[dict]:

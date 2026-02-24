@@ -1,1 +1,20 @@
-{}
+{
+  "2112c0c2955b6b52ad99a758ecd1555db7248a44ec2d3e79511faf602a38f482": {
+    "first_seen": "2026-02-24",
+    "source": "openai_web_search",
+    "title": "Product Manager, LATAM (Miami or San Francisco)",
+    "company": "Airbnb"
+  },
+  "ce13ae357b79816fb491fb1b4dfb204e95941f1431118ddb2800c5a2d92dad00": {
+    "first_seen": "2026-02-24",
+    "source": "openai_web_search",
+    "title": "Technical Program Manager (Onsite)",
+    "company": "Cognizant"
+  },
+  "ba06b88825183706258178d56456bd574890c211190fa7c0cc1229fb7d8d67d0": {
+    "first_seen": "2026-02-24",
+    "source": "openai_web_search",
+    "title": "Product Manager - Data - Platform Products",
+    "company": "Neon"
+  }
+}
