@@ -1,0 +1,63 @@
+{
+  "fetched_at": "2026-02-24T01:18:03.928063+00:00",
+  "date": "2026-02-23",
+  "config_used": {
+    "roles": [
+      "Product Manager",
+      "Technical Program Manager",
+      "TPM"
+    ],
+    "locations": [
+      "remote LATAM",
+      "remote worldwide",
+      "remote"
+    ],
+    "lookback_hours": 24,
+    "sources": [
+      "openai_web_search",
+      "remotive"
+    ]
+  },
+  "total_jobs": 3,
+  "jobs": [
+    {
+      "id_hash": "bb1f9e246ffd85eaece5263c8c28ea0865219bfea9cc943f6348f2c76ef24801",
+      "id": "bb1f9e246ffd85eaece5263c8c28ea0865219bfea9cc943f6348f2c76ef24801",
+      "source": "openai_web_search",
+      "title": "Senior Technical Program Manager, Infrastructure",
+      "company": "Planet",
+      "location": "Remote United States",
+      "salary": "USD 143k - 203k",
+      "jd_full": "6+ anos de experiência em desenvolvimento de software ou gerenciamento de programas em engenharia de plataforma ou infraestrutura baseada em nuvem. Experiência liderando projetos multifuncionais e migrações em uma organização ampla.",
+      "url": "https://echojobs.io/job/planet-senior-technical-program-manager-infrastructure-a9vl2",
+      "collected_at": "2026-02-24T01:18:03.429049+00:00",
+      "date": "6 days ago"
+    },
+    {
+      "id_hash": "72880f4ab5fac0796e2fd81006f630ce44a98074919e8573e656442e9da0c908",
+      "id": "72880f4ab5fac0796e2fd81006f630ce44a98074919e8573e656442e9da0c908",
+      "source": "openai_web_search",
+      "title": "Technical Program Manager",
+      "company": "Planet",
+      "location": "Remote in Bulgaria, Croatia, Cyprus, Czechia, Egypt, Israel, Kenya, Lebanon, Luxembourg, Malta, Nigeria, Oman, Qatar, Romania, Saudi Arabia, Serbia, South Africa, United Arab Emirates, United Kingdom or Work from Anywhere",
+      "salary": null,
+      "jd_full": "4+ anos de experiência em desenvolvimento de software ou gerenciamento de programas em SaaS, desenvolvimento de plataforma, APIs, Analytics ou UX. Experiência liderando projetos multifuncionais em uma organização ampla.",
+      "url": "https://job-boards.greenhouse.io/planetlabs/jobs/7542179",
+      "collected_at": "2026-02-24T01:18:03.429068+00:00",
+      "date": "6 days ago"
+    },
+    {
+      "id_hash": "559b46fe3cc9c429c86e8254b2ac912b72e6cc9dbf11734055b27e9efd5f7b04",
+      "id": "559b46fe3cc9c429c86e8254b2ac912b72e6cc9dbf11734055b27e9efd5f7b04",
+      "source": "openai_web_search",
+      "title": "Worldwide Partner Program Manager, Services",
+      "company": "Palo Alto Networks",
+      "location": "Remote United States",
+      "salary": "USD 99k - 160.5k",
+      "jd_full": "10+ anos em gerenciamento de programas; 5+ anos em suporte empresarial e entrega de serviços preferencialmente. Habilidade comprovada em manipulação rápida e precisa de dados; deve ser capaz de traduzir conjuntos de dados complexos em insights acionáveis sobre conformidade e desempenho de parceiros.",
+      "url": "https://remotive.com/remote/jobs/project-management/worldwide-partner-program-manager-services-3736405",
+      "collected_at": "2026-02-24T01:18:03.429078+00:00",
+      "date": "1 week ago"
+    }
+  ]
+}
