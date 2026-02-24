@@ -107,20 +107,27 @@ Adicionar ao JSON de saída:
 
 #### 3.1 config/companies.yaml
 
-Arquivo de configuração com empresas-alvo por setor:
+Arquivo de configuração com empresas-alvo por setor e ATS:
 ```yaml
 companies:
   healthtech:
     - name: "Alma"
-      greenhouse_id: "alma"
+      ats: "greenhouse"
+      ats_id: "alma"
     - name: "Cerebral"
-      greenhouse_id: "cerebral"
+      ats: "greenhouse"
+      ats_id: "cerebral"
   edtech:
     - name: "Duolingo"
-      greenhouse_id: "duolingo"
+      ats: "greenhouse"
+      ats_id: "duolingo"
   fintech:
     - name: "Nubank"
-      lever_id: "nubank"
+      ats: "lever"
+      ats_id: "nubank"
+    - name: "Lemon Cash"
+      ats: "ashby"
+      ats_id: "lemoncash"
 ```
 
 #### 3.2 Conector Greenhouse
@@ -136,12 +143,20 @@ companies:
 - Mesma lógica de filtro por título
 - Integração com mesmo schema de normalização
 
-#### 3.4 Descoberta automática (OpenAI web search — uso semanal)
+#### 3.4 Conector Ashby
 
-- Script separado: `src/discover.py`
-- Roda manualmente ou via cron semanal (não diário)
-- Objetivo: identificar novas empresas candidatas para adicionar ao `companies.yaml`
-- Output: lista de sugestões para revisão manual — não entra direto no pipeline
+- Endpoint público: `https://jobs.ashbyhq.com/api/non-user-facing/job-board/job-posting/list`
+- Body JSON: `{"organizationHostedJobsPageName": "{company_id}"}`
+- Prioridade igual ao Greenhouse — startups série A/B usam Ashby com frequência
+- Mesma lógica de filtro por título e normalização
+
+#### 3.5 Descoberta manual (src/discover.py)
+
+- Script separado, sem integração com o pipeline diário
+- Uso: rodar manualmente quando quiser prospectar novas empresas
+- Estratégia: queries Google `site:boards.greenhouse.io`, `site:jobs.lever.co`, `site:jobs.ashbyhq.com` com filtros de localização e título
+- Output: lista de sugestões com empresa + ATS + ID para adicionar ao `companies.yaml`
+- Nenhuma saída do `discover.py` entra no pipeline automaticamente — revisão manual obrigatória
 
 ---
 
