@@ -1,0 +1,18 @@
+{
+  "fetched_at": "2026-02-24T15:29:14.335308+00:00",
+  "date": "2026-02-24",
+  "config_used": {
+    "seed_source": "lever",
+    "sources": [
+      "lever"
+    ]
+  },
+  "coverage": {
+    "sources": [
+      "lever"
+    ],
+    "total_raw": 0
+  },
+  "total_jobs": 0,
+  "jobs": []
+}
