@@ -44,6 +44,7 @@ from src.collectors.weworkremotely import collect_weworkremotely
 from src.collectors.jobicy import collect_jobicy
 from src.collectors.greenhouse import collect_greenhouse
 from src.collectors.lever import collect_lever
+from src.collectors.ashby import collect_ashby
 
 load_dotenv()
 
@@ -94,11 +95,13 @@ def main():
         ]
         greenhouse_companies = [c for c in all_entries_flat if (c.get("ats") or "").strip().lower() == "greenhouse"]
         lever_companies = [c for c in all_entries_flat if (c.get("ats") or "").strip().lower() == "lever"]
+        ashby_companies = [c for c in all_entries_flat if (c.get("ats") or "").strip().lower() == "ashby"]
     except Exception as e:
         companies_data = None
         all_entries_flat = []
         greenhouse_companies = []
         lever_companies = []
+        ashby_companies = []
         _companies_load_error = e
     else:
         _companies_load_error = None
@@ -107,12 +110,13 @@ def main():
         print(f"{LOG_PREFIX} 🧪 MODO DRY-RUN")
         print(f"  Roles: {roles}")
         print(f"  Locations: {locations}")
-        print(f"  Coletores: openai_web_search, remotive, weworkremotely, jobicy, greenhouse, lever")
+        print(f"  Coletores: openai_web_search, remotive, weworkremotely, jobicy, greenhouse, lever, ashby")
         if companies_data is not None:
             n_sectors = len(companies_data["companies"])
             print(f"  Empresas-alvo (3.1): {len(all_entries_flat)} em {n_sectors} setores (config/companies.yaml)")
             print(f"  Greenhouse: {len(greenhouse_companies)} empresas configuradas")
             print(f"  Lever: {len(lever_companies)} empresas configuradas")
+            print(f"  Ashby: {len(ashby_companies)} empresas configuradas")
         print(f"  Saída: {output_path}")
         return
 
@@ -137,7 +141,9 @@ def main():
         collectors_config.append(("greenhouse", lambda: collect_greenhouse(greenhouse_companies)))
     if lever_companies:
         collectors_config.append(("lever", lambda: collect_lever(lever_companies)))
-    if not greenhouse_companies and not lever_companies and _companies_load_error is not None:
+    if ashby_companies:
+        collectors_config.append(("ashby", lambda: collect_ashby(ashby_companies)))
+    if not greenhouse_companies and not lever_companies and not ashby_companies and _companies_load_error is not None:
         print(f"{LOG_PREFIX} ! Empresas-alvo (ATS) não carregadas: {_companies_load_error}")
 
     if not collectors_config:

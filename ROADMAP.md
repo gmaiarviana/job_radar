@@ -28,7 +28,7 @@
 
 ---
 
-### ÉPICO 3: Fetch Estratégico — Greenhouse + Empresas-Alvo *(3.1–3.3 ✅)*
+### ÉPICO 3: Fetch Estratégico — Greenhouse + Empresas-Alvo *(3.1–3.4 ✅)*
 
 **Objetivo:** Adicionar cobertura direta de empresas tech sérias via ATS (Greenhouse/Lever), sem depender de boards agregadores.
 
@@ -73,24 +73,17 @@ companies:
 
 - Coletor `src/collectors/lever.py`: `collect_lever(companies)`; GET postings/{ats_id}?mode=json; filtro por título (product manager, program manager, tpm, technical program); JD = descriptionPlain + blocos lists (header + content sem HTML); 0,5s delay; 404/erro WARN; saída: title, company, location (categories.location), salary (salaryRange), url (hostedUrl), description, date (createdAt epoch ms → ISO).
 
-#### 3.4 Conector Ashby
+#### 3.4 Conector Ashby — ✅ CONCLUÍDO
 
-- Endpoint: `POST https://jobs.ashbyhq.com/api/non-user-facing/job-board/job-posting/list` com body JSON: `{"organizationHostedJobsPageName": "{company_id}"}` (company_id = ats_id do companies.yaml).
-- Extrair do `config/companies.yaml` lista flat com `ats == "ashby"` (mesmo padrão Greenhouse/Lever).
-- Criar `src/collectors/ashby.py` com `collect_ashby(companies: list[dict]) -> list[dict]`.
-- Resposta Ashby: verificar documentação ou resposta real para campos (título, URL, descrição, localização, data). Filtrar por título (case insensitive: product manager, program manager, tpm, technical program).
-- Retornar dicts brutos alinhados ao schema: title, company (nome do yaml), location, salary (null ou valor se existir), url, description (texto sem HTML), date (ISO ou string).
-- Delay entre requests (ex.: 0,5s); 404/erros HTTP: logar `[fetch] WARN ashby/{ats_id}: {status} — slug inválido ou indisponível` e continuar.
-- Em `fetch.py`: na extração única após load_companies(), adicionar `ashby_companies`; incluir `("ashby", lambda: collect_ashby(ashby_companies))` no collectors_config; dry-run com "Lever" e "Ashby" e contagem de empresas por ATS.
-- Normalização via `normalize_job` (mesmo schema dos demais).
+- Coletor `src/collectors/ashby.py`: `collect_ashby(companies)`; POST `jobs.ashbyhq.com/.../job-posting/list` com body `{"organizationHostedJobsPageName": "{ats_id}"}`; mapeamento flexível (jobs/results/jobPostings; title/text; jobUrl/url; descriptionPlain/descriptionHtml; publishedAt/updatedAt); filtro por título; descrição sem HTML; 0,5s delay; 404/erro WARN; saída no mesmo schema.
 
 #### 3.5 Descoberta manual (src/discover.py)
 
-- Script separado, sem integração com o pipeline diário
-- Uso: rodar manualmente quando quiser prospectar novas empresas
-- Estratégia: queries Google `site:boards.greenhouse.io`, `site:jobs.lever.co`, `site:jobs.ashbyhq.com` com filtros de localização e título
-- Output: lista de sugestões com empresa + ATS + ID para adicionar ao `companies.yaml`
-- Nenhuma saída do `discover.py` entra no pipeline automaticamente — revisão manual obrigatória
+- **Objetivo:** Script separado para prospectar novas empresas-alvo; sem integração com o pipeline diário; revisão manual obrigatória antes de adicionar ao `companies.yaml`.
+- **Uso:** Rodar manualmente quando quiser expandir a lista de empresas (ex.: `python src/discover.py` ou `python src/discover.py --ats greenhouse`).
+- **Estratégia:** Queries de busca (ex.: Google) com `site:boards.greenhouse.io`, `site:jobs.lever.co`, `site:jobs.ashbyhq.com`; filtros por localização (remote, LATAM) e título (Product Manager, TPM). Opcional: limitar por ATS (`--ats greenhouse|lever|ashby`).
+- **Output:** Lista de sugestões com empresa + ATS + ats_id (slug) para revisão; formato legível (JSON ou texto) em `data/discover/` ou stdout; nenhuma alteração automática em `companies.yaml`.
+- **Implementação sugerida:** Módulo `src/discover.py` com função principal que aceita args (ATS opcional, limite de resultados); usa requests/selenium ou API de busca para obter URLs de job boards; extrai domínio/slug do ATS a partir da URL; dedupe contra empresas já presentes no `companies.yaml`; imprime ou grava sugestões. Não chamado por `fetch.py` nem por `daily.yml`.
 
 ---
 

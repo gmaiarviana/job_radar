@@ -9,5 +9,6 @@ from .weworkremotely import collect_weworkremotely
 from .jobicy import collect_jobicy
 from .greenhouse import collect_greenhouse
 from .lever import collect_lever
+from .ashby import collect_ashby
 
-__all__ = ["collect_remotive", "collect_openai_web_search", "collect_weworkremotely", "collect_jobicy", "collect_greenhouse", "collect_lever"]
+__all__ = ["collect_remotive", "collect_openai_web_search", "collect_weworkremotely", "collect_jobicy", "collect_greenhouse", "collect_lever", "collect_ashby"]
