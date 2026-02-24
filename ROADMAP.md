@@ -1,6 +1,6 @@
 # ROADMAP - Job Radar
 
-📡 **Status:** Épico 1 concluído. Épico 2 em andamento: 2.1, 2.2, 2.3 e 2.4 concluídos (refatoração multi-fonte + Remotive + We Work Remotely + Jobicy). Próximos: 2.5 Quality Guard, 2.6 métricas.
+📡 **Status:** Épico 1 concluído. Épico 2 concluído (2.1–2.6): multi-fonte, Quality Guard e métricas de cobertura. Próximo: Épico 3 (Greenhouse/empresas-alvo).
 
 > **Filosofia:** POC → Protótipo → MVP. Validar cada etapa antes de avançar.
 
@@ -12,101 +12,21 @@
 
 **Objetivo:** Validar a arquitetura fetch → score → commit com dados reais.
 
-**O que foi construído:**
-- `src/fetch.py` — busca via OpenAI web search (gpt-4o-mini-search-preview)
-- `src/score.py` — scoring via Claude Haiku com filtros eliminatórios e pesos
-- `daily.yml` — pipeline no GitHub Actions (seg-sex 9h UTC)
-- `config/profile.md`, `config/search.yaml` — configuração do candidato e parâmetros de busca
-- Deduplicação intra-run e cross-7-dias por título+empresa
-- Filtros eliminatórios: localização, nível, tipo de cargo, idioma
+**Resumo:** Pipeline fetch (OpenAI web search) + score (Claude Haiku) + GitHub Actions; config em `config/profile.md` e `config/search.yaml`; dedupe e filtros eliminatórios. Detalhes em [ARCHITECTURE.md](ARCHITECTURE.md).
 
-**Por que foi encerrado:**
-A arquitetura está validada. O problema identificado é a estratégia de coleta: OpenAI web search retorna volume baixo, duplicatas e JDs rasos. Não é um problema de scoring — é de input.
-
-**Decisão:** OpenAI web search desativado como fonte primária. Mantido como camada futura de descoberta (exploração semanal de novas empresas), não de coleta diária.
+**Decisão:** OpenAI web search desativado como fonte primária (volume baixo, JDs rasos). Mantido como camada futura de descoberta, não de coleta diária.
 
 ---
 
-### ÉPICO 2 (parcial): Fetch Multi-Fonte — 2.1, 2.2, 2.3 e 2.4 concluídos
+### ÉPICO 2: Fetch Multi-Fonte — 2.1 a 2.6 concluídos
 
-**O que foi construído:**
-- **2.1 Refatoração:** Pipeline com coletores independentes; schema único em `src/job_schema.py` (`id_hash`, `source`, `title`, `company`, `location`, `salary`, `jd_full`, `url`, `collected_at`, `date`); dedupe cross-fonte por `id_hash`; componentização em `src/job_schema.py`, `src/collectors/`, `src/fetch_pipeline.py`, `src/fetch.py` (CLI).
-- **2.2 Conector Remotive:** `src/collectors/remotive.py` — API Remotive, categorias `product` e `project-management`, filtro últimas 48h por `publication_date`.
-- **2.3 Conector We Work Remotely:** `src/collectors/weworkremotely.py` — RSS público (remote-management-and-finance), parse com `xml.etree.ElementTree`, filtro por título: product manager, program manager, TPM.
-- **2.4 Conector Jobicy:** `src/collectors/jobicy.py` — API Jobicy (`industry=product&count=50`), filtro últimas 48h por `pubDate`; fallback sem `industry` se API retornar 400; `jobIndustry` tratado como lista ou string.
-- Execução validada com venv; correção de encoding UTF-8 no console Windows para logs com emoji.
-
-**Lições aprendidas (evitar repetir):**
-- **Ambiente:** Sempre rodar com **venv** (ex.: `python -m venv .venv`); instalar deps antes de validar. Evita `ModuleNotFoundError` e garante reprodutibilidade.
-- **Windows:** Console cp1252 não imprime emojis → `UnicodeEncodeError`. Em `fetch.py` foi configurado stdout/stderr para UTF-8 quando o encoding não for utf-8. Em novos scripts CLI, preferir UTF-8 no início ou evitar emojis em logs.
-- **Testes:** Projeto ainda sem suíte de testes (pytest/test_*.py). Recomendação: adicionar pelo menos smoke test (ex.: `python src/fetch.py --dry-run`) ou testes unitários para `job_schema`, `filter_old_jobs`, `remove_duplicates` antes de seguir para 2.3+.
-- **Componentização:** Foi feita após 2.2. Na próxima vez, componentizar no primeiro épico que introduz múltiplas fontes (ex.: no 2.1) para não mover código duas vezes.
+**Resumo:** Pipeline com coletores independentes (Remotive, We Work Remotely, Jobicy, opcional OpenAI Search); schema único e dedupe em `job_schema` + `fetch_pipeline`; Quality Guard (JD/título/empresa) e métricas `coverage` no JSON de saída. Estrutura e componentes em [ARCHITECTURE.md](ARCHITECTURE.md). Lições de ambiente, Windows e testes: *ibid.* (Notas de desenvolvimento).
 
 ---
 
 ## 📍 Próximos Épicos
 
----
-
-### ÉPICO 2: Fetch Multi-Fonte — APIs e RSS Públicos (restante)
-
-**Objetivo:** Substituir o fetch atual por fontes estruturadas gratuitas, garantindo volume e diversidade reais de vagas diárias.
-
-**Dependência:** Épico 1 concluído.
-
-**Critério de aceite:**
-- Mínimo 20 vagas únicas por dia (empresas distintas)
-- Zero duplicatas intra-run
-- 100% dos jobs com JD ≥ 500 caracteres antes de chegar no scoring
-- Campo `source` preenchido em cada job
-- `fetch.py` refatorado para arquitetura multi-fonte com coletores independentes
-
-#### ~~2.1 Refatoração do fetch.py~~ ✅
-
-- Arquitetura: coletores independentes por fonte, agregados em um pipeline único
-- Normalização obrigatória: todo job vira o mesmo schema independente da fonte
-- Schema mínimo: `id_hash`, `source`, `title`, `company`, `location`, `salary`, `jd_full`, `url`, `collected_at`, `date`
-- `id_hash` baseado em `company + title` (case insensitive) para dedupe cross-fonte
-
-#### ~~2.2 Conector Remotive~~ ✅
-
-- Endpoint: `https://remotive.com/api/remote-jobs?category=product&limit=100`
-- Categorias: `product`, `project-management`
-- Filtro de recência: últimas 48h (usar campo `publication_date`)
-
-#### ~~2.3 Conector We Work Remotely~~ ✅
-
-- Fonte: RSS feed público (`https://weworkremotely.com/categories/remote-management-and-finance-jobs.rss`)
-- Parser RSS com `urllib` + `xml.etree.ElementTree` (stdlib)
-- Filtro por keywords no título: product manager, program manager, TPM
-
-#### ~~2.4 Conector Jobicy~~ ✅
-
-- Endpoint: `https://jobicy.com/api/v2/remote-jobs?industry=product&count=50`
-- API pública, sem key
-- Filtro de recência: últimas 48h
-
-#### 2.5 Quality Guard (pré-scoring)
-
-- JD < 500 caracteres → descartado com log
-- Título vazio ou genérico (ex: "Opportunity", "Job Opening") → descartado com log
-- Empresa não detectada → descartado com log
-- Log de descartados salvo em `data/raw/YYYY-MM-DD_discarded.json`
-
-#### 2.6 Métricas de cobertura (no output do fetch)
-
-Adicionar ao JSON de saída:
-```json
-"coverage": {
-  "sources": ["remotive", "weworkremotely", "jobicy"],
-  "total_raw": 85,
-  "total_after_recent_filter": 42,
-  "total_after_dedup": 38,
-  "total_after_quality_guard": 35,
-  "companies_distinct": 31,
-  "discarded_low_quality": 3
-}
-```
+*(Épico 2 concluído — ver seção Concluído acima.)*
 
 ---
 

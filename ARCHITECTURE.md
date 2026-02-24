@@ -28,7 +28,7 @@ graph TD
 
 | Componente | Script / Módulo | Modelo/Motor | Papel |
 | :--- | :--- | :--- | :--- |
-| **Search** | `src/fetch.py` (CLI) + `job_schema.py` + `fetch_pipeline.py` + `collectors/*` | OpenAI Search, Remotive API, We Work Remotely RSS | Orquestra coletores, normaliza para schema único, dedupe por `id_hash`, grava em `data/raw/`. |
+| **Search** | `src/fetch.py` (CLI) + `job_schema.py` + `fetch_pipeline.py` + `collectors/*` | OpenAI Search, Remotive API, We Work Remotely RSS, Jobicy | Orquestra coletores, normaliza para schema único, dedupe por `id_hash`, quality guard, métricas de cobertura no JSON, grava em `data/raw/`. |
 | **Score** | `src/score.py` | Claude Haiku | Processo em 2 etapas: Eliminatórios (batch) e Deep Scoring (individual) contra o `config/profile.md`. |
 | **Interface** | `app.py` | Streamlit | UI para revisão, feedback e acionamento de geração. |
 | **Writer** | `src/generate.py`| Claude Sonnet | Redação de alta qualidade para CV e Cover Letter. |
@@ -55,11 +55,12 @@ job-radar/
 ├── src/
 │   ├── fetch.py                 # CLI: orquestra coletores e grava raw
 │   ├── job_schema.py            # Schema único + make_id_hash, normalize_job
-│   ├── fetch_pipeline.py        # run_pipeline, remove_duplicates, filter_old_jobs, load_config
+│   ├── fetch_pipeline.py        # run_pipeline, remove_duplicates, filter_old_jobs, apply_quality_guard, load_config
 │   ├── collectors/              # Um módulo por fonte de vagas
 │   │   ├── __init__.py
 │   │   ├── remotive.py          # API Remotive (product, project-management; 48h)
 │   │   ├── weworkremotely.py    # RSS We Work Remotely (management/finance; filtro PM/TPM)
+│   │   ├── jobicy.py            # API Jobicy (industry=product; 48h)
 │   │   └── openai_search.py    # OpenAI gpt-4o-mini web search
 │   ├── score.py                 # Scoring via Claude Haiku
 │   ├── generate.py              # Writer via Claude Sonnet
@@ -70,7 +71,7 @@ job-radar/
 │   ├── resume_base.md           # Templates modulares de currículo
 │   └── search.yaml              # Parâmetros de busca e pesos
 ├── data/
-│   ├── raw/                     # JSONs brutos (YYYY-MM-DD_HHMMSS.json)
+│   ├── raw/                     # JSONs brutos (YYYY-MM-DD_HHMMSS.json); inclui "coverage" com métricas por etapa
 │   ├── scored/                  # JSONs filtrados (YYYY-MM-DD_HHMMSS.json)
 │   ├── feedback/                # Feedback 👍/👎 (local)
 │   └── output/                  # PDFs gerados
