@@ -1,6 +1,6 @@
 # ROADMAP - Job Radar
 
-📡 **Status:** Épico 1 concluído (arquitetura base validada). Iniciando Épico 2 (fetch multi-fonte).
+📡 **Status:** Épico 1 concluído. Épico 2 em andamento: 2.1 e 2.2 concluídos (refatoração multi-fonte + conector Remotive). Próximos: 2.3 We Work Remotely, 2.4 Jobicy, 2.5 Quality Guard, 2.6 métricas.
 
 > **Filosofia:** POC → Protótipo → MVP. Validar cada etapa antes de avançar.
 
@@ -27,11 +27,26 @@ A arquitetura está validada. O problema identificado é a estratégia de coleta
 
 ---
 
+### ÉPICO 2 (parcial): Fetch Multi-Fonte — 2.1 e 2.2 concluídos
+
+**O que foi construído:**
+- **2.1 Refatoração:** Pipeline com coletores independentes; schema único em `src/job_schema.py` (`id_hash`, `source`, `title`, `company`, `location`, `salary`, `jd_full`, `url`, `collected_at`, `date`); dedupe cross-fonte por `id_hash`; componentização em `src/job_schema.py`, `src/collectors/`, `src/fetch_pipeline.py`, `src/fetch.py` (CLI).
+- **2.2 Conector Remotive:** `src/collectors/remotive.py` — API Remotive, categorias `product` e `project-management`, filtro últimas 48h por `publication_date`.
+- Execução validada com venv; correção de encoding UTF-8 no console Windows para logs com emoji.
+
+**Lições aprendidas (evitar repetir):**
+- **Ambiente:** Sempre rodar com **venv** (ex.: `python -m venv .venv`); instalar deps antes de validar. Evita `ModuleNotFoundError` e garante reprodutibilidade.
+- **Windows:** Console cp1252 não imprime emojis → `UnicodeEncodeError`. Em `fetch.py` foi configurado stdout/stderr para UTF-8 quando o encoding não for utf-8. Em novos scripts CLI, preferir UTF-8 no início ou evitar emojis em logs.
+- **Testes:** Projeto ainda sem suíte de testes (pytest/test_*.py). Recomendação: adicionar pelo menos smoke test (ex.: `python src/fetch.py --dry-run`) ou testes unitários para `job_schema`, `filter_old_jobs`, `remove_duplicates` antes de seguir para 2.3+.
+- **Componentização:** Foi feita após 2.2. Na próxima vez, componentizar no primeiro épico que introduz múltiplas fontes (ex.: no 2.1) para não mover código duas vezes.
+
+---
+
 ## 📍 Próximos Épicos
 
 ---
 
-### ÉPICO 2: Fetch Multi-Fonte — APIs e RSS Públicos
+### ÉPICO 2: Fetch Multi-Fonte — APIs e RSS Públicos (restante)
 
 **Objetivo:** Substituir o fetch atual por fontes estruturadas gratuitas, garantindo volume e diversidade reais de vagas diárias.
 
@@ -44,14 +59,14 @@ A arquitetura está validada. O problema identificado é a estratégia de coleta
 - Campo `source` preenchido em cada job
 - `fetch.py` refatorado para arquitetura multi-fonte com coletores independentes
 
-#### 2.1 Refatoração do fetch.py
+#### ~~2.1 Refatoração do fetch.py~~ ✅
 
 - Arquitetura: coletores independentes por fonte, agregados em um pipeline único
 - Normalização obrigatória: todo job vira o mesmo schema independente da fonte
 - Schema mínimo: `id_hash`, `source`, `title`, `company`, `location`, `salary`, `jd_full`, `url`, `collected_at`, `date`
 - `id_hash` baseado em `company + title` (case insensitive) para dedupe cross-fonte
 
-#### 2.2 Conector Remotive
+#### ~~2.2 Conector Remotive~~ ✅
 
 - Endpoint: `https://remotive.com/api/remote-jobs?category=product&limit=100`
 - Categorias: `product`, `project-management`

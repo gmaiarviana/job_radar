@@ -64,12 +64,13 @@ Para facilitar o trabalho de agentes de IA:
 ```powershell
 git clone <repo-url>
 cd job-radar
-python -m venv venv
-.\venv\Scripts\Activate.ps1
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
 cp .env.example .env
 # Adicione suas API keys no .env
 ```
+Para validar o pipeline de fetch: `python src/fetch.py --dry-run`
 
 ### Uso Diário
 

@@ -10,8 +10,10 @@ O sistema é dividido em um pipeline de dados (nuvem/Actions) e uma interface de
 
 ```mermaid
 graph TD
-    A[GitHub Actions - Cloud] -->|Cron/Manual| B[fetch.py - OpenAI Web Search]
-    B -->|raw JSON| C[score.py Stage 1 - Eliminatórios]
+    A[GitHub Actions - Cloud] -->|Cron/Manual| B[fetch.py - Pipeline multi-fonte]
+    B -->|coletores| B1[OpenAI Search + Remotive API]
+    B1 -->|raw| B2[job_schema + fetch_pipeline]
+    B2 -->|raw JSON| C[score.py Stage 1 - Eliminatórios]
     C -->|surviving jobs| D[score.py Stage 2 - Deep Score]
     D -->|scored JSON| E[git commit/push]
     
@@ -24,9 +26,9 @@ graph TD
 
 ### Componentes e Responsabilidades
 
-| Componente | Script | Modelo/Motor | Papel |
+| Componente | Script / Módulo | Modelo/Motor | Papel |
 | :--- | :--- | :--- | :--- |
-| **Search** | `src/fetch.py` | GPT-4o-mini + Search | Navega em LinkedIn, Indeed, etc., para buscar vagas brutas. |
+| **Search** | `src/fetch.py` (CLI) + `job_schema.py` + `fetch_pipeline.py` + `collectors/*` | OpenAI Search, Remotive API | Orquestra coletores, normaliza para schema único, dedupe por `id_hash`, grava em `data/raw/`. |
 | **Score** | `src/score.py` | Claude Haiku | Processo em 2 etapas: Eliminatórios (batch) e Deep Scoring (individual) contra o `config/profile.md`. |
 | **Interface** | `app.py` | Streamlit | UI para revisão, feedback e acionamento de geração. |
 | **Writer** | `src/generate.py`| Claude Sonnet | Redação de alta qualidade para CV e Cover Letter. |
@@ -36,7 +38,7 @@ graph TD
 
 | Decisão | Escolha | Motivo |
 | :--- | :--- | :--- |
-| **Busca de vagas** | OpenAI GPT-4o-mini + Search (implementação atual) | Cobertura via web search; evolução planejada em ROADMAP. |
+| **Busca de vagas** | Pipeline multi-fonte: OpenAI Search + Remotive (Épico 2); mais fontes no ROADMAP. | Coletores independentes; schema único; dedupe cross-fonte. |
 | **Scoring** | Claude Haiku | Rápido e barato para análise de texto longo. |
 | **Geração de materiais** | Claude Sonnet | Escrita superior e tom profissional. |
 | **Interface** | Streamlit Local | Agilidade no desenvolvimento e custo zero de hospedagem. |
@@ -51,10 +53,16 @@ graph TD
 job-radar/
 ├── app.py                       # Interface Streamlit principal
 ├── src/
-│   ├── fetch.py                 # Core: Busca via OpenAI Search
-│   ├── score.py                 # Core: Scoring via Claude Haiku
-│   ├── generate.py              # Core: Writer via Claude Sonnet
-│   └── notify.py                # Utilitário: Alertas SMTP
+│   ├── fetch.py                 # CLI: orquestra coletores e grava raw
+│   ├── job_schema.py            # Schema único + make_id_hash, normalize_job
+│   ├── fetch_pipeline.py        # run_pipeline, remove_duplicates, filter_old_jobs, load_config
+│   ├── collectors/              # Um módulo por fonte de vagas
+│   │   ├── __init__.py
+│   │   ├── remotive.py          # API Remotive (product, project-management; 48h)
+│   │   └── openai_search.py     # OpenAI gpt-4o-mini web search
+│   ├── score.py                 # Scoring via Claude Haiku
+│   ├── generate.py              # Writer via Claude Sonnet
+│   └── notify.py                # Alertas SMTP
 ├── config/
 │   ├── career_narrative.md      # Fonte de verdade da carreira
 │   ├── profile.md               # Perfil condensado para LLMs
@@ -72,9 +80,17 @@ job-radar/
 ## ⚙️ Infraestrutura e Ambiente
 
 - **Linguagem**: Python 3.11+
-- **APIs**: OpenAI (Search Preview), Anthropic (Claude).
-- **Ambiente**: Produção simulada via GitHub Actions; Consumo via Streamlit local.
+- **APIs**: OpenAI (Search Preview), Remotive (pública, sem key), Anthropic (Claude).
+- **Ambiente**: Produção simulada via GitHub Actions; Consumo via Streamlit local. Usar **venv** para desenvolvimento e validação (`python -m venv .venv` ou `venv`).
 - **Segurança**: Chaves de API via `.env` (local) e Secrets (GitHub).
+
+---
+
+## 📋 Notas de desenvolvimento
+
+- **Venv:** Sempre rodar com ambiente virtual e `pip install -r requirements.txt` antes de validar; evita `ModuleNotFoundError` em máquinas novas.
+- **Windows / encoding:** O console (cp1252) pode gerar `UnicodeEncodeError` em logs com emoji. Em `fetch.py` o stdout/stderr é forçado para UTF-8 quando necessário; em novos scripts CLI, repetir o padrão ou evitar emojis.
+- **Testes:** O projeto ainda não tem suíte automatizada (pytest). Recomenda-se adicionar smoke test (`python src/fetch.py --dry-run`) ou testes unitários para `job_schema` e pipeline antes de escalar novos coletores.
 
 ---
 **Última atualização:** 23 de Fevereiro de 2026
