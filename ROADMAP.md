@@ -65,18 +65,21 @@ companies:
       ats_id: "lemoncash"
 ```
 
-#### 3.2 Conector Greenhouse
+#### 3.2 Conector Greenhouse — ✅ CONCLUÍDO
 
-- Endpoint público: `https://boards-api.greenhouse.io/v1/boards/{company_id}/jobs`
-- Sem API key necessária
-- Filtro por título no lado do cliente (keywords: product manager, TPM, program manager)
-- Fetch do JD completo via `GET /jobs/{id}` (endpoint separado)
+- Coletor `src/collectors/greenhouse.py`: `collect_greenhouse(companies)`; lista flat de empresas com `ats == "greenhouse"`; GET boards/{ats_id}/jobs → filtro por título (product manager, program manager, tpm, technical program) → GET job/{id} para content; 0,5s delay; 404/erro logado como WARN; saída no mesmo schema (title, company, location, salary=null, url, description, date).
 
 #### 3.3 Conector Lever
 
-- Endpoint público: `https://api.lever.co/v0/postings/{company_id}?mode=json`
-- Mesma lógica de filtro por título
-- Integração com mesmo schema de normalização
+- Endpoint público: `https://api.lever.co/v0/postings/{company_id}?mode=json` (retorna lista de postings).
+- Extrair do `config/companies.yaml` lista flat de empresas com `ats == "lever"` (mesmo padrão do Greenhouse).
+- Criar `src/collectors/lever.py` com `collect_lever(companies: list[dict]) -> list[dict]`.
+- Para cada empresa: GET postings; filtrar por título (case insensitive: product manager, program manager, tpm, technical program).
+- Cada posting Lever pode incluir descrição no próprio listing; se houver endpoint de detalhe por ID, usá-lo para JD completo; senão usar campo disponível no listing.
+- Retornar dicts brutos com: title, company (nome do yaml), location, salary (null ou valor se disponível), url, description, date (updatedAt ou createdAt).
+- Delay entre requests (ex.: 0,5s); 404/erros HTTP: logar `[fetch] WARN lever/{ats_id}: {status} — slug inválido ou indisponível` e continuar.
+- Em `fetch.py`: após carregar companies, extrair `lever_companies`, adicionar `("lever", lambda: collect_lever(lever_companies))` ao `collectors_config`; incluir "lever" no dry-run e mostrar número de empresas Lever configuradas.
+- Normalização via `normalize_job` em `fetch_pipeline` (mesmo schema dos demais coletores).
 
 #### 3.4 Conector Ashby
 

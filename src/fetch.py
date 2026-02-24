@@ -42,6 +42,7 @@ from src.collectors.remotive import collect_remotive
 from src.collectors.openai_search import collect_openai_web_search
 from src.collectors.weworkremotely import collect_weworkremotely
 from src.collectors.jobicy import collect_jobicy
+from src.collectors.greenhouse import collect_greenhouse
 
 load_dotenv()
 
@@ -87,12 +88,17 @@ def main():
         print(f"{LOG_PREFIX} 🧪 MODO DRY-RUN")
         print(f"  Roles: {roles}")
         print(f"  Locations: {locations}")
-        print(f"  Coletores: openai_web_search, remotive, weworkremotely, jobicy")
+        print(f"  Coletores: openai_web_search, remotive, weworkremotely, jobicy, greenhouse")
         try:
             companies_data = load_companies()
             n_sectors = len(companies_data["companies"])
             n_companies = sum(len(entries) for entries in companies_data["companies"].values())
+            greenhouse_companies = [
+                c for entries in companies_data["companies"].values()
+                for c in entries if isinstance(c, dict) and (c.get("ats") or "").strip().lower() == "greenhouse"
+            ]
             print(f"  Empresas-alvo (3.1): {n_companies} em {n_sectors} setores (config/companies.yaml)")
+            print(f"  Greenhouse: {len(greenhouse_companies)} empresas configuradas")
         except Exception:
             pass  # opcional; não falha dry-run se companies.yaml ausente
         print(f"  Saída: {output_path}")
@@ -114,6 +120,17 @@ def main():
     collectors_config.append(("remotive", collect_remotive))
     collectors_config.append(("weworkremotely", collect_weworkremotely))
     collectors_config.append(("jobicy", collect_jobicy))
+
+    try:
+        companies_data = load_companies()
+        greenhouse_companies = [
+            c for entries in companies_data["companies"].values()
+            for c in entries if isinstance(c, dict) and (c.get("ats") or "").strip().lower() == "greenhouse"
+        ]
+        if greenhouse_companies:
+            collectors_config.append(("greenhouse", lambda: collect_greenhouse(greenhouse_companies)))
+    except Exception as e:
+        print(f"{LOG_PREFIX} ! Empresas-alvo (greenhouse) não carregadas: {e}")
 
     if not collectors_config:
         print(f"{LOG_PREFIX} ✗ Nenhum coletor disponível. Abortando.")
