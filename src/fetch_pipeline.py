@@ -99,3 +99,59 @@ def filter_old_jobs(jobs: list[dict]) -> list[dict]:
     if discarded > 0:
         print(f"{LOG_PREFIX} ⏳ Descartadas {discarded} vagas antigas (> 14 dias).")
     return filtered
+
+
+# --- 2.5 Quality Guard (pré-scoring) ---
+MIN_JD_LENGTH = 500
+GENERIC_TITLES = frozenset(
+    s.strip().lower()
+    for s in (
+        "opportunity",
+        "job opening",
+        "job",
+        "position",
+        "remote",
+        "new job",
+        "open position",
+    )
+)
+
+
+def _quality_guard_reason(job: dict) -> str | None:
+    """
+    Retorna o motivo de descarte ou None se o job passar no quality guard.
+    """
+    jd = (job.get("jd_full") or "").strip()
+    if len(jd) < MIN_JD_LENGTH:
+        return "jd_too_short"
+
+    title = (job.get("title") or "").strip()
+    if not title:
+        return "title_empty"
+    if title.lower() in GENERIC_TITLES:
+        return "title_generic"
+
+    company = (job.get("company") or "").strip()
+    if not company:
+        return "company_empty"
+
+    return None
+
+
+def apply_quality_guard(jobs: list[dict]) -> tuple[list[dict], list[dict]]:
+    """
+    Pré-scoring: descarta jobs com JD < 500 chars, título vazio/genérico ou empresa vazia.
+    Retorna (jobs_que_passaram, lista_de_descartados).
+    Cada item em descartados é o job com campo extra "discard_reason" para o log.
+    """
+    kept: list[dict] = []
+    discarded: list[dict] = []
+
+    for job in jobs:
+        reason = _quality_guard_reason(job)
+        if reason is None:
+            kept.append(job)
+        else:
+            discarded.append({**job, "discard_reason": reason})
+
+    return kept, discarded

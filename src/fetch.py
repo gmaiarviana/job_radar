@@ -28,7 +28,13 @@ if __name__ == "__main__":
 from dotenv import load_dotenv
 from openai import OpenAI
 
-from src.fetch_pipeline import load_config, run_pipeline, remove_duplicates, filter_old_jobs
+from src.fetch_pipeline import (
+    load_config,
+    run_pipeline,
+    remove_duplicates,
+    filter_old_jobs,
+    apply_quality_guard,
+)
 from src.collectors.remotive import collect_remotive
 from src.collectors.openai_search import collect_openai_web_search
 from src.collectors.weworkremotely import collect_weworkremotely
@@ -94,9 +100,54 @@ def main():
 
     print(f"{LOG_PREFIX} 🚀 Pipeline multi-fonte para {args.date}...")
     jobs = run_pipeline(collectors_config)
+    total_raw = len(jobs)
+
     if jobs:
         jobs = filter_old_jobs(jobs)
+    total_after_recent_filter = len(jobs)
+
+    if jobs:
         jobs = remove_duplicates(jobs, output_dir)
+    total_after_dedup = len(jobs)
+
+    jobs, discarded = apply_quality_guard(jobs)
+    total_after_quality_guard = len(jobs)
+    discarded_low_quality = len(discarded)
+
+    if discarded:
+        discarded_path = output_dir / f"{args.date}_{timestamp}_discarded.json"
+        by_reason: dict[str, int] = {}
+        for item in discarded:
+            r = item.get("discard_reason", "unknown")
+            by_reason[r] = by_reason.get(r, 0) + 1
+        with open(discarded_path, "w", encoding="utf-8") as f:
+            json.dump(
+                {
+                    "date": args.date,
+                    "discarded_at": datetime.now(timezone.utc).isoformat(),
+                    "total": len(discarded),
+                    "by_reason": by_reason,
+                    "items": discarded,
+                },
+                f,
+                ensure_ascii=False,
+                indent=2,
+            )
+        parts = [f"{v} {k}" for k, v in sorted(by_reason.items())]
+        print(f"{LOG_PREFIX} 🛡️ Quality guard: {len(discarded)} descartados ({', '.join(parts)}). Log em {discarded_path}")
+
+    companies_distinct = len(
+        {s for s in ((j.get("company") or "").strip() for j in jobs) if s}
+    )
+    coverage = {
+        "sources": [name for name, _ in collectors_config],
+        "total_raw": total_raw,
+        "total_after_recent_filter": total_after_recent_filter,
+        "total_after_dedup": total_after_dedup,
+        "total_after_quality_guard": total_after_quality_guard,
+        "companies_distinct": companies_distinct,
+        "discarded_low_quality": discarded_low_quality,
+    }
 
     output_data = {
         "fetched_at": datetime.now(timezone.utc).isoformat(),
@@ -107,6 +158,7 @@ def main():
             "lookback_hours": lookback_hours,
             "sources": [name for name, _ in collectors_config],
         },
+        "coverage": coverage,
         "total_jobs": len(jobs),
         "jobs": jobs,
     }
