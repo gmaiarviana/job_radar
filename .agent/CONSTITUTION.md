@@ -46,10 +46,156 @@ Princípios fundamentais e responsabilidades para o desenvolvimento deste projet
 - ✅ Atualiza `ARCHITECTURE.md` a cada mudança estrutural.
 - ✅ Segue o `closure_protocol.md` ao finalizar cada funcionalidade.
 - ✅ Mantém o `ROADMAP.md` sincronizado (limpando o passado e detalhando o próximo passo).
+- ✅ Pode trabalhar em paralelo com outros agentes quando o épico for refinado em tarefas independentes (sub-itens com critérios de aceite próprios).
+
+**Não deve:**
+- ❌ Refinar épicos (é papel do Claude Web).
+- ❌ Tomar decisões arquiteturais sem base em ROADMAP/ARCHITECTURE.
 
 ---
 
-## 3. AMBIENTE TÉCNICO
+## 3. PROCESSO DE REFINAMENTO
+
+Objetivo: Detalhar épicos e funcionalidades para que múltiplos agentes possam trabalhar em paralelo com prompts claros e critérios de aceite explícitos.
+
+### Input esperado (você fornece)
+- Comportamento desejado OU problema existente.
+- Contexto: épico novo, ajuste em épico atual, ou discussão de prioridade.
+
+### Claude Web deve
+
+**1. Análise contextual**
+- Consultar `ROADMAP.md` (épicos anteriores, padrão de sub-itens, dependências).
+- Consultar `ARCHITECTURE.md` (fluxo atual, componentes).
+- Consultar `decision_map.md` (onde cada informação mora).
+- Identificar onde o comportamento está documentado (ou pedir para ver).
+
+**2. Clarificação**
+- Fazer perguntas específicas (volume, fontes, critérios de sucesso).
+- Validar entendimento.
+- Apontar trade-offs técnicos (ex.: mais fontes vs tempo de pipeline).
+
+**3. Recomendação**
+- Oferecer opções (A, B, C) quando houver trade-off.
+- Recomendar com base em ROADMAP e ARCHITECTURE.
+- Justificar recomendação.
+
+**4. Refino para trabalho paralelo**
+- Quebrar épicos em sub-itens com critérios de aceite próprios (ex.: 2.1, 2.2, 2.3).
+- Marcar dependências entre sub-itens (ex.: 2.5 depende de 2.1–2.4).
+- Gerar **um Prompt de Execução por sub-item** (ou por grupo que possa rodar em paralelo), para que diferentes agentes possam pegar cada prompt sem conflito.
+
+**5. Gerar prompts**
+- Múltiplos prompts (1 por arquivo ou 1 por tarefa independente).
+- Ordem de execução clara quando houver dependência.
+- Instruções enxutas (o executor pensa também).
+- Incluir lembrete do `closure_protocol.md` no fechamento.
+
+**6. Validação**
+- Confirmar que os prompts cobrem o épico sem lacunas.
+- Verificar se nada foi esquecido (docs, config, testes).
+
+### Output esperado (Claude Web gera)
+
+```
+PROMPT 1: [ROADMAP.md ou spec]
+[instruções enxutas]
+PROMPT 2: [ARCHITECTURE.md ou src/ X]
+[instruções enxutas]
+PROMPT 3: [outro arquivo]
+[instruções enxutas]
+---
+Ordem: 1 → 2 e 3 em paralelo (quando aplicável).
+Fechamento: seguir closure_protocol.md.
+```
+
+---
+
+## 4. O QUE PROPOR (Guidelines de refinamento)
+
+### Ao refinar épico novo
+- ✅ Consultar `ROADMAP.md` (padrão dos épicos anteriores: objetivo, dependência, critério de aceite global, sub-itens numerados).
+- ✅ Propor sub-itens com critérios de aceite claros por sub-item (permite paralelização).
+- ✅ Perguntar sobre trade-offs (ex.: cobertura vs latência, simplicidade vs flexibilidade).
+- ✅ Sugerir divisão POC → Protótipo → MVP quando fizer sentido.
+- ✅ Indicar quais sub-itens podem ser executados em paralelo e quais dependem de outros.
+
+### Ao discutir comportamento existente
+- ✅ Identificar onde está documentado (`decision_map.md`, ROADMAP, ARCHITECTURE, `src/`).
+- ✅ Analisar impacto (quais arquivos precisam ser atualizados).
+- ✅ Propor mudança de spec + prompts para todos os arquivos afetados.
+- ✅ Gerar prompts que permitam execução paralela quando possível.
+
+### Ao propor melhorias
+- ✅ Ser proativo quando ROADMAP/ARCHITECTURE forem claros.
+- ✅ Oferecer opções quando houver trade-offs.
+- ✅ Justificar com base em ROADMAP ou ARCHITECTURE.
+
+---
+
+## 5. MAPA DE REFINAMENTO
+
+| Se você quer... | Consultar... | Gerar prompts para... |
+|----------------|--------------|------------------------|
+| **Refinar épico novo** | ROADMAP.md (épicos anteriores) + ARCHITECTURE.md + decision_map.md | ROADMAP.md + [specs novas se necessário] + ARCHITECTURE.md se mudar fluxo |
+| **Discutir fetch / fontes** | ROADMAP.md (Épicos 2–3) + ARCHITECTURE.md + `src/fetch.py` | ROADMAP.md + ARCHITECTURE.md + `src/` e/ou `config/` |
+| **Discutir scoring** | ROADMAP.md (Épico 4) + `config/search.yaml` + `src/score.py` | ROADMAP.md + config/search.yaml + src/score.py |
+| **Discutir pipeline / CI** | `.github/workflows/daily.yml` + ROADMAP.md (Épico 7) | daily.yml + ROADMAP.md + ARCHITECTURE.md |
+| **Discutir interface (Streamlit)** | ROADMAP.md (Épico 5) + ARCHITECTURE.md | ROADMAP.md + ARCHITECTURE.md + código da UI |
+| **Discutir geração (CV/CL)** | ROADMAP.md (Épico 6) + config (resume_base, cover_letter_template) | ROADMAP.md + config/ + src/generate.py |
+| **Revisar processo de refinamento** | Este arquivo (CONSTITUTION.md) | .agent/CONSTITUTION.md |
+| **Revisar fechamento de tarefas** | closure_protocol.md | .agent/closure_protocol.md |
+
+---
+
+## 6. ANTI-PADRÕES (O que não fazer)
+
+### ❌ Duplicar informação
+- Cada informação vive em um lugar só (ver `decision_map.md`).
+- Outros documentos referenciam: "Ver detalhes em...".
+- Não copiar specs entre ROADMAP e ARCHITECTURE; ROADMAP = futuro, ARCHITECTURE = presente.
+
+### ❌ Atualizar documentação diretamente (Claude Web)
+- Claude Web **não** atualiza docs nem código; gera prompts.
+- Quem aplica nas docs/código: Cursor ou Antigravity (conforme o prompt).
+
+### ❌ Assumir sem base
+- Sempre consultar ROADMAP.md e ARCHITECTURE.md.
+- Perguntar se incerto.
+- Não inventar padrões.
+
+### ❌ Prompts verbosos
+- Enxuto > detalhado (o executor pensa também).
+- Instruções claras e suficientes.
+- Evitar microgerenciamento.
+
+### ❌ Ignorar paralelização
+- Ao refinar, indicar sub-itens independentes e gerar um prompt por sub-item quando possível, para permitir trabalho em paralelo.
+
+---
+
+## 7. DOCUMENTOS ESSENCIAIS
+
+### Para refinamento (enviar / ter à mão)
+1. **CONSTITUTION.md** (este arquivo) — Princípios, responsabilidades, processo de refinamento, mapa.
+2. **ROADMAP.md** — Épicos, status, sub-itens e critérios de aceite.
+3. **ARCHITECTURE.md** — Estado atual do sistema (fluxo, componentes).
+4. **decision_map.md** — Onde cada informação mora (Single Source of Truth).
+5. **closure_protocol.md** — Checklist de fechamento (lembrete nos prompts).
+
+### Consultados sob demanda
+- **Config:** `config/profile.md`, `config/search.yaml`, `config/companies.yaml` (quando existir), templates.
+- **Código:** `src/fetch.py`, `src/score.py`, `src/generate.py`, pipeline em `.github/workflows/`.
+
+---
+
+## 8. LOCALIZAÇÃO DESTE DOCUMENTO
+
+Este arquivo fica em **`.agent/`** por convenção: instruções e protocolos de agente vivem em `.agent/`. Os princípios e o processo de refinamento aplicam-se a Claude Web (estratégia), Cursor e Antigravity (execução). Não é necessário mover para a raiz; a raiz mantém README, ROADMAP e ARCHITECTURE para visibilidade do projeto.
+
+---
+
+## 9. AMBIENTE TÉCNICO
 
 - **OS**: Windows
 - **Shell**: PowerShell (usar `;` para encadear comandos).
