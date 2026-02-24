@@ -11,10 +11,11 @@ O sistema é dividido em um pipeline de dados (nuvem/Actions) e uma interface de
 ```mermaid
 graph TD
     A[GitHub Actions - Cloud] -->|Cron/Manual| B[fetch.py - OpenAI Web Search]
-    B -->|raw JSON| C[score.py - Claude Haiku]
-    C -->|scored JSON| D[git commit/push]
+    B -->|raw JSON| C[score.py Stage 1 - Eliminatórios]
+    C -->|surviving jobs| D[score.py Stage 2 - Deep Score]
+    D -->|scored JSON| E[git commit/push]
     
-    E[Streamlit - Local] -->|git pull| D
+    F[Streamlit - Local] -->|git pull| E
     E -->|Visualiza| F[app.py]
     F -->|Clique: Preparar| G[generate.py - Claude Sonnet]
     G -->|PDFs| H[data/output/]
@@ -26,7 +27,7 @@ graph TD
 | Componente | Script | Modelo/Motor | Papel |
 | :--- | :--- | :--- | :--- |
 | **Search** | `src/fetch.py` | GPT-4o-mini + Search | Navega em LinkedIn, Indeed, etc., para buscar vagas brutas. |
-| **Score** | `src/score.py` | Claude Haiku | Avalia vagas contra o `config/profile.md` (Custo-benefício). |
+| **Score** | `src/score.py` | Claude Haiku | Processo em 2 etapas: Eliminatórios (batch) e Deep Scoring (individual) contra o `config/profile.md`. |
 | **Interface** | `app.py` | Streamlit | UI para revisão, feedback e acionamento de geração. |
 | **Writer** | `src/generate.py`| Claude Sonnet | Redação de alta qualidade para CV e Cover Letter. |
 | **Notifier** | `src/notify.py` | SMTP | Alertas imediatos para `PERFECT_MATCH` (score > 95). |
@@ -76,6 +77,6 @@ job-radar/
 - **Segurança**: Chaves de API via `.env` (local) e Secrets (GitHub).
 
 ---
-**Última atualização:** 23 de Fevereiro de 2026
+**Última atualização:** 23 de Fevereiro de 2026 (v1.6 - Two-stage Scoring)
 
 

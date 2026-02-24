@@ -59,50 +59,35 @@ def load_profile(profile_path):
         raise FileNotFoundError(f"Perfil não encontrado em: {profile_path}")
     return path.read_text(encoding="utf-8")
 
-def score_jobs(client, jobs, profile_content):
+def check_eliminatorios(client, jobs, profile_content):
     """
-    Pontua uma lista de vagas usando Claude Haiku.
+    Filtra vagas em batch usando Claude Haiku para critérios eliminatórios.
+    Retorna (passed_jobs, eliminated_jobs)
     """
     if not jobs:
-        return []
+        return [], []
 
     system_prompt = f"""
-Você é um recrutador técnico especialista em Product Management e Technical Program Management.
-Sua tarefa é avaliar vagas de emprego para um candidato específico com base no perfil fornecido abaixo.
+Você é um recrutador técnico. Analise a lista de vagas abaixo e verifique se atendem aos critérios eliminatórios do candidato.
 
-# PERFIL DO CANDIDATO
+# PERFIL DO CANDIDATO (CRITÉRIOS)
 {profile_content}
 
-# INSTRUÇÕES DE SCORING (RIGOROSAS)
-Avali cada vaga em uma escala de 0 a 100. Seja extremamente rigoroso.
-
-1. **Localização (ELIMINATÓRIO):** 
-   - Se a vaga for EXCLUSIVA para USA, Europa (EU), ou qualquer região que NÃO seja LATAM ou Worldwide, o score DEVE ser 0.
-   - 'Remote' sem especificar LATAM ou Worldwide deve ser tratado com cautela (penalize se houver indícios de restrição geográfica).
-   - Apenas 'Remote LATAM' ou 'Remote Worldwide' podem receber score alto.
-
-2. **Nível (ELIMINATÓRIO):** 
-   - Se a vaga for Junior, Pleno sem senioridade (Mid-level), ou Estágio, o score DEVE ser 0.
-   - Buscamos Senior, Staff, Principal ou Lead.
-
-3. **Salário (PESO ALTO):** 
-   - Alvo >= $5.500 USD/mês (~$66k USD/year). 
-   - Se o salário estiver abaixo ou não estiver listado, penalize o score substancialmente.
-
-4. **Fit de Cargo (PESO ALTO):** 
-   - Foco em PM, TPM ou Híbrido. 
-   - Vagas puramente técnicas (SWE, EM) ou de marketing puro devem ter score 0.
+# CRITÉRIOS ELIMINATÓRIOS:
+1. Localização: Apenas Remote LATAM ou Remote Worldwide. (US-only, EU-only, etc = ELIMINADO)
+2. Nível: Sênior, Staff, Principal ou Lead apenas. (Junior, Pleno, Mid, Estágio = ELIMINADO)
+3. Tipo de Cargo: PM, TPM ou Híbrido PM/Tech. (Engenheiro puro, EM, Marketing puro = ELIMINADO)
+4. Idioma: Vaga deve ser em Inglês (vagas apenas em PT ou ES = ELIMINADO)
 
 # FORMATO DE SAÍDA (JSON)
-Retorne APENAS um objeto JSON com a chave "scored_jobs", que é uma lista de objetos:
-- "title": (string) o título original da vaga
-- "score": (int) 0-100
-- "justification": (string) uma única linha explicando o score, começando pelo motivo principal.
-- "perfect_match": (boolean) true se score >= 95
-- "url": (string) o link original da vaga
+Retorne APENAS um objeto JSON com:
+- "results": lista de objetos contendo:
+    - "title": título original
+    - "status": "passa" ou "eliminada"
+    - "reason": se eliminada, qual o motivo (localização, nível, tipo de cargo, idioma). Se passa, deixe vazio.
 
-CRITICAL: Se a vaga falhar em QUALQUER critério eliminatório, o score DEVE ser 0. Não dê scores intermediários (ex: 50) para vagas que deveriam ser descartadas.
-    """
+Responda APENAS o JSON.
+"""
 
     user_content = "Avalie as seguintes vagas:\n" + json.dumps(jobs, indent=2, ensure_ascii=False)
 
@@ -111,26 +96,91 @@ CRITICAL: Se a vaga falhar em QUALQUER critério eliminatório, o score DEVE ser
             model="claude-3-haiku-20240307",
             max_tokens=4000,
             system=system_prompt,
-            messages=[
-                {"role": "user", "content": user_content}
-            ]
+            messages=[{"role": "user", "content": user_content}]
         )
         
-        # Extração básica do JSON da resposta
         content = response.content[0].text
         start_idx = content.find("{")
         end_idx = content.rfind("}") + 1
-        if start_idx != -1 and end_idx != -1:
-            json_str = content[start_idx:end_idx]
-            data = json.loads(json_str)
-            return data.get("scored_jobs", [])
-        else:
-            print(f"[score.py] ✗ Não foi possível encontrar JSON na resposta do Claude.")
-            return []
+        data = json.loads(content[start_idx:end_idx])
+        results = data.get("results", [])
+
+        passed = []
+        eliminated = []
+
+        # Mapear resultados de volta para os objetos jobs originais
+        job_map = {j["title"]: j for j in jobs}
+        
+        for res in results:
+            title = res.get("title")
+            job = job_map.get(title)
+            if job:
+                if res.get("status") == "passa":
+                    passed.append(job)
+                else:
+                    job_copy = job.copy()
+                    job_copy["filter_reason"] = res.get("reason", "eliminado LLM")
+                    eliminated.append(job_copy)
+            
+        return passed, eliminated
 
     except Exception as e:
-        print(f"[score.py] ✗ Erro ao chamar Claude: {e}")
-        return []
+        print(f"[score.py] ✗ Erro em check_eliminatorios: {e}")
+        return jobs, [] # Fallback: passa tudo para o scoring individual se falhar o batch
+
+def score_single_job(client, job, profile_content):
+    """
+    Pontua uma única vaga com análise profunda.
+    """
+    system_prompt = f"""
+Você é um recrutador técnico sênior. Sua tarefa é fazer um "deep mapping" entre o perfil do candidato e a vaga abaixo.
+
+# PERFIL DO CANDIDATO
+{profile_content}
+
+# INSTRUÇÕES DE ANÁLISE:
+1. EVIDÊNCIA DIRETA: Cite qual requisito da vaga tem evidência direta no perfil. Use o formato: "Requisito: [X] | Evidência: [Y]".
+2. PRINCIPAL GAP: Identifique o maior risco ou gap desta candidatura. Seja específico.
+3. SCORE (0-95): Atribua um score de 0 a 95. SCORE 100 É PROIBIDO.
+4. JUSTIFICATIVA: Explique por que esse score e não 10 pontos acima ou abaixo. 
+
+# REGRAS CRÍTICAS:
+- PROIBIDO usar termos como "alinhado com o perfil", "boa correspondência", "fit cultural", "perfil adequado", "se alinha bem", "atende aos requisitos".
+- Se você quiser dizer que o candidato é bom, PROVE com uma evidência do perfil (ex: "O candidato já liderou projetos de X, o que é idêntico ao pedido em Y").
+- SCORE 100 É TERMINANTEMENTE PROIBIDO. Máximo 95.
+- O score deve ser conservador. Justifique o número exato (ex: "90 e não 80 porque X, mas não 95 porque falta Y").
+
+# FORMATO DE SAÍDA (JSON)
+Responda APENAS um JSON:
+{{
+  "title": "{job.get('title')}",
+  "score": int,
+  "evidence": "texto",
+  "main_gap": "texto",
+  "justification": "texto",
+  "perfect_match": boolean,
+  "url": "{job.get('url')}"
+}}
+"""
+
+    user_content = f"Vaga para análise:\n{json.dumps(job, indent=2, ensure_ascii=False)}"
+
+    try:
+        response = client.messages.create(
+            model="claude-3-haiku-20240307",
+            max_tokens=2000,
+            system=system_prompt,
+            messages=[{"role": "user", "content": user_content}]
+        )
+        
+        content = response.content[0].text
+        start_idx = content.find("{")
+        end_idx = content.rfind("}") + 1
+        return json.loads(content[start_idx:end_idx])
+
+    except Exception as e:
+        print(f"[score.py] ✗ Erro ao pontuar vaga {job.get('title')}: {e}")
+        return None
 
 def main():
     parser = argparse.ArgumentParser(description="Pontua vagas via Claude Haiku")
@@ -172,45 +222,57 @@ def main():
         client = Anthropic(api_key=api_key)
         profile = load_profile("config/profile.md")
         
-        # Filtro de Localização (Hard Filter) antes do LLM
-        jobs_to_score, filtered_jobs = apply_location_filter(jobs)
+        # 1. Filtro de Localização (Hard Filter código)
+        jobs_pre_filtered, hard_filtered = apply_location_filter(jobs)
         
-        if filtered_jobs:
-            print(f"[score.py] ℹ️ Vagas filtradas por localização: {len(filtered_jobs)}")
-            for f_job in filtered_jobs:
-                print(f"   - Ignorada: {f_job.get('title')} ({f_job.get('location')})")
+        # 2. Eliminatórios (Batch LLM)
+        print(f"[score.py] -> Verificando eliminatórios para {len(jobs_pre_filtered)} vagas...")
+        passed_jobs, llm_eliminated = check_eliminatorios(client, jobs_pre_filtered, profile)
+        
+        all_eliminated = hard_filtered + llm_eliminated
+        print(f"[score.py] ℹ️ Vagas eliminadas: {len(all_eliminated)} ({len(hard_filtered)} hard, {len(llm_eliminated)} LLM)")
 
-        if not jobs_to_score:
-            print("[score.py] ⚠️ Nenhuma vaga restou após o filtro de localização.")
-            scored_jobs = []
+        # 3. Scoring Profundo (Individual)
+        scored_jobs = []
+        if not passed_jobs:
+            print("[score.py] ⚠️ Nenhuma vaga restou após os eliminatórios.")
         else:
-            print(f"[score.py] -> Enviando {len(jobs_to_score)} vagas para o Claude...")
-            scored_jobs = score_jobs(client, jobs_to_score, profile)
+            print(f"[score.py] -> Iniciando scoring profundo para {len(passed_jobs)} vagas...")
+            for i, job in enumerate(passed_jobs):
+                print(f"   [{i+1}/{len(passed_jobs)}] Analisando: {job.get('title')}...")
+                res = score_single_job(client, job, profile)
+                if res:
+                    # Garantir que campos originais importantes persistam se o LLM omitir
+                    res["company"] = job.get("company", "N/A")
+                    res["location"] = job.get("location", "N/A")
+                    res["id"] = job.get("id")
+                    scored_jobs.append(res)
         
-        # Filtra apenas o topo ou as relevantes (estamos salvando todas mas marcando score)
-        # O ROADMAP pede top vagas, score >= 80 no JSON final
+        # Filtra apenas o topo (score >= 80)
         top_jobs = [j for j in scored_jobs if j.get("score", 0) >= 80]
-        
-        # Merge de informações extras do raw (empresa, source, etc) que o score pode ter omitido
-        # mas para o MVP/POC, a estrutura do prompt já pede o básico.
         
         output_data = {
             "scored_at": datetime.now().isoformat(),
             "source_file": raw_path.name,
             "summary": {
                 "total_raw": len(jobs),
-                "total_filtered": len(filtered_jobs),
+                "total_location_filtered": len(hard_filtered),
+                "total_llm_eliminated": len(llm_eliminated),
+                "total_scored": len(scored_jobs),
                 "total_top": len(top_jobs)
             },
             "jobs": top_jobs,
-            "filtered_jobs": filtered_jobs
+            "filtered_jobs": hard_filtered,
+            "eliminated_jobs": llm_eliminated
         }
 
         scored_path.write_text(json.dumps(output_data, indent=2, ensure_ascii=False), encoding="utf-8")
-        print(f"[score.py] ✅ Sucesso! {len(top_jobs)} vagas (score >= 80) salvas em {scored_path}")
+        print(f"[score.py] ✅ Sucesso! {len(scored_jobs)} vagas pontuadas salvas em {scored_path}")
 
     except Exception as e:
         print(f"[score.py] ✗ Ocorreu um erro: {e}")
+        import traceback
+        traceback.print_exc()
 
 if __name__ == "__main__":
     main()

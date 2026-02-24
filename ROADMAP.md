@@ -18,13 +18,21 @@
 
 #### 1.5 Script score.py - ✅ CONCLUÍDO
 - Lê `data/raw/YYYY-MM-DD.json`.
-- Chama Claude Haiku com batch de vagas.
-- Salva em `data/scored/YYYY-MM-DD.json` (top vagas, score ≥ 80).
+- Refatorado para processo de duas etapas:
+    1. Eliminatórios (Batch Haiku): Filtra por local, sênior, cargo e idioma.
+    2. Scoring Profundo (Haiku Individual): Mapeamento de evidências, gaps e score (0-95).
+- Salva em `data/scored/` com campos `jobs` (top), `filtered_jobs` e `eliminated_jobs`.
 
 #### 1.6 Calibração manual (PENDENTE)
 - Candidato avalia 20-30 vagas manualmente.
 - Compara com scores do LLM.
 - Ajusta prompt/pesos até concordância ≥ 80%.
+- **Vaga específica:** Verificar manualmente o JD real da Planet Labs (job/7542179) para confirmar se Brasil está incluído no "Work from Anywhere" antes de aplicar. Registrar a decisão no feedback.
+
+#### 1.7 Débito Técnico: Tratamento de Ambiguidade de Localização (PENDENTE)
+- O campo `location_confidence: "low"` capturado pelo fetch não está sendo usado no filtro do `score.py`. 
+- Vagas com localização ambígua (ex: listas longas de países que incluem "Work from Anywhere") passam pelo filtro sem penalização. 
+- **Ação:** Avaliar se `location_confidence: "low"` deve gerar penalização automática no score ou flag de revisão manual.
 
 ---
 
@@ -138,6 +146,8 @@
 ---
 
 ## ✅ CONCLUÍDO RECENTEMENTE
+
+- **Scoring em Duas Etapas (v1.6)**: Refatoração do `score.py` para separar eliminatórios (batch) de scoring profundo (individual). Implementadas regras estritas contra termos genéricos, score máximo de 95, e mapeamento obrigatório de evidências/gaps. (23 Fev 2026)
 
 - **Melhorias no Fetch (v1.5.1)**: Correção da deduplicação em lote no `fetch.py` com adição de logs explícitos e tracking separado para remoções locais/remotas. (23 Fev 2026)
 - **Melhorias no Fetch (v1.5)**: Extração literal de localização do JD, deduplicação cross-dia (7 dias) e filtro de vagas antigas (> 14 dias). (23 Fev 2026)
