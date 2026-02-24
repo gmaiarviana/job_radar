@@ -1,0 +1,52 @@
+{
+  "date": "2026-02-24",
+  "discarded_at": "2026-02-24T12:56:59.246550+00:00",
+  "total": 3,
+  "by_reason": {
+    "jd_too_short": 3
+  },
+  "items": [
+    {
+      "id_hash": "302943a97d2a547f371ab00a28630958d98586f047f0ff520d8111edc9d60cd0",
+      "id": "302943a97d2a547f371ab00a28630958d98586f047f0ff520d8111edc9d60cd0",
+      "source": "openai_web_search",
+      "title": "Product Lead, Experience Platform",
+      "company": "Paxos",
+      "location": "Remote - Canada · Remote - US",
+      "salary": null,
+      "jd_full": "A Paxos está procurando um Product Lead para sua plataforma de experiência. O candidato ideal terá experiência em gerenciamento de produtos, com foco em plataformas digitais e experiência do usuário. Responsabilidades incluem liderar o desenvolvimento de produtos, definir estratégias de produto e colaborar com equipes multifuncionais. Qualificações desejadas incluem experiência anterior em empresas de tecnologia, habilidades de comunicação excepcionais e fluência em inglês.",
+      "url": "https://www.paxos.com/jobs/job-details?jobId=8051174002",
+      "collected_at": "2026-02-24T12:56:56.942533+00:00",
+      "date": "14 days ago",
+      "discard_reason": "jd_too_short"
+    },
+    {
+      "id_hash": "c76b6abfc37e895f93a441a092bb0ff86bdc47bf47ca6dc63177a53558b0201c",
+      "id": "c76b6abfc37e895f93a441a092bb0ff86bdc47bf47ca6dc63177a53558b0201c",
+      "source": "openai_web_search",
+      "title": "Product Manager, Custody",
+      "company": "Anchorage",
+      "location": "US,REMOTE",
+      "salary": null,
+      "jd_full": "A Anchorage está buscando um Product Manager para sua plataforma de custódia. O candidato ideal terá experiência significativa em gerenciamento de produtos, com foco em soluções de custódia e segurança. Responsabilidades incluem liderar o desenvolvimento de produtos, definir estratégias de produto e colaborar com equipes multifuncionais. Qualificações desejadas incluem experiência anterior em fintechs, habilidades analíticas fortes e fluência em inglês.",
+      "url": "https://jobs.lever.co/anchorage/070aeb7a-04fa-4634-b320-af4fb58b96f6",
+      "collected_at": "2026-02-24T12:56:56.942536+00:00",
+      "date": "63 days ago",
+      "discard_reason": "jd_too_short"
+    },
+    {
+      "id_hash": "e1ef25a2a221aefa944d82c6a610f7b452c1049441c6690b15ca6147a9ea076d",
+      "id": "e1ef25a2a221aefa944d82c6a610f7b452c1049441c6690b15ca6147a9ea076d",
+      "source": "openai_web_search",
+      "title": "Product Manager, Cash & Transfers",
+      "company": "Crypto",
+      "location": "US,HYBRID",
+      "salary": null,
+      "jd_full": "A Crypto está procurando um Product Manager para sua plataforma de pagamentos e transferências. O candidato ideal terá experiência em gerenciamento de produtos, com foco em soluções de pagamento e transferências financeiras. Responsabilidades incluem liderar o desenvolvimento de produtos, definir estratégias de produto e colaborar com equipes multifuncionais. Qualificações desejadas incluem experiência anterior em fintechs, habilidades analíticas fortes e fluência em inglês.",
+      "url": "https://jobs.lever.co/crypto/b25c7a60-67ac-43e7-ab6e-a8f33b2c946d",
+      "collected_at": "2026-02-24T12:56:56.942539+00:00",
+      "date": "6 days ago",
+      "discard_reason": "jd_too_short"
+    }
+  ]
+}

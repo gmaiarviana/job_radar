@@ -1,0 +1,74 @@
+{
+  "fetched_at": "2026-02-24T12:57:26.925119+00:00",
+  "date": "2026-02-24",
+  "config_used": {
+    "roles": [
+      "Product Manager",
+      "Senior Product Manager",
+      "Technical Program Manager",
+      "TPM",
+      "AI Product Manager",
+      "Product Analyst",
+      "Strategy and Operations Manager",
+      "Delivery Manager",
+      "Program Manager"
+    ],
+    "locations": [
+      "remote LATAM",
+      "remote worldwide",
+      "remote"
+    ],
+    "lookback_hours": 24,
+    "sources": [
+      "openai_web_search",
+      "remotive",
+      "weworkremotely",
+      "jobicy"
+    ]
+  },
+  "coverage": {
+    "sources": [
+      "openai_web_search",
+      "remotive",
+      "weworkremotely",
+      "jobicy"
+    ],
+    "total_raw": 6,
+    "total_already_seen": 0,
+    "total_throttled": 0,
+    "total_after_recent_filter": 3,
+    "total_after_dedup": 2,
+    "total_after_quality_guard": 2,
+    "companies_distinct": 2,
+    "discarded_low_quality": 0
+  },
+  "total_jobs": 2,
+  "jobs": [
+    {
+      "id_hash": "ce13ae357b79816fb491fb1b4dfb204e95941f1431118ddb2800c5a2d92dad00",
+      "id": "ce13ae357b79816fb491fb1b4dfb204e95941f1431118ddb2800c5a2d92dad00",
+      "source": "openai_web_search",
+      "title": "Technical Program Manager (Onsite)",
+      "company": "Cognizant",
+      "location": "San Francisco, CA-Mission St, United States",
+      "salary": null,
+      "jd_full": "Lead planning, execution, and delivery of large-scale technical programs from concept to launch. Build detailed project plans, timelines, milestones, and success metrics. Track progress, manage dependencies, and ensure deliverables meet quality and schedule commitments. Drive sprint planning, backlog prioritization, and release management with engineering teams. Work with architects and engineering leads to define technical requirements and solution designs. Translate business needs into clear technical specifications and functional documents. Identify technical risks early and drive mitigation strategies. Act as the primary coordination point between engineering, product management, operations, security, and business stakeholders. Must have strong technical understanding, excellent execution discipline, and the ability to influence without authority.",
+      "url": "https://careers.cognizant.com/latam-pt/vagas/00067474683/technical-program-manager-onsite/",
+      "collected_at": "2026-02-24T12:57:26.273051+00:00",
+      "date": "6 days ago"
+    },
+    {
+      "id_hash": "ba06b88825183706258178d56456bd574890c211190fa7c0cc1229fb7d8d67d0",
+      "id": "ba06b88825183706258178d56456bd574890c211190fa7c0cc1229fb7d8d67d0",
+      "source": "openai_web_search",
+      "title": "Product Manager - Data - Platform Products",
+      "company": "Neon",
+      "location": "Brasil",
+      "salary": null,
+      "jd_full": "Lead the development and execution of data-driven strategies for platform products. Collaborate with cross-functional teams to define product vision, roadmap, and prioritize features. Analyze market trends and customer feedback to inform product decisions. Ensure alignment of product initiatives with business objectives and key results. Monitor product performance and iterate based on data insights. Must have experience in product management, strong analytical skills, and proficiency in data analytics tools.",
+      "url": "https://br.linkedin.com/jobs/view/1234567890/",
+      "collected_at": "2026-02-24T12:57:26.273054+00:00",
+      "date": "6 days ago"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "fetched_at": "2026-02-24T12:56:59.246780+00:00",
+  "date": "2026-02-24",
+  "config_used": {
+    "roles": [
+      "Product Manager",
+      "Senior Product Manager",
+      "Technical Program Manager",
+      "TPM",
+      "AI Product Manager",
+      "Product Analyst",
+      "Strategy and Operations Manager",
+      "Delivery Manager",
+      "Program Manager"
+    ],
+    "locations": [
+      "remote LATAM",
+      "remote worldwide",
+      "remote"
+    ],
+    "lookback_hours": 24,
+    "sources": [
+      "openai_web_search",
+      "remotive",
+      "weworkremotely",
+      "jobicy"
+    ]
+  },
+  "coverage": {
+    "sources": [
+      "openai_web_search",
+      "remotive",
+      "weworkremotely",
+      "jobicy"
+    ],
+    "total_raw": 6,
+    "total_already_seen": 0,
+    "total_throttled": 0,
+    "total_after_recent_filter": 6,
+    "total_after_dedup": 4,
+    "total_after_quality_guard": 1,
+    "companies_distinct": 1,
+    "discarded_low_quality": 3
+  },
+  "total_jobs": 1,
+  "jobs": [
+    {
+      "id_hash": "2112c0c2955b6b52ad99a758ecd1555db7248a44ec2d3e79511faf602a38f482",
+      "id": "2112c0c2955b6b52ad99a758ecd1555db7248a44ec2d3e79511faf602a38f482",
+      "source": "openai_web_search",
+      "title": "Product Manager, LATAM (Miami or San Francisco)",
+      "company": "Airbnb",
+      "location": "Miami, United States/San Francisco, United States",
+      "salary": "224K - 280K USD/ano",
+      "jd_full": "Estamos procurando um Product Manager para a região LATAM, com base em Miami ou San Francisco. O candidato ideal terá experiência significativa em gerenciamento de produtos, com forte foco em mercados LATAM. Responsabilidades incluem liderar o desenvolvimento de produtos, colaborar com equipes multifuncionais e entender profundamente as necessidades dos clientes na região. Qualificações desejadas incluem experiência anterior em empresas de tecnologia, habilidades de comunicação excepcionais e fluência em inglês e espanhol.",
+      "url": "https://jobmeerkat.com/",
+      "collected_at": "2026-02-24T12:56:56.942502+00:00",
+      "date": "2 days ago"
+    }
+  ]
+}
