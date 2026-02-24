@@ -1,0 +1,21 @@
+---
+description: Shell do projeto — Windows PowerShell; nunca use &&
+alwaysApply: true
+---
+
+# Shell: Windows PowerShell
+
+- **Shell do projeto**: Windows PowerShell (não bash, não cmd).
+- Para encadear comandos use **`;`**. **Nunca use `&&`** — é inválido no PowerShell e causa falha.
+- Prefira cmdlets do PowerShell em vez de comandos estilo Unix (ex.: `Invoke-WebRequest` em vez de `curl`).
+- Caminhos: pode usar barras normais ou invertidas; PowerShell aceita os dois.
+
+Exemplo correto:
+```powershell
+cd src; python -m pytest
+```
+
+Exemplo errado (não usar):
+```bash
+cd src && python -m pytest
+```

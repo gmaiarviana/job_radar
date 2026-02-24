@@ -1,0 +1,34 @@
+---
+description: Onde cada informação mora e como organizar o projeto (Single Source of Truth)
+alwaysApply: true
+---
+
+# Convenções do Projeto — Job Radar
+
+**Princípio:** Cada informação vive em um só lugar. Não duplique; use referências.
+
+## Onde encontrar cada coisa (Decision Map)
+
+| Informação | Arquivo / pasta |
+| :--- | :--- |
+| Narrativa de carreira, perfil, parâmetros de busca | `config/` (career_narrative.md, profile.md, search.yaml) |
+| Prompts de scoring e geração | `src/score.py`, `src/generate.py` |
+| Pipeline de automação | `.github/workflows/daily.yml` |
+| Status e próximo passo | `ROADMAP.md` |
+| Design técnico atual | `ARCHITECTURE.md` |
+| Governança e refinamento | `docs/governance/CONSTITUTION.md`, `planning_guidelines.md` |
+| Commit (sintaxe PowerShell) | `.agent/workflows/commit.md` |
+| Fechamento de tarefa | `.agent/closure_protocol.md` |
+
+Antes de assumir um valor ou localização, consulte o arquivo acima ou `.agent/decision_map.md`.
+
+## Onde colocar arquivos
+
+- Lógica/scripts → `src/`
+- Dados (JSONs) → `data/`
+- Configuração → `config/`
+- Governança/planejamento → `docs/governance/`
+- Protocolos do agente → `.agent/`
+- Raiz: só documentação e config global; sem JSONs na raiz.
+
+Detalhes: `docs/governance/CONSTITUTION.md`, `.agent/instructions.md`.

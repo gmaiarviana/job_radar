@@ -1,0 +1,17 @@
+---
+description: Ao finalizar funcionalidade — closure e git (PowerShell)
+alwaysApply: true
+---
+
+# Fechamento de Funcionalidade e Git
+
+Ao finalizar uma funcionalidade:
+
+1. **Verificação**: Código funcional; rodar pipeline se aplicável (`python src/fetch.py; python src/score.py; ...`).
+2. **Higiene**: Sem arquivos temporários; JSONs em `data/`, não na raiz; respeitar `.gitignore`.
+3. **Docs**: Atualizar `ROADMAP.md` (resumo da tarefa, marcar concluído); `ARCHITECTURE.md` se houve mudança de fluxo; `README.md` se mudou setup.
+4. **Git**: Usar **PowerShell** — encadear com `;`. Fazer `git add <arquivo1> <arquivo2> ...` (evitar `git add .`). Commit descritivo; depois `git push`.
+
+Checklist completo: `.agent/closure_protocol.md`.  
+Sintaxe de commit: `.agent/workflows/commit.md`.  
+Workflow /finish: `.agent/workflows/finish.md`.
