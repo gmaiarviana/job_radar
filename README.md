@@ -28,9 +28,10 @@ Manual (Streamlit local, quando quiser):
 Para facilitar o trabalho de agentes de IA:
 
 -   **`README.md`**: (Este arquivo) O que é o projeto e visão geral da jornada.
--   **[ARCHITECTURE.md](file:///c:/Users/guilh/Desktop/projetos_epso/job_radar/ARCHITECTURE.md)**: Detalhes técnicos, decisões e fluxos internos.
--   **[ROADMAP.md](file:///c:/Users/guilh/Desktop/projetos_epso/job_radar/ROADMAP.md)**: Planos futuros e próximos épicos técnicos.
--   **`.agent/`**: Instruções de trabalho e workflows para agentes.
+-   **[ARCHITECTURE.md](ARCHITECTURE.md)**: Detalhes técnicos, decisões e fluxos internos.
+-   **[ROADMAP.md](ROADMAP.md)**: Planos futuros e próximos épicos técnicos.
+-   **`docs/governance/`**: [CONSTITUTION.md](docs/governance/CONSTITUTION.md) (princípios, processo de refinamento) e [planning_guidelines.md](docs/governance/planning_guidelines.md) (templates, quando refinar).
+-   **`.agent/`**: Protocolos de execução (closure, decision_map, workflows).
 
 ---
 

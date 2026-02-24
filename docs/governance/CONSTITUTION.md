@@ -17,7 +17,8 @@ Princípios fundamentais e responsabilidades para o desenvolvimento deste projet
   - Lógica/Scripts -> `src/`
   - Dados (JSONs) -> `data/`
   - Configuração/Material Base -> `config/`
-  - Instruções de Agente -> `.agent/`
+  - Governança e planejamento -> `docs/governance/`
+  - Protocolos de execução (closure, workflows, decision_map) -> `.agent/`
 
 ### Documentação Viva
 - **ARCHITECTURE.md**: Representa o **PRESENTE** (o que o sistema é hoje).
@@ -143,7 +144,7 @@ Fechamento: seguir closure_protocol.md.
 | **Discutir pipeline / CI** | `.github/workflows/daily.yml` + ROADMAP.md (Épico 7) | daily.yml + ROADMAP.md + ARCHITECTURE.md |
 | **Discutir interface (Streamlit)** | ROADMAP.md (Épico 5) + ARCHITECTURE.md | ROADMAP.md + ARCHITECTURE.md + código da UI |
 | **Discutir geração (CV/CL)** | ROADMAP.md (Épico 6) + config (resume_base, cover_letter_template) | ROADMAP.md + config/ + src/generate.py |
-| **Revisar processo de refinamento** | Este arquivo (CONSTITUTION.md) | .agent/CONSTITUTION.md |
+| **Revisar processo de refinamento** | Este arquivo (CONSTITUTION.md) | docs/governance/CONSTITUTION.md |
 | **Revisar fechamento de tarefas** | closure_protocol.md | .agent/closure_protocol.md |
 
 ---
@@ -180,8 +181,9 @@ Fechamento: seguir closure_protocol.md.
 1. **CONSTITUTION.md** (este arquivo) — Princípios, responsabilidades, processo de refinamento, mapa.
 2. **ROADMAP.md** — Épicos, status, sub-itens e critérios de aceite.
 3. **ARCHITECTURE.md** — Estado atual do sistema (fluxo, componentes).
-4. **decision_map.md** — Onde cada informação mora (Single Source of Truth).
-5. **closure_protocol.md** — Checklist de fechamento (lembrete nos prompts).
+4. **planning_guidelines.md** — Templates de épico/funcionalidade, quando refinar, critérios de qualidade. Ver [planning_guidelines.md](planning_guidelines.md).
+5. **decision_map.md** — Onde cada informação mora (Single Source of Truth). Ver [.agent/decision_map.md](../../.agent/decision_map.md).
+6. **closure_protocol.md** — Checklist de fechamento (lembrete nos prompts). Ver [.agent/closure_protocol.md](../../.agent/closure_protocol.md).
 
 ### Consultados sob demanda
 - **Config:** `config/profile.md`, `config/search.yaml`, `config/companies.yaml` (quando existir), templates.
@@ -191,7 +193,7 @@ Fechamento: seguir closure_protocol.md.
 
 ## 8. LOCALIZAÇÃO DESTE DOCUMENTO
 
-Este arquivo fica em **`.agent/`** por convenção: instruções e protocolos de agente vivem em `.agent/`. Os princípios e o processo de refinamento aplicam-se a Claude Web (estratégia), Cursor e Antigravity (execução). Não é necessário mover para a raiz; a raiz mantém README, ROADMAP e ARCHITECTURE para visibilidade do projeto.
+Este arquivo fica em **`docs/governance/`** junto com `planning_guidelines.md`, para que governança e planejamento sejam fáceis de encontrar. Os protocolos de execução (closure_protocol, decision_map, workflows) permanecem em `.agent/`.
 
 ---
 

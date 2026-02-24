@@ -13,6 +13,8 @@ Este documento mapeia onde cada informação "mora" para evitar duplicação.
 | **Pipeline de Automação** | `.github/workflows/daily.yml` |
 | **Status do Projeto** | `ROADMAP.md` |
 | **Design Técnico** | `ARCHITECTURE.md` |
+| **Processo de refinamento / Governança** | `docs/governance/CONSTITUTION.md` |
+| **Templates e critérios de épicos** | `docs/governance/planning_guidelines.md` |
 | **Como fazer commit (sintaxe shell)** | `.agent/workflows/commit.md` |
 
 > [!TIP]
