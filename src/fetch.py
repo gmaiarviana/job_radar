@@ -43,6 +43,7 @@ from src.collectors.openai_search import collect_openai_web_search
 from src.collectors.weworkremotely import collect_weworkremotely
 from src.collectors.jobicy import collect_jobicy
 from src.collectors.greenhouse import collect_greenhouse
+from src.collectors.lever import collect_lever
 
 load_dotenv()
 
@@ -84,7 +85,7 @@ def main():
     locations = search_config.get("locations", ["remote"])
     lookback_hours = search_config.get("lookback_hours", 24)
 
-    # Listas por ATS (uma única extração; Lever/Ashby usarão o mesmo padrão em 3.3/3.4)
+    # Listas por ATS (uma única extração após load_companies)
     try:
         companies_data = load_companies()
         all_entries_flat = [
@@ -92,10 +93,12 @@ def main():
             for c in entries if isinstance(c, dict)
         ]
         greenhouse_companies = [c for c in all_entries_flat if (c.get("ats") or "").strip().lower() == "greenhouse"]
+        lever_companies = [c for c in all_entries_flat if (c.get("ats") or "").strip().lower() == "lever"]
     except Exception as e:
         companies_data = None
         all_entries_flat = []
         greenhouse_companies = []
+        lever_companies = []
         _companies_load_error = e
     else:
         _companies_load_error = None
@@ -104,11 +107,12 @@ def main():
         print(f"{LOG_PREFIX} 🧪 MODO DRY-RUN")
         print(f"  Roles: {roles}")
         print(f"  Locations: {locations}")
-        print(f"  Coletores: openai_web_search, remotive, weworkremotely, jobicy, greenhouse")
+        print(f"  Coletores: openai_web_search, remotive, weworkremotely, jobicy, greenhouse, lever")
         if companies_data is not None:
             n_sectors = len(companies_data["companies"])
             print(f"  Empresas-alvo (3.1): {len(all_entries_flat)} em {n_sectors} setores (config/companies.yaml)")
             print(f"  Greenhouse: {len(greenhouse_companies)} empresas configuradas")
+            print(f"  Lever: {len(lever_companies)} empresas configuradas")
         print(f"  Saída: {output_path}")
         return
 
@@ -131,8 +135,10 @@ def main():
 
     if greenhouse_companies:
         collectors_config.append(("greenhouse", lambda: collect_greenhouse(greenhouse_companies)))
-    elif _companies_load_error is not None:
-        print(f"{LOG_PREFIX} ! Empresas-alvo (greenhouse) não carregadas: {_companies_load_error}")
+    if lever_companies:
+        collectors_config.append(("lever", lambda: collect_lever(lever_companies)))
+    if not greenhouse_companies and not lever_companies and _companies_load_error is not None:
+        print(f"{LOG_PREFIX} ! Empresas-alvo (ATS) não carregadas: {_companies_load_error}")
 
     if not collectors_config:
         print(f"{LOG_PREFIX} ✗ Nenhum coletor disponível. Abortando.")

@@ -28,7 +28,7 @@
 
 ---
 
-### ÉPICO 3: Fetch Estratégico — Greenhouse + Empresas-Alvo *(3.1 e 3.2 ✅)*
+### ÉPICO 3: Fetch Estratégico — Greenhouse + Empresas-Alvo *(3.1–3.3 ✅)*
 
 **Objetivo:** Adicionar cobertura direta de empresas tech sérias via ATS (Greenhouse/Lever), sem depender de boards agregadores.
 
@@ -69,24 +69,20 @@ companies:
 
 - Coletor `src/collectors/greenhouse.py`: `collect_greenhouse(companies)`; lista flat de empresas com `ats == "greenhouse"`; GET boards/{ats_id}/jobs → filtro por título (product manager, program manager, tpm, technical program) → GET job/{id} para content; 0,5s delay; 404/erro logado como WARN; saída no mesmo schema (title, company, location, salary=null, url, description, date).
 
-#### 3.3 Conector Lever
+#### 3.3 Conector Lever — ✅ CONCLUÍDO
 
-- Endpoint público: `https://api.lever.co/v0/postings/{company_id}?mode=json` (retorna lista de postings).
-- Extrair do `config/companies.yaml` lista flat de empresas com `ats == "lever"` (mesmo padrão do Greenhouse).
-- Criar `src/collectors/lever.py` com `collect_lever(companies: list[dict]) -> list[dict]`.
-- Para cada empresa: GET postings; filtrar por título (case insensitive: product manager, program manager, tpm, technical program).
-- Cada posting Lever pode incluir descrição no próprio listing; se houver endpoint de detalhe por ID, usá-lo para JD completo; senão usar campo disponível no listing.
-- Retornar dicts brutos com: title, company (nome do yaml), location, salary (null ou valor se disponível), url, description, date (updatedAt ou createdAt).
-- Delay entre requests (ex.: 0,5s); 404/erros HTTP: logar `[fetch] WARN lever/{ats_id}: {status} — slug inválido ou indisponível` e continuar.
-- Em `fetch.py`: após carregar companies, extrair `lever_companies`, adicionar `("lever", lambda: collect_lever(lever_companies))` ao `collectors_config`; incluir "lever" no dry-run e mostrar número de empresas Lever configuradas.
-- Normalização via `normalize_job` em `fetch_pipeline` (mesmo schema dos demais coletores).
+- Coletor `src/collectors/lever.py`: `collect_lever(companies)`; GET postings/{ats_id}?mode=json; filtro por título (product manager, program manager, tpm, technical program); JD = descriptionPlain + blocos lists (header + content sem HTML); 0,5s delay; 404/erro WARN; saída: title, company, location (categories.location), salary (salaryRange), url (hostedUrl), description, date (createdAt epoch ms → ISO).
 
 #### 3.4 Conector Ashby
 
-- Endpoint público: `https://jobs.ashbyhq.com/api/non-user-facing/job-board/job-posting/list`
-- Body JSON: `{"organizationHostedJobsPageName": "{company_id}"}`
-- Prioridade igual ao Greenhouse — startups série A/B usam Ashby com frequência
-- Mesma lógica de filtro por título e normalização
+- Endpoint: `POST https://jobs.ashbyhq.com/api/non-user-facing/job-board/job-posting/list` com body JSON: `{"organizationHostedJobsPageName": "{company_id}"}` (company_id = ats_id do companies.yaml).
+- Extrair do `config/companies.yaml` lista flat com `ats == "ashby"` (mesmo padrão Greenhouse/Lever).
+- Criar `src/collectors/ashby.py` com `collect_ashby(companies: list[dict]) -> list[dict]`.
+- Resposta Ashby: verificar documentação ou resposta real para campos (título, URL, descrição, localização, data). Filtrar por título (case insensitive: product manager, program manager, tpm, technical program).
+- Retornar dicts brutos alinhados ao schema: title, company (nome do yaml), location, salary (null ou valor se existir), url, description (texto sem HTML), date (ISO ou string).
+- Delay entre requests (ex.: 0,5s); 404/erros HTTP: logar `[fetch] WARN ashby/{ats_id}: {status} — slug inválido ou indisponível` e continuar.
+- Em `fetch.py`: na extração única após load_companies(), adicionar `ashby_companies`; incluir `("ashby", lambda: collect_ashby(ashby_companies))` no collectors_config; dry-run com "Lever" e "Ashby" e contagem de empresas por ATS.
+- Normalização via `normalize_job` (mesmo schema dos demais).
 
 #### 3.5 Descoberta manual (src/discover.py)
 

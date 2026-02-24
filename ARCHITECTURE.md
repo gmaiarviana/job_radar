@@ -11,7 +11,7 @@ O sistema é dividido em um pipeline de dados (nuvem/Actions) e uma interface de
 ```mermaid
 graph TD
     A[GitHub Actions - Cloud] -->|Cron/Manual| B[fetch.py - Pipeline multi-fonte]
-    B -->|coletores| B1[OpenAI Search + Remotive + We Work Remotely + Jobicy + Greenhouse]
+    B -->|coletores| B1[OpenAI Search + Remotive + We Work Remotely + Jobicy + Greenhouse + Lever]
     B1 -->|raw| B2[job_schema + fetch_pipeline]
     B2 -->|raw JSON| C[score.py Stage 1 - Eliminatórios]
     C -->|surviving jobs| D[score.py Stage 2 - Deep Score]
@@ -28,7 +28,7 @@ graph TD
 
 | Componente | Script / Módulo | Modelo/Motor | Papel |
 | :--- | :--- | :--- | :--- |
-| **Search** | `src/fetch.py` (CLI) + `job_schema.py` + `fetch_pipeline.py` + `seen_jobs.py` + `collectors/*` | OpenAI Search, Remotive, We Work Remotely, Jobicy, Greenhouse (Épico 3.2) | Orquestra coletores, normaliza para schema único, dedupe persistente (`data/seen_jobs.json`) + throttle 20 novos/run, quality guard, métricas de cobertura no JSON, grava em `data/raw/`. |
+| **Search** | `src/fetch.py` (CLI) + `job_schema.py` + `fetch_pipeline.py` + `seen_jobs.py` + `collectors/*` | OpenAI Search, Remotive, We Work Remotely, Jobicy, Greenhouse, Lever (Épicos 3.2–3.3) | Orquestra coletores, normaliza para schema único, dedupe persistente (`data/seen_jobs.json`) + throttle 20 novos/run, quality guard, métricas de cobertura no JSON, grava em `data/raw/`. |
 | **Score** | `src/score.py` | Claude Haiku | Processo em 2 etapas: Eliminatórios (batch) e Deep Scoring (individual) contra o `config/profile.md`. |
 | **Interface** | `app.py` | Streamlit | UI para revisão, feedback e acionamento de geração. |
 | **Writer** | `src/generate.py`| Claude Sonnet | Redação de alta qualidade para CV e Cover Letter. |
@@ -63,6 +63,7 @@ job-radar/
 │   │   ├── weworkremotely.py    # RSS We Work Remotely (management/finance; filtro PM/TPM)
 │   │   ├── jobicy.py            # API Jobicy (industry=product; 48h)
 │   │   ├── greenhouse.py       # Greenhouse Job Board API (Épico 3.2; companies.yaml ats=greenhouse)
+│   │   ├── lever.py            # Lever Postings API (Épico 3.3; companies.yaml ats=lever)
 │   │   └── openai_search.py    # OpenAI gpt-4o-mini web search
 │   ├── score.py                 # Scoring via Claude Haiku
 │   ├── generate.py              # Writer via Claude Sonnet
