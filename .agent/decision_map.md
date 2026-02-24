@@ -13,6 +13,7 @@ Este documento mapeia onde cada informação "mora" para evitar duplicação.
 | **Pipeline de Automação** | `.github/workflows/daily.yml` |
 | **Status do Projeto** | `ROADMAP.md` |
 | **Design Técnico** | `ARCHITECTURE.md` |
+| **Como fazer commit (sintaxe shell)** | `.agent/workflows/commit.md` |
 
 > [!TIP]
 > **Antigravity**: Antes de assumir um valor ou prompt, consulte o arquivo mapeado acima.

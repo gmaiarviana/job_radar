@@ -1,6 +1,6 @@
 # Arquitetura - Job Radar
 
-Este documento descreve o design técnico, a organização do sistema e as decisões arquiteturais. Serve como a fonte da verdade para o estado atual do projeto.
+Este documento descreve o design técnico, a organização do sistema e as decisões arquiteturais. Serve como a fonte da verdade para o **estado atual** do projeto. Status e próximos passos: [ROADMAP.md](ROADMAP.md).
 
 ## 🏗️ Visão Geral
 
@@ -36,7 +36,7 @@ graph TD
 
 | Decisão | Escolha | Motivo |
 | :--- | :--- | :--- |
-| **Busca de vagas** | OpenAI GPT-4o-mini + Search | Melhor custo/cobertura. Navega em LinkedIn, Indeed, etc. |
+| **Busca de vagas** | OpenAI GPT-4o-mini + Search (implementação atual) | Cobertura via web search; evolução planejada em ROADMAP. |
 | **Scoring** | Claude Haiku | Rápido e barato para análise de texto longo. |
 | **Geração de materiais** | Claude Sonnet | Escrita superior e tom profissional. |
 | **Interface** | Streamlit Local | Agilidade no desenvolvimento e custo zero de hospedagem. |
@@ -77,6 +77,6 @@ job-radar/
 - **Segurança**: Chaves de API via `.env` (local) e Secrets (GitHub).
 
 ---
-**Última atualização:** 23 de Fevereiro de 2026 (v1.6 - Two-stage Scoring)
+**Última atualização:** 23 de Fevereiro de 2026
 
 
