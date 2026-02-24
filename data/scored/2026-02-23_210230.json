@@ -1,0 +1,63 @@
+{
+  "scored_at": "2026-02-23T21:02:49.695724",
+  "source_file": "2026-02-23_191652.json",
+  "summary": {
+    "total_raw": 4,
+    "total_location_filtered": 0,
+    "total_llm_eliminated": 0,
+    "total_scored": 4,
+    "total_top": 4
+  },
+  "jobs": [
+    {
+      "title": "Technical Program Manager",
+      "score": 90,
+      "evidence": "Requisito: Experiência em gerenciamento de programas técnicos | Evidência: O candidato tem 1 ano de experiência como Technical Program Manager (TPM) no Instituto Atlântico, onde coordenou 3 equipes e 25 engenheiros em um programa global de 200+ engenheiros.\nRequisito: Colaboração com equipes multifuncionais, tanto técnicas quanto não técnicas | Evidência: O candidato tem experiência em liderança cross-funcional, tendo atuado com equipes de engenharia, UX, arquitetura e negócios.",
+      "main_gap": "O candidato não possui experiência prévia na indústria de satélites/geoespacial, que pode ser um requisito importante para esta vaga.",
+      "justification": "90 e não 95 porque, embora o candidato tenha um perfil muito forte e alinhado com os requisitos da vaga, falta a experiência específica na indústria de satélites/geoespacial. No entanto, suas habilidades técnicas, de gerenciamento de programas e liderança cross-funcional são excelentes e atendem aos requisitos da vaga.",
+      "perfect_match": false,
+      "url": "https://remote.co/job-details/technical-program-manager-35733b18-4daa-4dfa-a81c-38af7a941999",
+      "company": "Planet Labs",
+      "location": "Remote in Bulgaria, Croatia, Cyprus, Czechia, Egypt, Israel, Kenya, Lebanon, Luxembourg, Malta, Nigeria, Oman, Qatar, Romania, Saudi Arabia, Serbia, South Africa, United Arab Emirates, United Kingdom or Work from Anywhere",
+      "id": null
+    },
+    {
+      "title": "Technical Program Manager",
+      "score": 90,
+      "evidence": "Requisito: Experiência em gerenciamento de programas técnicos | Evidência: O candidato teve uma experiência de 1 ano como TPM no Instituto Atlântico, onde coordenou 3 equipes e 25 engenheiros em um programa global de 200+ engenheiros.\nRequisito: Colaboração com equipes multifuncionais | Evidência: O candidato possui experiência em liderança cross-funcional (engenharia, UX, arquitetura, negócios) tanto como PM/PO quanto como TPM.",
+      "main_gap": "O candidato não possui experiência explícita em gerenciamento de programas técnicos em uma empresa de economia espacial/satélites, que seria o ideal para a vaga. Sua experiência é em fintech e construção civil.",
+      "justification": "90 e não 95 porque, apesar do candidato ter uma forte experiência em gerenciamento de programas técnicos e em colaboração cross-funcional, sua experiência anterior não é especificamente em empresas de economia espacial/satélites, que seria o ideal para essa vaga. Porém, suas habilidades transferíveis o tornam um forte candidato.",
+      "perfect_match": false,
+      "url": "https://remote.co/job-details/technical-program-manager-35733b18-4daa-4dfa-a81c-38af7a941999",
+      "company": "Planet Labs",
+      "location": "Remote in Bulgaria, Croatia, Cyprus, Czechia, Egypt, Israel, Kenya, Lebanon, Luxembourg, Malta, Nigeria, Oman, Qatar, Romania, Saudi Arabia, Serbia, South Africa, United Arab Emirates, United Kingdom or Work from Anywhere",
+      "id": null
+    },
+    {
+      "title": "Technical Program Manager",
+      "score": 90,
+      "evidence": "Requisito: Experiência em gerenciamento de programas técnicos | Evidência: O candidato possui 1 ano de experiência como TPM em um programa global de 200+ engenheiros no Instituto Atlântico, onde liderou 3 equipes e resolveu 60 vulnerabilidades críticas em 4 semanas.\nRequisito: Colaboração com equipes multifuncionais | Evidência: O candidato teve experiência em liderança cross-funcional (engenharia, UX, arquitetura, negócios) tanto como PM/PO quanto como TPM no Instituto Atlântico.",
+      "main_gap": "Não é mencionado nenhum requisito específico de experiência com o ciclo de vida do produto, mas o candidato possui 2 anos de experiência como PM/PO, o que sugere conhecimento desse processo.",
+      "justification": "O candidato possui experiência relevante como TPM e liderança de equipes multifuncionais, o que atende diretamente aos requisitos da vaga. Além disso, sua experiência como PM/PO complementa o perfil buscado. O único gap menor é a falta de menção explícita ao ciclo de vida do produto, mas isso é compensado pela sua experiência em gestão de produto. Portanto, o score é 90, não 95, pois falta essa evidência direta, embora o candidato pareça capaz de desempenhar a função.",
+      "perfect_match": false,
+      "url": "https://remote.co/job-details/technical-program-manager-35733b18-4daa-4dfa-a81c-38af7a941999",
+      "company": "Planet Labs",
+      "location": "Remote in Bulgaria, Croatia, Cyprus, Czechia, Egypt, Israel, Kenya, Lebanon, Luxembourg, Malta, Nigeria, Oman, Qatar, Romania, Saudi Arabia, Serbia, South Africa, United Arab Emirates, United Kingdom or Work from Anywhere",
+      "id": null
+    },
+    {
+      "title": "Technical Program Manager",
+      "score": 90,
+      "evidence": "Requisito: Experiência em gerenciamento de programas técnicos, incluindo execução de programas através do ciclo de vida do produto | Evidência: Atuou como TPM em programa global de 200+ engenheiros, coordenando 3 equipes e 25 engenheiros. Também possui experiência em PM/PO, conectando estratégia e execução.",
+      "main_gap": "Apesar da forte experiência em gerenciamento de programas, não há evidência direta de atuação prévia em programa técnico com escala global como a desta vaga.",
+      "justification": "A pontuação é 90 e não 95 devido à ausência de evidência de experiência prévia em gerenciamento de programas técnicos de grande escala global, como a vaga requer. No entanto, o perfil do candidato demonstra habilidades e experiência relevantes que atendem aos principais requisitos da vaga.",
+      "perfect_match": false,
+      "url": "https://remote.co/job-details/technical-program-manager-35733b18-4daa-4dfa-a81c-38af7a941999",
+      "company": "Planet Labs",
+      "location": "Remote in Bulgaria, Croatia, Cyprus, Czechia, Egypt, Israel, Kenya, Lebanon, Luxembourg, Malta, Nigeria, Oman, Qatar, Romania, Saudi Arabia, Serbia, South Africa, United Arab Emirates, United Kingdom or Work from Anywhere",
+      "id": null
+    }
+  ],
+  "filtered_jobs": [],
+  "eliminated_jobs": []
+}
