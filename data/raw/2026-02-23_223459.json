@@ -1,0 +1,84 @@
+{
+  "fetched_at": "2026-02-24T01:35:07.660967+00:00",
+  "date": "2026-02-23",
+  "config_used": {
+    "roles": [
+      "Product Manager",
+      "Senior Product Manager",
+      "Technical Program Manager",
+      "TPM",
+      "AI Product Manager",
+      "Product Analyst",
+      "Strategy and Operations Manager",
+      "Delivery Manager",
+      "Program Manager"
+    ],
+    "locations": [
+      "remote LATAM",
+      "remote worldwide",
+      "remote"
+    ],
+    "lookback_hours": 24,
+    "sources": [
+      "openai_web_search",
+      "remotive",
+      "weworkremotely",
+      "jobicy"
+    ]
+  },
+  "total_jobs": 4,
+  "jobs": [
+    {
+      "id_hash": "b8c6854eeac03730e283a82f7bd46be89d444f5a58c128b42bb161bc5fd24a89",
+      "id": "b8c6854eeac03730e283a82f7bd46be89d444f5a58c128b42bb161bc5fd24a89",
+      "source": "openai_web_search",
+      "title": "Senior Product Manager, Crypto Brokerage",
+      "company": "Paxos",
+      "location": "Remote - Canada · Remote - US",
+      "salary": null,
+      "jd_full": "Experiência significativa em gerenciamento de produtos em ambientes de corretagem de criptomoedas, com forte compreensão das regulamentações e práticas do setor.",
+      "url": "https://www.paxos.com/jobs/job-details?jobId=8083889002",
+      "collected_at": "2026-02-24T01:35:05.094722+00:00",
+      "date": "14 days ago"
+    },
+    {
+      "id_hash": "0707abc3ef68f9d48f78a910eb2befe622eba36be8d4cb650fba18e91c3d9ee8",
+      "id": "0707abc3ef68f9d48f78a910eb2befe622eba36be8d4cb650fba18e91c3d9ee8",
+      "source": "openai_web_search",
+      "title": "Senior Product Manager, Custody & Blockchain",
+      "company": "Paxos",
+      "location": "Remote - Canada · Remote - US",
+      "salary": null,
+      "jd_full": "Experiência sólida em gerenciamento de produtos relacionados a custódia de ativos digitais e tecnologia blockchain, com foco em segurança e conformidade.",
+      "url": "https://www.paxos.com/jobs/job-details?jobId=8083889002",
+      "collected_at": "2026-02-24T01:35:05.094739+00:00",
+      "date": "14 days ago"
+    },
+    {
+      "id_hash": "17f30daf1722ab991ed59a422576a07c194178d5605cc9c91d2fca2da4b63c9c",
+      "id": "17f30daf1722ab991ed59a422576a07c194178d5605cc9c91d2fca2da4b63c9c",
+      "source": "openai_web_search",
+      "title": "Senior Manager, Business Development",
+      "company": "Paxos",
+      "location": "Remote - Europe",
+      "salary": null,
+      "jd_full": "Experiência comprovada em desenvolvimento de negócios no setor financeiro, com habilidades em negociação e construção de parcerias estratégicas.",
+      "url": "https://www.paxos.com/jobs/job-details?jobId=8345076002",
+      "collected_at": "2026-02-24T01:35:05.094745+00:00",
+      "date": "2 days ago"
+    },
+    {
+      "id_hash": "9e05d9b546d3513dd9af89168c084139a79516f9d6495d43bf59678f4615dad7",
+      "id": "9e05d9b546d3513dd9af89168c084139a79516f9d6495d43bf59678f4615dad7",
+      "source": "jobicy",
+      "title": "Junior Technical Project Manager",
+      "company": "Trimble",
+      "location": "Poland",
+      "salary": null,
+      "jd_full": "<h2>Lead the Future of SaaS Logistics as our Junior Technical Project Manager</h2><p>Are you ready to bridge the gap between complex technical design and real-world logistics impact? As a Technical Project Manager at Transporeon, a Trimble company, you will own the solution lifecycle for international stakeholders, ensuring our cutting-edge platforms are functional, scalable, and delivered with precision. Join a team of visionary pragmatists where your technical expertise in SaaS and object-oriented code drives global supply chain transformation.</p><h2>About Us</h2><p>Trimble is a global technology company that connects the physical and digital worlds, transforming the ways work gets done. With relentless innovation in precise positioning, modeling and data analytics, Trimble enables essential industries including construction, geospatial and transportation. Whether it&#8217;s helping customers build and maintain infrastructure, design and construct buildings, optimize global supply chains or map the world, Trimble is at the forefront, driving productivity and progress.</p><p>T&amp;L: In the Transportation &amp; Logistics segment (<b>Transporeon</b>), our solutions make it safer, simpler and more efficient to move freight—bringing together a global network of shippers, carriers, brokers and 3PLs.</p><h2>What Makes This Role Great:</h2><p>In this role, you will be the primary solution owner from concept to deployment, directly influencing how global freight moves by ensuring technical designs are perfectly &#8220;fit for purpose.&#8221; You will have the unique opportunity to lead high-level design workshops with international customers, acting as both a technical consultant and a subject matter expert who shapes the architecture of our logistics network.</p><h2>Key Exciting Responsibilities</h2><p>• Define, design, and execute complex project solutions following a robust global framework to ensure seamless delivery.</p><p>• Lead requirement and design workshops with international customers and service providers to translate business needs into technical reality.</p><p>• Spearhead the implementation, testing, and quality assurance phases to deploy high-impact solutions across multiple environments.</p><p>• Act as a technical consultant for internal and external stakeholders, sharing deep product knowledge to optimize customer results.</p><p>• Monitor and manage solution scope, cost, and risk, proactively identifying changes to keep global initiatives on track.</p><h2>Essential Skills &amp; Experience</h2><p>• Proven experience managing technical projects ideally within a SaaS environment.</p><p>• Ability to read and analyze Java or other object-oriented programming languages.</p><p>• Mastery of modern project management tools, methodologies, and technical documentation.</p><p>• Exceptional problem-solving skills with a focus on delivering &#8220;fit for purpose&#8221; functional designs.</p><p>• Strong organizational savvy and the ability to collaborate with diverse, international stakeholders.</p><h2>Bonus Points For:</h2><p>• Fluency in German or French, or an additional European language.</p><p>• Previous experience in the transportation, logistics, or supply chain technology industry.</p><h2>Logistics:</h2><p>Location: Poland (remote or on-site)</p><h2>Why You&#8217;ll Love Working With Us</h2><p>At Trimble, we&#8217;re not just a company that &#8220;does good&#8221;—we are a team dedicated to making a tangible, positive Real-World Impact. We build innovative solutions designed to solve the world&#8217;s most critical challenges. From construction sites to transportation hubs, our work tangibly improves how people live, build, move, and grow.</p><p>You&#8217;ll work on projects that truly matter: Our purpose-driven culture means you&#8217;ll be helping to build and deliver solutions that make work faster, safer, and more sustainable for millions of people worldwide. Our impact is tangible, from connected machines that save fuel to data-driven insights that reduce waste.</p><p>Collaborate with like-minded people: Our strong internal culture is a &#8220;hidden gem.&#8221; You will work with a collaborative, supportive team that shares your purpose and fosters a genuine sense of belonging. We&#8217;re a company of &#8220;visionary pragmatists&#8221; who think boldly and build things that work.</p><p>Be an owner: Trimble thrives on individuals who take initiative and embrace ownership. You&#8217;ll find an entrepreneurial spirit where success is often &#8220;self-authored,&#8221; empowering proactive &#8220;doers.&#8221;</p><p><b><b>How to Apply: </b></b>Please submit an online application for this position by clicking on the ‘Apply Now’ button located in this posting.</p><p><b><b>Join a Values-Driven Team: Belong, Grow, Innovate. </b></b></p><p>At Trimble, our core values of Belong, Grow, and Innovate aren&#8217;t just words—they&#8217;re the foundation of our culture. We foster an environment where you are seen, heard, and valued (Belong); where you have an opportunity to build a career and drive our collective growth (Grow); and where your innovative ideas shape the future (Innovate). We believe in empowering local teams to create impactful strategies, ensuring our global vision resonates with every individual. Become part of a team where your contributions truly matter. </p><p><a href=\"https://www.trimble.com/en/our-commitment/responsible-business/data-privacy-and-security/data-privacy-center\" rel=\"nofollow ugc noopener\" target=\"_blank\"><u>Trimble’s Privacy Policy</u></a></p><p>If you need assistance or would like to request an accommodation in connection with the application process, please contact AskPX@px.trimble.com.</p>",
+      "url": "https://jobicy.com/jobs/139795-junior-technical-project-manager",
+      "collected_at": "2026-02-24T01:35:07.652723+00:00",
+      "date": "2026-02-23T15:16:53+00:00"
+    }
+  ]
+}
