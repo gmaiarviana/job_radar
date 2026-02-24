@@ -4,8 +4,14 @@
 search:
   roles:
     - "Product Manager"
+    - "Senior Product Manager"
     - "Technical Program Manager"
     - "TPM"
+    - "AI Product Manager"
+    - "Product Analyst"
+    - "Strategy and Operations Manager"
+    - "Delivery Manager"
+    - "Program Manager"
 
   locations:
     - "remote LATAM"
