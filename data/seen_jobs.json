@@ -16,5 +16,107 @@
     "source": "openai_web_search",
     "title": "Product Manager - Data - Platform Products",
     "company": "Neon"
+  },
+  "06d8975ffab0c60a5ed221ec57dcfff577507d52d7b410fceb02ddb19762b27a": {
+    "first_seen": "2026-02-24",
+    "source": "openai_web_search",
+    "title": "Senior Software Product Manager",
+    "company": "Search Atlas"
+  },
+  "bd0f29e4ef0659ce192784a4918c12e8d0c4d877c8c7af220d51f4f193541b7b": {
+    "first_seen": "2026-02-24",
+    "source": "greenhouse",
+    "title": "Product Manager – AI & Data Platforms, Financial Services",
+    "company": "Turing"
+  },
+  "80b463cc6533b8c8c7f4b4c6f767db6126c7a46afd0f6506c0e3460f09df3fdb": {
+    "first_seen": "2026-02-24",
+    "source": "greenhouse",
+    "title": "Lead Product Manager",
+    "company": "Nubank"
+  },
+  "0f3fb218bcc92b37c7e58d52b49b9f231962259526c73561b3dc9f0c1e99c3c8": {
+    "first_seen": "2026-02-24",
+    "source": "greenhouse",
+    "title": "Technical Program Manager - Product Operations",
+    "company": "Nubank"
+  },
+  "e539512d94fb29de4557179e514dd1c8c8b002852d3d2a9d2fe3cf1f4e3b0028": {
+    "first_seen": "2026-02-24",
+    "source": "greenhouse",
+    "title": "Staff Product Manager",
+    "company": "Brex"
+  },
+  "02aed90d09e6f92678bdfb887ee6f75a4f665a0f347c01436e05d27038ee80ad": {
+    "first_seen": "2026-02-24",
+    "source": "greenhouse",
+    "title": "Principal Product Manager, AI Control Plane and Guardrails",
+    "company": "GitLab"
+  },
+  "d4aad35d3cd30613896e2f9e0953b3456426457b12e630be0a2adb69add343f2": {
+    "first_seen": "2026-02-24",
+    "source": "greenhouse",
+    "title": "Principal Product Manager, Security & Compliance",
+    "company": "GitLab"
+  },
+  "0996bad2afba3c68215fb4fb430261fceaabd73d916342b62d729c58433ca10c": {
+    "first_seen": "2026-02-24",
+    "source": "greenhouse",
+    "title": "Senior Product Manager, Plan",
+    "company": "GitLab"
+  },
+  "f2a7369c09c7e0e573727ed92595dfd74839e9b28a258a42bd90d082f8cc815c": {
+    "first_seen": "2026-02-24",
+    "source": "greenhouse",
+    "title": "Staff Product Manager, AI Developer Tools",
+    "company": "GitLab"
+  },
+  "aa1640b897db6d2663c09fd8f93697e7bc0dc32d9871bc12e00af614948d3982": {
+    "first_seen": "2026-02-24",
+    "source": "greenhouse",
+    "title": "Staff Product Manager, Software Supply Chain Security",
+    "company": "GitLab"
+  },
+  "6c9d117a7d60706fa2e5cacc0045d57c59b41961d74a4afbc235a8e7bca0ee16": {
+    "first_seen": "2026-02-24",
+    "source": "greenhouse",
+    "title": "Program Manager, Business Transformation",
+    "company": "Amplitude"
+  },
+  "a2868735d2c29dfab7dd60b425224205c3e464feb6c4e4d00953303cd7705aa6": {
+    "first_seen": "2026-02-24",
+    "source": "greenhouse",
+    "title": "Product Manager - Accounts",
+    "company": "Vercel"
+  },
+  "e2634cbc24757b71662d8eb7abf758d96f3f2567a4e9076dc9084dcdc438fa93": {
+    "first_seen": "2026-02-24",
+    "source": "greenhouse",
+    "title": "Product Manager - Agent Platform",
+    "company": "Vercel"
+  },
+  "2fe5bbc0256787e3da8b9835b3d1406696eea3f5bd051386bae68e76c1ef05c4": {
+    "first_seen": "2026-02-24",
+    "source": "greenhouse",
+    "title": "Product Manager - Dashboard",
+    "company": "Vercel"
+  },
+  "1968c8f80ea5b391d368b30b66142e4d6740c0170e3e395f6da02f0c93da844b": {
+    "first_seen": "2026-02-24",
+    "source": "greenhouse",
+    "title": "Customer Education Program Manager",
+    "company": "Klaviyo"
+  },
+  "e6157c4254ab2b932c3e38cfe7e1867415d328a162ef7323d8f9f082cc8f6ba9": {
+    "first_seen": "2026-02-24",
+    "source": "greenhouse",
+    "title": "Lead Product Manager",
+    "company": "Klaviyo"
+  },
+  "d495f201d378c1dc420c45fa49567a24a7f731a3dc366a34c711b2590c54d198": {
+    "first_seen": "2026-02-24",
+    "source": "greenhouse",
+    "title": "Lead Product Manager, Developer Experience",
+    "company": "Klaviyo"
   }
 }
