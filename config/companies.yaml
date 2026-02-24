@@ -27,10 +27,10 @@ companies:
       ats_id: "rippling"
       notes: "Concorrente Deel/Remote; scope maior (HR + IT + payroll); Series F"
 
-    - name: "Andela"
-      ats: "lever"
-      ats_id: "andela"
-      notes: "Talent-as-a-service; remote-first; opera fortemente em LATAM/Africa"
+    # - name: "Andela"
+    #   ats: "lever"
+    #   ats_id: "andela"
+    #   notes: "Talent-as-a-service; remote-first; opera fortemente em LATAM/Africa"  # board desativado — verificar ATS atual
 
     - name: "Turing"
       ats: "greenhouse"
@@ -178,7 +178,7 @@ companies:
       notes: "LLM infra enterprise; remote global; Series C"
 
     - name: "Scale AI"
-      ats: "ashby"
+      ats: "greenhouse"
       ats_id: "scaleai"
       notes: "AI data infra; coordenação técnica massiva + AI PoCs; Series F"
 
