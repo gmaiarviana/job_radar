@@ -6,8 +6,18 @@ Pipeline: fetch.py → filter.py → score.py
 
 import argparse
 import json
+import sys
 from datetime import datetime
 from pathlib import Path
+
+
+def _ensure_console_utf8() -> None:
+    """Evita UnicodeEncodeError no Windows (console cp1252)."""
+    if sys.stdout.encoding and sys.stdout.encoding.lower() != "utf-8":
+        try:
+            sys.stdout.reconfigure(encoding="utf-8")
+        except (AttributeError, OSError):
+            pass
 
 # --- Location filter (expandido em relação ao score.py) ---
 LOCATION_DISCARD_PATTERNS = [
@@ -97,6 +107,7 @@ def resolve_input_path(input_path: str | None, date_str: str | None) -> Path | N
 
 
 def main() -> None:
+    _ensure_console_utf8()
     parser = argparse.ArgumentParser(
         description="Aplica hard filters (location + quality) em arquivo raw; salva em data/filtered/."
     )
@@ -118,21 +129,21 @@ def main() -> None:
     raw_path = resolve_input_path(args.input, args.date)
     if not raw_path:
         if args.input:
-            print(f"[filter.py] ❌ Arquivo não encontrado: {args.input}")
+            print(f"[filter.py] Erro: arquivo nao encontrado: {args.input}")
         else:
-            print(f"[filter.py] ❌ Nenhum arquivo raw encontrado para a data: {args.date}")
+            print(f"[filter.py] Erro: nenhum arquivo raw para a data: {args.date}")
         return
 
     try:
         raw_data = json.loads(raw_path.read_text(encoding="utf-8"))
     except Exception as e:
-        print(f"[filter.py] ✗ Erro ao ler {raw_path}: {e}")
+        print(f"[filter.py] Erro ao ler {raw_path}: {e}")
         return
 
     jobs = raw_data.get("jobs", [])
     total_input = len(jobs)
     if total_input == 0:
-        print("[filter.py] ⚠️ Nenhuma vaga no arquivo raw.")
+        print("[filter.py] Aviso: nenhuma vaga no arquivo raw.")
         return
 
     # 1. Location filter
@@ -163,8 +174,8 @@ def main() -> None:
 
     out_path.write_text(json.dumps(output, indent=2, ensure_ascii=False), encoding="utf-8")
     print(
-        f"[filter.py] ✅ {total_passed} vagas passaram | "
-        f"location: {discarded_location} | quality: {discarded_quality} → {out_path}"
+        f"[filter.py] OK {total_passed} vagas passaram | "
+        f"location: {discarded_location} | quality: {discarded_quality} -> {out_path}"
     )
 
 

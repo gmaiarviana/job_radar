@@ -1,0 +1,20 @@
+# Windows + Python — encoding e terminal
+
+## Console encoding (UnicodeEncodeError)
+- No Windows, o console costuma usar **cp1252**. `print()` com caracteres Unicode (ex.: ✅, →, emojis) pode gerar `UnicodeEncodeError: 'charmap' codec can't encode`.
+- **Solução em scripts**: no início de `main()` (ou antes de qualquer `print`), chamar algo que force UTF-8 no stdout, por exemplo:
+  ```python
+  if sys.stdout.encoding and sys.stdout.encoding.lower() != "utf-8":
+      try:
+          sys.stdout.reconfigure(encoding="utf-8")
+      except (AttributeError, OSError):
+          pass
+  ```
+- **Alternativa**: usar apenas ASCII em mensagens de `print()` (ex.: `OK` em vez de ✅, `->` em vez de →).
+- **Execução manual**: se o erro persistir, rodar com `$env:PYTHONIOENCODING='utf-8'; python src/script.py`.
+
+## Cursor Sandbox (Windows)
+- No **Windows** o sandbox do Cursor **não é suportado** (só macOS/Linux). Por isso aparece **"Cursor Sandbox is unsupported"** ao rodar `git`, `python`, etc. no terminal do Agent.
+- **Solução neste repo**: o arquivo `.cursor/sandbox.json` com `"type": "insecure_none"` desativa o sandbox só neste workspace, e os comandos passam a rodar sem esse erro.
+- **Alternativa global**: em Cursor → Settings → Cursor Settings → Agents → Auto-Run, mudar **Auto-Run Mode** de "Run in Sandbox" para **"Ask Every Time"** ou **"Run Everything"**.
+- Se não quiser desativar o sandbox: rodar `git` e scripts Python em um **PowerShell externo** (fora do Cursor).
