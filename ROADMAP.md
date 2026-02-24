@@ -1,6 +1,6 @@
 # ROADMAP - Job Radar
 
-📡 **Status:** Épico 1 concluído. Épico 2 concluído (2.1–2.7). Épico 3 concluído (Greenhouse, Lever, Ashby). Próximo: **Épico 4** (Preparação / qualidade).
+📡 **Status:** Épico 1–3 concluídos; seed ATS rodado (greenhouse + ashby). Próximo: **filtrar e score nas vagas atuais** (raw seed) e **Épico 4** (preparação/qualidade).
 
 > **Filosofia:** POC → Protótipo → MVP. Validar cada etapa antes de avançar.
 
@@ -62,6 +62,38 @@ A população pode ser feita de forma **manual** (passo a passo, revisando entre
 
 ---
 
+## 🎯 Próximos passos (pós-seed)
+
+- **Filtrar e score nas vagas atuais:** aplicar eliminatórios e quality guard aos brutos já coletados (ex.: `data/raw/seed_*.json`), revisar o que faz sentido e rodar scoring **apenas nas que não levaram hardcut**. Objetivo: já trabalhar em cima dessas vagas (filtrar → ver → pontuar) sem depender só do pipeline diário.
+- **Suporte a raw de seed no score:** permitir que `score.py` (ou script de filtro+score) aceite um ou mais arquivos raw (incl. `seed_*.json`) como entrada, aplicando a mesma cadeia filtro → score e gravando em `data/scored/`.
+
+---
+
+## 🔍 Investigação: o que cada coletor expõe (para decisão)
+
+Resumo do que cada fonte já retorna ou pode retornar, para decidir enriquecimento (JD, localização, salário, títulos).
+
+| Coletor | Título | Empresa | Localização | Salário | URL | JD (descrição) | Data | Observações |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Greenhouse** | ✅ API | ✅ config | ✅ `location.name` (detail) | ❌ | ✅ `absolute_url` | ✅ `content` (GET job/{id}) | ✅ `updated_at` | JD completo em 2ª chamada por vaga. Filtro: TITLE_KEYWORDS (PM, program manager, TPM, technical program). |
+| **Lever** | ✅ `text` | ✅ config | ✅ `categories.location` | ✅ `salaryRange` | ✅ `hostedUrl` | ✅ `descriptionPlain` + lists + additional | ✅ `createdAt` (epoch ms) | JD rico na própria API. Filtro: mesmo TITLE_KEYWORDS. |
+| **Ashby** | ✅ | ✅ config | ✅ string | ❌ | ✅ `jobUrl` | ✅ `descriptionPlain` ou strip HTML | ✅ `publishedAt` | JD na resposta única. Filtro: TITLE_KEYWORDS. |
+| **Remotive** | ✅ | ✅ `company_name` | ✅ `candidate_required_location` | ✅ | ✅ | ✅ `description` | ✅ `publication_date` | Categorias fixas (product, project-management); recência 48h. Sem filtro por título no código. |
+| **We Work Remotely** | ✅ (RSS "Company: Title") | ✅ parse do título | ❌ no RSS | ❌ | ✅ link | ⚠️ via link (não no RSS) | ✅ item pubDate | RSS; filtro por keywords no título. JD exige fetch da página. |
+| **Jobicy** | ✅ | ✅ | ✅ | ✅ min/max/currency/period | ✅ | ✅ | ✅ pubDate | industry=product, 48h. |
+
+**Decisões sugeridas:** (1) ATS (Greenhouse, Lever, Ashby) já trazem ou podem trazer JD completo na coleta — garantir que `jd_full` seja preenchido no schema. (2) We Work Remotely: decidir se vale fetch da página para JD ou manter só título/link. (3) Usar a análise exploratória de títulos (abaixo) para alinhar filtros e não perder vagas por título limitado.
+
+---
+
+## 📊 Análise exploratória de títulos de vagas
+
+- **Objetivo:** Evitar perder vagas porque o filtro de título está limitado a poucos termos (ex.: "product manager", "program manager", "tpm", "technical program"). Descobrir quais outros títulos aparecem nos boards/APIs e ainda são relevantes para o perfil.
+- **Atividade:** (1) Extrair **títulos únicos** de um ou mais runs (raw do fetch ou seed), por fonte. (2) Agrupar por similaridade ou frequência; revisar manualmente amostra. (3) Decidir: expandir `TITLE_KEYWORDS` nos coletores, ou mover lista para config (ex. `config/search.yaml`) e usar em todos. (4) Opcional: coletar **sem** filtro de título em um run de análise, salvar só títulos; depois escolher quais entram no filtro.
+- **Entregável:** Lista de títulos (ou regex/keywords) documentada e, se fizer sentido, configurável em um único lugar; menos falsos negativos por título “diferente” (ex. "Product Lead", "Associate PM").
+
+---
+
 ## 📍 Próximos Épicos
 
 ---
@@ -84,6 +116,10 @@ A população pode ser feita de forma **manual** (passo a passo, revisando entre
 #### 4.3 Centralizar paths
 
 - `config/search.yaml` já define `output.raw_dir`, `scored_dir`, etc., mas não é usado. Criar módulo que lê e expõe paths; fetch, score, generate, notify e seen_jobs passam a usar esse ponto único.
+
+#### 4.4 Análise exploratória de títulos
+
+- Realizar a análise exploratória de títulos de vagas (ver seção dedicada acima) para ampliar o filtro de títulos sem perder relevância e evitar perder vagas por lista limitada de keywords.
 
 ---
 
