@@ -46,7 +46,7 @@ def collect_openai_web_search(
     - "location": Localização literal do JD (ex: 'EMEA only', 'United States')
     - "location_confidence": "high" se a localização está explícita no JD, "low" se for ambígua ou ausente.
     - "url": Link DIRETAMENTE para a candidatura ou postagem oficial
-    - "requirements": Resumo de 1-2 sentenças
+    - "requirements": Descrição útil da vaga: requisitos principais, responsabilidades e qualificações (mínimo ~400 caracteres). Não use só 1-2 frases; extraia o que estiver no anúncio para permitir matching depois.
     - "date": Tempo desde a publicação (ex: '2 days ago')
 
     Retorne APENAS o JSON sob a chave "jobs".

@@ -1,0 +1,98 @@
+{
+  "fetched_at": "2026-02-24T01:53:33.252852+00:00",
+  "date": "2026-02-23",
+  "config_used": {
+    "roles": [
+      "Product Manager",
+      "Senior Product Manager",
+      "Technical Program Manager",
+      "TPM",
+      "AI Product Manager",
+      "Product Analyst",
+      "Strategy and Operations Manager",
+      "Delivery Manager",
+      "Program Manager"
+    ],
+    "locations": [
+      "remote LATAM",
+      "remote worldwide",
+      "remote"
+    ],
+    "lookback_hours": 24,
+    "sources": [
+      "openai_web_search",
+      "remotive",
+      "weworkremotely",
+      "jobicy"
+    ]
+  },
+  "coverage": {
+    "sources": [
+      "openai_web_search",
+      "remotive",
+      "weworkremotely",
+      "jobicy"
+    ],
+    "total_raw": 6,
+    "total_after_recent_filter": 6,
+    "total_after_dedup": 5,
+    "total_after_quality_guard": 4,
+    "companies_distinct": 4,
+    "discarded_low_quality": 1
+  },
+  "total_jobs": 4,
+  "jobs": [
+    {
+      "id_hash": "12dadb7bfe4f0b5465dda55445c7e6c35e81b0048e8ffa1b454b53977cb1de56",
+      "id": "12dadb7bfe4f0b5465dda55445c7e6c35e81b0048e8ffa1b454b53977cb1de56",
+      "source": "openai_web_search",
+      "title": "Product Manager",
+      "company": "HRE Group",
+      "location": "Florianópolis, SC - Brasil",
+      "salary": null,
+      "jd_full": "Responsável por liderar a visão, roadmap e backlog de múltiplas linhas de produtos SaaS. Trabalhará em estreita colaboração com o Líder de Equipe e o Arquiteto Líder para maximizar o valor entregue a associações de proprietários, empresas de gestão de propriedades e stakeholders internos. Principais responsabilidades incluem: Estratégia de Produto e Roadmaps: Criar e manter roadmaps focados em resultados para diversos produtos, alinhados com OKRs de negócios e oportunidades de mercado. Quantificar ROI, construir casos de negócios e obter aprovação de stakeholders. Gestão de Backlog e Entrega Ágil: Escrever épicos e histórias de usuário de alta qualidade com critérios de aceitação claros. Priorizar usando métodos baseados em dados, equilibrando novo valor, dívida técnica e melhorias operacionais. Colaborar com UX, QA e engenharia para refinar, validar e aceitar o trabalho. Engajamento com Stakeholders e Comercial: Atuar como principal elo entre clientes (internos e externos) e a equipe de desenvolvimento — conduzindo entrevistas de descoberta, demos, QBRs e apresentações de roadmap em inglês de nível executivo. Coordenar com as equipes de Vendas e Marketing em planos de lançamento de mercado, precificação e materiais de apoio. Métricas e Melhoria Contínua: Definir métricas de sucesso (adoção, NPS, receita, tickets de suporte) e iterar com base em análise e feedback. Liderar retrospectivas sobre práticas de produto e defender melhorias de processo.",
+      "url": "https://remotar.com.br/job/123941/hre-group/product-manager",
+      "collected_at": "2026-02-24T01:53:30.452236+00:00",
+      "date": "1 mês atrás"
+    },
+    {
+      "id_hash": "ba7855fba9ede35380381814339be63ddfd65f26d536d316379e695fa5a5fa0f",
+      "id": "ba7855fba9ede35380381814339be63ddfd65f26d536d316379e695fa5a5fa0f",
+      "source": "openai_web_search",
+      "title": "Senior Software Product Manager",
+      "company": "Search Atlas Group",
+      "location": "São Paulo, SP - Brasil",
+      "salary": "$5,500.00 a $6,500.00 USD / Mensal",
+      "jd_full": "Responsável por liderar e acelerar o desenvolvimento da plataforma de software de SEO da empresa. Trabalhará em estreita colaboração com a liderança sênior e equipes multifuncionais para entregar recursos impactantes de forma rápida e com alto padrão de qualidade. Principais responsabilidades incluem: Propriedade do Produto: Liderar um vertical de produto, assumindo a responsabilidade de um roadmap que abrange 3-5 produtos. Definir e gerenciar recursos do produto desde a ideação até o lançamento, trabalhando com Product Managers, Engenheiros, QA e designers para entregar experiências de usuário de alta qualidade. Processo Ágil e Entrega: Participar de standups diários, planejamento de sprints, grooming e retrospectivas. Manter épicos estruturados, issues e marcos no GitLab. Documentação e Ticketing: Escrever tickets claros e detalhados com capturas de tela incorporadas, links do Figma e gravações do Loom. Garantir que os requisitos sejam completos, acionáveis e alinhados com os objetivos do sprint. Qualidade e Usabilidade: Testar novos recursos em staging, relatar bugs e verificar correções. Supervisionar proativamente problemas de usabilidade e sugerir melhorias de produto. Colaboração com Liderança: Trabalhar diretamente com a liderança sênior para priorizar itens do roadmap, alinhar a velocidade de engenharia com os objetivos do produto e garantir que as expectativas dos stakeholders sejam atendidas.",
+      "url": "https://remotar.com.br/job/110065/search-atlas/senior-software-product-manager",
+      "collected_at": "2026-02-24T01:53:30.452255+00:00",
+      "date": "3 meses atrás"
+    },
+    {
+      "id_hash": "980f2bf3a951a90d69202b3efc67ad636472e7449fc1c4f1056be33eb4a5492b",
+      "id": "980f2bf3a951a90d69202b3efc67ad636472e7449fc1c4f1056be33eb4a5492b",
+      "source": "openai_web_search",
+      "title": "Senior Product Manager",
+      "company": "Cognizant",
+      "location": "Bangalore, Karnataka, Índia",
+      "salary": null,
+      "jd_full": "Responsável por liderar a visão, roadmap e backlog de múltiplas linhas de produtos SaaS. Trabalhará em estreita colaboração com o Líder de Equipe e o Arquiteto Líder para maximizar o valor entregue a associações de proprietários, empresas de gestão de propriedades e stakeholders internos. Principais responsabilidades incluem: Estratégia de Produto e Roadmaps: Criar e manter roadmaps focados em resultados para diversos produtos, alinhados com OKRs de negócios e oportunidades de mercado. Quantificar ROI, construir casos de negócios e obter aprovação de stakeholders. Gestão de Backlog e Entrega Ágil: Escrever épicos e histórias de usuário de alta qualidade com critérios de aceitação claros. Priorizar usando métodos baseados em dados, equilibrando novo valor, dívida técnica e melhorias operacionais. Colaborar com UX, QA e engenharia para refinar, validar e aceitar o trabalho. Engajamento com Stakeholders e Comercial: Atuar como principal elo entre clientes (internos e externos) e a equipe de desenvolvimento — conduzindo entrevistas de descoberta, demos, QBRs e apresentações de roadmap em inglês de nível executivo. Coordenar com as equipes de Vendas e Marketing em planos de lançamento de mercado, precificação e materiais de apoio. Métricas e Melhoria Contínua: Definir métricas de sucesso (adoção, NPS, receita, tickets de suporte) e iterar com base em análise e feedback. Liderar retrospectivas sobre práticas de produto e defender melhorias de processo.",
+      "url": "https://careers.cognizant.com/latam-pt/vagas/00066150481/senior-product-manager/",
+      "collected_at": "2026-02-24T01:53:30.452261+00:00",
+      "date": "2 semanas atrás"
+    },
+    {
+      "id_hash": "0bd99a87e05edf5c2705f0d930d957790dd6ec3e165a3ddb6208a7a808035b50",
+      "id": "0bd99a87e05edf5c2705f0d930d957790dd6ec3e165a3ddb6208a7a808035b50",
+      "source": "openai_web_search",
+      "title": "Sr. Product Manager, Ads AI/ML",
+      "company": "Disney Entertainment and ESPN Product & Technology",
+      "location": "Nova Iorque, Nova Iorque, Estados Unidos",
+      "salary": null,
+      "jd_full": "Responsável por liderar iniciativas de alto impacto na interseção dos sistemas de publicidade da Disney e automação impulsionada por IA. Ajudará a moldar o futuro dos sistemas internos de anúncios, construindo plataformas e serviços que permitem escala, reduzem o trabalho manual e desbloqueiam fluxos de trabalho inteligentes em Vendas, Planejamento, Operações de Anúncios e Finanças. Este papel conecta estratégia de plataforma com tecnologias emergentes e exigirá colaboração próxima com engenharia, pesquisa e parceiros de negócios em toda a organização. O candidato ideal possui forte profundidade técnica, pensa de forma sistêmica, comunica-se claramente e entrega com urgência. Deve estar empolgado para liderar tanto o desenvolvimento iterativo de plataformas quanto a inovação de produtos do zero em uma equipe de alto impacto.",
+      "url": "https://www.disneycareers.com/pt-br/vaga/nova-iorque/sr-product-manager-ads-ai-ml/391/90842187104",
+      "collected_at": "2026-02-24T01:53:30.452268+00:00",
+      "date": "2 semanas atrás"
+    }
+  ]
+}

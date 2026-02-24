@@ -1,0 +1,24 @@
+{
+  "date": "2026-02-23",
+  "discarded_at": "2026-02-24T01:53:33.252599+00:00",
+  "total": 1,
+  "by_reason": {
+    "jd_too_short": 1
+  },
+  "items": [
+    {
+      "id_hash": "ce13ae357b79816fb491fb1b4dfb204e95941f1431118ddb2800c5a2d92dad00",
+      "id": "ce13ae357b79816fb491fb1b4dfb204e95941f1431118ddb2800c5a2d92dad00",
+      "source": "openai_web_search",
+      "title": "Technical Program Manager (Onsite)",
+      "company": "Cognizant",
+      "location": "San Francisco, CA - Estados Unidos",
+      "salary": null,
+      "jd_full": "Responsável por liderar a entrega de ponta a ponta de programas tecnológicos complexos e multifuncionais. Trabalhará em estreita colaboração com equipes de engenharia, produto e negócios para definir requisitos, planejar roadmaps de projetos, remover obstáculos e garantir entrega pontual e de alta qualidade. O TPM conduzirá discussões técnicas, coordenará múltiplos fluxos de trabalho, gerenciará riscos e fornecerá comunicação clara aos stakeholders em todos os níveis.",
+      "url": "https://careers.cognizant.com/latam-pt/vagas/00067474683/technical-program-manager-onsite/",
+      "collected_at": "2026-02-24T01:53:30.452265+00:00",
+      "date": "6 dias atrás",
+      "discard_reason": "jd_too_short"
+    }
+  ]
+}

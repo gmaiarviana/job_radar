@@ -1,0 +1,31 @@
+{
+  "fetched_at": "2026-02-24T01:40:16.351660+00:00",
+  "date": "2026-02-23",
+  "config_used": {
+    "roles": [
+      "Product Manager",
+      "Senior Product Manager",
+      "Technical Program Manager",
+      "TPM",
+      "AI Product Manager",
+      "Product Analyst",
+      "Strategy and Operations Manager",
+      "Delivery Manager",
+      "Program Manager"
+    ],
+    "locations": [
+      "remote LATAM",
+      "remote worldwide",
+      "remote"
+    ],
+    "lookback_hours": 24,
+    "sources": [
+      "openai_web_search",
+      "remotive",
+      "weworkremotely",
+      "jobicy"
+    ]
+  },
+  "total_jobs": 0,
+  "jobs": []
+}
