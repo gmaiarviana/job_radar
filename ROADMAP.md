@@ -1,156 +1,311 @@
 # ROADMAP - Job Radar
 
-## 📍 Próximos Passos (Estado Futuro)
+📡 **Status:** Épico 1 concluído (arquitetura base validada). Iniciando Épico 2 (fetch multi-fonte).
 
-
-
-### ÉPICO 1: Fetch + Score (POC) - ⏳ EM PROGRESSO
-
-**Objetivo:** Validar que busca via OpenAI web search + scoring via Claude Haiku retorna vagas relevantes e bem pontuadas.
-
-**Critério de sucesso:** Rodar 3 dias consecutivos. Scoring com concordância ≥ 80% vs avaliação manual.
-
-#### 1.4 Prompt de scoring - ✅ CONCLUÍDO
-- System prompt com perfil + critérios de scoring.
-- Input: vagas do fetch.
-- Output por vaga: score 0-100, justificativa (1 linha), flag PERFECT_MATCH.
-- Pesos explícitos: localização (eliminatório), salário (≥ $5k USD), fit de responsabilidades, red flags.
-
-#### 1.5 Script score.py - ✅ CONCLUÍDO
-- Lê `data/raw/YYYY-MM-DD.json`.
-- Refatorado para processo de duas etapas:
-    1. Eliminatórios (Batch Haiku): Filtra por local, sênior, cargo e idioma.
-    2. Scoring Profundo (Haiku Individual): Mapeamento de evidências, gaps e score (0-95).
-- Salva em `data/scored/` com campos `jobs` (top), `filtered_jobs` e `eliminated_jobs`.
-
-#### 1.6 Calibração manual (PENDENTE)
-- Candidato avalia 20-30 vagas manualmente.
-- Compara com scores do LLM.
-- Ajusta prompt/pesos até concordância ≥ 80%.
-- **Vaga específica:** Verificar manualmente o JD real da Planet Labs (job/7542179) para confirmar se Brasil está incluído no "Work from Anywhere" antes de aplicar. Registrar a decisão no feedback.
-
-#### 1.7 Débito Técnico: Tratamento de Ambiguidade de Localização (PENDENTE)
-- O campo `location_confidence: "low"` capturado pelo fetch não está sendo usado no filtro do `score.py`. 
-- Vagas com localização ambígua (ex: listas longas de países que incluem "Work from Anywhere") passam pelo filtro sem penalização. 
-- **Ação:** Avaliar se `location_confidence: "low"` deve gerar penalização automática no score ou flag de revisão manual.
+> **Filosofia:** POC → Protótipo → MVP. Validar cada etapa antes de avançar.
 
 ---
 
-### ÉPICO 2: Interface Streamlit (Protótipo) - ⏳ PENDENTE
+## ✅ Concluído
 
-**Objetivo:** Interface local para visualizar vagas, gerar materiais de aplicação, e dar feedback.
-**Dependência:** Épico 1 validado.
-**Critério de sucesso:** Jornada completa funcional — ver vagas → gerar currículo → download PDF → feedback.
+### ÉPICO 1: Fetch + Score (Arquitetura Base)
 
-#### 2.1 Tela principal — vagas do dia (STUB em app.py)
-- Lista de vagas pontuadas, ordenadas por score.
-- Card por vaga: título, empresa, score (badge colorido), salário, justificativa, link direto.
-- Cores: verde (≥ 90), amarelo (80-89).
-- Seletor de data para ver dias anteriores.
+**Objetivo:** Validar a arquitetura fetch → score → commit com dados reais.
 
-#### 2.2 Botão "Preparar aplicação" (PENDENTE)
-- Ao clicar: chama `generate.py` com dados da vaga + perfil.
-- Loading indicator enquanto gera (~5-10 segundos).
-- Exibe preview do currículo e cover letter gerados.
-- Botão de download PDF para cada um.
+**O que foi construído:**
+- `src/fetch.py` — busca via OpenAI web search (gpt-4o-mini-search-preview)
+- `src/score.py` — scoring via Claude Haiku com filtros eliminatórios e pesos
+- `daily.yml` — pipeline no GitHub Actions (seg-sex 9h UTC)
+- `config/profile.md`, `config/search.yaml` — configuração do candidato e parâmetros de busca
+- Deduplicação intra-run e cross-7-dias por título+empresa
+- Filtros eliminatórios: localização, nível, tipo de cargo, idioma
 
-#### 2.3 Feedback por vaga (PENDENTE)
-- Botões "👍 Bom match" / "👎 Não relevante" em cada card.
-- Salva em `data/feedback/YYYY-MM-DD.json`.
-- Visual: vaga fica marcada após feedback.
+**Por que foi encerrado:**
+A arquitetura está validada. O problema identificado é a estratégia de coleta: OpenAI web search retorna volume baixo, duplicatas e JDs rasos. Não é um problema de scoring — é de input.
 
-#### 2.4 Histórico (PENDENTE)
-- Sidebar ou aba com lista de dias passados.
-- Vagas marcadas como "aplicado".
-- Contadores: vagas vistas, aplicações geradas, feedbacks dados.
+**Decisão:** OpenAI web search desativado como fonte primária. Mantido como camada futura de descoberta (exploração semanal de novas empresas), não de coleta diária.
 
 ---
 
-### ÉPICO 3: Geração de Materiais (POC) - ⏳ PENDENTE
+## 📍 Próximos Épicos
+
+---
+
+### ÉPICO 2: Fetch Multi-Fonte — APIs e RSS Públicos
+
+**Objetivo:** Substituir o fetch atual por fontes estruturadas gratuitas, garantindo volume e diversidade reais de vagas diárias.
+
+**Dependência:** Épico 1 concluído.
+
+**Critério de aceite:**
+- Mínimo 20 vagas únicas por dia (empresas distintas)
+- Zero duplicatas intra-run
+- 100% dos jobs com JD ≥ 500 caracteres antes de chegar no scoring
+- Campo `source` preenchido em cada job
+- `fetch.py` refatorado para arquitetura multi-fonte com coletores independentes
+
+#### 2.1 Refatoração do fetch.py
+
+- Arquitetura: coletores independentes por fonte, agregados em um pipeline único
+- Normalização obrigatória: todo job vira o mesmo schema independente da fonte
+- Schema mínimo: `id_hash`, `source`, `title`, `company`, `location`, `salary`, `jd_full`, `url`, `collected_at`, `date`
+- `id_hash` baseado em `company + title` (case insensitive) para dedupe cross-fonte
+
+#### 2.2 Conector Remotive
+
+- Endpoint: `https://remotive.com/api/remote-jobs?category=product&limit=100`
+- Categorias: `product`, `project-management`
+- Filtro de recência: últimas 48h (usar campo `publication_date`)
+
+#### 2.3 Conector We Work Remotely
+
+- Fonte: RSS feed público (`https://weworkremotely.com/categories/remote-management-and-finance-jobs.rss`)
+- Parser RSS com `feedparser` ou `urllib` nativo
+- Filtro por keywords no título: product manager, program manager, TPM
+
+#### 2.4 Conector Jobicy
+
+- Endpoint: `https://jobicy.com/api/v2/remote-jobs?industry=product&count=50`
+- API pública, sem key
+- Filtro de recência: últimas 48h
+
+#### 2.5 Quality Guard (pré-scoring)
+
+- JD < 500 caracteres → descartado com log
+- Título vazio ou genérico (ex: "Opportunity", "Job Opening") → descartado com log
+- Empresa não detectada → descartado com log
+- Log de descartados salvo em `data/raw/YYYY-MM-DD_discarded.json`
+
+#### 2.6 Métricas de cobertura (no output do fetch)
+
+Adicionar ao JSON de saída:
+```json
+"coverage": {
+  "sources": ["remotive", "weworkremotely", "jobicy"],
+  "total_raw": 85,
+  "total_after_recent_filter": 42,
+  "total_after_dedup": 38,
+  "total_after_quality_guard": 35,
+  "companies_distinct": 31,
+  "discarded_low_quality": 3
+}
+```
+
+---
+
+### ÉPICO 3: Fetch Estratégico — Greenhouse + Empresas-Alvo
+
+**Objetivo:** Adicionar cobertura direta de empresas tech sérias via ATS (Greenhouse/Lever), sem depender de boards agregadores.
+
+**Dependência:** Épico 2 rodando e estável.
+
+**Critério de aceite:**
+- Lista curada de ≥ 20 empresas-alvo em `config/companies.yaml`
+- Conector Greenhouse funcional para pelo menos 10 empresas da lista
+- Vagas de ATS chegando no pipeline com mesmo schema do Épico 2
+- Empresas novas podem ser adicionadas à lista sem alterar código
+
+#### 3.1 config/companies.yaml
+
+Arquivo de configuração com empresas-alvo por setor:
+```yaml
+companies:
+  healthtech:
+    - name: "Alma"
+      greenhouse_id: "alma"
+    - name: "Cerebral"
+      greenhouse_id: "cerebral"
+  edtech:
+    - name: "Duolingo"
+      greenhouse_id: "duolingo"
+  fintech:
+    - name: "Nubank"
+      lever_id: "nubank"
+```
+
+#### 3.2 Conector Greenhouse
+
+- Endpoint público: `https://boards-api.greenhouse.io/v1/boards/{company_id}/jobs`
+- Sem API key necessária
+- Filtro por título no lado do cliente (keywords: product manager, TPM, program manager)
+- Fetch do JD completo via `GET /jobs/{id}` (endpoint separado)
+
+#### 3.3 Conector Lever
+
+- Endpoint público: `https://api.lever.co/v0/postings/{company_id}?mode=json`
+- Mesma lógica de filtro por título
+- Integração com mesmo schema de normalização
+
+#### 3.4 Descoberta automática (OpenAI web search — uso semanal)
+
+- Script separado: `src/discover.py`
+- Roda manualmente ou via cron semanal (não diário)
+- Objetivo: identificar novas empresas candidatas para adicionar ao `companies.yaml`
+- Output: lista de sugestões para revisão manual — não entra direto no pipeline
+
+---
+
+### ÉPICO 4: Calibração de Scoring
+
+**Objetivo:** Garantir que o scoring reflete fit real, usando dados reais do Épico 2 como base.
+
+**Dependência:** Épico 2 rodando com volume ≥ 20 vagas/dia por pelo menos 5 dias.
+
+**Critério de aceite:**
+- Concordância ≥ 80% entre score do LLM e avaliação manual em amostra de 30 vagas
+- Distribuição de scores saudável (não concentrada em 85-92)
+- Falsos positivos (score alto, vaga ruim) < 20%
+
+#### 4.1 Avaliação manual de amostra
+
+- Candidato avalia 30 vagas manualmente (fit 0-100 + motivo)
+- Comparação com scores do LLM
+- Identificação de padrões de erro
+
+#### 4.2 Ajuste de pesos e prompt
+
+- Revisar pesos em `config/search.yaml`
+- Ajustar prompt de scoring com base nos padrões identificados
+- Re-rodar scoring na mesma amostra para validar melhora
+
+#### 4.3 Critérios eliminatórios revisados
+
+- Validar se filtros atuais (localização, nível, idioma, tipo de cargo) estão corretos
+- Adicionar red flags identificados na avaliação manual
+
+---
+
+### ÉPICO 5: Interface Streamlit
+
+**Objetivo:** Interface local para visualizar vagas, gerar materiais de aplicação e dar feedback.
+
+**Dependência:** Épico 4 concluído (scoring calibrado).
+
+**Critério de aceite:** Jornada completa funcional — ver vagas → gerar currículo → download PDF → feedback.
+
+#### 5.1 Tela principal — vagas do dia
+
+- Lista de vagas pontuadas, ordenadas por score
+- Card por vaga: título, empresa, score (badge colorido), salário, justificativa, link direto
+- Cores: verde (≥ 90), amarelo (80-89)
+- Seletor de data para ver dias anteriores
+
+#### 5.2 Botão "Preparar aplicação"
+
+- Chama `generate.py` com dados da vaga + perfil
+- Loading indicator enquanto gera
+- Preview do currículo e cover letter gerados
+- Botão de download PDF
+
+#### 5.3 Feedback por vaga
+
+- Botões "👍 Bom match" / "👎 Não relevante" em cada card
+- Salva em `data/feedback/YYYY-MM-DD.json`
+
+#### 5.4 Histórico
+
+- Lista de dias anteriores na sidebar
+- Contadores: vagas vistas, aplicações geradas, feedbacks dados
+
+---
+
+### ÉPICO 6: Geração de Materiais
 
 **Objetivo:** Gerar currículo e cover letter personalizados por vaga, com qualidade de aplicação real.
-**Dependência:** Pode rodar em paralelo com Épico 2 (script independente).
-**Critério de sucesso:** Materiais gerados para 5 vagas reais. Candidato considera ≥ 4 prontos para enviar com mínima edição.
 
-#### 3.1 & 3.2 Estrutura e Templates
-- **Resume Base:** Criar `config/resume_base.md` modular (seções Resume/CV, seções reorganizáveis).
-- **Template Cover Letter:** Criar `config/cover_letter_template.md` com voz do candidato.
+**Dependência:** Pode rodar em paralelo com Épico 5.
 
-#### 3.3 Script generate.py (PENDENTE - STUB)
-- Input: dados da vaga (do scored JSON) + resume_base + cover_letter_template.
-- LLM: Claude Sonnet (qualidade de escrita).
-- Regra: reorganizar e enfatizar, sem inventar experiência.
-- Output: Markdown intermediário + PDF final em `data/output/`.
+**Critério de aceite:** Materiais gerados para 5 vagas reais. Candidato considera ≥ 4 prontos para enviar com mínima edição.
 
-#### 3.4 Geração de PDF (PENDENTE)
-- Markdown → PDF com formatação limpa (weasyprint ou reportlab).
-- Layout profissional, 1 página (currículo), 0.5-1 página (cover letter).
+#### 6.1 Currículo base modular
 
----
+- `config/resume_base.md` com seções organizadas por relevância
+- Seções: Summary (adaptável), Experience (bullets selecionáveis), Skills, Education
 
-### ÉPICO 4: Pipeline Automatizado (MVP) - ⏳ PARCIAL
+#### 6.2 Template de cover letter
 
-**Objetivo:** Fetch + Score rodando automaticamente via GitHub Actions.
-**Critério de sucesso:** 5 dias consecutivos rodando sem intervenção, dados disponíveis para Streamlit via git pull.
+- `config/cover_letter_template.md`
+- Voz do candidato: direto, sem clichês, conecta experiência com a vaga
+- Estrutura: abertura (por que essa empresa), fit (o que trago), fechamento
 
-#### 4.2 Tratamento de falhas (PENDENTE)
-- Retry 1x se API falhar. Commit log de erro, pipeline não quebra.
-- Badge no README com status.
+#### 6.3 Script generate.py
 
-#### 4.3 Alertas por email (PERFECT_MATCH) (PENDENTE - STUB)
-- Script notify.py roda após score.
-- Envia email se alguma vaga tem score ≥ 95.
-- Via Gmail SMTP (App Password).
+- Input: vaga (scored JSON) + resume_base + cover_letter_template + profile
+- LLM: Claude Sonnet (qualidade de escrita)
+- Output: currículo adaptado + cover letter adaptada em Markdown + PDF
+- Regra: reorganizar e enfatizar, nunca inventar experiência
 
-#### 4.4 Tracking de Custos (PENDENTE)
-- Calcular custo de cada run (OpenAI Search + Claude Haiku).
-- Salvar metadados de custo no JSON de output (`data/scored/`).
-- Exibir resumo de custo no log do GitHub Actions e no app Streamlit.
+#### 6.4 Geração de PDF
+
+- Markdown → PDF com layout limpo e profissional
+- 1 página (currículo), 0.5-1 página (cover letter)
+- Biblioteca: weasyprint
 
 ---
 
+### ÉPICO 7: Pipeline Automatizado
 
-### ÉPICO 5: Feedback Loop (Melhoria) - ⏳ PENDENTE
+**Objetivo:** Fetch + Score rodando automaticamente via GitHub Actions com o novo fetch multi-fonte.
+
+**Dependência:** Épicos 2, 3 e 4 concluídos.
+
+**Critério de aceite:** 5 dias consecutivos rodando sem intervenção. Cobertura ≥ 20 vagas/dia consistente.
+
+#### 7.1 Atualização do daily.yml
+
+- Remover dependência de `OPENAI_API_KEY` do step de fetch
+- Timeout: aumentar para 10 min (múltiplas fontes)
+- Step de fetch agora roda coletores em paralelo
+
+#### 7.2 Tratamento de falhas
+
+- Se uma fonte falhar, pipeline continua com as demais
+- Retry 1x por fonte se timeout
+- Commit de log de erro se todas as fontes falharem
+
+#### 7.3 Alertas por email (PERFECT_MATCH)
+
+- `notify.py` envia email se score ≥ 95
+- Máximo 1 email/dia (agrupa todos os PERFECT_MATCH)
+- Via Gmail SMTP (App Password)
+
+---
+
+### ÉPICO 8: Feedback Loop
 
 **Objetivo:** Feedback do usuário alimenta o scoring das próximas rodadas.
-**Critério de sucesso:** Scoring melhora visivelmente após 2 semanas de feedback.
 
-#### 5.1 & 5.2 Agregação e Integração
-- Script que lê todos `data/feedback/*.json` e gera resumo de padrões.
-- Inclui resumo de feedback como contexto adicional no prompt do score.py.
+**Dependência:** Épicos 5 e 7 rodando.
 
-#### 5.3 Persistência
-- Decidir se feedback fica local ou sobe pro repo (via commit).
+**Critério de aceite:** Scoring melhora visivelmente após 2 semanas de feedback (menos falsos positivos/negativos).
 
----
+#### 8.1 Agregação de feedback
 
-### ÉPICO 6: Expansão de Fontes (Planejado)
-**Objetivo:** Reduzir dependência exclusiva do OpenAI Search e aumentar volume de vagas relevantes.
-- [ ] Integração com Himalayas API.
-- [ ] Integração com We Work Remotely RSS feed.
-- [ ] Agregação cross-fonte no `fetch.py`.
+- Script lê todos `data/feedback/*.json`
+- Gera resumo de padrões: que tipo de vaga o candidato rejeita? que tipo aceita?
 
-### ÉPICO 7: Expansão de Busca (Planejado)
-**Objetivo:** Cobrir mais variações de cargos no `search.yaml`.
-- [ ] Adicionar títulos: Senior PM, AI Product Manager, Product Analyst, Strategy & Operations, Delivery Manager, Program Manager.
+#### 8.2 Feedback no prompt de scoring
+
+- Resumo de feedback incluído como contexto no prompt do `score.py`
+- Atualização manual (v1) — candidato revisa resumo antes de incluir
+
+#### 8.3 Persistência no repositório
+
+- Feedback sobe pro repo via commit
+- GitHub Actions consegue ler feedback para calibrar scoring automaticamente
 
 ---
 
 ## 💡 Ideias Futuras
-- **DOCX e texto puro:** Formatos alternativos de saída.
-- **Cover letter por plataforma:** Adaptar para formulários específicos.
-- **Tracking de aplicações:** Status (aplicado → entrevista → oferta → rejeitado).
-- **Analytics:** Vagas/dia, score médio, tendências de mercado.
-- **Múltiplos perfis:** Posicionamentos diferentes (PM vs TPM vs hybrid).
+
+- **Tracking de aplicações:** Status (aplicado → entrevista → oferta → rejeitado)
+- **Analytics:** Vagas/dia, score médio, tendências, taxa de aplicação
+- **Cover letter por plataforma:** Adaptar para formulários específicos ("Why this company?")
+- **Múltiplos perfis:** PM puro vs TPM vs hybrid
+- **DOCX e texto puro:** Formatos alternativos de saída
+- **VPS/Cloud:** Migrar Streamlit para acesso remoto (Hetzner, Streamlit Cloud)
+- **discover.py semanal via Actions:** Automação da descoberta de novas empresas-alvo
 
 ---
 
-## ✅ CONCLUÍDO RECENTEMENTE
-
-- **Scoring em Duas Etapas (v1.6)**: Refatoração do `score.py` para separar eliminatórios (batch) de scoring profundo (individual). Implementadas regras estritas contra termos genéricos, score máximo de 95, e mapeamento obrigatório de evidências/gaps. (23 Fev 2026)
-
-- **Melhorias no Fetch (v1.5.1)**: Correção da deduplicação em lote no `fetch.py` com adição de logs explícitos e tracking separado para remoções locais/remotas. (23 Fev 2026)
-- **Melhorias no Fetch (v1.5)**: Extração literal de localização do JD, deduplicação cross-dia (7 dias) e filtro de vagas antigas (> 14 dias). (23 Fev 2026)
-- **Garantia de Não-Sobrescrita (Timestamps)**: Implementação de timestamps em arquivos `data/scored/` e atualização de dependentes (`score`, `generate`, `notify`) para suportar múltiplas execuções manuais. (23 Fev 2026)
-- **Filtro de Localização e Refinamento de Prompt**: Implementação de filtro hard de localização antes do LLM (no `score.py`) e refinamento do system prompt para maior rigor em senioridade e local. (23 Fev 2026)
-- **Sistema de Protocolos e Closure**: Implementação da Constituição, Mapa de Decisões e Workflow `/finish` para garantir integridade e não-duplicação. (23 Fev 2026)
+**Última atualização:** Fev 2026
