@@ -1,6 +1,6 @@
 # ROADMAP - Job Radar
 
-📡 **Status:** Épico 1 concluído. Épico 2 concluído (2.1–2.7): multi-fonte, Quality Guard, dedup persistente e throttle. Próximo: **Épico 3** (Greenhouse/empresas-alvo).
+📡 **Status:** Épico 1 concluído. Épico 2 concluído (2.1–2.7). Épico 3 concluído (Greenhouse, Lever, Ashby). Próximo: **Épico 4** (Calibração de Scoring).
 
 > **Filosofia:** POC → Protótipo → MVP. Validar cada etapa antes de avançar.
 
@@ -24,66 +24,15 @@
 
 ---
 
-## 📍 Próximos Épicos
+### ÉPICO 3: Fetch Estratégico — Greenhouse + Empresas-Alvo ✅ CONCLUÍDO
+
+**Resumo:** Conectores Greenhouse, Lever e Ashby para empresas-alvo em `config/companies.yaml`; vagas ATS no pipeline com mesmo schema do Épico 2. Lista curada e expansível sem alterar código.
+
+*(Detalhes dos itens 3.1–3.4 preservados em histórico do repo.)*
 
 ---
 
-### ÉPICO 3: Fetch Estratégico — Greenhouse + Empresas-Alvo *(3.1–3.4 ✅)*
-
-**Objetivo:** Adicionar cobertura direta de empresas tech sérias via ATS (Greenhouse/Lever), sem depender de boards agregadores.
-
-**Dependência:** Épico 2 rodando e estável.
-
-**Critério de aceite:**
-- Lista curada de ≥ 20 empresas-alvo em `config/companies.yaml`
-- Conector Greenhouse funcional para pelo menos 10 empresas da lista
-- Vagas de ATS chegando no pipeline com mesmo schema do Épico 2
-- Empresas novas podem ser adicionadas à lista sem alterar código
-
-#### 3.1 config/companies.yaml
-
-Arquivo de configuração com empresas-alvo por setor e ATS:
-```yaml
-companies:
-  healthtech:
-    - name: "Alma"
-      ats: "greenhouse"
-      ats_id: "alma"
-    - name: "Cerebral"
-      ats: "greenhouse"
-      ats_id: "cerebral"
-  edtech:
-    - name: "Duolingo"
-      ats: "greenhouse"
-      ats_id: "duolingo"
-  fintech:
-    - name: "Nubank"
-      ats: "lever"
-      ats_id: "nubank"
-    - name: "Lemon Cash"
-      ats: "ashby"
-      ats_id: "lemoncash"
-```
-
-#### 3.2 Conector Greenhouse — ✅ CONCLUÍDO
-
-- Coletor `src/collectors/greenhouse.py`: `collect_greenhouse(companies)`; lista flat de empresas com `ats == "greenhouse"`; GET boards/{ats_id}/jobs → filtro por título (product manager, program manager, tpm, technical program) → GET job/{id} para content; 0,5s delay; 404/erro logado como WARN; saída no mesmo schema (title, company, location, salary=null, url, description, date).
-
-#### 3.3 Conector Lever — ✅ CONCLUÍDO
-
-- Coletor `src/collectors/lever.py`: `collect_lever(companies)`; GET postings/{ats_id}?mode=json; filtro por título (product manager, program manager, tpm, technical program); JD = descriptionPlain + blocos lists (header + content sem HTML); 0,5s delay; 404/erro WARN; saída: title, company, location (categories.location), salary (salaryRange), url (hostedUrl), description, date (createdAt epoch ms → ISO).
-
-#### 3.4 Conector Ashby — ✅ CONCLUÍDO
-
-- Coletor `src/collectors/ashby.py`: `collect_ashby(companies)`; POST `jobs.ashbyhq.com/.../job-posting/list` com body `{"organizationHostedJobsPageName": "{ats_id}"}`; mapeamento flexível (jobs/results/jobPostings; title/text; jobUrl/url; descriptionPlain/descriptionHtml; publishedAt/updatedAt); filtro por título; descrição sem HTML; 0,5s delay; 404/erro WARN; saída no mesmo schema.
-
-#### 3.5 Descoberta manual (src/discover.py)
-
-- **Objetivo:** Script separado para prospectar novas empresas-alvo; sem integração com o pipeline diário; revisão manual obrigatória antes de adicionar ao `companies.yaml`.
-- **Uso:** Rodar manualmente quando quiser expandir a lista de empresas (ex.: `python src/discover.py` ou `python src/discover.py --ats greenhouse`).
-- **Estratégia:** Queries de busca (ex.: Google) com `site:boards.greenhouse.io`, `site:jobs.lever.co`, `site:jobs.ashbyhq.com`; filtros por localização (remote, LATAM) e título (Product Manager, TPM). Opcional: limitar por ATS (`--ats greenhouse|lever|ashby`).
-- **Output:** Lista de sugestões com empresa + ATS + ats_id (slug) para revisão; formato legível (JSON ou texto) em `data/discover/` ou stdout; nenhuma alteração automática em `companies.yaml`.
-- **Implementação sugerida:** Módulo `src/discover.py` com função principal que aceita args (ATS opcional, limite de resultados); usa requests/selenium ou API de busca para obter URLs de job boards; extrai domínio/slug do ATS a partir da URL; dedupe contra empresas já presentes no `companies.yaml`; imprime ou grava sugestões. Não chamado por `fetch.py` nem por `daily.yml`.
+## 📍 Próximos Épicos
 
 ---
 
@@ -246,6 +195,7 @@ companies:
 - **Múltiplos perfis:** PM puro vs TPM vs hybrid
 - **DOCX e texto puro:** Formatos alternativos de saída
 - **VPS/Cloud:** Migrar Streamlit para acesso remoto (Hetzner, Streamlit Cloud)
+- **discover.py:** Script manual para prospectar novas empresas-alvo via queries em boards ATS (Greenhouse, Lever, Ashby); dedupe contra companies.yaml; sem integração com o pipeline diário.
 - **discover.py semanal via Actions:** Automação da descoberta de novas empresas-alvo
 
 ---
