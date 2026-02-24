@@ -9,49 +9,9 @@ from anthropic import Anthropic
 # Carrega variáveis do arquivo .env
 load_dotenv()
 
-def apply_location_filter(jobs):
-    """
-    Filtra vagas com base na localização.
-    Retorna (vagas_para_score, vagas_filtradas)
-    """
-    # Critérios de descarte
-    negative_patterns = ["Remote USA", "US only", "EU only", "Europe only"]
-    # Exceções (se contiver isso, não descarta)
-    exclusion_patterns = ["LATAM", "Worldwide"]
-    
-    to_score = []
-    filtered = []
-    
-    for job in jobs:
-        location = job.get("location", "")
-        if not location:
-            to_score.append(job)
-            continue
-            
-        location_lower = location.lower()
-        should_filter = False
-        
-        # Verifica se algum padrão negativo aparece
-        for pattern in negative_patterns:
-            if pattern.lower() in location_lower:
-                should_filter = True
-                break
-        
-        # Se for filtrar, verifica se há exceção salvadora (ex: Worldwide no mesmo campo)
-        if should_filter:
-            for pattern in exclusion_patterns:
-                if pattern.lower() in location_lower:
-                    should_filter = False
-                    break
-        
-        if should_filter:
-            job_copy = job.copy()
-            job_copy["filter_reason"] = "location"
-            filtered.append(job_copy)
-        else:
-            to_score.append(job)
-            
-    return to_score, filtered
+JD_SNIPPET_LENGTH = 300   # check_eliminatorios: primeiros N chars do JD no prompt
+JD_SCORE_TRUNCATE = 3000  # score_single_job: limite no prompt (boilerplate benefits/EEO não agrega)
+
 
 def load_profile(profile_path):
     path = Path(profile_path)
@@ -62,10 +22,23 @@ def load_profile(profile_path):
 def check_eliminatorios(client, jobs, profile_content):
     """
     Filtra vagas em batch usando Claude Haiku para critérios eliminatórios.
-    Retorna (passed_jobs, eliminated_jobs)
+    Envia apenas title, company, location e jd_snippet (300 chars) para reduzir tokens.
+    Retorna (passed_jobs, eliminated_jobs) — objetos job completos, mapeados por title.
     """
     if not jobs:
         return [], []
+
+    # Objeto reduzido por vaga: só o necessário para eliminatórios (jd_full não vai no prompt)
+    reduced = []
+    for j in jobs:
+        jd_full = (j.get("jd_full") or j.get("description") or "")
+        jd_snippet = jd_full[:JD_SNIPPET_LENGTH] if jd_full else ""
+        reduced.append({
+            "title": j.get("title", ""),
+            "company": j.get("company", ""),
+            "location": j.get("location", ""),
+            "jd_snippet": jd_snippet,
+        })
 
     system_prompt = f"""
 Você é um recrutador técnico. Analise a lista de vagas abaixo e verifique se atendem aos critérios eliminatórios do candidato.
@@ -89,7 +62,7 @@ Retorne APENAS um objeto JSON com:
 Responda APENAS o JSON.
 """
 
-    user_content = "Avalie as seguintes vagas:\n" + json.dumps(jobs, indent=2, ensure_ascii=False)
+    user_content = "Avalie as seguintes vagas:\n" + json.dumps(reduced, indent=2, ensure_ascii=False)
 
     try:
         response = client.messages.create(
@@ -107,10 +80,8 @@ Responda APENAS o JSON.
 
         passed = []
         eliminated = []
-
-        # Mapear resultados de volta para os objetos jobs originais
         job_map = {j["title"]: j for j in jobs}
-        
+
         for res in results:
             title = res.get("title")
             job = job_map.get(title)
@@ -131,7 +102,17 @@ Responda APENAS o JSON.
 def score_single_job(client, job, profile_content):
     """
     Pontua uma única vaga com análise profunda.
+    No prompt, jd_full é truncado a JD_SCORE_TRUNCATE chars (boilerplate/EEO não agrega);
+    o objeto job armazenado não é alterado.
     """
+    # Truncar JD só no payload do prompt (JD_SCORE_TRUNCATE: boilerplate benefits/EEO não agrega ao score)
+    job_for_prompt = dict(job)
+    jd_full = (job.get("jd_full") or job.get("description") or "")
+    if len(jd_full) > JD_SCORE_TRUNCATE:
+        job_for_prompt["jd_full"] = jd_full[:JD_SCORE_TRUNCATE]
+    if "description" in job_for_prompt:
+        del job_for_prompt["description"]  # evita enviar JD completo em outro campo
+
     system_prompt = f"""
 Você é um recrutador técnico sênior. Sua tarefa é fazer um "deep mapping" entre o perfil do candidato e a vaga abaixo.
 
@@ -163,7 +144,7 @@ Responda APENAS um JSON:
 }}
 """
 
-    user_content = f"Vaga para análise:\n{json.dumps(job, indent=2, ensure_ascii=False)}"
+    user_content = f"Vaga para análise:\n{json.dumps(job_for_prompt, indent=2, ensure_ascii=False)}"
 
     try:
         response = client.messages.create(
@@ -187,31 +168,30 @@ def main():
     parser.add_argument("--date", default=str(date.today()), help="Data no formato YYYY-MM-DD")
     args = parser.parse_args()
 
-    # Procura pelo arquivo raw mais recente daquela data
-    raw_dir = Path("data/raw")
-    raw_files = sorted(raw_dir.glob(f"{args.date}*.json"), reverse=True)
-    
-    if not raw_files:
-        print(f"[score.py] ❌ Nenhum arquivo encontrado para a data: {args.date}")
-        print("[score.py] Execute fetch.py primeiro.")
+    # Input: ler de data/filtered/ por padrão (pipeline: fetch → filter → score)
+    filtered_dir = Path("data/filtered")
+    filtered_files = sorted(filtered_dir.glob(f"{args.date}*.json"), reverse=True)
+
+    if not filtered_files:
+        print(f"[score.py] ❌ Nenhum arquivo encontrado em data/filtered/ para a data: {args.date}")
+        print("[score.py] Execute filter.py após fetch.py.")
         return
 
-    raw_path = raw_files[0]
-    
-    # Adicionando timestamp para evitar sobrescrita
+    filtered_path = filtered_files[0]
+
     timestamp = datetime.now().strftime("%H%M%S")
     scored_filename = f"{args.date}_{timestamp}.json"
     scored_path = Path("data/scored") / scored_filename
     scored_path.parent.mkdir(parents=True, exist_ok=True)
 
-    print(f"[score.py] Pontuando vagas de {raw_path.name}...")
+    print(f"[score.py] Pontuando vagas de {filtered_path.name}...")
 
     try:
-        raw_data = json.loads(raw_path.read_text(encoding="utf-8"))
-        jobs = raw_data.get("jobs", [])
-        
+        filtered_data = json.loads(filtered_path.read_text(encoding="utf-8"))
+        jobs = filtered_data.get("jobs", [])
+
         if not jobs:
-            print("[score.py] ⚠️ Nenhuma vaga encontrada no arquivo raw.")
+            print("[score.py] ⚠️ Nenhuma vaga encontrada no arquivo filtered.")
             return
 
         api_key = os.getenv("ANTHROPIC_API_KEY")
@@ -221,18 +201,13 @@ def main():
 
         client = Anthropic(api_key=api_key)
         profile = load_profile("config/profile.md")
-        
-        # 1. Filtro de Localização (Hard Filter código)
-        jobs_pre_filtered, hard_filtered = apply_location_filter(jobs)
-        
-        # 2. Eliminatórios (Batch LLM)
-        print(f"[score.py] -> Verificando eliminatórios para {len(jobs_pre_filtered)} vagas...")
-        passed_jobs, llm_eliminated = check_eliminatorios(client, jobs_pre_filtered, profile)
-        
-        all_eliminated = hard_filtered + llm_eliminated
-        print(f"[score.py] ℹ️ Vagas eliminadas: {len(all_eliminated)} ({len(hard_filtered)} hard, {len(llm_eliminated)} LLM)")
 
-        # 3. Scoring Profundo (Individual)
+        # 1. Eliminatórios (Batch LLM) — prompt usa apenas snippet por vaga
+        print(f"[score.py] -> Verificando eliminatórios para {len(jobs)} vagas...")
+        passed_jobs, llm_eliminated = check_eliminatorios(client, jobs, profile)
+        print(f"[score.py] ℹ️ Vagas eliminadas pelo LLM: {len(llm_eliminated)}")
+
+        # 2. Scoring profundo (individual) — jd truncado só no prompt
         scored_jobs = []
         if not passed_jobs:
             print("[score.py] ⚠️ Nenhuma vaga restou após os eliminatórios.")
@@ -242,27 +217,23 @@ def main():
                 print(f"   [{i+1}/{len(passed_jobs)}] Analisando: {job.get('title')}...")
                 res = score_single_job(client, job, profile)
                 if res:
-                    # Garantir que campos originais importantes persistam se o LLM omitir
                     res["company"] = job.get("company", "N/A")
                     res["location"] = job.get("location", "N/A")
                     res["id"] = job.get("id")
                     scored_jobs.append(res)
-        
-        # Filtra apenas o topo (score >= 80)
+
         top_jobs = [j for j in scored_jobs if j.get("score", 0) >= 80]
-        
+
         output_data = {
             "scored_at": datetime.now().isoformat(),
-            "source_file": raw_path.name,
+            "source_file": filtered_path.name,
             "summary": {
-                "total_raw": len(jobs),
-                "total_location_filtered": len(hard_filtered),
+                "total_input": len(jobs),
                 "total_llm_eliminated": len(llm_eliminated),
                 "total_scored": len(scored_jobs),
                 "total_top": len(top_jobs)
             },
             "jobs": top_jobs,
-            "filtered_jobs": hard_filtered,
             "eliminated_jobs": llm_eliminated
         }
 

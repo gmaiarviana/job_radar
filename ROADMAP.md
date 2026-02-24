@@ -30,6 +30,22 @@
 
 *(Detalhes dos itens 3.1–3.4 preservados em histórico do repo.)*
 
+---
+
+### Pipeline fetch → filter → score (hard filters + redução de tokens) ✅ CONCLUÍDO
+
+**Objetivo:** Separar hard filters (gratuitos) do LLM e reduzir tokens nos prompts.
+
+**Resumo:**
+
+- **filter.py:** Lê raw de `data/raw/`, aplica location filter (expandido) + quality guard (JD/título/empresa), grava em `data/filtered/<mesmo nome>.json` com `jd_full` intacto. CLI: `--input <path>` ou `--date YYYY-MM-DD`. `data/filtered/` no `.gitignore`.
+- **score.py:** Passa a ler de `data/filtered/` por padrão. Removido `apply_location_filter` (feito em filter.py). `check_eliminatorios` recebe objeto reduzido (title, company, location, jd_snippet 300 chars). `score_single_job` trunca JD a 3000 chars só no prompt, não no arquivo.
+- **daily.yml:** Step "Filter jobs" entre Fetch e Score (`python src/filter.py --date $(date +%Y-%m-%d)`). Commit não inclui `data/filtered/`.
+
+**Critérios de aceite:** filter.py gera filtered com jd_full intacto; score.py lê de filtered; eliminatórios com 4 campos; score trunca JD no prompt; data/filtered/ no .gitignore.
+
+---
+
 #### 3.5 Seed inicial (manual)
 
 - Script `src/seed.py --source greenhouse|lever|ashby|all` que:
@@ -64,8 +80,8 @@ A população pode ser feita de forma **manual** (passo a passo, revisando entre
 
 ## 🎯 Próximos passos (pós-seed)
 
-- **Filtrar e score nas vagas atuais:** aplicar eliminatórios e quality guard aos brutos já coletados (ex.: `data/raw/seed_*.json`), revisar o que faz sentido e rodar scoring **apenas nas que não levaram hardcut**. Objetivo: já trabalhar em cima dessas vagas (filtrar → ver → pontuar) sem depender só do pipeline diário.
-- **Suporte a raw de seed no score:** permitir que `score.py` (ou script de filtro+score) aceite um ou mais arquivos raw (incl. `seed_*.json`) como entrada, aplicando a mesma cadeia filtro → score e gravando em `data/scored/`.
+- **Filtrar e score nas vagas atuais:** aplicar `filter.py` aos brutos já coletados (ex.: `python src/filter.py --input data/raw/seed_*.json`), depois `score.py --date YYYY-MM-DD` sobre `data/filtered/`. Pipeline: fetch → filter → score já em uso no daily.
+- **Suporte a raw de seed no score:** score.py já lê de filtered; para seed, rodar filter.py com `--input` no raw desejado e em seguida score com `--date` (ou extensão futura de score para `--input` em filtered).
 
 ---
 

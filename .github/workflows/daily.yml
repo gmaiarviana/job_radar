@@ -29,6 +29,9 @@ jobs:
         run: python src/fetch.py
         # TODO: Épico 4.2 — retry 1x se falhar
 
+      - name: Filter jobs
+        run: python src/filter.py --date $(date +%Y-%m-%d)
+
       - name: Score jobs
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -51,4 +54,5 @@ jobs:
           git add data/raw/ data/scored/ data/seen_jobs.json
           git diff --cached --quiet || git commit -m "chore: vagas $(date +%Y-%m-%d)"
           git push
+        # data/filtered/ está no .gitignore — não commitado
         # TODO: Épico 4.2 — commit log de erro se pipeline falhar

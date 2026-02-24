@@ -38,6 +38,7 @@ logs/
 # Data — vagas brutas e pontuadas SOBEM pro repo (GitHub Actions → git pull local)
 # Feedback e PDFs ficam apenas local
 data/feedback/
+data/filtered/
 data/output/
 
 # JSONs legados na raiz (antes da refatoração)

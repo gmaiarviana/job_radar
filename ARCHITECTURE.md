@@ -13,7 +13,9 @@ graph TD
     A[GitHub Actions - Cloud] -->|Cron/Manual| B[fetch.py - Pipeline multi-fonte]
     B -->|coletores| B1[OpenAI Search + Remotive + We Work Remotely + Jobicy + Greenhouse + Lever + Ashby]
     B1 -->|raw| B2[job_schema + fetch_pipeline]
-    B2 -->|raw JSON| C[score.py Stage 1 - Eliminatórios]
+    B2 -->|data/raw/| B3[filter.py - Hard filters]
+    B3 -->|location + quality guard| B4[data/filtered/]
+    B4 -->|filtered JSON| C[score.py Stage 1 - Eliminatórios]
     C -->|surviving jobs| D[score.py Stage 2 - Deep Score]
     D -->|scored JSON| E[git commit/push]
     
@@ -29,7 +31,8 @@ graph TD
 | Componente | Script / Módulo | Modelo/Motor | Papel |
 | :--- | :--- | :--- | :--- |
 | **Search** | `src/fetch.py` (CLI) + `job_schema.py` + `fetch_pipeline.py` + `seen_jobs.py` + `collectors/*` | OpenAI Search, Remotive, We Work Remotely, Jobicy, Greenhouse, Lever, Ashby (Épicos 3.2–3.4) | Orquestra coletores, normaliza para schema único, dedupe persistente (`data/seen_jobs.json`) + throttle 20 novos/run, quality guard, métricas de cobertura no JSON, grava em `data/raw/`. |
-| **Score** | `src/score.py` | Claude Haiku | Processo em 2 etapas: Eliminatórios (batch) e Deep Scoring (individual) contra o `config/profile.md`. |
+| **Filter** | `src/filter.py` | — | Hard filters gratuitos: location (expandido) + quality guard (JD/título/empresa). Lê `data/raw/`, grava `data/filtered/` (mesmo nome; jd_full intacto). CLI: `--input` ou `--date`. `data/filtered/` no .gitignore. |
+| **Score** | `src/score.py` | Claude Haiku | Lê de `data/filtered/`. Eliminatórios em batch com payload reduzido (title, company, location, jd_snippet 300 chars). Deep Scoring individual com JD truncado a 3000 chars no prompt (não no armazenamento). Contra `config/profile.md`. |
 | **Interface** | `app.py` | Streamlit | UI para revisão, feedback e acionamento de geração. |
 | **Writer** | `src/generate.py`| Claude Sonnet | Redação de alta qualidade para CV e Cover Letter. |
 | **Notifier** | `src/notify.py` | SMTP | Alertas imediatos para `PERFECT_MATCH` (score > 95). |
@@ -66,7 +69,8 @@ job-radar/
 │   │   ├── lever.py            # Lever Postings API (Épico 3.3; companies.yaml ats=lever)
 │   │   ├── ashby.py            # Ashby Job Board API (Épico 3.4; companies.yaml ats=ashby; POST)
 │   │   └── openai_search.py    # OpenAI gpt-4o-mini web search
-│   ├── score.py                 # Scoring via Claude Haiku
+│   ├── filter.py                # Hard filters (location + quality); raw → filtered
+│   ├── score.py                 # Scoring via Claude Haiku (lê filtered)
 │   ├── generate.py              # Writer via Claude Sonnet
 │   └── notify.py                # Alertas SMTP
 ├── config/
@@ -77,7 +81,8 @@ job-radar/
 ├── data/
 │   ├── seen_jobs.json           # Dedup persistente (id_hash → first_seen, source, title, company); commitado pelo Actions
 │   ├── raw/                     # JSONs brutos (YYYY-MM-DD_HHMMSS.json); inclui "coverage" com métricas por etapa
-│   ├── scored/                  # JSONs filtrados (YYYY-MM-DD_HHMMSS.json)
+│   ├── filtered/                 # JSONs após hard filters (mesmo nome do raw); .gitignore
+│   ├── scored/                  # JSONs pontuados (YYYY-MM-DD_HHMMSS.json)
 │   ├── feedback/                # Feedback 👍/👎 (local)
 │   └── output/                  # PDFs gerados
 └── .github/workflows/
