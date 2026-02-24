@@ -28,7 +28,7 @@ graph TD
 
 | Componente | Script / Módulo | Modelo/Motor | Papel |
 | :--- | :--- | :--- | :--- |
-| **Search** | `src/fetch.py` (CLI) + `job_schema.py` + `fetch_pipeline.py` + `collectors/*` | OpenAI Search, Remotive API, We Work Remotely RSS, Jobicy | Orquestra coletores, normaliza para schema único, dedupe por `id_hash`, quality guard, métricas de cobertura no JSON, grava em `data/raw/`. |
+| **Search** | `src/fetch.py` (CLI) + `job_schema.py` + `fetch_pipeline.py` + `seen_jobs.py` + `collectors/*` | OpenAI Search, Remotive API, We Work Remotely RSS, Jobicy | Orquestra coletores, normaliza para schema único, dedupe persistente (`data/seen_jobs.json`) + throttle 20 novos/run, quality guard, métricas de cobertura no JSON, grava em `data/raw/`. |
 | **Score** | `src/score.py` | Claude Haiku | Processo em 2 etapas: Eliminatórios (batch) e Deep Scoring (individual) contra o `config/profile.md`. |
 | **Interface** | `app.py` | Streamlit | UI para revisão, feedback e acionamento de geração. |
 | **Writer** | `src/generate.py`| Claude Sonnet | Redação de alta qualidade para CV e Cover Letter. |
@@ -38,7 +38,7 @@ graph TD
 
 | Decisão | Escolha | Motivo |
 | :--- | :--- | :--- |
-| **Busca de vagas** | Pipeline multi-fonte: OpenAI Search, Remotive, We Work Remotely (Épico 2); mais fontes no ROADMAP. | Coletores independentes; schema único; dedupe cross-fonte. |
+| **Busca de vagas** | Pipeline multi-fonte: OpenAI Search, Remotive, We Work Remotely, Jobicy (Épico 2); dedup persistente + throttle (2.7). | Coletores independentes; schema único; dedupe cross-fonte; `seen_jobs.json` evita reprocessar vagas entre runs; throttle limita a 20 novos JDs/run (preparado para ATS). |
 | **Scoring** | Claude Haiku | Rápido e barato para análise de texto longo. |
 | **Geração de materiais** | Claude Sonnet | Escrita superior e tom profissional. |
 | **Interface** | Streamlit Local | Agilidade no desenvolvimento e custo zero de hospedagem. |
@@ -55,7 +55,8 @@ job-radar/
 ├── src/
 │   ├── fetch.py                 # CLI: orquestra coletores e grava raw
 │   ├── job_schema.py            # Schema único + make_id_hash, normalize_job
-│   ├── fetch_pipeline.py        # run_pipeline, remove_duplicates, filter_old_jobs, apply_quality_guard, load_config
+│   ├── fetch_pipeline.py        # run_pipeline, apply_seen_jobs_filter, remove_duplicates, filter_old_jobs, apply_quality_guard, load_config
+│   ├── seen_jobs.py             # load_seen, is_seen, mark_seen, save_seen (dedup persistente; único acesso a data/seen_jobs.json)
 │   ├── collectors/              # Um módulo por fonte de vagas
 │   │   ├── __init__.py
 │   │   ├── remotive.py          # API Remotive (product, project-management; 48h)
@@ -71,6 +72,7 @@ job-radar/
 │   ├── resume_base.md           # Templates modulares de currículo
 │   └── search.yaml              # Parâmetros de busca e pesos
 ├── data/
+│   ├── seen_jobs.json           # Dedup persistente (id_hash → first_seen, source, title, company); commitado pelo Actions
 │   ├── raw/                     # JSONs brutos (YYYY-MM-DD_HHMMSS.json); inclui "coverage" com métricas por etapa
 │   ├── scored/                  # JSONs filtrados (YYYY-MM-DD_HHMMSS.json)
 │   ├── feedback/                # Feedback 👍/👎 (local)
@@ -95,6 +97,6 @@ job-radar/
 - **Testes:** O projeto ainda não tem suíte automatizada (pytest). Recomenda-se adicionar smoke test (`python src/fetch.py --dry-run`) ou testes unitários para `job_schema` e pipeline antes de escalar novos coletores.
 
 ---
-**Última atualização:** 23 de Fevereiro de 2026
+**Última atualização:** 24 de Fevereiro de 2026
 
 
