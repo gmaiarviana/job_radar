@@ -19,21 +19,26 @@ def _ensure_console_utf8() -> None:
         except (AttributeError, OSError):
             pass
 
-# --- Location filter (expandido em relação ao score.py) ---
-LOCATION_DISCARD_PATTERNS = [
-    "us only", "usa only", "united states only", "north america",
-    "eu only", "europe only", "uk only", "on-site",
-    "auckland", "london", "new york", "san francisco", "sydney", "berlin", "paris",
+# Allowlist: passa se location contiver pelo menos um destes termos (case insensitive)
+# Location vazia também passa (sem info suficiente para descartar; LLM decide)
+LOCATION_ALLOW_PATTERNS = [
+    "latam",
+    "latin america",
+    "south america",
+    "worldwide",
+    "remote worldwide",
+    "brazil",
+    "brasil",
+    "colombia",
+    "mexico",
+    "argentina",
+    "chile",
+    "peru",
+    "remote",
 ]
-LOCATION_EXCEPTION_PATTERNS = ["latam", "worldwide", "remote worldwide"]
 
 
 def apply_location_filter(jobs: list[dict]) -> tuple[list[dict], list[dict]]:
-    """
-    Descartar se location contiver algum dos padrões de descarte (case insensitive).
-    Exceção: se também contiver latam, worldwide ou remote worldwide, não descartar.
-    Retorna (passaram, descartados_por_location).
-    """
     passed = []
     discarded = []
     for job in jobs:
@@ -42,14 +47,10 @@ def apply_location_filter(jobs: list[dict]) -> tuple[list[dict], list[dict]]:
             passed.append(job)
             continue
         loc_lower = location.lower()
-        should_discard = any(p in loc_lower for p in LOCATION_DISCARD_PATTERNS)
-        if should_discard:
-            if any(ex in loc_lower for ex in LOCATION_EXCEPTION_PATTERNS):
-                should_discard = False
-        if should_discard:
-            discarded.append(job)
-        else:
+        if any(p in loc_lower for p in LOCATION_ALLOW_PATTERNS):
             passed.append(job)
+        else:
+            discarded.append(job)
     return passed, discarded
 
 
