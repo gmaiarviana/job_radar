@@ -47,7 +47,10 @@ Você é um recrutador técnico. Analise a lista de vagas abaixo e verifique se 
 {profile_content}
 
 # CRITÉRIOS ELIMINATÓRIOS:
-1. Localização: Apenas Remote LATAM ou Remote Worldwide. (US-only, EU-only, etc = ELIMINADO)
+1. Localização (LOCATION): O candidato é brasileiro, trabalha remotamente do Brasil, SEM autorização de trabalho em US, Canada, UK, EU ou Austrália.
+   - ELIMINAR se a vaga exigir: residência, work authorization ou presença física em US, Canada, UK, EU, Austrália ou Israel.
+   - PERMITIR se for: worldwide, global, LATAM, ou países onde brasileiro pode trabalhar remotamente (Brazil, Mexico, Colombia, Argentina, Chile, etc.).
+   - PERMITIR se location estiver vazia ou ambígua — em caso de dúvida, beneficie o candidato.
 2. Nível: Sênior, Staff, Principal ou Lead apenas. (Junior, Pleno, Mid, Estágio = ELIMINADO)
 3. Tipo de Cargo: PM, TPM ou Híbrido PM/Tech. (Engenheiro puro, EM, Marketing puro = ELIMINADO)
 4. Idioma: Vaga deve ser em Inglês (vagas apenas em PT ou ES = ELIMINADO)
@@ -96,7 +99,7 @@ Responda APENAS o JSON.
         return passed, eliminated
 
     except Exception as e:
-        print(f"[score.py] ✗ Erro em check_eliminatorios: {e}")
+        print(f"[score.py] [ERR] Erro em check_eliminatorios: {e}")
         return jobs, [] # Fallback: passa tudo para o scoring individual se falhar o batch
 
 def score_single_job(client, job, profile_content):
@@ -119,17 +122,28 @@ Você é um recrutador técnico sênior. Sua tarefa é fazer um "deep mapping" e
 # PERFIL DO CANDIDATO
 {profile_content}
 
+# RUBRICA DE SCORE — aplicar rigorosamente:
+- 85–100: O candidato tem experiência DIRETA no domínio central da vaga, em contexto similar (tipo de empresa, nível de ownership, escala). Gap menor seria apenas setor ou tecnologia pontual. Exige evidência concreta no perfil, não inferência.
+- 70–84: Skills principais presentes, mas falta UM elemento crítico: domínio específico (ex: PM de produto próprio vs. consultoria/outsourcing), ou seniority equivalente (ex: Principal/Staff sem histórico comprovado nesse nível), ou contexto de empresa (SaaS product company vs. outsourcing). Candidatura viável mas com risco real.
+- 50–69: Skills transferíveis claras, mas o GAP está no CORE da vaga. A função exige especialização que o candidato não demonstrou. Aplicação possível, mas improvável de passar triagem de recrutadores experientes.
+- 30–49: Skills genéricas de PM/TPM presentes, mas a vaga exige background específico ausente no perfil. Score reflete potencial de longo prazo, não fit atual.
+- 0–29: Perfil sem base para a função. Check eliminatórios deveria ter capturado.
+
+# PENALIZAÇÕES OBRIGATÓRIAS — aplicar ANTES de definir o score:
+- Experiência predominante em outsourcing/consultoria (não owna roadmap, cliente define produto): limite máximo 75, mesmo com skills fortes.
+- Título "Principal", "Staff" ou "Senior" sem histórico comprovado em cargo equivalente: limite máximo 65.
+- Gap de domínio no CORE da vaga (security/compliance, customer success, sales ops, hardware/robotics, aerospace, infrastructure de alta escala): limite máximo 60.
+- Combinação de 2+ penalizações acima: limite máximo 55.
+
 # INSTRUÇÕES DE ANÁLISE:
 1. EVIDÊNCIA DIRETA: Cite qual requisito da vaga tem evidência direta no perfil. Use o formato: "Requisito: [X] | Evidência: [Y]".
 2. PRINCIPAL GAP: Identifique o maior risco ou gap desta candidatura. Seja específico.
-3. SCORE (0-95): Atribua um score de 0 a 95. SCORE 100 É PROIBIDO.
-4. JUSTIFICATIVA: Explique por que esse score e não 10 pontos acima ou abaixo. 
+3. SCORE (0-100): Atribua o score conforme a rubrica acima, aplicando as penalizações obrigatórias quando couberem.
+4. JUSTIFICATIVA: Explique por que esse score (e qual faixa da rubrica / penalização aplicada).
 
 # REGRAS CRÍTICAS:
-- PROIBIDO usar termos como "alinhado com o perfil", "boa correspondência", "fit cultural", "perfil adequado", "se alinha bem", "atende aos requisitos".
-- Se você quiser dizer que o candidato é bom, PROVE com uma evidência do perfil (ex: "O candidato já liderou projetos de X, o que é idêntico ao pedido em Y").
-- SCORE 100 É TERMINANTEMENTE PROIBIDO. Máximo 95.
-- O score deve ser conservador. Justifique o número exato (ex: "90 e não 80 porque X, mas não 95 porque falta Y").
+- PROIBIDO usar termos vagos como "alinhado com o perfil", "boa correspondência", "fit cultural". Se o candidato é bom, PROVE com evidência do perfil.
+- O score deve refletir a rubrica e as penalizações. Justifique o número exato.
 
 # FORMATO DE SAÍDA (JSON)
 Responda APENAS um JSON:
@@ -160,7 +174,7 @@ Responda APENAS um JSON:
         return json.loads(content[start_idx:end_idx])
 
     except Exception as e:
-        print(f"[score.py] ✗ Erro ao pontuar vaga {job.get('title')}: {e}")
+        print(f"[score.py] [ERR] Erro ao pontuar vaga {job.get('title')}: {e}")
         return None
 
 def main():
@@ -169,11 +183,16 @@ def main():
     args = parser.parse_args()
 
     # Input: ler de data/filtered/ por padrão (pipeline: fetch → filter → score)
+    # Aceita YYYY-MM-DD*.json ou seed_YYYY-MM-DD_*.json; usa o mais recente por mtime
     filtered_dir = Path("data/filtered")
-    filtered_files = sorted(filtered_dir.glob(f"{args.date}*.json"), reverse=True)
+    filtered_files = sorted(
+        filtered_dir.glob(f"*{args.date}*.json"),
+        key=lambda p: p.stat().st_mtime,
+        reverse=True,
+    )
 
     if not filtered_files:
-        print(f"[score.py] ❌ Nenhum arquivo encontrado em data/filtered/ para a data: {args.date}")
+        print(f"[score.py] [ERR] Nenhum arquivo encontrado em data/filtered/ para a data: {args.date}")
         print("[score.py] Execute filter.py após fetch.py.")
         return
 
@@ -191,12 +210,12 @@ def main():
         jobs = filtered_data.get("jobs", [])
 
         if not jobs:
-            print("[score.py] ⚠️ Nenhuma vaga encontrada no arquivo filtered.")
+            print("[score.py] [WARN] Nenhuma vaga encontrada no arquivo filtered.")
             return
 
         api_key = os.getenv("ANTHROPIC_API_KEY")
         if not api_key:
-            print("[score.py] ✗ Erro: ANTHROPIC_API_KEY não encontrada.")
+            print("[score.py] [ERR] Erro: ANTHROPIC_API_KEY nao encontrada.")
             return
 
         client = Anthropic(api_key=api_key)
@@ -205,12 +224,12 @@ def main():
         # 1. Eliminatórios (Batch LLM) — prompt usa apenas snippet por vaga
         print(f"[score.py] -> Verificando eliminatórios para {len(jobs)} vagas...")
         passed_jobs, llm_eliminated = check_eliminatorios(client, jobs, profile)
-        print(f"[score.py] ℹ️ Vagas eliminadas pelo LLM: {len(llm_eliminated)}")
+        print(f"[score.py] [i] Vagas eliminadas pelo LLM: {len(llm_eliminated)}")
 
         # 2. Scoring profundo (individual) — jd truncado só no prompt
         scored_jobs = []
         if not passed_jobs:
-            print("[score.py] ⚠️ Nenhuma vaga restou após os eliminatórios.")
+            print("[score.py] [WARN] Nenhuma vaga restou apos os eliminatorios.")
         else:
             print(f"[score.py] -> Iniciando scoring profundo para {len(passed_jobs)} vagas...")
             for i, job in enumerate(passed_jobs):
@@ -222,7 +241,7 @@ def main():
                     res["id"] = job.get("id")
                     scored_jobs.append(res)
 
-        top_jobs = [j for j in scored_jobs if j.get("score", 0) >= 80]
+        top_jobs = [j for j in scored_jobs if j.get("score", 0) >= 70]
 
         output_data = {
             "scored_at": datetime.now().isoformat(),
@@ -234,14 +253,15 @@ def main():
                 "total_top": len(top_jobs)
             },
             "jobs": top_jobs,
+            "scored_jobs": scored_jobs,
             "eliminated_jobs": llm_eliminated
         }
 
         scored_path.write_text(json.dumps(output_data, indent=2, ensure_ascii=False), encoding="utf-8")
-        print(f"[score.py] ✅ Sucesso! {len(scored_jobs)} vagas pontuadas salvas em {scored_path}")
+        print(f"[score.py] [OK] Sucesso! {len(scored_jobs)} vagas pontuadas salvas em {scored_path}")
 
     except Exception as e:
-        print(f"[score.py] ✗ Ocorreu um erro: {e}")
+        print(f"[score.py] [ERR] Ocorreu um erro: {e}")
         import traceback
         traceback.print_exc()
 
