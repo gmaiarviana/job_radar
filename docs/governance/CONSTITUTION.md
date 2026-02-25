@@ -112,7 +112,17 @@ Fechamento: seguir closure_protocol.md.
 
 ---
 
-## 4. O QUE PROPOR (Guidelines de refinamento)
+## 4. AVALIAÇÃO DE DADOS (NotebookLM)
+
+Quando o corpus de dados (`data/raw/*.json`) for grande demais para o contexto do Claude:
+
+- **Source of truth** dos dados permanece em `data/raw/` (JSON). Uma **cópia em TXT** para o NotebookLM fica em `data/raw/copy txt/` (NotebookLM não consome JSON).
+- **Fluxo**: (1) Você carrega os TXTs no NotebookLM; (2) Claude formula perguntas de refinamento/qualidade; (3) Você faz as perguntas no NotebookLM e traz as respostas; (4) Claude usa as respostas para iterar (scoring, critérios, etc.).
+- **Papel do Claude**: formular perguntas e interpretar o que você trouxer; **não** tentar ingerir o dataset inteiro. Script de conversão JSON→TXT (quando necessário): `data/raw/copy txt/_convert_json_to_txt.py`.
+
+---
+
+## 5. O QUE PROPOR (Guidelines de refinamento)
 
 ### Ao refinar épico novo
 - ✅ Consultar `ROADMAP.md` (padrão dos épicos anteriores: objetivo, dependência, critério de aceite global, sub-itens numerados).
@@ -134,7 +144,7 @@ Fechamento: seguir closure_protocol.md.
 
 ---
 
-## 5. MAPA DE REFINAMENTO
+## 6. MAPA DE REFINAMENTO
 
 | Se você quer... | Consultar... | Gerar prompts para... |
 |----------------|--------------|------------------------|
@@ -149,7 +159,7 @@ Fechamento: seguir closure_protocol.md.
 
 ---
 
-## 6. ANTI-PADRÕES (O que não fazer)
+## 7. ANTI-PADRÕES (O que não fazer)
 
 ### ❌ Duplicar informação
 - Cada informação vive em um lugar só (ver `decision_map.md`).
@@ -175,7 +185,7 @@ Fechamento: seguir closure_protocol.md.
 
 ---
 
-## 7. DOCUMENTOS ESSENCIAIS
+## 8. DOCUMENTOS ESSENCIAIS
 
 ### Para refinamento (enviar / ter à mão)
 1. **CONSTITUTION.md** (este arquivo) — Princípios, responsabilidades, processo de refinamento, mapa.
@@ -191,13 +201,13 @@ Fechamento: seguir closure_protocol.md.
 
 ---
 
-## 8. LOCALIZAÇÃO DESTE DOCUMENTO
+## 9. LOCALIZAÇÃO DESTE DOCUMENTO
 
 Este arquivo fica em **`docs/governance/`** junto com `planning_guidelines.md`, para que governança e planejamento sejam fáceis de encontrar. Os protocolos de execução (closure_protocol, decision_map, workflows) permanecem em `.agent/`.
 
 ---
 
-## 9. AMBIENTE TÉCNICO
+## 10. AMBIENTE TÉCNICO
 
 - **OS**: Windows
 - **Shell**: PowerShell (usar `;` para encadear comandos).

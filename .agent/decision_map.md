@@ -14,6 +14,7 @@ Este documento mapeia onde cada informação "mora" para evitar duplicação.
 | **Status do Projeto** | `ROADMAP.md` |
 | **Design Técnico** | `ARCHITECTURE.md` |
 | **Processo de refinamento / Governança** | `docs/governance/CONSTITUTION.md` |
+| **Avaliação de dados (corpus pesado)** | CONSTITUTION.md §4 (NotebookLM; cópia TXT em `data/raw/copy txt/`) |
 | **Templates e critérios de épicos** | `docs/governance/planning_guidelines.md` |
 | **Como fazer commit (sintaxe shell)** | `.agent/workflows/commit.md` |
 
