@@ -39,9 +39,7 @@ Alta sobreposição entre os dois problemas: vagas Principal/Staff são majorita
 
 #### 4.2 Filtro de localização em duas camadas
 
-- **Camada 1 (determinística):** blocklist de padrões US-only em `filter.py`, verificando `location` e primeiros 1000 chars do `jd_full`: `"residing in the us"`, `"us residents"`, `"authorized to work in the us"`, `"based in the united states"`, `"remote - us"`, `"united states, remote"`, `"united states only"`
-- **Camada 2 (LLM):** eliminatório recebe JD completo (não 300 chars) para casos ambíguos que a blocklist não cobre
-- Critério de aceite: as 13 vagas US-only confirmadas do gabarito são eliminadas pela camada 1
+✅ Implementado. Camada 1: blocklist determinística (location_blocklist_patterns em search.yaml) aplicada em filter.py sobre location + jd_full inteiro. Camada 2: check_eliminatorios em score.py recebe JD completo (não mais snippet de 300 chars).
 
 #### 4.3 Experimento de modelo no eliminatório
 
