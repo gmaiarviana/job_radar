@@ -37,7 +37,7 @@ graph TD
 | **Interface** | `app.py` | Streamlit | UI para revisão, feedback e acionamento de geração. |
 | **Writer** | `src/generate.py`| Claude Sonnet | Redação de alta qualidade para CV e Cover Letter. |
 | **Notifier** | `src/notify.py` | SMTP | Alertas imediatos para `PERFECT_MATCH` (score > 95). |
-| **Eval** | `src/eval/build_gabarito.py`, `eval_eliminatorios.py` | — | Infraestrutura de avaliação: gabarito machine-readable, eval parametrizado por modelo. Compara hard filters + LLM contra gabarito curado. |
+| **Eval** | `src/eval/build_gabarito.py`, `eval_eliminatorios.py`, `test_scoring.py` | — | Infraestrutura de avaliação: gabarito machine-readable, eval parametrizado por modelo; testes de scoring (compute_ceiling) em test_scoring.py, sem pytest. |
 
 ### Decisões Técnicas (Rationale)
 
@@ -79,7 +79,8 @@ job-radar/
 │   ├── eval/                    # Scripts de avaliação e benchmarking
 │   │   ├── __init__.py
 │   │   ├── build_gabarito.py    # Gera gabarito machine-readable a partir de lista curada
-│   │   └── eval_eliminatorios.py  # Eval reutilizável: hard filters + LLM vs gabarito
+│   │   ├── eval_eliminatorios.py  # Eval reutilizável: hard filters + LLM vs gabarito
+│   │   └── test_scoring.py     # Testes de compute_ceiling (4 cenários); rodar: python src/eval/test_scoring.py
 ├── config/
 │   ├── career_narrative.md      # Fonte de verdade da carreira
 │   ├── profile.md               # Perfil condensado para LLMs

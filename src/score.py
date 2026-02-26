@@ -20,12 +20,125 @@ load_dotenv()
 
 JD_SCORE_TRUNCATE = 3000  # score_single_job: limite no prompt (boilerplate benefits/EEO não agrega)
 
+# Ceiling por penalty (Épico 5 — rubrica de scoring). 2+ penalties → 55; nenhuma → 100.
+CEILING_BY_PENALTY = {
+    "domain_gap_core": 60,
+    "seniority_gap": 65,
+    "outsourcing_context": 75,
+}
+CEILING_MULTIPLE_PENALTIES = 55
+CEILING_NONE = 100
+
+
+def compute_ceiling(analysis_output):
+    """
+    Função pura: recebe o output da Chamada 1 (analyze_job) e retorna ceiling + reason.
+    Não chama LLM. Testável sem API.
+    Regras: domain_gap_core→60, seniority_gap→65, outsourcing_context→75;
+            2+ penalties→55; nenhuma penalty→100.
+    Retorna {"ceiling": int, "reason": str}.
+    """
+    penalties = analysis_output.get("applicable_penalties") if isinstance(analysis_output, dict) else None
+    if not isinstance(penalties, list):
+        penalties = []
+    penalties = [p for p in penalties if p in CEILING_BY_PENALTY]
+
+    if not penalties:
+        return {"ceiling": CEILING_NONE, "reason": "Nenhuma penalty aplicável."}
+    if len(penalties) >= 2:
+        return {
+            "ceiling": CEILING_MULTIPLE_PENALTIES,
+            "reason": f"2+ penalties: {', '.join(penalties)}.",
+        }
+    p = penalties[0]
+    return {
+        "ceiling": CEILING_BY_PENALTY[p],
+        "reason": f"1 penalty: {p}.",
+    }
+
 
 def load_profile(profile_path):
     path = Path(profile_path)
     if not path.exists():
         raise FileNotFoundError(f"Perfil não encontrado em: {profile_path}")
     return path.read_text(encoding="utf-8")
+
+
+def analyze_job(client, job, profile_content):
+    """
+    Chamada 1 do pipeline de scoring: análise estruturada sem score.
+    Recebe job + profile e retorna JSON com core_requirements, seniority_comparison,
+    applicable_penalties e domain_fit. JD truncada a JD_SCORE_TRUNCATE chars no prompt.
+    """
+    job_for_prompt = dict(job)
+    jd_full = (job.get("jd_full") or job.get("description") or "")
+    if len(jd_full) > JD_SCORE_TRUNCATE:
+        job_for_prompt["jd_full"] = jd_full[:JD_SCORE_TRUNCATE]
+    if "description" in job_for_prompt:
+        del job_for_prompt["description"]
+
+    system_prompt = f"""
+Você é um recrutador técnico. Sua tarefa é analisar a vaga abaixo em relação ao perfil do candidato e retornar uma análise ESTRUTURADA. NÃO atribua score numérico.
+
+# PERFIL DO CANDIDATO
+{profile_content}
+
+# REGRAS DA ANÁLISE
+1. CORE REQUIREMENTS: Extraia os 3 a 5 requisitos CENTRAIS da JD — os que definem a vaga, não genéricos (ex: "communication skills"). Para cada um:
+   - requirement: texto do requisito
+   - category: exatamente uma de: seniority | technical | domain | leadership | other
+   - evidence: evidência concreta do perfil que atende, ou string vazia se não houver
+   - has_evidence: true se há evidência no perfil, false caso contrário
+
+2. SENIORITY COMPARISON: Compare explicitamente anos pedidos na JD vs anos do candidato em papéis PM/TPM/tech. Preencha:
+   - jd_asks: o que a JD pede (ex: "8+ years", "5-7 years")
+   - candidate_has: o que o candidato tem (ex: "~3 years in PM/TPM tech roles")
+   - gap: true se há gap de seniority, false caso contrário
+
+3. APPLICABLE PENALTIES: Liste as que se aplicam a esta candidatura, dentre exatamente:
+   - seniority_gap (JD pede mais anos que o candidato tem)
+   - outsourcing_context (experiência predominante em outsourcing/consultoria, não ownership de produto)
+   - domain_gap_core (gap no domínio central da vaga: security, compliance, customer success, hardware, etc.)
+   Retorne lista de strings; pode ser vazia [].
+
+4. DOMAIN_FIT: Uma string com valor "full", "partial" ou "none" seguido de " — " e uma breve justificativa (ex: "partial — PM em fintech, vaga é B2B SaaS; skills transferíveis").
+
+# PROIBIÇÕES
+- NÃO inclua campo "score" nem qualquer pontuação numérica.
+- Responda APENAS um JSON válido, sem texto antes ou depois.
+
+# FORMATO DE SAÍDA (JSON)
+{{
+  "core_requirements": [
+    {{"requirement": "...", "category": "seniority|technical|domain|leadership|other", "evidence": "...", "has_evidence": true}}
+  ],
+  "seniority_comparison": {{
+    "jd_asks": "...",
+    "candidate_has": "...",
+    "gap": true
+  }},
+  "applicable_penalties": ["seniority_gap", "outsourcing_context", "domain_gap_core"],
+  "domain_fit": "full|partial|none — breve justificativa"
+}}
+"""
+
+    user_content = f"Vaga para análise:\n{json.dumps(job_for_prompt, indent=2, ensure_ascii=False)}"
+
+    try:
+        response = client.messages.create(
+            model="claude-3-haiku-20240307",
+            max_tokens=2000,
+            system=system_prompt,
+            messages=[{"role": "user", "content": user_content}]
+        )
+        content = response.content[0].text
+        start_idx = content.find("{")
+        end_idx = content.rfind("}") + 1
+        return json.loads(content[start_idx:end_idx])
+    except Exception as e:
+        print(f"[score.py] [ERR] Erro em analyze_job para {job.get('title')}: {e}")
+        return None
+
 
 def check_eliminatorios(client, jobs, profile_content):
     """
