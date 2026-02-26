@@ -114,11 +114,11 @@ Fechamento: seguir closure_protocol.md.
 
 ## 4. AVALIAÇÃO DE DADOS (NotebookLM)
 
-Quando o corpus de dados (`data/raw/*.json`) for grande demais para o contexto do Claude:
+Quando o corpus de dados (`data/raw/*.json` ou `data/scored/*.json`) for grande demais para o contexto do Claude:
 
-- **Source of truth** dos dados permanece em `data/raw/` (JSON). Uma **cópia em TXT** para o NotebookLM fica em `data/raw/copy txt/` (NotebookLM não consome JSON).
+- **Source of truth** permanece em `data/raw/` e `data/scored/` (JSON). Cópias em TXT para o NotebookLM: `data/raw/copy txt/` e `data/scored/copy txt/` (NotebookLM não consome JSON).
 - **Fluxo**: (1) Você carrega os TXTs no NotebookLM; (2) Claude formula perguntas de refinamento/qualidade; (3) Você faz as perguntas no NotebookLM e traz as respostas; (4) Claude usa as respostas para iterar (scoring, critérios, etc.).
-- **Papel do Claude**: formular perguntas e interpretar o que você trouxer; **não** tentar ingerir o dataset inteiro. Script de conversão JSON→TXT (quando necessário): `data/raw/copy txt/_convert_json_to_txt.py`.
+- **Papel do Claude**: formular perguntas e interpretar o que você trouxer; **não** tentar ingerir o dataset inteiro. Script único JSON→TXT (raw + scored): `src/convert_json_to_txt_for_notebooklm.py`.
 
 ---
 

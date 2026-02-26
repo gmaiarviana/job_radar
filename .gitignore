@@ -41,5 +41,9 @@ data/feedback/
 data/filtered/
 data/output/
 
+# Artefatos auxiliares para NotebookLM (cópia TXT dos JSONs de data/raw/ e data/scored/)
+data/raw/copy txt/
+data/scored/copy txt/
+
 # JSONs legados na raiz (antes da refatoração)
 /*.json
