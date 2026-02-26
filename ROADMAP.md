@@ -8,38 +8,13 @@
 
 ## ✅ Concluído
 
-**Épicos 1–4:** Pipeline fetch multi-fonte (Remotive, We Work Remotely, Jobicy, OpenAI Search, Greenhouse, Lever, Ashby), schema único (`job_schema.py`), dedup persistente (`seen_jobs.json`), throttle 20/run, quality guard, hard filters (título + localização em duas camadas: blocklist + allowlist), scoring em dois estágios (eliminatórios batch + deep score via Claude Haiku), GitHub Actions diário, seed ATS (`seed.py`), eval infrastructure (`src/eval/`), paths centralizados (`src/paths.py`). Detalhes em [ARCHITECTURE.md](ARCHITECTURE.md).
+**Épicos 1–4:** Pipeline fetch multi-fonte, schema único, dedup, filtros (título + localização), scoring em dois estágios, GitHub Actions diário, seed ATS, eval (`src/eval/`), paths (`src/paths.py`). Ver [ARCHITECTURE.md](ARCHITECTURE.md).
 
-**Épico 5.1 — Correção do prompt de scoring:** Pipeline de 2 chamadas (analyze_job → compute_ceiling → score_with_analysis) calibrado e validado 5/5 no seed. Penalties como booleans; ceiling calculado em Python; early return para ceiling ≤ 50 (sem LLM). `score_single_job` removido. Arquivos scored nomeados por data/hora de execução; lote de origem em `source_file`.
-
-**Correção filter.py --date:** `resolve_input_path` no branch por data passa a excluir do glob arquivos `*_discarded.json` e `seed_*`, evitando selecionar raw descartado ou seed em vez do principal. Mesmo padrão usado em score.py para seed_.
-
-**Pipeline end-to-end validado (2026-02-26):** fetch → filter → score com dados reais. 19 vagas coletadas, 3 passaram nos filtros, scores coerentes (95, 58, 54). Filtro de localização validado — as 15 descartadas eram legítimas (USA, UK, Canada, India). Bug do _discarded corrigido antes da validação.
+**Épico 5 — Qualidade de scoring:** Prompt em 2 chamadas (analyze_job → compute_ceiling → score_with_analysis), validado no seed; ceiling em Python; arquivos scored por data/hora; filter/score com exclusão de `*_discarded.json` e `seed_*`. Pipeline end-to-end validado (fetch → filter → score).
 
 ---
 
 ## 📍 Próximos Épicos
-
----
-
-### ÉPICO 5: Qualidade de Scoring ✅ CONCLUÍDO
-
-**Objetivo:** Garantir que o score reflita fit real.
-
-**Critério de aceite:** Vagas com gap de domínio core recebem score ≤ 60. Vagas Senior sem evidência ≤ 65. Top 5 vagas de maior score fazem sentido em avaliação manual.
-
-#### 5.1 Correção do prompt de scoring ✅ CONCLUÍDO
-
-5.2 (análise exploratória de títulos) foi movido para o **Épico 8 — Expansão de Coleta**, por ser insumo para expandir títulos, não para scoring.
-
-**5.3 e 5.4 postergados** — validação manual e enriquecimento do profile.md serão feitos organicamente com dados reais do pipeline rodando. Reintroduzir como sub-épicos formais se padrões de erro surgirem.
-
-**Fora de escopo (decisões documentadas):**
-- Flexibility signals (ex: "do apply even if...") — boilerplate; risco de inflar scores sistematicamente
-- Pesos altos em mission alignment — decisão de aplicar por missão é melhor feita manualmente na UI
-- Decomposição granular de skills individuais — evidence mapping por requirement já captura
-
----
 
 ### ÉPICO 6: UI Funcional Mínima
 
@@ -181,17 +156,7 @@
 
 ---
 
-## 💡 Ideias Futuras
-
-- **Tracking de aplicações:** Status por vaga (aplicado → entrevista → oferta → rejeitado)
-- **Analytics:** Vagas/dia, score médio, tendências, taxa de aplicação, fontes mais produtivas
-- **Cover letter por plataforma:** Adaptar para formulários específicos ("Why this company?", "Why this role?")
-- **Múltiplos perfis:** PM puro vs TPM vs hybrid — scoring e geração adaptados
-- **DOCX e texto puro:** Formatos alternativos de saída
-- **VPS/Cloud:** Migrar Streamlit para acesso remoto
-- **discover.py:** Prospectar novas empresas-alvo via queries em boards ATS
-- **Notificação mobile:** Push via Telegram Bot para PERFECT_MATCH
-- **Alertas por email:** notify.py envia email se score ≥ 95
+Backlog, itens postergados e ideias futuras → [docs/governance/backlog.md](docs/governance/backlog.md)
 
 ---
 

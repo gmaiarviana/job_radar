@@ -13,6 +13,7 @@ Este documento mapeia onde cada informação "mora" para evitar duplicação.
 | **Voz do Usuário (Templates)** | `config/cover_letter_template.md` & `config/resume_base.md` |
 | **Pipeline de Automação** | `.github/workflows/daily.yml` |
 | **Status do Projeto** | `ROADMAP.md` |
+| **Backlog, postergado e ideias futuras** | `docs/governance/backlog.md` |
 | **Design Técnico** | `ARCHITECTURE.md` |
 | **Processo de refinamento / Governança** | `docs/governance/CONSTITUTION.md` |
 | **Avaliação de dados (corpus pesado)** | CONSTITUTION.md §4 (NotebookLM; cópias TXT em `data/raw/copy txt/` e `data/scored/copy txt/`) |
