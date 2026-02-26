@@ -36,10 +36,11 @@ Thumbs.db
 logs/
 
 # Data — vagas brutas e pontuadas SOBEM pro repo (GitHub Actions → git pull local)
-# Feedback e PDFs ficam apenas local
+# Feedback e PDFs ficam apenas local; evals só local
 data/feedback/
 data/filtered/
 data/output/
+data/eval/
 
 # Artefatos auxiliares para NotebookLM (cópia TXT dos JSONs de data/raw/ e data/scored/)
 data/raw/copy txt/

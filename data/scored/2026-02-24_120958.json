@@ -1,0 +1,39 @@
+{
+  "scored_at": "2026-02-26T12:10:03.708663",
+  "source_file": "seed_2026-02-24_123007.json",
+  "summary": {
+    "total_input": 1,
+    "total_llm_eliminated": 0,
+    "total_scored": 1,
+    "total_top": 1
+  },
+  "jobs": [
+    {
+      "title": "Sr Product manager, supply chain data products",
+      "score": 75,
+      "evidence": "Requisito: Product Management Experience | Evidência: Possui 5+ anos de experiência em gestão de produtos em SaaS B2B, com histórico de entrega de plataformas de dados e produtos orientados a desenvolvedores.\nRequisito: Expertise em dados, IA e APIs | Evidência: Combina antropologia do cliente com intuição orientada por dados, podendo passar do trabalho em SQL/Python para chamadas com executivos.\nRequisito: Expertise em requisitos de segurança, conformidade e gestão de mudanças de empresas | Evidência: Demonstra facilidade em lidar com requisitos de segurança, conformidade e gerenciamento de mudanças em clientes empresariais.",
+      "main_gap": "O maior gap está na falta de experiência específica em produtos de dados de cadeia de suprimentos, que é o núcleo central da vaga. Embora o candidato tenha experiência relevante em produtos de dados e plataformas, não há evidência de que já atuou neste domínio específico.",
+      "justification": "O candidato possui skills técnicas e de gestão de produto relevantes, com forte evidência em lidar com requisitos de empresas e construir produtos data-driven. No entanto, falta a experiência específica em produtos de dados para cadeia de suprimentos, que é o core da vaga. Por isso, o score ficou na faixa de 70-84, refletindo um bom candidato com um gap no domínio central da função.",
+      "perfect_match": false,
+      "url": "https://jobs.ashbyhq.com/watershed/d110204f-f6a0-4435-a89c-6122898baadc",
+      "company": "Watershed",
+      "location": "Mexico City",
+      "id": "e4961abfcf56c1fa910425ce7e4e67fa5a46042a8bf29d1e1ba3f11cbc104a19"
+    }
+  ],
+  "scored_jobs": [
+    {
+      "title": "Sr Product manager, supply chain data products",
+      "score": 75,
+      "evidence": "Requisito: Product Management Experience | Evidência: Possui 5+ anos de experiência em gestão de produtos em SaaS B2B, com histórico de entrega de plataformas de dados e produtos orientados a desenvolvedores.\nRequisito: Expertise em dados, IA e APIs | Evidência: Combina antropologia do cliente com intuição orientada por dados, podendo passar do trabalho em SQL/Python para chamadas com executivos.\nRequisito: Expertise em requisitos de segurança, conformidade e gestão de mudanças de empresas | Evidência: Demonstra facilidade em lidar com requisitos de segurança, conformidade e gerenciamento de mudanças em clientes empresariais.",
+      "main_gap": "O maior gap está na falta de experiência específica em produtos de dados de cadeia de suprimentos, que é o núcleo central da vaga. Embora o candidato tenha experiência relevante em produtos de dados e plataformas, não há evidência de que já atuou neste domínio específico.",
+      "justification": "O candidato possui skills técnicas e de gestão de produto relevantes, com forte evidência em lidar com requisitos de empresas e construir produtos data-driven. No entanto, falta a experiência específica em produtos de dados para cadeia de suprimentos, que é o core da vaga. Por isso, o score ficou na faixa de 70-84, refletindo um bom candidato com um gap no domínio central da função.",
+      "perfect_match": false,
+      "url": "https://jobs.ashbyhq.com/watershed/d110204f-f6a0-4435-a89c-6122898baadc",
+      "company": "Watershed",
+      "location": "Mexico City",
+      "id": "e4961abfcf56c1fa910425ce7e4e67fa5a46042a8bf29d1e1ba3f11cbc104a19"
+    }
+  ],
+  "eliminated_jobs": []
+}

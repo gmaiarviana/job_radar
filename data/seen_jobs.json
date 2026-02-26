@@ -946,5 +946,119 @@
     "source": "ashby",
     "title": "Associate Product Manager",
     "company": "Halter"
+  },
+  "6960571f9c3782591fc975e26f67fdfe53c4e6c90f4767e64bce85065367e250": {
+    "first_seen": "2026-02-26",
+    "source": "openai_web_search",
+    "title": "Senior Product Manager – HR Tech / Recruiting",
+    "company": "Strider"
+  },
+  "f80bf7d9a60445318945f96feb14439d96630c3e7de526213bd211951527b15d": {
+    "first_seen": "2026-02-26",
+    "source": "openai_web_search",
+    "title": "Senior Product Manager B2B – HR Tech / Recruiting",
+    "company": "Strider"
+  },
+  "61947f361398ba65814405a01bb7e773ab371aa94d3d5a4c83a920d2c2beca7a": {
+    "first_seen": "2026-02-26",
+    "source": "openai_web_search",
+    "title": "Product Manager AI & Automation",
+    "company": "The Adecco Group"
+  },
+  "bc28b0b07bacc45a178e208501aaffe666073cbf4e63e3ffc8aa6b9f38dea613": {
+    "first_seen": "2026-02-26",
+    "source": "openai_web_search",
+    "title": "Technical Program Manager",
+    "company": "Cognizant"
+  },
+  "72978db287a69395e26c82bc8bee575f1fd796ddf7386bf08b389cce631b424d": {
+    "first_seen": "2026-02-26",
+    "source": "jobicy",
+    "title": "Product Owner",
+    "company": "OrthoVirginia"
+  },
+  "75a38534a7d4516e31c3bb67a6793d5685897499f6ab05e589e5e060fbb3082f": {
+    "first_seen": "2026-02-26",
+    "source": "jobicy",
+    "title": "Design Manager, Data Center",
+    "company": "AECOM"
+  },
+  "29405b8fb2eba80d3bd8099d3d1fc7189d456ba560616fdbf4999a8dec329fa1": {
+    "first_seen": "2026-02-26",
+    "source": "jobicy",
+    "title": "Senior BIM Manager, Data Center",
+    "company": "AECOM"
+  },
+  "0a3f3db6002ea200f5ae02c09b0c5f1ea4251b1a9ab05a5d1e311089f7c2c011": {
+    "first_seen": "2026-02-26",
+    "source": "jobicy",
+    "title": "Performance Manager &amp;#8211; Northeast Territory",
+    "company": "Impel"
+  },
+  "f4458eae0bb44db32ca16477e87e1d8af574e12ef5351c56321c44a477433fe2": {
+    "first_seen": "2026-02-26",
+    "source": "jobicy",
+    "title": "Performance Manager",
+    "company": "OrthoVirginia"
+  },
+  "998341801dec556f023a9ed76f1d98f54036d2fae7c6a8ca6503386f46b02785": {
+    "first_seen": "2026-02-26",
+    "source": "jobicy",
+    "title": "National Performance Manager",
+    "company": "OrthoVirginia"
+  },
+  "6e04ec7de9ca5499d8eca08afa34e3b19235f99eba4c2c44e796f85791818916": {
+    "first_seen": "2026-02-26",
+    "source": "jobicy",
+    "title": "Performance Manager &amp;#8211; Northeast Territory",
+    "company": "OrthoVirginia"
+  },
+  "510e57f12dd9a457047449d8260d78f0d7f3cd6fc33db9f2893ef9c640d83376": {
+    "first_seen": "2026-02-26",
+    "source": "jobicy",
+    "title": "Team Manager, DTG Octane",
+    "company": "OrthoVirginia"
+  },
+  "79bbd8e93186181248f028b9ed58e5ca8a2933178c9429e0df9f233db66d8b6b": {
+    "first_seen": "2026-02-26",
+    "source": "jobicy",
+    "title": "Performance Manager &amp;#8211; MN",
+    "company": "OrthoVirginia"
+  },
+  "bb1ae325d6ef4f2abaa8e1b44353cff13224d0c98acf6b7428ca35e9cd1ad0e2": {
+    "first_seen": "2026-02-26",
+    "source": "jobicy",
+    "title": "Senior Product Manager",
+    "company": "Revecore"
+  },
+  "fb6a0004a00a87ce1cc5a22d7e3b3f159ba4dc333643518d526690ea662ef313": {
+    "first_seen": "2026-02-26",
+    "source": "jobicy",
+    "title": "Multi-Site Field Services Manager",
+    "company": "World Wide Technology"
+  },
+  "774076b37840ec2c636006cacd296cba4316a2b36f1fab14a33ecf6aafcfffec": {
+    "first_seen": "2026-02-26",
+    "source": "greenhouse",
+    "title": "Group Product Manager",
+    "company": "Brex"
+  },
+  "48f0d26a6d03ba20d58627ff7e6fa931d58c5c9ed04d9e4a6efffb4d3e8c2594": {
+    "first_seen": "2026-02-26",
+    "source": "greenhouse",
+    "title": "Staff Product Manager, Growth",
+    "company": "Brex"
+  },
+  "733531d0392146299950a0f91eeffc9c7fca70f673ade5c475fb1559b8a0dff9": {
+    "first_seen": "2026-02-26",
+    "source": "greenhouse",
+    "title": "Analyst, AI Operations Program Manager",
+    "company": "Databricks"
+  },
+  "4af26092f22f62e94f30ad6660e545b9a70b044af48f7fc85b34afd80bb309fa": {
+    "first_seen": "2026-02-26",
+    "source": "greenhouse",
+    "title": "Senior Technical Program Manager (Engineering)",
+    "company": "Databricks"
   }
 }

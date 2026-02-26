@@ -1,0 +1,199 @@
+{
+  "scored_at": "2026-02-26T17:29:23.479885",
+  "source_file": "2026-02-26_171957.json",
+  "summary": {
+    "total_input": 3,
+    "total_llm_eliminated": 0,
+    "total_scored": 3,
+    "total_top": 1
+  },
+  "jobs": [
+    {
+      "score": 95,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato Guilherme Maia possui uma experiência sólida como Product Manager e Technical Program Manager, com uma forte ênfase em soluções de IA, automação e análise de dados. Ele demonstra habilidades essenciais para a vaga, como experiência em gestão de produtos digitais, PoCs de GenAI, integração de LLMs e trabalho em ambientes ágeis. Sua atuação em programas globais, liderança cross-funcional e capacidade de entrega de soluções de valor se alinham perfeitamente aos requisitos centrais da vaga. Considero o candidato altamente qualificado para a posição de Product Manager focado em AI e Automação.",
+      "main_gap": "Não há gaps significativos no perfil do candidato em relação aos requisitos da vaga.",
+      "company": "The Adecco Group",
+      "location": "Remote",
+      "title": "Product Manager AI & Automation",
+      "url": "https://careers.adeccogroup.com/pt-pt/vaga/verenigde-staten/product-manager-ai-and-automation/37746/91844000240",
+      "id": "61947f361398ba65814405a01bb7e773ab371aa94d3d5a4c83a920d2c2beca7a",
+      "core_requirements": [
+        {
+          "requirement": "Experiência comprovada como Product Manager ou Product Owner entregando produtos digitais, AI, automação ou produtos orientados por tecnologia",
+          "category": "seniority",
+          "evidence": "2+ anos de experiência como PM/PO entregando produtos digitais, com foco em AI e automação",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Experiência demonstrada em parceria com fornecedores externos, equipes de desenvolvimento ou parceiros de tecnologia",
+          "category": "technical",
+          "evidence": "Experiência em coordenar equipes de desenvolvimento e parceiros tecnológicos em programa global de 200+ engenheiros",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Background em soluções AI/ML, tecnologias de automação, plataformas de fluxo de trabalho ou tecnologia de RH/trabalho preferido",
+          "category": "domain",
+          "evidence": "Experiência em PoCs de GenAI e integração de LLMs",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Forte experiência trabalhando em ambientes de desenvolvimento ágil e iterativo",
+          "category": "technical",
+          "evidence": "Experiência em metodologias ágeis como SAFe, PI Planning, release management",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Preparar documentação, demonstrações, casos de negócios e avaliações de valor",
+          "category": "technical",
+          "evidence": "Experiência em criação de cases de negócios e avaliação de valor de soluções de IA/automação",
+          "has_evidence": true
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Experiência comprovada como Product Manager ou Product Owner",
+        "candidate_has": "2+ anos de experiência como PM/PO",
+        "gap": false
+      }
+    }
+  ],
+  "scored_jobs": [
+    {
+      "score": 54,
+      "score_ceiling": 55,
+      "ceiling_reason": "2+ penalties: domain_gap_core, seniority_gap.",
+      "justification": "O candidato possui ampla experiência em gestão de produto e programas, incluindo habilidades técnicas sólidas em análise de dados e IA. No entanto, há um gap na seniority solicitada (7+ anos, enquanto o candidato tem ~3 anos) e ele não possui experiência direta no domínio de recrutamento/HR tech, que é um requisito central da vaga. Apesar de suas habilidades transferíveis, o perfil não é um perfeito encaixe para essa oportunidade específica.",
+      "main_gap": "Falta de experiência direta no domínio de recrutamento/HR tech, que é um requisito central da vaga.",
+      "company": "Strider",
+      "location": "100% remoto (empresa dos EUA) - candidatos baseados no Brasil, Argentina, Paraguai, Colômbia ou México",
+      "title": "Senior Product Manager – HR Tech / Recruiting",
+      "url": "https://www.strider.com.br/carreiras/senior-product-manager-hr-tech-recruiting",
+      "id": "6960571f9c3782591fc975e26f67fdfe53c4e6c90f4767e64bce85065367e250",
+      "core_requirements": [
+        {
+          "requirement": "7+ years of product management experience, necessarily with experience in startups and a track record of delivering high-impact products with a strong user orientation",
+          "category": "seniority",
+          "evidence": "~3 years in PM/TPM tech roles",
+          "has_evidence": false
+        },
+        {
+          "requirement": "Ability to analyze behavior, conduct research, turn data into decisions, and prioritize initiatives in fast-paced environments",
+          "category": "technical",
+          "evidence": "Data analysis: SQL, Python, Spark/Scala, Databricks, ETL",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Prior experience in the recruitment universe is a significant differentiator",
+          "category": "domain",
+          "evidence": "No direct evidence of experience in the recruitment/HR tech domain",
+          "has_evidence": false
+        },
+        {
+          "requirement": "Clear communication in English is essential",
+          "category": "other",
+          "evidence": "Fluent professional English, 3+ years with American stakeholders",
+          "has_evidence": true
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "7+ years",
+        "candidate_has": "~3 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 58,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui cerca de 3 anos de experiência em Product Management e Program Management, o que fica abaixo dos 7+ anos solicitados na vaga. Apesar de ter um histórico de entrega de produtos de impacto e forte habilidade analítica, a lacuna de seniority é um risco importante. Sua experiência técnica, incluindo IA e análise de dados, é relevante, mas o domínio específico de HR Tech / Recruiting não é o seu forte, o que também representa um gap. Dessa forma, o candidato é uma opção viável, mas com riscos consideráveis, sendo improvável que passe por uma triagem experiente para a vaga.",
+      "main_gap": "Lacuna de seniority - 3 anos de experiência vs. 7+ solicitados",
+      "company": "Strider",
+      "location": "100% remoto (empresa dos EUA) - candidatos baseados no Brasil, Argentina, Paraguai, Colômbia ou México",
+      "title": "Senior Product Manager B2B – HR Tech / Recruiting",
+      "url": "https://www.strider.com.br/carreiras/senior-product-manager-b2b-hr-tech-recruiting",
+      "id": "f80bf7d9a60445318945f96feb14439d96630c3e7de526213bd211951527b15d",
+      "core_requirements": [
+        {
+          "requirement": "Profissional com mais de 7 anos de experiência em Product Management, com atuação comprovada em produtos B2B e vivência em startups",
+          "category": "seniority",
+          "evidence": "~3 anos em PM/TPM tech roles",
+          "has_evidence": false
+        },
+        {
+          "requirement": "Histórico de entrega de experiências de produto simples, eficientes e de alto impacto",
+          "category": "technical",
+          "evidence": "Reduziu ciclo de entrega de 3 sprints para 1 e ciclo de deploy de 30 para 15 dias. Liderou PoC GenAI que contribuiu para novo contrato com cliente.",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Forte capacidade analítica para interpretar comportamento de usuários, realizar pesquisas e apoiar decisões baseadas em dados",
+          "category": "technical",
+          "evidence": "Análise de crédito com 150K requisições/dia. Descobriu dados corrompidos afetando modelo de crédito. Otimizou pipeline ETL eliminando reprocessamento de múltiplos notebooks.",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Inglês avançado é indispensável",
+          "category": "other",
+          "evidence": "Inglês fluente profissional, 3+ anos com stakeholders americanos",
+          "has_evidence": true
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "7+ years",
+        "candidate_has": "~3 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 95,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato Guilherme Maia possui uma experiência sólida como Product Manager e Technical Program Manager, com uma forte ênfase em soluções de IA, automação e análise de dados. Ele demonstra habilidades essenciais para a vaga, como experiência em gestão de produtos digitais, PoCs de GenAI, integração de LLMs e trabalho em ambientes ágeis. Sua atuação em programas globais, liderança cross-funcional e capacidade de entrega de soluções de valor se alinham perfeitamente aos requisitos centrais da vaga. Considero o candidato altamente qualificado para a posição de Product Manager focado em AI e Automação.",
+      "main_gap": "Não há gaps significativos no perfil do candidato em relação aos requisitos da vaga.",
+      "company": "The Adecco Group",
+      "location": "Remote",
+      "title": "Product Manager AI & Automation",
+      "url": "https://careers.adeccogroup.com/pt-pt/vaga/verenigde-staten/product-manager-ai-and-automation/37746/91844000240",
+      "id": "61947f361398ba65814405a01bb7e773ab371aa94d3d5a4c83a920d2c2beca7a",
+      "core_requirements": [
+        {
+          "requirement": "Experiência comprovada como Product Manager ou Product Owner entregando produtos digitais, AI, automação ou produtos orientados por tecnologia",
+          "category": "seniority",
+          "evidence": "2+ anos de experiência como PM/PO entregando produtos digitais, com foco em AI e automação",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Experiência demonstrada em parceria com fornecedores externos, equipes de desenvolvimento ou parceiros de tecnologia",
+          "category": "technical",
+          "evidence": "Experiência em coordenar equipes de desenvolvimento e parceiros tecnológicos em programa global de 200+ engenheiros",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Background em soluções AI/ML, tecnologias de automação, plataformas de fluxo de trabalho ou tecnologia de RH/trabalho preferido",
+          "category": "domain",
+          "evidence": "Experiência em PoCs de GenAI e integração de LLMs",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Forte experiência trabalhando em ambientes de desenvolvimento ágil e iterativo",
+          "category": "technical",
+          "evidence": "Experiência em metodologias ágeis como SAFe, PI Planning, release management",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Preparar documentação, demonstrações, casos de negócios e avaliações de valor",
+          "category": "technical",
+          "evidence": "Experiência em criação de cases de negócios e avaliação de valor de soluções de IA/automação",
+          "has_evidence": true
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Experiência comprovada como Product Manager ou Product Owner",
+        "candidate_has": "2+ anos de experiência como PM/PO",
+        "gap": false
+      }
+    }
+  ],
+  "eliminated_jobs": []
+}

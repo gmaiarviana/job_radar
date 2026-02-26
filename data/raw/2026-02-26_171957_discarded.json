@@ -1,0 +1,24 @@
+{
+  "date": "2026-02-26",
+  "discarded_at": "2026-02-26T20:23:15.587444+00:00",
+  "total": 1,
+  "by_reason": {
+    "jd_too_short": 1
+  },
+  "items": [
+    {
+      "id_hash": "ac4ab2e60741813f5ab124efdb9ed0ecd7e0975848fd720df7b57c67c77939e7",
+      "id": "ac4ab2e60741813f5ab124efdb9ed0ecd7e0975848fd720df7b57c67c77939e7",
+      "source": "openai_web_search",
+      "title": "Product Owner Senior Consulting Manager",
+      "company": "Cognizant",
+      "location": "Teaneck / United States",
+      "salary": null,
+      "jd_full": "Definir, priorizar e entregar capacidades de Market Risk que suportem conformidade regulatória, gestão de risco eficaz e resultados de negócios para grandes clientes bancários regulamentados, trabalhar colaborativamente com stakeholders de Market Risk, Tesouraria, Finanças, Model Risk, Compliance, equipes de Tecnologia e parceiros de entrega.",
+      "url": "https://careers.cognizant.com/latam-pt/vagas/00067737491/product-owner-senior-consulting-manager/",
+      "collected_at": "2026-02-26T20:20:08.487557+00:00",
+      "date": "1 semana atrás",
+      "discard_reason": "jd_too_short"
+    }
+  ]
+}
