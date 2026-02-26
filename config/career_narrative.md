@@ -58,7 +58,7 @@ Started with a solo analysis project (starter project): investigated whether beh
 Key achievements:
 - Discovered corrupted data affecting credit model accuracy during exploratory analysis investigating data drift — identified improper data formats impacting analysis of a specific user population
 - Identified a data source that was not improving model predictions, enabling the team to reduce unnecessary data acquisition costs
-- Optimized monitoring pipeline: Helped create a dedicated dataset in the ETL layer, moving data concatenation from multiple Databricks notebooks (each taking 15–30 min) to pre-processed ETL jobs that ran overnight. Reduced daily analysis setup time significantly and eliminated errors from manual reruns
+- Co-developed dedicated monitoring dataset with MLE: defined business rules and operated the data while MLE built the ETL pipeline, replacing manual Databricks notebook processing (each taking 15–30 min) with pre-processed jobs that ran overnight. Reduced daily analysis setup time significantly and eliminated errors from manual reruns
 - Built API cost monitoring automation: Created a dashboard/job that tracked API call volumes to data partners, establishing the first baseline for cost control. Enabled comparison against expected spend and prevented overpayment
 - Composed annual data cost budget: Updated sector-wide cost projections incorporating new systems, vendors, delivery forecasts, and partner pricing parameters
 - Documented team processes and the credit journey in a visual guide — received unsolicited recognition months later from a colleague who found it highly useful
@@ -71,7 +71,7 @@ Key achievements:
 Key achievements:
 - Diagnosed and solved team structure problem: Identified that component-oriented teams caused inefficiency (unclear ownership, cross-team handoffs, misaligned cadences). Proposed, designed, and led the reorganization into product-oriented teams — selected people, defined scopes, dimensioned teams. Result: changes that previously took ~3 sprints were completed in ~1 sprint; eliminated inter-team handoffs and sprint-boundary dependencies
 - Reduced deployment cycle from 30 to 15 days by reorganizing the release process — interviewed key members, documented each step, established a predictable release cadence
-- Led GenAI proof of concept that contributed to new client contract: Identified opportunity, planned scope with detailed expectations, coordinated execution with 4 engineers (3 data + 1 frontend). Separately, conducted a second PoC solo (coding with AI assistance) focused on automated report generation using existing platform data — this initiative contributed to closing a new contract with the client
+- Prototyped a GenAI PoC hands-on (coding with AI assistance) focused on automated report generation using existing platform data — this initiative contributed to closing a new contract with the client. Separately, scoped a second PoC: identified opportunity, planned scope with detailed expectations, coordinated execution with 4 engineers (3 data + 1 frontend). Was on vacation during execution and did not conduct the demo.
 - Mapped 9 GenAI use cases for potential integration across program projects, producing a structured proposal with personas, features, and prioritized PoC recommendations — demonstrating ability to identify and structure AI opportunities in existing products
 - Diagnosed program-wide visibility gap and held expanded business role (H1 2024): Conducted SWOT analysis across 9 program projects through structured interviews with 10 teams. Discovered critical risks that no one was tracking — including a depreciating project where the team lead was unaware and planning to expand headcount. Produced formal diagnostic document with cross-project patterns and systemic recommendations. Temporarily held a program-level business oversight role: mapped business dynamics across all projects, coordinated a Design Sprint for GenAI applied to the client's developer platform, and proposed solutions to strengthen the partnership and identify new contract opportunities
 - Led PO guild for 6 months (Jan–Aug 2023): Volunteered, engaged peers, drove initiatives around process clarity and knowledge sharing. Experience in leading without formal authority
@@ -81,11 +81,11 @@ Key achievements:
 
 ### Act 3 — Convergence: Management + AI + Systemic Vision (2024–Present)
 
-**Instituto Atlântico — Technical Program Manager** (Sep/2024 – Sep/2025): Coordinated 3 teams (~25 engineers) within a global program of 15 teams and 200+ engineers. Teams were core/platform (DevOps, databases, shared components), meaning delays cascaded to all product teams.
+**Instituto Atlântico — Technical Program Manager** (Sep/2024 – Sep/2025): Drove delivery alignment across 3 teams (~25 engineers) within a global program of 15 teams and 200+ engineers. Teams were core/platform (DevOps, databases, shared components), meaning delays cascaded to all product teams.
 
 Key achievements:
 - Managed releases in high-complexity global environment: Teams distributed across Brazil, USA, India, and Europe. ~10 architects collaborating. Coordinated PI Planning (SAFe), managed dependencies, security protocols, and cross-team communication
-- Resolved 60 high-severity Veracode vulnerabilities in 4 weeks: Identified unmitigated vulnerabilities, mapped responsible teams, engaged leaders, created tracking tickets, provided regular stakeholder updates. Built script to automate status monitoring across 200 vulnerabilities
+- Led tracking and resolution coordination for 60 high-severity Veracode vulnerabilities in 4 weeks: assigned ownership across teams, created and delegated tracking tickets, monitored progress daily, escalated to leadership. Built script to automate status monitoring across 200 vulnerabilities.
 - Managed quality-driven release with 50 defects: Clarified blocking vs non-blocking defects with stakeholders, coordinated with QA for revalidation, identified cross-team resolution opportunities — delivered release on schedule
 - Proactive risk management: Monitored retrospectives, identified root causes of recurring issues, proposed systemic solutions to prevent repetition
 - Built 2 internal AI-powered tools:
@@ -110,10 +110,10 @@ Additional current activities:
 - Documented user journeys and use cases to clarify delivered value
 - Reorganized teams from component-oriented to product-oriented
 - Managed scope in ambiguous environments with incremental delivery
-- **Evidence:** 2 years as PO at Instituto Atlântico, directly shaping a B2B API management platform used by 10K+ employees
+- **Evidence:** 2 years as PO at Instituto Atlântico, directly shaping a B2B API management platform
 
 ### Pillar 2: Program & Project Management
-- Coordinated delivery across multiple teams in global, multi-timezone programs
+- Drove delivery alignment across multiple teams in global, multi-timezone programs
 - Managed PI Planning, release cycles, security compliance, dependency tracking
 - Conducted risk management with early identification, stakeholder communication, and mitigation plans
 - People management: hiring, firing, 1:1s, PDIs, feedback cycles, conflict mediation
@@ -126,7 +126,7 @@ Additional current activities:
 - Visualization and storytelling (Python: Seaborn, Plotly, Altair) — conclusion-first methodology
 - Cost monitoring, budget composition, and projection (data vendors, API partners, construction budgets)
 - Deep-dive analysis methodology: problem identification → hypothesis → metric selection → testing → recommendation
-- **Evidence:** Business Analyst at Nubank (150K daily requests, optimized ETL pipeline, built cost monitoring), construction cost management at Campos Gouveia
+- **Evidence:** Business Analyst at Nubank (150K daily requests, co-developed dedicated ETL dataset with MLE, built cost monitoring), construction cost management at Campos Gouveia
 
 ### Pillar 4: AI as a Problem-Solving Tool
 - Identifies opportunities for AI application in existing products and processes
@@ -154,14 +154,14 @@ Additional current activities:
 | Reduced deployment cycle from 30 to 15 days | Instituto Atlântico, PO (release process redesign) |
 | Led GenAI PoC that contributed to new client contract | Instituto Atlântico, PO |
 | Mapped 9 GenAI use cases for program integration | Instituto Atlântico, PO |
-| Resolved 60 high-severity vulnerabilities in 4 weeks | Instituto Atlântico, TPM (Veracode) |
+| Led tracking and coordination that resolved 60 high-severity vulnerabilities in 4 weeks | Instituto Atlântico, TPM (Veracode) |
 | Automated monitoring of 200 vulnerabilities (previously manual) | Instituto Atlântico, TPM (script) |
-| Coordinated 3 teams, 25 engineers in program of 200+ engineers, 15 teams | Instituto Atlântico, TPM |
+| Drove delivery alignment across 3 teams, 25 engineers in program of 200+ engineers, 15 teams | Instituto Atlântico, TPM |
 | Managed release with 50 defects, delivered on schedule | Instituto Atlântico, TPM |
 | Reduced timesheet validation from ~40 min to ~10 min/week for 250+ reports | Instituto Atlântico, TPM (internal AI tool) |
 | Discovered corrupted data affecting credit model (150K daily requests) | Nubank, BA |
 | Identified non-contributing data source → reduced data acquisition costs | Nubank, BA |
-| Optimized monitoring pipeline: moved processing from multiple notebooks (15-30 min each) to pre-processed ETL dataset | Nubank, BA |
+| Co-developed dedicated monitoring dataset with MLE, replacing manual notebook processing (15-30 min each) with pre-processed ETL jobs | Nubank, BA |
 | Built API cost monitoring dashboard — established first baseline for partner data spend | Nubank, BA |
 | Composed annual data cost budget for the sector | Nubank, BA |
 | Managed construction of 15-story building, 5,000 m² | Campos Gouveia, PM |
