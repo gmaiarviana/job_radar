@@ -334,8 +334,8 @@ def main():
 
     filtered_path = filtered_files[0]
 
-    timestamp = datetime.now().strftime("%H%M%S")
-    scored_filename = f"{args.date}_{timestamp}.json"
+    run_time = datetime.now()
+    scored_filename = f"{run_time:%Y-%m-%d_%H%M%S}.json"
     scored_path = SCORED_DIR / scored_filename
     scored_path.parent.mkdir(parents=True, exist_ok=True)
 
@@ -391,7 +391,7 @@ def main():
         top_jobs = [j for j in scored_jobs if j.get("score", 0) >= 70]
 
         output_data = {
-            "scored_at": datetime.now().isoformat(),
+            "scored_at": run_time.isoformat(),
             "source_file": filtered_path.name,
             "summary": {
                 "total_input": len(jobs),

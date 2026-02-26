@@ -90,7 +90,7 @@ job-radar/
 │   ├── seen_jobs.json           # Dedup persistente (id_hash → first_seen, source, title, company); commitado pelo Actions
 │   ├── raw/                     # JSONs brutos (YYYY-MM-DD_HHMMSS.json); inclui "coverage" com métricas por etapa
 │   ├── filtered/                 # JSONs após hard filters (mesmo nome do raw); .gitignore
-│   ├── scored/                  # JSONs pontuados (YYYY-MM-DD_HHMMSS.json)
+│   ├── scored/                  # JSONs pontuados (YYYY-MM-DD_HHMMSS.json = data/hora da execução; lote em source_file)
 │   ├── feedback/                # Feedback 👍/👎 (local)
 │   └── output/                  # PDFs gerados
 └── .github/workflows/
@@ -113,6 +113,6 @@ job-radar/
 - **Testes:** O projeto ainda não tem suíte automatizada (pytest). Recomenda-se adicionar smoke test (`python src/fetch.py --dry-run`) ou testes unitários para `job_schema` e pipeline antes de escalar novos coletores.
 
 ---
-**Última atualização:** 24 de Fevereiro de 2026
+**Última atualização:** 26 de Fevereiro de 2026
 
 
