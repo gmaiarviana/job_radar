@@ -40,6 +40,23 @@ def apply_title_filter(jobs: list[dict], exclude_keywords: list[str]) -> tuple[l
     return passed, discarded
 
 
+def apply_location_blocklist(jobs: list[dict], blocklist_patterns: list[str]) -> tuple[list[dict], list[dict]]:
+    """Descartar vagas cujo location ou jd_full contém qualquer padrão US-only (case insensitive). Retorna (passaram, descartados)."""
+    if not blocklist_patterns:
+        return jobs, []
+    patterns_lower = [p.strip().lower() for p in blocklist_patterns if p]
+    passed = []
+    discarded = []
+    for job in jobs:
+        location = (job.get("location") or "").strip().lower()
+        jd_full = (job.get("jd_full") or job.get("description") or "").strip().lower()
+        if any(pat in location or pat in jd_full for pat in patterns_lower):
+            discarded.append(job)
+        else:
+            passed.append(job)
+    return passed, discarded
+
+
 # Allowlist: passa se location contiver pelo menos um destes termos (case insensitive)
 # Location vazia também passa (sem info suficiente para descartar; LLM decide)
 LOCATION_ALLOW_PATTERNS = [
@@ -169,17 +186,23 @@ def main() -> None:
         return
 
     config = load_config()
-    exclude_title_keywords = (config.get("filters") or {}).get("exclude_title_keywords") or []
+    filters_config = config.get("filters") or {}
+    exclude_title_keywords = filters_config.get("exclude_title_keywords") or []
+    location_blocklist_patterns = filters_config.get("location_blocklist_patterns") or []
 
     # 1. Title filter (exclude_title_keywords)
     after_title, discarded_title_list = apply_title_filter(jobs, exclude_title_keywords)
     discarded_title = len(discarded_title_list)
 
-    # 2. Location filter
-    after_location, discarded_location_list = apply_location_filter(after_title)
+    # 2. Location blocklist (US-only patterns in location or jd_full)
+    after_blocklist, discarded_blocklist_list = apply_location_blocklist(after_title, location_blocklist_patterns)
+    discarded_blocklist = len(discarded_blocklist_list)
+
+    # 3. Location allowlist
+    after_location, discarded_location_list = apply_location_filter(after_blocklist)
     discarded_location = len(discarded_location_list)
 
-    # 3. Quality guard
+    # 4. Quality guard
     after_quality, discarded_quality_list = apply_quality_guard(after_location)
     discarded_quality = len(discarded_quality_list)
     total_passed = len(after_quality)
@@ -195,6 +218,7 @@ def main() -> None:
         "summary": {
             "total_input": total_input,
             "discarded_title": discarded_title,
+            "discarded_blocklist": discarded_blocklist,
             "discarded_location": discarded_location,
             "discarded_quality": discarded_quality,
             "total_passed": total_passed,
@@ -205,7 +229,7 @@ def main() -> None:
     out_path.write_text(json.dumps(output, indent=2, ensure_ascii=False), encoding="utf-8")
     print(
         f"[filter.py] OK {total_passed} vagas passaram | "
-        f"title: {discarded_title} | location: {discarded_location} | quality: {discarded_quality} -> {out_path}"
+        f"title: {discarded_title} | blocklist: {discarded_blocklist} | location: {discarded_location} | quality: {discarded_quality} -> {out_path}"
     )
 
 
