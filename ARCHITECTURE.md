@@ -14,7 +14,7 @@ graph TD
     B -->|coletores| B1[OpenAI Search + Remotive + We Work Remotely + Jobicy + Greenhouse + Lever + Ashby]
     B1 -->|raw| B2[job_schema + fetch_pipeline]
     B2 -->|data/raw/| B3[filter.py - Hard filters]
-    B3 -->|location + quality guard| B4[data/filtered/]
+    B3 -->|title + location + quality guard| B4[data/filtered/]
     B4 -->|filtered JSON| C[score.py Stage 1 - Eliminatórios]
     C -->|surviving jobs| D[score.py Stage 2 - Deep Score]
     D -->|scored JSON| E[git commit/push]
@@ -31,7 +31,7 @@ graph TD
 | Componente | Script / Módulo | Modelo/Motor | Papel |
 | :--- | :--- | :--- | :--- |
 | **Search** | `src/fetch.py` (CLI) + `job_schema.py` + `fetch_pipeline.py` + `seen_jobs.py` + `collectors/*` | OpenAI Search, Remotive, We Work Remotely, Jobicy, Greenhouse, Lever, Ashby (Épicos 3.2–3.4) | Orquestra coletores, normaliza para schema único, dedupe persistente (`data/seen_jobs.json`) + throttle 20 novos/run, quality guard, métricas de cobertura no JSON, grava em `data/raw/`. |
-| **Filter** | `src/filter.py` | — | Hard filters gratuitos: location (expandido) + quality guard (JD/título/empresa). Lê `data/raw/`, grava `data/filtered/` (mesmo nome; jd_full intacto). CLI: `--input` ou `--date`. `data/filtered/` no .gitignore. |
+| **Filter** | `src/filter.py` | — | Hard filters gratuitos: title (exclude_title_keywords de search.yaml) + location (expandido) + quality guard (JD/título/empresa). Lê `data/raw/`, grava `data/filtered/` (mesmo nome; jd_full intacto). CLI: `--input` ou `--date`. `data/filtered/` no .gitignore. |
 | **Score** | `src/score.py` | Claude Haiku | Lê de `data/filtered/`. Eliminatórios em batch com payload reduzido (title, company, location, jd_snippet 300 chars). Deep Scoring individual com JD truncado a 3000 chars no prompt (não no armazenamento). Contra `config/profile.md`. |
 | **Interface** | `app.py` | Streamlit | UI para revisão, feedback e acionamento de geração. |
 | **Writer** | `src/generate.py`| Claude Sonnet | Redação de alta qualidade para CV e Cover Letter. |

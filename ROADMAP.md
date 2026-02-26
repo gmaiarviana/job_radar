@@ -35,10 +35,7 @@ Alta sobreposição entre os dois problemas: vagas Principal/Staff são majorita
 
 #### 4.1 Hard filter de títulos
 
-- Adicionar lista `filters.exclude_title_keywords` em `config/search.yaml`: `principal`, `staff`, `vp`, `head of`, `director`
-- Aplicar em `filter.py` antes do LLM — descarte imediato se título contiver qualquer termo da lista
-- `Senior` permanece fora da lista — penalizado no scoring quando nível exigido supera experiência demonstrada
-- Critério de aceite: todas as vagas Principal/Staff do gabarito são descartadas antes do LLM
+✅ Implementado. Lista filters.exclude_title_keywordsemsearch.yaml; filter.py descarta vagas com título Principal/Staff/VP/Head of/Director antes dos demais filtros.
 
 #### 4.2 Filtro de localização em duas camadas
 
