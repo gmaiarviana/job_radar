@@ -9,7 +9,6 @@ from anthropic import Anthropic
 # Carrega variáveis do arquivo .env
 load_dotenv()
 
-JD_SNIPPET_LENGTH = 300   # check_eliminatorios: primeiros N chars do JD no prompt
 JD_SCORE_TRUNCATE = 3000  # score_single_job: limite no prompt (boilerplate benefits/EEO não agrega)
 
 
@@ -22,26 +21,26 @@ def load_profile(profile_path):
 def check_eliminatorios(client, jobs, profile_content):
     """
     Filtra vagas em batch usando Claude Haiku para critérios eliminatórios.
-    Envia apenas title, company, location e jd_snippet (300 chars) para reduzir tokens.
+    Envia title, company, location e jd_full (descrição completa) para análise.
     Retorna (passed_jobs, eliminated_jobs) — objetos job completos, mapeados por title.
     """
     if not jobs:
         return [], []
 
-    # Objeto reduzido por vaga: só o necessário para eliminatórios (jd_full não vai no prompt)
+    # Objeto por vaga: title, company, location e jd_full (completo) para o LLM
     reduced = []
     for j in jobs:
         jd_full = (j.get("jd_full") or j.get("description") or "")
-        jd_snippet = jd_full[:JD_SNIPPET_LENGTH] if jd_full else ""
         reduced.append({
             "title": j.get("title", ""),
             "company": j.get("company", ""),
             "location": j.get("location", ""),
-            "jd_snippet": jd_snippet,
+            "jd_full": jd_full,
         })
 
     system_prompt = f"""
 Você é um recrutador técnico. Analise a lista de vagas abaixo e verifique se atendem aos critérios eliminatórios do candidato.
+Cada vaga inclui a descrição completa (jd_full) da posição para você avaliar.
 
 # PERFIL DO CANDIDATO (CRITÉRIOS)
 {profile_content}
@@ -221,7 +220,7 @@ def main():
         client = Anthropic(api_key=api_key)
         profile = load_profile("config/profile.md")
 
-        # 1. Eliminatórios (Batch LLM) — prompt usa apenas snippet por vaga
+        # 1. Eliminatórios (Batch LLM) — prompt usa jd_full por vaga
         print(f"[score.py] -> Verificando eliminatórios para {len(jobs)} vagas...")
         passed_jobs, llm_eliminated = check_eliminatorios(client, jobs, profile)
         print(f"[score.py] [i] Vagas eliminadas pelo LLM: {len(llm_eliminated)}")
