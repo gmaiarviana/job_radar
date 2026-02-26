@@ -27,6 +27,14 @@ search:
     - "EU only"
     - "no LATAM"
 
+filters:
+  exclude_title_keywords:
+    - "principal"
+    - "staff"
+    - "vp"
+    - "head of"
+    - "director"
+
 scoring:
   min_score: 80          # Score mínimo para salvar em scored/
   perfect_match_score: 95 # Threshold para enviar email de alerta
