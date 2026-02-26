@@ -1,0 +1,308 @@
+{
+  "description": "Gabarito de eliminação — 42 vagas que devem ser descartadas (título ou localização)",
+  "created_at": "2026-02-26T15:19:06.793773+00:00",
+  "total": 43,
+  "entries": [
+    {
+      "id_hash": "02aed90d09e6f92678bdfb887ee6f75a4f665a0f347c01436e05d27038ee80ad",
+      "title": "Principal Product Manager, AI Control Plane and Guardrails",
+      "company": "GitLab",
+      "expected_action": "eliminate",
+      "reason": "both"
+    },
+    {
+      "id_hash": "d4aad35d3cd30613896e2f9e0953b3456426457b12e630be0a2adb69add343f2",
+      "title": "Principal Product Manager, Security & Compliance",
+      "company": "GitLab",
+      "expected_action": "eliminate",
+      "reason": "title"
+    },
+    {
+      "id_hash": "f2a7369c09c7e0e573727ed92595dfd74839e9b28a258a42bd90d082f8cc815c",
+      "title": "Staff Product Manager, AI Developer Tools",
+      "company": "GitLab",
+      "expected_action": "eliminate",
+      "reason": "both"
+    },
+    {
+      "id_hash": "aa1640b897db6d2663c09fd8f93697e7bc0dc32d9871bc12e00af614948d3982",
+      "title": "Staff Product Manager, Software Supply Chain Security",
+      "company": "GitLab",
+      "expected_action": "eliminate",
+      "reason": "title"
+    },
+    {
+      "id_hash": "f1671463ec51850ab9f1f0490519c15cd84238fd0df3ac465c13d4c1af73a898",
+      "title": "Principal Product Manager",
+      "company": "Samsara",
+      "expected_action": "eliminate",
+      "reason": "title"
+    },
+    {
+      "id_hash": "dbcfd517b714ba19d7c54560e72f4d83fc3ea21b52c2b0106e4483d199481319",
+      "title": "Senior/Principal Product Manager - Safety AI",
+      "company": "Samsara",
+      "expected_action": "eliminate",
+      "reason": "title"
+    },
+    {
+      "id_hash": "e539512d94fb29de4557179e514dd1c8c8b002852d3d2a9d2fe3cf1f4e3b0028",
+      "title": "Staff Product Manager",
+      "company": "Brex",
+      "expected_action": "eliminate",
+      "reason": "title"
+    },
+    {
+      "id_hash": "eee1ca307e6415aaaa744d928305d188dabf6234f23ee8415c8d34984bb0f507",
+      "title": "Principal Marketing Program Manager",
+      "company": "Samsara",
+      "expected_action": "eliminate",
+      "reason": "title"
+    },
+    {
+      "id_hash": "cf6db9fbae264ca6256bc0f3ae073cd70b2261c0dff3a387cac70fca9e111435",
+      "title": "Principal Product Manager - Platform",
+      "company": "Samsara",
+      "expected_action": "eliminate",
+      "reason": "title"
+    },
+    {
+      "id_hash": "41a94cb1355ed0e02de6935aa8cb96b9c0b2435016463f4fc8e6884b5262787b",
+      "title": "Principal Product Manager, Reporting Platform",
+      "company": "Samsara",
+      "expected_action": "eliminate",
+      "reason": "title"
+    },
+    {
+      "id_hash": "5207da381d17dd92a227831012051e8cb63c9cb94b3cb41bb69061648ce55dbb",
+      "title": "Sr. Staff Technical Program Manager - GenAI",
+      "company": "Databricks",
+      "expected_action": "eliminate",
+      "reason": "title"
+    },
+    {
+      "id_hash": "cbb66a8b8a8c8c582b3b8bad8a52061707d94eaf9db15a8a77c38c95c48a2b86",
+      "title": "Sr. Staff Technical Program Manager - Reliability",
+      "company": "Databricks",
+      "expected_action": "eliminate",
+      "reason": "title"
+    },
+    {
+      "id_hash": "872b3197f1d3d8f95e5309e6da56b21e1a2d3fcd7d1fe7af65a9c5d99460debc",
+      "title": "Staff Product Manager",
+      "company": "Databricks",
+      "expected_action": "eliminate",
+      "reason": "title"
+    },
+    {
+      "id_hash": "8df024b3e0fb1573bbe2813e9f9fedcfa7f2346e10db27affa605929900a7c55",
+      "title": "Staff Product Manager, AI Platform",
+      "company": "Databricks",
+      "expected_action": "eliminate",
+      "reason": "title"
+    },
+    {
+      "id_hash": "1b129df5e0c346b0d91c7b69833c489d20bd0350c9b9e445574ff0c4636b5aa3",
+      "title": "Staff Product Manager, Content Experience",
+      "company": "Databricks",
+      "expected_action": "eliminate",
+      "reason": "title"
+    },
+    {
+      "id_hash": "367cd24bb1ab4630567d29ce6dc692bde31fb8c01307a73df57dbc277ec5a183",
+      "title": "Staff Product Manager, Databricks Notebooks",
+      "company": "Databricks",
+      "expected_action": "eliminate",
+      "reason": "title"
+    },
+    {
+      "id_hash": "2ea9464e6964bec5052132af167ce2aa070eb4c4ddc1c01567dcd4f739bf01c8",
+      "title": "Staff Product Manager, Security",
+      "company": "Databricks",
+      "expected_action": "eliminate",
+      "reason": "title"
+    },
+    {
+      "id_hash": "4986d0162938640987f7dbf57d5e2558a782ddd5b84feb68c72e73ec310842e9",
+      "title": "Staff Product Manager, Serverless Workspaces",
+      "company": "Databricks",
+      "expected_action": "eliminate",
+      "reason": "title"
+    },
+    {
+      "id_hash": "390cdd9e7d389faedebcf0f0c79eacf1a5e30f58db403eda2bff2755e9cbd149",
+      "title": "Staff Product Manager - Technical",
+      "company": "Databricks",
+      "expected_action": "eliminate",
+      "reason": "title"
+    },
+    {
+      "id_hash": "baf6f85b02fd46491bbc764c399a3c25c29bb4e43d7232c191a22112a7a87afe",
+      "title": "Staff Project Manager (TPM)",
+      "company": "Databricks",
+      "expected_action": "eliminate",
+      "reason": "title"
+    },
+    {
+      "id_hash": "c931b544da03ce74776ee63c7ec0d59c830d349739da791a1603d57ff5b551de",
+      "title": "Staff Technical Program Manager - CPQ",
+      "company": "Databricks",
+      "expected_action": "eliminate",
+      "reason": "title"
+    },
+    {
+      "id_hash": "593e99e86d81df4131ccffc317b79ff9b7b0c0efb61546ade606059e4141f5a9",
+      "title": "Staff Technical Program Manager – GenAI Ops",
+      "company": "Databricks",
+      "expected_action": "eliminate",
+      "reason": "title"
+    },
+    {
+      "id_hash": "34f47f82e8b8d7c5f1a7d4b5a657dc012dc3eb65a6ec5357049d4d479026c0dd",
+      "title": "Staff Technical Program Manager, Streaming",
+      "company": "Databricks",
+      "expected_action": "eliminate",
+      "reason": "title"
+    },
+    {
+      "id_hash": "389b894a0c91c0d1c5b4812030f3eed7a9ac7e4027d8afc4b83840f938d4d6e3",
+      "title": "Staff Product Manager - AI Discovery",
+      "company": "Faire",
+      "expected_action": "eliminate",
+      "reason": "title"
+    },
+    {
+      "id_hash": "e62ffd76803ad87272cd0c8ff568d949681f347cdcc8c03cbb1fac9c2814566a",
+      "title": "Staff Product Manager - Brand",
+      "company": "Faire",
+      "expected_action": "eliminate",
+      "reason": "title"
+    },
+    {
+      "id_hash": "9546ada15eeebfce3cb10450e9481eb807f0f31881bcab97e325c600af0db586",
+      "title": "Staff Product Manager - FinTech & Ops",
+      "company": "Faire",
+      "expected_action": "eliminate",
+      "reason": "title"
+    },
+    {
+      "id_hash": "465c3d7156acfa61da6a2fe8496c9f001cc86f1b51d51dc8624fc425f38d44f8",
+      "title": "Staff Product Manager - Search Algorithms",
+      "company": "Faire",
+      "expected_action": "eliminate",
+      "reason": "title"
+    },
+    {
+      "id_hash": "bb6a847e6315db8aa791ec5db8825340fa6e1b93529efbea9a0088a010ee51f1",
+      "title": "Staff Product Manager",
+      "company": "Duolingo",
+      "expected_action": "eliminate",
+      "reason": "title"
+    },
+    {
+      "id_hash": "2b4b1ac48972c9a365b1f8753b08abc6a70d9fe38fd9096e9cc56df481a08895",
+      "title": "Staff Technical Program Manager",
+      "company": "Duolingo",
+      "expected_action": "eliminate",
+      "reason": "title"
+    },
+    {
+      "id_hash": "ecc95c1a6225ad0e6e40442f59e077937a4a174dd478953efbc2bbaab6895f84",
+      "title": "Staff Product Manager, Agentic Platform",
+      "company": "Scale AI",
+      "expected_action": "eliminate",
+      "reason": "title"
+    },
+    {
+      "id_hash": "0191b9f05437b5373aa05ab1c480a47799277e9568323847db0aa55552e196d4",
+      "title": "Senior Technical Program Manager, Infrastructure",
+      "company": "Planet Labs",
+      "expected_action": "eliminate",
+      "reason": "location"
+    },
+    {
+      "id_hash": "628c80be96ed645bbbe412488dae6f7538e7ba8253923bd7a22d52f8f266fa40",
+      "title": "AI Self-Service Program Manager",
+      "company": "Samsara",
+      "expected_action": "eliminate",
+      "reason": "location"
+    },
+    {
+      "id_hash": "1494b1626d40de77c18d98fcdfc7568d04fe65fa1af5d26f37d051a060db4689",
+      "title": "Program Manager II - Customer Success",
+      "company": "Samsara",
+      "expected_action": "eliminate",
+      "reason": "location"
+    },
+    {
+      "id_hash": "a8c44ea0cd929fbc5eeaf74e2d3f9695d52c8cb0eedeb9c2fca8b72335d1c6c3",
+      "title": "Education & Research PM & Evangelist",
+      "company": "Planet Labs",
+      "expected_action": "eliminate",
+      "reason": "location"
+    },
+    {
+      "id_hash": "b8c6854eeac03730e283a82f7bd46be89d444f5a58c128b42bb161bc5fd24a89",
+      "title": "Senior Product Manager, Crypto Brokerage",
+      "company": "Paxos",
+      "expected_action": "eliminate",
+      "reason": "location"
+    },
+    {
+      "id_hash": "0707abc3ef68f9d48f78a910eb2befe622eba36be8d4cb650fba18e91c3d9ee8",
+      "title": "Senior Product Manager, Custody & Blockchain",
+      "company": "Paxos",
+      "expected_action": "eliminate",
+      "reason": "location"
+    },
+    {
+      "id_hash": "62d486fbd6874ecff835803281d2148f591c00c229e7765b9c08eb18d673423b",
+      "title": "Sr. Product Manager, Ads AI/ML",
+      "company": "Disney",
+      "expected_action": "eliminate",
+      "reason": "location"
+    },
+    {
+      "id_hash": "94784574fc065b41a65e5706c16abb8cd17619212f943131e779bd037411a1eb",
+      "title": "Product Manager, LATAM",
+      "company": "Airbnb",
+      "expected_action": "eliminate",
+      "reason": "location"
+    },
+    {
+      "id_hash": "236e8e7f707b3ea9d5090c5dccf01734a161e2152a126c6a18b1445e48a7afaf",
+      "title": "Senior Enablement PM, AI Transformation",
+      "company": "Databricks",
+      "expected_action": "eliminate",
+      "reason": "location"
+    },
+    {
+      "id_hash": "1968c8f80ea5b391d368b30b66142e4d6740c0170e3e395f6da02f0c93da844b",
+      "title": "Customer Education Program Manager",
+      "company": "Klaviyo",
+      "expected_action": "eliminate",
+      "reason": "location"
+    },
+    {
+      "id_hash": "e6157c4254ab2b932c3e38cfe7e1867415d328a162ef7323d8f9f082cc8f6ba9",
+      "title": "Lead Product Manager",
+      "company": "Klaviyo",
+      "expected_action": "eliminate",
+      "reason": "location"
+    },
+    {
+      "id_hash": "6c9d117a7d60706fa2e5cacc0045d57c59b41961d74a4afbc235a8e7bca0ee16",
+      "title": "Program Manager, Business Transformation",
+      "company": "Amplitude",
+      "expected_action": "eliminate",
+      "reason": "location"
+    },
+    {
+      "id_hash": "a2868735d2c29dfab7dd60b425224205c3e464feb6c4e4d00953303cd7705aa6",
+      "title": "Product Manager - Accounts",
+      "company": "Vercel",
+      "expected_action": "eliminate",
+      "reason": "location"
+    }
+  ]
+}
