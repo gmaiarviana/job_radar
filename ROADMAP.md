@@ -66,9 +66,13 @@ Alta sobreposição entre os dois problemas: vagas Principal/Staff são majorita
 
 #### 5.1 Correção do prompt de scoring
 
-- Reescrever prompt para forçar aplicação das penalizações antes de atribuir o score
-- Estrutura proposta: (1) identificar penalizações aplicáveis → (2) definir teto de score → (3) atribuir score dentro do teto
-- Validar no seed: vagas que hoje têm score 90 com gaps críticos devem cair para ≤ 60
+- Reescrever prompt para forçar aplicação das penalizações antes de atribuir o score (já existente)
+- Estrutura proposta: (1) identificar penalizações aplicáveis → (2) definir teto de score → (3) atribuir score dentro do teto (já existente)
+- Validar no seed: vagas que hoje têm score 90 com gaps críticos devem cair para ≤ 60 (já existente)
+- Evidence mapping estruturado: forçar o LLM a listar top 3-5 requirements da JD e mapear evidência do perfil para cada um (ou marcar "sem evidência"). Substitui o campo evidence texto-livre atual
+- Must-have vs nice-to-have: instruir o LLM a classificar requirements da JD antes de pontuar. Gap em nice-to-have penaliza pouco; gap em must-have penaliza forte
+- Comparação explícita de seniority: se a JD pede X+ anos de experiência, o LLM deve comparar com o perfil do candidato e declarar se há gap
+- Output format expandido: adicionar apply_recommendation (boolean) e adherence_pct (0-100) ao JSON de saída. Regra: score ≥ 70 + nenhum gap em must-have = true
 
 #### 5.2 Análise exploratória de títulos (via NotebookLM)
 
@@ -82,6 +86,17 @@ Alta sobreposição entre os dois problemas: vagas Principal/Staff são majorita
 - Avaliar as 5 vagas de maior score pós-Épico 4 (maior aderência ao perfil)
 - Comparar avaliação manual com score do sistema
 - Ajustar prompt ou rubrica conforme padrões identificados
+
+#### 5.4 Enriquecimento do profile.md
+
+- Adicionar sinais positivos de contexto: vaga em product company (vs consultoria) como sinal positivo, complementando a penalização de outsourcing já existente
+- Adicionar seção mission_alignment_keywords no profile.md (ex: sustainability, climate, education, open source). Tratamento: boost leve (+3-5 pontos), nunca eliminatório
+- Critério de aceite: profile.md atualizado com as novas seções; prompt de scoring referencia esses sinais
+
+**Fora de escopo (decisões documentadas):**
+- Flexibility signals (ex: "do apply even if...") — boilerplate de inclusão; risco de inflar scores de empresas grandes sistematicamente
+- Pesos altos em mission alignment — decisão de aplicar por missão é melhor feita manualmente na UI, não pelo scoring automático
+- Decomposição granular de skills individuais — LLMs são imprecisos em matching de listas de skills; evidence mapping por requirement já captura indiretamente
 
 ---
 
