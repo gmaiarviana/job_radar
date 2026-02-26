@@ -110,6 +110,8 @@ Ordem: 1 → 2 e 3 em paralelo (quando aplicável).
 Fechamento: seguir closure_protocol.md.
 ```
 
+Para fluir melhor: quando fizer sentido, Claude Web pode sugerir um comando de validação (fora do prompt). No retorno (ex.: "rodei X e passou"), pode dar comando de commit e próximo prompt.
+
 ---
 
 ## 4. AVALIAÇÃO DE DADOS (NotebookLM)
