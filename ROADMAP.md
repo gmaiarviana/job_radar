@@ -8,7 +8,7 @@
 
 ## ✅ Concluído
 
-Pipeline completo: fetch multi-fonte (Remotive, We Work Remotely, Jobicy, OpenAI Search, Greenhouse, Lever, Ashby), schema único, dedup persistente (`seen_jobs.json`), throttle, quality guard, filter com hard filters de títulos e localização em duas camadas (blocklist + JD completo no eliminatório), scoring em dois estágios (eliminatórios + deep score via Claude Haiku), GitHub Actions diário, seed ATS. Qualidade de filtragem fechada: eval em `src/eval/`, paths em `src/paths.py`, companies por ATS em `fetch_pipeline.get_companies_by_ats`, score ignora `seed_*.json`, seed `--dry-run` sem rede. Testes de scoring (`compute_ceiling`) movidos para `src/eval/test_scoring.py`; `score.py` sem lógica de teste. Estrutura em [ARCHITECTURE.md](ARCHITECTURE.md).
+Pipeline completo: fetch multi-fonte (Remotive, We Work Remotely, Jobicy, OpenAI Search, Greenhouse, Lever, Ashby), schema único, dedup persistente (`seen_jobs.json`), throttle, quality guard, filter com hard filters de títulos e localização em duas camadas (blocklist + JD completo no eliminatório), scoring em dois estágios (eliminatórios + deep score via Claude Haiku), GitHub Actions diário, seed ATS. Qualidade de filtragem fechada: eval em `src/eval/`, paths em `src/paths.py`, companies por ATS em `fetch_pipeline.get_companies_by_ats`, score ignora `seed_*.json`, seed `--dry-run` sem rede. Testes de scoring (`compute_ceiling`) movidos para `src/eval/test_scoring.py`; `score.py` sem lógica de teste. Refatoração de penalties para booleans: `analyze_job` retorna `penalties` (dict com seniority_gap, outsourcing_context, domain_gap_core); `compute_ceiling` lê bools (sem match de strings); testes atualizados. Estrutura em [ARCHITECTURE.md](ARCHITECTURE.md).
 
 ---
 

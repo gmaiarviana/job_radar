@@ -34,23 +34,26 @@ def compute_ceiling(analysis_output):
     """
     Função pura: recebe o output da Chamada 1 (analyze_job) e retorna ceiling + reason.
     Não chama LLM. Testável sem API.
+    Lê analysis_output["penalties"] como dict de bools (seniority_gap, outsourcing_context, domain_gap_core).
     Regras: domain_gap_core→60, seniority_gap→65, outsourcing_context→75;
-            2+ penalties→55; nenhuma penalty→100.
+            2+ true→55; nenhum true→100.
+    Se penalties não for dict, retorna ceiling 100 (defensivo).
     Retorna {"ceiling": int, "reason": str}.
     """
-    penalties = analysis_output.get("applicable_penalties") if isinstance(analysis_output, dict) else None
-    if not isinstance(penalties, list):
-        penalties = []
-    penalties = [p for p in penalties if p in CEILING_BY_PENALTY]
+    penalties = analysis_output.get("penalties") if isinstance(analysis_output, dict) else None
+    if not isinstance(penalties, dict):
+        return {"ceiling": CEILING_NONE, "reason": "Nenhuma penalty aplicável (penalties ausente ou inválido)."}
 
-    if not penalties:
+    active = [k for k in CEILING_BY_PENALTY if penalties.get(k) is True]
+
+    if not active:
         return {"ceiling": CEILING_NONE, "reason": "Nenhuma penalty aplicável."}
-    if len(penalties) >= 2:
+    if len(active) >= 2:
         return {
             "ceiling": CEILING_MULTIPLE_PENALTIES,
-            "reason": f"2+ penalties: {', '.join(penalties)}.",
+            "reason": f"2+ penalties: {', '.join(active)}.",
         }
-    p = penalties[0]
+    p = active[0]
     return {
         "ceiling": CEILING_BY_PENALTY[p],
         "reason": f"1 penalty: {p}.",
@@ -68,7 +71,7 @@ def analyze_job(client, job, profile_content):
     """
     Chamada 1 do pipeline de scoring: análise estruturada sem score.
     Recebe job + profile e retorna JSON com core_requirements, seniority_comparison,
-    applicable_penalties e domain_fit. JD truncada a JD_SCORE_TRUNCATE chars no prompt.
+    penalties (objeto de booleans) e domain_fit. JD truncada a JD_SCORE_TRUNCATE chars no prompt.
     """
     job_for_prompt = dict(job)
     jd_full = (job.get("jd_full") or job.get("description") or "")
@@ -95,11 +98,10 @@ Você é um recrutador técnico. Sua tarefa é analisar a vaga abaixo em relaç�
    - candidate_has: o que o candidato tem (ex: "~3 years in PM/TPM tech roles")
    - gap: true se há gap de seniority, false caso contrário
 
-3. APPLICABLE PENALTIES: Liste as que se aplicam a esta candidatura, dentre exatamente:
-   - seniority_gap (JD pede mais anos que o candidato tem)
-   - outsourcing_context (experiência predominante em outsourcing/consultoria, não ownership de produto)
-   - domain_gap_core (gap no domínio central da vaga: security, compliance, customer success, hardware, etc.)
-   Retorne lista de strings; pode ser vazia [].
+3. PENALTIES: Objeto com três chaves booleanas. Responda true apenas quando o critério se aplicar; caso contrário false.
+   - seniority_gap: true se a JD pede X+ anos de experiência e o perfil do candidato tem evidência de menos anos em papéis PM/TPM/tech; false caso contrário.
+   - outsourcing_context: true se a experiência predominante do candidato é em consultoria/outsourcing (cliente define produto, candidato não tem ownership de roadmap); false se há evidência forte de product company ou o contexto é misto/neutro.
+   - domain_gap_core: true se o domínio central da vaga (ex: security, compliance, robotics, infrastructure, customer success, hardware) não tem evidência no perfil; false se há evidência ou o domínio é transferível.
 
 4. DOMAIN_FIT: Uma string com valor "full", "partial" ou "none" seguido de " — " e uma breve justificativa (ex: "partial — PM em fintech, vaga é B2B SaaS; skills transferíveis").
 
@@ -117,7 +119,11 @@ Você é um recrutador técnico. Sua tarefa é analisar a vaga abaixo em relaç�
     "candidate_has": "...",
     "gap": true
   }},
-  "applicable_penalties": ["seniority_gap", "outsourcing_context", "domain_gap_core"],
+  "penalties": {
+    "seniority_gap": true,
+    "outsourcing_context": false,
+    "domain_gap_core": false
+  },
   "domain_fit": "full|partial|none — breve justificativa"
 }}
 """
