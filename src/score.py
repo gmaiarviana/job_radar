@@ -146,6 +146,87 @@ Você é um recrutador técnico. Sua tarefa é analisar a vaga abaixo em relaç�
         return None
 
 
+def score_with_analysis(client, job, analysis, ceiling_result, profile_content):
+    """
+    Chamada 2 do pipeline de scoring (Épico 5.1.3).
+    Recebe análise (Chamada 1) e ceiling_result (compute_ceiling). Se ceiling ≤ 50, retorna
+    sem chamar LLM. Caso contrário, chama Haiku para atribuir score ≤ ceiling.
+    Retorna dict com score, score_ceiling, ceiling_reason, justification, main_gap; ou None em erro.
+    """
+    ceiling = ceiling_result.get("ceiling", 100)
+    reason = ceiling_result.get("reason", "")
+
+    if ceiling <= 50:
+        return {
+            "score": ceiling,
+            "score_ceiling": ceiling,
+            "ceiling_reason": reason,
+            "justification": "Auto-eliminated: penalty ceiling too low",
+            "main_gap": analysis.get("domain_fit", ""),
+        }
+
+    analysis_json = json.dumps(analysis, indent=2, ensure_ascii=False)
+    system_prompt = f"""
+Você é um recrutador técnico sênior. Sua tarefa é atribuir um score (0-100) para a candidatura com base na análise já feita.
+
+# PERFIL DO CANDIDATO
+{profile_content}
+
+# ANÁLISE DA VAGA (Chamada 1 — já realizada)
+{analysis_json}
+
+# RESTRIÇÃO OBRIGATÓRIA
+O score MÁXIMO permitido para esta vaga é {ceiling} porque: {reason}. Você DEVE atribuir um score ≤ {ceiling}.
+
+# RUBRICA DE FAIXAS (escolha a faixa que melhor descreve o fit; o score final deve ser ≤ {ceiling})
+- 85–100: Experiência DIRETA no domínio central, contexto similar. Evidência concreta no perfil.
+- 70–84: Skills principais presentes, falta UM elemento crítico (domínio, seniority ou contexto). Candidatura viável com risco.
+- 50–69: Skills transferíveis, mas GAP no CORE da vaga. Improvável passar triagem experiente.
+- 30–49: Skills genéricas de PM/TPM; vaga exige background específico ausente. Potencial de longo prazo.
+- 0–29: Perfil sem base para a função.
+
+# INSTRUÇÕES
+1. Atribua um score inteiro entre 0 e {ceiling} (inclusive).
+2. Justifique brevemente o score e a faixa aplicada.
+3. main_gap: o principal gap ou risco desta candidatura (uma frase).
+
+Responda APENAS um JSON válido, sem texto antes ou depois.
+
+# FORMATO DE SAÍDA (JSON)
+{{
+  "score": int,
+  "score_ceiling": {ceiling},
+  "ceiling_reason": "texto (motivo do teto)",
+  "justification": "texto",
+  "main_gap": "texto"
+}}
+"""
+
+    user_content = f"Atribua score para a vaga: {job.get('title', 'N/A')} (empresa: {job.get('company', 'N/A')})."
+
+    try:
+        response = client.messages.create(
+            model="claude-3-haiku-20240307",
+            max_tokens=1500,
+            system=system_prompt,
+            messages=[{"role": "user", "content": user_content}],
+        )
+        content = response.content[0].text
+        start_idx = content.find("{")
+        end_idx = content.rfind("}") + 1
+        if start_idx < 0 or end_idx <= start_idx:
+            print(f"[score.py] [ERR] score_with_analysis: JSON não encontrado na resposta.")
+            return None
+        out = json.loads(content[start_idx:end_idx])
+        # Garantir os 5 campos no retorno
+        out["score_ceiling"] = ceiling
+        out["ceiling_reason"] = reason
+        return out
+    except Exception as e:
+        print(f"[score.py] [ERR] Erro em score_with_analysis para {job.get('title')}: {e}")
+        return None
+
+
 def check_eliminatorios(client, jobs, profile_content):
     """
     Filtra vagas em batch usando Claude Haiku para critérios eliminatórios.
