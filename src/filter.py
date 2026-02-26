@@ -10,6 +10,8 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
+from src.fetch_pipeline import load_config
+
 
 def _ensure_console_utf8() -> None:
     """Evita UnicodeEncodeError no Windows (console cp1252)."""
@@ -18,6 +20,25 @@ def _ensure_console_utf8() -> None:
             sys.stdout.reconfigure(encoding="utf-8")
         except (AttributeError, OSError):
             pass
+
+# Allowlist: passa se location contiver pelo menos um destes termos (case insensitive)
+# Location vazia também passa (sem info suficiente para descartar; LLM decide)
+def apply_title_filter(jobs: list[dict], exclude_keywords: list[str]) -> tuple[list[dict], list[dict]]:
+    """Descartar vagas cujo título contém qualquer keyword (case insensitive). Retorna (passaram, descartados)."""
+    if not exclude_keywords:
+        return jobs, []
+    keywords_lower = [k.strip().lower() for k in exclude_keywords if k]
+    passed = []
+    discarded = []
+    for job in jobs:
+        title = (job.get("title") or "").strip()
+        title_lower = title.lower()
+        if any(kw in title_lower for kw in keywords_lower):
+            discarded.append(job)
+        else:
+            passed.append(job)
+    return passed, discarded
+
 
 # Allowlist: passa se location contiver pelo menos um destes termos (case insensitive)
 # Location vazia também passa (sem info suficiente para descartar; LLM decide)
@@ -147,11 +168,18 @@ def main() -> None:
         print("[filter.py] Aviso: nenhuma vaga no arquivo raw.")
         return
 
-    # 1. Location filter
-    after_location, discarded_location_list = apply_location_filter(jobs)
+    config = load_config()
+    exclude_title_keywords = (config.get("filters") or {}).get("exclude_title_keywords") or []
+
+    # 1. Title filter (exclude_title_keywords)
+    after_title, discarded_title_list = apply_title_filter(jobs, exclude_title_keywords)
+    discarded_title = len(discarded_title_list)
+
+    # 2. Location filter
+    after_location, discarded_location_list = apply_location_filter(after_title)
     discarded_location = len(discarded_location_list)
 
-    # 2. Quality guard
+    # 3. Quality guard
     after_quality, discarded_quality_list = apply_quality_guard(after_location)
     discarded_quality = len(discarded_quality_list)
     total_passed = len(after_quality)
@@ -166,9 +194,10 @@ def main() -> None:
         "source_file": raw_path.name,
         "summary": {
             "total_input": total_input,
-            "total_passed": total_passed,
+            "discarded_title": discarded_title,
             "discarded_location": discarded_location,
             "discarded_quality": discarded_quality,
+            "total_passed": total_passed,
         },
         "jobs": after_quality,
     }
@@ -176,7 +205,7 @@ def main() -> None:
     out_path.write_text(json.dumps(output, indent=2, ensure_ascii=False), encoding="utf-8")
     print(
         f"[filter.py] OK {total_passed} vagas passaram | "
-        f"location: {discarded_location} | quality: {discarded_quality} -> {out_path}"
+        f"title: {discarded_title} | location: {discarded_location} | quality: {discarded_quality} -> {out_path}"
     )
 
 
