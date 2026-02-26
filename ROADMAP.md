@@ -12,6 +12,8 @@
 
 **Épico 5.1 — Correção do prompt de scoring:** Pipeline de 2 chamadas (analyze_job → compute_ceiling → score_with_analysis) calibrado e validado 5/5 no seed. Penalties como booleans; ceiling calculado em Python; early return para ceiling ≤ 50 (sem LLM). `score_single_job` removido. Arquivos scored nomeados por data/hora de execução; lote de origem em `source_file`.
 
+**Correção filter.py --date:** `resolve_input_path` no branch por data passa a excluir do glob arquivos `*_discarded.json` e `seed_*`, evitando selecionar raw descartado ou seed em vez do principal. Mesmo padrão usado em score.py para seed_.
+
 ---
 
 ## 📍 Próximos Épicos

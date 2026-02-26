@@ -147,7 +147,11 @@ def resolve_input_path(input_path: str | None, date_str: str | None) -> Path | N
         raw_dir = RAW_DIR
         if not raw_dir.exists():
             return None
-        candidates = sorted(raw_dir.glob(f"{date_str}*.json"), reverse=True)
+        candidates = sorted(
+            (f for f in raw_dir.glob(f"{date_str}*.json")
+             if not f.name.endswith("_discarded.json") and not f.name.startswith("seed_")),
+            reverse=True,
+        )
         return candidates[0] if candidates else None
     return None
 
