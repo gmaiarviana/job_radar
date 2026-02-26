@@ -196,7 +196,7 @@ def main():
     # Aceita YYYY-MM-DD*.json ou seed_YYYY-MM-DD_*.json; usa o mais recente por mtime
     filtered_dir = FILTERED_DIR
     filtered_files = sorted(
-        filtered_dir.glob(f"*{args.date}*.json"),
+        (f for f in filtered_dir.glob(f"*{args.date}*.json") if not f.name.startswith("seed_")),
         key=lambda p: p.stat().st_mtime,
         reverse=True,
     )

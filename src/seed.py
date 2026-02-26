@@ -122,13 +122,15 @@ def main() -> None:
     output_path = output_dir / f"seed_{today}_{timestamp}.json"
 
     print(f"{LOG_PREFIX} Coletores: {[n for n, _ in collectors_config]}")
+    if args.dry_run:
+        print(f"{LOG_PREFIX} 🧪 DRY-RUN (sem rede): não executa coletores")
+        print(
+            f"  Empresas configuradas | Greenhouse: {len(greenhouse_companies)} | Lever: {len(lever_companies)} | Ashby: {len(ashby_companies)}"
+        )
+        return
+
     jobs = run_pipeline(collectors_config)
     total = len(jobs)
-
-    if args.dry_run:
-        print(f"{LOG_PREFIX} 🧪 DRY-RUN: {total} vagas seriam coletadas")
-        print(f"  Saída (se rodar sem --dry-run): {output_path}")
-        return
 
     # Gravar bruto no mesmo formato do fetch
     coverage = {
