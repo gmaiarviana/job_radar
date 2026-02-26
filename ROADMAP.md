@@ -1,6 +1,6 @@
 # ROADMAP - Job Radar
 
-📡 **Status:** Pipeline completo (fetch → filter → score). Scoring calibrado (5.1 concluído). Próximo: **Épico 5.2+ → Épico 6 (UI Funcional)**.
+📡 **Status:** Pipeline completo (fetch → filter → score). Épico 5 concluído. Próximo: **Épico 6 (UI Funcional)**.
 
 > **Filosofia:** POC → Protótipo → MVP. Validar cada etapa antes de avançar. Qualidade antes de volume.
 
@@ -14,13 +14,15 @@
 
 **Correção filter.py --date:** `resolve_input_path` no branch por data passa a excluir do glob arquivos `*_discarded.json` e `seed_*`, evitando selecionar raw descartado ou seed em vez do principal. Mesmo padrão usado em score.py para seed_.
 
+**Pipeline end-to-end validado (2026-02-26):** fetch → filter → score com dados reais. 19 vagas coletadas, 3 passaram nos filtros, scores coerentes (95, 58, 54). Filtro de localização validado — as 15 descartadas eram legítimas (USA, UK, Canada, India). Bug do _discarded corrigido antes da validação.
+
 ---
 
 ## 📍 Próximos Épicos
 
 ---
 
-### ÉPICO 5: Qualidade de Scoring
+### ÉPICO 5: Qualidade de Scoring ✅ CONCLUÍDO
 
 **Objetivo:** Garantir que o score reflita fit real.
 
@@ -28,22 +30,9 @@
 
 #### 5.1 Correção do prompt de scoring ✅ CONCLUÍDO
 
-#### 5.2 Análise exploratória de títulos (via NotebookLM)
+5.2 (análise exploratória de títulos) foi movido para o **Épico 8 — Expansão de Coleta**, por ser insumo para expandir títulos, não para scoring.
 
-- Extrair títulos únicos do seed por fonte
-- Identificar títulos relevantes fora do filtro atual (ex: "Product Lead", "Associate PM", "Group PM")
-- Decisão: expandir `TITLE_KEYWORDS` nos coletores ou centralizar em `config/search.yaml`
-
-#### 5.3 Validação com avaliação manual
-
-- Avaliar top 5 vagas de maior score
-- Comparar avaliação manual com score do sistema
-- Ajustar prompt ou rubrica conforme padrões identificados
-
-#### 5.4 Enriquecimento do profile.md
-
-- Sinais positivos de contexto: product company (vs consultoria) como boost
-- Seção `mission_alignment_keywords` no profile.md (sustainability, climate, education, open source). Boost leve (+3-5 pontos), nunca eliminatório
+**5.3 e 5.4 postergados** — validação manual e enriquecimento do profile.md serão feitos organicamente com dados reais do pipeline rodando. Reintroduzir como sub-épicos formais se padrões de erro surgirem.
 
 **Fora de escopo (decisões documentadas):**
 - Flexibility signals (ex: "do apply even if...") — boilerplate; risco de inflar scores sistematicamente
@@ -56,7 +45,7 @@
 
 **Objetivo:** Interface com valor imediato — monitorar LinkedIn, avaliar vagas manualmente, visualizar resultados do pipeline automático.
 
-**Dependência:** Épico 5.1 concluído.
+**Dependência:** Épico 5 concluído.
 
 **Critério de aceite:** Usuário consegue: (1) abrir links de busca do LinkedIn direto da UI, (2) colar JD e ver score + gaps, (3) voltar a avaliações salvas, (4) ver vagas scored do pipeline automático.
 
@@ -131,9 +120,10 @@
 
 **Dependência:** Épico 6 rodando (UX funcional, feedback como sinal de qualidade).
 
-#### 8.1 Expansão de títulos de busca
+#### 8.1 Análise exploratória de títulos e expansão de busca
 
-- Usar resultado da análise exploratória (5.2) para ampliar `TITLE_KEYWORDS`
+- Análise exploratória de títulos (ex.: via NotebookLM): extrair títulos únicos do seed por fonte; identificar títulos relevantes fora do filtro atual (ex: "Product Lead", "Associate PM", "Group PM")
+- Decisão: expandir `TITLE_KEYWORDS` nos coletores ou centralizar em `config/search.yaml`
 
 #### 8.2 Novos conectores
 
