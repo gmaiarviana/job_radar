@@ -34,6 +34,17 @@ filters:
     - "vp"
     - "head of"
     - "director"
+  location_blocklist_patterns:
+    - "remote - us"
+    - "remote united states"
+    - "united states, remote"
+    - "united states only"
+    - "residing in the us"
+    - "residents of the united states"
+    - "authorized to work in the us"
+    - "based in the united states"
+    - "us locations"
+    - "us residents"
 
 scoring:
   min_score: 80          # Score mínimo para salvar em scored/
