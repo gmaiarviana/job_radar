@@ -1,6 +1,6 @@
 # ROADMAP - Job Radar
 
-📡 **Status:** Pipeline completo construído (fetch → filter → score). Qualidade de filtragem e scoring identificada como problema principal. Próximo: **Fix Actions + Épico 4 — Qualidade de Filtragem**.
+📡 **Status:** Pipeline completo construído (fetch → filter → score). Qualidade de filtragem e scoring identificada como problema principal. Próximo: **Épico 4 — Qualidade de Filtragem** (4.1 Hard filter de títulos).
 
 > **Filosofia:** POC → Protótipo → MVP. Validar cada etapa antes de avançar. Qualidade antes de volume.
 
@@ -8,7 +8,7 @@
 
 ## ✅ Concluído
 
-Pipeline completo: fetch multi-fonte (Remotive, We Work Remotely, Jobicy, OpenAI Search, Greenhouse, Lever, Ashby), schema único, dedup persistente (`seen_jobs.json`), throttle, quality guard, filter (location + quality), scoring em dois estágios (eliminatórios + deep score via Claude Haiku), GitHub Actions diário, seed inicial ATS rodado. Estrutura e componentes em [ARCHITECTURE.md](ARCHITECTURE.md).
+Pipeline completo: fetch multi-fonte (Remotive, We Work Remotely, Jobicy, OpenAI Search, Greenhouse, Lever, Ashby), schema único, dedup persistente (`seen_jobs.json`), throttle, quality guard, filter (location + quality), scoring em dois estágios (eliminatórios + deep score via Claude Haiku), GitHub Actions diário, seed inicial ATS rodado. Estrutura e componentes em [ARCHITECTURE.md](ARCHITECTURE.md). Fix GitHub Actions: permissions de escrita no daily.yml.
 
 ---
 
@@ -23,17 +23,6 @@ Alta sobreposição entre os dois problemas: vagas Principal/Staff são majorita
 
 ---
 
-## 🚨 Fix Imediato (antes do Épico 4)
-
-**GitHub Actions — erro de permissão de escrita**
-
-O Actions bot falha no step "Commit results" com erro 403 (permission denied). Todo o pipeline executa com sucesso mas os resultados não são salvos no repositório.
-
-- Adicionar `permissions: contents: write` no `daily.yml`
-- Critério de aceite: próximo run commita `data/raw/` e `data/seen_jobs.json` sem erro
-
----
-
 ## 📍 Próximos Épicos
 
 ---
@@ -41,8 +30,6 @@ O Actions bot falha no step "Commit results" com erro 403 (permission denied). T
 ### ÉPICO 4: Qualidade de Filtragem
 
 **Objetivo:** Garantir que vagas claramente fora do perfil sejam eliminadas antes de chegar ao LLM. Reduzir ruído e custo sem sacrificar vagas boas.
-
-**Dependência:** Fix imediato concluído.
 
 **Critério de aceite global:** As 42 vagas do gabarito são eliminadas antes do scoring. Nenhuma vaga US-only ou Principal/Staff chega ao `score.py`.
 
