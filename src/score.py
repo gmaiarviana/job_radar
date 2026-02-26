@@ -18,7 +18,7 @@ from src.paths import FILTERED_DIR, SCORED_DIR, ensure_dirs
 # Carrega variáveis do arquivo .env
 load_dotenv()
 
-JD_SCORE_TRUNCATE = 3000  # score_single_job: limite no prompt (boilerplate benefits/EEO não agrega)
+JD_SCORE_TRUNCATE = 3000  # analyze_job: limite no prompt (boilerplate/EEO não agrega)
 
 # Ceiling por penalty (Épico 5 — rubrica de scoring). 2+ penalties → 55; nenhuma → 100.
 CEILING_BY_PENALTY = {
@@ -101,7 +101,7 @@ Você é um recrutador técnico. Sua tarefa é analisar a vaga abaixo em relaç�
 3. PENALTIES: Objeto com três chaves booleanas. Responda true apenas quando o critério se aplicar; caso contrário false.
    - seniority_gap: true se a JD pede X+ anos de experiência e o perfil do candidato tem evidência de menos anos em papéis PM/TPM/tech; false caso contrário.
    - outsourcing_context: true se a experiência predominante do candidato é em consultoria/outsourcing (cliente define produto, candidato não tem ownership de roadmap); false se há evidência forte de product company ou o contexto é misto/neutro.
-   - domain_gap_core: true se o domínio central da vaga (ex: security, compliance, robotics, infrastructure, customer success, hardware) não tem evidência no perfil; false se há evidência ou o domínio é transferível.
+   - domain_gap_core: true se o DOMÍNIO PRIMÁRIO da vaga — o tipo de produto, sistema ou indústria central — não tem evidência direta no perfil. Avalie o domínio da vaga, não skills genéricos. Ex.: vaga sobre "self-service AI platforms" e candidato com "GenAI PoCs para relatórios" = domínios diferentes; vaga sobre "robotics data collection" e candidato com "program management em SaaS" = domínios diferentes. Pergunte-se: o candidato já construiu, gerenciou ou operou ESTE TIPO de produto ou sistema? Se não, true. Caso contrário false.
 
 4. DOMAIN_FIT: Uma string com valor "full", "partial" ou "none" seguido de " — " e uma breve justificativa (ex: "partial — PM em fintech, vaga é B2B SaaS; skills transferíveis").
 
@@ -119,11 +119,11 @@ Você é um recrutador técnico. Sua tarefa é analisar a vaga abaixo em relaç�
     "candidate_has": "...",
     "gap": true
   }},
-  "penalties": {
+  "penalties": {{
     "seniority_gap": true,
     "outsourcing_context": false,
     "domain_gap_core": false
-  },
+  }},
   "domain_fit": "full|partial|none — breve justificativa"
 }}
 """
@@ -310,80 +310,6 @@ Responda APENAS o JSON.
         print(f"[score.py] [ERR] Erro em check_eliminatorios: {e}")
         return jobs, [] # Fallback: passa tudo para o scoring individual se falhar o batch
 
-def score_single_job(client, job, profile_content):
-    """
-    Pontua uma única vaga com análise profunda.
-    No prompt, jd_full é truncado a JD_SCORE_TRUNCATE chars (boilerplate/EEO não agrega);
-    o objeto job armazenado não é alterado.
-    """
-    # Truncar JD só no payload do prompt (JD_SCORE_TRUNCATE: boilerplate benefits/EEO não agrega ao score)
-    job_for_prompt = dict(job)
-    jd_full = (job.get("jd_full") or job.get("description") or "")
-    if len(jd_full) > JD_SCORE_TRUNCATE:
-        job_for_prompt["jd_full"] = jd_full[:JD_SCORE_TRUNCATE]
-    if "description" in job_for_prompt:
-        del job_for_prompt["description"]  # evita enviar JD completo em outro campo
-
-    system_prompt = f"""
-Você é um recrutador técnico sênior. Sua tarefa é fazer um "deep mapping" entre o perfil do candidato e a vaga abaixo.
-
-# PERFIL DO CANDIDATO
-{profile_content}
-
-# RUBRICA DE SCORE — aplicar rigorosamente:
-- 85–100: O candidato tem experiência DIRETA no domínio central da vaga, em contexto similar (tipo de empresa, nível de ownership, escala). Gap menor seria apenas setor ou tecnologia pontual. Exige evidência concreta no perfil, não inferência.
-- 70–84: Skills principais presentes, mas falta UM elemento crítico: domínio específico (ex: PM de produto próprio vs. consultoria/outsourcing), ou seniority equivalente (ex: Principal/Staff sem histórico comprovado nesse nível), ou contexto de empresa (SaaS product company vs. outsourcing). Candidatura viável mas com risco real.
-- 50–69: Skills transferíveis claras, mas o GAP está no CORE da vaga. A função exige especialização que o candidato não demonstrou. Aplicação possível, mas improvável de passar triagem de recrutadores experientes.
-- 30–49: Skills genéricas de PM/TPM presentes, mas a vaga exige background específico ausente no perfil. Score reflete potencial de longo prazo, não fit atual.
-- 0–29: Perfil sem base para a função. Check eliminatórios deveria ter capturado.
-
-# PENALIZAÇÕES OBRIGATÓRIAS — aplicar ANTES de definir o score:
-- Experiência predominante em outsourcing/consultoria (não owna roadmap, cliente define produto): limite máximo 75, mesmo com skills fortes.
-- Título "Principal", "Staff" ou "Senior" sem histórico comprovado em cargo equivalente: limite máximo 65.
-- Gap de domínio no CORE da vaga (security/compliance, customer success, sales ops, hardware/robotics, aerospace, infrastructure de alta escala): limite máximo 60.
-- Combinação de 2+ penalizações acima: limite máximo 55.
-
-# INSTRUÇÕES DE ANÁLISE:
-1. EVIDÊNCIA DIRETA: Cite qual requisito da vaga tem evidência direta no perfil. Use o formato: "Requisito: [X] | Evidência: [Y]".
-2. PRINCIPAL GAP: Identifique o maior risco ou gap desta candidatura. Seja específico.
-3. SCORE (0-100): Atribua o score conforme a rubrica acima, aplicando as penalizações obrigatórias quando couberem.
-4. JUSTIFICATIVA: Explique por que esse score (e qual faixa da rubrica / penalização aplicada).
-
-# REGRAS CRÍTICAS:
-- PROIBIDO usar termos vagos como "alinhado com o perfil", "boa correspondência", "fit cultural". Se o candidato é bom, PROVE com evidência do perfil.
-- O score deve refletir a rubrica e as penalizações. Justifique o número exato.
-
-# FORMATO DE SAÍDA (JSON)
-Responda APENAS um JSON:
-{{
-  "title": "{job.get('title')}",
-  "score": int,
-  "evidence": "texto",
-  "main_gap": "texto",
-  "justification": "texto",
-  "perfect_match": boolean,
-  "url": "{job.get('url')}"
-}}
-"""
-
-    user_content = f"Vaga para análise:\n{json.dumps(job_for_prompt, indent=2, ensure_ascii=False)}"
-
-    try:
-        response = client.messages.create(
-            model="claude-3-haiku-20240307",
-            max_tokens=2000,
-            system=system_prompt,
-            messages=[{"role": "user", "content": user_content}]
-        )
-        
-        content = response.content[0].text
-        start_idx = content.find("{")
-        end_idx = content.rfind("}") + 1
-        return json.loads(content[start_idx:end_idx])
-
-    except Exception as e:
-        print(f"[score.py] [ERR] Erro ao pontuar vaga {job.get('title')}: {e}")
-        return None
 
 def main():
     parser = argparse.ArgumentParser(description="Pontua vagas via Claude Haiku")
@@ -436,20 +362,31 @@ def main():
         passed_jobs, llm_eliminated = check_eliminatorios(client, jobs, profile)
         print(f"[score.py] [i] Vagas eliminadas pelo LLM: {len(llm_eliminated)}")
 
-        # 2. Scoring profundo (individual) — jd truncado só no prompt
+        # 2. Pipeline de 2 chamadas: analyze_job → compute_ceiling → score_with_analysis
         scored_jobs = []
         if not passed_jobs:
             print("[score.py] [WARN] Nenhuma vaga restou apos os eliminatorios.")
         else:
-            print(f"[score.py] -> Iniciando scoring profundo para {len(passed_jobs)} vagas...")
+            print(f"[score.py] -> Iniciando scoring profundo (2 chamadas) para {len(passed_jobs)} vagas...")
             for i, job in enumerate(passed_jobs):
-                print(f"   [{i+1}/{len(passed_jobs)}] Analisando: {job.get('title')}...")
-                res = score_single_job(client, job, profile)
-                if res:
-                    res["company"] = job.get("company", "N/A")
-                    res["location"] = job.get("location", "N/A")
-                    res["id"] = job.get("id")
-                    scored_jobs.append(res)
+                analysis = analyze_job(client, job, profile)
+                if analysis is None:
+                    continue
+                ceiling_result = compute_ceiling(analysis)
+                result = score_with_analysis(client, job, analysis, ceiling_result, profile)
+                if result is None:
+                    continue
+                result["company"] = job.get("company", "N/A")
+                result["location"] = job.get("location", "N/A")
+                result["title"] = job.get("title", "")
+                result["url"] = job.get("url", "")
+                result["id"] = job.get("id")
+                result["core_requirements"] = analysis.get("core_requirements", [])
+                result["seniority_comparison"] = analysis.get("seniority_comparison", {})
+                scored_jobs.append(result)
+                ceiling = ceiling_result.get("ceiling", 0)
+                score = result.get("score", 0)
+                print(f"   [{i+1}/{len(passed_jobs)}] Analisando: {result.get('title', '')}... ceiling={ceiling} score={score}")
 
         top_jobs = [j for j in scored_jobs if j.get("score", 0) >= 70]
 

@@ -8,7 +8,7 @@
 
 ## ✅ Concluído
 
-Pipeline completo: fetch multi-fonte (Remotive, We Work Remotely, Jobicy, OpenAI Search, Greenhouse, Lever, Ashby), schema único, dedup persistente (`seen_jobs.json`), throttle, quality guard, filter com hard filters de títulos e localização em duas camadas (blocklist + JD completo no eliminatório), scoring em dois estágios (eliminatórios + deep score via Claude Haiku), GitHub Actions diário, seed ATS. Qualidade de filtragem fechada: eval em `src/eval/`, paths em `src/paths.py`, companies por ATS em `fetch_pipeline.get_companies_by_ats`, score ignora `seed_*.json`, seed `--dry-run` sem rede. Testes de scoring (`compute_ceiling`) movidos para `src/eval/test_scoring.py`; `score.py` sem lógica de teste. Refatoração de penalties para booleans: `analyze_job` retorna `penalties` (dict com seniority_gap, outsourcing_context, domain_gap_core); `compute_ceiling` lê bools (sem match de strings); testes atualizados. Chamada 2 (5.1.3): `score_with_analysis` implementada — early return para ceiling ≤ 50 (sem LLM), Haiku para ceiling > 50 com teto explícito; testes de auto-eliminate em test_scoring.py. Integração no main (5.1.4) pendente. Estrutura em [ARCHITECTURE.md](ARCHITECTURE.md).
+Pipeline completo: fetch multi-fonte (Remotive, We Work Remotely, Jobicy, OpenAI Search, Greenhouse, Lever, Ashby), schema único, dedup persistente (`seen_jobs.json`), throttle, quality guard, filter com hard filters de títulos e localização em duas camadas (blocklist + JD completo no eliminatório), scoring em dois estágios (eliminatórios + deep score via Claude Haiku), GitHub Actions diário, seed ATS. Qualidade de filtragem fechada: eval em `src/eval/`, paths em `src/paths.py`, companies por ATS em `fetch_pipeline.get_companies_by_ats`, score ignora `seed_*.json`, seed `--dry-run` sem rede. Testes de scoring (`compute_ceiling`) movidos para `src/eval/test_scoring.py`; `score.py` sem lógica de teste. Refatoração de penalties para booleans: `analyze_job` retorna `penalties` (dict com seniority_gap, outsourcing_context, domain_gap_core); `compute_ceiling` lê bools (sem match de strings); testes atualizados. Chamada 2 (5.1.3): `score_with_analysis` implementada — early return para ceiling ≤ 50 (sem LLM), Haiku para ceiling > 50 com teto explícito; testes de auto-eliminate em test_scoring.py. Integração 5.1.4: main() usa pipeline analyze_job → compute_ceiling → score_with_analysis; output com score_ceiling, core_requirements, seniority_comparison. Validação 5.1.5: script `src/eval/validate_scoring_pipeline.py --seed <path>`; pipeline validado 5/5 vagas no seed; Nubank (Legal Tech) expected_max 65 (fit 50–65). **Épico 5.1 ✅ CONCLUÍDO:** pipeline de 2 chamadas (analyze_job → compute_ceiling → score_with_analysis) calibrado; score_single_job removido. Estrutura em [ARCHITECTURE.md](ARCHITECTURE.md).
 
 ---
 
@@ -24,9 +24,10 @@ Pipeline completo: fetch multi-fonte (Remotive, We Work Remotely, Jobicy, OpenAI
 
 **Critério de aceite:** Vagas com gap de domínio no core recebem score ≤ 60. Vagas Senior sem evidência de nível equivalente recebem score ≤ 65. As 5 vagas de maior aderência avaliadas manualmente fazem sentido.
 
-#### 5.1 Correção do prompt de scoring
+#### 5.1 Correção do prompt de scoring ✅ CONCLUÍDO
 
-- Reescrever prompt para forçar aplicação das penalizações antes de atribuir o score (já existente)
+- Pipeline de 2 chamadas: analyze_job (penalties como bools) → compute_ceiling → score_with_analysis; validado 5/5 no seed; score_single_job removido.
+- ~~Reescrever prompt para forçar aplicação das penalizações antes de atribuir o score~~ (já existente)
 - Estrutura proposta: (1) identificar penalizações aplicáveis → (2) definir teto de score → (3) atribuir score dentro do teto (já existente)
 - Validar no seed: vagas que hoje têm score 90 com gaps críticos devem cair para ≤ 60 (já existente)
 - Evidence mapping estruturado: forçar o LLM a listar top 3-5 requirements da JD e mapear evidência do perfil para cada um (ou marcar "sem evidência"). Substitui o campo evidence texto-livre atual
@@ -34,7 +35,7 @@ Pipeline completo: fetch multi-fonte (Remotive, We Work Remotely, Jobicy, OpenAI
 - Comparação explícita de seniority: se a JD pede X+ anos de experiência, o LLM deve comparar com o perfil do candidato e declarar se há gap
 - Output format expandido: adicionar apply_recommendation (boolean) e adherence_pct (0-100) ao JSON de saída. Regra: score ≥ 70 + nenhum gap em must-have = true
 
-#### 5.2 Análise exploratória de títulos (via NotebookLM)
+#### 5.2 Análise exploratória de títulos (via NotebookLM) — próximo
 
 - Extrair títulos únicos do seed por fonte via NotebookLM
 - Identificar títulos relevantes fora do filtro atual (ex: "Product Lead", "Associate PM", "Group PM")
@@ -238,7 +239,7 @@ Pipeline completo: fetch multi-fonte (Remotive, We Work Remotely, Jobicy, OpenAI
 **Resumo:**
 
 - **filter.py:** Lê raw de `data/raw/`, aplica location filter (expandido) + quality guard (JD/título/empresa), grava em `data/filtered/<mesmo nome>.json` com `jd_full` intacto. CLI: `--input <path>` ou `--date YYYY-MM-DD`. `data/filtered/` no `.gitignore`.
-- **score.py:** Passa a ler de `data/filtered/` por padrão. Removido `apply_location_filter` (feito em filter.py). `check_eliminatorios` recebe objeto reduzido (title, company, location, jd_snippet 300 chars). `score_single_job` trunca JD a 3000 chars só no prompt, não no arquivo.
+- **score.py:** Passa a ler de `data/filtered/` por padrão. Removido `apply_location_filter` (feito em filter.py). `check_eliminatorios` recebe objeto reduzido (title, company, location, jd_full). Pipeline de scoring (analyze_job → compute_ceiling → score_with_analysis) trunca JD a 3000 chars no prompt (analyze_job), não no arquivo.
 - **daily.yml:** Step "Filter jobs" entre Fetch e Score (`python src/filter.py --date $(date +%Y-%m-%d)`). Commit não inclui `data/filtered/`.
 
 **Critérios de aceite:** filter.py gera filtered com jd_full intacto; score.py lê de filtered; eliminatórios com 4 campos; score trunca JD no prompt; data/filtered/ no .gitignore.
