@@ -10,6 +10,8 @@ jobs:
   fetch-and-score:
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    permissions:
+      contents: write  # necessário para o step "Commit results" fazer push
 
     steps:
       - name: Checkout repo

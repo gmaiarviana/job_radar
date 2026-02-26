@@ -1,5 +1,247 @@
 # ROADMAP - Job Radar
 
+📡 **Status:** Pipeline completo construído (fetch → filter → score). Qualidade de filtragem e scoring identificada como problema principal. Próximo: **Fix Actions + Épico 4 — Qualidade de Filtragem**.
+
+> **Filosofia:** POC → Protótipo → MVP. Validar cada etapa antes de avançar. Qualidade antes de volume.
+
+---
+
+## ✅ Concluído
+
+Pipeline completo: fetch multi-fonte (Remotive, We Work Remotely, Jobicy, OpenAI Search, Greenhouse, Lever, Ashby), schema único, dedup persistente (`seen_jobs.json`), throttle, quality guard, filter (location + quality), scoring em dois estágios (eliminatórios + deep score via Claude Haiku), GitHub Actions diário, seed inicial ATS rodado. Estrutura e componentes em [ARCHITECTURE.md](ARCHITECTURE.md).
+
+---
+
+## 🔬 Diagnóstico (Fev 2026)
+
+Análise do seed (~120 vagas) com gabarito de 42 vagas que deveriam ser eliminadas revelou dois problemas principais:
+
+1. **Filtro de localização com lógica fraca:** "remote" solto passa vagas US-only. Restrições reais ("residing in the US", "US residents only") ficam no meio do JD — fora dos 300 chars que o eliminatório LLM recebe.
+2. **Scoring inflado:** LLM identifica o gap corretamente no `main_gap` mas não aplica as penalizações da rubrica. Vagas Principal/Staff com gaps de domínio crítico recebem score 90.
+
+Alta sobreposição entre os dois problemas: vagas Principal/Staff são majoritariamente US-only também.
+
+---
+
+## 🚨 Fix Imediato (antes do Épico 4)
+
+**GitHub Actions — erro de permissão de escrita**
+
+O Actions bot falha no step "Commit results" com erro 403 (permission denied). Todo o pipeline executa com sucesso mas os resultados não são salvos no repositório.
+
+- Adicionar `permissions: contents: write` no `daily.yml`
+- Critério de aceite: próximo run commita `data/raw/` e `data/seen_jobs.json` sem erro
+
+---
+
+## 📍 Próximos Épicos
+
+---
+
+### ÉPICO 4: Qualidade de Filtragem
+
+**Objetivo:** Garantir que vagas claramente fora do perfil sejam eliminadas antes de chegar ao LLM. Reduzir ruído e custo sem sacrificar vagas boas.
+
+**Dependência:** Fix imediato concluído.
+
+**Critério de aceite global:** As 42 vagas do gabarito são eliminadas antes do scoring. Nenhuma vaga US-only ou Principal/Staff chega ao `score.py`.
+
+#### 4.1 Hard filter de títulos
+
+- Adicionar lista `filters.exclude_title_keywords` em `config/search.yaml`: `principal`, `staff`, `vp`, `head of`, `director`
+- Aplicar em `filter.py` antes do LLM — descarte imediato se título contiver qualquer termo da lista
+- `Senior` permanece fora da lista — penalizado no scoring quando nível exigido supera experiência demonstrada
+- Critério de aceite: todas as vagas Principal/Staff do gabarito são descartadas antes do LLM
+
+#### 4.2 Filtro de localização em duas camadas
+
+- **Camada 1 (determinística):** blocklist de padrões US-only em `filter.py`, verificando `location` e primeiros 1000 chars do `jd_full`: `"residing in the us"`, `"us residents"`, `"authorized to work in the us"`, `"based in the united states"`, `"remote - us"`, `"united states, remote"`, `"united states only"`
+- **Camada 2 (LLM):** eliminatório recebe JD completo (não 300 chars) para casos ambíguos que a blocklist não cobre
+- Critério de aceite: as 13 vagas US-only confirmadas do gabarito são eliminadas pela camada 1
+
+#### 4.3 Experimento de modelo no eliminatório
+
+- Objetivo: confirmar se Haiku atende as expectativas com JD completo, antes de assumir necessidade de modelo mais caro
+- Rodar eliminatório com JD completo usando Haiku e Sonnet no mesmo subconjunto do seed (pós-filtros 4.1 e 4.2)
+- Métrica: quantas das vagas restantes do gabarito cada modelo elimina corretamente
+- Critério de aceite: relatório comparativo com precisão de cada modelo; decisão de modelo documentada
+
+#### 4.4 Débito técnico de pipeline
+
+- `score.py`: excluir `seed_*.json` ao glob do dia (evita pontuar histórico em vez do fetch diário)
+- Extrair carregamento de companies por ATS para módulo único (hoje duplicado em `fetch.py` e `seed.py`)
+- Centralizar paths em módulo que lê `config/search.yaml` (hoje hardcoded em múltiplos scripts)
+
+---
+
+### ÉPICO 5: Qualidade de Scoring
+
+**Objetivo:** Garantir que o score reflita fit real. O LLM deve aplicar as penalizações da rubrica — não apenas identificar o gap no `main_gap`.
+
+**Dependência:** Épico 4 concluído.
+
+**Critério de aceite:** Vagas com gap de domínio no core recebem score ≤ 60. Vagas Senior sem evidência de nível equivalente recebem score ≤ 65. As 5 vagas de maior aderência avaliadas manualmente fazem sentido.
+
+#### 5.1 Correção do prompt de scoring
+
+- Reescrever prompt para forçar aplicação das penalizações antes de atribuir o score
+- Estrutura proposta: (1) identificar penalizações aplicáveis → (2) definir teto de score → (3) atribuir score dentro do teto
+- Validar no seed: vagas que hoje têm score 90 com gaps críticos devem cair para ≤ 60
+
+#### 5.2 Análise exploratória de títulos (via NotebookLM)
+
+- Extrair títulos únicos do seed por fonte via NotebookLM
+- Identificar títulos relevantes fora do filtro atual (ex: "Product Lead", "Associate PM", "Group PM")
+- Decisão: expandir `TITLE_KEYWORDS` nos coletores ou centralizar em `config/search.yaml`
+- Realizado antes do Streamlit — é insumo para melhorar a coleta
+
+#### 5.3 Validação com avaliação manual
+
+- Avaliar as 5 vagas de maior score pós-Épico 4 (maior aderência ao perfil)
+- Comparar avaliação manual com score do sistema
+- Ajustar prompt ou rubrica conforme padrões identificados
+
+---
+
+### ÉPICO 6: Interface Streamlit (UX end-to-end)
+
+**Objetivo:** Fluxo completo funcionando — ver novas vagas todos os dias pela UI, com score confiável.
+
+**Dependência:** Épico 5 concluído (scoring confiável).
+
+**Critério de aceite:** Jornada completa funcional — ver vagas do dia → score + justificativa → link direto para candidatura → feedback.
+
+#### 6.1 Tela principal — vagas do dia
+
+- Lista de vagas pontuadas, ordenadas por score
+- Card: título, empresa, score (badge colorido), salário, justificativa, link direto
+- Cores: verde (≥ 85), amarelo (70–84)
+- Seletor de data para dias anteriores
+
+#### 6.2 Feedback por vaga
+
+- Botões 👍 / 👎 em cada card
+- Salva em `data/feedback/YYYY-MM-DD.json`
+
+#### 6.3 Histórico
+
+- Lista de dias anteriores na sidebar
+- Contadores: vagas vistas, feedbacks dados
+
+---
+
+### ÉPICO 7: Expansão de Coleta
+
+**Objetivo:** Aumentar volume e qualidade das vagas encontradas. ATS muda pouco dia a dia — o ganho vem de novos conectores e títulos mais abrangentes.
+
+**Dependência:** Épico 6 rodando (UX funcionando, feedback disponível como sinal de qualidade).
+
+#### 7.1 Expansão de títulos de busca
+
+- Usar resultado da análise exploratória (5.2) para ampliar `TITLE_KEYWORDS`
+- Adicionar variantes relevantes sem aumentar ruído
+
+#### 7.2 Novos conectores
+
+- Identificar e implementar conectores para boards relevantes ainda não cobertos
+- Priorizar fontes com vagas LATAM/Worldwide confirmadas
+
+#### 7.3 Revalidar empresas comentadas no companies.yaml
+
+- Diversas empresas estão comentadas com "404 no seed" — revalidar slugs ou ATS atual
+- Candidatas: Deel, Rippling, Miro, Grafana Labs, Hugging Face, dbt Labs, entre outras
+
+---
+
+### ÉPICO 8: Pipeline Automatizado Estável
+
+**Objetivo:** Fetch + Score rodando de forma confiável via GitHub Actions.
+
+**Dependência:** Épicos 4 e 5 concluídos.
+
+**Critério de aceite:** 5 dias consecutivos sem intervenção. Cobertura ≥ 10 vagas novas/dia consistente.
+
+#### 8.1 Tratamento de falhas por coletor
+
+- Se uma fonte falhar, pipeline continua com as demais
+- Retry 1x por fonte se timeout
+- Commit de log de erro se todas as fontes falharem
+
+---
+
+### ÉPICO 9: Geração de Materiais
+
+**Objetivo:** Gerar currículo e cover letter personalizados por vaga. Implementar após sistema maduro e UX funcionando.
+
+**Dependência:** Épico 6 concluído e scoring estável por pelo menos 2 semanas.
+
+**Critério de aceite:** Materiais gerados para 5 vagas reais. Candidato considera ≥ 4 prontos para enviar com mínima edição.
+
+#### 9.1 Currículo base modular
+
+- `config/resume_base.md` com seções organizadas por relevância e bullets selecionáveis
+
+#### 9.2 Template de cover letter
+
+- `config/cover_letter_template.md` com voz do candidato: direto, sem clichês
+
+#### 9.3 Script generate.py
+
+- Input: vaga (scored JSON) + resume_base + cover_letter_template + profile
+- LLM: Claude Sonnet (qualidade de escrita)
+- Regra: reorganizar e enfatizar, nunca inventar experiência
+- Output: currículo + cover letter em Markdown + PDF (weasyprint)
+
+#### 9.4 Integração com Streamlit
+
+- Botão "Preparar aplicação" em cada card da UI
+- Loading indicator, preview, download PDF
+
+---
+
+### ÉPICO 10: Feedback Loop
+
+**Objetivo:** Feedback do usuário alimenta o scoring das próximas rodadas.
+
+**Dependência:** Épicos 6 e 8 rodando com dados de pelo menos 2 semanas.
+
+**Critério de aceite:** Scoring melhora visivelmente após 2 semanas de feedback (menos falsos positivos/negativos).
+
+#### 10.1 Agregação de feedback
+
+- Script lê `data/feedback/*.json`, gera resumo de padrões: que tipo de vaga o candidato rejeita, que tipo aceita
+
+#### 10.2 Feedback no prompt de scoring
+
+- Resumo incluído como contexto no prompt do `score.py`
+- Atualização manual (v1) — candidato revisa antes de incluir
+
+#### 10.3 Persistência no repositório
+
+- Feedback sobe via commit; Actions consegue ler para calibrar scoring automaticamente
+
+---
+
+## 💡 Ideias Futuras
+
+- **Tracking de aplicações:** Status por vaga (aplicado → entrevista → oferta → rejeitado)
+- **Analytics:** Vagas/dia, score médio, tendências, taxa de aplicação, fontes mais produtivas
+- **Cover letter por plataforma:** Adaptar para formulários específicos ("Why this company?", "Why this role?")
+- **Múltiplos perfis:** PM puro vs TPM vs hybrid — scoring e geração adaptados por perfil
+- **DOCX e texto puro:** Formatos alternativos de saída além de PDF
+- **VPS/Cloud:** Migrar Streamlit para acesso remoto (Hetzner, Streamlit Cloud, Railway)
+- **discover.py manual:** Prospectar novas empresas-alvo via queries em boards ATS; dedupe contra `companies.yaml`; sem integração com pipeline diário
+- **discover.py semanal via Actions:** Automação da descoberta de novas empresas-alvo
+- **Notificação mobile:** Push via Telegram Bot para PERFECT_MATCH
+- **Alertas por email (PERFECT_MATCH):** `notify.py` envia email se score ≥ 95, máximo 1 email/dia via Gmail SMTP
+- **Tracking de vaga aberta:** Detectar automaticamente se uma vaga ainda está disponível antes de notificar
+
+---
+
+**Última atualização:** Fev 2026
+
+# ROADMAP - Job Radar
+
 📡 **Status:** Épico 1–3 concluídos; seed ATS rodado (greenhouse + ashby). Próximo: **filtrar e score nas vagas atuais** (raw seed) e **Épico 4** (preparação/qualidade).
 
 > **Filosofia:** POC → Protótipo → MVP. Validar cada etapa antes de avançar.
