@@ -1,6 +1,6 @@
 # ROADMAP - Job Radar
 
-📡 **Status:** Pipeline completo construído (fetch → filter → score). Qualidade de filtragem e scoring identificada como problema principal. Próximo: **Épico 4 — Qualidade de Filtragem** (4.1 Hard filter de títulos).
+📡 **Status:** Pipeline completo. Épico 4 (Qualidade de Filtragem) concluído. Próximo: **Épico 5 — Qualidade de Scoring**.
 
 > **Filosofia:** POC → Protótipo → MVP. Validar cada etapa antes de avançar. Qualidade antes de volume.
 
@@ -8,18 +8,7 @@
 
 ## ✅ Concluído
 
-Pipeline completo: fetch multi-fonte (Remotive, We Work Remotely, Jobicy, OpenAI Search, Greenhouse, Lever, Ashby), schema único, dedup persistente (`seen_jobs.json`), throttle, quality guard, filter (location + quality), scoring em dois estágios (eliminatórios + deep score via Claude Haiku), GitHub Actions diário, seed inicial ATS rodado. Estrutura e componentes em [ARCHITECTURE.md](ARCHITECTURE.md). Fix GitHub Actions: permissions de escrita no daily.yml.
-
----
-
-## 🔬 Diagnóstico (Fev 2026)
-
-Análise do seed (~120 vagas) com gabarito de 42 vagas que deveriam ser eliminadas revelou dois problemas principais:
-
-1. **Filtro de localização com lógica fraca:** "remote" solto passa vagas US-only. Restrições reais ("residing in the US", "US residents only") ficam no meio do JD — fora dos 300 chars que o eliminatório LLM recebe.
-2. **Scoring inflado:** LLM identifica o gap corretamente no `main_gap` mas não aplica as penalizações da rubrica. Vagas Principal/Staff com gaps de domínio crítico recebem score 90.
-
-Alta sobreposição entre os dois problemas: vagas Principal/Staff são majoritariamente US-only também.
+Pipeline completo: fetch multi-fonte (Remotive, We Work Remotely, Jobicy, OpenAI Search, Greenhouse, Lever, Ashby), schema único, dedup persistente (`seen_jobs.json`), throttle, quality guard, filter com hard filters de títulos e localização em duas camadas (blocklist + JD completo no eliminatório), scoring em dois estágios (eliminatórios + deep score via Claude Haiku), GitHub Actions diário, seed ATS. Qualidade de filtragem fechada: eval em `src/eval/`, paths em `src/paths.py`, companies por ATS em `fetch_pipeline.get_companies_by_ats`, score ignora `seed_*.json`, seed `--dry-run` sem rede. Estrutura em [ARCHITECTURE.md](ARCHITECTURE.md).
 
 ---
 
@@ -27,35 +16,9 @@ Alta sobreposição entre os dois problemas: vagas Principal/Staff são majorita
 
 ---
 
-### ÉPICO 4: Qualidade de Filtragem
-
-**Objetivo:** Garantir que vagas claramente fora do perfil sejam eliminadas antes de chegar ao LLM. Reduzir ruído e custo sem sacrificar vagas boas.
-
-**Critério de aceite global:** As 42 vagas do gabarito são eliminadas antes do scoring. Nenhuma vaga US-only ou Principal/Staff chega ao `score.py`.
-
-#### 4.1 Hard filter de títulos
-
-✅ Implementado. Lista filters.exclude_title_keywordsemsearch.yaml; filter.py descarta vagas com título Principal/Staff/VP/Head of/Director antes dos demais filtros.
-
-#### 4.2 Filtro de localização em duas camadas
-
-✅ Implementado. Camada 1: blocklist determinística (location_blocklist_patterns em search.yaml) aplicada em filter.py sobre location + jd_full inteiro. Camada 2: check_eliminatorios em score.py recebe JD completo (não mais snippet de 300 chars).
-
-#### 4.3 Experimento de modelo no eliminatório
-
-- ✅ Concluído. Infraestrutura de eval criada (src/eval/). Hard filters eliminaram 100% das vagas do gabarito presentes nos seeds — LLM desnecessário neste conjunto. Modelo mantido em Haiku 3 até deprecação (abr/2026); migração para Haiku 4.5 quando necessário.
-
-#### 4.4 Débito técnico de pipeline
-
-- `score.py`: excluir `seed_*.json` ao glob do dia (evita pontuar histórico em vez do fetch diário)
-- Extrair carregamento de companies por ATS para módulo único (hoje duplicado em `fetch.py` e `seed.py`)
-- Centralizar paths em módulo que lê `config/search.yaml` (hoje hardcoded em múltiplos scripts)
-
----
-
 ### ÉPICO 5: Qualidade de Scoring
 
-**Objetivo:** Garantir que o score reflita fit real. O LLM deve aplicar as penalizações da rubrica — não apenas identificar o gap no `main_gap`.
+**Objetivo:** Garantir que o score reflita fit real. O LLM deve aplicar as penalizações da rubrica — não apenas identificar o gap no `main_gap`. (Motivação: no seed, vagas com gaps críticos de domínio/seniority ainda recebiam score ~90.)
 
 **Dependência:** Épico 4 concluído.
 
@@ -236,7 +199,7 @@ Alta sobreposição entre os dois problemas: vagas Principal/Staff são majorita
 
 # ROADMAP - Job Radar
 
-📡 **Status:** Épico 1–3 concluídos; seed ATS rodado (greenhouse + ashby). Próximo: **filtrar e score nas vagas atuais** (raw seed) e **Épico 4** (preparação/qualidade).
+📡 **Status:** Pipeline completo. Épico 4 (Qualidade de Filtragem) concluído. Próximo: **Épico 5 — Qualidade de Scoring**.
 
 > **Filosofia:** POC → Protótipo → MVP. Validar cada etapa antes de avançar.
 
