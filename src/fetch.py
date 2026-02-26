@@ -31,6 +31,7 @@ from openai import OpenAI
 from src.fetch_pipeline import (
     load_config,
     load_companies,
+    get_companies_by_ats,
     run_pipeline,
     apply_seen_jobs_filter,
     remove_duplicates,
@@ -90,19 +91,17 @@ def main():
     # Listas por ATS (uma única extração após load_companies)
     try:
         companies_data = load_companies()
-        all_entries_flat = [
-            c for entries in companies_data["companies"].values()
-            for c in entries if isinstance(c, dict)
-        ]
-        greenhouse_companies = [c for c in all_entries_flat if (c.get("ats") or "").strip().lower() == "greenhouse"]
-        lever_companies = [c for c in all_entries_flat if (c.get("ats") or "").strip().lower() == "lever"]
-        ashby_companies = [c for c in all_entries_flat if (c.get("ats") or "").strip().lower() == "ashby"]
+        by_ats = get_companies_by_ats(companies_data)
+        greenhouse_companies = by_ats["greenhouse"]
+        lever_companies = by_ats["lever"]
+        ashby_companies = by_ats["ashby"]
+        total_companies = len(greenhouse_companies) + len(lever_companies) + len(ashby_companies)
     except Exception as e:
         companies_data = None
-        all_entries_flat = []
         greenhouse_companies = []
         lever_companies = []
         ashby_companies = []
+        total_companies = 0
         _companies_load_error = e
     else:
         _companies_load_error = None
@@ -114,7 +113,7 @@ def main():
         print(f"  Coletores: openai_web_search, remotive, weworkremotely, jobicy, greenhouse, lever, ashby")
         if companies_data is not None:
             n_sectors = len(companies_data["companies"])
-            print(f"  Empresas-alvo (3.1): {len(all_entries_flat)} em {n_sectors} setores (config/companies.yaml)")
+            print(f"  Empresas-alvo (3.1): {total_companies} em {n_sectors} setores (config/companies.yaml)")
             print(f"  Greenhouse: {len(greenhouse_companies)} empresas configuradas")
             print(f"  Lever: {len(lever_companies)} empresas configuradas")
             print(f"  Ashby: {len(ashby_companies)} empresas configuradas")

@@ -56,6 +56,41 @@ def load_companies() -> dict:
     return data
 
 
+def get_companies_by_ats(companies_data: dict | None = None) -> dict[str, list[dict]]:
+    """
+    Carrega config/companies.yaml (via load_companies), achata as entradas e separa por ATS.
+
+    Retorna: {"greenhouse": [...], "lever": [...], "ashby": [...]}
+    Cada lista contém os dicts das empresas cujo campo "ats" bate com a chave.
+    """
+    if companies_data is None:
+        companies_data = load_companies()
+
+    companies = companies_data.get("companies") if isinstance(companies_data, dict) else None
+    if not isinstance(companies, dict):
+        return {"greenhouse": [], "lever": [], "ashby": []}
+
+    greenhouse: list[dict] = []
+    lever: list[dict] = []
+    ashby: list[dict] = []
+
+    for entries in companies.values():
+        if not isinstance(entries, list):
+            continue
+        for c in entries:
+            if not isinstance(c, dict):
+                continue
+            ats = (c.get("ats") or "").strip().lower()
+            if ats == "greenhouse":
+                greenhouse.append(c)
+            elif ats == "lever":
+                lever.append(c)
+            elif ats == "ashby":
+                ashby.append(c)
+
+    return {"greenhouse": greenhouse, "lever": lever, "ashby": ashby}
+
+
 def run_pipeline(collectors_config: list[tuple[str, Any]]) -> list[dict]:
     """
     Executa todos os coletores, normaliza para o schema único e deduplica por id_hash.

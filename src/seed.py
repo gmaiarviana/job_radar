@@ -31,6 +31,7 @@ if __name__ == "__main__":
         sys.path.insert(0, str(_root))
 
 from src.fetch_pipeline import load_companies, run_pipeline
+from src.fetch_pipeline import get_companies_by_ats
 from src.job_schema import normalize_job
 from src.seen_jobs import load_seen, mark_seen, save_seen
 from src.collectors.greenhouse import collect_greenhouse
@@ -97,21 +98,10 @@ def main() -> None:
 
     try:
         companies_data = load_companies()
-        all_entries_flat = [
-            c
-            for entries in companies_data["companies"].values()
-            for c in entries
-            if isinstance(c, dict)
-        ]
-        greenhouse_companies = [
-            c for c in all_entries_flat if (c.get("ats") or "").strip().lower() == "greenhouse"
-        ]
-        lever_companies = [
-            c for c in all_entries_flat if (c.get("ats") or "").strip().lower() == "lever"
-        ]
-        ashby_companies = [
-            c for c in all_entries_flat if (c.get("ats") or "").strip().lower() == "ashby"
-        ]
+        by_ats = get_companies_by_ats(companies_data)
+        greenhouse_companies = by_ats["greenhouse"]
+        lever_companies = by_ats["lever"]
+        ashby_companies = by_ats["ashby"]
     except Exception as e:
         print(f"{LOG_PREFIX} ✗ Erro ao carregar config/companies.yaml: {e}")
         return
