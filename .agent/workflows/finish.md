@@ -23,7 +23,10 @@ Atualize o `ROADMAP.md`:
 4. **Atualização da Arquitetura**:
 Revise o `ARCHITECTURE.md` para garantir que novas dependências ou fluxos estão documentados.
 
-5. **Commit e Push Final**:
+5. **Retrospectiva** (conforme `.agent/closure_protocol.md`):
+- Processo/implementação que causou ineficiência? → documentar em `.agent/`, `.cursor/` ou `docs/governance/` (ex.: CONSTITUTION). Técnico/código → fix + ROADMAP/ARCHITECTURE (fluxo normal).
+
+6. **Commit Final** (push fica com o usuário):
 ```powershell
-git add <arquivos_relevantes>; git commit -m "chore: functional closure - documentation and sync updated"; git push
+git add <arquivos_relevantes>; git commit -m "chore: functional closure - documentation and sync updated"
 ```

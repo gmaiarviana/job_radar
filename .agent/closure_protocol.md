@@ -31,7 +31,12 @@ Objetivo: Garantir que o projeto esteja sempre em estado de "pronto para entrega
 - [ ] Stage APENAS arquivos relevantes (ex: `git add src/meu_script.py ARCHITECTURE.md`).
 - [ ] Evite `git add .` para não subir lixo ou alterações paralelas indesejadas.
 - [ ] Commit com mensagem descritiva (ex: `feat: implementa protocolo de fechamento e limpeza`).
-- [ ] Push para o repositório remoto.
+- [ ] **Push**: fica a cargo do usuário (não incluir no fluxo automatizado).
+
+## 5. RETROSPECTIVA (processo, não código)
+- [ ] Houve algo de **processo ou implementação** que causou ineficiência? (ex: falta de contexto, decisão de fluxo equivocada, ferramenta inadequada).
+- [ ] **Onde documentar**: aprendizado de processo → `.agent/`, `.cursor/` ou `docs/governance/` (ex.: CONSTITUTION.md). Detalhes técnicos ou de código → resolver com fix e documentar no ROADMAP/ARCHITECTURE (fluxo normal de fechamento).
+- [ ] Registre em 1–2 linhas no lugar adequado (ex.: nota em `.agent/` ou doc de governança).
 
 ---
 
