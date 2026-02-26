@@ -19,4 +19,4 @@ Este documento mapeia onde cada informação "mora" para evitar duplicação.
 | **Como fazer commit (sintaxe shell)** | `.agent/workflows/commit.md` |
 
 > [!TIP]
-> **Antigravity**: Antes de assumir um valor ou prompt, consulte o arquivo mapeado acima.
+> **Cursor**: Antes de assumir um valor ou prompt, consulte o arquivo mapeado acima.

@@ -32,7 +32,7 @@ Princípios fundamentais e responsabilidades para o desenvolvimento deste projet
 **Papel:** Refinar o roadmap, discutir decisões arquiteturais e gerar caminhos de solução.
 - ✅ Analisa o contexto completo.
 - ✅ Define critérios de aceite para novos épicos.
-- ✅ Gere "Prompts de Execução" claros para o Antigravity.
+- ✅ Gere "Prompts de Execução" claros para o Cursor.
 - ❌ Não implementa código diretamente.
 
 **Formato padrão de Prompt de Execução:**
@@ -41,7 +41,7 @@ Princípios fundamentais e responsabilidades para o desenvolvimento deste projet
 3. Critério de aceite global — como verificar que o épico está completo
 4. Fechamento — lembrete do closure_protocol.md
 
-### Antigravity (Executor)
+### Cursor (Executor)
 **Papel:** Implementar funcionalidades, manter a integridade técnica e garantir o fechamento correto de cada tarefa.
 - ✅ Escreve código funcional e limpo.
 - ✅ Atualiza `ARCHITECTURE.md` a cada mudança estrutural.
@@ -168,7 +168,7 @@ Quando o corpus de dados (`data/raw/*.json` ou `data/scored/*.json`) for grande 
 
 ### ❌ Atualizar documentação diretamente (Claude Web)
 - Claude Web **não** atualiza docs nem código; gera prompts.
-- Quem aplica nas docs/código: Cursor ou Antigravity (conforme o prompt).
+- Quem aplica nas docs/código: Cursor (executor).
 
 ### ❌ Assumir sem base
 - Sempre consultar ROADMAP.md e ARCHITECTURE.md.

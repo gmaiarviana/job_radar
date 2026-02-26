@@ -4,7 +4,7 @@ Este é o ponto de entrada para agentes de IA que trabalham neste projeto. Siga 
 
 ## 1. PROTOCOLOS FUNDAMENTAIS
 Consulte estes arquivos antes de iniciar qualquer trabalho:
-- **[CONSTITUTION.md](../docs/governance/CONSTITUTION.md)**: Papéis (Claude Web vs Antigravity), Princípio de Não-Duplicação e **Processo de Refinamento** (refinar épicos para trabalho em paralelo).
+- **[CONSTITUTION.md](../docs/governance/CONSTITUTION.md)**: Papéis (Claude Web vs Cursor), Princípio de Não-Duplicação e **Processo de Refinamento** (refinar épicos para trabalho em paralelo).
 - **[planning_guidelines.md](../docs/governance/planning_guidelines.md)**: Quando refinar épicos, templates e critérios de qualidade.
 - **[decision_map.md](decision_map.md)**: Onde encontrar cada informação (Single Source of Truth).
 - **[closure_protocol.md](closure_protocol.md)**: Checklist obrigatório para finalização de tarefas.

@@ -36,4 +36,4 @@ Objetivo: Garantir que o projeto esteja sempre em estado de "pronto para entrega
 ---
 
 > [!IMPORTANT]
-> **Antigravity**: Você pode automatizar este processo chamando o comando `/finish`.
+> **Cursor**: Você pode automatizar este processo chamando o comando `/finish`.
