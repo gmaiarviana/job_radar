@@ -43,10 +43,7 @@ Alta sobreposição entre os dois problemas: vagas Principal/Staff são majorita
 
 #### 4.3 Experimento de modelo no eliminatório
 
-- Objetivo: confirmar se Haiku atende as expectativas com JD completo, antes de assumir necessidade de modelo mais caro
-- Rodar eliminatório com JD completo usando Haiku e Sonnet no mesmo subconjunto do seed (pós-filtros 4.1 e 4.2)
-- Métrica: quantas das vagas restantes do gabarito cada modelo elimina corretamente
-- Critério de aceite: relatório comparativo com precisão de cada modelo; decisão de modelo documentada
+- ✅ Concluído. Infraestrutura de eval criada (src/eval/). Hard filters eliminaram 100% das vagas do gabarito presentes nos seeds — LLM desnecessário neste conjunto. Modelo mantido em Haiku 3 até deprecação (abr/2026); migração para Haiku 4.5 quando necessário.
 
 #### 4.4 Débito técnico de pipeline
 

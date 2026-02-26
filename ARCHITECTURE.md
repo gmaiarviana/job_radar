@@ -36,6 +36,7 @@ graph TD
 | **Interface** | `app.py` | Streamlit | UI para revisão, feedback e acionamento de geração. |
 | **Writer** | `src/generate.py`| Claude Sonnet | Redação de alta qualidade para CV e Cover Letter. |
 | **Notifier** | `src/notify.py` | SMTP | Alertas imediatos para `PERFECT_MATCH` (score > 95). |
+| **Eval** | `src/eval/build_gabarito.py`, `eval_eliminatorios.py` | — | Infraestrutura de avaliação: gabarito machine-readable, eval parametrizado por modelo. Compara hard filters + LLM contra gabarito curado. |
 
 ### Decisões Técnicas (Rationale)
 
@@ -47,6 +48,7 @@ graph TD
 | **Interface** | Streamlit Local | Agilidade no desenvolvimento e custo zero de hospedagem. |
 | **Pipeline** | GitHub Actions | Gratuito, automatizado e confiável (nuvem). |
 | **Persistência** | JSON (Data-as-Code) | Simplicidade; controle de versão serve como banco de dados. |
+| **Eval / Gabarito** | Gabarito JSON + script parametrizado por modelo | Permite medir impacto de cada mudança (filtro, prompt, modelo) de forma repetível. Reutilizável para scoring (Épico 5). |
 
 ---
 
@@ -72,7 +74,11 @@ job-radar/
 │   ├── filter.py                # Hard filters (location + quality); raw → filtered
 │   ├── score.py                 # Scoring via Claude Haiku (lê filtered)
 │   ├── generate.py              # Writer via Claude Sonnet
-│   └── notify.py                # Alertas SMTP
+│   ├── notify.py                # Alertas SMTP
+│   ├── eval/                    # Scripts de avaliação e benchmarking
+│   │   ├── __init__.py
+│   │   ├── build_gabarito.py    # Gera gabarito machine-readable a partir de lista curada
+│   │   └── eval_eliminatorios.py  # Eval reutilizável: hard filters + LLM vs gabarito
 ├── config/
 │   ├── career_narrative.md      # Fonte de verdade da carreira
 │   ├── profile.md               # Perfil condensado para LLMs
