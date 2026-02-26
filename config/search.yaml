@@ -59,6 +59,8 @@ scoring:
 
 output:
   raw_dir: "data/raw"
+  filtered_dir: "data/filtered"
   scored_dir: "data/scored"
   feedback_dir: "data/feedback"
   output_dir: "data/output"
+  seen_jobs_path: "data/seen_jobs.json"

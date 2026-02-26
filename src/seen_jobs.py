@@ -1,5 +1,5 @@
 """
-Camada de dedup persistente: lê, checa e persiste data/seen_jobs.json.
+Camada de dedup persistente: lê, checa e persiste o arquivo de "vagas já vistas".
 Nenhum outro módulo deve acessar o arquivo diretamente.
 """
 
@@ -8,12 +8,14 @@ from datetime import date
 from pathlib import Path
 from typing import Any
 
+from src.paths import SEEN_JOBS_PATH
+
 LOG_PREFIX = "[seen_jobs]"
 
-DEFAULT_PATH = "data/seen_jobs.json"
+DEFAULT_PATH = SEEN_JOBS_PATH
 
 
-def load_seen(path: str = DEFAULT_PATH) -> dict[str, Any]:
+def load_seen(path: str | Path = DEFAULT_PATH) -> dict[str, Any]:
     """
     Lê o arquivo JSON de vagas já vistas.
     Retorna {} se não existir. Cria o diretório data/ se necessário.
@@ -53,7 +55,7 @@ def mark_seen(
     }
 
 
-def save_seen(seen: dict, path: str = DEFAULT_PATH) -> None:
+def save_seen(seen: dict, path: str | Path = DEFAULT_PATH) -> None:
     """Persiste o dict como JSON (ensure_ascii=False, indent=2)."""
     p = Path(path)
     p.parent.mkdir(parents=True, exist_ok=True)

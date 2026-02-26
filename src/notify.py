@@ -10,10 +10,19 @@ Uso:
 import os
 import json
 import argparse
+import sys
 import smtplib
 from datetime import date
 from email.mime.text import MIMEText
 from pathlib import Path
+
+# Garante projeto na path ao rodar como python src/notify.py
+if __name__ == "__main__":
+    _root = Path(__file__).resolve().parent.parent
+    if str(_root) not in sys.path:
+        sys.path.insert(0, str(_root))
+
+from src.paths import SCORED_DIR, ensure_dirs
 
 # TODO: Épico 4.3 — implementar envio de email via Gmail SMTP
 PERFECT_MATCH_THRESHOLD = 95
@@ -24,7 +33,8 @@ def main():
     parser.add_argument("--date", default=str(date.today()), help="Data no formato YYYY-MM-DD")
     args = parser.parse_args()
 
-    scored_dir = Path("data/scored")
+    ensure_dirs()
+    scored_dir = SCORED_DIR
     scored_files = sorted(scored_dir.glob(f"{args.date}*.json"), reverse=True)
 
     if not scored_files:

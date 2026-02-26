@@ -1,10 +1,19 @@
 import os
 import json
 import argparse
+import sys
 from datetime import date, datetime
 from pathlib import Path
 from dotenv import load_dotenv
 from anthropic import Anthropic
+
+# Garante projeto na path ao rodar como python src/score.py
+if __name__ == "__main__":
+    _root = Path(__file__).resolve().parent.parent
+    if str(_root) not in sys.path:
+        sys.path.insert(0, str(_root))
+
+from src.paths import FILTERED_DIR, SCORED_DIR, ensure_dirs
 
 # Carrega variáveis do arquivo .env
 load_dotenv()
@@ -181,9 +190,11 @@ def main():
     parser.add_argument("--date", default=str(date.today()), help="Data no formato YYYY-MM-DD")
     args = parser.parse_args()
 
-    # Input: ler de data/filtered/ por padrão (pipeline: fetch → filter → score)
+    ensure_dirs()
+
+    # Input: ler de FILTERED_DIR por padrão (pipeline: fetch → filter → score)
     # Aceita YYYY-MM-DD*.json ou seed_YYYY-MM-DD_*.json; usa o mais recente por mtime
-    filtered_dir = Path("data/filtered")
+    filtered_dir = FILTERED_DIR
     filtered_files = sorted(
         filtered_dir.glob(f"*{args.date}*.json"),
         key=lambda p: p.stat().st_mtime,
@@ -191,7 +202,7 @@ def main():
     )
 
     if not filtered_files:
-        print(f"[score.py] [ERR] Nenhum arquivo encontrado em data/filtered/ para a data: {args.date}")
+        print(f"[score.py] [ERR] Nenhum arquivo encontrado em {filtered_dir} para a data: {args.date}")
         print("[score.py] Execute filter.py após fetch.py.")
         return
 
@@ -199,7 +210,7 @@ def main():
 
     timestamp = datetime.now().strftime("%H%M%S")
     scored_filename = f"{args.date}_{timestamp}.json"
-    scored_path = Path("data/scored") / scored_filename
+    scored_path = SCORED_DIR / scored_filename
     scored_path.parent.mkdir(parents=True, exist_ok=True)
 
     print(f"[score.py] Pontuando vagas de {filtered_path.name}...")

@@ -2,7 +2,7 @@
 generate.py — Gera currículo e cover letter personalizados para uma vaga.
 
 Épico 3.3 | Input: vaga do scored JSON + perfil + templates.
-             Output: PDF em data/output/YYYY-MM-DD_empresa_titulo/
+             Output: PDF no diretório configurado (OUTPUT_DIR)/YYYY-MM-DD_empresa_titulo/
 
 Uso:
     python src/generate.py --job-id JOB_ID [--date 2026-02-22]
@@ -11,8 +11,17 @@ Uso:
 import os
 import json
 import argparse
+import sys
 from datetime import date
 from pathlib import Path
+
+# Garante projeto na path ao rodar como python src/generate.py
+if __name__ == "__main__":
+    _root = Path(__file__).resolve().parent.parent
+    if str(_root) not in sys.path:
+        sys.path.insert(0, str(_root))
+
+from src.paths import SCORED_DIR, ensure_dirs
 
 # TODO: Épico 3.1 — integrar resume_base.md
 # TODO: Épico 3.2 — integrar cover_letter_template.md
@@ -26,7 +35,8 @@ def main():
     parser.add_argument("--date", default=str(date.today()), help="Data no formato YYYY-MM-DD")
     args = parser.parse_args()
 
-    scored_dir = Path("data/scored")
+    ensure_dirs()
+    scored_dir = SCORED_DIR
     scored_files = sorted(scored_dir.glob(f"{args.date}*.json"), reverse=True)
     
     if not scored_files:

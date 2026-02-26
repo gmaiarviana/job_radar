@@ -37,6 +37,7 @@ from src.fetch_pipeline import (
     filter_old_jobs,
     apply_quality_guard,
 )
+from src.paths import RAW_DIR, ensure_dirs
 from src.seen_jobs import load_seen, mark_seen, save_seen
 from src.collectors.remotive import collect_remotive
 from src.collectors.openai_search import collect_openai_web_search
@@ -70,8 +71,8 @@ def main():
             print(f"{LOG_PREFIX} ✗ Erro em config/companies.yaml: {e}")
             return
 
-    output_dir = Path("data/raw")
-    output_dir.mkdir(parents=True, exist_ok=True)
+    ensure_dirs()
+    output_dir = RAW_DIR
     timestamp = datetime.now().strftime("%H%M%S")
     output_path = output_dir / f"{args.date}_{timestamp}.json"
 

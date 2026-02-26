@@ -1,6 +1,6 @@
 """
 Hard filters (gratuitos): location + quality guard.
-Lê raw de data/raw/, aplica filtros, salva em data/filtered/.
+Lê raw do diretório configurado, aplica filtros, salva no diretório configurado.
 Pipeline: fetch.py → filter.py → score.py
 """
 
@@ -10,7 +10,14 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
+# Garante projeto na path ao rodar como python src/filter.py
+if __name__ == "__main__":
+    _root = Path(__file__).resolve().parent.parent
+    if str(_root) not in sys.path:
+        sys.path.insert(0, str(_root))
+
 from src.fetch_pipeline import load_config
+from src.paths import RAW_DIR, FILTERED_DIR, ensure_dirs
 
 
 def _ensure_console_utf8() -> None:
@@ -137,7 +144,7 @@ def resolve_input_path(input_path: str | None, date_str: str | None) -> Path | N
         p = Path(input_path)
         return p if p.exists() else None
     if date_str:
-        raw_dir = Path("data/raw")
+        raw_dir = RAW_DIR
         if not raw_dir.exists():
             return None
         candidates = sorted(raw_dir.glob(f"{date_str}*.json"), reverse=True)
@@ -147,13 +154,14 @@ def resolve_input_path(input_path: str | None, date_str: str | None) -> Path | N
 
 def main() -> None:
     _ensure_console_utf8()
+    ensure_dirs()
     parser = argparse.ArgumentParser(
-        description="Aplica hard filters (location + quality) em arquivo raw; salva em data/filtered/."
+        description="Aplica hard filters (location + quality) em arquivo raw; salva no diretório configurado."
     )
     parser.add_argument(
         "--input",
         metavar="path",
-        help="Caminho direto para o arquivo raw (ex: data/raw/seed_2026-02-24_153218.json)",
+        help="Caminho direto para o arquivo raw (ex: seed_YYYY-MM-DD_HHMMSS.json)",
     )
     parser.add_argument(
         "--date",
@@ -207,7 +215,7 @@ def main() -> None:
     discarded_quality = len(discarded_quality_list)
     total_passed = len(after_quality)
 
-    out_dir = Path("data/filtered")
+    out_dir = FILTERED_DIR
     out_dir.mkdir(parents=True, exist_ok=True)
     out_path = out_dir / raw_path.name
 

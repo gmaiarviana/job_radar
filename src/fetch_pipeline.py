@@ -10,7 +10,6 @@ from typing import Any
 import yaml
 
 from src.job_schema import normalize_job
-from src.seen_jobs import is_seen
 
 LOG_PREFIX = "[fetch]"
 
@@ -89,6 +88,9 @@ def apply_seen_jobs_filter(
     """
     already_seen: list[dict] = []
     new_list: list[dict] = []
+    # Import local para evitar ciclo: fetch_pipeline -> seen_jobs -> paths -> fetch_pipeline
+    from src.seen_jobs import is_seen
+
     for job in jobs:
         h = job.get("id_hash")
         if not h:

@@ -1,7 +1,7 @@
 """
 seed.py — Seed inicial: popula seen_jobs com o histórico de uma ou mais fontes ATS (Épico 3.5).
 
-Roda os coletores indicados, grava o bruto em data/raw/seed_YYYY-MM-DD_HHMMSS.json
+Roda os coletores indicados, grava o bruto em RAW_DIR/seed_YYYY-MM-DD_HHMMSS.json
 e marca todas as vagas em seen_jobs (sem throttle, sem filtro de 7 dias).
 
 Uso recomendado (uma fonte por vez, revisar entre runs):
@@ -36,6 +36,7 @@ from src.seen_jobs import load_seen, mark_seen, save_seen
 from src.collectors.greenhouse import collect_greenhouse
 from src.collectors.lever import collect_lever
 from src.collectors.ashby import collect_ashby
+from src.paths import RAW_DIR, ensure_dirs
 
 LOG_PREFIX = "[seed]"
 
@@ -124,8 +125,8 @@ def main() -> None:
             print(f"  Greenhouse: {len(greenhouse_companies)}, Lever: {len(lever_companies)}, Ashby: {len(ashby_companies)}")
         return
 
-    output_dir = Path("data/raw")
-    output_dir.mkdir(parents=True, exist_ok=True)
+    ensure_dirs()
+    output_dir = RAW_DIR
     today = date.today().isoformat()
     timestamp = datetime.now().strftime("%H%M%S")
     output_path = output_dir / f"seed_{today}_{timestamp}.json"
@@ -174,8 +175,8 @@ def _run_test_mode(args: argparse.Namespace) -> None:
     """Modo teste: jobs mock, grava seed_test_*.json e marca em seen_jobs."""
     source = args.source if args.source != "all" else "greenhouse"
     jobs = _mock_jobs_for_test(source)
-    output_dir = Path("data/raw")
-    output_dir.mkdir(parents=True, exist_ok=True)
+    ensure_dirs()
+    output_dir = RAW_DIR
     today = date.today().isoformat()
     timestamp = datetime.now().strftime("%H%M%S")
     output_path = output_dir / f"seed_test_{today}_{timestamp}.json"
