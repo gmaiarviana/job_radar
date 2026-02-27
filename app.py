@@ -36,10 +36,10 @@ st.set_page_config(
 
 # --- Helpers: leitura de dados scored ---
 def _date_from_filename(name: str) -> str | None:
-    """Extrai YYYY-MM-DD do nome do arquivo (ex: 2026-02-24_120958.json ou manual_2026-02-24_120958.json)."""
+    """Extrai YYYY-MM-DD do nome do arquivo. Trata prefixo manual_: manual_2026-02-26_153000.json → 2026-02-26."""
     base = name.replace(".json", "")
     if base.startswith("manual_"):
-        base = base[7:]
+        base = base[7:]  # manual_YYYY-MM-DD_HHMMSS → YYYY-MM-DD_HHMMSS
     match = re.match(r"(\d{4}-\d{2}-\d{2})", base)
     return match.group(1) if match else None
 
@@ -85,6 +85,25 @@ def _score_badge_style(score: int) -> tuple[str, str]:
     return ("#616161", "white")       # cinza
 
 
+def get_verdict(score: int | None, main_gap: str | None) -> tuple[str, str, str]:
+    """Retorna (label, color, emoji): APLICAR/AVALIAR/PULAR com cor e emoji."""
+    if score is None:
+        return ("—", "gray", "⚪")
+    if score >= 85:
+        return ("APLICAR", "green", "🟢")
+    if score >= 70:
+        return ("AVALIAR", "orange", "🟡")
+    return ("PULAR", "gray", "⚪")
+
+
+def _verdict_reason_phrase(score: int | None, main_gap: str | None) -> str:
+    """Frase de motivo: main_gap ou 'Fit direto...' quando score ≥ 85 e main_gap vazio/genérico (curto)."""
+    gap = (main_gap or "").strip()
+    if score is not None and score >= 85 and (not gap or len(gap) < 20):
+        return "Fit direto — domínio e seniority compatíveis"
+    return gap or "—"
+
+
 # --- Sidebar: seletor de data ---
 def _render_sidebar(all_rows: list[dict]) -> str | None:
     dates = sorted({r["file_date"] for r in all_rows if r["file_date"]}, reverse=True)
@@ -126,9 +145,12 @@ def _render_vagas():
         title = job.get("title") or "(Sem título)"
         company = job.get("company") or "(Sem empresa)"
         url = job.get("url") or ""
+        main_gap = job.get("main_gap") or ""
+        salary = job.get("salary")
 
         score_label = str(score) if score is not None else "—"
         bg, fg = _score_badge_style(score) if score is not None else ("#616161", "white")
+        verdict_label, verdict_color, verdict_emoji = get_verdict(score, main_gap)
 
         # Card: compacto (container) + expandido (expander)
         with st.container():
@@ -137,8 +159,10 @@ def _render_vagas():
                 st.markdown(f"**{title}**")
             with c2:
                 st.markdown(company)
+                if salary is not None and str(salary).strip():
+                    st.caption(str(salary).strip())
             with c3:
-                st.markdown(f'<span style="background:{bg};color:{fg};padding:2px 8px;border-radius:4px;">{score_label}</span>', unsafe_allow_html=True)
+                st.markdown(f'<span style="background:{bg};color:{fg};padding:2px 8px;border-radius:4px;">{score_label}</span> {verdict_emoji} {verdict_label}', unsafe_allow_html=True)
             with c4:
                 st.caption(source)
             with c5:
@@ -148,6 +172,10 @@ def _render_vagas():
                     st.caption("—")
 
         with st.expander("Ver detalhes (ceiling, requisitos, seniority, gap)", expanded=False):
+            # Veredito + frase de motivo no topo do expandido
+            reason_phrase = _verdict_reason_phrase(score, main_gap)
+            st.markdown(f"**{verdict_emoji} {verdict_label}** — {reason_phrase}")
+            st.markdown("---")
             # Expandido: ceiling, ceiling_reason, core_requirements, seniority_comparison, main_gap, justification, link
             if job.get("score_ceiling") is not None:
                 st.markdown(f"**Teto:** {job.get('score_ceiling')}")
@@ -249,8 +277,13 @@ def _run_manual_scoring(raw: dict) -> tuple[dict | None, str | None]:
 
 
 def _render_job_result_detail(job: dict) -> None:
-    """Exibe score (badge), ceiling, core_requirements, seniority, main_gap, justification."""
+    """Exibe veredito no topo, depois score (badge), ceiling, core_requirements, seniority, main_gap, justification."""
     score = job.get("score")
+    main_gap = job.get("main_gap") or ""
+    verdict_label, _vcolor, verdict_emoji = get_verdict(score, main_gap)
+    reason_phrase = _verdict_reason_phrase(score, main_gap)
+    st.markdown(f"**{verdict_emoji} {verdict_label}** — {reason_phrase}")
+    st.markdown("---")
     score_label = str(score) if score is not None else "—"
     bg, fg = _score_badge_style(score) if score is not None else ("#616161", "white")
     st.markdown(f'**Score:** <span style="background:{bg};color:{fg};padding:4px 10px;border-radius:4px;">{score_label}</span>', unsafe_allow_html=True)
@@ -289,9 +322,9 @@ def _render_linkedin():
         cols = st.columns(min(len(searches), 5))
         for i, item in enumerate(searches):
             name = item.get("name") or "Link"
-            url = item.get("url") or "#"
+            link_url = item.get("url") or "#"
             with cols[i % len(cols)]:
-                st.markdown(f'<a href="{url}" target="_blank" rel="noopener noreferrer">{name}</a>', unsafe_allow_html=True)
+                st.link_button(name, link_url, use_container_width=True)
         st.markdown("---")
 
     # Seção 2: Formulário paste-and-score
@@ -328,15 +361,16 @@ def _render_linkedin():
 
     _render_job_result_detail(result)
 
-    # Persistência: manual_*.json + seen_jobs
+    # Persistência: manual_*.json + seen_jobs (nome do arquivo com hora local para consistência com pipeline)
     ensure_dirs()
-    now = datetime.now(timezone.utc)
-    ts = now.strftime("%Y-%m-%d_%H%M%S")
+    now_local = datetime.now()
+    ts = now_local.strftime("%Y-%m-%d_%H%M%S")
     filename = f"manual_{ts}.json"
     out_path = SCORED_DIR / filename
+    now_utc = datetime.now(timezone.utc)
 
     payload = {
-        "scored_at": now.isoformat(),
+        "scored_at": now_utc.isoformat(),  # UTC no JSON; nome do arquivo usa hora local
         "source_file": "manual",
         "summary": {"total_input": 1, "total_scored": 1, "total_top": 1 if (result.get("score") or 0) >= 70 else 0},
         "jobs": [result],
