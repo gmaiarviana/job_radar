@@ -12,6 +12,7 @@ Este documento mapeia onde cada informação "mora" para evitar duplicação.
 | **Prompt de Geração (CV/CL)** | `src/generate.py` |
 | **Voz do Usuário (Templates)** | `config/cover_letter_template.md` & `config/resume_base.md` |
 | **Pipeline de Automação** | `.github/workflows/daily.yml` |
+| **Landing Page (GitHub Pages)** | `docs/site/` |
 | **Status do Projeto** | `ROADMAP.md` |
 | **Backlog, postergado e ideias futuras** | `docs/governance/backlog.md` |
 | **Design Técnico** | `ARCHITECTURE.md` |
