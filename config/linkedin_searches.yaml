@@ -18,3 +18,26 @@ searches:
 
   - name: "Product Analyst Remote"
     url: "https://www.linkedin.com/jobs/search/?keywords=Product%20Analyst&f_WT=2&sortBy=DD&f_TPR=r86400"
+
+  # --- Feed (posts de conteúdo, não LinkedIn Jobs) ---
+  # Posts de hiring managers no feed. Ordenados por data. Fluxo: escanear → colar JD no paste-and-score.
+  - name: "Feed: Hiring PM Remote"
+    url: "https://www.linkedin.com/search/results/content/?keywords=hiring%20product%20manager%20remote&sortBy=date_posted"
+
+  - name: "Feed: Hiring TPM Remote"
+    url: "https://www.linkedin.com/search/results/content/?keywords=hiring%20program%20manager%20remote&sortBy=date_posted"
+
+  - name: "Feed: Hiring PM LATAM"
+    url: "https://www.linkedin.com/search/results/content/?keywords=hiring%20product%20manager%20latam&sortBy=date_posted"
+
+  - name: "Feed: Hiring Delivery Mgr"
+    url: "https://www.linkedin.com/search/results/content/?keywords=hiring%20delivery%20manager%20remote&sortBy=date_posted"
+
+  - name: "Feed: Hiring AI PM"
+    url: "https://www.linkedin.com/search/results/content/?keywords=hiring%20AI%20product%20manager&sortBy=date_posted"
+
+  - name: "Feed: We're Hiring PM"
+    url: "https://www.linkedin.com/search/results/content/?keywords=we%27re%20hiring%20product%20manager&sortBy=date_posted"
+
+  - name: "Feed: Hiring PM Worldwide"
+    url: "https://www.linkedin.com/search/results/content/?keywords=hiring%20product%20manager%20worldwide&sortBy=date_posted"
