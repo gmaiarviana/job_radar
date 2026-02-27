@@ -11,7 +11,7 @@ O sistema é dividido em um pipeline de dados (nuvem/Actions) e uma interface de
 ```mermaid
 graph TD
     A[GitHub Actions - Cloud] -->|Cron/Manual| B[fetch.py - Pipeline multi-fonte]
-    B -->|coletores| B1[OpenAI Search + Remotive + We Work Remotely + Jobicy + Greenhouse + Lever + Ashby]
+    B -->|coletores| B1[OpenAI Search + Remotive + We Work Remotely + Jobicy + Remote OK + Get on Board + Greenhouse + Lever + Ashby]
     B1 -->|raw| B2[job_schema + fetch_pipeline]
     B2 -->|data/raw/| B3[filter.py - Hard filters]
     B3 -->|title + location + quality guard| B4[data/filtered/]
@@ -30,7 +30,7 @@ graph TD
 
 | Componente | Script / Módulo | Modelo/Motor | Papel |
 | :--- | :--- | :--- | :--- |
-| **Search** | `src/fetch.py` (CLI) + `job_schema.py` + `fetch_pipeline.py` + `seen_jobs.py` + `collectors/*` | OpenAI Search, Remotive, We Work Remotely, Jobicy, Greenhouse, Lever, Ashby (Épicos 3.2–3.4) | Orquestra coletores, normaliza para schema único, dedupe persistente (`data/seen_jobs.json`) + throttle 20 novos/run, quality guard, métricas de cobertura no JSON, grava em `RAW_DIR` (`src/paths.py`). |
+| **Search** | `src/fetch.py` (CLI) + `job_schema.py` + `fetch_pipeline.py` + `seen_jobs.py` + `collectors/*` | OpenAI Search, Remotive, We Work Remotely, Jobicy, Remote OK, Get on Board, Greenhouse, Lever, Ashby (Épicos 3.2–3.4, 7.2) | Orquestra coletores, normaliza para schema único, dedupe persistente (`data/seen_jobs.json`) + throttle 20 novos/run, quality guard, métricas de cobertura no JSON, grava em `RAW_DIR` (`src/paths.py`). Janela de coleta de 7 dias nos coletores com filtro de recência (Remotive, Jobicy, Remote OK, Get on Board); fontes sem recorte client-side (WWR feed master, ATS) trazem todas as vagas abertas. |
 | **Paths** | `src/paths.py` | — | Single source of truth para diretórios do projeto. Lê output de search.yaml, expõe RAW_DIR, FILTERED_DIR, SCORED_DIR, etc. como Path objects. |
 | **Filter** | `src/filter.py` | — | Hard filters gratuitos: title (exclude_title_keywords de search.yaml) + location (blocklist + allowlist) + quality guard (JD/título/empresa). Lê `data/raw/`, grava `data/filtered/` (mesmo nome; jd_full intacto). CLI: `--input` ou `--date`. `data/filtered/` no .gitignore. |
 | **Score** | `src/score.py` | Claude Haiku | Lê de `data/filtered/`. Eliminatórios em batch com payload completo (title, company, location, jd_full). Deep Scoring individual com JD truncado a 3000 chars no prompt (não no armazenamento). Chamada 1 (analyze_job) retorna `penalties` como dict de bools (seniority_gap, domain_gap_core); compute_ceiling calcula teto em Python; Chamada 2 (score_with_analysis) recebe análise + ceiling e atribui score final (early return se ceiling ≤ 50, senão Haiku com teto explícito). main() executa esse pipeline por vaga; output por vaga inclui score_ceiling, ceiling_reason, core_requirements, seniority_comparison. Contra `config/profile.md`. |
@@ -65,9 +65,11 @@ job-radar/
 │   ├── seen_jobs.py             # load_seen, is_seen, mark_seen, save_seen (dedup persistente; único acesso a data/seen_jobs.json)
 │   ├── collectors/              # Um módulo por fonte de vagas
 │   │   ├── __init__.py
-│   │   ├── remotive.py          # API Remotive (product, project-management; 48h)
-│   │   ├── weworkremotely.py    # RSS We Work Remotely (management/finance; filtro PM/TPM)
-│   │   ├── jobicy.py            # API Jobicy (industry=product; 48h)
+│   │   ├── remotive.py          # API Remotive (product, project-management; janela 7d)
+│   │   ├── weworkremotely.py    # RSS We Work Remotely (feed master; filtro PM/TPM por título)
+│   │   ├── jobicy.py            # API Jobicy (industry=product; janela 7d)
+│   │   ├── remoteok.py          # API Remote OK (Épico 7.2; tags/position PM; janela 7d; Source: Remote OK)
+│   │   ├── getonboard.py        # API Get on Board (Épico 7.2; LATAM, product manager remote; paginação até 5 páginas)
 │   │   ├── greenhouse.py       # Greenhouse Job Board API (Épico 3.2; companies.yaml ats=greenhouse)
 │   │   ├── lever.py            # Lever Postings API (Épico 3.3; companies.yaml ats=lever)
 │   │   ├── ashby.py            # Ashby Job Board API (Épico 3.4; companies.yaml ats=ashby; POST)

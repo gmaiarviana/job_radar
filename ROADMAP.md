@@ -33,19 +33,9 @@
 #### ✅ 7.1 OpenAI search no GitHub Actions
 Habilitado. OPENAI_API_KEY configurada nos secrets do Actions. Coletor já roda no pipeline diário.
 
-#### 7.2 Novos coletores (APIs validadas)
+#### ✅ 7.2 Novos coletores (APIs validadas)
 
-**Remote OK:**
-- Endpoint: `GET https://remoteok.com/api` → JSON array, sem auth
-- Campos: id, date, company, position, tags, description, location, salary_min, salary_max, apply_url
-- Filtro client-side por tags (ex: "product", "management", "exec")
-- Requisito legal: mencionar Remote OK como fonte e linkar URL original
-- Critério de aceite: coletor em `src/collectors/remoteok.py`, integrado em fetch.py, retorna vagas PM/TPM das últimas 48h
-
-**Get on Board:**
-- API pública: `https://api-doc.getonbrd.com` — search por texto livre + browse por categoria, paginação (per_page, page), sem auth
-- Foco LATAM nativo (Chile, México, Colômbia, Brasil, Argentina)
-- Critério de aceite: coletor em `src/collectors/getonboard.py`, integrado em fetch.py, busca por "product manager" remote
+**Concluído:** Remote OK (`src/collectors/remoteok.py`) e Get on Board (`src/collectors/getonboard.py`) integrados em fetch.py. Remote OK: API pública, filtro por tags (product/management/exec) e position PM/TPM, janela de 7 dias, atribuição "Source: Remote OK" nos logs. Get on Board: API search jobs (query=product manager, remote=true), filtro por título PM/TPM (keywords centralizadas incluindo LATAM), janela de 7 dias, paginação até 5 páginas, foco LATAM.
 
 #### 7.3 Expandir companies.yaml
 
