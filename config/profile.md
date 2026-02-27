@@ -3,7 +3,7 @@
 # Fonte: config/career_narrative.md
 
 ## Resumo Profissional
-Program & Product Manager com experiência em análise de dados e experimentação com IA, que conecta estratégia e execução — desde o diagnóstico de problemas até a coordenação de entrega em programas globais e multi-equipes. Experiência em PM/PO (2 anos), TPM em programa global (200+ engenheiros), e análise de dados em ambiente de alta escala (Nubank, 150K+ solicitações/dia).
+Program & Product Manager com experiência em análise de dados e experimentação com IA, que conecta estratégia e execução — desde o diagnóstico de problemas até a coordenação de entrega em programas globais e multi-equipes. ~7 anos de experiência em gestão (incluindo liderança de obra com 40 subordinados diretos). Em papéis PM/PO/TPM em tech especificamente: ~3 anos, incluindo programa global de 200+ engenheiros e análise de dados em alta escala (Nubank, 150K+ solicitações/dia).
 
 ## Títulos-alvo
 - Product Manager (preferencial)
@@ -29,7 +29,7 @@ Program & Product Manager com experiência em análise de dados e experimentaç�
 - **Localização:** Apenas remote LATAM ou remote Worldwide. Vagas US-only, EU-only, on-site = descarte imediato.
 - **Salário:** Mínimo $5.500 USD/mês. Vagas sem salário listado = penalizar (não descartar automaticamente).
 - **Idioma da vaga:** Vaga inteiramente em PT-BR ou espanhol = red flag (mercado local, não internacional).
-- **Nível:** Estágio e Intern = descarte. Demais níveis (Associate, Mid, Senior, etc.): avaliar por salário e escopo — se o escopo for compatível e o salário ≥ $5.500 USD/mês, manter.
+- **Nível:** Estágio e Intern = descarte. Demais níveis (Associate, Mid, Senior, etc.): avaliar por salário e escopo — se o escopo for compatível e o salário ≥ $5.500 USD/mês, manter. Nota para avaliação de seniority: o candidato tem ~7 anos de gestão total (tech + engenharia civil). Vagas pedindo 5+ anos de experiência em gestão/liderança são compatíveis. Vagas pedindo 5+ anos especificamente em PM de produto SaaS não são.
 - **Tipo de cargo:** Vagas puramente técnicas (Engineering Manager, SWE) ou marketing sem componente de produto = descarte.
 
 ## Preferências (não eliminatórias, influenciam score)
