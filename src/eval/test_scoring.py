@@ -15,31 +15,31 @@ from src.score import compute_ceiling, score_with_analysis
 
 
 def test_compute_ceiling():
-    """4 cenários: nenhuma penalty → 100; domain_gap_core → 60; 2 penalties → 55; 3 penalties → 55. Formato: penalties como dict de bools."""
+    """4 cenários: nenhuma penalty → 100; domain_gap_core → 60; seniority_gap → 65; ambas → 55. Formato: penalties como dict de bools (apenas seniority_gap e domain_gap_core)."""
     # Cenário 1: nenhuma penalty → 100
     out = compute_ceiling({
-        "penalties": {"seniority_gap": False, "outsourcing_context": False, "domain_gap_core": False}
+        "penalties": {"seniority_gap": False, "domain_gap_core": False}
     })
     assert out["ceiling"] == 100, out
     assert "reason" in out, out
 
-    # Cenário 2: 1 penalty (domain_gap_core) → 60
+    # Cenário 2: domain_gap_core → 60
     out = compute_ceiling({
-        "penalties": {"seniority_gap": False, "outsourcing_context": False, "domain_gap_core": True}
+        "penalties": {"seniority_gap": False, "domain_gap_core": True}
     })
     assert out["ceiling"] == 60, out
     assert "domain_gap_core" in out["reason"], out
 
-    # Cenário 3: 2 penalties → 55
+    # Cenário 3: seniority_gap → 65
     out = compute_ceiling({
-        "penalties": {"seniority_gap": True, "outsourcing_context": True, "domain_gap_core": False}
+        "penalties": {"seniority_gap": True, "domain_gap_core": False}
     })
-    assert out["ceiling"] == 55, out
-    assert "2+" in out["reason"], out
+    assert out["ceiling"] == 65, out
+    assert "seniority_gap" in out["reason"], out
 
-    # Cenário 4: 3 penalties → 55
+    # Cenário 4: ambas (seniority_gap + domain_gap_core) → 55
     out = compute_ceiling({
-        "penalties": {"seniority_gap": True, "outsourcing_context": True, "domain_gap_core": True}
+        "penalties": {"seniority_gap": True, "domain_gap_core": True}
     })
     assert out["ceiling"] == 55, out
     assert "2+" in out["reason"], out

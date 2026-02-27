@@ -12,9 +12,11 @@
 
 **Épico 5 — Qualidade de scoring:** Prompt em 2 chamadas (analyze_job → compute_ceiling → score_with_analysis), validado no seed; ceiling em Python; arquivos scored por data/hora; filter/score com exclusão de `*_discarded.json` e `seed_*`. Pipeline end-to-end validado (fetch → filter → score).
 
-**Épico 6 — UI Funcional Mínima:** Streamlit com duas abas. Aba "Vagas": tabela unificada (pipeline + manuais) com score, veredito (APLICAR/AVALIAR/PULAR), badge de fonte, filtro por data, expand com análise completa. Aba "LinkedIn": links de busca + paste-and-score (analyze_job → compute_ceiling → score_with_analysis) com persistência em `data/scored/manual_*.json` e `seen_jobs.json`. Config: `config/linkedin_searches.yaml`.
+**Épico 6 — UI Funcional Mínima:** Streamlit com duas abas. Aba "Vagas": tabela unificada (pipeline + manuais) com score, veredito (APLICAR/AVALIAR/PULAR), badge de fonte, filtro por data, expand com análise completa. Aba "Busca Manual": links de busca + paste-and-score (analyze_job → compute_ceiling → score_with_analysis) com persistência em `data/scored/manual_*.json` e `seen_jobs.json`. Config: `config/manual_searches.yaml`.
 
 **Épico 7.1 — OpenAI search no GitHub Actions:** Habilitado. OPENAI_API_KEY configurada nos secrets do Actions. Coletor já roda no pipeline diário.
+
+**Épico 7.4 — Renomear LinkedIn → Busca Manual:** config renomeado para `manual_searches.yaml`; aba "Busca Manual", subtítulo "Links de busca" e docs atualizados.
 
 ---
 
@@ -57,27 +59,12 @@ Adicionar empresas validadas como remote-first com ATS suportado:
 
 Critério de aceite: empresas adicionadas no companies.yaml com ats e ats_id corretos; seed valida que pelo menos 4 de 6 retornam vagas (slug OK).
 
-#### 7.4 Revisar buscas manuais e renomear LinkedIn → Busca Manual
+#### ✅ 7.4 Revisar buscas manuais e renomear LinkedIn → Busca Manual
 
-**Já concluído:**
-- ✅ Revisão de botões: de 12 para 8 (4 Jobs + 4 Feeds). Cortes: Delivery/Strategy Ops/Product Analyst + 3 feeds redundantes. Adições: Product Ops Remote e Technical PM Remote como Jobs.
-- ✅ `config/linkedin_searches.yaml` atualizado com 8 entries
-- ✅ `config/profile.md`: seniority clarificada (~7 anos gestão total vs ~3 PM/TPM tech)
-- ✅ Fix has_evidence em score.py: reforço no prompt + normalização no código
+**Concluído:** Revisão de botões (8 entries). `config/linkedin_searches.yaml` renomeado para `config/manual_searches.yaml`. Aba "LinkedIn" → "Busca Manual"; subtítulo "Links de busca"; caption e docs atualizados.
 
-**Pendente:**
-- Renomear `config/linkedin_searches.yaml` → `config/manual_searches.yaml`
-- Atualizar app.py: aba "LinkedIn" → "Busca Manual"; referência ao novo yaml
-
-Critério de aceite: aba funcional com novo nome; yaml renomeado; app.py referenciando novo arquivo
-
-#### 7.5 Remover penalty `outsourcing_context` do scoring
-
-- Remover `outsourcing_context` de CEILING_BY_PENALTY em score.py
-- Remover do prompt de analyze_job (Chamada 1): penalties passa a ter apenas `seniority_gap` e `domain_gap_core`
-- Atualizar compute_ceiling: lógica de 2+ penalties continua (agora com 2 penalties possíveis, o máximo de activas é 2)
-- Atualizar testes em src/eval/test_scoring.py para refletir 2 penalties
-- Critério de aceite: testes passam; scoring não penaliza vagas em consultorias
+#### ✅ 7.5 Remover penalty `outsourcing_context` do scoring
+Concluído: penalty removida de CEILING_BY_PENALTY e do prompt de analyze_job; penalties apenas `seniority_gap` e `domain_gap_core`. Testes atualizados (4 cenários + 2 auto-eliminate); todos passam.
 
 #### 7.6 Seed das novas fontes
 

@@ -24,7 +24,6 @@ JD_SCORE_TRUNCATE = 3000  # analyze_job: limite no prompt (boilerplate/EEO não 
 CEILING_BY_PENALTY = {
     "domain_gap_core": 60,
     "seniority_gap": 65,
-    "outsourcing_context": 75,
 }
 CEILING_MULTIPLE_PENALTIES = 55
 CEILING_NONE = 100
@@ -34,9 +33,8 @@ def compute_ceiling(analysis_output):
     """
     Função pura: recebe o output da Chamada 1 (analyze_job) e retorna ceiling + reason.
     Não chama LLM. Testável sem API.
-    Lê analysis_output["penalties"] como dict de bools (seniority_gap, outsourcing_context, domain_gap_core).
-    Regras: domain_gap_core→60, seniority_gap→65, outsourcing_context→75;
-            2+ true→55; nenhum true→100.
+    Lê analysis_output["penalties"] como dict de bools (seniority_gap, domain_gap_core).
+    Regras: domain_gap_core→60, seniority_gap→65; 2+ true→55; nenhum true→100.
     Se penalties não for dict, retorna ceiling 100 (defensivo).
     Retorna {"ceiling": int, "reason": str}.
     """
@@ -99,9 +97,8 @@ Você é um recrutador técnico. Sua tarefa é analisar a vaga abaixo em relaç�
    - candidate_has: o que o candidato tem (ex: "~3 years in PM/TPM tech roles")
    - gap: true se há gap de seniority, false caso contrário
 
-3. PENALTIES: Objeto com três chaves booleanas. Responda true apenas quando o critério se aplicar; caso contrário false.
+3. PENALTIES: Objeto com duas chaves booleanas. Responda true apenas quando o critério se aplicar; caso contrário false.
    - seniority_gap: true se a JD pede X+ anos de experiência e o perfil do candidato tem evidência de menos anos em papéis PM/TPM/tech; false caso contrário.
-   - outsourcing_context: true se a experiência predominante do candidato é em consultoria/outsourcing (cliente define produto, candidato não tem ownership de roadmap); false se há evidência forte de product company ou o contexto é misto/neutro.
    - domain_gap_core: true se o DOMÍNIO PRIMÁRIO da vaga — o tipo de produto, sistema ou indústria central — não tem evidência direta no perfil. Avalie o domínio da vaga, não skills genéricos. Ex.: vaga sobre "self-service AI platforms" e candidato com "GenAI PoCs para relatórios" = domínios diferentes; vaga sobre "robotics data collection" e candidato com "program management em SaaS" = domínios diferentes. Pergunte-se: o candidato já construiu, gerenciou ou operou ESTE TIPO de produto ou sistema? Se não, true. Caso contrário false.
 
 4. DOMAIN_FIT: Uma string com valor "full", "partial" ou "none" seguido de " — " e uma breve justificativa (ex: "partial — PM em fintech, vaga é B2B SaaS; skills transferíveis").
@@ -122,7 +119,6 @@ Você é um recrutador técnico. Sua tarefa é analisar a vaga abaixo em relaç�
   }},
   "penalties": {{
     "seniority_gap": true,
-    "outsourcing_context": false,
     "domain_gap_core": false
   }},
   "domain_fit": "full|partial|none — breve justificativa"
