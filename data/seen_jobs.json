@@ -1210,5 +1210,11 @@
     "source": "openai_web_search",
     "title": "Product Manager",
     "company": "Mevo"
+  },
+  "784a9489bfd2745e8940ea63544ec3f9c0e574dc832ddc54a490061b5b3915c3": {
+    "first_seen": "2026-02-27",
+    "source": "linkedin",
+    "title": "Technical Product Manager",
+    "company": "Coders Connect"
   }
 }

@@ -10,7 +10,7 @@ from __future__ import annotations
 import json
 import os
 import re
-from datetime import datetime, timezone
+from datetime import datetime
 from pathlib import Path
 
 from dotenv import load_dotenv
@@ -229,7 +229,7 @@ def main() -> None:
         print(f"    - {fp.get('title', '')} @ {fp.get('company', '')}")
 
     # --- Salvar JSON ---
-    timestamp = datetime.now(timezone.utc).strftime("%Y%m%d_%H%M%S")
+    timestamp = datetime.now().astimezone().strftime("%Y%m%d_%H%M%S")
     model_slug = _model_slug(args.model)
     out_name = f"eval_{model_slug}_{timestamp}.json"
     out_dir = repo_root / "data" / "eval"
@@ -237,7 +237,7 @@ def main() -> None:
     out_path = out_dir / out_name
 
     report = {
-        "created_at": datetime.now(timezone.utc).isoformat(),
+        "created_at": datetime.now().astimezone().isoformat(),
         "seed_path": str(seed_path),
         "gabarito_path": str(gabarito_path),
         "model": args.model,

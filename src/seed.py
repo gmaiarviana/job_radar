@@ -16,7 +16,7 @@ import sys
 import io
 import json
 import argparse
-from datetime import date, datetime, timezone
+from datetime import date, datetime
 from pathlib import Path
 from typing import Any
 
@@ -138,7 +138,7 @@ def main() -> None:
         "total_raw": total,
     }
     output_data = {
-        "fetched_at": datetime.now(timezone.utc).isoformat(),
+        "fetched_at": datetime.now().astimezone().isoformat(),
         "date": today,
         "config_used": {"seed_source": args.source, "sources": coverage["sources"]},
         "coverage": coverage,
@@ -180,7 +180,7 @@ def _run_test_mode(args: argparse.Namespace) -> None:
 
     coverage = {"sources": [source], "total_raw": len(jobs)}
     output_data = {
-        "fetched_at": datetime.now(timezone.utc).isoformat(),
+        "fetched_at": datetime.now().astimezone().isoformat(),
         "date": today,
         "config_used": {"seed_source": args.source, "test": True, "sources": [source]},
         "coverage": coverage,

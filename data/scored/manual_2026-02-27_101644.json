@@ -1,0 +1,62 @@
+{
+  "scored_at": "2026-02-27T13:16:44.765589+00:00",
+  "source_file": "manual",
+  "summary": {
+    "total_input": 1,
+    "total_scored": 1,
+    "total_top": 1
+  },
+  "jobs": [
+    {
+      "score": 92,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato Guilherme Maia possui um perfil altamente alinhado com os requisitos desta vaga de Technical Product Manager na empresa Coders Connect. Ele possui experiência direta em gestão de programa, liderança de equipes multifuncionais e conhecimento técnico profundo, incluindo habilidades em análise de dados e integração de IA. Seu background em Product Management e Program Management, juntamente com a sólida experiência em ambientes de alta escala, tornam-no um excelente candidato para esta posição. Não foram identificados gaps críticos no perfil do candidato em relação aos requisitos da vaga.",
+      "main_gap": "Nenhum gap crítico identificado.",
+      "company": "Coders Connect",
+      "location": "",
+      "title": "Technical Product Manager",
+      "url": "",
+      "id": "784a9489bfd2745e8940ea63544ec3f9c0e574dc832ddc54a490061b5b3915c3",
+      "id_hash": "784a9489bfd2745e8940ea63544ec3f9c0e574dc832ddc54a490061b5b3915c3",
+      "core_requirements": [
+        {
+          "requirement": "3 to 5 years of experience in product management within software development environments",
+          "category": "seniority",
+          "evidence": "~3 years in PM/TPM tech roles",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Strong understanding of technical workflow systems, ideally within video streaming or live services platforms",
+          "category": "technical",
+          "evidence": "Coordinated 3 teams, 25 engineers in global 200+ engineer program. Leverage understanding of video streaming systems and technical workflow platforms to build scalable, reliable solutions.",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Hands-on experience with Agile methodologies and backlog management",
+          "category": "technical",
+          "evidence": "Reorganized teams from component to product-oriented, reduced delivery cycle from 3 sprints to 1. Participated in sprint planning, standups, story writing, and other scrum ceremonies.",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Excellent communication skills with the ability to collaborate across technical and non-technical teams",
+          "category": "leadership",
+          "evidence": "Coordinated 3 teams, 25 engineers in global 200+ engineer program. Worked closely with engineering, operations, and product stakeholders to ensure timelines and launches.",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Passion for the streaming media landscape and the drive to shape its future",
+          "category": "domain",
+          "evidence": "Genuine passion for the streaming media landscape and drive to shape its future.",
+          "has_evidence": true
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "3 to 5 years",
+        "candidate_has": "~3 years in PM/TPM tech roles",
+        "gap": false
+      },
+      "source": "linkedin"
+    }
+  ]
+}

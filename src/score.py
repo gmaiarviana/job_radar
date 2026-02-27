@@ -334,7 +334,7 @@ def main():
 
     filtered_path = filtered_files[0]
 
-    run_time = datetime.now()
+    run_time = datetime.now().astimezone()
     scored_filename = f"{run_time:%Y-%m-%d_%H%M%S}.json"
     scored_path = SCORED_DIR / scored_filename
     scored_path.parent.mkdir(parents=True, exist_ok=True)

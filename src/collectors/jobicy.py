@@ -55,7 +55,9 @@ def collect_jobicy() -> list[dict]:
     Coletor: API Jobicy (industry=product, count=50).
     Retorna lista de jobs brutos para normalização (últimas 48h).
     """
-    cutoff = datetime.now(timezone.utc) - timedelta(hours=JOBICY_RECENT_HOURS)
+    # Cutoff em horário local (últimas N horas no fuso do usuário)
+    now_local = datetime.now().astimezone()
+    cutoff = now_local - timedelta(hours=JOBICY_RECENT_HOURS)
     url = f"{JOBICY_BASE_URL}?industry=product&count={JOBICY_COUNT}"
     print(f"{LOG_PREFIX} Coletor jobicy (industry=product, count={JOBICY_COUNT})...")
 
@@ -85,8 +87,11 @@ def collect_jobicy() -> list[dict]:
     added = 0
 
     for j in jobs:
-        pub = _parse_jobicy_date(j.get("pubDate"))
-        if pub is None or pub < cutoff:
+        pub_utc = _parse_jobicy_date(j.get("pubDate"))
+        if pub_utc is None:
+            continue
+        pub_local = pub_utc.astimezone()
+        if pub_local < cutoff:
             continue
         raw_industry = j.get("jobIndustry")
         if isinstance(raw_industry, list):

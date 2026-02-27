@@ -35,7 +35,9 @@ def collect_remotive() -> list[dict]:
     Coletor: API Remotive (product + project-management).
     Retorna lista de jobs brutos para normalização (últimas 48h).
     """
-    cutoff = datetime.now(timezone.utc) - timedelta(hours=REMOTIVE_RECENT_HOURS)
+    # Cutoff em horário local (últimas N horas no fuso do usuário)
+    now_local = datetime.now().astimezone()
+    cutoff = now_local - timedelta(hours=REMOTIVE_RECENT_HOURS)
     all_raw: list[dict] = []
 
     for category in REMOTIVE_CATEGORIES:
@@ -53,8 +55,11 @@ def collect_remotive() -> list[dict]:
         jobs = data.get("jobs") or []
         added = 0
         for j in jobs:
-            pub = _parse_remotive_date(j.get("publication_date"))
-            if pub is None or pub < cutoff:
+            pub_utc = _parse_remotive_date(j.get("publication_date"))
+            if pub_utc is None:
+                continue
+            pub_local = pub_utc.astimezone()
+            if pub_local < cutoff:
                 continue
             all_raw.append({
                 "title": j.get("title"),

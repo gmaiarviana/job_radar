@@ -5,7 +5,7 @@ Usado pelo pipeline de fetch e, se necessário, por score/outros módulos.
 """
 
 import hashlib
-from datetime import datetime, timezone
+from datetime import datetime
 
 JOB_SCHEMA_KEYS = (
     "id_hash",
@@ -40,7 +40,7 @@ def normalize_job(raw: dict, source: str) -> dict:
         str(raw.get("jd_full") or raw.get("description") or raw.get("requirements") or "")
     ).strip()
 
-    collected_at = datetime.now(timezone.utc).isoformat()
+    collected_at = datetime.now().astimezone().isoformat()
 
     return {
         "id_hash": id_hash,

@@ -10,7 +10,7 @@ import sys
 import io
 import json
 import argparse
-from datetime import date, datetime, timezone
+from datetime import date, datetime
 from pathlib import Path
 from typing import Any
 
@@ -193,7 +193,7 @@ def main():
             json.dump(
                 {
                     "date": args.date,
-                    "discarded_at": datetime.now(timezone.utc).isoformat(),
+                    "discarded_at": datetime.now().astimezone().isoformat(),
                     "total": len(discarded),
                     "by_reason": by_reason,
                     "items": discarded,
@@ -221,7 +221,7 @@ def main():
     }
 
     output_data = {
-        "fetched_at": datetime.now(timezone.utc).isoformat(),
+        "fetched_at": datetime.now().astimezone().isoformat(),
         "date": args.date,
         "config_used": {
             "roles": roles,

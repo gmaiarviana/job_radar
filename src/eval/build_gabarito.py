@@ -7,7 +7,7 @@ Uses make_id_hash(company, title) from job_schema; outputs data/eval/gabarito_se
 from __future__ import annotations
 
 import json
-from datetime import datetime, timezone
+from datetime import datetime
 from pathlib import Path
 
 from src.job_schema import make_id_hash
@@ -146,7 +146,7 @@ def main() -> None:
 
     out = {
         "description": "Gabarito de eliminação — 42 vagas que devem ser descartadas (título ou localização)",
-        "created_at": datetime.now(timezone.utc).isoformat(),
+        "created_at": datetime.now().astimezone().isoformat(),
         "total": total,
         "entries": entries,
     }

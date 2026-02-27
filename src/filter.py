@@ -225,7 +225,7 @@ def main() -> None:
 
     # Jobs salvos com dados intactos (jd_full sem truncamento)
     output = {
-        "filtered_at": datetime.now().isoformat(),
+        "filtered_at": datetime.now().astimezone().isoformat(),
         "source_file": raw_path.name,
         "summary": {
             "total_input": total_input,
