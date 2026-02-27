@@ -1,7 +1,7 @@
 """
 app.py — Interface Streamlit do Job Radar.
 
-Épico 6 | UI funcional mínima: tabela unificada de vagas + LinkedIn paste-and-score.
+Épico 6 | UI funcional mínima: tabela unificada de vagas + Busca Manual (paste-and-score).
 
 Uso:
     streamlit run app.py
@@ -135,7 +135,7 @@ def _render_vagas():
     )
 
     if not jobs_with_meta:
-        st.info("Nenhuma vaga scored encontrada. Execute o pipeline (`python src/fetch.py` e `python src/score.py`) ou use a aba LinkedIn para avaliar vagas manualmente.")
+        st.info("Nenhuma vaga scored encontrada. Execute o pipeline (`python src/fetch.py` e `python src/score.py`) ou use a aba Busca Manual para avaliar vagas manualmente.")
         return
 
     for item in jobs_with_meta:
@@ -220,10 +220,10 @@ def _render_vagas():
                 st.markdown(f"**Link:** [Abrir vaga]({url})")
 
 
-# --- Helpers: LinkedIn (links + scoring) ---
-def _load_linkedin_searches() -> list[dict]:
-    """Carrega config/linkedin_searches.yaml; retorna lista de {name, url}."""
-    path = Path("config/linkedin_searches.yaml")
+# --- Helpers: Busca Manual (links + scoring) ---
+def _load_manual_searches() -> list[dict]:
+    """Carrega config/manual_searches.yaml; retorna lista de {name, url}."""
+    path = Path("config/manual_searches.yaml")
     if not path.exists():
         return []
     try:
@@ -325,12 +325,12 @@ def _render_job_result_detail(job: dict) -> None:
         st.markdown(f"**Justificativa:** {job['justification']}")
 
 
-# --- Página 2: LinkedIn — Links + Paste-and-score ---
+# --- Página 2: Busca Manual — Links + Paste-and-score ---
 def _render_linkedin():
-    # Seção 1: Links LinkedIn
-    searches = _load_linkedin_searches()
+    # Seção 1: Links de busca
+    searches = _load_manual_searches()
     if searches:
-        st.subheader("Links de busca (LinkedIn Jobs)")
+        st.subheader("Links de busca")
         cols = st.columns(min(len(searches), 5))
         for i, item in enumerate(searches):
             name = item.get("name") or "Link"
@@ -408,9 +408,9 @@ def _render_linkedin():
 # --- Main ---
 def main():
     st.title("📡 Job Radar")
-    st.caption("Vagas scored do pipeline + manuais (LinkedIn)")
+    st.caption("Vagas scored do pipeline + manuais (Busca Manual)")
 
-    tab1, tab2 = st.tabs(["Vagas", "LinkedIn"])
+    tab1, tab2 = st.tabs(["Vagas", "Busca Manual"])
     with tab1:
         _render_vagas()
     with tab2:

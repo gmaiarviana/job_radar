@@ -7,7 +7,7 @@ Este documento mapeia onde cada informação "mora" para evitar duplicação.
 | **Narrativa de Carreira** | `config/career_narrative.md` |
 | **Perfil Condensado (Scoring)** | `config/profile.md` |
 | **Parâmetros de Busca (Pesos)** | `config/search.yaml` |
-| **Links de busca (LinkedIn)** | `config/linkedin_searches.yaml` |
+| **Links de busca (Busca Manual)** | `config/manual_searches.yaml` |
 | **Prompt de Scoring** | `src/score.py` |
 | **Prompt de Geração (CV/CL)** | `src/generate.py` |
 | **Voz do Usuário (Templates)** | `config/cover_letter_template.md` & `config/resume_base.md` |
