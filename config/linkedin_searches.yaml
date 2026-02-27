@@ -1,7 +1,9 @@
 # config/linkedin_searches.yaml
-# Links de busca no LinkedIn Jobs — filtro remote + últimas 24h
-# Usado pela UI (Épico 6.3) para exibir links clicáveis
-# Nota: "Product Manager" já retorna Senior PM, Associate PM, AI PM nos resultados.
+# Links de busca no LinkedIn Jobs e Feeds — filtro remote + últimas 24h (Jobs)
+# Usado pela UI (Épico 6.3) para exibir links clicáveis.
+# Revisão Fev 2026: análise de retorno por feed mostrou que 5 de 12 botões geravam zero ou baixo retorno.
+# Cortados: Delivery Manager, Strategy Ops, Product Analyst (Jobs); Hiring Delivery Mgr, PM Worldwide, We're Hiring PM, Hiring PM Remote (Feeds).
+# Mantidos/novos: 4 Jobs (PM, TPM, Product Ops, Technical PM) + 4 Feeds (Hiring TPM, PM LATAM, AI PM, Technical PM).
 
 searches:
   - name: "Product Manager Remote"
@@ -10,19 +12,11 @@ searches:
   - name: "Technical Program Manager Remote"
     url: "https://www.linkedin.com/jobs/search/?keywords=Technical%20Program%20Manager&f_WT=2&sortBy=DD&f_TPR=r86400"
 
-  - name: "Delivery Manager Remote"
-    url: "https://www.linkedin.com/jobs/search/?keywords=Delivery%20Manager&f_WT=2&sortBy=DD&f_TPR=r86400"
+  - name: "Product Operations Manager Remote"
+    url: "https://www.linkedin.com/jobs/search/?keywords=Product%20Operations%20Manager&f_WT=2&sortBy=DD&f_TPR=r86400"
 
-  - name: "Strategy Operations Manager Remote"
-    url: "https://www.linkedin.com/jobs/search/?keywords=Strategy%20Operations%20Manager&f_WT=2&sortBy=DD&f_TPR=r86400"
-
-  - name: "Product Analyst Remote"
-    url: "https://www.linkedin.com/jobs/search/?keywords=Product%20Analyst&f_WT=2&sortBy=DD&f_TPR=r86400"
-
-  # --- Feed (posts de conteúdo, não LinkedIn Jobs) ---
-  # Posts de hiring managers no feed. Ordenados por data. Fluxo: escanear → colar JD no paste-and-score.
-  - name: "Feed: Hiring PM Remote"
-    url: "https://www.linkedin.com/search/results/content/?keywords=hiring%20product%20manager%20remote&sortBy=date_posted"
+  - name: "Technical Product Manager Remote"
+    url: "https://www.linkedin.com/jobs/search/?keywords=Technical%20Product%20Manager&f_WT=2&sortBy=DD&f_TPR=r86400"
 
   - name: "Feed: Hiring TPM Remote"
     url: "https://www.linkedin.com/search/results/content/?keywords=hiring%20program%20manager%20remote&sortBy=date_posted"
@@ -30,14 +24,8 @@ searches:
   - name: "Feed: Hiring PM LATAM"
     url: "https://www.linkedin.com/search/results/content/?keywords=hiring%20product%20manager%20latam&sortBy=date_posted"
 
-  - name: "Feed: Hiring Delivery Mgr"
-    url: "https://www.linkedin.com/search/results/content/?keywords=hiring%20delivery%20manager%20remote&sortBy=date_posted"
-
   - name: "Feed: Hiring AI PM"
     url: "https://www.linkedin.com/search/results/content/?keywords=hiring%20AI%20product%20manager&sortBy=date_posted"
 
-  - name: "Feed: We're Hiring PM"
-    url: "https://www.linkedin.com/search/results/content/?keywords=we%27re%20hiring%20product%20manager&sortBy=date_posted"
-
-  - name: "Feed: Hiring PM Worldwide"
-    url: "https://www.linkedin.com/search/results/content/?keywords=hiring%20product%20manager%20worldwide&sortBy=date_posted"
+  - name: "Feed: Hiring Technical PM Remote"
+    url: "https://www.linkedin.com/search/results/content/?keywords=hiring%20technical%20product%20manager%20remote&sortBy=date_posted"
