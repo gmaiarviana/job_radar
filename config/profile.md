@@ -29,7 +29,7 @@ Program & Product Manager com experiência em análise de dados e experimentaç�
 - **Localização:** Apenas remote LATAM ou remote Worldwide. Vagas US-only, EU-only, on-site = descarte imediato.
 - **Salário:** Mínimo $5.500 USD/mês. Vagas sem salário listado = penalizar (não descartar automaticamente).
 - **Idioma da vaga:** Vaga inteiramente em PT-BR ou espanhol = red flag (mercado local, não internacional).
-- **Nível:** Vagas junior, pleno sem senioridade, ou estágio = descarte.
+- **Nível:** Estágio e Intern = descarte. Demais níveis (Associate, Mid, Senior, etc.): avaliar por salário e escopo — se o escopo for compatível e o salário ≥ $5.500 USD/mês, manter.
 - **Tipo de cargo:** Vagas puramente técnicas (Engineering Manager, SWE) ou marketing sem componente de produto = descarte.
 
 ## Preferências (não eliminatórias, influenciam score)

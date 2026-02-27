@@ -1,6 +1,6 @@
 # ROADMAP - Job Radar
 
-📡 **Status:** Pipeline completo (fetch → filter → score). Épico 5 concluído. Próximo: **Épico 6 (UI Funcional)**.
+📡 **Status:** Pipeline completo (fetch → filter → score). Épico 5 e Épico 6.1–6.3 (UI mínima) concluídos. Próximo: polimento da UI (Épico 7) ou itens pendentes do 6.
 
 > **Filosofia:** POC → Protótipo → MVP. Validar cada etapa antes de avançar. Qualidade antes de volume.
 
@@ -12,11 +12,13 @@
 
 **Épico 5 — Qualidade de scoring:** Prompt em 2 chamadas (analyze_job → compute_ceiling → score_with_analysis), validado no seed; ceiling em Python; arquivos scored por data/hora; filter/score com exclusão de `*_discarded.json` e `seed_*`. Pipeline end-to-end validado (fetch → filter → score).
 
+**Épico 6.1–6.3 — UI funcional mínima:** 6.1 `config/linkedin_searches.yaml` com buscas LinkedIn; 6.2 Página Vagas (tabela unificada de `data/scored/`, filtro por data, cards com score/fonte/link); 6.3 Página LinkedIn (links clicáveis + formulário paste-and-score, resultado na tela, persistência em `manual_*.json` e `seen_jobs.json`).
+
 ---
 
 ## 📍 Próximos Épicos
 
-### ÉPICO 6: UI Funcional Mínima
+### ÉPICO 6: UI Funcional Mínima ✅ 6.1–6.3 concluídos
 
 **Objetivo:** Interface com valor imediato — monitorar LinkedIn, avaliar vagas manualmente, visualizar resultados do pipeline automático.
 

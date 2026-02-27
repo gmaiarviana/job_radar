@@ -1,0 +1,20 @@
+# config/linkedin_searches.yaml
+# Links de busca no LinkedIn Jobs — filtro remote + últimas 24h
+# Usado pela UI (Épico 6.3) para exibir links clicáveis
+# Nota: "Product Manager" já retorna Senior PM, Associate PM, AI PM nos resultados.
+
+searches:
+  - name: "Product Manager Remote"
+    url: "https://www.linkedin.com/jobs/search/?keywords=Product%20Manager&f_WT=2&sortBy=DD&f_TPR=r86400"
+
+  - name: "Technical Program Manager Remote"
+    url: "https://www.linkedin.com/jobs/search/?keywords=Technical%20Program%20Manager&f_WT=2&sortBy=DD&f_TPR=r86400"
+
+  - name: "Delivery Manager Remote"
+    url: "https://www.linkedin.com/jobs/search/?keywords=Delivery%20Manager&f_WT=2&sortBy=DD&f_TPR=r86400"
+
+  - name: "Strategy Operations Manager Remote"
+    url: "https://www.linkedin.com/jobs/search/?keywords=Strategy%20Operations%20Manager&f_WT=2&sortBy=DD&f_TPR=r86400"
+
+  - name: "Product Analyst Remote"
+    url: "https://www.linkedin.com/jobs/search/?keywords=Product%20Analyst&f_WT=2&sortBy=DD&f_TPR=r86400"
