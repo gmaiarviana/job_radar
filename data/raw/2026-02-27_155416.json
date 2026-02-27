@@ -1,0 +1,147 @@
+{
+  "fetched_at": "2026-02-27T15:57:53.708640-03:00",
+  "date": "2026-02-27",
+  "config_used": {
+    "roles": [
+      "Product Manager",
+      "Senior Product Manager",
+      "Technical Program Manager",
+      "TPM",
+      "AI Product Manager",
+      "Product Analyst",
+      "Strategy and Operations Manager",
+      "Delivery Manager",
+      "Program Manager"
+    ],
+    "locations": [
+      "remote LATAM",
+      "remote worldwide",
+      "remote"
+    ],
+    "lookback_hours": 24,
+    "sources": [
+      "openai_web_search",
+      "remotive",
+      "weworkremotely",
+      "jobicy",
+      "remoteok",
+      "getonboard",
+      "greenhouse",
+      "ashby"
+    ]
+  },
+  "coverage": {
+    "sources": [
+      "openai_web_search",
+      "remotive",
+      "weworkremotely",
+      "jobicy",
+      "remoteok",
+      "getonboard",
+      "greenhouse",
+      "ashby"
+    ],
+    "total_raw": 176,
+    "total_already_seen": 168,
+    "total_throttled": 0,
+    "total_after_recent_filter": 8,
+    "total_after_dedup": 7,
+    "total_after_quality_guard": 7,
+    "companies_distinct": 7,
+    "discarded_low_quality": 0
+  },
+  "total_jobs": 7,
+  "jobs": [
+    {
+      "id_hash": "84368f000bee522bc12d97d80a7d3f03acef1686fdc04f5969440c41a60d727e",
+      "id": "84368f000bee522bc12d97d80a7d3f03acef1686fdc04f5969440c41a60d727e",
+      "source": "openai_web_search",
+      "title": "Senior Product Manager, Ads AI/ML",
+      "company": "Disney Entertainment and ESPN Product & Technology",
+      "location": "Nova Iorque, Nova Iorque, Estados Unidos / São Francisco, Califórnia, Estados Unidos / Seattle, Washington, Estados Unidos",
+      "salary": null,
+      "jd_full": "Responsabilidades incluem: definição de requisitos de produto para recursos impulsionados por LLM, sistemas autônomos e automação inteligente, colaboração com engenharia, design e stakeholders multifuncionais para garantir a entrega de serviços escaláveis, resilientes e experiências de usuário intuitivas. Requisitos: experiência como Gerente de Produto Sênior liderando iniciativas de alto impacto em sistemas de publicidade e automação impulsionados por IA, forte profundidade técnica, pensamento sistêmico, comunicação clara e entrega com urgência, capacidade de liderar tanto o desenvolvimento iterativo de plataformas quanto a inovação de produtos do zero ao um dentro de uma equipe de alto impacto.",
+      "url": "https://empregos.disneycareers.com/vaga/nova-iorque/sr-product-manager-ads-ai-ml/391/90842187104",
+      "collected_at": "2026-02-27T15:54:25.686932-03:00",
+      "date": ""
+    },
+    {
+      "id_hash": "95086544c60cfc38bd4a6edf990dfa6a1d02439fde23617c053bc0fb0364d50f",
+      "id": "95086544c60cfc38bd4a6edf990dfa6a1d02439fde23617c053bc0fb0364d50f",
+      "source": "openai_web_search",
+      "title": "Product Manager - Remote (US or LATAM)",
+      "company": "Turbo AI",
+      "location": "Bogotá, Distrito Capital, Colômbia",
+      "salary": null,
+      "jd_full": "Responsabilidades incluem: gerenciamento de 2–3 fundadores simultaneamente, definição de expectativas claras e entrega de uma experiência excepcional, tradução de ideias em objetivos, roadmaps e planos semanais priorizados, escopo de recursos de ponta a ponta, colaboração com engenharia para desbloquear a entrega, simplificar soluções e responder à maioria das perguntas de viabilidade. Requisitos: experiência como Gerente de Produto, propriedade do ciclo de vida completo do produto, desde estratégia, escopo, protótipos, entrega, análise, qualidade, capacidade de trabalhar de forma autônoma em um ambiente acelerado, habilidades de comunicação excepcionais, experiência em trabalhar com fundadores e equipes multifuncionais.",
+      "url": "https://co.linkedin.com/jobs/view/product-manager-remote-us-or-latam-at-turbo-ai-4354417094",
+      "collected_at": "2026-02-27T15:54:25.686946-03:00",
+      "date": ""
+    },
+    {
+      "id_hash": "ae0070453376b5cc46a6566684ac8b1cc93b662c161c44465c2a6e389b1126c4",
+      "id": "ae0070453376b5cc46a6566684ac8b1cc93b662c161c44465c2a6e389b1126c4",
+      "source": "weworkremotely",
+      "title": "Technical Project Manager - Atlanta, GA",
+      "company": "AHU Technologies",
+      "location": "",
+      "salary": null,
+      "jd_full": "<p>\n  <strong>Headquarters:</strong> Washington, DC 20009\n    <br /><strong>URL:</strong> <a href=\"http://ahutech.com\">http://ahutech.com</a>\n</p>\n\n<div class=\"job-description-container\">\n<div class=\"trix-content\">\n<div>\n<strong>Short Description: </strong>Experienced Project Managers needed for medium to large sized enterprise projects of moderate to high complexity and risk in a fast-paced, hybrid environment. Candidate should have experience in both IT and business projects.<br><br>\n</div><div><strong><br> Complete Description: </strong></div><div>The Client has embarked on a multi-year initiative to modernize the existing environment to a more current and cost-effective distributed environment. It will involve replacing existing legacy business applications with COTS products or internally developed applications.<br> <br> The position, assigned to the Project Management Office, will direct and coordinate project activities, including but not limited to:<br> • Planning<br> • Schedule development and maintenance<br> • Resource tracking<br> • Risk management<br> • Communications management<br> • Reporting<br> • Quality management<br> • Vendor management<br> <br> Primary duties will be to manage all aspects of the project following PMI best practices and the Client Project Management Methodology.<br> <br> Successful candidates will be accomplished project managers who have directed and successfully managed, from start to finish, complex, technology projects with aggressive timelines.<br> <br> <strong>Required Skills: A MUST</strong><br> • Project Management Certification (PMP).<br> • Demonstrated success managing large complex programs/projects utilizing multiple delivery methodologies (Agile, Waterfall, SCRUM, Kanban)<br> • Documented recent experience in:<br> o Business requirements gathering.<br> o Business process documentation.<br> o full Systems Development Life Cycle and Testing Methodologies<br> • Candidates must have managed at least two full lifecycle agile software development projects (initiation through deployment/warranty) with project teams in excess of 10 team members, and must have had FULL end-to-end accountability for the project management role. Demonstrated experience managing IT projects that impact across the enterprise –Experience must be related to software application development and implementation. Experience collaborating with vendor partners in the delivery of project solutions required.<br> • Well-developed communication skills – oral, written, listening. Good analytical and negotiation skills, and close attention to detail.<br> • Must have excellent leadership, interpersonal, and motivation skills.<br> • Expert level knowledge of standard PM tools (MS Project Professional, SharePoint, Visio, MS Office Suite)<br> <br> </div><div><strong>Technical Skills:</strong></div><div>·       PMP (PMI) certification - active status (Must Upload Certification)</div><div>·       CSM (Scrum Alliance) certification and/or PMI-ACP certification - active status (MUST UPLOAD CERTIFICATION)</div><div>·       IT process and methodology (agile, scrum)</div><div>·       Business analysis</div><div>·       Integration planning and strategy</div><div>·       Recently managed at least two full lifecycle agile development projects with project teams of >= 10 members</div><div>·       Vendor management</div><div>·       COTS product implementation</div><div>·       Expert level knowledge of standard PM tools (MS Project Professional, SharePoint)</div><div>·       Well-developed communication skills – oral, written, listening. Good analytical and negotiation skills, and close attention to detail</div><div>·       Project Server/Project Online</div>\n</div>\n<p>This is a remote position.</p>\n<div class=\"job-compensation\">\n          Compensation: $55.00 - $60.00 per hour\n        </div>\n<br><br><br> <div class=\"account_description\">\n<h1>About Us</h1> <div><strong>AHU Technologies INC. </strong>is an IT consulting and permanent staffing firm that meets and exceeds the evolving IT service needs of leading corporations within the United States. We have been providing IT solutions to customers from different industry sectors, helping them control costs and release internal resources to focus on strategic issues. <br><br></div> <div><strong>AHU Technologies INC.</strong> was co-founded by visionary young techno-commercial entrepreneurs who remain as our principal consultants. Maintaining working relationships with a cadre of other highly skilled independent consultants, we have a growing number of resources available for development projects. We are currently working on Various projects such as media entertainment, ERP Solutions, data warehousing, Web Applications, Telecommunications and medical to our clients all over the world.<br><br></div>\n</div>\n<br></div>\n\n<p><strong>To apply:</strong> <a href=\"https://weworkremotely.com/remote-jobs/ahu-technologies-technical-project-manager-atlanta-ga\">https://weworkremotely.com/remote-jobs/ahu-technologies-technical-project-manager-atlanta-ga</a></p>",
+      "url": "https://weworkremotely.com/remote-jobs/ahu-technologies-technical-project-manager-atlanta-ga",
+      "collected_at": "2026-02-27T15:54:26.401560-03:00",
+      "date": "Fri, 20 Feb 2026 16:07:46 +0000"
+    },
+    {
+      "id_hash": "e689a3031c659ef5c55b5832773eb214473dd332dba245eff3d28b319383ef5b",
+      "id": "e689a3031c659ef5c55b5832773eb214473dd332dba245eff3d28b319383ef5b",
+      "source": "remoteok",
+      "title": "Senior Technical Program Manager Money Movement",
+      "company": "Human Interest",
+      "location": "United States",
+      "salary": "0",
+      "jd_full": "<div><p><img src=\"https://hi-contentful.imgix.net/4xN7JhmwCRuz3y9M8L8CF7/5c244c52cfc982bd1a348a80dc35d43b/hi-logo-new.svg?auto=format&amp;ixlib=react-9.0.3&amp;h=40&amp;w=132&amp;q=50&amp;dpr=2\" alt=\"hi-logo\" width=\"132\" style=\"max-width: 100%;\"></p></div><div><p><strong>Human Interest is on a mission to ensure that people in all lines of work have access to retirement benefits.</strong>&nbsp;</p>\n<p>More than half of all working Americans are not saving enough for their future. Too often, itâs because they are employed by a company that doesnât offer a retirement plan. Human Interest is changing that by making it affordable and accessible for small and medium-sized businesses to offer employees a path to financial independence through retirement savings.</p>\n<p>Weâre a high-growth fintech company changing the retirement industry. We are backed by a number of investors. This includes funding from Marshall Wace and Baillie Gifford, as well as top investors such as <a href=\"https://www.globenewswire.com/news-release/2023/01/13/2588448/0/en/Human-Interest-and-BlackRock-Join-Efforts-to-Expand-Access-to-Retirement-Plans-for-Working-Americans.html#:~:text=Human%20Interest%20has%20secured%20approximately%20%24500%20million%20in%20funding%20to%20date&amp;text=NEW%20YORK%20and%20SAN%20FRANCISCO,businesses%20across%20the%20United%20States.\">BlackRock</a>, <a href=\"https://www.globenewswire.com/news-release/2021/08/04/2274611/0/en/The-Rise-Fund-Leads-200M-Series-D-Investment-in-Human-Interest-to-Accelerate-Growth-and-Societal-Impact.html\">TPG (The Rise Fund)</a>, SoftBank, <a href=\"https://www.globenewswire.com/news-release/2021/02/11/2174214/0/en/Human-Interest-Completes-105M-Series-C-Following-Breakout-Year-in-2020.html\">Glynn Capital</a>, NewView Capital, USVP, Wing, Uncork, and more.</p>\n<p><strong>About the role</strong></p>\n<p>The Senior Technical Program Manager for Money Movement will be the engine of trust and precision at the heart of our financial operations, mastering the flow of every dollar. You will ensure clients experience flawless, lightning-fast deposits and withdrawals, guaranteeing that every single penny is tracked with unyielding accuracy an<br/><br/>Please mention the word **REFORM** and tag RMjgwNDo0NWM0OjVjNzo5OTAwOmRkMjo2MTZlOjJlNzI6ZDcyNg== when applying to show you read the job post completely (#RMjgwNDo0NWM0OjVjNzo5OTAwOmRkMjo2MTZlOjJlNzI6ZDcyNg==). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+      "url": "https://remoteOK.com/remote-jobs/remote-senior-technical-program-manager-money-movement-human-interest-1130528",
+      "collected_at": "2026-02-27T15:54:28.487734-03:00",
+      "date": "2026-02-24T22:00:05+00:00"
+    },
+    {
+      "id_hash": "1eaeefac1fbeec6db165515c1b823db6c36ed1a2e414b9e1ffd7d75c535410e9",
+      "id": "1eaeefac1fbeec6db165515c1b823db6c36ed1a2e414b9e1ffd7d75c535410e9",
+      "source": "remoteok",
+      "title": "Senior Product Manager",
+      "company": "INFUSE",
+      "location": "Remote",
+      "salary": "0",
+      "jd_full": "<div><p><strong>OUR HIRING PROCESS:</strong></p>\n<ul>\n<li>We will review your application against our job requirements. We do not employ machine learning technologies during this phase as we believe every human deserves attention from another human. We do not think machines can evaluate your application quite like our seasoned recruiting professionalsâevery person is unique. We promise to give your candidacy a fair and detailed assessment.</li>\n<li>We may then invite you to submit a video interview for the review of the hiring manager. This video interview is often followed by a test or short project that allows us to determine whether you will be a good fit for the team.</li>\n<li>At this point, we will invite you to interview with our hiring manager and/or the interview team. Please note: We do not conduct interviews via text message, Telegram, etc. and we never hire anyone into our organization without having met you face-to-face (or via Zoom). You will be invited to come to a live meeting or Zoom, where you will meet our INFUSE team.</li>\n<li>From there on, it's decision time! If you are still excited to join INFUSE and we like you as much, we will have a conversation about your offer. We do not make offers without giving you the opportunity to speak with us live.Â <br><br><span data-teams=\"true\">INFUSE is committed to complying with applicable data privacy and security laws and regulations. For more information, please see ourÂ <a id=\"menur2ok1\" class=\"fui-Link ___1q1shib f2hkw1w f3rmtva f1ewtqcl fyind8e f1k6fduh f1w7gpdv fk6fouc fjoy568 figsok6 f1s184ao f1mk8lai fnbmjn9 f1o700av f13mvf36 f1cmlufx f9n3di6 f1ids18y f1tx3yz7 f1deo86v f1eh06m1 f1iescvh fhgqx19 f1olyrje f1p93eir f1nev41a f1h8hb77 f1lqvz6u f10aw75t fsle3fq f17ae5zn\" href=\"https://infuse.com/privacy-policy/\" target=\"_blank\">Privacy Policy</a></span></li>\n</ul>\n<p>Â </p></div><div><p>We are seeking an experienced <strong>Product Manager</strong> to lead the strategy, development, and <strong>implementation </strong>of the new systems, tools, and business processes that will power the next stage of growth.</p>\n<hr>\n<h3><strong>Key Responsibilities</strong></h3>\n<ul>\n<li>Partner with leadership and department heads to define<br/><br/>Please mention the word **TINGLE** and tag RMjgwNDo0NWM0OjVjNzo5OTAwOmRkMjo2MTZlOjJlNzI6ZDcyNg== when applying to show you read the job post completely (#RMjgwNDo0NWM0OjVjNzo5OTAwOmRkMjo2MTZlOjJlNzI6ZDcyNg==). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+      "url": "https://remoteOK.com/remote-jobs/remote-senior-product-manager-infuse-1130523",
+      "collected_at": "2026-02-27T15:54:28.487774-03:00",
+      "date": "2026-02-24T14:00:07+00:00"
+    },
+    {
+      "id_hash": "ca366212b717c61707c24891c52286bd4109459148dd0c90ae8933a16e1b001a",
+      "id": "ca366212b717c61707c24891c52286bd4109459148dd0c90ae8933a16e1b001a",
+      "source": "remoteok",
+      "title": "Product Manager Customer Care",
+      "company": "RYZ Labs",
+      "location": "Buenos Aires",
+      "salary": "0",
+      "jd_full": "Remote position for professionals based in Argentina or Uruguay At Ryz Labs, we are seeking a Product Manager â Customer Care to lead the strategy, optimization, and integration of our customer support ecosystem for one of our clients. This role will own the roadmap and performance of all customer care platforms, ensuring seamless contact routing, CRM integration, and operational excellence across global teams. Key Responsibilities Product Ownership & Strategy Own the end-to-end product lifecycle for all Customer Care platforms. Define and execute the roadmap for customer support tools and integrations. Identify optimization opportunities to improve customer experience, response times, and operational efficiency. Align product initiatives with overall ecommerce and business goals. CRM & Platform Management (Required) Manage and optimize CRM and contact center platforms, including: - Salesforce - NICE inContact - RingCentral - HubSpot Oversee integration and performance across all sy<br/><br/>Please mention the word **INTRIGUE** and tag RMjgwNDo0NWM0OjVjNzo5OTAwOmRkMjo2MTZlOjJlNzI6ZDcyNg== when applying to show you read the job post completely (#RMjgwNDo0NWM0OjVjNzo5OTAwOmRkMjo2MTZlOjJlNzI6ZDcyNg==). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+      "url": "https://remoteOK.com/remote-jobs/remote-product-manager-customer-care-ryz-labs-1130495",
+      "collected_at": "2026-02-27T15:54:28.487789-03:00",
+      "date": "2026-02-22T00:00:04+00:00"
+    },
+    {
+      "id_hash": "e14f91b81bd04612b56ce3c139b23b0b0d2f0ae4e3dabc75699eb176290d4d24",
+      "id": "e14f91b81bd04612b56ce3c139b23b0b0d2f0ae4e3dabc75699eb176290d4d24",
+      "source": "remoteok",
+      "title": "Senior Product Manager Platform Life Sciences",
+      "company": "SciLeads",
+      "location": "",
+      "salary": "0",
+      "jd_full": "<p><strong>About SciLeads:&nbsp;</strong></p>\n<p>SciLeads is a fast-growing, remote-first SaaS company helping reshape how scientific companies do sales and marketing. With over 90 people across the UK, Canada, and beyond, and plans to grow to 150+ in the next two years, our culture of openness, flexibility and innovation drives everything we do.</p>\n<p>Weâre an award winning company, and have been listed as one of Deloitteâs fastest growing tech companies for five years in a row. We are passionate about putting people first and committed to creating an outstanding employee experience as a remote working company. Come grow your career with us!</p>\n<p>&nbsp;</p>\n<p><strong>About the Role:</strong></p>\n<p>We are looking for an experienced Senior Product Manager to turn SciLeads' product strategy into clear, high-impact execution across our platform and portfolio. You will own the translation of vision into actionable roadmaps, prioritised initiatives, and measurable outcomes that drive customer value and commercial growth. This role operates in a fast-paced, scale-up environment. Success requires comfort with ambiguity, rapid context switching, high accountability, and the ability to make confident decisions without extensive structure or iteration. You will identify market opportunities, define compelling value propositions, and ensure our products remain competitive, differentiated, and aligned to customer needs. As a senior leader within the Product function, you will help shape portfolio direction, raise the bar on product practice, and ensure consistent, high-quality execution across teams.</p>\n<p>Working closely with Product, Engineering, Data Ops and Commercial you will lead cross-functional delivery, support key product managers, and provide strong product leadership across the team to deliver an AI-powered marke<br/><br/>Please mention the word **EXPERTLY** and tag RMjgwNDo0NWM0OjVjNzo5OTAwOmRkMjo2MTZlOjJlNzI6ZDcyNg== when applying to show you read the job post completely (#RMjgwNDo0NWM0OjVjNzo5OTAwOmRkMjo2MTZlOjJlNzI6ZDcyNg==). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+      "url": "https://remoteOK.com/remote-jobs/remote-senior-product-manager-platform-life-sciences-scileads-1130484",
+      "collected_at": "2026-02-27T15:54:28.487802-03:00",
+      "date": "2026-02-21T00:00:54+00:00"
+    }
+  ]
+}
