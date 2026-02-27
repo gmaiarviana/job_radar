@@ -1,0 +1,230 @@
+{
+  "scored_at": "2026-02-27T16:02:19.134305-03:00",
+  "source_file": "2026-02-27_155416.json",
+  "summary": {
+    "total_input": 3,
+    "total_llm_eliminated": 0,
+    "total_scored": 3,
+    "total_top": 2
+  },
+  "jobs": [
+    {
+      "score": 90,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato possui experiência sólida em gerenciamento de programas e projetos complexos, utilizando múltiplas metodologias ágeis e tradicionais. Sua experiência em análise de requisitos de negócios, documentação de processos e todo o ciclo de desenvolvimento e testes de sistemas está bem alinhada com os requisitos da vaga. Além disso, o candidato tem experiência em gerenciar projetos de TI que impactam toda a organização, com foco em desenvolvimento e implementação de software. Seu perfil se enquadra perfeitamente na faixa de 85-100 pontos.",
+      "main_gap": "Nenhum gap significativo identificado. O candidato possui experiência e qualificações que atendem plenamente aos requisitos centrais da vaga.",
+      "company": "AHU Technologies",
+      "location": "",
+      "title": "Technical Project Manager - Atlanta, GA",
+      "url": "https://weworkremotely.com/remote-jobs/ahu-technologies-technical-project-manager-atlanta-ga",
+      "id": "ae0070453376b5cc46a6566684ac8b1cc93b662c161c44465c2a6e389b1126c4",
+      "core_requirements": [
+        {
+          "requirement": "PMP (PMI) certification - active status (Must Upload Certification)",
+          "category": "technical",
+          "evidence": "Possui certificação PMP, conforme mencionado no perfil.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Demonstrated success managing large complex programs/projects utilizing multiple delivery methodologies (Agile, Waterfall, SCRUM, Kanban)",
+          "category": "technical",
+          "evidence": "Possui experiência em gerenciamento de projetos complexos com diferentes metodologias, incluindo Agile, Waterfall, SCRUM e Kanban.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Documented recent experience in: o Business requirements gathering. o Business process documentation. o full Systems Development Life Cycle and Testing Methodologies",
+          "category": "technical",
+          "evidence": "O candidato possui experiência em análise de requisitos de negócios, documentação de processos de negócios e em todo o ciclo de desenvolvimento e testes de sistemas.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Must have managed at least two full lifecycle agile software development projects (initiation through deployment/warranty) with project teams in excess of 10 team members, and must have had FULL end-to-end accountability for the project management role",
+          "category": "seniority",
+          "evidence": "O candidato tem experiência em gerenciamento de projetos de desenvolvimento de software Agile com equipes de mais de 10 membros, assumindo responsabilidade integral pelo papel de gerenciamento de projeto.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Demonstrated experience managing IT projects that impact across the enterprise – Experience must be related to software application development and implementation",
+          "category": "domain",
+          "evidence": "O candidato possui experiência em gerenciar projetos de TI que impactam toda a organização, com foco no desenvolvimento e implementação de aplicações de software.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Demonstrated success managing large complex programs/projects utilizing multiple delivery methodologies (Agile, Waterfall, SCRUM, Kanban)",
+        "candidate_has": "~7 years of management experience, including ~3 years in tech PM/TPM roles",
+        "gap": false
+      }
+    },
+    {
+      "score": 95,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato Guilherme Maia apresenta experiência direta no domínio central da vaga de Senior Product Manager, com evidências concretas em seu perfil. Ele possui ~7 anos de experiência em gestão, incluindo cerca de 3 anos em papéis de PM/TPM em empresas de tecnologia, com ampla experiência em habilidades essenciais como gestão de programa, análise de dados, experimentação com IA e liderança cross-funcional. Seu background se alinha muito bem com as principais responsabilidades da vaga.",
+      "main_gap": "Não há gaps significativos identificados no perfil do candidato em relação às exigências centrais desta vaga de Senior Product Manager.",
+      "company": "INFUSE",
+      "location": "Remote",
+      "title": "Senior Product Manager",
+      "url": "https://remoteOK.com/remote-jobs/remote-senior-product-manager-infuse-1130523",
+      "id": "1eaeefac1fbeec6db165515c1b823db6c36ed1a2e414b9e1ffd7d75c535410e9",
+      "core_requirements": [
+        {
+          "requirement": "Partner with leadership and department heads to define",
+          "category": "leadership",
+          "evidence": "Coordenou 3 equipes, 25 engenheiros em programa global de 200+ engenheiros. Liderou PoC GenAI que contribuiu para novo contrato com cliente.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Implementation of new systems, tools, and business processes",
+          "category": "domain",
+          "evidence": "Reorganizou equipes de component-oriented para product-oriented → reduziu ciclo de entrega de 3 sprints para 1. Reduziu ciclo de deploy de 30 para 15 dias. Construiu ferramentas internas de IA (validação de timesheet: de 40 min → 10 min/semana).",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Strategy and development of new systems, tools, and business processes",
+          "category": "technical",
+          "evidence": "Experiência em análise de dados e experimentação com IA, incluindo GenAI PoCs, LLM Integration, Prompt Engineering. Habilidades em SQL, Python, Spark/Scala, Databricks, ETL.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Senior",
+        "candidate_has": "~7 years of management experience (including 3+ years in tech PM/TPM roles)",
+        "gap": false
+      }
+    }
+  ],
+  "scored_jobs": [
+    {
+      "score": 90,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato possui experiência sólida em gerenciamento de programas e projetos complexos, utilizando múltiplas metodologias ágeis e tradicionais. Sua experiência em análise de requisitos de negócios, documentação de processos e todo o ciclo de desenvolvimento e testes de sistemas está bem alinhada com os requisitos da vaga. Além disso, o candidato tem experiência em gerenciar projetos de TI que impactam toda a organização, com foco em desenvolvimento e implementação de software. Seu perfil se enquadra perfeitamente na faixa de 85-100 pontos.",
+      "main_gap": "Nenhum gap significativo identificado. O candidato possui experiência e qualificações que atendem plenamente aos requisitos centrais da vaga.",
+      "company": "AHU Technologies",
+      "location": "",
+      "title": "Technical Project Manager - Atlanta, GA",
+      "url": "https://weworkremotely.com/remote-jobs/ahu-technologies-technical-project-manager-atlanta-ga",
+      "id": "ae0070453376b5cc46a6566684ac8b1cc93b662c161c44465c2a6e389b1126c4",
+      "core_requirements": [
+        {
+          "requirement": "PMP (PMI) certification - active status (Must Upload Certification)",
+          "category": "technical",
+          "evidence": "Possui certificação PMP, conforme mencionado no perfil.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Demonstrated success managing large complex programs/projects utilizing multiple delivery methodologies (Agile, Waterfall, SCRUM, Kanban)",
+          "category": "technical",
+          "evidence": "Possui experiência em gerenciamento de projetos complexos com diferentes metodologias, incluindo Agile, Waterfall, SCRUM e Kanban.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Documented recent experience in: o Business requirements gathering. o Business process documentation. o full Systems Development Life Cycle and Testing Methodologies",
+          "category": "technical",
+          "evidence": "O candidato possui experiência em análise de requisitos de negócios, documentação de processos de negócios e em todo o ciclo de desenvolvimento e testes de sistemas.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Must have managed at least two full lifecycle agile software development projects (initiation through deployment/warranty) with project teams in excess of 10 team members, and must have had FULL end-to-end accountability for the project management role",
+          "category": "seniority",
+          "evidence": "O candidato tem experiência em gerenciamento de projetos de desenvolvimento de software Agile com equipes de mais de 10 membros, assumindo responsabilidade integral pelo papel de gerenciamento de projeto.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Demonstrated experience managing IT projects that impact across the enterprise – Experience must be related to software application development and implementation",
+          "category": "domain",
+          "evidence": "O candidato possui experiência em gerenciar projetos de TI que impactam toda a organização, com foco no desenvolvimento e implementação de aplicações de software.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Demonstrated success managing large complex programs/projects utilizing multiple delivery methodologies (Agile, Waterfall, SCRUM, Kanban)",
+        "candidate_has": "~7 years of management experience, including ~3 years in tech PM/TPM roles",
+        "gap": false
+      }
+    },
+    {
+      "score": 95,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato Guilherme Maia apresenta experiência direta no domínio central da vaga de Senior Product Manager, com evidências concretas em seu perfil. Ele possui ~7 anos de experiência em gestão, incluindo cerca de 3 anos em papéis de PM/TPM em empresas de tecnologia, com ampla experiência em habilidades essenciais como gestão de programa, análise de dados, experimentação com IA e liderança cross-funcional. Seu background se alinha muito bem com as principais responsabilidades da vaga.",
+      "main_gap": "Não há gaps significativos identificados no perfil do candidato em relação às exigências centrais desta vaga de Senior Product Manager.",
+      "company": "INFUSE",
+      "location": "Remote",
+      "title": "Senior Product Manager",
+      "url": "https://remoteOK.com/remote-jobs/remote-senior-product-manager-infuse-1130523",
+      "id": "1eaeefac1fbeec6db165515c1b823db6c36ed1a2e414b9e1ffd7d75c535410e9",
+      "core_requirements": [
+        {
+          "requirement": "Partner with leadership and department heads to define",
+          "category": "leadership",
+          "evidence": "Coordenou 3 equipes, 25 engenheiros em programa global de 200+ engenheiros. Liderou PoC GenAI que contribuiu para novo contrato com cliente.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Implementation of new systems, tools, and business processes",
+          "category": "domain",
+          "evidence": "Reorganizou equipes de component-oriented para product-oriented → reduziu ciclo de entrega de 3 sprints para 1. Reduziu ciclo de deploy de 30 para 15 dias. Construiu ferramentas internas de IA (validação de timesheet: de 40 min → 10 min/semana).",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Strategy and development of new systems, tools, and business processes",
+          "category": "technical",
+          "evidence": "Experiência em análise de dados e experimentação com IA, incluindo GenAI PoCs, LLM Integration, Prompt Engineering. Habilidades em SQL, Python, Spark/Scala, Databricks, ETL.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Senior",
+        "candidate_has": "~7 years of management experience (including 3+ years in tech PM/TPM roles)",
+        "gap": false
+      }
+    },
+    {
+      "score": 55,
+      "score_ceiling": 60,
+      "ceiling_reason": "1 penalty: domain_gap_core.",
+      "justification": "O candidato possui um forte perfil de liderança e gestão de produto, com experiência comprovada em estratégia, roadmap, priorização e entrega em um contexto técnico. No entanto, há uma lacuna no domínio específico de plataformas de ciências da vida, visto que sua experiência é mais genérica em gestão de produto e não possui evidências concretas nesse nicho. Portanto, atribuo um score de 55, pois as habilidades transferíveis são relevantes, mas a falta de experiência no domínio central da vaga limita o fit para o nível sênior exigido.",
+      "main_gap": "Falta de experiência direta no domínio de plataformas de ciências da vida, apesar de ter um perfil sólido de gestão de produto em contextos técnicos.",
+      "company": "SciLeads",
+      "location": "",
+      "title": "Senior Product Manager Platform Life Sciences",
+      "url": "https://remoteOK.com/remote-jobs/remote-senior-product-manager-platform-life-sciences-scileads-1130484",
+      "id": "e14f91b81bd04612b56ce3c139b23b0b0d2f0ae4e3dabc75699eb176290d4d24",
+      "core_requirements": [
+        {
+          "requirement": "Experienced Senior Product Manager to turn SciLeads' product strategy into clear, high-impact execution across our platform and portfolio",
+          "category": "seniority",
+          "evidence": "~7 years of total experience in management roles, including ~3 years in tech as Product Manager, Product Owner, and Technical Program Manager",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Own the translation of vision into actionable roadmaps, prioritized initiatives, and measurable outcomes that drive customer value and commercial growth",
+          "category": "leadership",
+          "evidence": "Experience in product strategy, roadmap, backlog prioritization, and OKRs",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Identify market opportunities, define compelling value propositions, and ensure our products remain competitive, differentiated, and aligned to customer needs",
+          "category": "domain",
+          "evidence": "Experience in product strategy and commercial growth, but evidence is more general and not specific to the life sciences domain",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Lead cross-functional delivery, support key product managers, and provide strong product leadership across the team to deliver an AI-powered marketing platform",
+          "category": "leadership",
+          "evidence": "Experience in cross-functional leadership and program management, including coordinating teams of 200+ engineers",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Experienced Senior Product Manager",
+        "candidate_has": "~7 years of total experience in management roles, including ~3 years in tech as Product Manager, Product Owner, and Technical Program Manager",
+        "gap": false
+      }
+    }
+  ],
+  "eliminated_jobs": []
+}
