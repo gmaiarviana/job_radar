@@ -1,0 +1,62 @@
+{
+  "scored_at": "2026-02-27T01:05:31.051072+00:00",
+  "source_file": "manual",
+  "summary": {
+    "total_input": 1,
+    "total_scored": 1,
+    "total_top": 0
+  },
+  "jobs": [
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui uma boa base de experiência em gerenciamento de programas, análise de dados e experimentação com IA, o que é relevante para o perfil de Product Manager. No entanto, falta evidência clara de experiência em SaaS de mercado e habilidades específicas em precificação, análise de custos e integração de tecnologias como LLM. Apesar de ter um background transferível, o gap em elementos críticos da vaga limita o seu encaixe imediato, sendo provável que precise de um período de rampa para se tornar produtivo.",
+      "main_gap": "Falta de experiência específica em SaaS de mercado, precificação e integração de tecnologias avançadas como LLM.",
+      "company": "Pinpoint - Home",
+      "location": "",
+      "title": "Senior Product Manager",
+      "url": "",
+      "id": "b57e43f108f292c952f3039ad7b79b21872d699cde04ade0115690ebef996a94",
+      "id_hash": "b57e43f108f292c952f3039ad7b79b21872d699cde04ade0115690ebef996a94",
+      "core_requirements": [
+        {
+          "requirement": "Own end-to-end delivery for Marketplace features: discovery, spec, build, ship, and iterate",
+          "category": "domain",
+          "evidence": "Coordenou 3 equipes, 25 engenheiros em programa global de 200+ engenheiros. Resolveu 60 vulnerabilidades críticas em 4 semanas. Construiu ferramentas internas de IA (validação de timesheet: de 40 min → 10 min/semana).",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Analyse existing Marketplace features and find opportunities to improve adoption and revenue",
+          "category": "domain",
+          "evidence": "Reorganizou equipes de component-oriented para product-oriented → reduziu ciclo de entrega de 3 sprints para 1. Reduziu ciclo de deploy de 30 para 15 dias. Liderou PoC GenAI que contribuiu para novo contrato com cliente.",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Use commercial modelling as the primary evidence in roadmap prioritisation, not gut feel, not a feature wish list",
+          "category": "domain",
+          "evidence": "Análise de crédito com 150K requisições/dia. Descobriu dados corrompidos afetando modelo de crédito. Otimizou pipeline ETL eliminando reprocessamento de múltiplos notebooks.",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Build pricing and packaging proposals for new and existing upsell features: understand costs (including LLM call costs and third-party licensing), model revenue potential, and present a credible plan",
+          "category": "domain",
+          "evidence": "Liderou PoC GenAI que contribuiu para novo contrato com cliente.",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Evaluate build vs. buy decisions with vendors and partners. Scope what we'd need to build in-house vs. what we can buy off-the-shelf",
+          "category": "domain",
+          "evidence": "",
+          "has_evidence": false
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Senior",
+        "candidate_has": "~3 years in PM/TPM tech roles",
+        "gap": true
+      },
+      "source": "linkedin"
+    }
+  ]
+}
