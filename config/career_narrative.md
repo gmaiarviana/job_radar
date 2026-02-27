@@ -35,7 +35,7 @@ Program & Product Manager with hands-on experience in data analysis and AI exper
 
 **Campos Gouveia** (Jul/2016 – Dec/2019): Rapid growth trajectory — started as an intern not knowing what a brick was; within 3 months was holding the construction site when the lead engineer was fired (received a bonus for stepping up). Got a raise at 6 months. Graduated and was hired as analyst (Jul/2017). By April 2018, was invited to lead a brand new construction site as the responsible engineer.
 
-Led the complete execution of a 15-story residential building (~5,000 m²) from foundation to finishing. Managed ~40 direct reports including hiring, firing, payroll, and contract management. Controlled budgets, negotiated with suppliers, coordinated multiple simultaneous activities, managed risks, and adapted communication across diverse stakeholders — from board directors to construction workers to public agency officials (fire department, environmental secretariat, city hall).
+Led the complete execution of a 15-story residential building (~5,000 m², ~R$15M estimated sales value) from foundation to finishing. Managed ~40 direct reports including hiring, firing, payroll, and contract management. Controlled budgets, negotiated with suppliers, coordinated multiple simultaneous activities, managed risks, and adapted communication across diverse stakeholders — from board directors to construction workers to public agency officials (fire department, environmental secretariat, city hall).
 
 Temporarily managed a second construction site (~2 months, foundation phase) until a new engineer arrived, while keeping the primary site running — demonstrating ability to delegate effectively and handle parallel workstreams.
 
@@ -51,14 +51,14 @@ Core responsibilities: Execution planning, scheduling, material procurement, bud
 
 **Accenture** (Oct/2020 – Jan/2021): First step into tech. Developed screen-level process automations for a telecom client using Automation Anywhere (low-code RPA) and SQL for data sourcing. Delivered fast, was on track for tool certification. Brief (~4 months) but important as the career transition bridge into technology.
 
-**Nubank** (Feb/2021 – May/2022): Joined the Credit Strategy team handling ~150,000 daily credit card approval requests. Operated in a fast-paced, product-oriented environment with strong async culture (Slack as official communication, well-defined team scopes, evidence-based decision making).
+**Nubank** (Feb/2021 – May/2022): Joined the Credit Strategy team handling ~150,000 daily credit card approval requests with a 30-second SLA. Operated in a fast-paced, product-oriented environment with strong async culture (Slack as official communication, well-defined team scopes, evidence-based decision making).
 
 Started with a solo analysis project (starter project): investigated whether behavioral questionnaires could predict credit risk — concluded no correlation existed, recommending the team not invest further in that approach. Then moved into a monitoring rotation (~6 months) tracking daily credit system health, running predefined jobs, performing deep-dive analyses when anomalies appeared.
 
 Key achievements:
 - Discovered corrupted data affecting credit model accuracy during exploratory analysis investigating data drift — identified improper data formats impacting analysis of a specific user population
 - Identified a data source that was not improving model predictions, enabling the team to reduce unnecessary data acquisition costs
-- Co-developed dedicated monitoring dataset with MLE: defined business rules and operated the data while MLE built the ETL pipeline, replacing manual Databricks notebook processing (each taking 15–30 min) with pre-processed jobs that ran overnight. Reduced daily analysis setup time significantly and eliminated errors from manual reruns
+- Co-developed dedicated ETL dataset (business rules + pipeline with MLE): Helped create a dedicated dataset in the ETL layer, moving data concatenation from multiple Databricks notebooks (each taking 15–30 min) to pre-processed ETL jobs that ran overnight. Reduced daily analysis setup time significantly and eliminated errors from manual reruns
 - Built API cost monitoring automation: Created a dashboard/job that tracked API call volumes to data partners, establishing the first baseline for cost control. Enabled comparison against expected spend and prevented overpayment
 - Composed annual data cost budget: Updated sector-wide cost projections incorporating new systems, vendors, delivery forecasts, and partner pricing parameters
 - Documented team processes and the credit journey in a visual guide — received unsolicited recognition months later from a colleague who found it highly useful
@@ -71,7 +71,7 @@ Key achievements:
 Key achievements:
 - Diagnosed and solved team structure problem: Identified that component-oriented teams caused inefficiency (unclear ownership, cross-team handoffs, misaligned cadences). Proposed, designed, and led the reorganization into product-oriented teams — selected people, defined scopes, dimensioned teams. Result: changes that previously took ~3 sprints were completed in ~1 sprint; eliminated inter-team handoffs and sprint-boundary dependencies
 - Reduced deployment cycle from 30 to 15 days by reorganizing the release process — interviewed key members, documented each step, established a predictable release cadence
-- Prototyped a GenAI PoC hands-on (coding with AI assistance) focused on automated report generation using existing platform data — this initiative contributed to closing a new contract with the client. Separately, scoped a second PoC: identified opportunity, planned scope with detailed expectations, coordinated execution with 4 engineers (3 data + 1 frontend). Was on vacation during execution and did not conduct the demo.
+- Prototyped a GenAI PoC (hands-on with LLM/AI assistance) that contributed to a new client contract. Separately, scoped a second PoC — coordinated 4 engineers for execution: Identified opportunity, planned scope with detailed expectations, coordinated execution with 4 engineers (3 data + 1 frontend). Separately, conducted a second PoC solo (coding with AI assistance) focused on automated report generation using existing platform data — this initiative contributed to closing a new contract with the client
 - Mapped 9 GenAI use cases for potential integration across program projects, producing a structured proposal with personas, features, and prioritized PoC recommendations — demonstrating ability to identify and structure AI opportunities in existing products
 - Diagnosed program-wide visibility gap and held expanded business role (H1 2024): Conducted SWOT analysis across 9 program projects through structured interviews with 10 teams. Discovered critical risks that no one was tracking — including a depreciating project where the team lead was unaware and planning to expand headcount. Produced formal diagnostic document with cross-project patterns and systemic recommendations. Temporarily held a program-level business oversight role: mapped business dynamics across all projects, coordinated a Design Sprint for GenAI applied to the client's developer platform, and proposed solutions to strengthen the partnership and identify new contract opportunities
 - Led PO guild for 6 months (Jan–Aug 2023): Volunteered, engaged peers, drove initiatives around process clarity and knowledge sharing. Experience in leading without formal authority
@@ -81,15 +81,15 @@ Key achievements:
 
 ### Act 3 — Convergence: Management + AI + Systemic Vision (2024–Present)
 
-**Instituto Atlântico — Technical Program Manager** (Sep/2024 – Sep/2025): Drove delivery alignment across 3 teams (~25 engineers) within a global program of 15 teams and 200+ engineers. Teams were core/platform (DevOps, databases, shared components), meaning delays cascaded to all product teams.
+**Instituto Atlântico — Technical Program Manager** (Sep/2024 – Sep/2025): Drove delivery alignment across 3 teams (~25 engineers) within a global program of 15 teams and 200+ engineers, delivering a cross-platform application (Windows, iOS, Android). Teams were core/platform (DevOps, databases, shared components), meaning delays cascaded to all product teams.
 
 Key achievements:
 - Managed releases in high-complexity global environment: Teams distributed across Brazil, USA, India, and Europe. ~10 architects collaborating. Coordinated PI Planning (SAFe), managed dependencies, security protocols, and cross-team communication
-- Led tracking and resolution coordination for 60 high-severity Veracode vulnerabilities in 4 weeks: assigned ownership across teams, created and delegated tracking tickets, monitored progress daily, escalated to leadership. Built script to automate status monitoring across 200 vulnerabilities.
+- Led resolution coordination for 60 vulnerabilities in 4 weeks: assigned ownership across teams, created and delegated tracking tickets, monitored daily, escalated to leadership: Identified unmitigated vulnerabilities, mapped responsible teams, engaged leaders, created tracking tickets, provided regular stakeholder updates. Built script to automate status monitoring across 200 vulnerabilities
 - Managed quality-driven release with 50 defects: Clarified blocking vs non-blocking defects with stakeholders, coordinated with QA for revalidation, identified cross-team resolution opportunities — delivered release on schedule
 - Proactive risk management: Monitored retrospectives, identified root causes of recurring issues, proposed systemic solutions to prevent repetition
 - Built 2 internal AI-powered tools:
-  - Timesheet validation tool: automated business rule checks for 250+ weekly employee reports, reducing guardian review time from ~40 min to ~10 min/week, catching errors invisible to manual review
+  - Weekly activity report validation tool: Built an internal tool (Python) that automated business-rule checks for 250+ weekly employee activity reports — validating allocation percentages (must sum to 100% per person across projects), correct dates, and employee IDs. Reduced guardian review time from ~40 min to ~10 min/week, catching errors invisible to manual review. Purpose: ensure the client could verify that all contracted employees were active and correctly allocated.
   - Employee data consolidation tool (PoC): designed architecture and built UI to automate manual data entry for onboarding/offboarding reports — not deployed due to internal data access limitations
 - Obtained Google Cloud Generative AI Leader certification (Jul/2025)
 
@@ -126,16 +126,17 @@ Additional current activities:
 - Visualization and storytelling (Python: Seaborn, Plotly, Altair) — conclusion-first methodology
 - Cost monitoring, budget composition, and projection (data vendors, API partners, construction budgets)
 - Deep-dive analysis methodology: problem identification → hypothesis → metric selection → testing → recommendation
-- **Evidence:** Business Analyst at Nubank (150K daily requests, co-developed dedicated ETL dataset with MLE, built cost monitoring), construction cost management at Campos Gouveia
+- **Evidence:** Business Analyst at Nubank (150K daily requests, optimized ETL pipeline, built cost monitoring), construction cost management at Campos Gouveia
 
 ### Pillar 4: AI as a Problem-Solving Tool
 - Identifies opportunities for AI application in existing products and processes
 - Conducts PoCs — from problem identification to architecture design to implementation
+- Builds working prototypes using LLM APIs, RAG patterns, and agent frameworks.
 - Uses AI agents and tools for coding, automation, and experimentation
 - Prompt engineering with systematic testing (test-driven prompt optimization)
-- Understands high-level LLM architecture (RAG, agents with tools, multi-agent systems)
-- **Evidence:** GenAI PoCs (one contributing to client contract), internal AI tools, Paper Agent project (multi-agent system with LangGraph, ChromaDB, SQLite, 237 tests), GCP GenAI Leader certification
-- ⚠️ **Pending validation:** Ability to draw and explain AI system architecture with trade-offs at interview depth — self-assessment needed
+- Evaluates LLM output quality using criteria-based evaluation, LLM-as-a-judge, and multi-model comparison.
+- **Honest boundary:** Applies AI capabilities to solve business problems and builds functional prototypes. Articulates what and why of AI components (RAG, agents, multi-agent systems). Technical depth on intermediate architecture details (chunking strategies, embedding models, reranking, graph state management) is developing — coordinates with engineers for production-grade design decisions.
+- **Evidence:** GenAI PoCs (one contributing to client contract), internal AI tools (timesheet validation, employee data consolidation), Paper Agent project (multi-agent system with LangGraph, ChromaDB, SQLite, 237 tests), GCP GenAI Leader certification. LLM output evaluation with gabarito + LLM-as-a-judge methodology.
 
 ### Pillar 5: Communication & Stakeholder Management
 - Adapts communication to diverse audiences (executives, engineers, construction workers, public officials)
@@ -154,14 +155,14 @@ Additional current activities:
 | Reduced deployment cycle from 30 to 15 days | Instituto Atlântico, PO (release process redesign) |
 | Led GenAI PoC that contributed to new client contract | Instituto Atlântico, PO |
 | Mapped 9 GenAI use cases for program integration | Instituto Atlântico, PO |
-| Led tracking and coordination that resolved 60 high-severity vulnerabilities in 4 weeks | Instituto Atlântico, TPM (Veracode) |
+| Led tracking and coordination that resolved 60 vulnerabilities in 4 weeks | Instituto Atlântico, TPM (Veracode) |
 | Automated monitoring of 200 vulnerabilities (previously manual) | Instituto Atlântico, TPM (script) |
-| Drove delivery alignment across 3 teams, 25 engineers in program of 200+ engineers, 15 teams | Instituto Atlântico, TPM |
+| Coordinated 3 teams, 25 engineers in program of 200+ engineers, 15 teams | Instituto Atlântico, TPM |
 | Managed release with 50 defects, delivered on schedule | Instituto Atlântico, TPM |
-| Reduced timesheet validation from ~40 min to ~10 min/week for 250+ reports | Instituto Atlântico, TPM (internal AI tool) |
+| Reduced weekly activity report review from ~40 min to ~10 min/week for 250+ employee reports | Instituto Atlântico, TPM (internal AI tool) |
 | Discovered corrupted data affecting credit model (150K daily requests) | Nubank, BA |
 | Identified non-contributing data source → reduced data acquisition costs | Nubank, BA |
-| Co-developed dedicated monitoring dataset with MLE, replacing manual notebook processing (15-30 min each) with pre-processed ETL jobs | Nubank, BA |
+| Co-developed dedicated ETL dataset (business rules + pipeline with MLE): moved processing from multiple notebooks (15-30 min each) to pre-processed ETL dataset | Nubank, BA |
 | Built API cost monitoring dashboard — established first baseline for partner data spend | Nubank, BA |
 | Composed annual data cost budget for the sector | Nubank, BA |
 | Managed construction of 15-story building, 5,000 m² | Campos Gouveia, PM |
@@ -183,15 +184,7 @@ Additional current activities:
 
 ---
 
-## 6. Pending Validations
-
-| Item | Action needed |
-|------|--------------|
-| AI architecture depth | Self-assess: draw a RAG system, agent with tools, multi-agent system. Explain trade-offs. Record honest assessment of comfort level. |
-
----
-
-## 7. Narrative Restrictions (What NOT to include in base resume)
+## 6. Narrative Restrictions (What NOT to include in base resume)
 
 | Topic | Why reserve | When to use |
 |-------|-------------|-------------|
@@ -205,7 +198,7 @@ Additional current activities:
 
 ---
 
-## 8. Resume Structure (Preview)
+## 7. Resume Structure (Preview)
 
 **Header:** Guilherme Maia | Phone | Email | LinkedIn
 
@@ -224,7 +217,7 @@ Additional current activities:
 
 **Skills (modular — swap per application):**
 - Technical: Python, SQL, Spark/Scala, Azure DevOps, Jira, AWS, GCP, HTML/CSS/JS
-- Methodologies: Scrum, SAFe, Kanban, Waterfall (CAPM certified)
+- Methodologies: Scrum, SAFe, Scrumban, Kanban, Waterfall (CAPM certified)
 - AI: Prompt Engineering, LLM Integration, GenAI PoCs, GCP GenAI Leader certified
 
 **Education & Certifications:**
