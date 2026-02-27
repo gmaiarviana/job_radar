@@ -1198,5 +1198,17 @@
     "source": "greenhouse",
     "title": "Senior Product Manager, AI Geo Assistant",
     "company": "Planet Labs"
+  },
+  "808edef17555074e523927b02ebf420bd609181bbb8b9df288861c314d86026a": {
+    "first_seen": "2026-02-27",
+    "source": "openai_web_search",
+    "title": "Product Manager",
+    "company": "Turbo AI"
+  },
+  "5e889d7fad7e72eb1fc652c49ad2ec017318cae1a505c4bf66102a855ef66668": {
+    "first_seen": "2026-02-27",
+    "source": "openai_web_search",
+    "title": "Product Manager",
+    "company": "Mevo"
   }
 }

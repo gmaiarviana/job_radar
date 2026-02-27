@@ -1,0 +1,78 @@
+{
+  "fetched_at": "2026-02-27T13:10:05.053002+00:00",
+  "date": "2026-02-27",
+  "config_used": {
+    "roles": [
+      "Product Manager",
+      "Senior Product Manager",
+      "Technical Program Manager",
+      "TPM",
+      "AI Product Manager",
+      "Product Analyst",
+      "Strategy and Operations Manager",
+      "Delivery Manager",
+      "Program Manager"
+    ],
+    "locations": [
+      "remote LATAM",
+      "remote worldwide",
+      "remote"
+    ],
+    "lookback_hours": 24,
+    "sources": [
+      "openai_web_search",
+      "remotive",
+      "weworkremotely",
+      "jobicy",
+      "greenhouse",
+      "ashby"
+    ]
+  },
+  "coverage": {
+    "sources": [
+      "openai_web_search",
+      "remotive",
+      "weworkremotely",
+      "jobicy",
+      "greenhouse",
+      "ashby"
+    ],
+    "total_raw": 171,
+    "total_already_seen": 168,
+    "total_throttled": 0,
+    "total_after_recent_filter": 2,
+    "total_after_dedup": 2,
+    "total_after_quality_guard": 2,
+    "companies_distinct": 2,
+    "discarded_low_quality": 0
+  },
+  "total_jobs": 2,
+  "jobs": [
+    {
+      "id_hash": "808edef17555074e523927b02ebf420bd609181bbb8b9df288861c314d86026a",
+      "id": "808edef17555074e523927b02ebf420bd609181bbb8b9df288861c314d86026a",
+      "source": "openai_web_search",
+      "title": "Product Manager",
+      "company": "Turbo AI",
+      "location": "Bogotá, Distrito Capital, Colombia",
+      "salary": null,
+      "jd_full": "Estamos buscando um Product Manager experiente para ser o parceiro estratégico dedicado de 2–3 fundadores simultaneamente. Como Product Manager da Turbo, você será responsável por todo o ciclo de vida do produto: estratégia, escopo, protótipos, entrega, análise e qualidade. Você será o elo entre fundadores, engenheiros e agentes de IA, tornando o trabalho claro, a experiência premium e o progresso rápido. Se você adora construir do zero, prospera no caos e opera como um fundador, este papel é para você. Responsabilidades incluem: Gerenciar 2–3 fundadores simultaneamente, definindo expectativas claras e entregando uma experiência excepcional; Transformar visão em plano, traduzindo ideias complexas em metas, roadmaps e planos semanais priorizados; Definir o trabalho, abrangendo recursos de ponta a ponta — protótipos, fluxos, especificações, casos de borda — sem depender de engenheiros ou designers para preencher lacunas; Colaborar com engenharia, trabalhando de perto com um Líder Técnico para desbloquear a entrega, simplificar soluções, responder à maioria das perguntas de viabilidade e manter a equipe entregando de forma previsível.",
+      "url": "https://co.linkedin.com/jobs/view/product-manager-remote-us-or-latam-at-turbo-ai-4354417094",
+      "collected_at": "2026-02-27T13:07:31.656769+00:00",
+      "date": "1 week ago"
+    },
+    {
+      "id_hash": "5e889d7fad7e72eb1fc652c49ad2ec017318cae1a505c4bf66102a855ef66668",
+      "id": "5e889d7fad7e72eb1fc652c49ad2ec017318cae1a505c4bf66102a855ef66668",
+      "source": "openai_web_search",
+      "title": "Product Manager",
+      "company": "Mevo",
+      "location": "Remoto",
+      "salary": null,
+      "jd_full": "A Mevo está buscando um Product Manager para priorizar demandas com base em impacto no cliente, dados, hipóteses e viabilidade técnica. O candidato ideal terá experiência como Product Manager em e-commerce ou marketplace, com habilidades em análise de dados e tomada de decisões baseadas em dados. Responsabilidades incluem: Definir e priorizar o backlog de produtos; Trabalhar com equipes multifuncionais para garantir a entrega de produtos de alta qualidade; Analisar métricas de desempenho e identificar oportunidades de melhoria; Colaborar com stakeholders internos e externos para alinhar as necessidades do produto com os objetivos de negócios.",
+      "url": "https://br.indeed.com/viewjob?jk=1234567890",
+      "collected_at": "2026-02-27T13:07:31.656812+00:00",
+      "date": "3 days ago"
+    }
+  ]
+}
