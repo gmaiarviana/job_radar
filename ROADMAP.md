@@ -14,38 +14,76 @@
 
 **Épico 6 — UI Funcional Mínima:** Streamlit com duas abas. Aba "Vagas": tabela unificada (pipeline + manuais) com score, veredito (APLICAR/AVALIAR/PULAR), badge de fonte, filtro por data, expand com análise completa. Aba "LinkedIn": links de busca + paste-and-score (analyze_job → compute_ceiling → score_with_analysis) com persistência em `data/scored/manual_*.json` e `seen_jobs.json`. Config: `config/linkedin_searches.yaml`.
 
+**Épico 7.1 — OpenAI search no GitHub Actions:** Habilitado. OPENAI_API_KEY configurada nos secrets do Actions. Coletor já roda no pipeline diário.
+
 ---
 
 ## 📍 Próximos Épicos
 
 ### ÉPICO 7: Expansão de Coleta
 
-**Objetivo:** Aumentar volume, diversidade e qualidade das vagas coletadas.
+**Objetivo:** Aumentar volume, diversidade e qualidade das vagas coletadas — mais fontes, mais empresas remote-friendly, mais cobertura LATAM/worldwide.
 
-**Dependência:** Épico 6 rodando.
+**Dependência:** Épico 6 rodando. OpenAI search ativo no Actions.
 
-#### 7.1 Seed exploratório (títulos)
+**Critério de aceite global:** Pipeline diário gerando ≥ 5 vagas que passam nos filtros (location + quality) por pelo menos 3 dias consecutivos.
 
-- Rodar seed ATS SEM filtro de título (flag --no-title-filter ou equivalente) para capturar todos os cargos disponíveis nas empresas-alvo
-- Extrair lista de títulos únicos + contagem por fonte
-- Analisar via NotebookLM: identificar títulos relevantes fora do filtro atual (ex: "Product Lead", "Associate PM", "Group PM", "Chief of Staff")
-- Decisão: expandir TITLE_KEYWORDS nos coletores ou centralizar em config/search.yaml
+#### ✅ 7.1 OpenAI search no GitHub Actions
+Habilitado. OPENAI_API_KEY configurada nos secrets do Actions. Coletor já roda no pipeline diário.
 
-#### 7.2 Novos boards e plataformas de recrutamento
+#### 7.2 Novos coletores (APIs validadas)
 
-- Pesquisar fontes via Perplexity/ChatGPT/Grok: job boards com vagas remotas LATAM/worldwide para PM/TPM
-- Pesquisar plataformas de recrutamento usadas por empresas de qualidade (ex: Dover, Wellfound, Work at a Startup/YC, etc.)
-- Para cada fonte/plataforma: verificar se tem API pública ou RSS
-  - Com API/RSS: prototipar coletor, testar com 10-20 vagas, avaliar relevância antes de integrar
-  - Sem API/RSS: adicionar como link manual no linkedin_searches.yaml (acesso manual + paste-and-score)
-- Identificar empresas que usam essas plataformas para expandir a lista de empresas-alvo (7.3)
-- Priorizar fontes com vagas LATAM/Worldwide confirmadas por teste real
+**Remote OK:**
+- Endpoint: `GET https://remoteok.com/api` → JSON array, sem auth
+- Campos: id, date, company, position, tags, description, location, salary_min, salary_max, apply_url
+- Filtro client-side por tags (ex: "product", "management", "exec")
+- Requisito legal: mencionar Remote OK como fonte e linkar URL original
+- Critério de aceite: coletor em `src/collectors/remoteok.py`, integrado em fetch.py, retorna vagas PM/TPM das últimas 48h
 
-#### 7.3 Revalidar e expandir companies.yaml
+**Get on Board:**
+- API pública: `https://api-doc.getonbrd.com` — search por texto livre + browse por categoria, paginação (per_page, page), sem auth
+- Foco LATAM nativo (Chile, México, Colômbia, Brasil, Argentina)
+- Critério de aceite: coletor em `src/collectors/getonboard.py`, integrado em fetch.py, busca por "product manager" remote
 
-- Revalidar empresas com "404 no seed": checar se slug mudou ou se migraram de ATS
-- Expandir lista com novas empresas-alvo: sinais das plataformas (7.2), vagas avaliadas via paste-and-score, pesquisa direta
-- Atualizar config/companies.yaml
+#### 7.3 Expandir companies.yaml
+
+Adicionar empresas validadas como remote-first com ATS suportado:
+- Zapier (Greenhouse) — SaaS workflow automation, remote worldwide
+- Doist (Greenhouse) — Produtividade (Todoist/Twist), remote global
+- dLocal (Lever) — Fintech LATAM (AR, BR, UY), PM roles confirmados
+- Stripe (Greenhouse) — Fintech, LATAM confirmado em boards
+- Loadsmart (Greenhouse) — Logistics SaaS, TPM LATAM explícito
+- Deel (Ashby) — Remote-first por definição; slug anterior deu 404 como Greenhouse, pesquisa indica Ashby
+
+Critério de aceite: empresas adicionadas no companies.yaml com ats e ats_id corretos; seed valida que pelo menos 4 de 6 retornam vagas (slug OK).
+
+#### 7.4 Renomear LinkedIn → Busca Manual
+
+- Renomear `config/linkedin_searches.yaml` → `config/manual_searches.yaml`
+- Atualizar app.py: aba "LinkedIn" → "Busca Manual"; referência ao novo yaml
+- Adicionar links de fontes sem API:
+  - Wellfound (AngelList): remote PM filter
+  - YC Work at a Startup: remote PM filter
+  - Product Jobs Anywhere: LATAM PM filter
+  - Remote Rocketship: LATAM PM filter
+- Manter links LinkedIn existentes (são links manuais também)
+- Critério de aceite: aba funcional com novo nome e links adicionais; yaml antigo removido ou renomeado
+
+#### 7.5 Remover penalty `outsourcing_context` do scoring
+
+- Remover `outsourcing_context` de CEILING_BY_PENALTY em score.py
+- Remover do prompt de analyze_job (Chamada 1): penalties passa a ter apenas `seniority_gap` e `domain_gap_core`
+- Atualizar compute_ceiling: lógica de 2+ penalties continua (agora com 2 penalties possíveis, o máximo de activas é 2)
+- Atualizar testes em src/eval/test_scoring.py para refletir 2 penalties
+- Critério de aceite: testes passam; scoring não penaliza vagas em consultorias
+
+#### 7.6 Seed das novas fontes
+
+- Rodar seed para Remote OK e Get on Board (popular seen_jobs, evitar engarrafamento no primeiro run)
+- Rodar seed para novas empresas do companies.yaml (7.3)
+- Critério de aceite: seen_jobs atualizado; data/raw/ com seed das novas fontes
+
+**Ordem de execução sugerida (para implementação futura):** 7.5 → 7.3 + 7.4 (paralelo) → 7.2 → 7.6
 
 ---
 
