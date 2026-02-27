@@ -23,7 +23,6 @@ Decisões fora de escopo e ideias/features futuras. O plano ativo (épicos em an
 - **Cover letter por plataforma:** Adaptar para formulários específicos ("Why this company?", "Why this role?")
 - **Múltiplos perfis:** PM puro vs TPM vs hybrid — scoring e geração adaptados
 - **DOCX e texto puro:** Formatos alternativos de saída
-- **VPS/Cloud:** Migrar Streamlit para acesso remoto
 - **discover.py:** Prospectar novas empresas-alvo via queries em boards ATS
 - **Notificação mobile:** Push via Telegram Bot para PERFECT_MATCH
 - **Alertas por email:** notify.py envia email se score ≥ 95
