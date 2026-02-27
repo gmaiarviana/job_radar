@@ -1,6 +1,6 @@
 """
 Coletor We Work Remotely (Épico 2.3).
-Fonte: RSS público de vagas remotas em management/finance.
+Fonte: RSS público de vagas remotas (feed master).
 Filtro por keywords no título: product manager, program manager, TPM.
 """
 
@@ -10,10 +10,13 @@ from urllib.error import URLError, HTTPError
 import xml.etree.ElementTree as ET
 import html
 
+from . import TITLE_KEYWORDS
+
 LOG_PREFIX = "[fetch]"
 
-WWR_RSS_URL = "https://weworkremotely.com/categories/remote-management-and-finance-jobs.rss"
-WWR_TITLE_KEYWORDS = ["product manager", "program manager", "tpm"]
+WWR_RSS_URL = "https://weworkremotely.com/remote-jobs.rss"
+# Alias para manter compatibilidade com diagnose_collectors e facilitar leitura.
+WWR_TITLE_KEYWORDS = TITLE_KEYWORDS
 
 
 def _extract_company_and_title(full_title: str) -> tuple[str, str]:
@@ -63,7 +66,7 @@ def collect_weworkremotely() -> List[Dict]:
             continue
 
         lower_title = raw_title.lower()
-        if not any(k in lower_title for k in WWR_TITLE_KEYWORDS):
+        if not any(k in lower_title for k in TITLE_KEYWORDS):
             continue
 
         company, title = _extract_company_and_title(raw_title)

@@ -47,6 +47,8 @@ from src.collectors.jobicy import collect_jobicy
 from src.collectors.greenhouse import collect_greenhouse
 from src.collectors.lever import collect_lever
 from src.collectors.ashby import collect_ashby
+from src.collectors.remoteok import collect_remoteok
+from src.collectors.getonboard import collect_getonboard
 
 load_dotenv()
 
@@ -110,7 +112,7 @@ def main():
         print(f"{LOG_PREFIX} 🧪 MODO DRY-RUN")
         print(f"  Roles: {roles}")
         print(f"  Locations: {locations}")
-        print(f"  Coletores: openai_web_search, remotive, weworkremotely, jobicy, greenhouse, lever, ashby")
+        print(f"  Coletores: openai_web_search, remotive, weworkremotely, jobicy, remoteok, getonboard, greenhouse, lever, ashby")
         if companies_data is not None:
             n_sectors = len(companies_data["companies"])
             print(f"  Empresas-alvo (3.1): {total_companies} em {n_sectors} setores (config/companies.yaml)")
@@ -136,6 +138,8 @@ def main():
     collectors_config.append(("remotive", collect_remotive))
     collectors_config.append(("weworkremotely", collect_weworkremotely))
     collectors_config.append(("jobicy", collect_jobicy))
+    collectors_config.append(("remoteok", collect_remoteok))
+    collectors_config.append(("getonboard", collect_getonboard))
 
     if greenhouse_companies:
         collectors_config.append(("greenhouse", lambda: collect_greenhouse(greenhouse_companies)))

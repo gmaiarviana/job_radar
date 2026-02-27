@@ -1,6 +1,6 @@
 """
 Coletor Jobicy (Épico 2.4). API pública, industry=product, count=50.
-Filtro de recência: últimas 48h (pubDate).
+Filtro de recência: últimas 7 dias (pubDate).
 """
 
 import json
@@ -8,7 +8,7 @@ from datetime import datetime, timezone, timedelta
 from urllib.request import urlopen, Request
 from urllib.error import URLError, HTTPError
 
-JOBICY_RECENT_HOURS = 48
+JOBICY_RECENT_HOURS = 168
 JOBICY_COUNT = 50
 JOBICY_BASE_URL = "https://jobicy.com/api/v2/remote-jobs"
 LOG_PREFIX = "[fetch]"
@@ -53,7 +53,7 @@ def _format_salary(j: dict) -> str | None:
 def collect_jobicy() -> list[dict]:
     """
     Coletor: API Jobicy (industry=product, count=50).
-    Retorna lista de jobs brutos para normalização (últimas 48h).
+    Retorna lista de jobs brutos para normalização (últimas 7 dias).
     """
     # Cutoff em horário local (últimas N horas no fuso do usuário)
     now_local = datetime.now().astimezone()

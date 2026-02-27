@@ -1,6 +1,6 @@
 """
 Coletor Remotive (Épico 2.2). API pública, categorias product e project-management.
-Filtro de recência: últimas 48h (publication_date).
+Filtro de recência: últimas 7 dias (publication_date).
 """
 
 import json
@@ -9,7 +9,7 @@ from urllib.request import urlopen, Request
 from urllib.error import URLError, HTTPError
 
 REMOTIVE_CATEGORIES = ["product", "project-management"]
-REMOTIVE_RECENT_HOURS = 48
+REMOTIVE_RECENT_HOURS = 168
 REMOTIVE_LIMIT = 100
 REMOTIVE_BASE_URL = "https://remotive.com/api/remote-jobs"
 LOG_PREFIX = "[fetch]"
@@ -33,7 +33,7 @@ def _parse_remotive_date(publication_date: str) -> datetime | None:
 def collect_remotive() -> list[dict]:
     """
     Coletor: API Remotive (product + project-management).
-    Retorna lista de jobs brutos para normalização (últimas 48h).
+    Retorna lista de jobs brutos para normalização (últimas 7 dias).
     """
     # Cutoff em horário local (últimas N horas no fuso do usuário)
     now_local = datetime.now().astimezone()
