@@ -30,5 +30,6 @@ Antes de assumir um valor ou localização, consulte o arquivo acima ou `.agent/
 - Governança/planejamento → `docs/governance/`
 - Protocolos do agente → `.agent/`
 - Raiz: só documentação e config global; sem JSONs na raiz.
+- Política de commit de dados → `docs/governance/CONSTITUTION.md` §11
 
 Detalhes: `docs/governance/CONSTITUTION.md`, `.agent/instructions.md`.

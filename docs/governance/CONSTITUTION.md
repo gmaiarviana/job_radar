@@ -214,3 +214,25 @@ Este arquivo fica em **`docs/governance/`** junto com `planning_guidelines.md`, 
 - **OS**: Windows
 - **Shell**: PowerShell (usar `;` para encadear comandos).
 - **Python**: Obrigatório uso de `venv` ativo.
+
+---
+
+## 11. POLÍTICA DE DADOS (Git)
+
+### Princípio
+Dados são código. Tudo que o pipeline produz e o usuário consome é versionado, exceto artefatos temporários e outputs pessoais (PDFs, feedback).
+
+### O que é commitado
+- `data/raw/` — vagas brutas (pipeline + seed)
+- `data/scored/` — vagas pontuadas (pipeline + manuais `manual_*.json`)
+- `data/seen_jobs.json` — dedup persistente
+
+### O que NÃO é commitado (.gitignore)
+- `data/filtered/` — intermediário, regenerável a partir de raw
+- `data/feedback/` — feedback local (futuro Épico 11)
+- `data/output/` — PDFs gerados (pessoal)
+- `data/eval/` — resultados de avaliação (desenvolvimento)
+- `data/raw/copy txt/` e `data/scored/copy txt/` — cópias para NotebookLM
+
+### Regra para agentes
+Ao criar novos arquivos em `data/`, seguir esta política. Na dúvida: se outro agente ou máquina precisa ler → commitar. Se é pessoal ou regenerável → .gitignore.
