@@ -1252,5 +1252,77 @@
     "source": "linkedin",
     "title": "Product Manager",
     "company": "Life Sciences"
+  },
+  "ed908031451a6c0e43198d23cd18b9010a940c7b526ae2431d909d079f0abfc2": {
+    "first_seen": "2026-02-27",
+    "source": "remoteok",
+    "title": "Senior Security Engineer",
+    "company": "Nansen.ai"
+  },
+  "9aad6b5610ec36d2e9d21b2075d7c1f7c9fd6e264bad57f0b2a33a5a7bdd4fb3": {
+    "first_seen": "2026-02-27",
+    "source": "remoteok",
+    "title": "Product Engineer",
+    "company": "Fronted AS"
+  },
+  "ee396a62174ad118ef498670265b23ee717bd0a82a2eab2200c89ae4a8862579": {
+    "first_seen": "2026-02-27",
+    "source": "greenhouse",
+    "title": "Industry Customer Enablement Program Manager",
+    "company": "Databricks"
+  },
+  "ea30566f08efba491bd4d22d521b2ac5bcc1fad99f3374f465b16ef4cec6d1f7": {
+    "first_seen": "2026-02-27",
+    "source": "greenhouse",
+    "title": "Sr. Technical Program Manager - CPQ",
+    "company": "Databricks"
+  },
+  "f6073ead927381786583fdb0a48cf1aeced44e545c84a0d6e55b7a2e92468cdf": {
+    "first_seen": "2026-02-27",
+    "source": "greenhouse",
+    "title": "Senior Product Manager | Payments",
+    "company": "Wellhub"
+  },
+  "84368f000bee522bc12d97d80a7d3f03acef1686fdc04f5969440c41a60d727e": {
+    "first_seen": "2026-02-27",
+    "source": "openai_web_search",
+    "title": "Senior Product Manager, Ads AI/ML",
+    "company": "Disney Entertainment and ESPN Product & Technology"
+  },
+  "95086544c60cfc38bd4a6edf990dfa6a1d02439fde23617c053bc0fb0364d50f": {
+    "first_seen": "2026-02-27",
+    "source": "openai_web_search",
+    "title": "Product Manager - Remote (US or LATAM)",
+    "company": "Turbo AI"
+  },
+  "ae0070453376b5cc46a6566684ac8b1cc93b662c161c44465c2a6e389b1126c4": {
+    "first_seen": "2026-02-27",
+    "source": "weworkremotely",
+    "title": "Technical Project Manager - Atlanta, GA",
+    "company": "AHU Technologies"
+  },
+  "e689a3031c659ef5c55b5832773eb214473dd332dba245eff3d28b319383ef5b": {
+    "first_seen": "2026-02-27",
+    "source": "remoteok",
+    "title": "Senior Technical Program Manager Money Movement",
+    "company": "Human Interest"
+  },
+  "1eaeefac1fbeec6db165515c1b823db6c36ed1a2e414b9e1ffd7d75c535410e9": {
+    "first_seen": "2026-02-27",
+    "source": "remoteok",
+    "title": "Senior Product Manager",
+    "company": "INFUSE"
+  },
+  "ca366212b717c61707c24891c52286bd4109459148dd0c90ae8933a16e1b001a": {
+    "first_seen": "2026-02-27",
+    "source": "remoteok",
+    "title": "Product Manager Customer Care",
+    "company": "RYZ Labs"
+  },
+  "e14f91b81bd04612b56ce3c139b23b0b0d2f0ae4e3dabc75699eb176290d4d24": {
+    "first_seen": "2026-02-27",
+    "source": "remoteok",
+    "title": "Senior Product Manager Platform Life Sciences",
+    "company": "SciLeads"
   }
 }
