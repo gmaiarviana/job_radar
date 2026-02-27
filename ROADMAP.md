@@ -18,7 +18,7 @@
 
 **Épico 7.4 — Renomear LinkedIn → Busca Manual:** config renomeado para `manual_searches.yaml`; aba "Busca Manual", subtítulo "Links de busca" e docs atualizados.
 
-**Infra — GitHub Pages (Hello World):** criada landing page mínima em `docs/site/index.html` para validar publicação via GitHub Pages (source: branch `main`, pasta `/docs/site/`).
+**Infra — GitHub Pages (Hello World):** landing page mínima movida para `docs/index.html` para servir na URL raiz via GitHub Pages (source: branch `main`, pasta `/docs/`).
 
 ---
 
