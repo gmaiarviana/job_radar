@@ -1,0 +1,50 @@
+{
+  "scored_at": "2026-02-27T14:40:28.779388+00:00",
+  "source_file": "manual",
+  "summary": {
+    "total_input": 1,
+    "total_scored": 1,
+    "total_top": 1
+  },
+  "jobs": [
+    {
+      "score": 70,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O perfil do candidato apresenta uma forte combinação de experiência em gerenciamento de programas globais, análise de dados e aplicação de IA, incluindo PoCs com GenAI e Agentic AI no domínio de ciências da vida. Isso se alinha muito bem com os requisitos centrais da vaga de Product Manager. No entanto, há uma lacuna de nível sênior, pois o candidato possui cerca de 3 anos de experiência em papéis técnicos, enquanto a vaga exige um perfil mais sênior. Portanto, atribuo um score de 70, que representa um bom fit, embora com um risco devido à lacuna de nível.",
+      "main_gap": "Lacuna de nível sênior - a vaga exige mais experiência do que o candidato possui atualmente.",
+      "company": "Life Sciences",
+      "location": "",
+      "title": "Product Manager",
+      "url": "",
+      "id": "7c52e5490c22ac7db3e64a72ebe5b3bd769e66a0fdb23865838e12e611c22f38",
+      "id_hash": "7c52e5490c22ac7db3e64a72ebe5b3bd769e66a0fdb23865838e12e611c22f38",
+      "core_requirements": [
+        {
+          "requirement": "Strategic thinker and builder who thrives at the intersection of AI and Life Sciences",
+          "category": "domain",
+          "evidence": "Experience in GenAI PoCs and LLM integration in the healthcare/life sciences domain",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Translate cutting-edge Gen AI and Agentic AI capabilities into real-world impact for pharma, biotech, and commercial teams",
+          "category": "technical",
+          "evidence": "Strong technical background in AI, with certifications and experience in applying GenAI and Agentic AI in various business contexts",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Collaborative leader who can inspire engineers, data scientists, and cross-functional teams",
+          "category": "leadership",
+          "evidence": "Demonstrated experience in leading global, cross-functional programs and coordinating teams of 25+ engineers",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Not specified",
+        "candidate_has": "~3 years in PM/TPM tech roles",
+        "gap": true
+      },
+      "source": "linkedin"
+    }
+  ]
+}

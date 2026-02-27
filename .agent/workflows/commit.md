@@ -5,6 +5,7 @@ description: how to commit and push changes on this project (Windows PowerShell)
 // turbo-all
 
 > ⚠️ This project runs on **Windows PowerShell**. Use `;` to chain commands, NOT `&&` (which is invalid in PowerShell).
+> ℹ️ **Policy**: o Cursor **nunca** deve executar diretamente estes comandos `git`; ele só deve sugerir os comandos para você rodar manualmente no seu terminal PowerShell.
 
 1. Check current git status:
 ```powershell

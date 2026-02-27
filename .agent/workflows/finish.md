@@ -26,7 +26,10 @@ Revise o `ARCHITECTURE.md` para garantir que novas dependências ou fluxos estã
 5. **Retrospectiva** (conforme `.agent/closure_protocol.md`):
 - Processo/implementação que causou ineficiência? → documentar em `.agent/`, `.cursor/` ou `docs/governance/` (ex.: CONSTITUTION). Técnico/código → fix + ROADMAP/ARCHITECTURE (fluxo normal).
 
-6. **Commit Final** (push fica com o usuário):
+6. **Commit Final** (para você rodar manualmente; push fica com o usuário):
 ```powershell
 git add <arquivos_relevantes>; git commit -m "chore: functional closure - documentation and sync updated"
 ```
+
+> [!NOTE]
+> O Cursor **não** deve executar esses comandos `git` via sandbox; ele só deve sugerir o comando para você copiar e rodar no seu terminal PowerShell.
