@@ -116,7 +116,35 @@ Critério de aceite: empresas adicionadas no companies.yaml com ats e ats_id cor
 
 ---
 
-### ÉPICO 9: UX Completa
+### ÉPICO 9: Polimento de UI — Cards, Detalhes e Cópia
+
+**Objetivo:** Melhorar a experiência visual dos cards de vagas e facilitar extração de conteúdo para uso externo (Claude, docs).
+
+**Dependência:** Épico 6 concluído.
+
+**Critério de aceite:** Cards com hierarquia visual limpa; ceiling removido da UI; botões de cópia funcionais (JD + relatório); botão "Avaliar outra" funcional na aba LinkedIn.
+
+#### 9.1 Redesign da seção de detalhes
+
+- Substituir a barra "Ver detalhes (ceiling, requisitos, seniority, gap)" por algo mais limpo (ex: apenas "Detalhes" ou ícone de expand)
+- Remover exibição de ceiling e motivo do teto da UI (manter nos JSONs para debug/eval)
+- Reordenar conteúdo expandido: justificativa e principal gap primeiro, requisitos e seniority depois
+
+#### 9.2 Botões de cópia (JD + Relatório)
+
+- Botão "Copiar JD" no detalhe expandido: copia `jd_full` como markdown para clipboard
+- Botão "Copiar Relatório" no detalhe expandido: copia score + justificativa + main_gap + requisitos + seniority formatados em markdown
+- Funcional tanto na aba Vagas quanto na aba LinkedIn (resultado do paste-and-score)
+
+#### 9.3 Botão "Avaliar outra vaga" na aba LinkedIn
+
+- Após scoring manual exibir resultado + botão "Avaliar outra vaga"
+- Ao clicar: limpar formulário e resultado, pronto para nova entrada
+- Sem necessidade de refresh da página
+
+---
+
+### ÉPICO 10: UX Completa
 
 **Objetivo:** Polimento da UI — feedback e histórico consolidado.
 
@@ -124,19 +152,19 @@ Critério de aceite: empresas adicionadas no companies.yaml com ats e ats_id cor
 
 **Critério de aceite:** Feedback por vaga funcional; histórico com contadores.
 
-#### 9.1 Feedback por vaga (👍/👎)
+#### 10.1 Feedback por vaga (👍/👎)
 
 - Botões em cada card (manual e automático)
 - Salva em `data/feedback/YYYY-MM-DD.json`
 
-#### 9.2 Histórico com contadores
+#### 10.2 Histórico com contadores
 
 - Lista de dias anteriores na sidebar
 - Contadores: vagas vistas, feedbacks dados, avaliações manuais
 
 ---
 
-### ÉPICO 10: Pipeline Automatizado Estável
+### ÉPICO 11: Pipeline Automatizado Estável
 
 **Objetivo:** Fetch + Score rodando de forma confiável via GitHub Actions.
 
@@ -144,7 +172,7 @@ Critério de aceite: empresas adicionadas no companies.yaml com ats e ats_id cor
 
 **Critério de aceite:** 5 dias consecutivos sem intervenção. Cobertura ≥ 10 vagas novas/dia.
 
-#### 10.1 Tratamento de falhas por coletor
+#### 11.1 Tratamento de falhas por coletor
 
 - Se uma fonte falhar, pipeline continua com as demais
 - Retry 1x por fonte se timeout
@@ -152,7 +180,7 @@ Critério de aceite: empresas adicionadas no companies.yaml com ats e ats_id cor
 
 ---
 
-### ÉPICO 11: Geração de Materiais
+### ÉPICO 12: Geração de Materiais
 
 **Objetivo:** Gerar currículo e cover letter personalizados por vaga, com botão na UI.
 
@@ -160,18 +188,18 @@ Critério de aceite: empresas adicionadas no companies.yaml com ats e ats_id cor
 
 **Critério de aceite:** Materiais gerados para 5 vagas reais. ≥ 4 prontos para enviar com mínima edição.
 
-#### 11.1 Currículo base modular (`config/resume_base.md`)
-#### 11.2 Template de cover letter (`config/cover_letter_template.md`)
-#### 11.3 Script generate.py (Claude Sonnet)
-#### 11.4 Geração de PDF (weasyprint)
-#### 11.5 Botão "Preparar aplicação" na UI
+#### 12.1 Currículo base modular (`config/resume_base.md`)
+#### 12.2 Template de cover letter (`config/cover_letter_template.md`)
+#### 12.3 Script generate.py (Claude Sonnet)
+#### 12.4 Geração de PDF (weasyprint)
+#### 12.5 Botão "Preparar aplicação" na UI
 
 - Em cada card com score ≥ 70
 - Loading → preview → download PDF
 
 ---
 
-### ÉPICO 12: Feedback Loop
+### ÉPICO 13: Feedback Loop
 
 **Objetivo:** Feedback do usuário alimenta o scoring.
 
@@ -179,9 +207,11 @@ Critério de aceite: empresas adicionadas no companies.yaml com ats e ats_id cor
 
 **Critério de aceite:** Scoring melhora visivelmente após 2 semanas de feedback.
 
-#### 12.1 Agregação de feedback (padrões de aceite/rejeição)
-#### 12.2 Feedback no prompt de scoring (contexto extra)
-#### 12.3 Persistência no repositório (Actions lê feedback)
+#### 13.1 Agregação de feedback (padrões de aceite/rejeição)
+#### 13.2 Feedback no prompt de scoring (contexto extra)
+#### 13.3 Persistência no repositório (Actions lê feedback)
+
+---
 
 ---
 

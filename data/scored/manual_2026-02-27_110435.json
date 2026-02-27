@@ -1,0 +1,62 @@
+{
+  "scored_at": "2026-02-27T14:04:35.688711+00:00",
+  "source_file": "manual",
+  "summary": {
+    "total_input": 1,
+    "total_scored": 1,
+    "total_top": 0
+  },
+  "jobs": [
+    {
+      "score": 55,
+      "score_ceiling": 55,
+      "ceiling_reason": "2+ penalties: domain_gap_core, seniority_gap.",
+      "justification": "O perfil do candidato demonstra experiência relevante em gestão de programas e produtos, com habilidades em análise de dados e coordenação de equipes. No entanto, há gaps importantes na vaga de Project Manager, como a falta de experiência comprovada em processos de RFP e gerenciamento de fornecedores. Além disso, a evidência de senioridade é limitada a ~3 anos, enquanto a vaga exige um histórico comprovado de gerenciamento de projetos complexos. Portanto, embora o candidato tenha um perfil promissor, os gaps identificados limitam o encaixe para a posição, justificando um score máximo de 55.",
+      "main_gap": "Ausência de experiência direta em processos de RFP e gerenciamento de fornecedores, bem como lacuna de senioridade em relação ao que é exigido na vaga.",
+      "company": "CyberRisk Alliance",
+      "location": "",
+      "title": "Project Manager",
+      "url": "",
+      "id": "21e874bff7d249f00a5785eb92f810ed362bd20cc05d80adca821b6711bdf4eb",
+      "id_hash": "21e874bff7d249f00a5785eb92f810ed362bd20cc05d80adca821b6711bdf4eb",
+      "core_requirements": [
+        {
+          "requirement": "Proven track record of managing complex technology projects in fast-paced environments",
+          "category": "seniority",
+          "evidence": "~3 years in PM/TPM tech roles, including leading program management for 200+ engineers globally",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Strong focus on cross-functional coordination and stakeholder management",
+          "category": "leadership",
+          "evidence": "Coordinated 3 teams, 25 engineers in program management role. Facilitated regular touchpoints with key stakeholders.",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Exceptional communication skills to translate strategic goals into actionable plans",
+          "category": "leadership",
+          "evidence": "Reorganized teams from component to product-oriented, reducing delivery cycles. Constructed internal AI tools to optimize workflows.",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Proactively identify and mitigate risks",
+          "category": "technical",
+          "evidence": "Resolved 60 critical vulnerabilities in 4 weeks as program manager",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Lead RFP processes for technology solutions",
+          "category": "domain",
+          "evidence": "No direct evidence in the profile",
+          "has_evidence": false
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Proven track record",
+        "candidate_has": "~3 years in PM/TPM tech roles",
+        "gap": true
+      },
+      "source": "linkedin"
+    }
+  ]
+}

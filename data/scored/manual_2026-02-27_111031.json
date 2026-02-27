@@ -1,0 +1,62 @@
+{
+  "scored_at": "2026-02-27T14:10:31.799813+00:00",
+  "source_file": "manual",
+  "summary": {
+    "total_input": 1,
+    "total_scored": 1,
+    "total_top": 0
+  },
+  "jobs": [
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui experiência relevante como PM/TPM e habilidades técnicas sólidas, atendendo a maioria dos requisitos da vaga. No entanto, há uma lacuna de seniority, uma vez que a vaga exige um nível sênior e o candidato possui cerca de 3 anos de experiência. Portanto, o score é limitado a 65 por essa restrição.",
+      "main_gap": "Lacuna de seniority - a vaga exige um nível sênior, mas o candidato possui apenas ~3 anos de experiência.",
+      "company": "Workana",
+      "location": "",
+      "title": "Senior Product Manager",
+      "url": "",
+      "id": "3e242dce3f15a245bc365d490f5d0e3d5b836bf578261c2941a8ac04445d5ea9",
+      "id_hash": "3e242dce3f15a245bc365d490f5d0e3d5b836bf578261c2941a8ac04445d5ea9",
+      "core_requirements": [
+        {
+          "requirement": "Oversee product definition and delivery",
+          "category": "domain",
+          "evidence": "Experiência como PM/PO reorganizando equipes, reduzindo ciclos de entrega e deploy, e liderando PoC GenAI",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Manage product backlog: Prioritize tasks, define user stories, and work closely with the engineering team",
+          "category": "technical",
+          "evidence": "Experiência em Product strategy, roadmap, backlog prioritization, OKRs",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Collaborate with cross-functional teams: Work closely with engineering, design, data, and other stakeholders",
+          "category": "leadership",
+          "evidence": "Experiência em liderança cross-functional (engenharia, UX, arquitetura, negócios)",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Coordinate with stakeholders: Act as the main point of contact between the product team and internal stakeholders",
+          "category": "leadership",
+          "evidence": "Experiência em liderança cross-functional (engenharia, UX, arquitetura, negócios)",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Senior level",
+          "category": "seniority",
+          "evidence": "Experiência de ~3 anos em PM/TPM/tech roles",
+          "has_evidence": true
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Senior level",
+        "candidate_has": "~3 years in PM/TPM tech roles",
+        "gap": true
+      },
+      "source": "linkedin"
+    }
+  ]
+}

@@ -91,7 +91,7 @@ Você é um recrutador técnico. Sua tarefa é analisar a vaga abaixo em relaç�
    - requirement: texto do requisito
    - category: exatamente uma de: seniority | technical | domain | leadership | other
    - evidence: evidência concreta do perfil que atende, ou string vazia se não houver
-   - has_evidence: true se há evidência no perfil, false caso contrário
+   - has_evidence: "full" se o perfil atende o requisito com evidência direta e suficiente; "partial" se há evidência relacionada mas insuficiente em escopo, anos ou profundidade (ex: JD pede 5+ anos e candidato tem ~3; ou JD pede domínio específico e candidato tem domínio adjacente); "false" se não há evidência relevante no perfil.
 
 2. SENIORITY COMPARISON: Compare explicitamente anos pedidos na JD vs anos do candidato em papéis PM/TPM/tech. Preencha:
    - jd_asks: o que a JD pede (ex: "8+ years", "5-7 years")
@@ -112,7 +112,7 @@ Você é um recrutador técnico. Sua tarefa é analisar a vaga abaixo em relaç�
 # FORMATO DE SAÍDA (JSON)
 {{
   "core_requirements": [
-    {{"requirement": "...", "category": "seniority|technical|domain|leadership|other", "evidence": "...", "has_evidence": true}}
+    {{"requirement": "...", "category": "seniority|technical|domain|leadership|other", "evidence": "...", "has_evidence": "full|partial|false"}}
   ],
   "seniority_comparison": {{
     "jd_asks": "...",

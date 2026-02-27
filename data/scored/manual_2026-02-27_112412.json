@@ -1,0 +1,62 @@
+{
+  "scored_at": "2026-02-27T14:24:12.491623+00:00",
+  "source_file": "manual",
+  "summary": {
+    "total_input": 1,
+    "total_scored": 1,
+    "total_top": 1
+  },
+  "jobs": [
+    {
+      "score": 80,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato possui boa experiência em liderança de projetos e coordenação de equipes multifuncionais, habilidades que são essenciais para o cargo de Project Manager. Embora a vaga não seja específica para a área de tecnologia, as competências do candidato em análise de dados e experiência em ferramentas de gestão de projetos são transferíveis e relevantes. Portanto, o candidato se encaixa bem no perfil da vaga, com apenas um pequeno gap em relação ao domínio específico da empresa (BULDRR AI), que atua na área de IA.",
+      "main_gap": "Experiência limitada no domínio específico da empresa de IA (BULDRR AI), apesar das habilidades transferíveis em gestão de projetos e análise de dados.",
+      "company": "BULDRR AI",
+      "location": "",
+      "title": "Project Manager",
+      "url": "",
+      "id": "ba9215091d517f48fcaab0a2a492de02d3402c93a1f475fe2240843baedc2d05",
+      "id_hash": "ba9215091d517f48fcaab0a2a492de02d3402c93a1f475fe2240843baedc2d05",
+      "core_requirements": [
+        {
+          "requirement": "Lead projects from planning to delivery",
+          "category": "leadership",
+          "evidence": "Liderou construção de prédio de 15 andares (~5.000 m²), 40 subordinados diretos",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Coordinate cross-functional teams (tech, marketing, ops)",
+          "category": "leadership",
+          "evidence": "Coordenou 3 equipes, 25 engenheiros em programa global de 200+ engenheiros",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Break big goals into measurable milestones",
+          "category": "leadership",
+          "evidence": "PI Planning (SAFe), release management, dependency tracking",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Track progress, remove blockers, and ensure deadlines are met",
+          "category": "leadership",
+          "evidence": "Resolveu 60 vulnerabilidades críticas em 4 semanas",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Experience in project management tools",
+          "category": "technical",
+          "evidence": "Ferramentas: Jira, Azure DevOps, Confluence, Figma, Amplitude",
+          "has_evidence": true
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Not specified",
+        "candidate_has": "~7 years in PM/TPM/tech roles",
+        "gap": false
+      },
+      "source": "linkedin"
+    }
+  ]
+}

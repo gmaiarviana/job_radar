@@ -188,9 +188,15 @@ def _render_vagas():
                 for req in core_req:
                     if isinstance(req, dict):
                         rq = req.get("requirement") or req.get("requirement_text") or "(requisito)"
-                        has_ev = req.get("has_evidence", True)
+                        has_ev = req.get("has_evidence", "full")
+                        if has_ev == "full" or has_ev is True:
+                            icon = "✓"
+                        elif has_ev == "partial":
+                            icon = "⚠️"
+                        else:
+                            icon = "✗"
                         ev = req.get("evidence") or ""
-                        st.markdown(f"- {rq} — {'✓' if has_ev else '✗'} {ev}")
+                        st.markdown(f"- {rq} — {icon} {ev}")
                     else:
                         st.markdown(f"- {req}")
             elif job.get("evidence"):
@@ -295,9 +301,15 @@ def _render_job_result_detail(job: dict) -> None:
         for req in core_req:
             if isinstance(req, dict):
                 rq = req.get("requirement") or req.get("requirement_text") or "(requisito)"
-                has_ev = req.get("has_evidence", True)
+                has_ev = req.get("has_evidence", "full")
+                if has_ev == "full" or has_ev is True:
+                    icon = "✓"
+                elif has_ev == "partial":
+                    icon = "⚠️"
+                else:
+                    icon = "✗"
                 ev = req.get("evidence") or ""
-                st.markdown(f"- {rq} — {'✓' if has_ev else '✗'} {ev}")
+                st.markdown(f"- {rq} — {icon} {ev}")
             else:
                 st.markdown(f"- {req}")
     sr = job.get("seniority_comparison")

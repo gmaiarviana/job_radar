@@ -1,0 +1,62 @@
+{
+  "scored_at": "2026-02-27T14:03:03.233845+00:00",
+  "source_file": "manual",
+  "summary": {
+    "total_input": 1,
+    "total_scored": 1,
+    "total_top": 0
+  },
+  "jobs": [
+    {
+      "score": 55,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui habilidades relevantes de gestão de programas e produtos, com experiência em liderança de equipes multifuncionais e entrega ágil. No entanto, ele ainda não atinge os 8+ anos de experiência exigidos para esta vaga sênior. Sua experiência de aproximadamente 3 anos em PM/TPM não é suficiente para o nível esperado. Mesmo assim, suas competências transferíveis o tornam um candidato viável, com potencial de se destacar após uma curva de aprendizado.",
+      "main_gap": "Gap de seniority, com 3 anos de experiência em PM/TPM em vez dos 8+ exigidos.",
+      "company": "Space Dinosaurs",
+      "location": "",
+      "title": "Senior Manager of Product Delivery (Remote – LATAM)",
+      "url": "",
+      "id": "e1d1fdaf34ffa7b830ad8c096ee43ff804d302fb482961e7b6d49a0169fa3fee",
+      "id_hash": "e1d1fdaf34ffa7b830ad8c096ee43ff804d302fb482961e7b6d49a0169fa3fee",
+      "core_requirements": [
+        {
+          "requirement": "8+ years in Agile software delivery leadership",
+          "category": "seniority",
+          "evidence": "~3 years in PM/TPM tech roles",
+          "has_evidence": false
+        },
+        {
+          "requirement": "Strong client-facing and engagement ownership experience",
+          "category": "domain",
+          "evidence": "Coordenou 3 equipes, 25 engenheiros em programa global de 200+ engenheiros. Resolveu 60 vulnerabilidades críticas em 4 semanas.",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Proven ability to lead large, cross-functional teams",
+          "category": "leadership",
+          "evidence": "Coordenou 3 equipes, 25 engenheiros em programa global de 200+ engenheiros.",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Deep knowledge of Agile/Scrum, Jira, and delivery best practices",
+          "category": "technical",
+          "evidence": "Liderou PoC GenAI que contribuiu para novo contrato com cliente. Construiu ferramentas internas de IA (validação de timesheet: de 40 min → 10 min/semana).",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Fluent English (spoken & written)",
+          "category": "other",
+          "evidence": "Inglês (fluente profissional, 3+ anos com stakeholders americanos)",
+          "has_evidence": true
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "8+ years",
+        "candidate_has": "~3 years in PM/TPM tech roles",
+        "gap": true
+      },
+      "source": "linkedin"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "scored_at": "2026-02-27T14:22:38.490787+00:00",
+  "source_file": "manual",
+  "summary": {
+    "total_input": 1,
+    "total_scored": 1,
+    "total_top": 1
+  },
+  "jobs": [
+    {
+      "score": 90,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato Guilherme Maia possui experiência direta nas principais responsabilidades do cargo, incluindo gestão de produtos, programas e análise de dados. Suas competências em liderança transversal, planejamento de lançamentos e uso de IA para melhorar workflows são particularmente relevantes. Embora a vaga não especifique o nível de seniority, o perfil de Guilherme com cerca de 3 anos em funções técnicas de PM/TPM o torna um ótimo candidato para a posição.",
+      "main_gap": "Nenhum gap significativo identificado. O candidato possui o perfil alinhado com os requisitos centrais da vaga.",
+      "company": "Growing EdTech",
+      "location": "",
+      "title": "Product Operations Manager (Delivery Systems)",
+      "url": "",
+      "id": "090b652ef6acafd9e5d22a68af66aa71c33a4f492962943bb470b01af92b21d7",
+      "id_hash": "090b652ef6acafd9e5d22a68af66aa71c33a4f492962943bb470b01af92b21d7",
+      "core_requirements": [
+        {
+          "requirement": "Build and maintain clear product and release roadmaps",
+          "category": "domain",
+          "evidence": "Product strategy, roadmap, backlog prioritization, OKRs",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Define timelines, sequencing, and dependencies across initiatives",
+          "category": "technical",
+          "evidence": "Program management: PI Planning (SAFe), release management, dependency tracking",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Coordinate delivery across product, design, engineering, and operations",
+          "category": "leadership",
+          "evidence": "Cross-functional leadership (engineering, UX, architecture, business)",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Design dashboards that surface progress, ownership, risks, and blockers at a glance",
+          "category": "technical",
+          "evidence": "Data analysis: SQL, Python, Spark/Scala, Databricks, ETL",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Leverage AI tools to improve planning, documentation, and execution workflows",
+          "category": "technical",
+          "evidence": "AI: GenAI PoCs, LLM Integration, Prompt Engineering, GCP GenAI Leader certified",
+          "has_evidence": true
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "not specified",
+        "candidate_has": "~3 years in PM/TPM tech roles",
+        "gap": false
+      },
+      "source": "linkedin"
+    }
+  ]
+}
