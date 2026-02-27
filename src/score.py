@@ -92,6 +92,7 @@ Você é um recrutador técnico. Sua tarefa é analisar a vaga abaixo em relaç�
    - category: exatamente uma de: seniority | technical | domain | leadership | other
    - evidence: evidência concreta do perfil que atende, ou string vazia se não houver
    - has_evidence: "full" se o perfil atende o requisito com evidência direta e suficiente; "partial" se há evidência relacionada mas insuficiente em escopo, anos ou profundidade (ex: JD pede 5+ anos e candidato tem ~3; ou JD pede domínio específico e candidato tem domínio adjacente); "false" se não há evidência relevante no perfil.
+   IMPORTANTE: has_evidence DEVE ser sempre uma string ('full', 'partial' ou 'false'). Nunca retorne booleanos true/false.
 
 2. SENIORITY COMPARISON: Compare explicitamente anos pedidos na JD vs anos do candidato em papéis PM/TPM/tech. Preencha:
    - jd_asks: o que a JD pede (ex: "8+ years", "5-7 years")
@@ -140,7 +141,15 @@ Você é um recrutador técnico. Sua tarefa é analisar a vaga abaixo em relaç�
         content = response.content[0].text
         start_idx = content.find("{")
         end_idx = content.rfind("}") + 1
-        return json.loads(content[start_idx:end_idx])
+        result = json.loads(content[start_idx:end_idx])
+        # Normalizar has_evidence: bool → string
+        for req in result.get("core_requirements", []):
+            he = req.get("has_evidence")
+            if he is True:
+                req["has_evidence"] = "full"
+            elif he is False:
+                req["has_evidence"] = "false"
+        return result
     except Exception as e:
         print(f"[score.py] [ERR] Erro em analyze_job para {job.get('title')}: {e}")
         return None
