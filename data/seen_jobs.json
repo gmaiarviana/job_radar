@@ -1078,5 +1078,125 @@
     "source": "linkedin",
     "title": "Senior Product Manager",
     "company": "Pinpoint - Home"
+  },
+  "6d14a33cf51f9c9d0b5ca62b8c4e4adfff9fe5daabb26066c243dca09a796f39": {
+    "first_seen": "2026-02-27",
+    "source": "jobicy",
+    "title": "Project Manager, Localization",
+    "company": "Smartling"
+  },
+  "1e476a50fb4c9c2bc20ef28e147b88ee27b40d26d96a77020f5b03b5b5ecc883": {
+    "first_seen": "2026-02-27",
+    "source": "jobicy",
+    "title": "(Junior) Agile Coach (m/f/d)",
+    "company": "beyonnex"
+  },
+  "a723ca981f9f0156477c15211d9c9629b6eefc8763f0df486603b66b59254159": {
+    "first_seen": "2026-02-27",
+    "source": "jobicy",
+    "title": "Managing Director",
+    "company": "BingX"
+  },
+  "2105fb84069e32a18db97edd2aa89f247fddedcbebabb4bd2b418c400374ae42": {
+    "first_seen": "2026-02-27",
+    "source": "jobicy",
+    "title": "Qualitative Project Manager",
+    "company": "M3 USA"
+  },
+  "c1f8a6f2f095ee85136e9dba5b56c69eb29c51238f217f5b95577c059946a7bf": {
+    "first_seen": "2026-02-27",
+    "source": "jobicy",
+    "title": "Manager Quality Assurance &amp;#8211; All Suites",
+    "company": "Hilton"
+  },
+  "043c67ee0dc49c00e14869adf9771ec7cd3ed3aa3d028dbc362e20725016b96f": {
+    "first_seen": "2026-02-27",
+    "source": "jobicy",
+    "title": "Senior BIM Manager, Data Centers &amp;#8211; Remote (U.S.)",
+    "company": "AECOM"
+  },
+  "e636ae5b2db3a019d729b0aa87bf113f17023dead8d370f4b88ecd8ebb97557a": {
+    "first_seen": "2026-02-27",
+    "source": "greenhouse",
+    "title": "Specialist, AI Operations Program Manager",
+    "company": "Databricks"
+  },
+  "6d0cf0c3b5ee8852b142355fd08a96a68efead487f052d90aaf440d6b52d2cd8": {
+    "first_seen": "2026-02-27",
+    "source": "greenhouse",
+    "title": "Staff Product Manager, Reverse ETL",
+    "company": "Fivetran"
+  },
+  "0877f27031b20fe639e5525da86e49519e9063ee19e7537e0c9d969cb793965a": {
+    "first_seen": "2026-02-27",
+    "source": "greenhouse",
+    "title": "Principal Product Manager - Maintenance",
+    "company": "Samsara"
+  },
+  "e3ac674121da88ac4a4b482c265f50c2998aa85b4ef8c71d9a0caabdfa9dc147": {
+    "first_seen": "2026-02-27",
+    "source": "greenhouse",
+    "title": "Program Manager, Customer Support Enablement",
+    "company": "Samsara"
+  },
+  "4ecf80fe6ab819da06d9c3321f510ba1de2f65800f9b688b9c82d0b6f6a32431": {
+    "first_seen": "2026-02-27",
+    "source": "greenhouse",
+    "title": "Senior Program Manager, Sales Engineering (New Products)",
+    "company": "Samsara"
+  },
+  "9a8cfca6138437bb7cf463b71348f8679d8d33e759c951938dc0155dc93c2a54": {
+    "first_seen": "2026-02-27",
+    "source": "greenhouse",
+    "title": "Senior Program Manager, Sales Engineering (Operations)",
+    "company": "Samsara"
+  },
+  "f034988cdcf4270e36d18e7cc9aedd543e5de7fb990f322882858388a4a9fd87": {
+    "first_seen": "2026-02-27",
+    "source": "greenhouse",
+    "title": "Supply Chain Product Manager",
+    "company": "Samsara"
+  },
+  "d08d41ff6ef13873fb670d7de9ff6d88a0eed154e12ca84252b6edf317a7b730": {
+    "first_seen": "2026-02-27",
+    "source": "greenhouse",
+    "title": "Contractor Staffing Lead (Operations Program Manager)",
+    "company": "Scale AI"
+  },
+  "bf3b79e0867b187eab5cbabccf35556a226ab26d4a7a8eec9ef83d74ced18c44": {
+    "first_seen": "2026-02-27",
+    "source": "greenhouse",
+    "title": "Staff Product Manager, Growth",
+    "company": "Duolingo"
+  },
+  "e297c0d7d53ec0b534ddd5779a0e01706b9859653d7078180cf43a4037939cdb": {
+    "first_seen": "2026-02-27",
+    "source": "greenhouse",
+    "title": "Program Manager, Revenue Strategy and Operations",
+    "company": "Faire"
+  },
+  "870b0292574cc0cf8732140567b50e033ad1da77369ae4c750d34889c71fe3c5": {
+    "first_seen": "2026-02-27",
+    "source": "greenhouse",
+    "title": "Director, Technical Program Management",
+    "company": "Cloudflare"
+  },
+  "86510d4cf9eefbc5f1686144f7b8e854fd2cc9d766a6d9093c0997843a0cd64c": {
+    "first_seen": "2026-02-27",
+    "source": "greenhouse",
+    "title": "Product Manager, Developer Tools",
+    "company": "Cloudflare"
+  },
+  "e07b07ef2174944062edec81c6345fb8adf66b5dab14a4b01493ca47b7f9144b": {
+    "first_seen": "2026-02-27",
+    "source": "greenhouse",
+    "title": "Product Manager - Email Security",
+    "company": "Cloudflare"
+  },
+  "1c00dfa3d8e6d82845c998a7565c94b5428ee33cf92a1ec70196defa4b4c3d03": {
+    "first_seen": "2026-02-27",
+    "source": "greenhouse",
+    "title": "Senior Product Manager, AI Geo Assistant",
+    "company": "Planet Labs"
   }
 }
