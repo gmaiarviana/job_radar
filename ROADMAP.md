@@ -162,6 +162,14 @@ Critério de aceite: empresas adicionadas no companies.yaml com ats e ats_id cor
 - Lista de dias anteriores na sidebar
 - Contadores: vagas vistas, feedbacks dados, avaliações manuais
 
+#### 10.3 Visibilidade de custo de modelos (por dia)
+
+- **Objetivo:** Ver quanto aquele dia está custando em uso de modelos, em **reais (BRL)**.
+- **Escopo inicial:** Apenas **buscas manuais** (paste-and-score na UI — Claude Haiku, 2 chamadas por vaga). Monitoramento de custo do pipeline fica para depois.
+- **Exibição:** Custo por dia na UI (sidebar do histórico ou seção dedicada), em reais.
+- **Implementação:** Dicionário de custo por modelo (ex.: em `config/` ou módulo dedicado) com preço por token ou por 1k tokens, para calcular BRL a partir do usage retornado pelas APIs. Se necessário, taxa de câmbio configurável ou fixa.
+- **Nota:** Hoje o código não persiste usage (tokens); será necessário registrar usage nas chamadas do paste-and-score e persistir (ex.: `data/usage/`) para agregar por dia.
+
 ---
 
 ### ÉPICO 11: Pipeline Automatizado Estável
