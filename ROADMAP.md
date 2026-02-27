@@ -57,17 +57,19 @@ Adicionar empresas validadas como remote-first com ATS suportado:
 
 Critério de aceite: empresas adicionadas no companies.yaml com ats e ats_id corretos; seed valida que pelo menos 4 de 6 retornam vagas (slug OK).
 
-#### 7.4 Renomear LinkedIn → Busca Manual
+#### 7.4 Revisar buscas manuais e renomear LinkedIn → Busca Manual
 
+**Já concluído:**
+- ✅ Revisão de botões: de 12 para 8 (4 Jobs + 4 Feeds). Cortes: Delivery/Strategy Ops/Product Analyst + 3 feeds redundantes. Adições: Product Ops Remote e Technical PM Remote como Jobs.
+- ✅ `config/linkedin_searches.yaml` atualizado com 8 entries
+- ✅ `config/profile.md`: seniority clarificada (~7 anos gestão total vs ~3 PM/TPM tech)
+- ✅ Fix has_evidence em score.py: reforço no prompt + normalização no código
+
+**Pendente:**
 - Renomear `config/linkedin_searches.yaml` → `config/manual_searches.yaml`
 - Atualizar app.py: aba "LinkedIn" → "Busca Manual"; referência ao novo yaml
-- Adicionar links de fontes sem API:
-  - Wellfound (AngelList): remote PM filter
-  - YC Work at a Startup: remote PM filter
-  - Product Jobs Anywhere: LATAM PM filter
-  - Remote Rocketship: LATAM PM filter
-- Manter links LinkedIn existentes (são links manuais também)
-- Critério de aceite: aba funcional com novo nome e links adicionais; yaml antigo removido ou renomeado
+
+Critério de aceite: aba funcional com novo nome; yaml renomeado; app.py referenciando novo arquivo
 
 #### 7.5 Remover penalty `outsourcing_context` do scoring
 

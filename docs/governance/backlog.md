@@ -26,6 +26,7 @@ Decisões fora de escopo e ideias/features futuras. O plano ativo (épicos em an
 - **discover.py:** Prospectar novas empresas-alvo via queries em boards ATS
 - **Notificação mobile:** Push via Telegram Bot para PERFECT_MATCH
 - **Alertas por email:** notify.py envia email se score ≥ 95
+- **Links de fontes manuais sem API:** Wellfound (AngelList), YC Work at a Startup, Product Jobs Anywhere, Remote Rocketship. Avaliar inclusão em config/manual_searches.yaml após 1 semana com os 8 botões LinkedIn revisados. Só adicionar se fonte gerar ≥ 2 vagas compatíveis por semana. Contexto: Épico 7.4.
 
 ---
 
