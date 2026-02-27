@@ -1,0 +1,56 @@
+{
+  "scored_at": "2026-02-27T00:41:10.640419+00:00",
+  "source_file": "manual",
+  "summary": {
+    "total_input": 1,
+    "total_scored": 1,
+    "total_top": 1
+  },
+  "jobs": [
+    {
+      "score": 95,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato possui experiência DIRETA no domínio central da vaga, com sólida experiência em papéis técnicos de gerenciamento de programa/produto (PM/TPM) em um ambiente de startup/scale-up. Ele demonstra habilidades em gerenciamento de programa, análise de dados, uso de IA e ferramentas técnicas, além de liderança transversal. O perfil do candidato se alinha muito bem com os requisitos-chave da vaga.",
+      "main_gap": "Nenhum gap identificado. O candidato atende plenamente aos requisitos da vaga.",
+      "company": "RHEI",
+      "location": "",
+      "title": "Technical Program Manager",
+      "url": "",
+      "id": "4be75a14402571f072e3d3c314f5887a8ea9adba24d121f290fb3c38796afd94",
+      "id_hash": "4be75a14402571f072e3d3c314f5887a8ea9adba24d121f290fb3c38796afd94",
+      "core_requirements": [
+        {
+          "requirement": "3+ years of experience in Technical Program Management, Engineering Program Management, or a similar cross-functional technical role",
+          "category": "seniority",
+          "evidence": "~3 years in TPM and PM tech roles",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Proven track record of delivering complex, multi-team software programs in a fast-paced, startup or scale-up environment",
+          "category": "domain",
+          "evidence": "Experience in TPM role at Instituto Atlântico, coordinating 3 teams and 25 engineers in a global program with 200+ engineers. Also has experience in PM/PO role at Instituto Atlântico, reorganizing teams and reducing delivery cycle.",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Hands-on ability to build internal tools using AI-assisted coding — you're comfortable with vibe coding: prompting AI to generate code, reviewing output, iterating, and shipping functional tools",
+          "category": "technical",
+          "evidence": "Experience in building internal AI tools, such as timesheet validation automation at Instituto Atlântico",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Strong technical fluency — you can read architecture diagrams, understand API contracts, reason about system design",
+          "category": "technical",
+          "evidence": "Background in data analysis and working with various technical tools and frameworks, such as SQL, Python, Spark/Scala, Databricks, and GenAI.",
+          "has_evidence": true
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "3+ years",
+        "candidate_has": "~3 years in PM/TPM tech roles",
+        "gap": false
+      },
+      "source": "linkedin"
+    }
+  ]
+}

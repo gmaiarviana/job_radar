@@ -34,7 +34,7 @@ graph TD
 | **Paths** | `src/paths.py` | — | Single source of truth para diretórios do projeto. Lê output de search.yaml, expõe RAW_DIR, FILTERED_DIR, SCORED_DIR, etc. como Path objects. |
 | **Filter** | `src/filter.py` | — | Hard filters gratuitos: title (exclude_title_keywords de search.yaml) + location (blocklist + allowlist) + quality guard (JD/título/empresa). Lê `data/raw/`, grava `data/filtered/` (mesmo nome; jd_full intacto). CLI: `--input` ou `--date`. `data/filtered/` no .gitignore. |
 | **Score** | `src/score.py` | Claude Haiku | Lê de `data/filtered/`. Eliminatórios em batch com payload completo (title, company, location, jd_full). Deep Scoring individual com JD truncado a 3000 chars no prompt (não no armazenamento). Chamada 1 (analyze_job) retorna `penalties` como dict de bools; compute_ceiling calcula teto em Python; Chamada 2 (score_with_analysis) recebe análise + ceiling e atribui score final (early return se ceiling ≤ 50, senão Haiku com teto explícito). main() executa esse pipeline por vaga; output por vaga inclui score_ceiling, ceiling_reason, core_requirements, seniority_comparison. Contra `config/profile.md`. |
-| **Interface** | `app.py` | Streamlit | Duas abas: **Vagas** (tabela unificada de `data/scored/`: pipeline + manual_*.json; filtro por data; cards com score, fonte, link; detalhes em expander) e **LinkedIn** (links de `config/linkedin_searches.yaml` + paste-and-score via Anthropic; salva em `manual_*.json` e atualiza `seen_jobs.json`). Revisão, feedback e acionamento de geração. |
+| **Interface** | `app.py` | Streamlit | Duas abas: **Vagas** (tabela unificada de `data/scored/`: pipeline + manual_*.json; filtro por data; cards com score, veredito APLICAR/AVALIAR/PULAR, fonte, salário quando existir, link; expand com análise completa) e **LinkedIn** (links de `config/linkedin_searches.yaml` + paste-and-score: normalize_job → analyze_job → compute_ceiling → score_with_analysis; salva em `data/scored/manual_YYYY-MM-DD_HHMMSS.json` com hora local no nome e UTC em scored_at; atualiza `seen_jobs.json`). Depende de `src/score.py`, `src/job_schema.py`, `src/seen_jobs.py`, `src/paths.py`. Revisão, feedback e acionamento de geração. |
 | **Writer** | `src/generate.py`| Claude Sonnet | Redação de alta qualidade para CV e Cover Letter. |
 | **Notifier** | `src/notify.py` | SMTP | Alertas imediatos para `PERFECT_MATCH` (score > 95). |
 | **Eval** | `src/eval/build_gabarito.py`, `eval_eliminatorios.py`, `test_scoring.py`, `validate_scoring_pipeline.py` | — | Infraestrutura de avaliação: gabarito machine-readable, eval parametrizado por modelo; testes de scoring (compute_ceiling); validação do pipeline de 2 chamadas no seed (5.1.5) via `--seed <path>`. |
@@ -113,6 +113,6 @@ job-radar/
 - **Testes:** O projeto ainda não tem suíte automatizada (pytest). Recomenda-se adicionar smoke test (`python src/fetch.py --dry-run`) ou testes unitários para `job_schema` e pipeline antes de escalar novos coletores.
 
 ---
-**Última atualização:** 26 de Fevereiro de 2026
+**Última atualização:** 27 de Fevereiro de 2026
 
 

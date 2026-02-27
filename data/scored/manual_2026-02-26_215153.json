@@ -1,0 +1,62 @@
+{
+  "scored_at": "2026-02-27T00:51:53.483204+00:00",
+  "source_file": "manual",
+  "summary": {
+    "total_input": 1,
+    "total_scored": 1,
+    "total_top": 0
+  },
+  "jobs": [
+    {
+      "score": 58,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui experiência relevante em PM/TPM, análise de dados e liderança de projetos, demonstrando capacidade de atuar em contextos complexos. No entanto, a vaga de Senior Engagement Manager exige uma experiência mais sólida em gestão de contas estratégicas e de alto nível, com atuação em contexto de enterprise/strategic accounts, o que não fica evidente no perfil do candidato. Portanto, o candidato se enquadra na faixa de 50-69 pontos, sendo improvável passar por uma triagem experiente.",
+      "main_gap": "Falta de experiência comprovada em gestão de contas estratégicas e de alto nível com clientes enterprise.",
+      "company": "Trustly",
+      "location": "",
+      "title": "Senior Engagement Manager",
+      "url": "",
+      "id": "ff62e3662b1667cb0aec2dadc30afe7aeef9a14ad4d12b145ca3f7028c8d157b",
+      "id_hash": "ff62e3662b1667cb0aec2dadc30afe7aeef9a14ad4d12b145ca3f7028c8d157b",
+      "core_requirements": [
+        {
+          "requirement": "Lead complex, high-stakes integrations for Tier-1 enterprise partners. Manage multi-stream projects involving custom features, heavy regulatory requirements, and bespoke operational workflows",
+          "category": "leadership",
+          "evidence": "Coordenou 3 equipes, 25 engenheiros em programa global de 200+ engenheiros. Resolveu 60 vulnerabilidades críticas em 4 semanas.",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Act as a trusted advisor on Open Banking strategy. Consult merchants not just on how to integrate, but on how to optimize their payment flows for maximum conversion in a real-time payments landscape",
+          "category": "domain",
+          "evidence": "Experiência em PM/PO (2 anos), TPM em programa global (200+ engenheiros), e análise de dados em ambiente de alta escala (Nubank, 150K+ solicitações/dia).",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Identify gaps in the current integration portfolio assets and policies. Create and refine \"best practice\" playbooks that the wider team can adopt to improve efficiency",
+          "category": "leadership",
+          "evidence": "Reorganizou equipes de component-oriented para product-oriented → reduziu ciclo de entrega de 3 sprints para 1. Reduziu ciclo de deploy de 30 para 15 dias.",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Lead operational rehearsals and orchestrate alignment across Product, Risk, Legal, and Support for large-scale launches",
+          "category": "leadership",
+          "evidence": "Liderou PoC GenAI que contribuiu para novo contrato com cliente.",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Mentor Junior and Mid-level Engagement Managers, providing guidance on project management techniques and challenging client negotiations",
+          "category": "leadership",
+          "evidence": "Experiência em PM/PO (2 anos), TPM em programa global (200+ engenheiros).",
+          "has_evidence": true
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Solid experience in technical program/project management, specifically handling Enterprise/Strategic accounts",
+        "candidate_has": "~3 years in PM/TPM tech roles",
+        "gap": true
+      },
+      "source": "linkedin"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # ROADMAP - Job Radar
 
-📡 **Status:** Pipeline completo (fetch → filter → score). Épico 5 e Épico 6.1–6.3 (UI mínima) concluídos. Próximo: polimento da UI (Épico 7) ou itens pendentes do 6.
+📡 **Status:** Pipeline completo (fetch → filter → score). Épico 6 concluído. Próximo: Épico 7 (UX completa).
 
 > **Filosofia:** POC → Protótipo → MVP. Validar cada etapa antes de avançar. Qualidade antes de volume.
 
@@ -12,59 +12,11 @@
 
 **Épico 5 — Qualidade de scoring:** Prompt em 2 chamadas (analyze_job → compute_ceiling → score_with_analysis), validado no seed; ceiling em Python; arquivos scored por data/hora; filter/score com exclusão de `*_discarded.json` e `seed_*`. Pipeline end-to-end validado (fetch → filter → score).
 
-**Épico 6.1–6.3 — UI funcional mínima:** 6.1 `config/linkedin_searches.yaml` com buscas LinkedIn; 6.2 Página Vagas (tabela unificada de `data/scored/`, filtro por data, cards com score/fonte/link); 6.3 Página LinkedIn (links clicáveis + formulário paste-and-score, resultado na tela, persistência em `manual_*.json` e `seen_jobs.json`).
+**Épico 6 — UI Funcional Mínima:** Streamlit com duas abas. Aba "Vagas": tabela unificada (pipeline + manuais) com score, veredito (APLICAR/AVALIAR/PULAR), badge de fonte, filtro por data, expand com análise completa. Aba "LinkedIn": links de busca + paste-and-score (analyze_job → compute_ceiling → score_with_analysis) com persistência em `data/scored/manual_*.json` e `seen_jobs.json`. Config: `config/linkedin_searches.yaml`.
 
 ---
 
 ## 📍 Próximos Épicos
-
-### ÉPICO 6: UI Funcional Mínima ✅ 6.1–6.3 concluídos
-
-**Objetivo:** Interface com valor imediato — monitorar LinkedIn, avaliar vagas manualmente, visualizar resultados do pipeline automático.
-
-**Dependência:** Épico 5 concluído.
-
-**Critério de aceite:** Usuário consegue: (1) abrir links de busca do LinkedIn direto da UI, (2) colar JD e ver score + gaps, (3) voltar a avaliações salvas, (4) ver vagas scored do pipeline automático.
-
-#### 6.1 Links de busca na sidebar
-
-- `config/linkedin_searches.yaml` com nome + URL + camada (diário / periódico / semanal)
-- Sidebar no Streamlit com links clicáveis (abrem no browser)
-- Agrupados por camada de prioridade
-- Conteúdo dos links: definir na próxima sessão de planejamento
-
-#### 6.2 Paste-and-score
-
-- Formulário na UI:
-  - Título da vaga (obrigatório)
-  - Empresa (obrigatório)
-  - JD — textarea (obrigatório)
-  - URL (opcional)
-  - Localização (opcional)
-  - Salário (opcional)
-- Submit → `normalize_job(raw, source="manual")` → `analyze_job` → `compute_ceiling` → `score_with_analysis`
-- Resultado na tela: score (badge colorido), ceiling, ceiling_reason, core_requirements com evidências, seniority_comparison, main_gap
-- Loading indicator durante scoring (2 chamadas LLM)
-
-#### 6.3 Persistência de avaliações manuais
-
-- Salva resultado em `data/scored/manual_YYYY-MM-DD_HHMMSS.json`
-  - Mesmo formato dos scored automáticos (`source: "manual"`)
-  - 1 job por arquivo (cada submit gera um arquivo)
-- Aba/seção "Minhas avaliações":
-  - Lista todos `manual_*.json` de `data/scored/`, ordenados por data (mais recente primeiro)
-  - Card: título, empresa, score (badge), data da avaliação, link para URL original
-  - Clique expande: gaps, core_requirements, justification, ceiling_reason
-
-#### 6.4 Tabela de vagas scored (pipeline automático)
-
-- Leitura de `data/scored/` excluindo `manual_*.json`
-- Lista ordenada por score (maior primeiro)
-- Card: título, empresa, score (badge colorido), localização, link direto
-- Cores: verde (≥ 85), amarelo (70–84), cinza (< 70)
-- Seletor de data para filtrar por dia
-
----
 
 ### ÉPICO 7: UX Completa
 
