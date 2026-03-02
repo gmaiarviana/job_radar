@@ -1324,5 +1324,53 @@
     "source": "remoteok",
     "title": "Senior Product Manager Platform Life Sciences",
     "company": "SciLeads"
+  },
+  "9990f9bea1359177a36ad03091477a07f25b92cc64ac940143f7367405913745": {
+    "first_seen": "2026-03-02",
+    "source": "openai_web_search",
+    "title": "Product Manager",
+    "company": "Cognizant"
+  },
+  "8a7def88b2db63abc69303e9fa548d1a76e8efc6968fc626104367f0b24fefc0": {
+    "first_seen": "2026-03-02",
+    "source": "jobicy",
+    "title": "Principal Product Manager, Continuous Delivery",
+    "company": "GitLab"
+  },
+  "97d2fc1c6ac2dcbc8eb29da5a015e2be7caa1c86118254ac02ffeeab9c3c3a15": {
+    "first_seen": "2026-03-02",
+    "source": "remoteok",
+    "title": "Program Manager",
+    "company": "Nava"
+  },
+  "06177d74abf573022f98a9c48b375d35db829d61d2e062f72ce7dea9f30930a9": {
+    "first_seen": "2026-03-02",
+    "source": "remoteok",
+    "title": "Technical Product Manager",
+    "company": "Arize AI"
+  },
+  "3cc19f53f85d2ef33a56a233a29cebfffa4aaa4d9c9f09e5882ec1c2fe096b19": {
+    "first_seen": "2026-03-02",
+    "source": "remoteok",
+    "title": "Middle Project Manager Internal Systems and Processes",
+    "company": "INFUSE"
+  },
+  "3298fd0f680638f280c59d1e35952edd12f584d22f9528cb70f73282880c6b14": {
+    "first_seen": "2026-03-02",
+    "source": "greenhouse",
+    "title": "Engineering Program Manager, AI",
+    "company": "Brex"
+  },
+  "50e68d5022d1d5aa9abbb0711c87112142e552c84148ccdf6b29205dfa14bb13": {
+    "first_seen": "2026-03-02",
+    "source": "greenhouse",
+    "title": "Senior Staff Program Manager",
+    "company": "Fivetran"
+  },
+  "2f00d3bdb65276a044742b297ab24fe19b6439a91d2a1fc231896976b5f9818e": {
+    "first_seen": "2026-03-02",
+    "source": "greenhouse",
+    "title": "Product Manager, Addressing",
+    "company": "Cloudflare"
   }
 }
