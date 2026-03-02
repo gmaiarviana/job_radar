@@ -20,8 +20,6 @@
 
 **Infra — GitHub Pages (Hello World):** landing page mínima movida para `docs/index.html` para servir na URL raiz via GitHub Pages (source: branch `main`, pasta `/docs/`).
 
-**Config — Career Narrative v2 + Profile Obj 1:** career_narrative.md atualizado para v2 (novo role PO Mar/2026, PM expandido, Pilar 4 metodológico, ~30 subordinados, novos resultados). profile.md reescrito para Objetivo 1: piso $5.000, PT-BR aceito, indústria aberta com bônus, títulos amplos (Delivery Manager, Scrum Master, BA, Data Analyst, Strategy & Ops aceitos sem penalidade). search.yaml e collectors já estavam corretos.
-
 ---
 
 ## 📍 Próximos Épicos
