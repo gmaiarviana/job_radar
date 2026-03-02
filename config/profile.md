@@ -1,44 +1,62 @@
 # Perfil do Candidato — Guilherme Maia
-# ~800 tokens | Usado pelo score.py no prompt de scoring
-# Fonte: config/career_narrative.md
+# 800–1000 tokens (alvo) | Usado pelo score.py no prompt de scoring
+# Fonte: config/career_narrative.md (v2 — Feb/2026)
+
+## Objetivo de Busca (Obj 1)
+Gerar entrevistas e obter oferta internacional de pelo menos **$5.000 USD/mês** para negociação de aumento salarial. O scoring deve priorizar vagas com escopo real de gestão, produto, programa, projeto, delivery ou análise estratégica, sem prender avaliação ao rótulo do cargo.
 
 ## Resumo Profissional
-Program & Product Manager com experiência em análise de dados e experimentação com IA, que conecta estratégia e execução — desde o diagnóstico de problemas até a coordenação de entrega em programas globais e multi-equipes. ~7 anos de experiência em gestão (incluindo liderança de obra com 40 subordinados diretos). Em papéis PM/PO/TPM em tech especificamente: ~3 anos, incluindo programa global de 200+ engenheiros e análise de dados em alta escala (Nubank, 150K+ solicitações/dia).
+Líder generalista de Product/Program/Project, com transição de engenharia civil para tecnologia e foco em clareza, estrutura e execução em cenários ambíguos. Opera na fronteira entre estratégia e operação: organiza escopo, alinha stakeholders e transforma risco em plano de entrega.
+
+Experiência recente: **PO (Mar/2026–Atual)** em refatoração de image scanning para integração de IA; **PM (Out/2025–Fev/2026)** em programa de startups e gestão de times; **TPM (Set/2024–Set/2025)** em programa global de alta complexidade.
+
+Diferencial em IA: uso prático com método — documentação como infraestrutura, governança humano-IA por papéis, avaliação por critérios/rúbricas e decomposição em pipelines especializados.
 
 ## Títulos-alvo
-- Product Manager (preferencial)
-- Technical Program Manager (evidência mais forte)
-- Híbrido: PM com foco técnico, TPM com mentalidade de produto
+- Product Manager
+- Product Owner
+- Technical Program Manager
+- Project Manager
+- **Delivery Manager**
+- Program Manager
+- Strategy & Ops / Operações com ownership claro de execução e resultado
 
 ## Skills Principais
-- Product strategy, roadmap, backlog prioritization, OKRs
-- Program management: PI Planning (SAFe), release management, dependency tracking
-- Cross-functional leadership (engenharia, UX, arquitetura, negócios)
-- Data analysis: SQL, Python, Spark/Scala, Databricks, ETL
-- AI: GenAI PoCs, LLM Integration, Prompt Engineering, GCP GenAI Leader certified
-- Ferramentas: Jira, Azure DevOps, Confluence, Figma, Amplitude
-- Idiomas: Inglês (fluente profissional, 3+ anos com stakeholders americanos), Português (nativo)
+- Product discovery/delivery: visão de produto, priorização, roadmap/backlog, user journeys, foco em valor.
+- Program & delivery management: PI Planning (SAFe), dependências, release management, risco, comunicação executiva.
+- Liderança de pessoas/processo: 1:1, feedback, PDI, realocação, facilitação de ritos (incluindo Scrum Master).
+- Data & evidência: SQL, Python, Spark/Scala, ETL e análise diagnóstica para decisão.
+- IA aplicada: GenAI PoCs, integração LLM, prototipagem, avaliação de qualidade por critérios.
+- Metodologia de IA (Pilar 4): documentação-infra + governança humano-IA + avaliação criterial + pipelines especializados.
+- Ferramentas/idiomas: Jira, Azure DevOps, Confluence; inglês profissional e português nativo.
 
-## Experiências Chave (resumo de impacto)
-- **Instituto Atlântico — PM/PO** (Jul/2022–Set/2024): Reorganizou equipes de component-oriented para product-oriented → reduziu ciclo de entrega de 3 sprints para 1. Reduziu ciclo de deploy de 30 para 15 dias. Liderou PoC GenAI que contribuiu para novo contrato com cliente.
-- **Instituto Atlântico — TPM** (Set/2024–Set/2025): Coordenou 3 equipes, 25 engenheiros em programa global de 200+ engenheiros. Resolveu 60 vulnerabilidades críticas em 4 semanas. Construiu ferramentas internas de IA (validação de timesheet: de 40 min → 10 min/semana).
-- **Nubank — Business Analyst** (Fev/2021–Mai/2022): Análise de crédito com 150K requisições/dia. Descobriu dados corrompidos afetando modelo de crédito. Otimizou pipeline ETL eliminando reprocessamento de múltiplos notebooks.
-- **Campos Gouveia — Project Manager** (Abr/2018–Dez/2019): Liderou construção de prédio de 15 andares (~5.000 m²), 40 subordinados diretos.
+## Experiências Chave (prioridade: últimos 2 anos)
+- **Instituto Atlântico — Product Owner (Mar/2026–Atual):** refatoração de image scanning para integração de IA; histórias, cerimônias (incluindo Scrum Master), alinhamento backend/testes e definição de jornadas.
+- **Instituto Atlântico — Project Manager (Out/2025–Fev/2026):** programa com 4 startups e depois 2 times (8 pessoas); gestão de pessoas/processo e realocação de **6/8** no término de contrato.
+- **Instituto Atlântico — Technical Program Manager (Set/2024–Set/2025):** coordenação de 3 times (~25 eng.) em programa global (15 times/200+); 60 vulnerabilidades em 4 semanas; release com 50 defeitos no prazo; automação interna reduziu revisão semanal de ~40 para ~10 min.
+- **R&D aplicado (2026):** metodologia experimental para artigo de consumo energético (LLM monolítico vs multiagente), com **100 questões em 4 níveis de complexidade**, rubricas binárias e arquitetura com critérios de escalonamento.
+- **Instituto Atlântico — Product Owner (Jul/2022–Set/2024):** reorganização component→product (~3 sprints para ~1), deploy 30→15 dias, PoC GenAI que contribuiu para contrato e mapeamento de 9 use cases.
+- **Nubank — Business Analyst (1 linha):** operação de crédito em alta escala (150k/dia) com ganhos em qualidade de dados, custo e eficiência de pipeline.
+- **Campos Gouveia — Project Manager (1 linha):** gestão de obra de 15 andares (~5.000 m²) com liderança direta de ~30 pessoas.
 
-## Critérios Eliminatórios
-- **Localização:** Apenas remote LATAM ou remote Worldwide. Vagas US-only, EU-only, on-site = descarte imediato.
-- **Salário:** Mínimo $5.500 USD/mês. Vagas sem salário listado = penalizar (não descartar automaticamente).
-- **Idioma da vaga:** Vaga inteiramente em PT-BR ou espanhol = red flag (mercado local, não internacional).
-- **Nível:** Estágio e Intern = descarte. Demais níveis (Associate, Mid, Senior, etc.): avaliar por salário e escopo — se o escopo for compatível e o salário ≥ $5.500 USD/mês, manter. Nota para avaliação de seniority: o candidato tem ~7 anos de gestão total (tech + engenharia civil). Vagas pedindo 5+ anos de experiência em gestão/liderança são compatíveis. Vagas pedindo 5+ anos especificamente em PM de produto SaaS não são.
-- **Tipo de cargo:** Vagas puramente técnicas (Engineering Manager, SWE) ou marketing sem componente de produto = descarte.
+## Critérios Eliminatórios (hard filters)
+- **Modelo de trabalho/localização:** aceitar apenas vagas remotas viáveis para LATAM ou worldwide; on-site/híbrido obrigatório fora de alcance geográfico = descarte.
+- **Salário:** piso de **$5.000 USD/mês**. Abaixo disso = descarte para Obj 1. Se salário não informado, não descartar automaticamente; manter com penalidade por incerteza.
+- **Senioridade mínima:** estágio/intern = descarte. Associate/pleno/sênior podem passar se escopo + remuneração forem compatíveis.
+- **Compatibilidade de escopo:** descartar vagas estritamente técnicas sem ownership de produto/entrega/análise e funções de marketing sem componente de produto/analytics.
 
-## Preferências (não eliminatórias, influenciam score)
-- **Indústria:** Fintech, healthtech, edtech, SaaS B2B, marketplace, AI-native
-- **Stage:** Series A em diante. Evitar pre-seed sem funding explícito.
-- **Cultura positiva:** Autonomia, async-first, foco em resultado > processo
-- **Red flags negativos:** Microgerenciamento, requer visto (visa sponsorship required), sem roadmap definido, time muito pequeno sem estrutura
+## Regras de Interpretação para Título da Vaga (evitar falso negativo)
+- **Não penalizar por título isolado** se o escopo for compatível com gestão, produto, delivery ou análise estruturada.
+- Títulos explicitamente aceitos sem penalidade automática: **Delivery Manager, Scrum Master, Business Analyst, Data Analyst, Strategy & Ops**, além de PM/PO/TPM/Program Manager/Project Manager.
+- Se o título parecer lateral, decidir por responsabilidades (ownership, indicadores, coordenação cross-functional).
 
-## O que NÃO pontuará bem
-- Consultoria curta (< 6 meses)
-- Vagas de growth/marketing sem ownership de produto
-- Vagas que exigem residência específica mesmo sendo "remote"
+## Idioma da Vaga (ajuste Obj 1)
+- Inglês: sinal positivo leve (tendência internacional), mas **não obrigatório**.
+- PT-BR: **aceita normalmente**, sem red flag automática.
+- EN/PT misto: aceitável; decidir pelo conjunto (salário, escopo, senioridade, remoto).
+
+## Preferências (soft signals, não eliminatórias)
+- **Indústria aberta**: qualquer setor pode ser válido se cumprir critérios eliminatórios.
+- Dar bônus de atratividade para: fintech, healthtech, edtech, SaaS B2B, marketplace, AI-native, climate tech, agritech.
+- Cultura positiva: autonomia, colaboração madura, clareza de papéis, orientação a resultado.
+- Red flags que reduzem score: microgerenciamento explícito, escopo caótico sem suporte, exigência de visto/residência incompatível com remoto anunciado.
