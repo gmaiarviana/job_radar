@@ -14,13 +14,18 @@ Automático (GitHub Actions, seg-sex 6h BRT):
   2. Pontua cada vaga contra perfil (score.py)
   3. Salva resultados no repositório
 
+Online (GitHub Pages, sempre disponível):
+  4. Acessa https://gmaiarviana.github.io/job_radar/
+  5. Vê as vagas dos últimos 14 dias com scores e vereditos
+  6. Sem instalação necessária — basta um browser
+
 Manual (Streamlit local, quando quiser):
-  4. Abre o app: streamlit run app.py
-  5. Vê as vagas do dia com scores e justificativas
-  6. Clica "Preparar aplicação" nas vagas que interessam
-  7. Sistema gera currículo + cover letter personalizados (PDF)
-  8. Faz download, revisa, submete na plataforma
-  9. Marca "👍 Bom match" ou "👎 Não relevante" para calibrar scoring
+  7. Abre o app: streamlit run app.py
+  8. Vê as vagas do dia com scores e justificativas
+  9. Clica "Preparar aplicação" nas vagas que interessam
+ 10. Sistema gera currículo + cover letter personalizados (PDF)
+ 11. Faz download, revisa, submete na plataforma
+ 12. Marca "👍 Bom match" ou "👎 Não relevante" para calibrar scoring
 ```
 
 ## 📂 Estrutura de Documentação
@@ -54,7 +59,13 @@ Para facilitar o trabalho de agentes de IA:
 
 ## 🛠️ Setup Rápido
 
-### Pré-requisitos
+### Visualizar vagas (sem instalação)
+
+Acesse o dashboard online: **https://gmaiarviana.github.io/job_radar/**
+
+As vagas são atualizadas automaticamente pelo pipeline diário. Não precisa instalar nada.
+
+### Pré-requisitos (desenvolvimento / scoring manual)
 - Python 3.11+
 - API Keys (OpenAI & Anthropic)
 - Repositório Git configurado
@@ -90,4 +101,4 @@ NOTIFY_EMAIL=seu@gmail.com
 ```
 
 ---
-*Para detalhes técnicos de infraestrutura e decisões de design, veja [ARCHITECTURE.md](file:///c:/Users/guilh/Desktop/projetos_epso/job_radar/ARCHITECTURE.md).*
+*Para detalhes técnicos de infraestrutura e decisões de design, veja [ARCHITECTURE.md](ARCHITECTURE.md).*

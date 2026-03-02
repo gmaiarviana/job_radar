@@ -1,6 +1,6 @@
 # ROADMAP - Job Radar
 
-📡 **Status:** Pipeline completo (fetch → filter → score). Épico 6 concluído. Próximo: Épico 7 (Expansão de Coleta).
+📡 **Status:** Pipeline completo (fetch → filter → score → dashboard). Épico 8 concluído. Próximo: Épico 7.3/7.6 (Expansão de Coleta) e Épico 9 (Polimento de UI).
 
 > **Filosofia:** POC → Protótipo → MVP. Validar cada etapa antes de avançar. Qualidade antes de volume.
 
@@ -17,6 +17,8 @@
 **Épico 7.1 — OpenAI search no GitHub Actions:** Habilitado. OPENAI_API_KEY configurada nos secrets do Actions. Coletor já roda no pipeline diário.
 
 **Épico 7.4 — Renomear LinkedIn → Busca Manual:** config renomeado para `manual_searches.yaml`; aba "Busca Manual", subtítulo "Links de busca" e docs atualizados.
+
+**Épico 8 — Deploy Online (GitHub Pages):** Dashboard read-only em GitHub Pages; `build_frontend_data.py` consolida scored em `docs/api/jobs.json`; step no Actions gera e commita automaticamente.
 
 **Infra — GitHub Pages (Hello World):** landing page mínima movida para `docs/index.html` para servir na URL raiz via GitHub Pages (source: branch `main`, pasta `/docs/`).
 
@@ -68,32 +70,9 @@ Concluído: penalty removida de CEILING_BY_PENALTY e do prompt de analyze_job; p
 
 ---
 
-### ÉPICO 8: Deploy Online (Streamlit Community Cloud)
+### ✅ ÉPICO 8: Deploy Online (GitHub Pages)
 
-**Objetivo:** App acessível de qualquer computador, com persistência de scores manuais via GitHub API.
-
-**Dependência:** Épico 6 concluído.
-
-**Critério de aceite:** App funcional no Streamlit Cloud; paste-and-score persiste `manual_*.json` no repo via GitHub Contents API; vagas do pipeline visíveis normalmente.
-
-#### 8.1 Camada de escrita GitHub API
-
-- Função utilitária em `src/github_api.py`: commit de arquivo via GitHub Contents API (PUT)
-- Token via env/secrets (`GITHUB_TOKEN`)
-
-#### 8.2 Integrar persistência no app.py
-
-- Após salvar `manual_*.json`, commitar via `github_api.py`
-- Fallback gracioso se token ausente (funciona local-only)
-
-#### 8.3 Configuração Streamlit Community Cloud (manual)
-
-- Conectar repo, configurar secrets, validar
-
-#### 8.4 Documentação
-
-- ARCHITECTURE: deploy + github_api.py na tabela
-- README: acesso online + variáveis de ambiente
+**Concluído:** Dashboard read-only via GitHub Pages. `src/build_frontend_data.py` consolida `data/scored/` em `docs/api/jobs.json` (últimos 14 dias). `docs/index.html` renderiza cards com score, veredito, filtro por data e detalhes expandíveis. Pipeline diário (Actions) gera o JSON automaticamente e commita.
 
 ---
 
@@ -125,7 +104,36 @@ Concluído: penalty removida de CEILING_BY_PENALTY e do prompt de analyze_job; p
 
 ---
 
-### ÉPICO 10: UX Completa
+### ÉPICO 10: Persistência Online (GitHub API)
+
+**Objetivo:** Habilitar escrita a partir do dashboard online — paste-and-score e feedback persistem no repo via GitHub Contents API, sem necessidade de acesso local.
+
+**Dependência:** Épico 8 (dashboard read-only) concluído. Épico 9 (UI polish) recomendado mas não bloqueante.
+
+**Critério de aceite:** Paste-and-score no dashboard online grava `manual_*.json` no repo via GitHub API. Vagas manuais aparecem na listagem após refresh.
+
+#### 10.1 Camada de escrita GitHub API
+
+- Função utilitária em `src/github_api.py`: commit de arquivo via GitHub Contents API (PUT)
+- Token via env/secrets (`GITHUB_TOKEN`)
+
+#### 10.2 Integrar persistência no dashboard
+
+- Após scoring manual, commitar `manual_*.json` via `github_api.py`
+- Fallback gracioso se token ausente (funciona read-only)
+
+#### 10.3 Atualizar `build_frontend_data.py`
+
+- Incluir `manual_*.json` commitados via API no consolidado
+
+#### 10.4 Documentação
+
+- ARCHITECTURE: `github_api.py` na tabela de componentes
+- README: variáveis de ambiente (`GITHUB_TOKEN`)
+
+---
+
+### ÉPICO 11: UX Completa
 
 **Objetivo:** Polimento da UI — feedback e histórico consolidado.
 
@@ -133,17 +141,17 @@ Concluído: penalty removida de CEILING_BY_PENALTY e do prompt de analyze_job; p
 
 **Critério de aceite:** Feedback por vaga funcional; histórico com contadores.
 
-#### 10.1 Feedback por vaga (👍/👎)
+#### 11.1 Feedback por vaga (👍/👎)
 
 - Botões em cada card (manual e automático)
 - Salva em `data/feedback/YYYY-MM-DD.json`
 
-#### 10.2 Histórico com contadores
+#### 11.2 Histórico com contadores
 
 - Lista de dias anteriores na sidebar
 - Contadores: vagas vistas, feedbacks dados, avaliações manuais
 
-#### 10.3 Visibilidade de custo de modelos (por dia)
+#### 11.3 Visibilidade de custo de modelos (por dia)
 
 - **Objetivo:** Ver quanto aquele dia está custando em uso de modelos, em **reais (BRL)**.
 - **Escopo inicial:** Apenas **buscas manuais** (paste-and-score na UI — Claude Haiku, 2 chamadas por vaga). Monitoramento de custo do pipeline fica para depois.
@@ -153,7 +161,7 @@ Concluído: penalty removida de CEILING_BY_PENALTY e do prompt de analyze_job; p
 
 ---
 
-### ÉPICO 11: Pipeline Automatizado Estável
+### ÉPICO 12: Pipeline Automatizado Estável
 
 **Objetivo:** Fetch + Score rodando de forma confiável via GitHub Actions.
 
@@ -161,7 +169,7 @@ Concluído: penalty removida de CEILING_BY_PENALTY e do prompt de analyze_job; p
 
 **Critério de aceite:** 5 dias consecutivos sem intervenção. Cobertura ≥ 10 vagas novas/dia.
 
-#### 11.1 Tratamento de falhas por coletor
+#### 12.1 Tratamento de falhas por coletor
 
 - Se uma fonte falhar, pipeline continua com as demais
 - Retry 1x por fonte se timeout
@@ -169,7 +177,7 @@ Concluído: penalty removida de CEILING_BY_PENALTY e do prompt de analyze_job; p
 
 ---
 
-### ÉPICO 12: Geração de Materiais
+### ÉPICO 13: Geração de Materiais
 
 **Objetivo:** Gerar currículo e cover letter personalizados por vaga, com botão na UI.
 
@@ -177,28 +185,28 @@ Concluído: penalty removida de CEILING_BY_PENALTY e do prompt de analyze_job; p
 
 **Critério de aceite:** Materiais gerados para 5 vagas reais. ≥ 4 prontos para enviar com mínima edição.
 
-#### 12.1 Currículo base modular (`config/resume_base.md`)
-#### 12.2 Template de cover letter (`config/cover_letter_template.md`)
-#### 12.3 Script generate.py (Claude Sonnet)
-#### 12.4 Geração de PDF (weasyprint)
-#### 12.5 Botão "Preparar aplicação" na UI
+#### 13.1 Currículo base modular (`config/resume_base.md`)
+#### 13.2 Template de cover letter (`config/cover_letter_template.md`)
+#### 13.3 Script generate.py (Claude Sonnet)
+#### 13.4 Geração de PDF (weasyprint)
+#### 13.5 Botão "Preparar aplicação" na UI
 
 - Em cada card com score ≥ 70
 - Loading → preview → download PDF
 
 ---
 
-### ÉPICO 13: Feedback Loop
+### ÉPICO 14: Feedback Loop
 
 **Objetivo:** Feedback do usuário alimenta o scoring.
 
-**Dependência:** Épicos 9 e 10 rodando com dados de ≥ 2 semanas.
+**Dependência:** Épicos 9 e 11 rodando com dados de ≥ 2 semanas.
 
 **Critério de aceite:** Scoring melhora visivelmente após 2 semanas de feedback.
 
-#### 13.1 Agregação de feedback (padrões de aceite/rejeição)
-#### 13.2 Feedback no prompt de scoring (contexto extra)
-#### 13.3 Persistência no repositório (Actions lê feedback)
+#### 14.1 Agregação de feedback (padrões de aceite/rejeição)
+#### 14.2 Feedback no prompt de scoring (contexto extra)
+#### 14.3 Persistência no repositório (Actions lê feedback)
 
 ---
 
@@ -208,4 +216,4 @@ Backlog, itens postergados e ideias futuras → [docs/governance/backlog.md](doc
 
 ---
 
-**Última atualização:** Fev 2026
+**Última atualização:** Mar 2026

@@ -1,12 +1,430 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Job Radar</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: #f5f7fa;
+      color: #1a1a2e;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #1a1a2e;
+      color: #fff;
+      padding: 1.5rem 2rem;
+    }
+    header h1 { font-size: 1.6rem; font-weight: 700; }
+    header p { color: #a0a0b8; font-size: 0.9rem; margin-top: 0.25rem; }
+
+    .controls {
+      background: #fff;
+      padding: 1rem 2rem;
+      border-bottom: 1px solid #e0e0e0;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+    .controls label { font-weight: 600; font-size: 0.9rem; }
+    .controls select {
+      padding: 0.4rem 0.8rem;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 0.9rem;
+      background: #fff;
+    }
+    .controls .summary {
+      margin-left: auto;
+      font-size: 0.85rem;
+      color: #666;
+    }
+
+    main { max-width: 960px; margin: 1.5rem auto; padding: 0 1rem; }
+
+    .card {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+      margin-bottom: 0.75rem;
+      overflow: hidden;
+      transition: box-shadow 0.15s;
+    }
+    .card:hover { box-shadow: 0 2px 8px rgba(0,0,0,0.14); }
+
+    .card-header {
+      display: flex;
+      align-items: center;
+      padding: 1rem 1.25rem;
+      gap: 0.75rem;
+      cursor: pointer;
+      user-select: none;
+      flex-wrap: wrap;
+    }
+
+    .card-title {
+      font-weight: 700;
+      font-size: 1rem;
+      flex: 1 1 200px;
+      min-width: 0;
+    }
+
+    .card-company {
+      color: #555;
+      font-size: 0.9rem;
+      flex: 0 1 180px;
+      min-width: 0;
+    }
+    .card-salary {
+      color: #888;
+      font-size: 0.8rem;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 2px 10px;
+      border-radius: 4px;
+      font-size: 0.82rem;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+    .badge-green  { background: #2e7d32; color: #fff; }
+    .badge-yellow { background: #f9a825; color: #000; }
+    .badge-gray   { background: #616161; color: #fff; }
+
+    .verdict {
+      font-size: 0.85rem;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+
+    .source-badge {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 0.75rem;
+      background: #e8eaf6;
+      color: #3949ab;
+      white-space: nowrap;
+    }
+
+    .card-link {
+      display: inline-block;
+      padding: 0.35rem 0.9rem;
+      background: #1a1a2e;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 6px;
+      font-size: 0.82rem;
+      white-space: nowrap;
+    }
+    .card-link:hover { background: #2d2d4e; }
+
+    .card-details {
+      display: none;
+      padding: 0 1.25rem 1.25rem;
+      border-top: 1px solid #eee;
+    }
+    .card-details.open { display: block; }
+
+    .detail-section { margin-top: 0.8rem; }
+    .detail-section h4 {
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: #333;
+      margin-bottom: 0.3rem;
+    }
+    .detail-section p, .detail-section li {
+      font-size: 0.85rem;
+      color: #444;
+    }
+    .detail-section ul { padding-left: 1.2rem; }
+    .detail-section li { margin-bottom: 0.2rem; }
+
+    .verdict-top {
+      font-size: 0.95rem;
+      font-weight: 700;
+      padding-top: 0.8rem;
+      margin-bottom: 0.4rem;
+    }
+    .divider {
+      border: none;
+      border-top: 1px solid #eee;
+      margin: 0.6rem 0;
+    }
+
+    .empty-state {
+      text-align: center;
+      padding: 3rem 1rem;
+      color: #888;
+      font-size: 1rem;
+    }
+
+    .loading {
+      text-align: center;
+      padding: 4rem 1rem;
+      color: #888;
+    }
+
+    .chevron {
+      display: inline-block;
+      width: 18px;
+      text-align: center;
+      font-size: 0.7rem;
+      color: #999;
+      transition: transform 0.2s;
+      flex-shrink: 0;
+    }
+    .chevron.open { transform: rotate(90deg); }
+
+    @media (max-width: 600px) {
+      .card-header { padding: 0.75rem 1rem; gap: 0.5rem; }
+      .card-company { flex: 0 1 100%; }
+      main { padding: 0 0.5rem; }
+      header { padding: 1rem; }
+      .controls { padding: 0.75rem 1rem; }
+    }
+  </style>
 </head>
 <body>
-  <h1>Job Radar</h1>
-  <p>Hello World from the Job Radar GitHub Pages landing page.</p>
+
+<header>
+  <h1>&#x1F4E1; Job Radar</h1>
+  <p>Vagas scored do pipeline</p>
+</header>
+
+<div class="controls">
+  <label for="date-filter">Data:</label>
+  <select id="date-filter"><option value="">Carregando...</option></select>
+  <span class="summary" id="summary"></span>
+</div>
+
+<main id="jobs-container">
+  <div class="loading">Carregando vagas...</div>
+</main>
+
+<script>
+(function() {
+  "use strict";
+
+  let allJobs = [];
+
+  function scoreBadgeClass(score) {
+    if (score >= 85) return "badge-green";
+    if (score >= 70) return "badge-yellow";
+    return "badge-gray";
+  }
+
+  function getVerdict(score) {
+    if (score == null) return { label: "\u2014", emoji: "\u26AA", color: "gray" };
+    if (score >= 85) return { label: "APLICAR", emoji: "\uD83D\uDFE2", color: "green" };
+    if (score >= 70) return { label: "AVALIAR", emoji: "\uD83D\uDFE1", color: "orange" };
+    return { label: "PULAR", emoji: "\u26AA", color: "gray" };
+  }
+
+  function verdictReasonPhrase(score, mainGap) {
+    var gap = (mainGap || "").trim();
+    if (score != null && score >= 85 && (!gap || gap.length < 20)) {
+      return "Fit direto \u2014 dom\u00EDnio e seniority compat\u00EDveis";
+    }
+    return gap || "\u2014";
+  }
+
+  function esc(str) {
+    var d = document.createElement("div");
+    d.textContent = str || "";
+    return d.innerHTML;
+  }
+
+  function evidenceIcon(hasEvidence) {
+    if (hasEvidence === "full" || hasEvidence === true) return "\u2713";
+    if (hasEvidence === "partial") return "\u26A0\uFE0F";
+    return "\u2717";
+  }
+
+  function renderCard(job, idx) {
+    var score = job.score;
+    var scoreLabel = score != null ? String(score) : "\u2014";
+    var badgeCls = score != null ? scoreBadgeClass(score) : "badge-gray";
+    var verdict = getVerdict(score);
+    var title = job.title || "(Sem t\u00EDtulo)";
+    var company = job.company || "(Sem empresa)";
+    var salary = job.salary || "";
+    var url = job.url || "";
+    var source = job.source || "pipeline";
+    var mainGap = job.main_gap || "";
+
+    var companyHtml = esc(company);
+    if (salary) {
+      companyHtml += '<div class="card-salary">' + esc(String(salary)) + '</div>';
+    }
+
+    var linkHtml = url
+      ? '<a class="card-link" href="' + esc(url) + '" target="_blank" rel="noopener">Link</a>'
+      : '';
+
+    // Details
+    var reasonPhrase = verdictReasonPhrase(score, mainGap);
+    var detailHtml = '';
+    detailHtml += '<div class="verdict-top">' + verdict.emoji + ' ' + esc(verdict.label) + ' \u2014 ' + esc(reasonPhrase) + '</div>';
+    detailHtml += '<hr class="divider">';
+
+    if (job.score_ceiling != null) {
+      detailHtml += '<div class="detail-section"><h4>Teto</h4><p>' + esc(String(job.score_ceiling));
+      if (job.ceiling_reason) {
+        detailHtml += ' \u2014 ' + esc(job.ceiling_reason);
+      }
+      detailHtml += '</p></div>';
+    }
+
+    var coreReq = job.core_requirements;
+    if (coreReq && Array.isArray(coreReq) && coreReq.length > 0) {
+      detailHtml += '<div class="detail-section"><h4>Requisitos principais</h4><ul>';
+      for (var r = 0; r < coreReq.length; r++) {
+        var req = coreReq[r];
+        if (typeof req === "object" && req !== null) {
+          var rqText = req.requirement || req.requirement_text || "(requisito)";
+          var icon = evidenceIcon(req.has_evidence);
+          var ev = req.evidence || "";
+          detailHtml += '<li>' + esc(rqText) + ' \u2014 ' + icon + ' ' + esc(ev) + '</li>';
+        } else {
+          detailHtml += '<li>' + esc(String(req)) + '</li>';
+        }
+      }
+      detailHtml += '</ul></div>';
+    }
+
+    var sr = job.seniority_comparison;
+    if (sr && typeof sr === "object") {
+      detailHtml += '<div class="detail-section"><h4>Seniority</h4><ul>';
+      detailHtml += '<li>JD pede: ' + esc(sr.jd_asks || "\u2014") + '</li>';
+      detailHtml += '<li>Candidato tem: ' + esc(sr.candidate_has || "\u2014") + '</li>';
+      if (sr.gap) {
+        detailHtml += '<li>Gap: ' + esc(String(sr.gap)) + '</li>';
+      }
+      detailHtml += '</ul></div>';
+    }
+
+    if (job.main_gap) {
+      detailHtml += '<div class="detail-section"><h4>Principal gap</h4><p>' + esc(job.main_gap) + '</p></div>';
+    }
+    if (job.justification) {
+      detailHtml += '<div class="detail-section"><h4>Justificativa</h4><p>' + esc(job.justification) + '</p></div>';
+    }
+    if (url) {
+      detailHtml += '<div class="detail-section"><a class="card-link" href="' + esc(url) + '" target="_blank" rel="noopener">Abrir vaga</a></div>';
+    }
+
+    var html = '<div class="card" data-idx="' + idx + '">';
+    html += '<div class="card-header" onclick="toggleCard(' + idx + ')">';
+    html += '<span class="chevron" id="chev-' + idx + '">\u25B6</span>';
+    html += '<span class="card-title">' + esc(title) + '</span>';
+    html += '<span class="card-company">' + companyHtml + '</span>';
+    html += '<span class="badge ' + badgeCls + '">' + scoreLabel + '</span>';
+    html += '<span class="verdict">' + verdict.emoji + ' ' + esc(verdict.label) + '</span>';
+    html += '<span class="source-badge">' + esc(source) + '</span>';
+    html += linkHtml;
+    html += '</div>';
+    html += '<div class="card-details" id="details-' + idx + '">' + detailHtml + '</div>';
+    html += '</div>';
+    return html;
+  }
+
+  window.toggleCard = function(idx) {
+    var details = document.getElementById("details-" + idx);
+    var chev = document.getElementById("chev-" + idx);
+    if (details.classList.contains("open")) {
+      details.classList.remove("open");
+      chev.classList.remove("open");
+    } else {
+      details.classList.add("open");
+      chev.classList.add("open");
+    }
+  };
+
+  function renderJobs(jobs) {
+    var container = document.getElementById("jobs-container");
+    if (jobs.length === 0) {
+      container.innerHTML = '<div class="empty-state">Nenhuma vaga encontrada para esta data.</div>';
+      return;
+    }
+    var html = "";
+    for (var i = 0; i < jobs.length; i++) {
+      html += renderCard(jobs[i], i);
+    }
+    container.innerHTML = html;
+  }
+
+  function filterByDate(date) {
+    var filtered;
+    if (!date) {
+      filtered = allJobs;
+    } else {
+      filtered = allJobs.filter(function(j) { return j.file_date === date; });
+    }
+    document.getElementById("summary").textContent = filtered.length + " vaga" + (filtered.length !== 1 ? "s" : "");
+    renderJobs(filtered);
+  }
+
+  function populateDateFilter(jobs) {
+    var dateSet = {};
+    for (var i = 0; i < jobs.length; i++) {
+      var d = jobs[i].file_date;
+      if (d) dateSet[d] = true;
+    }
+    var dates = Object.keys(dateSet).sort().reverse();
+
+    var select = document.getElementById("date-filter");
+    select.innerHTML = "";
+
+    for (var j = 0; j < dates.length; j++) {
+      var opt = document.createElement("option");
+      opt.value = dates[j];
+      opt.textContent = dates[j];
+      select.appendChild(opt);
+    }
+
+    select.onchange = function() {
+      filterByDate(this.value);
+    };
+
+    // Default: most recent
+    if (dates.length > 0) {
+      select.value = dates[0];
+      filterByDate(dates[0]);
+    } else {
+      filterByDate("");
+    }
+  }
+
+  function init() {
+    fetch("api/jobs.json")
+      .then(function(res) {
+        if (!res.ok) throw new Error("HTTP " + res.status);
+        return res.json();
+      })
+      .then(function(data) {
+        allJobs = data.jobs || [];
+        populateDateFilter(allJobs);
+      })
+      .catch(function(err) {
+        document.getElementById("jobs-container").innerHTML =
+          '<div class="empty-state">Erro ao carregar vagas: ' + esc(err.message) + '</div>';
+      });
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", init);
+  } else {
+    init();
+  }
+})();
+</script>
+
 </body>
 </html>
