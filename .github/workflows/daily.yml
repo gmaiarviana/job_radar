@@ -49,11 +49,14 @@ jobs:
         run: python src/notify.py
         # TODO: Épico 4.3 — implementar notify.py
 
+      - name: Build frontend data
+        run: python src/build_frontend_data.py
+
       - name: Commit results
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/raw/ data/scored/ data/seen_jobs.json
+          git add data/raw/ data/scored/ data/seen_jobs.json docs/api/
           git diff --cached --quiet || git commit -m "chore: vagas $(date +%Y-%m-%d)"
           git push
         # data/filtered/ está no .gitignore — não commitado
