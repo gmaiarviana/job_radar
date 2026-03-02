@@ -18,7 +18,7 @@
 
 **Épico 7.4 — Renomear LinkedIn → Busca Manual:** config renomeado para `manual_searches.yaml`; aba "Busca Manual", subtítulo "Links de busca" e docs atualizados.
 
-**Épico 8 — Deploy Online (GitHub Pages):** Dashboard read-only em `docs/index.html` consome `docs/api/jobs.json` gerado por `src/build_frontend_data.py`. Pipeline diário (Actions) gera o JSON automaticamente. Sem dependências externas, sem build step.
+**Épico 8 — Deploy Online (GitHub Pages):** Dashboard read-only em GitHub Pages; `build_frontend_data.py` consolida scored em `docs/api/jobs.json`; step no Actions gera e commita automaticamente.
 
 **Infra — GitHub Pages (Hello World):** landing page mínima movida para `docs/index.html` para servir na URL raiz via GitHub Pages (source: branch `main`, pasta `/docs/`).
 
@@ -104,23 +104,32 @@ Concluído: penalty removida de CEILING_BY_PENALTY e do prompt de analyze_job; p
 
 ---
 
-### ÉPICO 10: Persistência Online
+### ÉPICO 10: Persistência Online (GitHub API)
 
-**Objetivo:** Scores manuais (paste-and-score) persistidos no repositório via GitHub API, permitindo uso completo do Streamlit sem acesso local ao repo.
+**Objetivo:** Habilitar escrita a partir do dashboard online — paste-and-score e feedback persistem no repo via GitHub Contents API, sem necessidade de acesso local.
 
-**Dependência:** Épico 8 concluído.
+**Dependência:** Épico 8 (dashboard read-only) concluído. Épico 9 (UI polish) recomendado mas não bloqueante.
 
-**Critério de aceite:** paste-and-score persiste `manual_*.json` no repo via GitHub Contents API; fallback gracioso se token ausente.
+**Critério de aceite:** Paste-and-score no dashboard online grava `manual_*.json` no repo via GitHub API. Vagas manuais aparecem na listagem após refresh.
 
 #### 10.1 Camada de escrita GitHub API
 
 - Função utilitária em `src/github_api.py`: commit de arquivo via GitHub Contents API (PUT)
 - Token via env/secrets (`GITHUB_TOKEN`)
 
-#### 10.2 Integrar persistência no app.py
+#### 10.2 Integrar persistência no dashboard
 
-- Após salvar `manual_*.json`, commitar via `github_api.py`
-- Fallback gracioso se token ausente (funciona local-only)
+- Após scoring manual, commitar `manual_*.json` via `github_api.py`
+- Fallback gracioso se token ausente (funciona read-only)
+
+#### 10.3 Atualizar `build_frontend_data.py`
+
+- Incluir `manual_*.json` commitados via API no consolidado
+
+#### 10.4 Documentação
+
+- ARCHITECTURE: `github_api.py` na tabela de componentes
+- README: variáveis de ambiente (`GITHUB_TOKEN`)
 
 ---
 
