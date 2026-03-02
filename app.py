@@ -409,6 +409,7 @@ def _render_linkedin():
 def main():
     st.title("📡 Job Radar")
     st.caption("Vagas scored do pipeline + manuais (Busca Manual)")
+    st.caption("Hello world - teste de integracao")
 
     tab1, tab2 = st.tabs(["Vagas", "Busca Manual"])
     with tab1:
