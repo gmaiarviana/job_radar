@@ -68,7 +68,7 @@ Para facilitar o trabalho de agentes de IA:
 ### Visualizar vagas (sem instalação)
 
 - **GitHub Pages**: https://gmaiarviana.github.io/job_radar/
-- **Streamlit Cloud**: [URL será adicionada após deploy] — scoring online de vagas
+- **Streamlit Cloud**: https://jobradar-hvmzhnimrql79kndcbwz9t.streamlit.app/ — scoring online de vagas
 
 ### Deploy no Streamlit Cloud (scoring online)
 
