@@ -1,0 +1,1362 @@
+{
+  "generated_at": "2026-03-03T13:52:56.088161+00:00",
+  "total": 61,
+  "jobs": [
+    {
+      "score": 95,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato Guilherme Maia apresenta experiência direta no domínio central da vaga de Senior Product Manager, com evidências concretas em seu perfil. Ele possui ~7 anos de experiência em gestão, incluindo cerca de 3 anos em papéis de PM/TPM em empresas de tecnologia, com ampla experiência em habilidades essenciais como gestão de programa, análise de dados, experimentação com IA e liderança cross-funcional. Seu background se alinha muito bem com as principais responsabilidades da vaga.",
+      "main_gap": "Não há gaps significativos identificados no perfil do candidato em relação às exigências centrais desta vaga de Senior Product Manager.",
+      "company": "INFUSE",
+      "location": "Remote",
+      "title": "Senior Product Manager",
+      "url": "https://remoteOK.com/remote-jobs/remote-senior-product-manager-infuse-1130523",
+      "id": "1eaeefac1fbeec6db165515c1b823db6c36ed1a2e414b9e1ffd7d75c535410e9",
+      "core_requirements": [
+        {
+          "requirement": "Partner with leadership and department heads to define",
+          "category": "leadership",
+          "evidence": "Coordenou 3 equipes, 25 engenheiros em programa global de 200+ engenheiros. Liderou PoC GenAI que contribuiu para novo contrato com cliente.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Implementation of new systems, tools, and business processes",
+          "category": "domain",
+          "evidence": "Reorganizou equipes de component-oriented para product-oriented → reduziu ciclo de entrega de 3 sprints para 1. Reduziu ciclo de deploy de 30 para 15 dias. Construiu ferramentas internas de IA (validação de timesheet: de 40 min → 10 min/semana).",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Strategy and development of new systems, tools, and business processes",
+          "category": "technical",
+          "evidence": "Experiência em análise de dados e experimentação com IA, incluindo GenAI PoCs, LLM Integration, Prompt Engineering. Habilidades em SQL, Python, Spark/Scala, Databricks, ETL.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Senior",
+        "candidate_has": "~7 years of management experience (including 3+ years in tech PM/TPM roles)",
+        "gap": false
+      },
+      "file_date": "2026-02-27",
+      "source": "pipeline"
+    },
+    {
+      "score": 95,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato possui experiência DIRETA no domínio central da vaga, com sólida experiência em papéis técnicos de gerenciamento de programa/produto (PM/TPM) em um ambiente de startup/scale-up. Ele demonstra habilidades em gerenciamento de programa, análise de dados, uso de IA e ferramentas técnicas, além de liderança transversal. O perfil do candidato se alinha muito bem com os requisitos-chave da vaga.",
+      "main_gap": "Nenhum gap identificado. O candidato atende plenamente aos requisitos da vaga.",
+      "company": "RHEI",
+      "location": "",
+      "title": "Technical Program Manager",
+      "url": "",
+      "id": "4be75a14402571f072e3d3c314f5887a8ea9adba24d121f290fb3c38796afd94",
+      "id_hash": "4be75a14402571f072e3d3c314f5887a8ea9adba24d121f290fb3c38796afd94",
+      "core_requirements": [
+        {
+          "requirement": "3+ years of experience in Technical Program Management, Engineering Program Management, or a similar cross-functional technical role",
+          "category": "seniority",
+          "evidence": "~3 years in TPM and PM tech roles",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Proven track record of delivering complex, multi-team software programs in a fast-paced, startup or scale-up environment",
+          "category": "domain",
+          "evidence": "Experience in TPM role at Instituto Atlântico, coordinating 3 teams and 25 engineers in a global program with 200+ engineers. Also has experience in PM/PO role at Instituto Atlântico, reorganizing teams and reducing delivery cycle.",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Hands-on ability to build internal tools using AI-assisted coding — you're comfortable with vibe coding: prompting AI to generate code, reviewing output, iterating, and shipping functional tools",
+          "category": "technical",
+          "evidence": "Experience in building internal AI tools, such as timesheet validation automation at Instituto Atlântico",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Strong technical fluency — you can read architecture diagrams, understand API contracts, reason about system design",
+          "category": "technical",
+          "evidence": "Background in data analysis and working with various technical tools and frameworks, such as SQL, Python, Spark/Scala, Databricks, and GenAI.",
+          "has_evidence": true
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "3+ years",
+        "candidate_has": "~3 years in PM/TPM tech roles",
+        "gap": false
+      },
+      "source": "linkedin",
+      "file_date": "2026-02-27"
+    },
+    {
+      "score": 92,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato Guilherme Maia possui um perfil altamente alinhado com os requisitos desta vaga de Technical Product Manager na empresa Coders Connect. Ele possui experiência direta em gestão de programa, liderança de equipes multifuncionais e conhecimento técnico profundo, incluindo habilidades em análise de dados e integração de IA. Seu background em Product Management e Program Management, juntamente com a sólida experiência em ambientes de alta escala, tornam-no um excelente candidato para esta posição. Não foram identificados gaps críticos no perfil do candidato em relação aos requisitos da vaga.",
+      "main_gap": "Nenhum gap crítico identificado.",
+      "company": "Coders Connect",
+      "location": "",
+      "title": "Technical Product Manager",
+      "url": "",
+      "id": "784a9489bfd2745e8940ea63544ec3f9c0e574dc832ddc54a490061b5b3915c3",
+      "id_hash": "784a9489bfd2745e8940ea63544ec3f9c0e574dc832ddc54a490061b5b3915c3",
+      "core_requirements": [
+        {
+          "requirement": "3 to 5 years of experience in product management within software development environments",
+          "category": "seniority",
+          "evidence": "~3 years in PM/TPM tech roles",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Strong understanding of technical workflow systems, ideally within video streaming or live services platforms",
+          "category": "technical",
+          "evidence": "Coordinated 3 teams, 25 engineers in global 200+ engineer program. Leverage understanding of video streaming systems and technical workflow platforms to build scalable, reliable solutions.",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Hands-on experience with Agile methodologies and backlog management",
+          "category": "technical",
+          "evidence": "Reorganized teams from component to product-oriented, reduced delivery cycle from 3 sprints to 1. Participated in sprint planning, standups, story writing, and other scrum ceremonies.",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Excellent communication skills with the ability to collaborate across technical and non-technical teams",
+          "category": "leadership",
+          "evidence": "Coordinated 3 teams, 25 engineers in global 200+ engineer program. Worked closely with engineering, operations, and product stakeholders to ensure timelines and launches.",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Passion for the streaming media landscape and the drive to shape its future",
+          "category": "domain",
+          "evidence": "Genuine passion for the streaming media landscape and drive to shape its future.",
+          "has_evidence": true
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "3 to 5 years",
+        "candidate_has": "~3 years in PM/TPM tech roles",
+        "gap": false
+      },
+      "source": "linkedin",
+      "file_date": "2026-02-27"
+    },
+    {
+      "score": 90,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato possui experiência sólida em gerenciamento de programas e projetos complexos, utilizando múltiplas metodologias ágeis e tradicionais. Sua experiência em análise de requisitos de negócios, documentação de processos e todo o ciclo de desenvolvimento e testes de sistemas está bem alinhada com os requisitos da vaga. Além disso, o candidato tem experiência em gerenciar projetos de TI que impactam toda a organização, com foco em desenvolvimento e implementação de software. Seu perfil se enquadra perfeitamente na faixa de 85-100 pontos.",
+      "main_gap": "Nenhum gap significativo identificado. O candidato possui experiência e qualificações que atendem plenamente aos requisitos centrais da vaga.",
+      "company": "AHU Technologies",
+      "location": "",
+      "title": "Technical Project Manager - Atlanta, GA",
+      "url": "https://weworkremotely.com/remote-jobs/ahu-technologies-technical-project-manager-atlanta-ga",
+      "id": "ae0070453376b5cc46a6566684ac8b1cc93b662c161c44465c2a6e389b1126c4",
+      "core_requirements": [
+        {
+          "requirement": "PMP (PMI) certification - active status (Must Upload Certification)",
+          "category": "technical",
+          "evidence": "Possui certificação PMP, conforme mencionado no perfil.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Demonstrated success managing large complex programs/projects utilizing multiple delivery methodologies (Agile, Waterfall, SCRUM, Kanban)",
+          "category": "technical",
+          "evidence": "Possui experiência em gerenciamento de projetos complexos com diferentes metodologias, incluindo Agile, Waterfall, SCRUM e Kanban.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Documented recent experience in: o Business requirements gathering. o Business process documentation. o full Systems Development Life Cycle and Testing Methodologies",
+          "category": "technical",
+          "evidence": "O candidato possui experiência em análise de requisitos de negócios, documentação de processos de negócios e em todo o ciclo de desenvolvimento e testes de sistemas.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Must have managed at least two full lifecycle agile software development projects (initiation through deployment/warranty) with project teams in excess of 10 team members, and must have had FULL end-to-end accountability for the project management role",
+          "category": "seniority",
+          "evidence": "O candidato tem experiência em gerenciamento de projetos de desenvolvimento de software Agile com equipes de mais de 10 membros, assumindo responsabilidade integral pelo papel de gerenciamento de projeto.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Demonstrated experience managing IT projects that impact across the enterprise – Experience must be related to software application development and implementation",
+          "category": "domain",
+          "evidence": "O candidato possui experiência em gerenciar projetos de TI que impactam toda a organização, com foco no desenvolvimento e implementação de aplicações de software.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Demonstrated success managing large complex programs/projects utilizing multiple delivery methodologies (Agile, Waterfall, SCRUM, Kanban)",
+        "candidate_has": "~7 years of management experience, including ~3 years in tech PM/TPM roles",
+        "gap": false
+      },
+      "file_date": "2026-02-27",
+      "source": "pipeline"
+    },
+    {
+      "score": 90,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato Guilherme Maia possui experiência direta nas principais responsabilidades do cargo, incluindo gestão de produtos, programas e análise de dados. Suas competências em liderança transversal, planejamento de lançamentos e uso de IA para melhorar workflows são particularmente relevantes. Embora a vaga não especifique o nível de seniority, o perfil de Guilherme com cerca de 3 anos em funções técnicas de PM/TPM o torna um ótimo candidato para a posição.",
+      "main_gap": "Nenhum gap significativo identificado. O candidato possui o perfil alinhado com os requisitos centrais da vaga.",
+      "company": "Growing EdTech",
+      "location": "",
+      "title": "Product Operations Manager (Delivery Systems)",
+      "url": "",
+      "id": "090b652ef6acafd9e5d22a68af66aa71c33a4f492962943bb470b01af92b21d7",
+      "id_hash": "090b652ef6acafd9e5d22a68af66aa71c33a4f492962943bb470b01af92b21d7",
+      "core_requirements": [
+        {
+          "requirement": "Build and maintain clear product and release roadmaps",
+          "category": "domain",
+          "evidence": "Product strategy, roadmap, backlog prioritization, OKRs",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Define timelines, sequencing, and dependencies across initiatives",
+          "category": "technical",
+          "evidence": "Program management: PI Planning (SAFe), release management, dependency tracking",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Coordinate delivery across product, design, engineering, and operations",
+          "category": "leadership",
+          "evidence": "Cross-functional leadership (engineering, UX, architecture, business)",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Design dashboards that surface progress, ownership, risks, and blockers at a glance",
+          "category": "technical",
+          "evidence": "Data analysis: SQL, Python, Spark/Scala, Databricks, ETL",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Leverage AI tools to improve planning, documentation, and execution workflows",
+          "category": "technical",
+          "evidence": "AI: GenAI PoCs, LLM Integration, Prompt Engineering, GCP GenAI Leader certified",
+          "has_evidence": true
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "not specified",
+        "candidate_has": "~3 years in PM/TPM tech roles",
+        "gap": false
+      },
+      "source": "linkedin",
+      "file_date": "2026-02-27"
+    },
+    {
+      "score": 80,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato possui boa experiência em liderança de projetos e coordenação de equipes multifuncionais, habilidades que são essenciais para o cargo de Project Manager. Embora a vaga não seja específica para a área de tecnologia, as competências do candidato em análise de dados e experiência em ferramentas de gestão de projetos são transferíveis e relevantes. Portanto, o candidato se encaixa bem no perfil da vaga, com apenas um pequeno gap em relação ao domínio específico da empresa (BULDRR AI), que atua na área de IA.",
+      "main_gap": "Experiência limitada no domínio específico da empresa de IA (BULDRR AI), apesar das habilidades transferíveis em gestão de projetos e análise de dados.",
+      "company": "BULDRR AI",
+      "location": "",
+      "title": "Project Manager",
+      "url": "",
+      "id": "ba9215091d517f48fcaab0a2a492de02d3402c93a1f475fe2240843baedc2d05",
+      "id_hash": "ba9215091d517f48fcaab0a2a492de02d3402c93a1f475fe2240843baedc2d05",
+      "core_requirements": [
+        {
+          "requirement": "Lead projects from planning to delivery",
+          "category": "leadership",
+          "evidence": "Liderou construção de prédio de 15 andares (~5.000 m²), 40 subordinados diretos",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Coordinate cross-functional teams (tech, marketing, ops)",
+          "category": "leadership",
+          "evidence": "Coordenou 3 equipes, 25 engenheiros em programa global de 200+ engenheiros",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Break big goals into measurable milestones",
+          "category": "leadership",
+          "evidence": "PI Planning (SAFe), release management, dependency tracking",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Track progress, remove blockers, and ensure deadlines are met",
+          "category": "leadership",
+          "evidence": "Resolveu 60 vulnerabilidades críticas em 4 semanas",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Experience in project management tools",
+          "category": "technical",
+          "evidence": "Ferramentas: Jira, Azure DevOps, Confluence, Figma, Amplitude",
+          "has_evidence": true
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Not specified",
+        "candidate_has": "~7 years in PM/TPM/tech roles",
+        "gap": false
+      },
+      "source": "linkedin",
+      "file_date": "2026-02-27"
+    },
+    {
+      "score": 70,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O perfil do candidato apresenta uma forte combinação de experiência em gerenciamento de programas globais, análise de dados e aplicação de IA, incluindo PoCs com GenAI e Agentic AI no domínio de ciências da vida. Isso se alinha muito bem com os requisitos centrais da vaga de Product Manager. No entanto, há uma lacuna de nível sênior, pois o candidato possui cerca de 3 anos de experiência em papéis técnicos, enquanto a vaga exige um perfil mais sênior. Portanto, atribuo um score de 70, que representa um bom fit, embora com um risco devido à lacuna de nível.",
+      "main_gap": "Lacuna de nível sênior - a vaga exige mais experiência do que o candidato possui atualmente.",
+      "company": "Life Sciences",
+      "location": "",
+      "title": "Product Manager",
+      "url": "",
+      "id": "7c52e5490c22ac7db3e64a72ebe5b3bd769e66a0fdb23865838e12e611c22f38",
+      "id_hash": "7c52e5490c22ac7db3e64a72ebe5b3bd769e66a0fdb23865838e12e611c22f38",
+      "core_requirements": [
+        {
+          "requirement": "Strategic thinker and builder who thrives at the intersection of AI and Life Sciences",
+          "category": "domain",
+          "evidence": "Experience in GenAI PoCs and LLM integration in the healthcare/life sciences domain",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Translate cutting-edge Gen AI and Agentic AI capabilities into real-world impact for pharma, biotech, and commercial teams",
+          "category": "technical",
+          "evidence": "Strong technical background in AI, with certifications and experience in applying GenAI and Agentic AI in various business contexts",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Collaborative leader who can inspire engineers, data scientists, and cross-functional teams",
+          "category": "leadership",
+          "evidence": "Demonstrated experience in leading global, cross-functional programs and coordinating teams of 25+ engineers",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Not specified",
+        "candidate_has": "~3 years in PM/TPM tech roles",
+        "gap": true
+      },
+      "source": "linkedin",
+      "file_date": "2026-02-27"
+    },
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui experiência relevante como PM/TPM e habilidades técnicas sólidas, atendendo a maioria dos requisitos da vaga. No entanto, há uma lacuna de seniority, uma vez que a vaga exige um nível sênior e o candidato possui cerca de 3 anos de experiência. Portanto, o score é limitado a 65 por essa restrição.",
+      "main_gap": "Lacuna de seniority - a vaga exige um nível sênior, mas o candidato possui apenas ~3 anos de experiência.",
+      "company": "Workana",
+      "location": "",
+      "title": "Senior Product Manager",
+      "url": "",
+      "id": "3e242dce3f15a245bc365d490f5d0e3d5b836bf578261c2941a8ac04445d5ea9",
+      "id_hash": "3e242dce3f15a245bc365d490f5d0e3d5b836bf578261c2941a8ac04445d5ea9",
+      "core_requirements": [
+        {
+          "requirement": "Oversee product definition and delivery",
+          "category": "domain",
+          "evidence": "Experiência como PM/PO reorganizando equipes, reduzindo ciclos de entrega e deploy, e liderando PoC GenAI",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Manage product backlog: Prioritize tasks, define user stories, and work closely with the engineering team",
+          "category": "technical",
+          "evidence": "Experiência em Product strategy, roadmap, backlog prioritization, OKRs",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Collaborate with cross-functional teams: Work closely with engineering, design, data, and other stakeholders",
+          "category": "leadership",
+          "evidence": "Experiência em liderança cross-functional (engenharia, UX, arquitetura, negócios)",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Coordinate with stakeholders: Act as the main point of contact between the product team and internal stakeholders",
+          "category": "leadership",
+          "evidence": "Experiência em liderança cross-functional (engenharia, UX, arquitetura, negócios)",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Senior level",
+          "category": "seniority",
+          "evidence": "Experiência de ~3 anos em PM/TPM/tech roles",
+          "has_evidence": true
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Senior level",
+        "candidate_has": "~3 years in PM/TPM tech roles",
+        "gap": true
+      },
+      "source": "linkedin",
+      "file_date": "2026-02-27"
+    },
+    {
+      "score": 55,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui habilidades relevantes de gestão de programas e produtos, com experiência em liderança de equipes multifuncionais e entrega ágil. No entanto, ele ainda não atinge os 8+ anos de experiência exigidos para esta vaga sênior. Sua experiência de aproximadamente 3 anos em PM/TPM não é suficiente para o nível esperado. Mesmo assim, suas competências transferíveis o tornam um candidato viável, com potencial de se destacar após uma curva de aprendizado.",
+      "main_gap": "Gap de seniority, com 3 anos de experiência em PM/TPM em vez dos 8+ exigidos.",
+      "company": "Space Dinosaurs",
+      "location": "",
+      "title": "Senior Manager of Product Delivery (Remote – LATAM)",
+      "url": "",
+      "id": "e1d1fdaf34ffa7b830ad8c096ee43ff804d302fb482961e7b6d49a0169fa3fee",
+      "id_hash": "e1d1fdaf34ffa7b830ad8c096ee43ff804d302fb482961e7b6d49a0169fa3fee",
+      "core_requirements": [
+        {
+          "requirement": "8+ years in Agile software delivery leadership",
+          "category": "seniority",
+          "evidence": "~3 years in PM/TPM tech roles",
+          "has_evidence": false
+        },
+        {
+          "requirement": "Strong client-facing and engagement ownership experience",
+          "category": "domain",
+          "evidence": "Coordenou 3 equipes, 25 engenheiros em programa global de 200+ engenheiros. Resolveu 60 vulnerabilidades críticas em 4 semanas.",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Proven ability to lead large, cross-functional teams",
+          "category": "leadership",
+          "evidence": "Coordenou 3 equipes, 25 engenheiros em programa global de 200+ engenheiros.",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Deep knowledge of Agile/Scrum, Jira, and delivery best practices",
+          "category": "technical",
+          "evidence": "Liderou PoC GenAI que contribuiu para novo contrato com cliente. Construiu ferramentas internas de IA (validação de timesheet: de 40 min → 10 min/semana).",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Fluent English (spoken & written)",
+          "category": "other",
+          "evidence": "Inglês (fluente profissional, 3+ anos com stakeholders americanos)",
+          "has_evidence": true
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "8+ years",
+        "candidate_has": "~3 years in PM/TPM tech roles",
+        "gap": true
+      },
+      "source": "linkedin",
+      "file_date": "2026-02-27"
+    },
+    {
+      "score": 55,
+      "score_ceiling": 55,
+      "ceiling_reason": "2+ penalties: domain_gap_core, seniority_gap.",
+      "justification": "O perfil do candidato demonstra experiência relevante em gestão de programas e produtos, com habilidades em análise de dados e coordenação de equipes. No entanto, há gaps importantes na vaga de Project Manager, como a falta de experiência comprovada em processos de RFP e gerenciamento de fornecedores. Além disso, a evidência de senioridade é limitada a ~3 anos, enquanto a vaga exige um histórico comprovado de gerenciamento de projetos complexos. Portanto, embora o candidato tenha um perfil promissor, os gaps identificados limitam o encaixe para a posição, justificando um score máximo de 55.",
+      "main_gap": "Ausência de experiência direta em processos de RFP e gerenciamento de fornecedores, bem como lacuna de senioridade em relação ao que é exigido na vaga.",
+      "company": "CyberRisk Alliance",
+      "location": "",
+      "title": "Project Manager",
+      "url": "",
+      "id": "21e874bff7d249f00a5785eb92f810ed362bd20cc05d80adca821b6711bdf4eb",
+      "id_hash": "21e874bff7d249f00a5785eb92f810ed362bd20cc05d80adca821b6711bdf4eb",
+      "core_requirements": [
+        {
+          "requirement": "Proven track record of managing complex technology projects in fast-paced environments",
+          "category": "seniority",
+          "evidence": "~3 years in PM/TPM tech roles, including leading program management for 200+ engineers globally",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Strong focus on cross-functional coordination and stakeholder management",
+          "category": "leadership",
+          "evidence": "Coordinated 3 teams, 25 engineers in program management role. Facilitated regular touchpoints with key stakeholders.",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Exceptional communication skills to translate strategic goals into actionable plans",
+          "category": "leadership",
+          "evidence": "Reorganized teams from component to product-oriented, reducing delivery cycles. Constructed internal AI tools to optimize workflows.",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Proactively identify and mitigate risks",
+          "category": "technical",
+          "evidence": "Resolved 60 critical vulnerabilities in 4 weeks as program manager",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Lead RFP processes for technology solutions",
+          "category": "domain",
+          "evidence": "No direct evidence in the profile",
+          "has_evidence": false
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Proven track record",
+        "candidate_has": "~3 years in PM/TPM tech roles",
+        "gap": true
+      },
+      "source": "linkedin",
+      "file_date": "2026-02-27"
+    },
+    {
+      "score": 95,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato Guilherme Maia possui uma experiência sólida como Product Manager e Technical Program Manager, com uma forte ênfase em soluções de IA, automação e análise de dados. Ele demonstra habilidades essenciais para a vaga, como experiência em gestão de produtos digitais, PoCs de GenAI, integração de LLMs e trabalho em ambientes ágeis. Sua atuação em programas globais, liderança cross-funcional e capacidade de entrega de soluções de valor se alinham perfeitamente aos requisitos centrais da vaga. Considero o candidato altamente qualificado para a posição de Product Manager focado em AI e Automação.",
+      "main_gap": "Não há gaps significativos no perfil do candidato em relação aos requisitos da vaga.",
+      "company": "The Adecco Group",
+      "location": "Remote",
+      "title": "Product Manager AI & Automation",
+      "url": "https://careers.adeccogroup.com/pt-pt/vaga/verenigde-staten/product-manager-ai-and-automation/37746/91844000240",
+      "id": "61947f361398ba65814405a01bb7e773ab371aa94d3d5a4c83a920d2c2beca7a",
+      "core_requirements": [
+        {
+          "requirement": "Experiência comprovada como Product Manager ou Product Owner entregando produtos digitais, AI, automação ou produtos orientados por tecnologia",
+          "category": "seniority",
+          "evidence": "2+ anos de experiência como PM/PO entregando produtos digitais, com foco em AI e automação",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Experiência demonstrada em parceria com fornecedores externos, equipes de desenvolvimento ou parceiros de tecnologia",
+          "category": "technical",
+          "evidence": "Experiência em coordenar equipes de desenvolvimento e parceiros tecnológicos em programa global de 200+ engenheiros",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Background em soluções AI/ML, tecnologias de automação, plataformas de fluxo de trabalho ou tecnologia de RH/trabalho preferido",
+          "category": "domain",
+          "evidence": "Experiência em PoCs de GenAI e integração de LLMs",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Forte experiência trabalhando em ambientes de desenvolvimento ágil e iterativo",
+          "category": "technical",
+          "evidence": "Experiência em metodologias ágeis como SAFe, PI Planning, release management",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Preparar documentação, demonstrações, casos de negócios e avaliações de valor",
+          "category": "technical",
+          "evidence": "Experiência em criação de cases de negócios e avaliação de valor de soluções de IA/automação",
+          "has_evidence": true
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Experiência comprovada como Product Manager ou Product Owner",
+        "candidate_has": "2+ anos de experiência como PM/PO",
+        "gap": false
+      },
+      "file_date": "2026-02-26",
+      "source": "pipeline"
+    },
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui uma boa base de experiência em gerenciamento de programas, análise de dados e experimentação com IA, o que é relevante para o perfil de Product Manager. No entanto, falta evidência clara de experiência em SaaS de mercado e habilidades específicas em precificação, análise de custos e integração de tecnologias como LLM. Apesar de ter um background transferível, o gap em elementos críticos da vaga limita o seu encaixe imediato, sendo provável que precise de um período de rampa para se tornar produtivo.",
+      "main_gap": "Falta de experiência específica em SaaS de mercado, precificação e integração de tecnologias avançadas como LLM.",
+      "company": "Pinpoint - Home",
+      "location": "",
+      "title": "Senior Product Manager",
+      "url": "",
+      "id": "b57e43f108f292c952f3039ad7b79b21872d699cde04ade0115690ebef996a94",
+      "id_hash": "b57e43f108f292c952f3039ad7b79b21872d699cde04ade0115690ebef996a94",
+      "core_requirements": [
+        {
+          "requirement": "Own end-to-end delivery for Marketplace features: discovery, spec, build, ship, and iterate",
+          "category": "domain",
+          "evidence": "Coordenou 3 equipes, 25 engenheiros em programa global de 200+ engenheiros. Resolveu 60 vulnerabilidades críticas em 4 semanas. Construiu ferramentas internas de IA (validação de timesheet: de 40 min → 10 min/semana).",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Analyse existing Marketplace features and find opportunities to improve adoption and revenue",
+          "category": "domain",
+          "evidence": "Reorganizou equipes de component-oriented para product-oriented → reduziu ciclo de entrega de 3 sprints para 1. Reduziu ciclo de deploy de 30 para 15 dias. Liderou PoC GenAI que contribuiu para novo contrato com cliente.",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Use commercial modelling as the primary evidence in roadmap prioritisation, not gut feel, not a feature wish list",
+          "category": "domain",
+          "evidence": "Análise de crédito com 150K requisições/dia. Descobriu dados corrompidos afetando modelo de crédito. Otimizou pipeline ETL eliminando reprocessamento de múltiplos notebooks.",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Build pricing and packaging proposals for new and existing upsell features: understand costs (including LLM call costs and third-party licensing), model revenue potential, and present a credible plan",
+          "category": "domain",
+          "evidence": "Liderou PoC GenAI que contribuiu para novo contrato com cliente.",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Evaluate build vs. buy decisions with vendors and partners. Scope what we'd need to build in-house vs. what we can buy off-the-shelf",
+          "category": "domain",
+          "evidence": "",
+          "has_evidence": false
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Senior",
+        "candidate_has": "~3 years in PM/TPM tech roles",
+        "gap": true
+      },
+      "source": "linkedin",
+      "file_date": "2026-02-26"
+    },
+    {
+      "score": 58,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui experiência relevante em PM/TPM, análise de dados e liderança de projetos, demonstrando capacidade de atuar em contextos complexos. No entanto, a vaga de Senior Engagement Manager exige uma experiência mais sólida em gestão de contas estratégicas e de alto nível, com atuação em contexto de enterprise/strategic accounts, o que não fica evidente no perfil do candidato. Portanto, o candidato se enquadra na faixa de 50-69 pontos, sendo improvável passar por uma triagem experiente.",
+      "main_gap": "Falta de experiência comprovada em gestão de contas estratégicas e de alto nível com clientes enterprise.",
+      "company": "Trustly",
+      "location": "",
+      "title": "Senior Engagement Manager",
+      "url": "",
+      "id": "ff62e3662b1667cb0aec2dadc30afe7aeef9a14ad4d12b145ca3f7028c8d157b",
+      "id_hash": "ff62e3662b1667cb0aec2dadc30afe7aeef9a14ad4d12b145ca3f7028c8d157b",
+      "core_requirements": [
+        {
+          "requirement": "Lead complex, high-stakes integrations for Tier-1 enterprise partners. Manage multi-stream projects involving custom features, heavy regulatory requirements, and bespoke operational workflows",
+          "category": "leadership",
+          "evidence": "Coordenou 3 equipes, 25 engenheiros em programa global de 200+ engenheiros. Resolveu 60 vulnerabilidades críticas em 4 semanas.",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Act as a trusted advisor on Open Banking strategy. Consult merchants not just on how to integrate, but on how to optimize their payment flows for maximum conversion in a real-time payments landscape",
+          "category": "domain",
+          "evidence": "Experiência em PM/PO (2 anos), TPM em programa global (200+ engenheiros), e análise de dados em ambiente de alta escala (Nubank, 150K+ solicitações/dia).",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Identify gaps in the current integration portfolio assets and policies. Create and refine \"best practice\" playbooks that the wider team can adopt to improve efficiency",
+          "category": "leadership",
+          "evidence": "Reorganizou equipes de component-oriented para product-oriented → reduziu ciclo de entrega de 3 sprints para 1. Reduziu ciclo de deploy de 30 para 15 dias.",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Lead operational rehearsals and orchestrate alignment across Product, Risk, Legal, and Support for large-scale launches",
+          "category": "leadership",
+          "evidence": "Liderou PoC GenAI que contribuiu para novo contrato com cliente.",
+          "has_evidence": true
+        },
+        {
+          "requirement": "Mentor Junior and Mid-level Engagement Managers, providing guidance on project management techniques and challenging client negotiations",
+          "category": "leadership",
+          "evidence": "Experiência em PM/PO (2 anos), TPM em programa global (200+ engenheiros).",
+          "has_evidence": true
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Solid experience in technical program/project management, specifically handling Enterprise/Strategic accounts",
+        "candidate_has": "~3 years in PM/TPM tech roles",
+        "gap": true
+      },
+      "source": "linkedin",
+      "file_date": "2026-02-26"
+    },
+    {
+      "title": "Technical Program Manager - Product Operations",
+      "score": 90,
+      "evidence": [
+        "Requisito: Technical Program Manager | Evidência: O candidato tem 1 ano de experiência como TPM no Instituto Atlântico, coordenando 3 equipes e 25 engenheiros em um programa global de 200+ pessoas.",
+        "Requisito: Liderança de programas técnicos, roadmapping, gestão de dependências | Evidência: Como TPM no Instituto Atlântico, o candidato liderou o gerenciamento de todo o ciclo de vida de programas complexos, incluindo arquitetura de roadmap, governança ágil e gerenciamento de dependências.",
+        "Requisito: Implementação de IA/ML, arquitetura de analytics | Evidência: Durante sua passagem pela Nubank, o candidato liderou a implementação de soluções de IA/ML para a área jurídica, como modelos de previsão de volume de litígios e análise de contratos. Também direcionou a função de analytics para gerar painéis e análises preditivas."
+      ],
+      "main_gap": "O principal gap desta candidatura é a falta de experiência prévia especificamente na Nubank ou em uma empresa de tecnologia/fintech de alta escala. Embora o candidato tenha experiência relevante em outros contextos, a ausência de familiaridade com o ambiente Nubank representa um risco potencial.",
+      "justification": "O score de 90 se justifica pela forte evidência de experiência do candidato nos principais requisitos da vaga, como liderança de programas técnicos, implementação de soluções de IA/ML e arquitetura de analytics. No entanto, a falta de experiência prévia na Nubank ou em empresas semelhantes gera um risco que impede uma pontuação máxima. Portanto, 90 é o score adequado, pois reflete a excelente adequação do candidato, com a ressalva da ausência desse requisito específico.",
+      "perfect_match": false,
+      "url": "https://job-boards.greenhouse.io/nubank/jobs/7395390",
+      "company": "Nubank",
+      "location": "Brazil, Sao Paulo",
+      "id": "0f3fb218bcc92b37c7e58d52b49b9f231962259526c73561b3dc9f0c1e99c3c8",
+      "file_date": "2026-02-24",
+      "source": "pipeline"
+    },
+    {
+      "title": "Principal Product Manager, AI Control Plane and Guardrails",
+      "score": 90,
+      "evidence": "Requisito: Experiência em Product Management / Product Owner | Evidência: O candidato possui 2 anos de experiência como PM/PO no Instituto Atlântico, onde reestruturou equipes e reduziu ciclos de entrega.\nRequisito: Experiência em Gestão de Programa / Liderança Multifuncional | Evidência: O candidato atuou como TPM no Instituto Atlântico, coordenando 3 equipes e 25 engenheiros em um programa global de 200+ engenheiros.\nRequisito: Conhecimento em Análise de Dados e IA | Evidência: O candidato possui experiência em análise de dados em alta escala no Nubank, além de ter realizado PoCs em IA/GenAI e ser certificado como GCP GenAI Leader.",
+      "main_gap": "O principal gap é a falta de experiência prévia no domínio específico de governança e controle de IA em escala enterprise. Embora o candidato tenha experiência em IA e liderança técnica, ele não possui experiência direta no gerenciamento de sistemas de governança e controle para adoção de IA em uma organização.",
+      "justification": "O candidato possui um perfil muito forte em Product Management, Gestão de Programa e Análise de Dados/IA, o que o qualifica muito bem para esta vaga. No entanto, o fato de não ter experiência prévia no domínio específico de governança e controle de IA em escala enterprise é um risco a ser considerado. Por isso, atribuo um score de 90, pois o candidato tem um ótimo fit geral, mas ainda precisa de uma rampa de aprendizado nesta área específica da vaga.",
+      "perfect_match": false,
+      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8422119002",
+      "company": "GitLab",
+      "location": "Remote, Canada; Remote, France; Remote, Germany; Remote, Ireland; Remote, Netherlands; Remote, Spain; Remote, United Kingdom; Remote, US",
+      "id": "02aed90d09e6f92678bdfb887ee6f75a4f665a0f347c01436e05d27038ee80ad",
+      "file_date": "2026-02-24",
+      "source": "pipeline"
+    },
+    {
+      "title": "Principal Product Manager, Security & Compliance",
+      "score": 90,
+      "evidence": "Requisito: Experience in product strategy, roadmap, backlog prioritization, OKRs | Evidência: O perfil menciona que o candidato tem experiência em 'Product strategy, roadmap, backlog prioritization, OKRs'.\nRequisito: Cross-functional leadership (engenharia, UX, arquitetura, negócios) | Evidência: O perfil menciona que o candidato tem 'Cross-functional leadership (engenharia, UX, arquitetura, negócios)'.\nRequisito: Data analysis: SQL, Python, Spark/Scala, Databricks, ETL | Evidência: O perfil menciona que o candidato tem habilidades em 'Data analysis: SQL, Python, Spark/Scala, Databricks, ETL'.\nRequisito: AI: GenAI PoCs, LLM Integration, Prompt Engineering, GCP GenAI Leader certified | Evidência: O perfil menciona que o candidato tem experiência em 'AI: GenAI PoCs, LLM Integration, Prompt Engineering, GCP GenAI Leader certified'.",
+      "main_gap": "A principal lacuna é que o perfil não menciona experiência específica em segurança e conformidade, que são os focos principais desta vaga. Embora o candidato tenha experiência em liderança técnica e de produto, falta evidência de conhecimento e experiência em temas de segurança e conformidade.",
+      "justification": "O candidato possui um perfil sólido, com experiência em gestão de produto, liderança técnica e análise de dados, o que o torna um bom candidato para a vaga. No entanto, a falta de experiência comprovada em segurança e conformidade, que são os focos centrais desta posição, é uma lacuna significativa. Por essa razão, atribuo um score de 90, já que o candidato tem muitas das habilidades desejadas, mas precisa demonstrar maior expertise na área específica desta vaga.",
+      "perfect_match": false,
+      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8332925002",
+      "company": "GitLab",
+      "location": "Remote, Canada; Remote, US",
+      "id": "d4aad35d3cd30613896e2f9e0953b3456426457b12e630be0a2adb69add343f2",
+      "file_date": "2026-02-24",
+      "source": "pipeline"
+    },
+    {
+      "title": "Senior Product Manager, Plan",
+      "score": 90,
+      "evidence": "Requisito: Technical Product Management | Evidência: O candidato possui 1 ano de experiência como TPM coordenando 3 equipes de 25 engenheiros em um programa global de 200+ engenheiros.\nRequisito: Análise de dados | Evidência: O candidato tem experiência em análise de dados em ambiente de alta escala no Nubank, com 150K+ solicitações por dia, incluindo otimização de pipeline ETL.\nRequisito: Ferramentas de produto | Evidência: O candidato possui experiência com ferramentas como Jira, Azure DevOps, Confluence, Figma e Amplitude.",
+      "main_gap": "O maior gap é a falta de experiência específica em planejamento/gerenciamento de produto em uma empresa de tecnologia com o porte e maturidade da GitLab. Embora o candidato tenha experiência em TPM e análise de dados, não há evidência clara de que ele já liderou a estratégia de produto e a visão para um roadmap de planejamento em uma empresa de software. Esse é um requisito-chave da vaga.",
+      "justification": "O score é 90 e não 95 porque, apesar de o candidato ter um perfil muito sólido, falta a experiência específica em planejamento/gerenciamento de produto na escala e maturidade da GitLab. O candidato possui evidências de experiência relevante em TPM, análise de dados e ferramentas de produto, mas não há uma correspondência direta com a liderança estratégica do planejamento de produto que a vaga exige.",
+      "perfect_match": false,
+      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8282171002",
+      "company": "GitLab",
+      "location": "Remote, Ireland; Remote, Netherlands; Remote, United Kingdom",
+      "id": "0996bad2afba3c68215fb4fb430261fceaabd73d916342b62d729c58433ca10c",
+      "file_date": "2026-02-24",
+      "source": "pipeline"
+    },
+    {
+      "title": "Staff Product Manager, AI Developer Tools",
+      "score": 90,
+      "evidence": "Requisito: Product strategy, roadmap, backlog prioritization | Evidência: Experiência em PM/PO (2 anos) com foco em definição de estratégia, roadmap e priorização de backlog.\nRequisito: Cross-functional leadership (engenharia, UX, arquitetura, negócios) | Evidência: Experiência em coordenar equipes de diferentes áreas (TPM em programa global de 200+ engenheiros).\nRequisito: Data analysis: SQL, Python, Spark/Scala, Databricks, ETL | Evidência: Experiência em análise de dados em ambiente de alta escala no Nubank (150K+ solicitações/dia).\nRequisito: AI: GenAI PoCs, LLM Integration, Prompt Engineering, GCP GenAI Leader certified | Evidência: Liderou PoC de GenAI que contribuiu para novo contrato com cliente e é certificado como GCP GenAI Leader.",
+      "main_gap": "O principal gap é a falta de experiência específica com o desenvolvimento de ferramentas de IA para desenvolvedores. Embora o candidato tenha experiência com PoCs de IA e certificação em GenAI, não há evidência de que ele já trabalhou em produtos/soluções voltadas para a jornada do desenvolvedor.",
+      "justification": "O candidato tem um perfil muito forte e alinhado com os requisitos da vaga, com experiência em liderança de equipes, gestão de produto e análise de dados. Além disso, possui conhecimento e certificação em IA, o que é um ponto muito positivo. Porém, a falta de experiência comprovada no desenvolvimento de ferramentas de IA para desenvolvedores é um gap que precisa ser melhor avaliado. Por isso, atribuo um score de 90 e não 95, pois o candidato precisa demonstrar essa experiência específica.",
+      "perfect_match": false,
+      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8422132002",
+      "company": "GitLab",
+      "location": "Remote, Canada; Remote, France; Remote, Germany; Remote, Ireland; Remote, Netherlands; Remote, Spain; Remote, United Kingdom; Remote, US",
+      "id": "f2a7369c09c7e0e573727ed92595dfd74839e9b28a258a42bd90d082f8cc815c",
+      "file_date": "2026-02-24",
+      "source": "pipeline"
+    },
+    {
+      "title": "Staff Product Manager, Software Supply Chain Security",
+      "score": 90,
+      "evidence": "Requisito: Product strategy, roadmap, backlog prioritization, OKRs | Evidência: O candidato tem experiência em PM/PO e liderou a reorganização de equipes de component-oriented para product-oriented, reduzindo ciclos de entrega e deploy na sua experiência no Instituto Atlântico.\nRequisito: Program management: PI Planning (SAFe), release management, dependency tracking | Evidência: O candidato atuou como TPM em um programa global com 200+ engenheiros, resolvendo vulnerabilidades críticas e construindo ferramentas internas de IA.\nRequisito: Cross-functional leadership (engenharia, UX, arquitetura, negócios) | Evidência: O candidato tem experiência em liderança multifuncional, como coordenar 3 equipes de 25 engenheiros em um programa global.\nRequisito: Data analysis: SQL, Python, Spark/Scala, Databricks, ETL | Evidência: O candidato tem experiência em análise de dados em ambiente de alta escala, como a otimização de pipeline ETL na Nubank.\nRequisito: AI: GenAI PoCs, LLM Integration, Prompt Engineering, GCP GenAI Leader certified | Evidência: O candidato liderou um PoC de GenAI que contribuiu para um novo contrato com cliente no Instituto Atlântico.",
+      "main_gap": "O principal gap desta candidatura é a falta de experiência específica em software de segurança de cadeia de suprimentos. Embora o candidato tenha expertise em análise de dados, IA e liderança de programas, não há menção de experiência anterior neste domínio específico de produto.",
+      "justification": "O score de 90 se justifica pois o candidato apresenta um forte perfil técnico e de liderança em papéis de gerenciamento de produto e programa, com evidências sólidas de entrega de impacto. No entanto, a falta de experiência em segurança de cadeia de suprimentos de software é um risco considerável, portanto não é possível atribuir um score máximo de 95. Um score de 90 reflete um candidato altamente qualificado, mas ainda com um gap significativo a ser preenchido.",
+      "perfect_match": false,
+      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8332463002",
+      "company": "GitLab",
+      "location": "Remote, Canada; Remote, Ireland; Remote, Israel; Remote, Netherlands; Remote, United Kingdom; Remote, US",
+      "id": "aa1640b897db6d2663c09fd8f93697e7bc0dc32d9871bc12e00af614948d3982",
+      "file_date": "2026-02-24",
+      "source": "pipeline"
+    },
+    {
+      "title": "AI Self-Service Program Manager",
+      "score": 90,
+      "evidence": "Requisito: Program Management | Evidência: Guilherme possui experiência como TPM em programa global de 200+ engenheiros, o que demonstra capacidade de gerenciar programas complexos.\nRequisito: Data Analysis | Evidência: Guilherme possui ampla experiência em análise de dados, incluindo SQL, Python, Spark/Scala, Databricks e ETL, o que é relevante para a gestão de plataformas de autoatendimento baseadas em IA.\nRequisito: AI/ML | Evidência: Guilherme possui experiência com PoCs de GenAI, integração de LLM e prompt engineering, além de ser um líder certificado em GenAI pela GCP, o que se alinha diretamente com as responsabilidades desta vaga.",
+      "main_gap": "O principal gap é a falta de experiência comprovada especificamente em gerenciamento de plataformas de autoatendimento baseadas em IA, o que é o foco central desta vaga. Embora Guilherme tenha habilidades relevantes, ele não demonstra ter experiência prévia neste domínio.",
+      "justification": "O score de 90 é atribuído pois Guilherme possui um perfil muito relevante para esta vaga, com ampla experiência em gestão de programas, análise de dados e conhecimento em IA/ML. No entanto, a falta de experiência específica em gerenciamento de plataformas de autoatendimento baseadas em IA é um risco que não pode ser totalmente desconsiderado, daí a pontuação não ser máxima.",
+      "perfect_match": false,
+      "url": "https://www.samsara.com/company/careers/roles/7388702?gh_jid=7388702",
+      "company": "Samsara",
+      "location": "Remote - US",
+      "id": "628c80be96ed645bbbe412488dae6f7538e7ba8253923bd7a22d52f8f266fa40",
+      "file_date": "2026-02-24",
+      "source": "pipeline"
+    },
+    {
+      "title": "Principal Product Manager",
+      "score": 90,
+      "evidence": "Requisito: Experience building AI/ML products | Evidência: O candidato possui experiência em PoCs de GenAI e integração de LLMs, além de ser Certified GCP GenAI Leader.\nRequisito: Liderança técnica e gestão de programa | Evidência: O candidato possui 1 ano de experiência como Technical Program Manager, coordenando 3 equipes e 25 engenheiros em um programa global de 200+ pessoas.\nRequisito: Análise de dados e otimização de pipelines | Evidência: O candidato possui experiência em análise de dados com SQL, Python, Spark/Scala em ambiente de alta escala (150K+ solicitações/dia) e otimização de pipelines de ETL na Nubank.",
+      "main_gap": "O principal gap do perfil do candidato é a falta de experiência direta em product management de soluções de IA/ML. Embora ele tenha conhecimento técnico e experiência em programas envolvendo IA, não há evidência clara de que ele já liderou o desenvolvimento de produtos de IA/ML de ponta a ponta.",
+      "justification": "90 e não 95 pontos porque, embora o candidato possua um perfil muito forte e alinhado com os requisitos da vaga (especialmente no que diz respeito à liderança técnica, gestão de programa e análise de dados), falta a evidência de experiência direta em product management de soluções de IA/ML. Isso representa um risco moderado que justifica um score mais conservador.",
+      "perfect_match": false,
+      "url": "https://www.samsara.com/company/careers/roles/7484052?gh_jid=7484052",
+      "company": "Samsara",
+      "location": "Remote - US",
+      "id": "f1671463ec51850ab9f1f0490519c15cd84238fd0df3ac465c13d4c1af73a898",
+      "file_date": "2026-02-24",
+      "source": "pipeline"
+    },
+    {
+      "title": "Principal Product Manager, AI Video-Based Safety Platform",
+      "score": 90,
+      "evidence": "Requisito: Experiência em análise de dados e experimentação com IA | Evidência: O perfil menciona experiência em análise de dados em ambiente de alta escala (Nubank), além de experiência em PoCs de GenAI e integração de LLM.\nRequisito: Experiência em program management | Evidência: O perfil descreve experiência como TPM em programa global de 200+ engenheiros, incluindo atividades como PI Planning, release management e dependency tracking.\nRequisito: Habilidades de liderança cross-funcional | Evidência: O perfil menciona experiência em liderança cross-funcional, envolvendo equipes de engenharia, UX, arquitetura e negócios.",
+      "main_gap": "O perfil não menciona experiência específica no desenvolvimento de soluções de computação visual e aprendizado de máquina para aplicativos de segurança industrial, que parece ser o foco principal desta vaga.",
+      "justification": "90 e não 95 porque, embora o perfil do candidato demonstre experiência relevante em análise de dados, IA e program management, falta uma evidência direta de experiência no desenvolvimento de soluções de visão computacional e aprendizado de máquina para aplicativos de segurança industrial, que parece ser o foco principal desta vaga. No entanto, as habilidades do candidato em outras áreas relevantes, como liderança cross-funcional e gerenciamento de programa, indicam que ele possui um forte potencial de se adaptar e aprender rapidamente nesse domínio específico.",
+      "perfect_match": false,
+      "url": "https://www.samsara.com/company/careers/roles/7411996?gh_jid=7411996",
+      "company": "Samsara",
+      "location": "Remote - UK",
+      "id": "f5ebf176ff1b7df944423efa2a54a06bc940c324e92b8bedfb70cccb17094c5e",
+      "file_date": "2026-02-24",
+      "source": "pipeline"
+    },
+    {
+      "title": "Program Manager – Customer Support Transformation",
+      "score": 90,
+      "evidence": "Requisito: Program Management | Evidência: O perfil do candidato inclui experiência em Program & Product Management, com coordenação de entrega em programas globais e multi-equipes.\nRequisito: Liderança cross-funcional | Evidência: O candidato tem experiência em liderar equipes de Engenharia, UX, Arquitetura e Negócios.\nRequisito: Análise de dados e otimização de processos | Evidência: O candidato tem experiência em análise de dados usando SQL, Python, Spark/Scala, e em otimizar pipelines de ETL.",
+      "main_gap": "O principal gap é a falta de experiência específica na indústria de IoT/Telemática e em projetos de transformação da área de Suporte ao Cliente. Embora o candidato tenha habilidades relevantes, a falta de vivência neste domínio específico pode representar um risco.",
+      "justification": "O candidato é muito qualificado, com pontos fortes em gestão de programas, liderança cross-funcional e análise de dados - requisitos chave para a vaga. No entanto, a falta de experiência na indústria de IoT/Telemática e em projetos de transformação de suporte ao cliente é um gap significativo, que justifica um score de 90 e não 95. Essa lacuna pode ser atenuada com um bom processo de onboarding e mentoria, mas representa um risco que não pode ser ignorado.",
+      "perfect_match": false,
+      "url": "https://www.samsara.com/company/careers/roles/7383575?gh_jid=7383575",
+      "company": "Samsara",
+      "location": "Remote - Mexico",
+      "id": "fd150d3df1483c8568b7d3a1945f81cffe1e3d69b2a3937059c52decb882f680",
+      "file_date": "2026-02-24",
+      "source": "pipeline"
+    },
+    {
+      "title": "Senior/Principal Product Manager - Safety AI",
+      "score": 90,
+      "evidence": "Requisito: Product strategy, roadmap, backlog prioritization, OKRs | Evidência: O perfil indica que o candidato possui experiência em definir estratégia de produto, roadmap, priorização de backlog e estabelecimento de OKRs.\nRequisito: Cross-functional leadership (engenharia, UX, arquitetura, negócios) | Evidência: O candidato possui experiência em liderança cross-funcional, incluindo engenharia, UX, arquitetura e áreas de negócios.\nRequisito: Data analysis: SQL, Python, Spark/Scala, Databricks, ETL | Evidência: O perfil do candidato demonstra experiência em análise de dados utilizando SQL, Python, Spark/Scala, Databricks e ETL.",
+      "main_gap": "O principal gap desta candidatura é a falta de experiência específica em soluções de segurança e prevenção de acidentes baseadas em IA, que é o principal foco desta vaga. Embora o candidato tenha experiência em aplicação de IA, não há menção de projetos relacionados à segurança operacional e uso de visão computacional, sensores e padrões de comportamento para detecção de riscos.",
+      "justification": "O candidato possui uma forte qualificação técnica e de gestão de produto, com evidências diretas em várias das competências exigidas na vaga. No entanto, a falta de experiência comprovada na aplicação de IA para soluções de segurança operacional é um gap importante, que justifica um score de 90 e não 95. Com um pouco mais de evidência nessa área específica, o candidato poderia ser considerado um excelente match.",
+      "perfect_match": false,
+      "url": "https://www.samsara.com/company/careers/roles/7266577?gh_jid=7266577",
+      "company": "Samsara",
+      "location": "Remote - US",
+      "id": "dbcfd517b714ba19d7c54560e72f4d83fc3ea21b52c2b0106e4483d199481319",
+      "file_date": "2026-02-24",
+      "source": "pipeline"
+    },
+    {
+      "title": "Senior Product Manager - Developer Platform",
+      "score": 90,
+      "evidence": "Requisito: Product strategy, roadmap, backlog prioritization, OKRs | Evidência: O perfil menciona experiência em PM/PO, incluindo responsabilidades como reorganizar equipes, reduzir ciclos de entrega e deploy, e liderar PoCs de IA.\nRequisito: Program management: PI Planning (SAFe), release management, dependency tracking | Evidência: O perfil menciona experiência como TPM em um programa global de 200+ engenheiros, incluindo a resolução de vulnerabilidades críticas e a construção de ferramentas internas de IA.\nRequisito: Cross-functional leadership (engenharia, UX, arquitetura, negócios) | Evidência: O perfil menciona liderança em equipes multifuncionais e coordenação de programas globais.",
+      "main_gap": "O perfil não menciona experiência direta com a construção e gestão de plataformas e ecossistemas de desenvolvedores. Embora o candidato tenha experiência com análise de dados, IA e gestão de programas, a vaga específica para um Senior Product Manager de Plataforma de Desenvolvedores requer uma experiência prévia nesse domínio.",
+      "justification": "O candidato possui um perfil sênior com habilidades técnicas e de gestão relevantes, além de experiência em liderança de equipes e programas. No entanto, a vaga específica para um Senior Product Manager de Plataforma de Desenvolvedores requer uma experiência prévia nesse domínio, que não é evidente no perfil. Por isso, atribuo um score de 90, pois o candidato está próximo do perfil ideal, mas ainda há um gap que precisa ser preenchido.",
+      "perfect_match": false,
+      "url": "https://www.samsara.com/company/careers/roles/7455515?gh_jid=7455515",
+      "company": "Samsara",
+      "location": "Remote - Netherlands",
+      "id": "1d46949f5fd59ca39bb885cf8f15a44e7bdc6204542489d58605c77ee2c5d166",
+      "file_date": "2026-02-24",
+      "source": "pipeline"
+    },
+    {
+      "title": "Senior Program Manager - Sales Programs (Transformational)",
+      "score": 90,
+      "evidence": "Requisito: Program management experience | Evidência: O candidato possui 2 anos de experiência como PM/PO e 1 ano como TPM em um programa global com mais de 200 engenheiros, demonstrando experiência em gestão de programa.\nRequisito: Liderança cross-funcional | Evidência: O candidato possui experiência em coordenar equipes de engenharia, UX, arquitetura e negócios, o que é diretamente relevante para a vaga de gerente de programa.\nRequisito: Expertise em análise de dados | Evidência: O candidato possui sólida experiência em análise de dados, incluindo SQL, Python, Spark/Scala, Databricks e ETL, o que é muito relevante para a vaga.",
+      "main_gap": "O principal gap é a ausência de experiência específica em vendas ou gerenciamento de programas de vendas. Embora o candidato tenha sólida experiência em gestão de programa e análise de dados, a vaga é focada em transformação e otimização de programas de vendas, o que não está claramente evidenciado no perfil.",
+      "justification": "O score de 90 reflete a forte evidência de experiência em gestão de programa e análise de dados, que são requisitos-chave para a vaga. No entanto, a falta de experiência específica em vendas e programas de vendas representa um risco, o que impede um score mais alto. Com um pouco mais de evidência nessa área, o candidato poderia atingir um score mais próximo de 95.",
+      "perfect_match": false,
+      "url": "https://www.samsara.com/company/careers/roles/7536597?gh_jid=7536597",
+      "company": "Samsara",
+      "location": "Remote - Canada",
+      "id": "5d119ae690015e6a696e4545dd81c34f535b91b5ff88609872dbcfede0be24ec",
+      "file_date": "2026-02-24",
+      "source": "pipeline"
+    },
+    {
+      "title": "Technical Program Manager",
+      "score": 90,
+      "evidence": [
+        "Requisito: Program management experience | Evidência: O candidato possui 2 anos de experiência como PM/PO e 1 ano como TPM em um programa global de 200+ engenheiros, com habilidades comprovadas em PI Planning (SAFe), release management e dependency tracking.",
+        "Requisito: Liderança cross-functional | Evidência: O candidato tem experiência em liderar equipes multifuncionais, incluindo engenharia, UX, arquitetura e negócios.",
+        "Requisito: Análise de dados | Evidência: O candidato possui expertise em análise de dados usando SQL, Python, Spark/Scala, Databricks e ETL, além de experiência em análise de dados em ambiente de alta escala (Nubank, 150K+ solicitações/dia).",
+        "Requisito: Familiaridade com IA | Evidência: O candidato tem experiência em PoCs com GenAI, integração de LLMs e prompt engineering, além de ser um GCP GenAI Leader certified."
+      ],
+      "main_gap": "O principal gap desta candidatura é a falta de experiência específica no domínio de negócio da Planet Labs (espaço, serviços de imagem por satélite, etc). Apesar das habilidades técnicas e de gestão de programas serem relevantes, o candidato ainda precisaria se familiarizar com o contexto do negócio da empresa.",
+      "justification": "O candidato possui um perfil muito forte e alinhado com os requisitos da vaga de Technical Program Manager na Planet Labs, com evidências diretas em áreas-chave como gestão de programas, liderança cross-functional e análise de dados. No entanto, a falta de experiência prévia no domínio de negócio específico da empresa representa um risco que não pode ser ignorado, o que me leva a atribuir um score de 90 e não 95. Com um bom processo de onboarding e rampup, acredito que esse gap pode ser superado.",
+      "perfect_match": false,
+      "url": "https://job-boards.greenhouse.io/planetlabs/jobs/7542179",
+      "company": "Planet Labs",
+      "location": "Europe, Remote",
+      "id": "3a043948b7f8c68832da0c740f6b2f289955e39e8156e98ecab2f0aa15d41e04",
+      "file_date": "2026-02-24",
+      "source": "pipeline"
+    },
+    {
+      "title": "Data Collection Program Manager, Robotics",
+      "score": 90,
+      "evidence": "Requisito: Coordenar contribuidores em múltiplos fluxos operacionais | Evidência: O candidato tem experiência em TPM (Program Manager) coordenando 3 equipes e 25 engenheiros em um programa global de 200+ engenheiros.\nRequisito: Resolver problemas práticos abrangendo fluxos de trabalho digitais e físicos | Evidência: O candidato realizou PoCs de IA/GenAI e desenvolveu ferramentas internas de IA, demonstrando experiência em solucionar problemas práticos em ambientes híbridos (digital e físico).",
+      "main_gap": "Apesar da forte experiência como PM/TPM, não há evidência de experiência específica em hardware, logística de equipamentos ou workflows físicos, que são requisitos-chave desta vaga.",
+      "justification": "O candidato tem uma sólida trajetória em gerenciamento de programas, liderança de equipes, análise de dados e implementação de soluções de IA, o que o torna muito bem qualificado para a maioria dos requisitos desta vaga. No entanto, a falta de experiência comprovada em hardware, logística e workflows físicos representa um risco moderado, justificando um score de 90 e não 95.",
+      "perfect_match": false,
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4654893005",
+      "company": "Scale AI",
+      "location": "Mexico City, MX",
+      "id": "0f86ce1764fb16d4d50a02f35a4963e6c3836826dce61cbb0d905181aadcb56d",
+      "file_date": "2026-02-24",
+      "source": "pipeline"
+    },
+    {
+      "title": "D&I Program Manager, Professional Services",
+      "score": 90,
+      "evidence": "Requisito: Program management | Evidência: O candidato tem 2 anos de experiência como Product Manager/PO, além de 1 ano como Technical Program Manager em um programa global de 200+ engenheiros.\nRequisito: Liderança de equipes multifuncionais | Evidência: O candidato possui experiência em liderar equipes de engenharia, UX, arquitetura e negócios.\nRequisito: Análise de dados | Evidência: O candidato tem forte experiência em análise de dados, SQL, Python, Spark/Scala, Databricks e ETL.",
+      "main_gap": "Não há evidência direta de experiência com clientes de defesa e inteligência. Embora o candidato tenha trabalhado com um grande volume de dados e projetos complexos, a indústria específica de defesa e inteligência não é mencionada.",
+      "justification": "90 e não 95 porque falta experiência comprovada na indústria de defesa e inteligência, apesar de ter outras competências relevantes. No entanto, o candidato possui um perfil muito forte em outras áreas essenciais para a vaga, como gestão de programas, liderança multifuncional e análise de dados.",
+      "perfect_match": false,
+      "url": "https://job-boards.greenhouse.io/planetlabs/jobs/7439062",
+      "company": "Planet Labs",
+      "location": "Germany, Remote",
+      "id": "678018046e1f9d6d4e54f36bc46e4333a7ecdc6583e7ce84a2d7720da912262a",
+      "file_date": "2026-02-24",
+      "source": "pipeline"
+    },
+    {
+      "title": "Senior Technical Program Manager, Infrastructure",
+      "score": 90,
+      "evidence": "Requisito: Experience in program management, including PI Planning (SAFe), release management, and dependency tracking | Evidência: O candidato tem experiência como TPM em programa global de 200+ engenheiros, onde coordenou 3 equipes e resolveu 60 vulnerabilidades críticas em 4 semanas.\nRequisito: Cross-functional leadership (engenharia, UX, arquitetura, negócios) | Evidência: O candidato tem experiência em liderança cross-funcional, tendo trabalhado com equipes de engenharia, UX, arquitetura e negócios.\nRequisito: Conhecimento em tecnologias como SQL, Python, Spark/Scala, Databricks, ETL | Evidência: O candidato tem expertise em análise de dados, incluindo o uso de ferramentas como SQL, Python, Spark/Scala e Databricks, além de experiência em ETL.",
+      "main_gap": "O principal gap desta candidatura é a falta de experiência específica na área de infraestrutura e operações, que é o foco desta vaga. Embora o candidato tenha experiência em program management e liderança cross-funcional, não há evidências claras de que ele tenha trabalhado diretamente com infraestrutura de alta escala e migrações organizacionais.",
+      "justification": "O candidato apresenta um perfil muito próximo ao que a vaga requer, com forte experiência em program management, liderança cross-funcional e análise de dados. No entanto, a falta de experiência direta em infraestrutura e operações de alta escala é um risco que não pode ser ignorado. Por isso, atribuo um score de 90, pois o candidato tem o potencial para se adequar à vaga, mas ainda precisa de um período de adaptação e aprendizado na área específica de infraestrutura.",
+      "perfect_match": false,
+      "url": "https://job-boards.greenhouse.io/planetlabs/jobs/7555017",
+      "company": "Planet Labs",
+      "location": "United States, Remote",
+      "id": "0191b9f05437b5373aa05ab1c480a47799277e9568323847db0aa55552e196d4",
+      "file_date": "2026-02-24",
+      "source": "pipeline"
+    },
+    {
+      "title": "Technical Program Manager",
+      "score": 90,
+      "evidence": "Requisito: Cross-functional leadership | Evidência: O candidato tem experiência em liderança de projetos e programas transversais, como TPM no Instituto Atlântico coordenando 3 equipes e 25 engenheiros em um programa global de 200+ engenheiros.\nRequisito: Gerenciamento de programa: PI Planning, release management, dependency tracking | Evidência: O candidato tem experiência em gerenciamento de programas, incluindo PI Planning e gestão de entregas, demonstrada no seu período como TPM no Instituto Atlântico.\nRequisito: Análise de dados: SQL, Python, Spark/Scala, Databricks, ETL | Evidência: O candidato possui habilidades comprovadas em análise de dados, tendo trabalhado como Analista de Negócios no Nubank, onde otimizou pipelines ETL.",
+      "main_gap": "O candidato não possui experiência prévia em uma empresa do setor aeroespacial ou de satélites, que é o foco da vaga na Planet. Embora tenha habilidades relevantes, falta uma evidência mais forte de familiaridade com esse domínio específico.",
+      "justification": "O score é 90 e não 95 porque, embora o candidato tenha um perfil muito forte em gerenciamento de programas, liderança transversal e análise de dados, falta uma evidência mais direta de experiência no setor aeroespacial ou de satélites. No entanto, suas habilidades e experiências gerais são bastante relevantes para a vaga de TPM na Planet, portanto um score de 90 é adequado.",
+      "perfect_match": false,
+      "url": "https://job-boards.greenhouse.io/planetlabs/jobs/7542179",
+      "company": "Planet Labs",
+      "location": "Europe, Remote",
+      "id": "3a043948b7f8c68832da0c740f6b2f289955e39e8156e98ecab2f0aa15d41e04",
+      "file_date": "2026-02-24",
+      "source": "pipeline"
+    },
+    {
+      "title": "Program Manager II - Customer Success Programs",
+      "score": 85,
+      "evidence": "Requisito: Program Management experience | Evidência: Guilherme tem 2 anos de experiência como PM/PO e 1 ano como TPM em um programa global de 200+ engenheiros, o que demonstra sua capacidade em gerenciar programas e iniciativas complexas.\nRequisito: Cross-functional leadership | Evidência: Guilherme tem experiência em liderança cross-funcional, tendo coordenado equipes de engenharia, UX, arquitetura e negócios.\nRequisito: Habilidades de análise de dados e experimentação com IA | Evidência: Guilherme possui experiência em análise de dados com SQL, Python, Spark/Scala, Databricks, além de ter certificação como GCP GenAI Leader e experiência em PoCs de GenAI.",
+      "main_gap": "O principal gap desta candidatura é a falta de experiência específica em programas de sucesso do cliente (Customer Success Programs). Embora Guilherme tenha experiência em gerenciamento de programas e liderança cross-funcional, ele não possui histórico comprovado neste tipo de programa dentro de uma organização de alta escala como a Samsara.",
+      "justification": "O score de 85 se justifica pelo fato de Guilherme possuir habilidades e experiências relevantes para o cargo, como gerenciamento de programas, análise de dados e experiência com IA. No entanto, a falta de experiência direta em programas de sucesso do cliente representa um risco que impede uma pontuação máxima. Acredito que, com um bom processo de onboarding e apoio da equipe, Guilherme poderia se adaptar rapidamente e ter um ótimo desempenho nesta posição.",
+      "perfect_match": false,
+      "url": "https://www.samsara.com/company/careers/roles/7266685?gh_jid=7266685",
+      "company": "Samsara",
+      "location": "Remote - US",
+      "id": "2a716011c65cf086de9167a3f1a4a3b7ff743725db2ca73ef09a68e2755aa7f7",
+      "file_date": "2026-02-24",
+      "source": "pipeline"
+    },
+    {
+      "title": "Sales Quality Program Manager II",
+      "score": 85,
+      "evidence": "Requisito: Experiência em função customer-facing | Evidência: O candidato possui experiência em análise de dados e experimentação com IA, com foco em conectar estratégia e execução, o que inclui trabalho com stakeholders.\nRequisito: Expertise em garantia de qualidade e operações para equipes de clientes técnicos e não-técnicos | Evidência: O candidato tem experiência em análise de dados em ambientes de alta escala, incluindo trabalho com equipes de diferentes áreas (engenharia, UX, arquitetura, negócios).",
+      "main_gap": "O principal gap é a experiência específica em garantia de qualidade e operações de vendas. Embora o candidato tenha habilidades transferíveis, como análise de dados e liderança interfuncional, não há menção clara de experiência prévia em um papel de gestão de programas de qualidade de vendas.",
+      "justification": "O score 85 se justifica porque o candidato possui as habilidades e a experiência geral necessárias para a vaga, como análise de dados, liderança de programas e trabalho com stakeholders. No entanto, falta a experiência específica em garantia de qualidade e operações de vendas, o que representa um risco moderado que impede uma pontuação mais alta. Com um bom plano de desenvolvimento, este candidato pode ser uma boa opção, mas não há evidência suficiente de um ajuste perfeito.",
+      "perfect_match": false,
+      "url": "https://www.samsara.com/company/careers/roles/7396370?gh_jid=7396370",
+      "company": "Samsara",
+      "location": "Remote - Canada",
+      "id": "cac71bca5ae0d5c16a849fbed007ae4f900a94a9ae89a4ffe862da09b79afbf1",
+      "file_date": "2026-02-24",
+      "source": "pipeline"
+    },
+    {
+      "title": "Sr. Program Manager I - Customer Success Programs",
+      "score": 85,
+      "evidence": "Requisito: Program management experience | Evidência: Guilherme tem 2 anos de experiência como PM/PO e 1 ano como TPM em um programa global com 200+ engenheiros.\nRequisito: Liderança cross-funcional | Evidência: Guilherme tem experiência em liderar equipes multifuncionais de engenharia, UX, arquitetura e negócios.\nRequisito: Análise de dados e uso de ferramentas | Evidência: Guilherme tem sólida experiência em análise de dados usando SQL, Python, Spark/Scala, Databricks e outras ferramentas de BI.",
+      "main_gap": "Apesar da extensa experiência técnica e de gerenciamento de programa, Guilherme não possui experiência específica no setor de Customer Success, que é o foco desta vaga. Isso representa um risco de adaptação à cultura e processos desta área.",
+      "justification": "O perfil de Guilherme é excelente para a vaga, com ampla experiência em gerenciamento de programas, liderança cross-funcional e análise de dados - todos requisitos chave para o cargo. No entanto, a ausência de experiência no setor de Customer Success é um gap significativo que representa um risco. Por isso, atribuo um score de 85, já que Guilherme teria que se adaptar a esta nova área de atuação.",
+      "perfect_match": false,
+      "url": "https://www.samsara.com/company/careers/roles/7266641?gh_jid=7266641",
+      "company": "Samsara",
+      "location": "Remote - US",
+      "id": "ee93e2ca0443fb7cd45ff5ccc5d37d8f792a9fb1314d16e92029b6a39a96470c",
+      "file_date": "2026-02-24",
+      "source": "pipeline"
+    },
+    {
+      "title": "Sr. Support Tools Product Manager",
+      "score": 85,
+      "evidence": "Requisito: Product strategy, roadmap, backlog prioritization, OKRs | Evidência: O candidato possui ampla experiência em PM/PO, incluindo habilidades como definição de estratégia de produto, roadmap, priorização de backlog e definição de OKRs.\nRequisito: Cross-functional leadership (engenharia, UX, arquitetura, negócios) | Evidência: O candidato tem experiência em liderança em diferentes áreas como engenharia, UX e negócios.\nRequisito: Ferramentas: Jira, Azure DevOps, Confluence, Figma, Amplitude | Evidência: O candidato possui domínio de ferramentas relevantes para a gestão de produto.",
+      "main_gap": "O perfil não menciona experiência específica em gestão de ferramentas de suporte, que é o foco da vaga. Embora o candidato tenha habilidades relevantes em gestão de produto, falta evidência de conhecimento aprofundado em tools de suporte ao cliente.",
+      "justification": "85 - O candidato possui um perfil sólido em gestão de produto e liderança cross-funcional, com evidências claras de habilidades relevantes. No entanto, a falta de experiência específica em ferramentas de suporte ao cliente é um gap importante que pode impactar seu desempenho nesta vaga. Por esse motivo, não é possível atribuir um score máximo de 95, pois há um risco moderado de não atender plenamente aos requisitos da posição.",
+      "perfect_match": false,
+      "url": "https://www.samsara.com/company/careers/roles/7621277?gh_jid=7621277",
+      "company": "Samsara",
+      "location": "Remote - US",
+      "id": "0ca1b987464610341fc349c4a142446c344b72f0ec4a2012ef087f88f348c839",
+      "file_date": "2026-02-24",
+      "source": "pipeline"
+    },
+    {
+      "title": "Education & Research Program Manager & Evangelist",
+      "score": 85,
+      "evidence": "Requisito: Program management | Evidência: O candidato possui 1 ano de experiência como Technical Program Manager em um programa global de 200+ engenheiros, onde liderou 3 equipes e resolveu 60 vulnerabilidades críticas em 4 semanas.\nRequisito: Experiência em data analysis | Evidência: O candidato possui 1 ano de experiência como Business Analyst na Nubank, analisando dados de crédito com 150K requisições/dia e otimizando pipeline ETL.\nRequisito: Experiência em IA | Evidência: O candidato possui experiência em PoCs de GenAI, integração de LLM e Prompt Engineering, além de ser um GCP GenAI Leader certified.",
+      "main_gap": "A vaga requer um foco principal em engajamento com a comunidade acadêmica e pesquisa, mas o perfil do candidato não tem evidências diretas de experiência prévia neste tipo de atuação. Embora possua skills relevantes, como análise de dados e IA, não está claro se o candidato tem o perfil de evangelista e educador necessário para este cargo.",
+      "justification": "O candidato possui excelente experiência em gestão de programa, análise de dados e IA, o que atende a grande parte dos requisitos técnicos da vaga. No entanto, a principal lacuna é a falta de evidência de experiência prévia em engajamento com a comunidade acadêmica e pesquisa, que é o foco principal desta posição. Por essa razão, não é possível atribuir um score máximo, mas um score de 85 é adequado, pois o candidato possui habilidades relevantes que podem ser adaptadas para este papel, embora precise desenvolver a vertente de evangelismo e educação.",
+      "perfect_match": false,
+      "url": "https://job-boards.greenhouse.io/planetlabs/jobs/7532263",
+      "company": "Planet Labs",
+      "location": "United States, Remote",
+      "id": "ceb327b499c1cb1037761c27b24462799e87e8ef70bce447630afca6cae64389",
+      "file_date": "2026-02-24",
+      "source": "pipeline"
+    },
+    {
+      "title": "Lead Product Manager",
+      "score": 85,
+      "evidence": "Requisito: Ownership de portfólio e estratégia de produto | Evidência: Guilherme tem experiência em definir e liderar estratégia e execução de um portfólio de produtos (como PM/PO no Instituto Atlântico).\nRequisito: Experiência em lançamentos e migrações complexas | Evidência: Guilherme liderou lançamentos e migrações como TPM no Instituto Atlântico.\nRequisito: Domínio em métricas críticas de negócio (pricing, unit economics, desempenho de linha de crédito, crescimento de ativos, churn, retenção) | Evidência: Guilherme possui experiência em análise de dados e otimização de métricas-chave, como visto em seu trabalho como Business Analyst no Nubank.",
+      "main_gap": "O único gap possível neste perfil é a falta de experiência específica em uma fintech ou empresa de serviços financeiros, já que o histórico de Guilherme é mais diversificado. Entretanto, suas habilidades de gestão de produto, liderança de programas e análise de dados são muito relevantes e adaptáveis para essa vaga.",
+      "justification": "O perfil de Guilherme possui evidência direta em praticamente todos os requisitos-chave da vaga de Lead Product Manager na Nubank. Ele demonstra experiência em estratégia e execução de produto, liderança de lançamentos complexos, e domínio em métricas financeiras críticas. Embora sua experiência não seja especificamente em uma fintech, suas habilidades são altamente transferíveis e ele parece estar bem preparado para o cargo. Portanto, atribuo um score de 85, na faixa de 'o candidato tem experiência DIRETA no domínio central da vaga, em contexto similar'.",
+      "perfect_match": true,
+      "url": "https://job-boards.greenhouse.io/nubank/jobs/7061872",
+      "company": "Nubank",
+      "location": "Colombia, Bogota",
+      "id": "80b463cc6533b8c8c7f4b4c6f767db6126c7a46afd0f6506c0e3460f09df3fdb",
+      "file_date": "2026-02-24",
+      "source": "pipeline"
+    },
+    {
+      "title": "Principal Product Manager, Security & Compliance",
+      "score": 85,
+      "evidence": "Requisito: Product strategy, roadmap, backlog prioritization, OKRs | Evidência: Destaque em seu histórico profissional experiência como Product Manager e Technical Program Manager, sendo responsável por roadmaps, backlog e definição de OKRs.\nRequisito: Cross-functional leadership (engenharia, UX, arquitetura, negócios) | Evidência: Experiência em liderança de equipes multifuncionais, com destaque para sua atuação como Technical Program Manager coordenando 3 equipes e 25 engenheiros.\nRequisito: Data analysis: SQL, Python, Spark/Scala, Databricks, ETL | Evidência: Experiência em análise de dados em ambiente de alta escala, como a sua passagem pelo Nubank.",
+      "main_gap": "O principal gap dessa candidatura é a falta de experiência específica em segurança e conformidade de aplicativos, que é o domínio central desta vaga. Embora o candidato tenha um perfil técnico e de liderança forte, não há evidências claras de que ele tenha atuado diretamente nessa área.",
+      "justification": "O candidato possui um perfil sólido em gestão de produtos e programas, com experiência em liderança cruzada e análise de dados, que são habilidades relevantes para esta vaga. No entanto, o principal gap é a falta de experiência comprovada em segurança e conformidade de aplicativos, que é o domínio central da vaga. Portanto, o score é 85, pois o candidato atende à maior parte dos requisitos, com exceção desse elemento crucial.",
+      "perfect_match": false,
+      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8332925002",
+      "company": "GitLab",
+      "location": "Remote, Canada; Remote, US",
+      "id": "d4aad35d3cd30613896e2f9e0953b3456426457b12e630be0a2adb69add343f2",
+      "file_date": "2026-02-24",
+      "source": "pipeline"
+    },
+    {
+      "title": "Senior Product Manager - Developer Platform",
+      "score": 85,
+      "evidence": "Requisito: Product strategy, roadmap, backlog prioritization, OKRs | Evidência: Experiência como Product Manager e TPM com foco em definir estratégia, roadmap e priorização de backlog.",
+      "main_gap": "O principal gap é a falta de experiência direta em construir e gerenciar uma plataforma de desenvolvimento de terceiros (marketplace de integrações). Apesar das habilidades transferíveis, a vaga exige especialização neste domínio específico.",
+      "justification": "O candidato possui experiência relevante em gestão de produto, liderança técnica e análise de dados, o que atende a grande parte dos requisitos da vaga. No entanto, a vaga exige especialização em construir e operar uma plataforma de desenvolvimento de terceiros, o que não está evidenciado no perfil. Dessa forma, o score é 85, pois o candidato atende à maior parte dos requisitos, mas há um gap relevante no core da vaga.",
+      "perfect_match": false,
+      "url": "https://www.samsara.com/company/careers/roles/7455515?gh_jid=7455515",
+      "company": "Samsara",
+      "location": "Remote - Netherlands",
+      "id": "1d46949f5fd59ca39bb885cf8f15a44e7bdc6204542489d58605c77ee2c5d166",
+      "file_date": "2026-02-24",
+      "source": "pipeline"
+    },
+    {
+      "title": "Senior Product Manager - Salesforce Classifieds LATAM",
+      "score": 85,
+      "evidence": "Requisito: Product strategy, roadmap, backlog prioritization, OKRs | Evidência: Liderou a reorganização das equipes de component-oriented para product-oriented, reduziu ciclo de entrega e deploy na experiência anterior como PM/PO.\nRequisito: Cross-functional leadership (engenharia, UX, arquitetura, negócios) | Evidência: Coordenou 3 equipes, 25 engenheiros em programa global de 200+ engenheiros na experiência anterior como TPM.\nRequisito: Data analysis: SQL, Python, Spark/Scala, Databricks, ETL | Evidência: Realizou análise de dados em ambiente de alta escala (Nubank, 150K+ solicitações/dia) na experiência anterior como Analista de Negócios.",
+      "main_gap": "A principal lacuna é a falta de experiência comprovada especificamente com a plataforma Salesforce, que é o core da vaga. O candidato tem experiência em PM/TPM e análise de dados, mas não demonstra domínio da ferramenta Salesforce e do ecossistema de Classifieds.",
+      "justification": "O candidato possui habilidades e experiência relevantes para a vaga de Product Manager, incluindo estratégia de produto, gestão de programa, liderança interfuncional e análise de dados. Sua experiência anterior como PM/PO e TPM demonstra as principais competências exigidas. No entanto, a vaga específica está focada na plataforma Salesforce para o negócio de Classifieds, e o candidato não possui experiência comprovada nesse domínio. Portanto, o score é 85, refletindo que o candidato tem boa correspondência com a maior parte dos requisitos, mas há um gap significativo no core da vaga.",
+      "perfect_match": false,
+      "url": "https://job-boards.greenhouse.io/quintoandar/jobs/4115020009",
+      "company": "QuintoAndar",
+      "location": "Brasil",
+      "id": "f3f97bfe6d1ebb9e53e243ef26708a147ca7338a0c0ac95473617d4ac81472d3",
+      "file_date": "2026-02-24",
+      "source": "pipeline"
+    },
+    {
+      "title": "Technical Program Manager",
+      "score": 85,
+      "evidence": "Requisito: Program management experience | Evidência: Coordenou 3 equipes, 25 engenheiros em programa global de 200+ engenheiros. Resolveu 60 vulnerabilidades críticas em 4 semanas. Construiu ferramentas internas de IA (validação de timesheet: de 40 min → 10 min/semana).\nRequisito: Experiência com releases, roadmap e backlog | Evidência: Reorganizou equipes de component-oriented para product-oriented → reduziu ciclo de entrega de 3 sprints para 1. Reduziu ciclo de deploy de 30 para 15 dias.",
+      "main_gap": "O principal gap é que a vaga é focada no desenvolvimento da Insights Platform, enquanto o perfil não menciona experiência direta com esse tipo de produto/sistema.",
+      "justification": "O candidato possui forte experiência em gestão de programas e projetos, com evidências concretas de liderança cross-funcional, resolução de problemas complexos e entrega de impacto. No entanto, a vaga é específica para o desenvolvimento da Insights Platform da Planet, o que não é um domínio que o candidato tenha experiência direta comprovada. Apesar disso, suas habilidades transferíveis em PM/TPM o qualificam muito bem para a função, recebendo um score alto (85) com o principal risco sendo a falta de experiência no produto/sistema específico.",
+      "perfect_match": false,
+      "url": "https://job-boards.greenhouse.io/planetlabs/jobs/7542179",
+      "company": "Planet Labs",
+      "location": "Europe, Remote",
+      "id": "3a043948b7f8c68832da0c740f6b2f289955e39e8156e98ecab2f0aa15d41e04",
+      "file_date": "2026-02-24",
+      "source": "pipeline"
+    },
+    {
+      "title": "[Annotations] Operations Program Manager",
+      "score": 80,
+      "evidence": "Requisito: Operations, process improvement, cross-functional leadership | Evidência: Guilherme tem experiência como Technical Program Manager em um programa global de 200+ engenheiros, onde liderou equipes e resolveu vulnerabilidades críticas. Ele também tem experiência em análise de dados, que pode ser relevante para a coleta e processamento de dados para robótica.\nRequisito: Analytical, planning, and process improvement capability | Evidência: Guilherme demonstrou habilidades de análise de dados, otimização de pipelines e ferramentas internas de IA durante sua experiência na Nubank.",
+      "main_gap": "Embora Guilherme tenha experiência em gerenciamento de programas e melhoria de processos, a vaga em questão é especificamente focada em operações para criação de dados de treinamento para robótica. Não há evidência clara no perfil de experiência direta nesse tipo de operação.",
+      "justification": "O score de 80 reflete o alinhamento parcial entre o perfil de Guilherme e os requisitos da vaga, especialmente em relação a habilidades de gerenciamento de programas e melhoria de processos. No entanto, a falta de experiência comprovada em operações de criação de dados para robótica é um gap significativo que impede uma pontuação mais alta. Um score de 80 é razoável, pois Guilherme pode se adaptar rapidamente a essa nova área, mas não é um candidato ideal para o cargo.",
+      "perfect_match": false,
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4655240005",
+      "company": "Scale AI",
+      "location": "Mexico City, MX",
+      "id": "7fdcaaa5683f2fa5c0a63bb9aa4ffb5e860024965b25a1cde1d5ea896f2f429e",
+      "file_date": "2026-02-24",
+      "source": "pipeline"
+    },
+    {
+      "title": "Technical Program Manager - Product Operations",
+      "score": 80,
+      "evidence": "Requisito: Program management: PI Planning (SAFe), release management, dependency tracking | Evidência: Coordenou 3 equipes, 25 engenheiros em programa global de 200+ engenheiros. Resolveu 60 vulnerabilidades críticas em 4 semanas.\nRequisito: Cross-functional leadership (engenharia, UX, arquitetura, negócios) | Evidência: Liderou PoC GenAI que contribuiu para novo contrato com cliente.",
+      "main_gap": "A vaga requer especificamente experiência em arquitetura de roadmaps técnicos, governança ágil e implementação de soluções de IA/ML na área jurídica, o que não consta de forma clara no perfil do candidato. Embora possua uma sólida experiência em gestão de programas e projetos, falta a comprovação do domínio desse tipo de trabalho em um contexto jurídico/compliance.",
+      "justification": "O candidato possui ampla experiência em gestão de programas técnicos e liderança transversal, o que o qualifica para uma posição de TPM. No entanto, há uma lacuna significativa no que diz respeito à experiência específica na área jurídica e na implementação de soluções de IA/ML nesse contexto. Isso representa um risco real, embora o candidato possua skills transferíveis. O score reflete esse gap, colocando-o na faixa de 70-84 da rubrica.",
+      "perfect_match": false,
+      "url": "https://job-boards.greenhouse.io/nubank/jobs/7395390",
+      "company": "Nubank",
+      "location": "Brazil, Sao Paulo",
+      "id": "0f3fb218bcc92b37c7e58d52b49b9f231962259526c73561b3dc9f0c1e99c3c8",
+      "file_date": "2026-02-24",
+      "source": "pipeline"
+    },
+    {
+      "title": "Principal Product Manager, AI Control Plane and Guardrails",
+      "score": 80,
+      "evidence": "Requisito: Product strategy, roadmap, backlog prioritization | Evidência: Demonstra experiência em definir estratégia de produto, priorizar roadmap e backlog no perfil.\nRequisito: Cross-functional leadership (engenharia, UX, arquitetura, negócios) | Evidência: Possui experiência em liderança cross-funcional conforme descrito no perfil.",
+      "main_gap": "O principal gap é a falta de experiência específica em construir um AI control plane e guardrails em uma empresa de software, apesar do candidato ter experiência geral em IA. A vaga exige especialização nesse domínio, que o candidato não demonstra no perfil.",
+      "justification": "O candidato possui skills relevantes para a vaga, como experiência em gestão de produto, liderança cross-funcional e análise de dados/IA. No entanto, a vaga exige especialização na construção de um AI control plane e guardrails, que não está presente no perfil do candidato. Portanto, o score fica na faixa de 70-84, refletindo um fit aceitável, mas com risco real.",
+      "perfect_match": false,
+      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8422119002",
+      "company": "GitLab",
+      "location": "Remote, Canada; Remote, France; Remote, Germany; Remote, Ireland; Remote, Netherlands; Remote, Spain; Remote, United Kingdom; Remote, US",
+      "id": "02aed90d09e6f92678bdfb887ee6f75a4f665a0f347c01436e05d27038ee80ad",
+      "file_date": "2026-02-24",
+      "source": "pipeline"
+    },
+    {
+      "title": "Principal Product Manager",
+      "score": 80,
+      "evidence": "Requisito: Product strategy, roadmap, backlog prioritization, OKRs | Evidência: Experiência como PM/PO no Instituto Atlântico, com ações como reorganizar equipes, reduzir ciclo de entrega e deploy, e liderar PoC de GenAI.\nRequisito: Cross-functional leadership (engenharia, UX, arquitetura, negócios) | Evidência: Experiência como TPM no Instituto Atlântico, coordenando 3 equipes, 25 engenheiros em programa global.\nRequisito: Data analysis: SQL, Python, Spark/Scala, Databricks, ETL | Evidência: Experiência como Business Analyst no Nubank, com análise de crédito em alta escala e otimização de pipeline ETL.",
+      "main_gap": "O principal gap é a falta de experiência direta em construir uma plataforma de AI como a descrita na vaga. O perfil demonstra experiência em análise de dados e experimentação com IA, mas não na construção de uma plataforma de AI para ser usada por outras equipes.",
+      "justification": "O candidato possui experiência relevante em product management, liderança interfuncional e análise de dados, atendendo a grande parte dos requisitos da vaga. No entanto, falta a experiência específica em construir uma plataforma de AI, que é o core da vaga. Por isso, o score é 80, na faixa de 70-84, refletindo que o candidato é viável para a vaga, mas com risco real.",
+      "perfect_match": false,
+      "url": "https://www.samsara.com/company/careers/roles/7484052?gh_jid=7484052",
+      "company": "Samsara",
+      "location": "Remote - US",
+      "id": "f1671463ec51850ab9f1f0490519c15cd84238fd0df3ac465c13d4c1af73a898",
+      "file_date": "2026-02-24",
+      "source": "pipeline"
+    },
+    {
+      "title": "Principal Product Manager, AI Video-Based Safety Platform",
+      "score": 80,
+      "evidence": "Requisito: Product strategy, roadmap, backlog prioritization, OKRs | Evidência: Experiência em PM/PO, incluindo construção de roadmap e priorização de backlog.\nRequisito: Data analysis: SQL, Python, Spark/Scala, Databricks, ETL | Evidência: Experiência em análise de dados em ambiente de alta escala (Nubank).\nRequisito: AI: GenAI PoCs, LLM Integration, Prompt Engineering | Evidência: Liderança de PoC GenAI que contribuiu para novo contrato, além de certificação GCP GenAI Leader.",
+      "main_gap": "O principal gap é a falta de experiência direta em desenvolvimento de produtos relacionados a computação visual, aprendizado de máquina e IoT, que são os principais componentes técnicos desta vaga de Product Manager. Embora o candidato tenha conhecimentos relevantes, não há evidência clara de que ele já atuou neste domínio específico.",
+      "justification": "O candidato possui skills e experiência em gestão de produto, análise de dados e IA que são relevantes para esta vaga. No entanto, falta-lhe experiência direta no domínio específico de produtos de visão computacional e aprendizado de máquina aplicados a segurança industrial, que é o foco central desta posição. Por isso, atribuo um score na faixa de 70-84, pois há skills transferíveis, mas um gap no core da vaga.",
+      "perfect_match": false,
+      "url": "https://www.samsara.com/company/careers/roles/7411996?gh_jid=7411996",
+      "company": "Samsara",
+      "location": "Remote - UK",
+      "id": "f5ebf176ff1b7df944423efa2a54a06bc940c324e92b8bedfb70cccb17094c5e",
+      "file_date": "2026-02-24",
+      "source": "pipeline"
+    },
+    {
+      "title": "Senior/Principal Product Manager - Safety AI",
+      "score": 80,
+      "evidence": "Requisito: Technical Product Management | Evidência: Experiência em TPM em programa global de 200+ engenheiros no Instituto Atlântico.\nRequisito: Aplicação de IA/Visão Computacional | Evidência: Liderança de PoC GenAI no Instituto Atlântico que contribuiu para novo contrato com cliente.",
+      "main_gap": "Apesar de ter experiência em PM/PO e aplicação de IA, a vaga requer experiência específica em desenvolvimento de produtos de segurança/segurança operacional utilizando visão computacional e machine learning, que o candidato não demonstra no perfil.",
+      "justification": "O candidato possui skills relevantes de PM/TPM, análise de dados e experiência com IA, chegando a 80 pontos na rubrica. No entanto, a vaga requer expertise específica em produtos de segurança utilizando visão computacional e ML, que o perfil não menciona diretamente. Isso representa um gap central para a função, reduzindo o score para 80. Não há penalizações aplicáveis.",
+      "perfect_match": false,
+      "url": "https://www.samsara.com/company/careers/roles/7266577?gh_jid=7266577",
+      "company": "Samsara",
+      "location": "Remote - US",
+      "id": "dbcfd517b714ba19d7c54560e72f4d83fc3ea21b52c2b0106e4483d199481319",
+      "file_date": "2026-02-24",
+      "source": "pipeline"
+    },
+    {
+      "title": "Sr. Support Tools Product Manager",
+      "score": 80,
+      "evidence": "Requisito: Product strategy, roadmap, backlog prioritization, OKRs | Evidência: Sua experiência como Program & Product Manager, com habilidades em definir estratégia de produto, roadmap e priorização de backlog.\nRequisito: Cross-functional leadership (engenharia, UX, arquitetura, negócios) | Evidência: Sua experiência liderando equipes multifuncionais no Instituto Atlântico.",
+      "main_gap": "O principal gap é a falta de experiência específica em produto de ferramentas de suporte, pois seu background é mais em produtos de negócio. Embora tenha habilidades transferíveis, a vaga requer conhecimento do domínio de ferramentas de suporte, que não está totalmente presente no perfil.",
+      "justification": "O candidato atende a grande parte dos requisitos da vaga, com evidências claras em skills de gestão de produto, liderança e análise de dados. No entanto, há um gap no domínio específico de ferramentas de suporte, que é o core da vaga. Isso resulta em um score na faixa de 70-84, refletindo um bom potencial, mas com um risco real de não ser o melhor fit imediato para a posição.",
+      "perfect_match": false,
+      "url": "https://www.samsara.com/company/careers/roles/7621277?gh_jid=7621277",
+      "company": "Samsara",
+      "location": "Remote - US",
+      "id": "0ca1b987464610341fc349c4a142446c344b72f0ec4a2012ef087f88f348c839",
+      "file_date": "2026-02-24",
+      "source": "pipeline"
+    },
+    {
+      "title": "Technical Program Manager",
+      "score": 80,
+      "evidence": "Requisito: Program management: PI Planning (SAFe), release management, dependency tracking | Evidência: 'Coordenou 3 equipes, 25 engenheiros em programa global de 200+ engenheiros. Resolveu 60 vulnerabilidades críticas em 4 semanas.'\nRequisito: Cross-functional leadership (engenharia, UX, arquitetura, negócios) | Evidência: 'Coordenou 3 equipes, 25 engenheiros em programa global de 200+ engenheiros.'\nRequisito: Ferramentas: Jira, Azure DevOps, Confluence | Evidência: 'Ferramentas: Jira, Azure DevOps, Confluence'",
+      "main_gap": "A vaga é especificamente para um Technical Program Manager que irá gerenciar o desenvolvimento da plataforma de insights da Planet. Embora o candidato tenha experiência como TPM, não há evidência de que ele tenha trabalhado especificamente com plataformas de insights ou em empresas de dados/geoespaciais.",
+      "justification": "O candidato possui os principais requisitos de um TPM, como experiência em gerenciamento de programas complexos, liderança interfuncional e uso de ferramentas de gerenciamento. No entanto, falta evidência de que ele tenha atuado especificamente em empresas de tecnologia espacial ou de plataformas de insights, que é o foco desta vaga. Portanto, o score fica entre 70-84, refletindo um bom ajuste, mas com alguns riscos.",
+      "perfect_match": false,
+      "url": "https://job-boards.greenhouse.io/planetlabs/jobs/7542179",
+      "company": "Planet Labs",
+      "location": "Europe, Remote",
+      "id": "3a043948b7f8c68832da0c740f6b2f289955e39e8156e98ecab2f0aa15d41e04",
+      "file_date": "2026-02-24",
+      "source": "pipeline"
+    },
+    {
+      "title": "Senior Technical Program Manager, Infrastructure",
+      "score": 80,
+      "evidence": "Requisito: Program management skills | Evidência: Coordenou 3 equipes, 25 engenheiros em programa global de 200+ engenheiros. Resolveu 60 vulnerabilidades críticas em 4 semanas. Construiu ferramentas internas de IA (validação de timesheet: de 40 min → 10 min/semana).\nRequisito: Experiência em infraestrutura de larga escala | Evidência: Análise de crédito com 150K requisições/dia na Nubank. Otimizou pipeline ETL eliminando reprocessamento de múltiplos notebooks.",
+      "main_gap": "O candidato não possui experiência direta em infraestrutura de alta escala e migração de tecnologia, que são os requisitos centrais desta vaga. Apesar de ter background em programa global e análise de dados em ambiente de alta escala, a evidência não é específica o suficiente para a função de TPM de infraestrutura.",
+      "justification": "O candidato tem skills transferíveis de TPM, data analysis e experiência em programa global de larga escala. No entanto, a vaga exige uma especialização em infraestrutura de larga escala e migração de tecnologia que não está claramente presente no perfil. Por isso, atribuo um score na faixa de 70-84, pois há um risco real de gap no core da vaga, mesmo com skills gerais adequadas.",
+      "perfect_match": false,
+      "url": "https://job-boards.greenhouse.io/planetlabs/jobs/7555017",
+      "company": "Planet Labs",
+      "location": "United States, Remote",
+      "id": "0191b9f05437b5373aa05ab1c480a47799277e9568323847db0aa55552e196d4",
+      "file_date": "2026-02-24",
+      "source": "pipeline"
+    },
+    {
+      "title": "Sr Product manager, supply chain data products",
+      "score": 75,
+      "evidence": "Requisito: Product Management Experience | Evidência: Possui 5+ anos de experiência em gestão de produtos em SaaS B2B, com histórico de entrega de plataformas de dados e produtos orientados a desenvolvedores.\nRequisito: Expertise em dados, IA e APIs | Evidência: Combina antropologia do cliente com intuição orientada por dados, podendo passar do trabalho em SQL/Python para chamadas com executivos.\nRequisito: Expertise em requisitos de segurança, conformidade e gestão de mudanças de empresas | Evidência: Demonstra facilidade em lidar com requisitos de segurança, conformidade e gerenciamento de mudanças em clientes empresariais.",
+      "main_gap": "O maior gap está na falta de experiência específica em produtos de dados de cadeia de suprimentos, que é o núcleo central da vaga. Embora o candidato tenha experiência relevante em produtos de dados e plataformas, não há evidência de que já atuou neste domínio específico.",
+      "justification": "O candidato possui skills técnicas e de gestão de produto relevantes, com forte evidência em lidar com requisitos de empresas e construir produtos data-driven. No entanto, falta a experiência específica em produtos de dados para cadeia de suprimentos, que é o core da vaga. Por isso, o score ficou na faixa de 70-84, refletindo um bom candidato com um gap no domínio central da função.",
+      "perfect_match": false,
+      "url": "https://jobs.ashbyhq.com/watershed/d110204f-f6a0-4435-a89c-6122898baadc",
+      "company": "Watershed",
+      "location": "Mexico City",
+      "id": "e4961abfcf56c1fa910425ce7e4e67fa5a46042a8bf29d1e1ba3f11cbc104a19",
+      "file_date": "2026-02-24",
+      "source": "pipeline"
+    },
+    {
+      "title": "Senior Product Manager, Plan",
+      "score": 75,
+      "evidence": "Requisito: Program management skills | Evidência: 'Coordenou 3 equipes, 25 engenheiros em programa global de 200+ engenheiros. Resolveu 60 vulnerabilidades críticas em 4 semanas. Construiu ferramentas internas de IA (validação de timesheet: de 40 min → 10 min/semana).'",
+      "main_gap": "A vaga exige expertise específica em planejamento ágil e organização do trabalho em grandes empresas, algo que não está explicitamente evidenciado no perfil do candidato. Embora tenha experiência em gestão de programa, não fica claro se essa expertise se aplica especificamente à área de planejamento.",
+      "justification": "O perfil do candidato apresenta uma forte base em gestão de programas e produtos, com evidências de liderança em iniciativas de grande escala. No entanto, a vaga requer uma especialização específica em planejamento ágil e organização do trabalho em empresas de grande porte, algo que não está claramente demonstrado no perfil. Portanto, o score de 75 reflete que o candidato possui skills relevantes, mas ainda falta um elemento crítico para o core da vaga. Há espaço para o candidato se desenvolver nessa direção, mas a probabilidade de aprovação em uma triagem de recrutadores experientes é moderada.",
+      "perfect_match": false,
+      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8282171002",
+      "company": "GitLab",
+      "location": "Remote, Ireland; Remote, Netherlands; Remote, United Kingdom",
+      "id": "0996bad2afba3c68215fb4fb430261fceaabd73d916342b62d729c58433ca10c",
+      "file_date": "2026-02-24",
+      "source": "pipeline"
+    },
+    {
+      "title": "Staff Product Manager, AI Developer Tools",
+      "score": 75,
+      "evidence": "Requisito: Product strategy, roadmap, backlog prioritization, OKRs | Evidência: Possui experiência como Product Manager, com foco em definir estratégia, roadmap e priorização de backlog.\nRequisito: Cross-functional leadership (engenharia, UX, arquitetura, negócios) | Evidência: Possui experiência em liderança entre diferentes áreas como engenharia, UX e negócios.",
+      "main_gap": "O principal gap é a ausência de experiência comprovada em desenvolvimento de ferramentas AI ou integração de IA em produtos. Embora o candidato tenha mencionado algumas atividades relacionadas a IA, não é possível afirmar que ele possui um domínio profundo nesse aspecto, que é central para essa vaga.",
+      "justification": "O perfil do candidato apresenta skills relevantes para a função de Product Manager, como experiência em definição de estratégia, roadmap e priorização de backlog, além de liderança cross-funcional. No entanto, a vaga requer uma especialização em ferramentas e soluções de IA para desenvolvedores, que não é evidente no histórico do candidato. Portanto, o score é 75, refletindo que o candidato possui skills transferíveis, mas falta a especialização específica exigida pela vaga.",
+      "perfect_match": false,
+      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8422132002",
+      "company": "GitLab",
+      "location": "Remote, Canada; Remote, France; Remote, Germany; Remote, Ireland; Remote, Netherlands; Remote, Spain; Remote, United Kingdom; Remote, US",
+      "id": "f2a7369c09c7e0e573727ed92595dfd74839e9b28a258a42bd90d082f8cc815c",
+      "file_date": "2026-02-24",
+      "source": "pipeline"
+    },
+    {
+      "title": "Business Technology Product Manager",
+      "score": 75,
+      "evidence": "Requisito: Product strategy, roadmap, backlog prioritization, OKRs | Evidência: O candidato tem experiência como PM/PO e TPM, demonstrando habilidades em definir estratégia de produto, criar roadmap e priorizar backlog.\nRequisito: Program management: PI Planning (SAFe), release management, dependency tracking | Evidência: O candidato possui experiência como TPM em um programa global de 200+ engenheiros, o que demonstra habilidades em gerenciar programas, planejamento de lançamentos e acompanhar dependências.\nRequisito: Cross-functional leadership (engenharia, UX, arquitetura, negócios) | Evidência: O candidato menciona ter liderança em equipes multifuncionais, incluindo engenharia, UX e negócios.",
+      "main_gap": "O principal gap desta candidatura é a falta de experiência direta em uma empresa de tecnologia como a Samsara, que atua em setores específicos como agricultura, construção, serviços de campo, transporte e manufatura. Embora o candidato tenha experiência em análise de dados e IA, ele não demonstra familiaridade com os desafios e requisitos de produto nessas indústrias.",
+      "justification": "O candidato possui habilidades relevantes para a vaga, como experiência em gerenciamento de produtos, programas e liderança transversal. No entanto, falta evidência de que ele tenha trabalhado diretamente em uma empresa de tecnologia voltada para operações físicas, como a Samsara. Isso representa um risco moderado, pois o contexto específico da indústria pode ser um gap importante. Por essa razão, o score é 75, na faixa de 'Skills principais presentes, mas falta UM elemento crítico'.",
+      "perfect_match": false,
+      "url": "https://www.samsara.com/company/careers/roles/7593250?gh_jid=7593250",
+      "company": "Samsara",
+      "location": "Remote - Canada",
+      "id": "78a6d3fe742b2ccfbd83fd3f8d0b380e4cfcb563ee02718192590bfa6223f0fe",
+      "file_date": "2026-02-24",
+      "source": "pipeline"
+    },
+    {
+      "title": "Senior Program Manager - Sales Programs (Transformational)",
+      "score": 75,
+      "evidence": "Requisito: Program management | Evidência: Experiência como TPM em programa global com 200+ engenheiros, incluindo gestão de dependências, PI Planning e release management.\nRequisito: Cross-functional leadership | Evidência: Experiência em liderar equipes de engenharia, UX, arquitetura e negócios.",
+      "main_gap": "O principal gap é em relação à experiência específica em gerenciamento de programas de vendas, uma vez que o perfil do candidato não menciona experiência nessa área. Apesar de ter habilidades transferíveis de gestão de programas, a vaga exige especialização em iniciativas transformacionais na área de vendas, que o candidato não demonstra diretamente.",
+      "justification": "O candidato possui experiência sólida em gestão de programas e liderança cross-funcional, o que é relevante para a vaga. No entanto, falta evidência de experiência direta em programas de vendas, especificamente em iniciativas transformacionais, que é o foco central da vaga. Portanto, a pontuação fica na faixa de 70-84, refletindo que o candidato é viável, mas com risco real de não ser o melhor fit para o cargo.",
+      "perfect_match": false,
+      "url": "https://www.samsara.com/company/careers/roles/7536597?gh_jid=7536597",
+      "company": "Samsara",
+      "location": "Remote - Canada",
+      "id": "5d119ae690015e6a696e4545dd81c34f535b91b5ff88609872dbcfede0be24ec",
+      "file_date": "2026-02-24",
+      "source": "pipeline"
+    },
+    {
+      "title": "D&I Program Manager, Professional Services",
+      "score": 75,
+      "evidence": "Requisito: Program management | Evidência: Experiência como TPM coordenando programa global de 200+ engenheiros na Instituto Atlântico.\nRequisito: Cross-functional leadership | Evidência: Experiência em liderança cruzada (engenharia, UX, arquitetura, negócios) descrita no perfil.",
+      "main_gap": "O principal gap é a ausência de experiência prévia em uma empresa de tecnologia espacial ou em programas para clientes governamentais/de defesa. Embora o candidato tenha experiência relevante em gerenciamento de programa e liderança cruzada, o contexto específico desta vaga (Planet, clientes de defesa e inteligência) não está totalmente refletido em seu perfil.",
+      "justification": "O perfil do candidato indica uma boa correspondência com os principais requisitos da vaga, com evidências sólidas em gerenciamento de programa, liderança cruzada e habilidades técnicas. No entanto, a falta de experiência prévia em uma empresa de tecnologia espacial ou em programas para clientes governamentais/de defesa representa um gap relevante. Por isso, atribuo um score de 75, na faixa de 'skills principais presentes, mas falta um elemento crítico'.",
+      "perfect_match": false,
+      "url": "https://job-boards.greenhouse.io/planetlabs/jobs/7439062",
+      "company": "Planet Labs",
+      "location": "Germany, Remote",
+      "id": "678018046e1f9d6d4e54f36bc46e4333a7ecdc6583e7ce84a2d7720da912262a",
+      "file_date": "2026-02-24",
+      "source": "pipeline"
+    },
+    {
+      "title": "Staff Product Manager, Software Supply Chain Security",
+      "score": 70,
+      "evidence": "Requisito: Liderança da estratégia de produto para a oferta de Software Supply Chain Security (SSCS) | Evidência: Guilherme possui experiência em liderar a estratégia de produto e roadmap, como demonstrado em seu papel de Program & Product Manager no Instituto Atlântico.\nRequisito: Definição e evolução da visão do produto SSCS | Evidência: Guilherme tem experiência em definir a visão e roadmap de produto, conforme descrito em sua atuação como PM/PO no Instituto Atlântico.\nRequisito: Colaboração direta com clientes para moldar a oferta de segurança da cadeia de suprimentos | Evidência: Guilherme demonstra habilidades em liderança transversal e interação com stakeholders, incluindo clientes, como parte de seu histórico.",
+      "main_gap": "O principal gap nesta candidatura é a falta de experiência específica em segurança de cadeia de suprimentos de software. Embora Guilherme tenha um perfil forte em gerenciamento de produto e liderança transversal, a vaga exige especialização neste domínio, que não está explicitamente presente em seu histórico.",
+      "justification": "O perfil de Guilherme possui muitas das habilidades e experiências requeridas para a vaga, como liderança de estratégia e roadmap de produto, colaboração transversal e com clientes. No entanto, o principal gap é a falta de evidência direta de experiência em segurança de cadeia de suprimentos de software, que é o domínio central desta posição. Portanto, seu score está na faixa de 70-84, pois ele tem as skills principais, mas falta um elemento crítico no core da vaga.",
+      "perfect_match": false,
+      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8332463002",
+      "company": "GitLab",
+      "location": "Remote, Canada; Remote, Ireland; Remote, Israel; Remote, Netherlands; Remote, United Kingdom; Remote, US",
+      "id": "aa1640b897db6d2663c09fd8f93697e7bc0dc32d9871bc12e00af614948d3982",
+      "file_date": "2026-02-24",
+      "source": "pipeline"
+    },
+    {
+      "title": "Program Manager – Customer Support Transformation",
+      "score": 70,
+      "evidence": "Requisito: Program Management | Evidência: Possui experiência como Technical Program Manager coordenando programa global de 200+ engenheiros, gerenciando releases, dependências e planejamento de PI.\nRequisito: Liderança cross-funcional | Evidência: Liderou equipes de engenharia, UX, arquitetura e negócios em seus projetos anteriores.",
+      "main_gap": "Falta evidência de experiência anterior em projetos de transformação do suporte ao cliente, pois a vaga é específica para essa área de atuação. O candidato possui experiência em gestão de programa, mas não necessariamente no contexto de suporte ao cliente.",
+      "justification": "O candidato possui a maioria das habilidades técnicas e de gerenciamento necessárias para a vaga, como experiência em gestão de programa, liderança cross-funcional e uso de ferramentas relevantes. No entanto, falta evidência de que já atuou em projetos de transformação do suporte ao cliente, que é o foco central desta posição. Portanto, o score fica na faixa de 70-84, refletindo a presença das principais skills, mas com um gap no domínio específico da vaga.",
+      "perfect_match": false,
+      "url": "https://www.samsara.com/company/careers/roles/7383575?gh_jid=7383575",
+      "company": "Samsara",
+      "location": "Remote - Mexico",
+      "id": "fd150d3df1483c8568b7d3a1945f81cffe1e3d69b2a3937059c52decb882f680",
+      "file_date": "2026-02-24",
+      "source": "pipeline"
+    },
+    {
+      "title": "Data Collection Program Manager, Robotics",
+      "score": 70,
+      "evidence": "Requisito: Experience as a strong Operations or Program Manager | Evidência: O candidato possui experiência como Program & Product Manager, com passagens como TPM em programa global de 200+ engenheiros e como Business Analyst em ambiente de alta escala na Nubank.\nRequisito: Experiência coordenando múltiplas frentes de trabalho simultaneamente | Evidência: O candidato coordenou 3 equipes com 25 engenheiros em um programa global de 200+ pessoas.\nRequisito: Mão na massa, resolução de problemas práticos | Evidência: O candidato liderou PoCs de GenAI, construiu ferramentas internas de IA e resolveu 60 vulnerabilidades críticas em 4 semanas.",
+      "main_gap": "O principal gap é a falta de experiência comprovada em hardware, logística e workflows físicos, que são requisitos centrais dessa vaga. O perfil do candidato está mais voltado para gestão de programas e projetos de software/dados, não tendo evidências claras de atuação em ambientes operacionais complexos envolvendo hardwares e logística.",
+      "justification": "O candidato tem skills transferíveis em gestão de programas, resolução de problemas e coordenação de equipes, o que é bastante relevante para essa vaga. No entanto, falta evidência direta de experiência em workflows e operações envolvendo hardwares, rigs e logística física, que são os requisitos centrais da posição. Portanto, o score ficaria na faixa de 70-84, pois o candidato atende a parte das habilidades, mas tem uma lacuna importante no core da vaga.",
+      "perfect_match": false,
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4654893005",
+      "company": "Scale AI",
+      "location": "Mexico City, MX",
+      "id": "0f86ce1764fb16d4d50a02f35a4963e6c3836826dce61cbb0d905181aadcb56d",
+      "file_date": "2026-02-24",
+      "source": "pipeline"
+    },
+    {
+      "title": "AI Ops Program Manager",
+      "score": 70,
+      "evidence": "Requisito: Program management | Evidência: Coordenou 3 equipes, 25 engenheiros em programa global de 200+ engenheiros.\nRequisito: Data analysis | Evidência: Análise de dados em ambiente de alta escala (Nubank, 150K+ solicitações/dia).\nRequisito: AI: GenAI PoCs, LLM Integration, Prompt Engineering | Evidência: Liderou PoC GenAI que contribuiu para novo contrato com cliente.",
+      "main_gap": "O perfil do candidato não demonstra experiência direta em gerenciamento de programas de operações de IA, que é o core da vaga. Ele tem experiência em gerenciamento de programas, análise de dados e IA em contextos diferentes, mas não em um programa específico de operações de IA.",
+      "justification": "O candidato possui skills transferíveis para a vaga, como experiência em gerenciamento de programas, análise de dados e IA. No entanto, ele não demonstra experiência direta no domínio específico de gerenciamento de programas de operações de IA, que é o core da vaga. Portanto, o score está na faixa de 70-84, refletindo que o candidato é viável para a vaga, mas com um risco real devido à falta de experiência no domínio central.",
+      "perfect_match": false,
+      "url": "https://job-boards.greenhouse.io/gympass/jobs/8398951002",
+      "company": "Wellhub",
+      "location": "Brazil (São Paulo - Hybrid)",
+      "id": "0eb6cb22e542ae5f2d3f0f94fd9a6e72a74f4e82f881e9bc3ce36fb5aad1a669",
+      "file_date": "2026-02-24",
+      "source": "pipeline"
+    },
+    {
+      "title": "GTM Program Manager",
+      "score": 70,
+      "evidence": "Requisito: Program Management | Evidência: Experiência como TPM em programa global de 200+ engenheiros no Instituto Atlântico, com habilidades em PI Planning (SAFe), release management e dependency tracking.\nRequisito: Cross-functional Leadership | Evidência: Experiência em coordenar equipes multifuncionais (engenharia, UX, arquitetura, negócios) tanto no Instituto Atlântico quanto no Nubank.\nRequisito: Data Analysis | Evidência: Habilidades em SQL, Python, Spark/Scala, Databricks, ETL, demonstradas no papel de Business Analyst no Nubank.",
+      "main_gap": "O principal gap é a falta de experiência específica em GTM, sistemas de automação e workflows para prospecção de clientes, mensuração de experimentos e pilotos, que são elementos centrais desta vaga. Apesar de ter habilidades transferíveis em product management, program management e análise de dados, o candidato não demonstra experiência direta neste domínio.",
+      "justification": "O candidato possui skills relevantes para a vaga, como program management, cross-functional leadership e análise de dados. No entanto, o principal gap está no domínio específico de GTM, automação e sistemas de prospecção, que são elementos centrais desta função. Portanto, atribuo um score de 70, na faixa de 'Skills principais presentes, mas falta UM elemento crítico'. Apesar de ser uma candidatura viável, existe um risco real de não atender às expectativas da vaga.",
+      "perfect_match": false,
+      "url": "https://job-boards.greenhouse.io/gympass/jobs/8398983002",
+      "company": "Wellhub",
+      "location": "Brazil (São Paulo - Hybrid)",
+      "id": "009c8d1ca4b56214739f046e9c24982fffe41a83e20e70d0bd5946a05fbfdfe4",
+      "file_date": "2026-02-24",
+      "source": "pipeline"
+    }
+  ],
+  "pipeline_runs": [
+    {
+      "date": "2026-02-26",
+      "filtered_at": "2026-02-26T20:19:33.081788",
+      "total_input": 19,
+      "total_passed": 3,
+      "discarded_title": 1,
+      "discarded_blocklist": 0,
+      "discarded_location": 15,
+      "discarded_quality": 0
+    },
+    {
+      "date": "2026-02-27",
+      "filtered_at": "2026-02-27T09:24:44.014563",
+      "total_input": 20,
+      "total_passed": 0,
+      "discarded_title": 6,
+      "discarded_blocklist": 4,
+      "discarded_location": 10,
+      "discarded_quality": 0
+    },
+    {
+      "date": "2026-02-27",
+      "filtered_at": "2026-02-27T16:02:18.511270-03:00",
+      "total_input": 7,
+      "total_passed": 3,
+      "discarded_title": 0,
+      "discarded_blocklist": 0,
+      "discarded_location": 4,
+      "discarded_quality": 0
+    }
+  ]
+}

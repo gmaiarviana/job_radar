@@ -1390,5 +1390,125 @@
     "source": "greenhouse",
     "title": "Senior Localisation Program Manager, Product (12 month FTC)",
     "company": "Klaviyo"
+  },
+  "9e6ad70fa2fee8c62f73bd80826de6f90c3d42c8de437c15a2a0893279b052e9": {
+    "first_seen": "2026-03-03",
+    "source": "openai_web_search",
+    "title": "Senior Software Product Manager",
+    "company": "Atlas"
+  },
+  "8f309418c58bb33979f796da1025a5c53a3499e5fe936df474f51d23ab14ad31": {
+    "first_seen": "2026-03-03",
+    "source": "jobicy",
+    "title": "Product Manager (Early Careers Programme) (m/f/d)",
+    "company": "Booksy"
+  },
+  "e18337e25a0669dc002025716ce4186306d055b627b38410f8b1096a6e66fee8": {
+    "first_seen": "2026-03-03",
+    "source": "jobicy",
+    "title": "Senior Mobile Product Manager",
+    "company": "Leadtech"
+  },
+  "90863c98eec9f2fcdfaccac1a4c125415b09ddaa287b3a290048d45f0da51716": {
+    "first_seen": "2026-03-03",
+    "source": "jobicy",
+    "title": "Project Specialist",
+    "company": "ICON plc"
+  },
+  "2b689cae6b258b71a564fa5f74b0191a6d96d0d0e4c9b81b6a3eee9041d69564": {
+    "first_seen": "2026-03-03",
+    "source": "jobicy",
+    "title": "Data Quality Manager",
+    "company": "NECSWS"
+  },
+  "d920d884041556872f3fe8964781f891da56a5030aad7a207d6338eac88dfdf0": {
+    "first_seen": "2026-03-03",
+    "source": "greenhouse",
+    "title": "Commercial Solutions Program Manager",
+    "company": "Stripe"
+  },
+  "a7ef61be1541768ae15369141006777079774275c2f88ee8ebf512c4d0096a84": {
+    "first_seen": "2026-03-03",
+    "source": "greenhouse",
+    "title": "Credit Risk Program Manager, Risk Foundations",
+    "company": "Stripe"
+  },
+  "126948b12dbad3c96189515f82001fba03741a6a630276cb4332d37354fc5cdc": {
+    "first_seen": "2026-03-03",
+    "source": "greenhouse",
+    "title": "Engineering Program Manager, Operations",
+    "company": "Stripe"
+  },
+  "e752460322709a9ec85e4baf3699ab6c6afba46d2bdd38687597f4963013ff20": {
+    "first_seen": "2026-03-03",
+    "source": "greenhouse",
+    "title": "FinCRO PMO, Program Manager",
+    "company": "Stripe"
+  },
+  "677f893dc11041a14ff7bb9bbcf5d6eaadc20430a4bbe10c7abbc21368ebd39d": {
+    "first_seen": "2026-03-03",
+    "source": "greenhouse",
+    "title": "Manager, Risk Operations Technical Programs",
+    "company": "Stripe"
+  },
+  "996690a4e2752603eb24b8eabee9f9b24baf99beeaf7685bde92879ba1553721": {
+    "first_seen": "2026-03-03",
+    "source": "greenhouse",
+    "title": "Market Intelligence Program Manager",
+    "company": "Stripe"
+  },
+  "16509e16b658f70e8cbc118fc33543e0de4c64e5cba3a181181760f7268bf0b0": {
+    "first_seen": "2026-03-03",
+    "source": "greenhouse",
+    "title": "Product Manager, AMER Cards",
+    "company": "Stripe"
+  },
+  "3cadbd6175ba415ff4bd1cb158d60487f6f6aeb530689146d23fbdc2496b3ea2": {
+    "first_seen": "2026-03-03",
+    "source": "greenhouse",
+    "title": "Product Manager, Banking as a Service",
+    "company": "Stripe"
+  },
+  "3906132bda6e6cebc146321c7bdd416261ee9de9f81f75c98283f0623e3cf87c": {
+    "first_seen": "2026-03-03",
+    "source": "greenhouse",
+    "title": "Product Manager, Bridge",
+    "company": "Stripe"
+  },
+  "1fbd53b31de594de6c9c3c4619eec1275fa89e3a92db3b149e53eb96f9de43d9": {
+    "first_seen": "2026-03-03",
+    "source": "greenhouse",
+    "title": "Product Manager, Card Costs and Settlement",
+    "company": "Stripe"
+  },
+  "d3c4a6bf7c3046f9e1430456c87851ed22ee59c0fbda96d7a9d62fa81e456275": {
+    "first_seen": "2026-03-03",
+    "source": "greenhouse",
+    "title": "Product Manager, Cards Pricing",
+    "company": "Stripe"
+  },
+  "0da87b672e47f36a8dd4f356ba9a9eeaefdcf5f78f3aa5b5d86000b983f307e7": {
+    "first_seen": "2026-03-03",
+    "source": "greenhouse",
+    "title": "Product Manager, Cards Vault",
+    "company": "Stripe"
+  },
+  "0eba0d9142f9fbb14d20a1373ebb1fe590fce1cc01d009a90c5a993220016273": {
+    "first_seen": "2026-03-03",
+    "source": "greenhouse",
+    "title": "Product Manager, Commerce Systems",
+    "company": "Stripe"
+  },
+  "57d06e5af02aead39958ce68f7735961d26708aaa65eab04aff79af90dea9089": {
+    "first_seen": "2026-03-03",
+    "source": "greenhouse",
+    "title": "Product Manager, Compliance Platform",
+    "company": "Stripe"
+  },
+  "2a3cec6ad03eaf949e8d9cc52d52618cf9202e48977c5681e21c10c57d392ff2": {
+    "first_seen": "2026-03-03",
+    "source": "greenhouse",
+    "title": "Product Manager, Finance Systems",
+    "company": "Stripe"
   }
 }

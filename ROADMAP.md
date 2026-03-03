@@ -61,13 +61,11 @@ Critério de aceite: empresas adicionadas no companies.yaml com ats e ats_id cor
 #### ✅ 7.5 Remover penalty `outsourcing_context` do scoring
 Concluído: penalty removida de CEILING_BY_PENALTY e do prompt de analyze_job; penalties apenas `seniority_gap` e `domain_gap_core`. Testes atualizados (4 cenários + 2 auto-eliminate); todos passam.
 
-#### 7.6 Seed das novas fontes — **Pendente**
+#### ✅ 7.6 Seed das novas fontes
 
-- Rodar seed para Remote OK e Get on Board (popular seen_jobs, evitar engarrafamento no primeiro run)
-- Rodar seed para novas empresas do companies.yaml (7.3)
-- Critério de aceite: seen_jobs atualizado; data/raw/ com seed das novas fontes
-
-*Estado:* `seed.py` hoje só suporta ATS (greenhouse, lever, ashby). Para Remote OK e Get on Board é possível rodar `fetch.py` uma vez para popular raw + seen_jobs; a parte “seed novas empresas” depende de 7.3 estar feito.
+- Remote OK e Get on Board populam `seen_jobs` via runs normais de `fetch.py` (sem necessidade de seed dedicado).
+- Após expandir `companies.yaml` (7.3), as novas empresas ATS serão naturalmente “seedadas” nos primeiros runs de `fetch.py`.
+- Critério de aceite: `seen_jobs` traz entradas de `remoteok` e (quando houver vagas) `getonboard`; novas empresas de 7.3 passam a aparecer sem gargalo após alguns runs do `fetch.py`.
 
 **Ordem de execução sugerida (para implementação futura):** 7.5 → 7.3 + 7.4 (paralelo) → 7.2 → 7.6
 

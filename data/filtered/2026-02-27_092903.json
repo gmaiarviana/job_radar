@@ -1,0 +1,13 @@
+{
+  "filtered_at": "2026-02-27T09:24:44.014563",
+  "source_file": "2026-02-27_092903.json",
+  "summary": {
+    "total_input": 20,
+    "discarded_title": 6,
+    "discarded_blocklist": 4,
+    "discarded_location": 10,
+    "discarded_quality": 0,
+    "total_passed": 0
+  },
+  "jobs": []
+}

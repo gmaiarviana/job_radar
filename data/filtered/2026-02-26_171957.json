@@ -1,0 +1,53 @@
+{
+  "filtered_at": "2026-02-26T20:19:33.081788",
+  "source_file": "2026-02-26_171957.json",
+  "summary": {
+    "total_input": 19,
+    "discarded_title": 1,
+    "discarded_blocklist": 0,
+    "discarded_location": 15,
+    "discarded_quality": 0,
+    "total_passed": 3
+  },
+  "jobs": [
+    {
+      "id_hash": "6960571f9c3782591fc975e26f67fdfe53c4e6c90f4767e64bce85065367e250",
+      "id": "6960571f9c3782591fc975e26f67fdfe53c4e6c90f4767e64bce85065367e250",
+      "source": "openai_web_search",
+      "title": "Senior Product Manager – HR Tech / Recruiting",
+      "company": "Strider",
+      "location": "100% remoto (empresa dos EUA) - candidatos baseados no Brasil, Argentina, Paraguai, Colômbia ou México",
+      "salary": null,
+      "jd_full": "Profissional com mais de 7 anos de experiência em Product Management, obrigatoriamente com vivência em startups e histórico de entrega de produtos com alto impacto e forte orientação ao usuário. Deve ter capacidade de analisar comportamento, conduzir pesquisas, transformar dados em decisões e priorizar iniciativas em ambientes acelerados. Comunicação clara em inglês é essencial. Experiência prévia no universo de recrutamento é um diferencial significativo. Responsabilidades: Definir e conduzir o roadmap de produtos voltados para job seekers e recruiters, coletar insights por meio de entrevistas, métricas e feedback, transformar fluxos de contratação em requisitos e documentações (PRDs, user stories), colaborar com design e engenharia para garantir entregas no prazo e dentro do escopo, rodar experimentos, analisar resultados, iterar rapidamente, coordenar lançamentos e comunicar prioridades, trade-offs e status para stakeholders e liderança.",
+      "url": "https://www.strider.com.br/carreiras/senior-product-manager-hr-tech-recruiting",
+      "collected_at": "2026-02-26T20:20:08.487513+00:00",
+      "date": "2 dias atrás"
+    },
+    {
+      "id_hash": "f80bf7d9a60445318945f96feb14439d96630c3e7de526213bd211951527b15d",
+      "id": "f80bf7d9a60445318945f96feb14439d96630c3e7de526213bd211951527b15d",
+      "source": "openai_web_search",
+      "title": "Senior Product Manager B2B – HR Tech / Recruiting",
+      "company": "Strider",
+      "location": "100% remoto (empresa dos EUA) - candidatos baseados no Brasil, Argentina, Paraguai, Colômbia ou México",
+      "salary": null,
+      "jd_full": "Profissional com mais de 7 anos de experiência em Product Management, com atuação comprovada em produtos B2B e vivência em startups. Deve ter histórico de entrega de experiências de produto simples, eficientes e de alto impacto, além de forte capacidade analítica para interpretar comportamento de usuários, realizar pesquisas e apoiar decisões baseadas em dados. Inglês avançado é indispensável. Responsabilidades: Definir e conduzir o roadmap de produtos voltados para empregadores, realizar pesquisas com usuários, análise de métricas e coleta de feedback para transformar necessidades reais em requisitos claros, PRDs, user stories e critérios de aceitação, trabalhar junto a design e engenharia para garantir entregas dentro do prazo e do escopo, conduzir experimentos, interpretar resultados, iterar rapidamente, coordenar lançamentos e comunicar trade-offs e status para stakeholders e liderança.",
+      "url": "https://www.strider.com.br/carreiras/senior-product-manager-b2b-hr-tech-recruiting",
+      "collected_at": "2026-02-26T20:20:08.487536+00:00",
+      "date": "2 dias atrás"
+    },
+    {
+      "id_hash": "61947f361398ba65814405a01bb7e773ab371aa94d3d5a4c83a920d2c2beca7a",
+      "id": "61947f361398ba65814405a01bb7e773ab371aa94d3d5a4c83a920d2c2beca7a",
+      "source": "openai_web_search",
+      "title": "Product Manager AI & Automation",
+      "company": "The Adecco Group",
+      "location": "Remote",
+      "salary": null,
+      "jd_full": "Experiência comprovada como Product Manager ou Product Owner entregando produtos digitais, AI, automação ou produtos orientados por tecnologia. Experiência demonstrada em parceria com fornecedores externos, equipes de desenvolvimento ou parceiros de tecnologia. Background em soluções AI/ML, tecnologias de automação, plataformas de fluxo de trabalho ou tecnologia de RH/trabalho preferido. Forte experiência trabalhando em ambientes de desenvolvimento ágil e iterativo. Experiência em soluções de força de trabalho, MSP/RPO, tecnologia de RH ou indústrias relacionadas é um ativo. Responsabilidades: Liderar o design, entrega e gerenciamento do ciclo de vida de produtos e capacidades focados em AI e automação em Pontoon e seus programas de clientes, colaborar com fornecedores de tecnologia externos, equipes de desenvolvimento e stakeholders internos para construir soluções escaláveis e de alto valor que melhorem a eficiência, aprimorem a experiência do cliente e do talento, e desbloqueiem a excelência operacional, preparar documentação, demonstrações, casos de negócios e avaliações de valor, monitorar tendências de mercado e competitivas para informar a estratégia de produto e decisões de investimento, participar de projetos especiais e realizar outras tarefas conforme designado.",
+      "url": "https://careers.adeccogroup.com/pt-pt/vaga/verenigde-staten/product-manager-ai-and-automation/37746/91844000240",
+      "collected_at": "2026-02-26T20:20:08.487545+00:00",
+      "date": "3 dias atrás"
+    }
+  ]
+}
