@@ -18,7 +18,7 @@ graph TD
     B4 -->|filtered JSON| C[score.py Stage 1 - Eliminatórios]
     C -->|surviving jobs| D[score.py Stage 2 - Deep Score]
     D -->|scored JSON| E[git commit/push]
-    E -->|docs/api/jobs.json| J[GitHub Pages - Dashboard]
+    E -->|data/jobs.json → docs/data/| J[GitHub Pages - Dashboard]
 
     F[Streamlit - Local] -->|git pull| E
     E -->|Visualiza| F[app.py]
@@ -38,7 +38,7 @@ graph TD
 | **Interface** | `app.py` | Streamlit | Duas abas: **Vagas** (tabela unificada de `data/scored/`: pipeline + manual_*.json; filtro por data; cards com score, veredito APLICAR/AVALIAR/PULAR, fonte, salário quando existir, link; expand com análise completa) e **Busca Manual** (links de `config/manual_searches.yaml` + paste-and-score: normalize_job → analyze_job → compute_ceiling → score_with_analysis; salva em `data/scored/manual_YYYY-MM-DD_HHMMSS.json` com hora local no nome e UTC em scored_at; atualiza `seen_jobs.json`). Depende de `src/score.py`, `src/job_schema.py`, `src/seen_jobs.py`, `src/paths.py`. Revisão, feedback e acionamento de geração. |
 | **Writer** | `src/generate.py`| Claude Sonnet | Redação de alta qualidade para CV e Cover Letter. |
 | **Notifier** | `src/notify.py` | SMTP | Alertas imediatos para `PERFECT_MATCH` (score > 95). |
-| **Frontend Data** | `src/build_frontend_data.py` | — | Consolida `data/scored/` em `docs/api/jobs.json` para GitHub Pages. Filtra últimos 14 dias, ordena por data e score. Roda no pipeline diário (Actions) e como CLI. |
+| **Frontend Data** | `src/build_frontend_data.py` | — | Consolida `data/scored/` em `data/jobs.json`. O workflow copia para `docs/data/jobs.json` para o GitHub Pages servir. Filtra últimos 14 dias, ordena por data e score. Roda no pipeline diário (Actions) e como CLI. |
 | **Eval** | `src/eval/build_gabarito.py`, `eval_eliminatorios.py`, `test_scoring.py`, `validate_scoring_pipeline.py` | — | Infraestrutura de avaliação: gabarito machine-readable, eval parametrizado por modelo; testes de scoring (compute_ceiling); validação do pipeline de 2 chamadas no seed (5.1.5) via `--seed <path>`. |
 
 ### Decisões Técnicas (Rationale)
@@ -76,7 +76,7 @@ job-radar/
 │   │   ├── lever.py            # Lever Postings API (Épico 3.3; companies.yaml ats=lever)
 │   │   ├── ashby.py            # Ashby Job Board API (Épico 3.4; companies.yaml ats=ashby; POST)
 │   │   └── openai_search.py    # OpenAI gpt-4o-mini web search
-│   ├── build_frontend_data.py   # Consolida scored → docs/api/jobs.json (GitHub Pages)
+│   ├── build_frontend_data.py   # Consolida scored → data/jobs.json (workflow copia para docs/data/)
 │   ├── filter.py                # Hard filters (location + quality); raw → filtered
 │   ├── score.py                 # Scoring via Claude Haiku (lê filtered)
 │   ├── generate.py              # Writer via Claude Sonnet
@@ -94,15 +94,16 @@ job-radar/
 │   └── manual_searches.yaml     # Links de busca manual (UI: aba Busca Manual)
 ├── data/
 │   ├── seen_jobs.json           # Dedup persistente (id_hash → first_seen, source, title, company); commitado pelo Actions
+│   ├── jobs.json                # Consolidado para frontend (build_frontend_data.py); workflow copia para docs/data/
 │   ├── raw/                     # JSONs brutos (YYYY-MM-DD_HHMMSS.json); inclui "coverage" com métricas por etapa
 │   ├── filtered/                 # JSONs após hard filters (mesmo nome do raw); .gitignore
 │   ├── scored/                  # JSONs pontuados (YYYY-MM-DD_HHMMSS.json = data/hora da execução; lote em source_file)
 │   ├── feedback/                # Feedback 👍/👎 (local)
 │   └── output/                  # PDFs gerados
 ├── docs/
-│   ├── index.html               # Dashboard GitHub Pages (HTML+CSS+JS inline)
-│   └── api/
-│       └── jobs.json            # Dados consolidados para o frontend (gerado por build_frontend_data.py)
+│   ├── index.html               # Dashboard GitHub Pages (HTML+CSS+JS inline; fetch em data/jobs.json)
+│   └── data/
+│       └── jobs.json            # Cópia de data/jobs.json para o Pages servir (gerada no workflow)
 └── .github/workflows/
     └── daily.yml                # Pipeline de automação (Cron)
 ```
@@ -112,7 +113,7 @@ job-radar/
 - **Linguagem**: Python 3.11+
 - **APIs**: OpenAI (Search Preview), Remotive (pública, sem key), We Work Remotely (RSS público), Anthropic (Claude).
 - **Ambiente**: Produção simulada via GitHub Actions; Consumo via Streamlit local. Usar **venv** para desenvolvimento e validação (`python -m venv .venv` ou `venv`).
-- **GitHub Pages**: Dashboard read-only em `docs/` (source: branch `main`, pasta `/docs/`). `build_frontend_data.py` gera `docs/api/jobs.json` no pipeline diário; `docs/index.html` consome o JSON via fetch relativo.
+- **GitHub Pages**: Dashboard read-only em `docs/` (source: branch `main`, pasta `/docs/`). `build_frontend_data.py` gera `data/jobs.json`; o workflow copia para `docs/data/jobs.json`; `docs/index.html` consome via fetch em `data/jobs.json`.
 - **Segurança**: Chaves de API via `.env` (local) e Secrets (GitHub).
 
 ---

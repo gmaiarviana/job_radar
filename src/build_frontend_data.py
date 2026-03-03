@@ -1,5 +1,6 @@
 """
-build_frontend_data.py — Consolida data/scored/ em docs/api/jobs.json para GitHub Pages.
+build_frontend_data.py — Consolida data/scored/ em data/jobs.json para o pipeline.
+O workflow copia data/jobs.json → docs/data/jobs.json para o GitHub Pages servir.
 
 Épico 8.1 | CLI: python src/build_frontend_data.py
 
@@ -22,7 +23,7 @@ if __name__ == "__main__":
 
 from src.paths import SCORED_DIR
 
-OUTPUT_DIR = Path("docs/api")
+OUTPUT_DIR = Path("data")
 OUTPUT_FILE = OUTPUT_DIR / "jobs.json"
 DAYS_WINDOW = 14
 

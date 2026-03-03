@@ -403,7 +403,7 @@
   }
 
   function init() {
-    fetch("api/jobs.json")
+    fetch("data/jobs.json")
       .then(function(res) {
         if (!res.ok) throw new Error("HTTP " + res.status);
         return res.json();

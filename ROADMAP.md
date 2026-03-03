@@ -18,7 +18,7 @@
 
 **Épico 7.4 — Renomear LinkedIn → Busca Manual:** config renomeado para `manual_searches.yaml`; aba "Busca Manual", subtítulo "Links de busca" e docs atualizados.
 
-**Épico 8 — Deploy Online (GitHub Pages):** Dashboard read-only em GitHub Pages; `build_frontend_data.py` consolida scored em `docs/api/jobs.json`; step no Actions gera e commita automaticamente.
+**Épico 8 — Deploy Online (GitHub Pages):** Dashboard read-only em GitHub Pages; `build_frontend_data.py` consolida scored em `data/jobs.json`; o workflow copia para `docs/data/jobs.json` para o Pages servir; step no Actions gera e commita automaticamente.
 
 **Infra — GitHub Pages (Hello World):** landing page mínima movida para `docs/index.html` para servir na URL raiz via GitHub Pages (source: branch `main`, pasta `/docs/`).
 
@@ -41,7 +41,7 @@ Habilitado. OPENAI_API_KEY configurada nos secrets do Actions. Coletor já roda 
 
 **Concluído:** Remote OK (`src/collectors/remoteok.py`) e Get on Board (`src/collectors/getonboard.py`) integrados em fetch.py. Remote OK: API pública, filtro por título/cargo (TITLE_KEYWORDS globais para PM/TPM e afins), janela de 7 dias, atribuição "Source: Remote OK" nos logs. Get on Board: API search jobs (query=product manager, remote=true), filtro por título PM/TPM (keywords centralizadas incluindo LATAM), janela de 7 dias, paginação até 5 páginas, foco LATAM.
 
-#### 7.3 Expandir companies.yaml
+#### 7.3 Expandir companies.yaml — **Pendente**
 
 Adicionar empresas validadas como remote-first com ATS suportado:
 - Zapier (Greenhouse) — SaaS workflow automation, remote worldwide
@@ -51,7 +51,8 @@ Adicionar empresas validadas como remote-first com ATS suportado:
 - Loadsmart (Greenhouse) — Logistics SaaS, TPM LATAM explícito
 - Deel (Ashby) — Remote-first por definição; slug anterior deu 404 como Greenhouse, pesquisa indica Ashby
 
-Critério de aceite: empresas adicionadas no companies.yaml com ats e ats_id corretos; seed valida que pelo menos 4 de 6 retornam vagas (slug OK).
+Critério de aceite: empresas adicionadas no companies.yaml com ats e ats_id corretos; seed valida que pelo menos 4 de 6 retornam vagas (slug OK).  
+*Estado:* Nenhuma das seis empresas acima está ativa em `config/companies.yaml` (Deel está comentada por 404).
 
 #### ✅ 7.4 Revisar buscas manuais e renomear LinkedIn → Busca Manual
 
@@ -60,11 +61,13 @@ Critério de aceite: empresas adicionadas no companies.yaml com ats e ats_id cor
 #### ✅ 7.5 Remover penalty `outsourcing_context` do scoring
 Concluído: penalty removida de CEILING_BY_PENALTY e do prompt de analyze_job; penalties apenas `seniority_gap` e `domain_gap_core`. Testes atualizados (4 cenários + 2 auto-eliminate); todos passam.
 
-#### 7.6 Seed das novas fontes
+#### 7.6 Seed das novas fontes — **Pendente**
 
 - Rodar seed para Remote OK e Get on Board (popular seen_jobs, evitar engarrafamento no primeiro run)
 - Rodar seed para novas empresas do companies.yaml (7.3)
 - Critério de aceite: seen_jobs atualizado; data/raw/ com seed das novas fontes
+
+*Estado:* `seed.py` hoje só suporta ATS (greenhouse, lever, ashby). Para Remote OK e Get on Board é possível rodar `fetch.py` uma vez para popular raw + seen_jobs; a parte “seed novas empresas” depende de 7.3 estar feito.
 
 **Ordem de execução sugerida (para implementação futura):** 7.5 → 7.3 + 7.4 (paralelo) → 7.2 → 7.6
 
@@ -72,7 +75,7 @@ Concluído: penalty removida de CEILING_BY_PENALTY e do prompt de analyze_job; p
 
 ### ✅ ÉPICO 8: Deploy Online (GitHub Pages)
 
-**Concluído:** Dashboard read-only via GitHub Pages. `src/build_frontend_data.py` consolida `data/scored/` em `docs/api/jobs.json` (últimos 14 dias). `docs/index.html` renderiza cards com score, veredito, filtro por data e detalhes expandíveis. Pipeline diário (Actions) gera o JSON automaticamente e commita.
+**Concluído:** Dashboard read-only via GitHub Pages. `src/build_frontend_data.py` consolida `data/scored/` em `data/jobs.json` (últimos 14 dias); o workflow copia para `docs/data/jobs.json` para o Pages. `docs/index.html` renderiza cards com score, veredito, filtro por data e detalhes expandíveis. Pipeline diário (Actions) gera o JSON automaticamente e commita.
 
 ---
 
@@ -82,7 +85,7 @@ Concluído: penalty removida de CEILING_BY_PENALTY e do prompt de analyze_job; p
 
 **Dependência:** Épico 6 concluído.
 
-**Critério de aceite:** Cards com hierarquia visual limpa; ceiling removido da UI; botões de cópia funcionais (JD + relatório); botão "Avaliar outra" funcional na aba LinkedIn.
+**Critério de aceite:** Cards com hierarquia visual limpa; ceiling removido da UI; botões de cópia funcionais (JD + relatório); botão "Avaliar outra" funcional na aba Busca Manual.
 
 #### 9.1 Redesign da seção de detalhes
 
@@ -94,9 +97,9 @@ Concluído: penalty removida de CEILING_BY_PENALTY e do prompt de analyze_job; p
 
 - Botão "Copiar JD" no detalhe expandido: copia `jd_full` como markdown para clipboard
 - Botão "Copiar Relatório" no detalhe expandido: copia score + justificativa + main_gap + requisitos + seniority formatados em markdown
-- Funcional tanto na aba Vagas quanto na aba LinkedIn (resultado do paste-and-score)
+- Funcional tanto na aba Vagas quanto na aba Busca Manual (resultado do paste-and-score)
 
-#### 9.3 Botão "Avaliar outra vaga" na aba LinkedIn
+#### 9.3 Botão "Avaliar outra vaga" na aba Busca Manual
 
 - Após scoring manual exibir resultado + botão "Avaliar outra vaga"
 - Ao clicar: limpar formulário e resultado, pronto para nova entrada
@@ -216,4 +219,5 @@ Backlog, itens postergados e ideias futuras → [docs/governance/backlog.md](doc
 
 ---
 
-**Última atualização:** Mar 2026
+**Última atualização:** Mar 2026  
+**Revisão (estado do código):** Conferido em Mar 2026. Concluídos conforme seção ✅; Épicos 9 (UI polish), 10 (GitHub API), 11 (feedback/histórico), 12 (retry/tratamento de falhas), 13 (generate.py completo) e 14 ainda não implementados. `generate.py` segue stub; `github_api.py` não existe.

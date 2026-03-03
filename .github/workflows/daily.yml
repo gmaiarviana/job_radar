@@ -52,11 +52,14 @@ jobs:
       - name: Build frontend data
         run: python src/build_frontend_data.py
 
+      - name: Copy jobs.json to docs for GitHub Pages
+        run: mkdir -p docs/data && cp data/jobs.json docs/data/jobs.json
+
       - name: Commit results
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/raw/ data/scored/ data/seen_jobs.json docs/api/
+          git add data/raw/ data/scored/ data/seen_jobs.json data/jobs.json docs/data/
           git diff --cached --quiet || git commit -m "chore: vagas $(date +%Y-%m-%d)"
           git pull --rebase
           git push
