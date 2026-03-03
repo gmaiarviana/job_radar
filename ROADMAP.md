@@ -22,6 +22,8 @@
 
 **Infra — GitHub Pages (Hello World):** landing page mínima movida para `docs/index.html` para servir na URL raiz via GitHub Pages (source: branch `main`, pasta `/docs/`).
 
+**Infra — Streamlit Cloud:** Compatibilidade do app.py com deploy em Streamlit Cloud (bridge st.secrets → os.environ, persistência graceful em filesystem efêmero, `.streamlit/config.toml`).
+
 ---
 
 ## 📍 Próximos Épicos
@@ -105,30 +107,27 @@ Concluído: penalty removida de CEILING_BY_PENALTY e do prompt de analyze_job; p
 
 ---
 
-### ÉPICO 10: Persistência Online (GitHub API)
+### ÉPICO 10: Persistência Online (GitHub API via Streamlit Cloud)
 
-**Objetivo:** Habilitar escrita a partir do dashboard online — paste-and-score e feedback persistem no repo via GitHub Contents API, sem necessidade de acesso local.
+**Objetivo:** Habilitar escrita a partir do Streamlit Cloud — paste-and-score persiste no repo via GitHub Contents API, eliminando a necessidade de acesso local para avaliar vagas.
 
-**Dependência:** Épico 8 (dashboard read-only) concluído. Épico 9 (UI polish) recomendado mas não bloqueante.
+**Dependência:** Streamlit Cloud funcional (infra concluída). Épico 9 recomendado mas não bloqueante.
 
-**Critério de aceite:** Paste-and-score no dashboard online grava `manual_*.json` no repo via GitHub API. Vagas manuais aparecem na listagem após refresh.
+**Critério de aceite:** Paste-and-score no Streamlit Cloud grava `manual_*.json` no repo via GitHub API. Vagas manuais aparecem na listagem da aba Vagas e no GitHub Pages após o próximo build.
 
 #### 10.1 Camada de escrita GitHub API
+- Módulo `src/github_api.py`: commit de arquivo via GitHub Contents API (PUT)
+- Token via secrets (`GITHUB_TOKEN`)
 
-- Função utilitária em `src/github_api.py`: commit de arquivo via GitHub Contents API (PUT)
-- Token via env/secrets (`GITHUB_TOKEN`)
-
-#### 10.2 Integrar persistência no dashboard
-
-- Após scoring manual, commitar `manual_*.json` via `github_api.py`
-- Fallback gracioso se token ausente (funciona read-only)
+#### 10.2 Integrar persistência no Streamlit Cloud
+- Após scoring manual em `app.py`, commitar `manual_*.json` via `github_api.py`
+- Atualizar `seen_jobs.json` no repo via mesma API
+- Fallback gracioso se token ausente (funciona read-only, como hoje)
 
 #### 10.3 Atualizar `build_frontend_data.py`
-
-- Incluir `manual_*.json` commitados via API no consolidado
+- Incluir `manual_*.json` commitados via API no consolidado (já funciona; validar)
 
 #### 10.4 Documentação
-
 - ARCHITECTURE: `github_api.py` na tabela de componentes
 - README: variáveis de ambiente (`GITHUB_TOKEN`)
 

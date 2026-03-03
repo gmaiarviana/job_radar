@@ -20,6 +20,14 @@ import yaml
 from anthropic import Anthropic
 from dotenv import load_dotenv
 
+# Bridge: Streamlit Cloud secrets → os.environ (para Anthropic client e outros)
+try:
+    for key in ("ANTHROPIC_API_KEY", "OPENAI_API_KEY"):
+        if key in st.secrets:
+            os.environ[key] = st.secrets[key]
+except Exception:
+    pass
+
 load_dotenv()
 
 from src.job_schema import normalize_job
@@ -374,35 +382,35 @@ def _render_linkedin():
     _render_job_result_detail(result)
 
     # Persistência: manual_*.json + seen_jobs (nome do arquivo com hora local para consistência com pipeline)
-    ensure_dirs()
-    now_local = datetime.now()
-    ts = now_local.strftime("%Y-%m-%d_%H%M%S")
-    filename = f"manual_{ts}.json"
-    out_path = SCORED_DIR / filename
-    now_utc = datetime.now(timezone.utc)
-
-    payload = {
-        "scored_at": now_utc.isoformat(),  # UTC no JSON; nome do arquivo usa hora local
-        "source_file": "manual",
-        "summary": {"total_input": 1, "total_scored": 1, "total_top": 1 if (result.get("score") or 0) >= 70 else 0},
-        "jobs": [result],
-    }
     try:
-        out_path.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
-    except Exception as e:
-        st.warning(f"Resultado exibido, mas falha ao salvar arquivo: {e}")
-        return
+        ensure_dirs()
+        now_local = datetime.now()
+        ts = now_local.strftime("%Y-%m-%d_%H%M%S")
+        filename = f"manual_{ts}.json"
+        out_path = SCORED_DIR / filename
+        now_utc = datetime.now(timezone.utc)
 
-    id_hash = result.get("id_hash") or result.get("id")
-    if id_hash:
-        try:
+        payload = {
+            "scored_at": now_utc.isoformat(),  # UTC no JSON; nome do arquivo usa hora local
+            "source_file": "manual",
+            "summary": {
+                "total_input": 1,
+                "total_scored": 1,
+                "total_top": 1 if (result.get("score") or 0) >= 70 else 0,
+            },
+            "jobs": [result],
+        }
+        out_path.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
+
+        id_hash = result.get("id_hash") or result.get("id")
+        if id_hash:
             seen = load_seen()
             mark_seen(id_hash, "linkedin", result.get("title", ""), result.get("company", ""), seen)
             save_seen(seen)
-        except Exception:
-            pass
 
-    st.success("Vaga avaliada e salva!")
+        st.success("Vaga avaliada e salva!")
+    except Exception:
+        st.info("Resultado exibido. Persistência indisponível neste ambiente.")
 
 
 # --- Main ---

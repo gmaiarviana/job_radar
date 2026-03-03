@@ -47,3 +47,6 @@ data/scored/copy txt/
 
 # JSONs legados na raiz (antes da refatoração)
 /*.json
+
+# Streamlit secrets (nunca commitar)
+.streamlit/secrets.toml

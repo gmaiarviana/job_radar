@@ -19,6 +19,11 @@ Online (GitHub Pages, sempre disponível):
   5. Vê as vagas dos últimos 14 dias com scores e vereditos
   6. Sem instalação necessária — basta um browser
 
+Online (Streamlit Cloud, sempre disponível):
+  4b. Acessa o app no Streamlit Cloud
+  5b. Avalia vagas manualmente (paste-and-score) com scoring online
+  6b. Vê vagas do pipeline com scores e vereditos
+
 Manual (Streamlit local, quando quiser):
   7. Abre o app: streamlit run app.py
   8. Vê as vagas do dia com scores e justificativas
@@ -53,6 +58,7 @@ Para facilitar o trabalho de agentes de IA:
 | OpenAI Search (~80 buscas) | ~$1.00 |
 | Claude Haiku (Scoring) | ~$1.50 |
 | Claude Sonnet (Escrita) | ~$1.50 |
+| Streamlit Cloud | $0 (tier gratuito) |
 | **Total** | **~$4.00** |
 
 ---
@@ -61,16 +67,36 @@ Para facilitar o trabalho de agentes de IA:
 
 ### Visualizar vagas (sem instalação)
 
-Acesse o dashboard online: **https://gmaiarviana.github.io/job_radar/**
+- **GitHub Pages**: https://gmaiarviana.github.io/job_radar/
+- **Streamlit Cloud**: [URL será adicionada após deploy] — scoring online de vagas
 
-As vagas são atualizadas automaticamente pelo pipeline diário. Não precisa instalar nada.
+### Deploy no Streamlit Cloud (scoring online)
 
-### Pré-requisitos (desenvolvimento / scoring manual)
+**Pré-requisitos**: conta GitHub + conta Streamlit Cloud (gratuita).
+
+1. Acesse `share.streamlit.io` e faça login com GitHub.
+2. Clique em **"New app"**.
+3. Selecione o repositório `job_radar`, branch `main`, arquivo `app.py`.
+4. Em **"Advanced settings" → "Secrets"**, adicione:
+
+   ```text
+   ANTHROPIC_API_KEY = "sk-ant-..."
+   ```
+
+5. Clique **"Deploy"**.
+
+**Limitações**: filesystem efêmero — resultados de scoring manual não persistem entre restarts do app.  
+A aba **"Vagas"** funciona normalmente (lê dados commitados pelo pipeline).
+
+### Desenvolvimento local (scoring + geração)
+
+#### Pré-requisitos (desenvolvimento / scoring manual)
+
 - Python 3.11+
 - API Keys (OpenAI & Anthropic)
 - Repositório Git configurado
 
-### Instalação (Windows/PowerShell)
+#### Instalação (Windows/PowerShell)
 
 ```powershell
 git clone <repo-url>
@@ -81,18 +107,19 @@ pip install -r requirements.txt
 cp .env.example .env
 # Adicione suas API keys no .env
 ```
+
 Para validar o pipeline de fetch: `python src/fetch.py --dry-run`
 
-### Uso Diário
+#### Uso Diário
 
 ```powershell
 git pull                    # Sincroniza vagas do Actions
 streamlit run app.py        # Revisa e gera materiais
 ```
 
-### Variáveis de Ambiente
+#### Variáveis de Ambiente
 
-```
+```text
 OPENAI_API_KEY=sk-...
 ANTHROPIC_API_KEY=sk-ant-...
 SMTP_USER=seu@gmail.com        # Opcional: alertas por email
