@@ -46,6 +46,34 @@ filters:
     - "us locations"
     - "us residents"
 
+  location_allowlist_patterns:
+    - "latam"
+    - "latin america"
+    - "south america"
+    - "worldwide"
+    - "remote worldwide"
+    - "brazil"
+    - "brasil"
+    - "colombia"
+    - "mexico"
+    - "argentina"
+    - "chile"
+    - "peru"
+    - "remote"
+
+  jd_rescue_patterns:
+    - "worldwide"
+    - "work from anywhere"
+    - "remote-first"
+    - "countries around the world"
+    - "all of our roles are remote"
+    - "#li-remote"
+    - "remote position"
+    - "latam"
+    - "latin america"
+    - "south america"
+    - "work remotely from anywhere"
+
 scoring:
   min_score: 80          # Score mínimo para salvar em scored/
   perfect_match_score: 95 # Threshold para enviar email de alerta

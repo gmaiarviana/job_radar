@@ -153,11 +153,17 @@ def main() -> None:
     filters_config = config.get("filters") or {}
     exclude_title_keywords = filters_config.get("exclude_title_keywords") or []
     location_blocklist_patterns = filters_config.get("location_blocklist_patterns") or []
+    location_allowlist_patterns = filters_config.get("location_allowlist_patterns") or []
+    jd_rescue_patterns = filters_config.get("jd_rescue_patterns") or []
 
     # --- Etapa 1: Hard filters ---
     after_title, discarded_title_list = apply_title_filter(jobs, exclude_title_keywords)
     after_blocklist, discarded_blocklist_list = apply_location_blocklist(after_title, location_blocklist_patterns)
-    after_location, discarded_location_list = apply_location_filter(after_blocklist)
+    after_location, discarded_location_list = apply_location_filter(
+        after_blocklist,
+        location_allowlist_patterns,
+        jd_rescue_patterns,
+    )
     after_quality, discarded_quality_list = apply_quality_guard(after_location)
 
     def id_hashes(job_list: list[dict]) -> set[str]:

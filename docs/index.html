@@ -213,6 +213,7 @@
   "use strict";
 
   let allJobs = [];
+  let pipelineRuns = [];
 
   function scoreBadgeClass(score) {
     if (score >= 85) return "badge-green";
@@ -368,14 +369,42 @@
       filtered = allJobs.filter(function(j) { return j.file_date === date; });
     }
     document.getElementById("summary").textContent = filtered.length + " vaga" + (filtered.length !== 1 ? "s" : "");
+
+    if (filtered.length === 0 && date) {
+      var dayRuns = pipelineRuns.filter(function(r) { return r.date === date; });
+      if (dayRuns.length > 0) {
+        var lastRun = dayRuns[dayRuns.length - 1];
+        var time = "";
+        if (lastRun.filtered_at) {
+          try {
+            time = new Date(lastRun.filtered_at).toLocaleTimeString("pt-BR", { hour: "2-digit", minute: "2-digit" });
+          } catch (e) {
+            time = lastRun.filtered_at;
+          }
+        }
+        var msg = "Pipeline executou";
+        if (time) {
+          msg += " às " + time;
+        }
+        msg += ". " + (lastRun.total_input || 0) + " vagas coletadas \u2192 " + (lastRun.total_passed || 0) + " passaram nos filtros.";
+        document.getElementById("jobs-container").innerHTML =
+          '<div class="empty-state" style="color:#888">' + esc(msg) + '</div>';
+        return;
+      }
+    }
+
     renderJobs(filtered);
   }
 
-  function populateDateFilter(jobs) {
+  function populateDateFilter(jobs, runs) {
     var dateSet = {};
     for (var i = 0; i < jobs.length; i++) {
       var d = jobs[i].file_date;
       if (d) dateSet[d] = true;
+    }
+    for (var k = 0; k < runs.length; k++) {
+      var rd = runs[k].date;
+      if (rd) dateSet[rd] = true;
     }
     var dates = Object.keys(dateSet).sort().reverse();
 
@@ -410,7 +439,8 @@
       })
       .then(function(data) {
         allJobs = data.jobs || [];
-        populateDateFilter(allJobs);
+        pipelineRuns = data.pipeline_runs || [];
+        populateDateFilter(allJobs, pipelineRuns);
       })
       .catch(function(err) {
         document.getElementById("jobs-container").innerHTML =

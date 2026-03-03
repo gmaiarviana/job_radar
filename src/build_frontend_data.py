@@ -21,7 +21,7 @@ if __name__ == "__main__":
     if str(_root) not in sys.path:
         sys.path.insert(0, str(_root))
 
-from src.paths import SCORED_DIR
+from src.paths import FILTERED_DIR, SCORED_DIR
 
 OUTPUT_DIR = Path("data")
 OUTPUT_FILE = OUTPUT_DIR / "jobs.json"
@@ -74,6 +74,46 @@ def _filter_recent(jobs: list[dict], days: int = DAYS_WINDOW) -> list[dict]:
     return [j for j in jobs if j.get("file_date", "") >= cutoff]
 
 
+def _load_pipeline_runs() -> list[dict]:
+    """Lê data/filtered/ e retorna resumo de cada run do pipeline."""
+    if not FILTERED_DIR.exists():
+        return []
+
+    runs: list[dict] = []
+    for path in sorted(FILTERED_DIR.glob("*.json")):
+        try:
+            data = json.loads(path.read_text(encoding="utf-8"))
+        except (json.JSONDecodeError, OSError):
+            continue
+
+        summary = data.get("summary") or {}
+        filtered_at = data.get("filtered_at") or ""
+        source = data.get("source_file", "")
+        file_date = _date_from_filename(source)
+        if not file_date:
+            continue
+
+        runs.append(
+            {
+                "date": file_date,
+                "filtered_at": filtered_at,
+                "total_input": summary.get("total_input", 0),
+                "total_passed": summary.get("total_passed", 0),
+                "discarded_title": summary.get("discarded_title", 0),
+                "discarded_blocklist": summary.get("discarded_blocklist", 0),
+                "discarded_location": summary.get("discarded_location", 0),
+                "discarded_quality": summary.get("discarded_quality", 0),
+            }
+        )
+    return runs
+
+
+def _filter_recent_runs(runs: list[dict], days: int = DAYS_WINDOW) -> list[dict]:
+    """Mantém apenas runs com date nos últimos N dias."""
+    cutoff = (datetime.now(timezone.utc) - timedelta(days=days)).strftime("%Y-%m-%d")
+    return [r for r in runs if r.get("date", "") >= cutoff]
+
+
 def _sort_jobs(jobs: list[dict]) -> list[dict]:
     """Ordena por file_date desc, depois por score desc."""
     return sorted(
@@ -87,11 +127,14 @@ def main() -> None:
     jobs = _load_scored_jobs()
     jobs = _filter_recent(jobs)
     jobs = _sort_jobs(jobs)
+    runs = _load_pipeline_runs()
+    runs = _filter_recent_runs(runs)
 
     payload = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "total": len(jobs),
         "jobs": jobs,
+        "pipeline_runs": runs,
     }
 
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)

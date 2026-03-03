@@ -35,10 +35,9 @@ Thumbs.db
 *.log
 logs/
 
-# Data — vagas brutas e pontuadas SOBEM pro repo (GitHub Actions → git pull local)
-# Feedback e PDFs ficam apenas local; evals só local
+# Data — vagas brutas, filtradas e pontuadas SOBEM pro repo (GitHub Actions → git pull local)
+# Feedback, outputs finais e evals ficam apenas local
 data/feedback/
-data/filtered/
 data/output/
 data/eval/
 

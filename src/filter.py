@@ -7,6 +7,7 @@ Pipeline: fetch.py → filter.py → score.py
 import argparse
 import json
 import sys
+import unicodedata
 from datetime import datetime
 from pathlib import Path
 
@@ -28,19 +29,26 @@ def _ensure_console_utf8() -> None:
         except (AttributeError, OSError):
             pass
 
+
+def _normalize(text: str) -> str:
+    """Lowercase + remoção de diacríticos para comparação robusta."""
+    nfkd = unicodedata.normalize("NFKD", text.lower())
+    return "".join(c for c in nfkd if unicodedata.category(c) != "Mn")
+
+
 # Allowlist: passa se location contiver pelo menos um destes termos (case insensitive)
 # Location vazia também passa (sem info suficiente para descartar; LLM decide)
 def apply_title_filter(jobs: list[dict], exclude_keywords: list[str]) -> tuple[list[dict], list[dict]]:
     """Descartar vagas cujo título contém qualquer keyword (case insensitive). Retorna (passaram, descartados)."""
     if not exclude_keywords:
         return jobs, []
-    keywords_lower = [k.strip().lower() for k in exclude_keywords if k]
+    keywords_norm = [_normalize(k.strip()) for k in exclude_keywords if k]
     passed = []
     discarded = []
     for job in jobs:
         title = (job.get("title") or "").strip()
-        title_lower = title.lower()
-        if any(kw in title_lower for kw in keywords_lower):
+        title_norm = _normalize(title)
+        if any(kw in title_norm for kw in keywords_norm):
             discarded.append(job)
         else:
             passed.append(job)
@@ -51,48 +59,41 @@ def apply_location_blocklist(jobs: list[dict], blocklist_patterns: list[str]) ->
     """Descartar vagas cujo location ou jd_full contém qualquer padrão US-only (case insensitive). Retorna (passaram, descartados)."""
     if not blocklist_patterns:
         return jobs, []
-    patterns_lower = [p.strip().lower() for p in blocklist_patterns if p]
+    patterns_norm = [_normalize(p.strip()) for p in blocklist_patterns if p]
     passed = []
     discarded = []
     for job in jobs:
-        location = (job.get("location") or "").strip().lower()
-        jd_full = (job.get("jd_full") or job.get("description") or "").strip().lower()
-        if any(pat in location or pat in jd_full for pat in patterns_lower):
+        location = _normalize((job.get("location") or "").strip())
+        jd_full = _normalize((job.get("jd_full") or job.get("description") or "").strip())
+        if any(pat in location or pat in jd_full for pat in patterns_norm):
             discarded.append(job)
         else:
             passed.append(job)
     return passed, discarded
 
 
-# Allowlist: passa se location contiver pelo menos um destes termos (case insensitive)
-# Location vazia também passa (sem info suficiente para descartar; LLM decide)
-LOCATION_ALLOW_PATTERNS = [
-    "latam",
-    "latin america",
-    "south america",
-    "worldwide",
-    "remote worldwide",
-    "brazil",
-    "brasil",
-    "colombia",
-    "mexico",
-    "argentina",
-    "chile",
-    "peru",
-    "remote",
-]
-
-
-def apply_location_filter(jobs: list[dict]) -> tuple[list[dict], list[dict]]:
+def apply_location_filter(
+    jobs: list[dict],
+    allowlist_patterns: list[str],
+    rescue_patterns: list[str],
+) -> tuple[list[dict], list[dict]]:
     passed = []
     discarded = []
+    allowlist_norm = [_normalize(p.strip()) for p in allowlist_patterns if p]
+    rescue_norm = [_normalize(p.strip()) for p in rescue_patterns if p]
     for job in jobs:
         location = (job.get("location") or "").strip()
         if not location:
             passed.append(job)
             continue
-        loc_lower = location.lower()
-        if any(p in loc_lower for p in LOCATION_ALLOW_PATTERNS):
+        loc_norm = _normalize(location)
+        if any(p in loc_norm for p in allowlist_norm):
+            passed.append(job)
+            continue
+
+        jd_full = (job.get("jd_full") or job.get("description") or "").strip()
+        jd_norm = _normalize(jd_full)
+        if any(p in jd_norm for p in rescue_norm):
             passed.append(job)
         else:
             discarded.append(job)
@@ -201,17 +202,23 @@ def main() -> None:
     filters_config = config.get("filters") or {}
     exclude_title_keywords = filters_config.get("exclude_title_keywords") or []
     location_blocklist_patterns = filters_config.get("location_blocklist_patterns") or []
+    location_allowlist_patterns = filters_config.get("location_allowlist_patterns") or []
+    jd_rescue_patterns = filters_config.get("jd_rescue_patterns") or []
 
     # 1. Title filter (exclude_title_keywords)
     after_title, discarded_title_list = apply_title_filter(jobs, exclude_title_keywords)
     discarded_title = len(discarded_title_list)
 
-    # 2. Location blocklist (US-only patterns in location or jd_full)
+    # 2. Location blocklist (US-only patterns in location ou jd_full)
     after_blocklist, discarded_blocklist_list = apply_location_blocklist(after_title, location_blocklist_patterns)
     discarded_blocklist = len(discarded_blocklist_list)
 
-    # 3. Location allowlist
-    after_location, discarded_location_list = apply_location_filter(after_blocklist)
+    # 3. Location allowlist + JD rescue
+    after_location, discarded_location_list = apply_location_filter(
+        after_blocklist,
+        location_allowlist_patterns,
+        jd_rescue_patterns,
+    )
     discarded_location = len(discarded_location_list)
 
     # 4. Quality guard
