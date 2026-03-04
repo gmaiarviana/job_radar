@@ -1510,5 +1510,65 @@
     "source": "greenhouse",
     "title": "Product Manager, Finance Systems",
     "company": "Stripe"
+  },
+  "a27f323566264b8c64681f698ee468a14e4599ba0369d6211ff15ec2edca4ac7": {
+    "first_seen": "2026-03-04",
+    "source": "openai_web_search",
+    "title": "Product Manager",
+    "company": "Shopee"
+  },
+  "c4f5a75a4b93721f87ca697fb58e33f4d93c8c3c30b145eb47089b0e84b8d53b": {
+    "first_seen": "2026-03-04",
+    "source": "openai_web_search",
+    "title": "Senior Product Manager",
+    "company": "Samsung Electronics"
+  },
+  "b5dabca4d0f2d50610b20c0632a4ed479a0caf177279eacecd00ced9d76f67a5": {
+    "first_seen": "2026-03-04",
+    "source": "openai_web_search",
+    "title": "Senior Product Manager - Remote - Latin America",
+    "company": "FullStack"
+  },
+  "ad12bf1845745ce77573c49032b8e10127b3fa9b18205be6767412d5b84b1567": {
+    "first_seen": "2026-03-04",
+    "source": "remoteok",
+    "title": "Associate Product Manager",
+    "company": "InvestorFlow"
+  },
+  "a21739f68d04080104eca120ef6310d9bd03034dfd70ba6f86201393b800d174": {
+    "first_seen": "2026-03-04",
+    "source": "greenhouse",
+    "title": "Engineering Enablement Program Manager",
+    "company": "Klaviyo"
+  },
+  "d04d2ead5a028ae42dc1bf403ccf598635a1b2c6a7700dbdf4805ada1a75ae4e": {
+    "first_seen": "2026-03-04",
+    "source": "greenhouse",
+    "title": "AI Staff Technical Program Manager, Professional Services - FINS",
+    "company": "Databricks"
+  },
+  "8058110252eab349273849101edc15b4765eece9e9ff0cde7b460d1300735e6f": {
+    "first_seen": "2026-03-04",
+    "source": "greenhouse",
+    "title": "Staff Technical Program Manager, Professional Services  - Public Sector",
+    "company": "Databricks"
+  },
+  "aee0824dce9094797e6201a2fbd793c3fb36e2e0041cf3c20d90dfb8d317efb7": {
+    "first_seen": "2026-03-04",
+    "source": "greenhouse",
+    "title": "Program Manager (Homeland Layered Defense), Public Sector",
+    "company": "Scale AI"
+  },
+  "03b5bd774270564e505d7a4c01530cf70dc6c921432e9a32fd0f9d21113fed02": {
+    "first_seen": "2026-03-04",
+    "source": "greenhouse",
+    "title": "Group Product Manager, Duolingo English Test",
+    "company": "Duolingo"
+  },
+  "2a3a24938586685c2434d8ab496f017423f362961ceba20c1a38d098d2a09868": {
+    "first_seen": "2026-03-04",
+    "source": "greenhouse",
+    "title": "Executive Engagement Principal Program Manager",
+    "company": "Cloudflare"
   }
 }
