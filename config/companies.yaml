@@ -99,20 +99,23 @@ companies:
   # Argumento: PO 2 anos em B2B SaaS; stakeholder management; escala
   # -------------------------------------------------------------------
   saas_b2b:
-    - name: "Zapier"
-      ats: "greenhouse"
-      ats_id: "zapier"
-      notes: "SaaS workflow automation, remote worldwide"
+    # 404 no seed 2026-03-05 — revalidar slug/ATS depois
+    # - name: "Zapier"
+    #   ats: "greenhouse"
+    #   ats_id: "zapier"
+    #   notes: "SaaS workflow automation, remote worldwide"
 
-    - name: "Doist"
-      ats: "greenhouse"
-      ats_id: "doist"
-      notes: "Todoist/Twist, remote global"
+    # 404 no seed 2026-03-05 — revalidar slug/ATS depois
+    # - name: "Doist"
+    #   ats: "greenhouse"
+    #   ats_id: "doist"
+    #   notes: "Todoist/Twist, remote global"
 
-    - name: "Loadsmart"
-      ats: "greenhouse"
-      ats_id: "loadsmart"
-      notes: "Logistics SaaS, TPM LATAM explícito"
+    # 404 no seed 2026-03-05 — revalidar slug/ATS depois
+    # - name: "Loadsmart"
+    #   ats: "greenhouse"
+    #   ats_id: "loadsmart"
+    #   notes: "Logistics SaaS, TPM LATAM explícito"
 
     - name: "GitLab"
       ats: "greenhouse"

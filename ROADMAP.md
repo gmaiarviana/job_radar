@@ -45,7 +45,7 @@ Habilitado. OPENAI_API_KEY configurada nos secrets do Actions. Coletor já roda 
 
 #### ✅ 7.3 Expandir companies.yaml
 
-**Concluído:** 6 empresas adicionadas ao `config/companies.yaml` — Zapier (Greenhouse), Doist (Greenhouse), dLocal (Lever), Stripe (Greenhouse), Loadsmart (Greenhouse), Deel (Ashby, slug confirmado via jobs.ashbyhq.com/deel). Todas ativas (0 comentadas por 404).
+**Concluído:** 6 empresas avaliadas; 3 ativas — dLocal (Lever), Stripe (Greenhouse), Deel (Ashby). 3 comentadas por 404 no seed 2026-03-05 — Zapier, Doist, Loadsmart (revalidar slugs posteriormente).
 
 #### ✅ 7.4 Revisar buscas manuais e renomear LinkedIn → Busca Manual
 
@@ -62,7 +62,7 @@ Concluído: penalty removida de CEILING_BY_PENALTY e do prompt de analyze_job; p
 
 #### ✅ 7.7 Novos coletores (Himalayas, Working Nomads, JobsCollider)
 
-**Concluído:** 3 coletores adicionados (`himalayas.py`, `workingnomads.py`, `jobscollider.py`), registrados em `__init__.py` e `fetch.py`. Throttle corrigido de 20 → 50 em `apply_seen_jobs_filter`.
+**Concluído:** 3 coletores adicionados (`himalayas.py`, `workingnomads.py`, `jobscollider.py`), registrados em `__init__.py` e `fetch.py`. Throttle corrigido de 20 → 50 em `apply_seen_jobs_filter`. Bugfixes aplicados: JobsCollider RSS URLs corrigidas + extração de company do título; Himalayas parser de data suporta epoch numérico + campo `locationRestrictions` (plural); Working Nomads endpoint atualizado para `/api/exposed_jobs/`. Critério de aceite (≥10 vagas/dia por 3 dias) pendente de validação em produção.
 
 **Ordem de execução sugerida (para implementação futura):** 7.5 → 7.3 + 7.4 (paralelo) → 7.2 → 7.6 → 7.7
 

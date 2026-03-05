@@ -13,8 +13,8 @@ import html
 from . import TITLE_KEYWORDS
 
 JOBSCOLLIDER_FEEDS = [
-    "https://jobscollider.com/rss/product-management",
-    "https://jobscollider.com/rss/project-management",
+    "https://jobscollider.com/remote-product-jobs.rss",
+    "https://jobscollider.com/remote-project-management-jobs.rss",
 ]
 JOBSCOLLIDER_RECENT_HOURS = 168
 LOG_PREFIX = "[fetch]"
@@ -31,6 +31,18 @@ def _parse_pub_date(date_str: str) -> datetime | None:
         return dt
     except (ValueError, TypeError):
         return None
+
+
+def _extract_company_and_title(full_title: str) -> tuple[str, str]:
+    """
+    Separa "Empresa: Título" em (empresa, título).
+    Se não houver ":", assume apenas título.
+    """
+    full_title = (full_title or "").strip()
+    if ":" in full_title:
+        company, title = full_title.split(":", 1)
+        return company.strip(), title.strip()
+    return "", full_title
 
 
 def _matches_title(title: str) -> bool:
@@ -98,9 +110,11 @@ def collect_jobscollider() -> list[dict]:
             description_raw = (item.findtext("description") or "").strip()
             description = html.unescape(description_raw)
 
+            company, title = _extract_company_and_title(raw_title)
+
             all_raw.append({
-                "title": raw_title,
-                "company": "",
+                "title": title or raw_title,
+                "company": company,
                 "location": "",
                 "salary": None,
                 "url": link,

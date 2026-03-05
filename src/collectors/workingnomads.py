@@ -10,23 +10,29 @@ from urllib.error import URLError, HTTPError
 
 from . import TITLE_KEYWORDS
 
-WORKINGNOMADS_API_URL = "https://www.workingnomads.com/jobsapi"
+WORKINGNOMADS_API_URL = "https://www.workingnomads.com/api/exposed_jobs/"
 WORKINGNOMADS_RECENT_HOURS = 168
 LOG_PREFIX = "[fetch]"
 
 
-def _parse_date(date_str: str) -> datetime | None:
-    """Interpreta campo de data ISO como datetime com tz."""
-    if not date_str:
+def _parse_date(date_val) -> datetime | None:
+    """Interpreta campo de data como datetime com tz.
+    Aceita: epoch int/float, epoch string numérica, ISO string.
+    """
+    if date_val is None or date_val == "":
         return None
     try:
-        s = str(date_str).strip()
+        if isinstance(date_val, (int, float)):
+            return datetime.fromtimestamp(date_val, tz=timezone.utc)
+        s = str(date_val).strip()
+        if s.isdigit() or (s.replace(".", "", 1).isdigit() and "." in s):
+            return datetime.fromtimestamp(float(s), tz=timezone.utc)
         if s.endswith("Z"):
             return datetime.fromisoformat(s.replace("Z", "+00:00"))
         if "+" in s or (len(s) > 10 and s[10:11] == "+"):
             return datetime.fromisoformat(s)
         return datetime.fromisoformat(s).replace(tzinfo=timezone.utc)
-    except (ValueError, TypeError):
+    except (ValueError, TypeError, OSError):
         return None
 
 
