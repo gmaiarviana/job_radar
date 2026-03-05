@@ -163,8 +163,8 @@ def _format_report(job: dict) -> str:
     return "\n".join(lines)
 
 
-# --- Sidebar: seletor de data ---
-def _render_sidebar(all_rows: list[dict], key_prefix: str = "") -> str | None:
+# --- Sidebar: seletor de data (único, compartilhado entre Vagas e Resumo) ---
+def _render_sidebar(all_rows: list[dict]) -> str | None:
     dates = sorted({r["file_date"] for r in all_rows if r["file_date"]}, reverse=True)
     if not dates:
         st.sidebar.caption("Nenhuma data disponível.")
@@ -174,7 +174,7 @@ def _render_sidebar(all_rows: list[dict], key_prefix: str = "") -> str | None:
         options=dates,
         index=0,
         format_func=lambda d: d or "(sem data)",
-        key=f"{key_prefix}date_selector",
+        key="shared_date_selector",
     )
     return selected
 
@@ -304,10 +304,7 @@ def _render_job_cards(jobs_with_meta: list[dict], key_prefix: str = "") -> None:
 
 
 # --- Página 1: Vagas ---
-def _render_vagas():
-    all_rows = _load_scored_jobs()
-    selected_date = _render_sidebar(all_rows, key_prefix="vagas_")
-
+def _render_vagas(all_rows: list[dict], selected_date: str | None):
     if selected_date is not None:
         rows = [r for r in all_rows if r["file_date"] == selected_date]
     else:
@@ -326,10 +323,7 @@ def _render_vagas():
 
 
 # --- Página 2: Resumo (APLICAR only) ---
-def _render_resumo():
-    all_rows = _load_scored_jobs()
-    selected_date = _render_sidebar(all_rows, key_prefix="resumo_")
-
+def _render_resumo(all_rows: list[dict], selected_date: str | None):
     if selected_date is not None:
         rows = [r for r in all_rows if r["file_date"] == selected_date]
     else:
@@ -429,6 +423,19 @@ def _render_busca_manual():
     if st.session_state.get("manual_result") is not None:
         result = st.session_state["manual_result"]
         st.subheader("Resultado da avaliação")
+
+        # Score badge visible before expander (fix: score was hidden inside details only)
+        score = result.get("score")
+        main_gap = result.get("main_gap") or ""
+        score_label = str(score) if score is not None else "—"
+        bg, fg = _score_badge_style(score) if score is not None else ("#616161", "white")
+        verdict_label, _, verdict_emoji = get_verdict(score, main_gap)
+        st.markdown(
+            f'<span style="background:{bg};color:{fg};padding:4px 12px;border-radius:6px;font-size:1.1rem;font-weight:700;">{score_label}</span>'
+            f'&nbsp; {verdict_emoji} **{verdict_label}**',
+            unsafe_allow_html=True,
+        )
+
         with st.expander("Detalhes", expanded=True):
             _render_expanded_details(result, key_suffix="manual_result")
 
@@ -512,11 +519,15 @@ def main():
     st.title("📡 Job Radar")
     st.caption("Vagas scored do pipeline + manuais (Busca Manual)")
 
+    # Load data once, render sidebar once (shared by Vagas and Resumo)
+    all_rows = _load_scored_jobs()
+    selected_date = _render_sidebar(all_rows)
+
     tab1, tab2, tab3 = st.tabs(["Vagas", "Resumo", "Busca Manual"])
     with tab1:
-        _render_vagas()
+        _render_vagas(all_rows, selected_date)
     with tab2:
-        _render_resumo()
+        _render_resumo(all_rows, selected_date)
     with tab3:
         _render_busca_manual()
 
