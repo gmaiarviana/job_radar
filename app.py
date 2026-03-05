@@ -22,7 +22,7 @@ from dotenv import load_dotenv
 
 # Bridge: Streamlit Cloud secrets → os.environ (para Anthropic client e outros)
 try:
-    for key in ("ANTHROPIC_API_KEY", "OPENAI_API_KEY"):
+    for key in ("ANTHROPIC_API_KEY", "OPENAI_API_KEY", "GITHUB_TOKEN", "GITHUB_REPO", "AUTHORIZED_EMAIL"):
         if key in st.secrets:
             os.environ[key] = st.secrets[key]
 except Exception:
@@ -30,6 +30,7 @@ except Exception:
 
 load_dotenv()
 
+from src import github_api
 from src.job_schema import normalize_job
 from src.paths import SCORED_DIR, ensure_dirs
 from src.score import analyze_job, compute_ceiling, load_profile, score_with_analysis
@@ -381,42 +382,107 @@ def _render_linkedin():
 
     _render_job_result_detail(result)
 
-    # Persistência: manual_*.json + seen_jobs (nome do arquivo com hora local para consistência com pipeline)
+    # Persistência: manual_*.json + seen_jobs
+    now_local = datetime.now()
+    ts = now_local.strftime("%Y-%m-%d_%H%M%S")
+    filename = f"manual_{ts}.json"
+    now_utc = datetime.now(timezone.utc)
+
+    payload = {
+        "scored_at": now_utc.isoformat(),
+        "source_file": "manual",
+        "summary": {
+            "total_input": 1,
+            "total_scored": 1,
+            "total_top": 1 if (result.get("score") or 0) >= 70 else 0,
+        },
+        "jobs": [result],
+    }
+
+    id_hash = result.get("id_hash") or result.get("id")
+    persisted_remote = False
+
+    # Tentativa 1: GitHub API (Streamlit Cloud)
     try:
-        ensure_dirs()
-        now_local = datetime.now()
-        ts = now_local.strftime("%Y-%m-%d_%H%M%S")
-        filename = f"manual_{ts}.json"
-        out_path = SCORED_DIR / filename
-        now_utc = datetime.now(timezone.utc)
+        seen_data = github_api.get_file("data/seen_jobs.json")
+        if seen_data:
+            seen = json.loads(seen_data["content"])
+            seen_sha = seen_data["sha"]
+        else:
+            seen = {}
+            seen_sha = None
 
-        payload = {
-            "scored_at": now_utc.isoformat(),  # UTC no JSON; nome do arquivo usa hora local
-            "source_file": "manual",
-            "summary": {
-                "total_input": 1,
-                "total_scored": 1,
-                "total_top": 1 if (result.get("score") or 0) >= 70 else 0,
-            },
-            "jobs": [result],
-        }
-        out_path.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
+        payload_json = json.dumps(payload, indent=2, ensure_ascii=False)
+        github_api.put_file(
+            f"data/scored/{filename}",
+            payload_json,
+            sha=None,
+            message=f"chore: add {filename} via app",
+        )
 
-        id_hash = result.get("id_hash") or result.get("id")
         if id_hash:
-            seen = load_seen()
             mark_seen(id_hash, "linkedin", result.get("title", ""), result.get("company", ""), seen)
-            save_seen(seen)
+            seen_json = json.dumps(seen, ensure_ascii=False, indent=2)
+            github_api.put_file(
+                "data/seen_jobs.json",
+                seen_json,
+                sha=seen_sha,
+                message="chore: update seen_jobs.json via app",
+            )
 
-        st.success("Vaga avaliada e salva!")
+        persisted_remote = True
+        st.success("Vaga avaliada e salva no repositório!")
     except Exception:
-        st.info("Resultado exibido. Persistência indisponível neste ambiente.")
+        pass
+
+    # Tentativa 2: Fallback filesystem local
+    if not persisted_remote:
+        try:
+            ensure_dirs()
+            out_path = SCORED_DIR / filename
+            out_path.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
+
+            if id_hash:
+                seen = load_seen()
+                mark_seen(id_hash, "linkedin", result.get("title", ""), result.get("company", ""), seen)
+                save_seen(seen)
+
+            st.success("Vaga avaliada e salva localmente.")
+            st.caption("Persistência remota indisponível.")
+        except Exception:
+            st.info("Resultado exibido. Persistência indisponível neste ambiente.")
+
+
+# --- Auth: verificação de email autorizado ---
+def _check_auth() -> bool:
+    """
+    Verifica se o usuário está autorizado (Streamlit Cloud com Google OAuth).
+    Retorna True se autorizado ou se auth não está configurada (local).
+    """
+    authorized_email = os.environ.get("AUTHORIZED_EMAIL")
+    if not authorized_email:
+        return True
+
+    # st.user (≥ 1.35) com fallback para st.experimental_user
+    user_obj = getattr(st, "user", None) or getattr(st, "experimental_user", None)
+    if user_obj is None:
+        return True
+
+    email = getattr(user_obj, "email", None)
+    if email is None:
+        return True
+
+    return email == authorized_email
 
 
 # --- Main ---
 def main():
     st.title("📡 Job Radar")
     st.caption("Vagas scored do pipeline + manuais (Busca Manual)")
+
+    if not _check_auth():
+        st.error("Acesso não autorizado. Este app é restrito ao proprietário.")
+        st.stop()
 
     tab1, tab2 = st.tabs(["Vagas", "Busca Manual"])
     with tab1:

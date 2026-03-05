@@ -81,12 +81,20 @@ Para facilitar o trabalho de agentes de IA:
 
    ```text
    ANTHROPIC_API_KEY = "sk-ant-..."
+   GITHUB_TOKEN = "ghp_..."
+   GITHUB_REPO = "owner/repo"
+   AUTHORIZED_EMAIL = "seu@gmail.com"
    ```
 
-5. Clique **"Deploy"**.
+   - `GITHUB_TOKEN`: Personal Access Token com permissão `contents: write` no repositório. Crie em GitHub → Settings → Developer settings → Personal access tokens → Fine-grained tokens, selecionando o repositório e permissão "Contents: Read and write".
+   - `GITHUB_REPO`: formato `"owner/repo"` (ex: `"gmaiarviana/job_radar"`).
+   - `AUTHORIZED_EMAIL`: email Google autorizado a usar o app.
 
-**Limitações**: filesystem efêmero — resultados de scoring manual não persistem entre restarts do app.  
-A aba **"Vagas"** funciona normalmente (lê dados commitados pelo pipeline).
+5. (Opcional) Habilite **"Viewer authentication"** no painel do Streamlit Cloud (Settings → Sharing → "Require viewers to log in with Google") para restringir acesso ao app.
+
+6. Clique **"Deploy"**.
+
+**Persistência**: com `GITHUB_TOKEN` configurado, scoring manual persiste diretamente no repositório via GitHub API. Sem token, fallback para filesystem local (efêmero no Cloud).
 
 ### Desenvolvimento local (scoring + geração)
 
@@ -122,7 +130,10 @@ streamlit run app.py        # Revisa e gera materiais
 ```text
 OPENAI_API_KEY=sk-...
 ANTHROPIC_API_KEY=sk-ant-...
-SMTP_USER=seu@gmail.com        # Opcional: alertas por email
+GITHUB_TOKEN=ghp_...              # Opcional: persistência via GitHub API (Streamlit Cloud)
+GITHUB_REPO=owner/repo            # Opcional: formato "owner/repo"
+AUTHORIZED_EMAIL=seu@gmail.com    # Opcional: restrição de acesso no Streamlit Cloud
+SMTP_USER=seu@gmail.com           # Opcional: alertas por email
 SMTP_PASS=xxxx-xxxx-xxxx-xxxx
 NOTIFY_EMAIL=seu@gmail.com
 ```
