@@ -69,7 +69,24 @@ Concluído: penalty removida de CEILING_BY_PENALTY e do prompt de analyze_job; p
 - Após expandir `companies.yaml` (7.3), as novas empresas ATS serão naturalmente “seedadas” nos primeiros runs de `fetch.py`.
 - Critério de aceite: `seen_jobs` traz entradas de `remoteok` e (quando houver vagas) `getonboard`; novas empresas de 7.3 passam a aparecer sem gargalo após alguns runs do `fetch.py`.
 
-**Ordem de execução sugerida (para implementação futura):** 7.5 → 7.3 + 7.4 (paralelo) → 7.2 → 7.6
+#### 7.7 Novos coletores (Himalayas, Working Nomads, JobsCollider) — **Pendente**
+
+Adicionar três coletores gratuitos sem autenticação:
+- Himalayas (`https://himalayas.app/jobs/api`) — JSON paginado, startup remote-first
+- Working Nomads (`https://www.workingnomads.com/jobsapi`) — JSON, curated remote
+- JobsCollider (RSS `product-management` + `project-management`) — mesmo padrão do WWR
+
+Throttle ajustado de 20 → 50 em `apply_seen_jobs_filter` (já implementado em Mar 2026).
+
+Detalhes de implementação (para o Cursor):
+- **Himalayas:** máximo 20 resultados por request; paginação via `?page=N`; retorna `title`, `companyName`, `applicationLink`, `locationRestriction` — mapear para o schema (url=`applicationLink`, location=`locationRestriction`). Seguir padrão de `remotive.py` (JSON + janela de recência).
+- **Working Nomads:** endpoint `https://www.workingnomads.com/jobsapi`; retorna `title`, `company`, `category`, `url`, `location`; sem paginação documentada. Seguir padrão de `remotive.py` (JSON + janela de recência).
+- **JobsCollider:** RSS XML com feeds separados por categoria (`product-management` e `project-management`); seguir padrão de `weworkremotely.py` (RSS + filtro de título por `TITLE_KEYWORDS`). Sem filtro de recência no feed — aplicar janela de 7 dias por `pubDate`.
+
+Critério de aceite: os três coletores aparecem nos logs do fetch.py; pipeline diário
+gera ≥ 10 vagas novas/dia por pelo menos 3 dias consecutivos.
+
+**Ordem de execução sugerida (para implementação futura):** 7.5 → 7.3 + 7.4 (paralelo) → 7.2 → 7.6 → 7.7
 
 ---
 
