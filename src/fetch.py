@@ -49,6 +49,9 @@ from src.collectors.lever import collect_lever
 from src.collectors.ashby import collect_ashby
 from src.collectors.remoteok import collect_remoteok
 from src.collectors.getonboard import collect_getonboard
+from src.collectors.himalayas import collect_himalayas
+from src.collectors.workingnomads import collect_workingnomads
+from src.collectors.jobscollider import collect_jobscollider
 
 load_dotenv()
 
@@ -112,7 +115,7 @@ def main():
         print(f"{LOG_PREFIX} 🧪 MODO DRY-RUN")
         print(f"  Roles: {roles}")
         print(f"  Locations: {locations}")
-        print(f"  Coletores: openai_web_search, remotive, weworkremotely, jobicy, remoteok, getonboard, greenhouse, lever, ashby")
+        print(f"  Coletores: openai_web_search, remotive, weworkremotely, jobicy, remoteok, getonboard, himalayas, workingnomads, jobscollider, greenhouse, lever, ashby")
         if companies_data is not None:
             n_sectors = len(companies_data["companies"])
             print(f"  Empresas-alvo (3.1): {total_companies} em {n_sectors} setores (config/companies.yaml)")
@@ -140,6 +143,9 @@ def main():
     collectors_config.append(("jobicy", collect_jobicy))
     collectors_config.append(("remoteok", collect_remoteok))
     collectors_config.append(("getonboard", collect_getonboard))
+    collectors_config.append(("himalayas", collect_himalayas))
+    collectors_config.append(("workingnomads", collect_workingnomads))
+    collectors_config.append(("jobscollider", collect_jobscollider))
 
     if greenhouse_companies:
         collectors_config.append(("greenhouse", lambda: collect_greenhouse(greenhouse_companies)))
@@ -159,11 +165,11 @@ def main():
     jobs = run_pipeline(collectors_config)
     total_raw = len(jobs)
 
-    jobs, total_already_seen, total_throttled = apply_seen_jobs_filter(jobs, seen, max_new=20)
+    jobs, total_already_seen, total_throttled = apply_seen_jobs_filter(jobs, seen, max_new=50)
     if total_already_seen > 0:
         print(f"{LOG_PREFIX} 👁️ Já vistas (seen_jobs): {total_already_seen}")
     if total_throttled > 0:
-        print(f"{LOG_PREFIX} ⏸️ Throttle: {total_throttled} novas acima do limite (20) ignoradas neste run")
+        print(f"{LOG_PREFIX} ⏸️ Throttle: {total_throttled} novas acima do limite (50) ignoradas neste run")
 
     if jobs:
         jobs = filter_old_jobs(jobs)

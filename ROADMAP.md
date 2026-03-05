@@ -1,6 +1,6 @@
 # ROADMAP - Job Radar
 
-📡 **Status:** Pipeline completo (fetch → filter → score → dashboard). Épico 8 concluído. Próximo foco: Épicos 7.3 (Expansão de Coleta) e 9 (Polimento de UI).
+📡 **Status:** Pipeline completo (fetch → filter → score → dashboard). Épicos 7 e 8 concluídos. Próximo foco: Épicos 9 (Polimento de UI) e 10 (Persistência Online).
 
 > **Filosofia:** POC → Protótipo → MVP. Validar cada etapa antes de avançar. Qualidade antes de volume.
 
@@ -43,18 +43,9 @@ Habilitado. OPENAI_API_KEY configurada nos secrets do Actions. Coletor já roda 
 
 **Concluído:** Remote OK (`src/collectors/remoteok.py`) e Get on Board (`src/collectors/getonboard.py`) integrados em fetch.py. Remote OK: API pública, filtro por título/cargo (TITLE_KEYWORDS globais para PM/TPM e afins), janela de 7 dias, atribuição "Source: Remote OK" nos logs. Get on Board: API search jobs (query=product manager, remote=true), filtro por título PM/TPM (keywords centralizadas incluindo LATAM), janela de 7 dias, paginação até 5 páginas, foco LATAM.
 
-#### 7.3 Expandir companies.yaml — **Pendente**
+#### ✅ 7.3 Expandir companies.yaml
 
-Adicionar empresas validadas como remote-first com ATS suportado:
-- Zapier (Greenhouse) — SaaS workflow automation, remote worldwide
-- Doist (Greenhouse) — Produtividade (Todoist/Twist), remote global
-- dLocal (Lever) — Fintech LATAM (AR, BR, UY), PM roles confirmados
-- Stripe (Greenhouse) — Fintech, LATAM confirmado em boards
-- Loadsmart (Greenhouse) — Logistics SaaS, TPM LATAM explícito
-- Deel (Ashby) — Remote-first por definição; slug anterior deu 404 como Greenhouse, pesquisa indica Ashby
-
-Critério de aceite: empresas adicionadas no companies.yaml com ats e ats_id corretos; seed valida que pelo menos 4 de 6 retornam vagas (slug OK).  
-*Estado:* Nenhuma das seis empresas acima está ativa em `config/companies.yaml` (Deel está comentada por 404).
+**Concluído:** 6 empresas adicionadas ao `config/companies.yaml` — Zapier (Greenhouse), Doist (Greenhouse), dLocal (Lever), Stripe (Greenhouse), Loadsmart (Greenhouse), Deel (Ashby, slug confirmado via jobs.ashbyhq.com/deel). Todas ativas (0 comentadas por 404).
 
 #### ✅ 7.4 Revisar buscas manuais e renomear LinkedIn → Busca Manual
 
@@ -69,22 +60,9 @@ Concluído: penalty removida de CEILING_BY_PENALTY e do prompt de analyze_job; p
 - Após expandir `companies.yaml` (7.3), as novas empresas ATS serão naturalmente “seedadas” nos primeiros runs de `fetch.py`.
 - Critério de aceite: `seen_jobs` traz entradas de `remoteok` e (quando houver vagas) `getonboard`; novas empresas de 7.3 passam a aparecer sem gargalo após alguns runs do `fetch.py`.
 
-#### 7.7 Novos coletores (Himalayas, Working Nomads, JobsCollider) — **Pendente**
+#### ✅ 7.7 Novos coletores (Himalayas, Working Nomads, JobsCollider)
 
-Adicionar três coletores gratuitos sem autenticação:
-- Himalayas (`https://himalayas.app/jobs/api`) — JSON paginado, startup remote-first
-- Working Nomads (`https://www.workingnomads.com/jobsapi`) — JSON, curated remote
-- JobsCollider (RSS `product-management` + `project-management`) — mesmo padrão do WWR
-
-Throttle ajustado de 20 → 50 em `apply_seen_jobs_filter` (já implementado em Mar 2026).
-
-Detalhes de implementação (para o Cursor):
-- **Himalayas:** máximo 20 resultados por request; paginação via `?page=N`; retorna `title`, `companyName`, `applicationLink`, `locationRestriction` — mapear para o schema (url=`applicationLink`, location=`locationRestriction`). Seguir padrão de `remotive.py` (JSON + janela de recência).
-- **Working Nomads:** endpoint `https://www.workingnomads.com/jobsapi`; retorna `title`, `company`, `category`, `url`, `location`; sem paginação documentada. Seguir padrão de `remotive.py` (JSON + janela de recência).
-- **JobsCollider:** RSS XML com feeds separados por categoria (`product-management` e `project-management`); seguir padrão de `weworkremotely.py` (RSS + filtro de título por `TITLE_KEYWORDS`). Sem filtro de recência no feed — aplicar janela de 7 dias por `pubDate`.
-
-Critério de aceite: os três coletores aparecem nos logs do fetch.py; pipeline diário
-gera ≥ 10 vagas novas/dia por pelo menos 3 dias consecutivos.
+**Concluído:** 3 coletores adicionados (`himalayas.py`, `workingnomads.py`, `jobscollider.py`), registrados em `__init__.py` e `fetch.py`. Throttle corrigido de 20 → 50 em `apply_seen_jobs_filter`.
 
 **Ordem de execução sugerida (para implementação futura):** 7.5 → 7.3 + 7.4 (paralelo) → 7.2 → 7.6 → 7.7
 

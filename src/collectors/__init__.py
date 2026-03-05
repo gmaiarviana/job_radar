@@ -31,6 +31,9 @@ from .lever import collect_lever
 from .ashby import collect_ashby
 from .remoteok import collect_remoteok
 from .getonboard import collect_getonboard
+from .himalayas import collect_himalayas
+from .workingnomads import collect_workingnomads
+from .jobscollider import collect_jobscollider
 
 __all__ = [
     "collect_remotive",
@@ -42,6 +45,9 @@ __all__ = [
     "collect_ashby",
     "collect_remoteok",
     "collect_getonboard",
+    "collect_himalayas",
+    "collect_workingnomads",
+    "collect_jobscollider",
     "TITLE_KEYWORDS",
     "TITLE_KEYWORDS_LATAM",
 ]
