@@ -114,7 +114,7 @@ def run_pipeline(collectors_config: list[tuple[str, Any]]) -> list[dict]:
 def apply_seen_jobs_filter(
     jobs: list[dict],
     seen: dict,
-    max_new: int = 20,
+    max_new: int = 50,
 ) -> tuple[list[dict], int, int]:
     """
     Separa jobs em novos (não vistos) e já vistos; limita novos a max_new (throttle).
