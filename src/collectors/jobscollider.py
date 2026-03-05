@@ -35,10 +35,16 @@ def _parse_pub_date(date_str: str) -> datetime | None:
 
 def _extract_company_and_title(full_title: str) -> tuple[str, str]:
     """
-    Separa "Empresa: Título" em (empresa, título).
-    Se não houver ":", assume apenas título.
+    Separa empresa e título. Formatos suportados:
+      - "Título at Empresa"  (RSS JobsCollider real)
+      - "Empresa: Título"    (fallback)
+    Se nenhum separador, assume apenas título.
     """
     full_title = (full_title or "").strip()
+    # "Product Manager at Acme Corp" → ("Acme Corp", "Product Manager")
+    if " at " in full_title:
+        title, company = full_title.rsplit(" at ", 1)
+        return company.strip(), title.strip()
     if ":" in full_title:
         company, title = full_title.split(":", 1)
         return company.strip(), title.strip()

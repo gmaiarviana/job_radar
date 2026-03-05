@@ -34,7 +34,9 @@ def _parse_date(date_val) -> datetime | None:
         # ISO string
         if s.endswith("Z"):
             return datetime.fromisoformat(s.replace("Z", "+00:00"))
-        if "+" in s or (len(s) > 10 and s[10:11] == "+"):
+        # Detect timezone offset: +HH:MM or -HH:MM after the date portion
+        tail = s[10:] if len(s) > 10 else ""
+        if "+" in tail or (tail.count("-") > 0 and tail.rfind("-") > 0):
             return datetime.fromisoformat(s)
         return datetime.fromisoformat(s).replace(tzinfo=timezone.utc)
     except (ValueError, TypeError, OSError):
