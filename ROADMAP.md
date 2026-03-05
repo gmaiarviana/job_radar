@@ -1,6 +1,6 @@
 # ROADMAP - Job Radar
 
-📡 **Status:** Pipeline completo (fetch → filter → score → dashboard). Épico 8 concluído. Próximo: Épico 7.3/7.6 (Expansão de Coleta) e Épico 9 (Polimento de UI).
+📡 **Status:** Pipeline completo (fetch → filter → score → dashboard). Épico 8 concluído. Próximo foco: Épicos 7.3 (Expansão de Coleta) e 9 (Polimento de UI).
 
 > **Filosofia:** POC → Protótipo → MVP. Validar cada etapa antes de avançar. Qualidade antes de volume.
 
@@ -85,7 +85,7 @@ Concluído: penalty removida de CEILING_BY_PENALTY e do prompt de analyze_job; p
 
 **Dependência:** Épico 6 concluído.
 
-**Critério de aceite:** Cards com hierarquia visual limpa; ceiling removido da UI; botões de cópia funcionais (JD + relatório); botão "Avaliar outra" funcional na aba Busca Manual.
+**Critério de aceite:** Cards com hierarquia visual limpa; ceiling removido da UI; botões de cópia funcionais (JD + relatório); botão "Avaliar outra" funcional na aba Busca Manual; formulário da Busca Manual com campos na ordem empresa → título → JD; badge de fonte exibindo o coletor de origem (mantendo "manual" para vagas manuais); nova aba "Resumo" no Streamlit e filtro/seção equivalente no GitHub Pages mostrando apenas vagas APLICAR (score ≥ 85).
 
 #### 9.1 Redesign da seção de detalhes
 
@@ -105,31 +105,68 @@ Concluído: penalty removida de CEILING_BY_PENALTY e do prompt de analyze_job; p
 - Ao clicar: limpar formulário e resultado, pronto para nova entrada
 - Sem necessidade de refresh da página
 
+#### 9.4 Reordenar formulário da Busca Manual
+
+- Trocar a ordem dos campos para: empresa → título → JD (hoje está título → empresa → JD)
+- Critério de aceite: ordem dos campos igual à sequência natural do LinkedIn
+
+#### 9.5 Exibir coletor no badge de fonte
+
+- Na aba Vagas, substituir o label "pipeline" pelo nome real do coletor (ex.: "remotive", "greenhouse", "openai_web_search")
+- O campo `source` já existe no JSON com o nome correto; é só mudar a exibição no `app.py`
+- Manter "manual" para vagas da busca manual (sem alteração)
+- Critério de aceite: badge exibe o coletor de origem; vagas manuais continuam com badge "manual"
+
+#### 9.6 Aba "Resumo"
+
+- Nova aba no Streamlit com foco nas vagas que merecem ação: lista filtrada por veredito APLICAR (score ≥ 85), ordenada por score desc, com filtro de data
+- Versão equivalente no GitHub Pages: seção ou filtro dedicado mostrando apenas APLICAR
+- Read-only neste épico; status de aplicação vem depois do Épico 10
+- Critério de aceite: aba funcional no Streamlit; GitHub Pages exibe filtro/seção equivalente
+
 ---
 
 ### ÉPICO 10: Persistência Online (GitHub API via Streamlit Cloud)
 
-**Objetivo:** Habilitar escrita a partir do Streamlit Cloud — paste-and-score persiste no repo via GitHub Contents API, eliminando a necessidade de acesso local para avaliar vagas.
+**Objetivo:** Habilitar escrita a partir do Streamlit Cloud — scoring manual e marcação de aplicações persistem no repo via GitHub Contents API, eliminando a necessidade de acesso local.
 
-**Dependência:** Streamlit Cloud funcional (infra concluída). Épico 9 recomendado mas não bloqueante.
+**Dependência:** Streamlit Cloud funcional (infra concluída). Épico 10.0 (auth) é pré-requisito para 10.1–10.4. Épico 9 recomendado mas não bloqueante.
 
-**Critério de aceite:** Paste-and-score no Streamlit Cloud grava `manual_*.json` no repo via GitHub API. Vagas manuais aparecem na listagem da aba Vagas e no GitHub Pages após o próximo build.
+**Critério de aceite global:** Paste-and-score no Streamlit Cloud grava `manual_*.json` no repo. Marcação "já apliquei" persiste entre sessões. Vagas manuais aparecem na aba Vagas e no GitHub Pages após o próximo build do Actions.
 
-#### 10.1 Camada de escrita GitHub API
-- Módulo `src/github_api.py`: commit de arquivo via GitHub Contents API (PUT)
-- Token via secrets (`GITHUB_TOKEN`)
+#### 10.0 Autenticação Google OAuth
 
-#### 10.2 Integrar persistência no Streamlit Cloud
-- Após scoring manual em `app.py`, commitar `manual_*.json` via `github_api.py`
-- Atualizar `seen_jobs.json` no repo via mesma API
-- Fallback gracioso se token ausente (funciona read-only, como hoje)
+- Habilitar "Viewer authentication" no painel do Streamlit Community Cloud (configuração sem código no painel)
+- Usar `st.experimental_user` no `app.py` para ler o email do usuário logado
+- Proteger todas as ações de escrita com verificação de email autorizado via `st.secrets` (ex: `AUTHORIZED_EMAIL`)
+- Funcionalidade local (sem auth) continua funcionando normalmente — sem quebra de fluxo de desenvolvimento
+- Critério de aceite: app no Streamlit Cloud exige login Google; email não autorizado vê mensagem de erro; ações de leitura permanecem acessíveis
 
-#### 10.3 Atualizar `build_frontend_data.py`
-- Incluir `manual_*.json` commitados via API no consolidado (já funciona; validar)
+#### 10.1 Camada de escrita GitHub API (`src/github_api.py`)
+
+- Módulo com duas operações: `get_file(path)` → retorna conteúdo + SHA atual; `put_file(path, content, sha=None)` → cria (`sha=None`) ou atualiza (sha obrigatório)
+- Detalhe obrigatório: update de arquivo existente exige o SHA retornado pelo GET anterior; sem o SHA correto a API retorna 409 Conflict. O módulo deve encapsular esse fluxo: GET para obter SHA → PUT com SHA
+- Conteúdo trafegado em base64 (requisito da API) — encodar antes do PUT, decodificar no GET
+- Token via `st.secrets` / `os.environ` (`GITHUB_TOKEN`) com escopo `contents: write` no repo
+- Rate limit da API: 5.000 requests/hora autenticado — suficiente para uso pessoal
+- Em caso de falha no PUT (ex: conflito, rede): lançar exceção com mensagem clara para o chamador tratar como fallback
+
+#### 10.2 Integrar persistência no Streamlit Cloud (`app.py`)
+
+- Após scoring manual: commitar `manual_*.json` e atualizar `seen_jobs.json` via `github_api.py`
+- Após marcação "já apliquei": commitar `data/applications.json` via `github_api.py`
+- Fallback gracioso se token ausente ou escrita falhar: exibir resultado normalmente + aviso de que a persistência falhou (não quebrar o fluxo do usuário)
+
+#### 10.3 Validar `build_frontend_data.py`
+
+- Confirmar que `manual_*.json` commitados via API aparecem no consolidado `data/jobs.json`
+- Confirmar que `data/applications.json` é lido corretamente pela aba Resumo
+- Sem alteração de código esperada — apenas validação
 
 #### 10.4 Documentação
-- ARCHITECTURE: `github_api.py` na tabela de componentes
-- README: variáveis de ambiente (`GITHUB_TOKEN`)
+
+- `ARCHITECTURE.md`: adicionar `github_api.py` na tabela de componentes e descrever o fluxo GET→PUT
+- `README.md`: adicionar `GITHUB_TOKEN` e `AUTHORIZED_EMAIL` nas variáveis de ambiente
 
 ---
 
@@ -137,7 +174,7 @@ Concluído: penalty removida de CEILING_BY_PENALTY e do prompt de analyze_job; p
 
 **Objetivo:** Polimento da UI — feedback e histórico consolidado.
 
-**Dependência:** Épico 6 rodando.
+**Dependência:** Épico 6 rodando + Épico 10 concluído.
 
 **Critério de aceite:** Feedback por vaga funcional; histórico com contadores.
 
@@ -158,6 +195,14 @@ Concluído: penalty removida de CEILING_BY_PENALTY e do prompt de analyze_job; p
 - **Exibição:** Custo por dia na UI (sidebar do histórico ou seção dedicada), em reais.
 - **Implementação:** Dicionário de custo por modelo (ex.: em `config/` ou módulo dedicado) com preço por token ou por 1k tokens, para calcular BRL a partir do usage retornado pelas APIs. Se necessário, taxa de câmbio configurável ou fixa.
 - **Nota:** Hoje o código não persiste usage (tokens); será necessário registrar usage nas chamadas do paste-and-score e persistir (ex.: `data/usage/`) para agregar por dia.
+
+#### 11.4 Marcação "Já apliquei"
+
+- Botão por vaga nas abas Vagas e Resumo: marca a vaga como aplicada (boolean) e registra a data automaticamente
+- Persiste via GitHub API (depende do Épico 10)
+- Aba Resumo exibe filtro adicional: "todas APLICAR" vs "ainda não apliquei"
+- Dados em `data/applications.json` no repo (mesmo padrão de `seen_jobs.json`)
+- Critério de aceite: marcação persiste entre sessões no Streamlit Cloud; aparece como filtro na aba Resumo
 
 ---
 
@@ -217,4 +262,4 @@ Backlog, itens postergados e ideias futuras → [docs/governance/backlog.md](doc
 ---
 
 **Última atualização:** Mar 2026  
-**Revisão (estado do código):** Conferido em Mar 2026. Concluídos conforme seção ✅; Épicos 9 (UI polish), 10 (GitHub API), 11 (feedback/histórico), 12 (retry/tratamento de falhas), 13 (generate.py completo) e 14 ainda não implementados. `generate.py` segue stub; `github_api.py` não existe.
+**Revisão (estado do código):** Conferido em Mar 2026. Concluídos conforme seção ✅; Épicos 9 (UI polish, incluindo formulário da Busca Manual, badge de coletor e aba Resumo), 10 (auth Google + GitHub API), 11 (feedback/histórico + marcação "Já apliquei"), 12 (retry/tratamento de falhas), 13 (generate.py completo) e 14 ainda não implementados. `generate.py` segue stub; `github_api.py` não existe.
