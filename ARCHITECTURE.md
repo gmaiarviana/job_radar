@@ -40,6 +40,7 @@ graph TD
 | **Interface** | `app.py` | Streamlit | Três abas: **Vagas** (tabela unificada de `data/scored/`: pipeline + manual_*.json; filtro por data; cards com score, veredito APLICAR/AVALIAR/PULAR, badge de coletor real, salário, link; expander "Detalhes" sem ceiling, com veredito no topo, botões "Copiar JD"/"Copiar Relatório" via `st.code`), **Resumo** (filtra apenas APLICAR score ≥ 85, ordenado por score desc, filtro de data) e **Busca Manual** (links de `config/manual_searches.yaml` + paste-and-score com formulário empresa→título→JD→url→localização; botão "Avaliar outra vaga" para reset; salva em `data/scored/manual_YYYY-MM-DD_HHMMSS.json`; atualiza `seen_jobs.json`). Funciona local e em Streamlit Cloud. Depende de `src/score.py`, `src/job_schema.py`, `src/seen_jobs.py`, `src/paths.py`. |
 | **Writer** | `src/generate.py`| Claude Sonnet | Redação de alta qualidade para CV e Cover Letter. |
 | **Notifier** | `src/notify.py` | SMTP | Alertas imediatos para `PERFECT_MATCH` (score > 95). |
+| **GitHub API** | `src/github_api.py` | GitHub Contents API | Persistência remota via API: `get_file(path)` retorna conteúdo + SHA; `put_file(path, content, sha)` cria ou atualiza arquivo no repo. Usado pelo `app.py` no Streamlit Cloud para gravar `manual_*.json` e `seen_jobs.json` diretamente no repositório. Fallback: filesystem local quando token ausente. |
 | **Frontend Data** | `src/build_frontend_data.py` | — | Consolida `data/scored/` em `data/jobs.json`. O workflow copia para `docs/data/jobs.json` para o GitHub Pages servir. Filtra últimos 14 dias, ordena por data e score. Roda no pipeline diário (Actions) e como CLI. |
 | **Eval** | `src/eval/build_gabarito.py`, `eval_eliminatorios.py`, `test_scoring.py`, `validate_scoring_pipeline.py` | — | Infraestrutura de avaliação: gabarito machine-readable, eval parametrizado por modelo; testes de scoring (compute_ceiling); validação do pipeline de 2 chamadas no seed (5.1.5) via `--seed <path>`. |
 
@@ -81,6 +82,7 @@ job-radar/
 │   │   ├── lever.py            # Lever Postings API (Épico 3.3; companies.yaml ats=lever)
 │   │   ├── ashby.py            # Ashby Job Board API (Épico 3.4; companies.yaml ats=ashby; POST)
 │   │   └── openai_search.py    # OpenAI gpt-4o-mini web search
+│   ├── github_api.py            # Persistência remota via GitHub Contents API (GET/PUT)
 │   ├── build_frontend_data.py   # Consolida scored → data/jobs.json (workflow copia para docs/data/)
 │   ├── filter.py                # Hard filters (location + quality); raw → filtered
 │   ├── score.py                 # Scoring via Claude Haiku (lê filtered)
@@ -118,7 +120,7 @@ job-radar/
 - **Linguagem**: Python 3.11+
 - **APIs**: OpenAI (Search Preview), Remotive (pública, sem key), We Work Remotely (RSS público), Himalayas (pública, sem key), Working Nomads (pública, sem key), JobsCollider (RSS público), Anthropic (Claude).
 - **Ambiente**: Produção simulada via GitHub Actions; Consumo via Streamlit local. Usar **venv** para desenvolvimento e validação (`python -m venv .venv` ou `venv`).
-- **Streamlit Cloud**: App hospedado em share.streamlit.io. Secrets via `st.secrets` (bridge para `os.environ` no `app.py`). Filesystem efêmero — scoring manual funciona mas resultados não persistem entre restarts (resolvido no Épico 10 via GitHub API). Repo clonado automaticamente; `data/scored/` commitado pelo Actions fica disponível.
+- **Streamlit Cloud**: App hospedado em share.streamlit.io. Secrets via `st.secrets` (bridge para `os.environ` no `app.py`). Filesystem efêmero — persistência de scoring manual via GitHub Contents API (`src/github_api.py`) quando `GITHUB_TOKEN` disponível; fallback para filesystem local. Autenticação via Google OAuth ("Viewer authentication" no painel do Streamlit Cloud) com verificação de email autorizado (`AUTHORIZED_EMAIL`). Repo clonado automaticamente; `data/scored/` commitado pelo Actions fica disponível.
 - **GitHub Pages**: Dashboard read-only em `docs/` (source: branch `main`, pasta `/docs/`). `build_frontend_data.py` gera `data/jobs.json`; o workflow copia para `docs/data/jobs.json`; `docs/index.html` consome via fetch em `data/jobs.json`.
 - **Segurança**: Chaves de API via `.env` (local) e Secrets (GitHub).
 
