@@ -18,11 +18,16 @@ companies:
   # Argumento: produto que o candidato usa/conhece; escala global; B2B
   # -------------------------------------------------------------------
   hr_tech:
-    # 404 no seed 2026-02-24 — revalidar slug/ATS depois
+    # 404 no seed 2026-02-24 — revalidar slug/ATS depois (Greenhouse)
     # - name: "Deel"
     #   ats: "greenhouse"
     #   ats_id: "deel"
     #   notes: "Remote-first por definição; contratam LATAM contractors consistentemente"
+
+    - name: "Deel"
+      ats: "ashby"
+      ats_id: "deel"
+      notes: "Remote-first por definição; contratam LATAM contractors; ATS migrado para Ashby (jobs.ashbyhq.com/deel)"
 
     # 404 no seed 2026-02-24 — revalidar slug/ATS depois
     # - name: "Rippling"
@@ -45,6 +50,16 @@ companies:
   # Argumento: background Nubank (crédito, dados em escala, produto B2B)
   # -------------------------------------------------------------------
   fintech:
+    - name: "dLocal"
+      ats: "lever"
+      ats_id: "dlocal"
+      notes: "Fintech LATAM (AR, BR, UY), PM roles confirmados"
+
+    - name: "Stripe"
+      ats: "greenhouse"
+      ats_id: "stripe"
+      notes: "Fintech, LATAM confirmado em boards"
+
     - name: "Nubank"
       ats: "greenhouse"
       ats_id: "nubank"
@@ -84,6 +99,24 @@ companies:
   # Argumento: PO 2 anos em B2B SaaS; stakeholder management; escala
   # -------------------------------------------------------------------
   saas_b2b:
+    # 404 no seed 2026-03-05 — revalidar slug/ATS depois
+    # - name: "Zapier"
+    #   ats: "greenhouse"
+    #   ats_id: "zapier"
+    #   notes: "SaaS workflow automation, remote worldwide"
+
+    # 404 no seed 2026-03-05 — revalidar slug/ATS depois
+    # - name: "Doist"
+    #   ats: "greenhouse"
+    #   ats_id: "doist"
+    #   notes: "Todoist/Twist, remote global"
+
+    # 404 no seed 2026-03-05 — revalidar slug/ATS depois
+    # - name: "Loadsmart"
+    #   ats: "greenhouse"
+    #   ats_id: "loadsmart"
+    #   notes: "Logistics SaaS, TPM LATAM explícito"
+
     - name: "GitLab"
       ats: "greenhouse"
       ats_id: "gitlab"

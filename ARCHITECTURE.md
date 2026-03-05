@@ -11,7 +11,7 @@ O sistema é dividido em um pipeline de dados (nuvem/Actions), uma interface de 
 ```mermaid
 graph TD
     A[GitHub Actions - Cloud] -->|Cron/Manual| B[fetch.py - Pipeline multi-fonte]
-    B -->|coletores| B1[OpenAI Search + Remotive + We Work Remotely + Jobicy + Remote OK + Get on Board + Greenhouse + Lever + Ashby]
+    B -->|coletores| B1[OpenAI Search + Remotive + We Work Remotely + Jobicy + Remote OK + Get on Board + Himalayas + Working Nomads + JobsCollider + Greenhouse + Lever + Ashby]
     B1 -->|raw| B2[job_schema + fetch_pipeline]
     B2 -->|data/raw/| B3[filter.py - Hard filters]
     B3 -->|title + location + quality guard| B4[data/filtered/]
@@ -33,11 +33,11 @@ graph TD
 
 | Componente | Script / Módulo | Modelo/Motor | Papel |
 | :--- | :--- | :--- | :--- |
-| **Search** | `src/fetch.py` (CLI) + `job_schema.py` + `fetch_pipeline.py` + `seen_jobs.py` + `collectors/*` | OpenAI Search, Remotive, We Work Remotely, Jobicy, Remote OK, Get on Board, Greenhouse, Lever, Ashby (Épicos 3.2–3.4, 7.2) | Orquestra coletores, normaliza para schema único, dedupe persistente (`data/seen_jobs.json`) + throttle 20 novos/run, quality guard, métricas de cobertura no JSON, grava em `RAW_DIR` (`src/paths.py`). Janela de coleta de 7 dias nos coletores com filtro de recência (Remotive, Jobicy, Remote OK, Get on Board); fontes sem recorte client-side (WWR feed master, ATS) trazem todas as vagas abertas. |
+| **Search** | `src/fetch.py` (CLI) + `job_schema.py` + `fetch_pipeline.py` + `seen_jobs.py` + `collectors/*` | OpenAI Search, Remotive, We Work Remotely, Jobicy, Remote OK, Get on Board, Himalayas, Working Nomads, JobsCollider, Greenhouse, Lever, Ashby (Épicos 3.2–3.4, 7.2, 7.7) | Orquestra coletores, normaliza para schema único, dedupe persistente (`data/seen_jobs.json`) + throttle 50 novos/run, quality guard, métricas de cobertura no JSON, grava em `RAW_DIR` (`src/paths.py`). Janela de coleta de 7 dias nos coletores com filtro de recência (Remotive, Jobicy, Remote OK, Get on Board, Himalayas, Working Nomads, JobsCollider); fontes sem recorte client-side (WWR feed master, ATS) trazem todas as vagas abertas. |
 | **Paths** | `src/paths.py` | — | Single source of truth para diretórios do projeto. Lê output de search.yaml, expõe RAW_DIR, FILTERED_DIR, SCORED_DIR, etc. como Path objects. |
 | **Filter** | `src/filter.py` | — | Hard filters gratuitos: title (exclude_title_keywords de search.yaml) + location (blocklist + allowlist) + quality guard (JD/título/empresa). Lê `data/raw/`, grava `data/filtered/` (mesmo nome; jd_full intacto). CLI: `--input` ou `--date`. `data/filtered/` no .gitignore. |
 | **Score** | `src/score.py` | Claude Haiku | Lê de `data/filtered/`. Eliminatórios em batch com payload completo (title, company, location, jd_full). Deep Scoring individual com JD truncado a 3000 chars no prompt (não no armazenamento). Chamada 1 (analyze_job) retorna `penalties` como dict de bools (seniority_gap, domain_gap_core); compute_ceiling calcula teto em Python; Chamada 2 (score_with_analysis) recebe análise + ceiling e atribui score final (early return se ceiling ≤ 50, senão Haiku com teto explícito). main() executa esse pipeline por vaga; output por vaga inclui score_ceiling, ceiling_reason, core_requirements, seniority_comparison. Contra `config/profile.md`. |
-| **Interface** | `app.py` | Streamlit | Duas abas: **Vagas** (tabela unificada de `data/scored/`: pipeline + manual_*.json; filtro por data; cards com score, veredito APLICAR/AVALIAR/PULAR, fonte, salário quando existir, link; expand com análise completa) e **Busca Manual** (links de `config/manual_searches.yaml` + paste-and-score: normalize_job → analyze_job → compute_ceiling → score_with_analysis; salva em `data/scored/manual_YYYY-MM-DD_HHMMSS.json` com hora local no nome e UTC em scored_at; atualiza `seen_jobs.json`). Funciona local e em Streamlit Cloud (filesystem efêmero no cloud; persistência graceful para scoring manual — resultado sempre aparece mesmo se gravação falhar). Depende de `src/score.py`, `src/job_schema.py`, `src/seen_jobs.py`, `src/paths.py`. Revisão, feedback e acionamento de geração. |
+| **Interface** | `app.py` | Streamlit | Três abas: **Vagas** (tabela unificada de `data/scored/`: pipeline + manual_*.json; filtro por data; cards com score, veredito APLICAR/AVALIAR/PULAR, badge de coletor real, salário, link; expander "Detalhes" sem ceiling, com veredito no topo, botões "Copiar JD"/"Copiar Relatório" via `st.code`), **Resumo** (filtra apenas APLICAR score ≥ 85, ordenado por score desc, filtro de data) e **Busca Manual** (links de `config/manual_searches.yaml` + paste-and-score com formulário empresa→título→JD→url→localização; botão "Avaliar outra vaga" para reset; salva em `data/scored/manual_YYYY-MM-DD_HHMMSS.json`; atualiza `seen_jobs.json`). Funciona local e em Streamlit Cloud. Depende de `src/score.py`, `src/job_schema.py`, `src/seen_jobs.py`, `src/paths.py`. |
 | **Writer** | `src/generate.py`| Claude Sonnet | Redação de alta qualidade para CV e Cover Letter. |
 | **Notifier** | `src/notify.py` | SMTP | Alertas imediatos para `PERFECT_MATCH` (score > 95). |
 | **GitHub API** | `src/github_api.py` | GitHub Contents API | Persistência remota via API: `get_file(path)` retorna conteúdo + SHA; `put_file(path, content, sha)` cria ou atualiza arquivo no repo. Usado pelo `app.py` no Streamlit Cloud para gravar `manual_*.json` e `seen_jobs.json` diretamente no repositório. Fallback: filesystem local quando token ausente. |
@@ -75,6 +75,9 @@ job-radar/
 │   │   ├── jobicy.py            # API Jobicy (industry=product; janela 7d)
 │   │   ├── remoteok.py          # API Remote OK (Épico 7.2; tags/position PM; janela 7d; Source: Remote OK)
 │   │   ├── getonboard.py        # API Get on Board (Épico 7.2; LATAM, product manager remote; paginação até 5 páginas)
+│   │   ├── himalayas.py         # API Himalayas (Épico 7.7; JSON paginado até 5 páginas; PM/TPM; janela 7d)
+│   │   ├── workingnomads.py     # API Working Nomads (Épico 7.7; JSON sem paginação; PM/TPM; janela 7d)
+│   │   ├── jobscollider.py      # RSS JobsCollider (Épico 7.7; product + project management; PM/TPM; janela 7d)
 │   │   ├── greenhouse.py       # Greenhouse Job Board API (Épico 3.2; companies.yaml ats=greenhouse)
 │   │   ├── lever.py            # Lever Postings API (Épico 3.3; companies.yaml ats=lever)
 │   │   ├── ashby.py            # Ashby Job Board API (Épico 3.4; companies.yaml ats=ashby; POST)
@@ -115,7 +118,7 @@ job-radar/
 ## ⚙️ Infraestrutura e Ambiente
 
 - **Linguagem**: Python 3.11+
-- **APIs**: OpenAI (Search Preview), Remotive (pública, sem key), We Work Remotely (RSS público), Anthropic (Claude).
+- **APIs**: OpenAI (Search Preview), Remotive (pública, sem key), We Work Remotely (RSS público), Himalayas (pública, sem key), Working Nomads (pública, sem key), JobsCollider (RSS público), Anthropic (Claude).
 - **Ambiente**: Produção simulada via GitHub Actions; Consumo via Streamlit local. Usar **venv** para desenvolvimento e validação (`python -m venv .venv` ou `venv`).
 - **Streamlit Cloud**: App hospedado em share.streamlit.io. Secrets via `st.secrets` (bridge para `os.environ` no `app.py`). Filesystem efêmero — persistência de scoring manual via GitHub Contents API (`src/github_api.py`) quando `GITHUB_TOKEN` disponível; fallback para filesystem local. Autenticação via Google OAuth ("Viewer authentication" no painel do Streamlit Cloud) com verificação de email autorizado (`AUTHORIZED_EMAIL`). Repo clonado automaticamente; `data/scored/` commitado pelo Actions fica disponível.
 - **GitHub Pages**: Dashboard read-only em `docs/` (source: branch `main`, pasta `/docs/`). `build_frontend_data.py` gera `data/jobs.json`; o workflow copia para `docs/data/jobs.json`; `docs/index.html` consome via fetch em `data/jobs.json`.

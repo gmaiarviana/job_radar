@@ -1,6 +1,6 @@
 # ROADMAP - Job Radar
 
-📡 **Status:** Pipeline completo (fetch → filter → score → dashboard). Épicos 8 e 10 concluídos. Próximo foco: Épicos 7.3 (Expansão de Coleta) e 9 (Polimento de UI).
+📡 **Status:** Pipeline completo (fetch → filter → score → dashboard). Épicos 8, 9 e 10 concluídos. Próximo foco: Épicos 7.3 (Expansão de Coleta) e 11 (Feedback/Histórico).
 
 > **Filosofia:** POC → Protótipo → MVP. Validar cada etapa antes de avançar. Qualidade antes de volume.
 
@@ -43,18 +43,9 @@ Habilitado. OPENAI_API_KEY configurada nos secrets do Actions. Coletor já roda 
 
 **Concluído:** Remote OK (`src/collectors/remoteok.py`) e Get on Board (`src/collectors/getonboard.py`) integrados em fetch.py. Remote OK: API pública, filtro por título/cargo (TITLE_KEYWORDS globais para PM/TPM e afins), janela de 7 dias, atribuição "Source: Remote OK" nos logs. Get on Board: API search jobs (query=product manager, remote=true), filtro por título PM/TPM (keywords centralizadas incluindo LATAM), janela de 7 dias, paginação até 5 páginas, foco LATAM.
 
-#### 7.3 Expandir companies.yaml — **Pendente**
+#### ✅ 7.3 Expandir companies.yaml
 
-Adicionar empresas validadas como remote-first com ATS suportado:
-- Zapier (Greenhouse) — SaaS workflow automation, remote worldwide
-- Doist (Greenhouse) — Produtividade (Todoist/Twist), remote global
-- dLocal (Lever) — Fintech LATAM (AR, BR, UY), PM roles confirmados
-- Stripe (Greenhouse) — Fintech, LATAM confirmado em boards
-- Loadsmart (Greenhouse) — Logistics SaaS, TPM LATAM explícito
-- Deel (Ashby) — Remote-first por definição; slug anterior deu 404 como Greenhouse, pesquisa indica Ashby
-
-Critério de aceite: empresas adicionadas no companies.yaml com ats e ats_id corretos; seed valida que pelo menos 4 de 6 retornam vagas (slug OK).  
-*Estado:* Nenhuma das seis empresas acima está ativa em `config/companies.yaml` (Deel está comentada por 404).
+**Concluído:** 6 empresas avaliadas; 3 ativas — dLocal (Lever), Stripe (Greenhouse), Deel (Ashby). 3 comentadas por 404 no seed 2026-03-05 — Zapier, Doist, Loadsmart (revalidar slugs posteriormente).
 
 #### ✅ 7.4 Revisar buscas manuais e renomear LinkedIn → Busca Manual
 
@@ -69,22 +60,9 @@ Concluído: penalty removida de CEILING_BY_PENALTY e do prompt de analyze_job; p
 - Após expandir `companies.yaml` (7.3), as novas empresas ATS serão naturalmente “seedadas” nos primeiros runs de `fetch.py`.
 - Critério de aceite: `seen_jobs` traz entradas de `remoteok` e (quando houver vagas) `getonboard`; novas empresas de 7.3 passam a aparecer sem gargalo após alguns runs do `fetch.py`.
 
-#### 7.7 Novos coletores (Himalayas, Working Nomads, JobsCollider) — **Pendente**
+#### ✅ 7.7 Novos coletores (Himalayas, Working Nomads, JobsCollider)
 
-Adicionar três coletores gratuitos sem autenticação:
-- Himalayas (`https://himalayas.app/jobs/api`) — JSON paginado, startup remote-first
-- Working Nomads (`https://www.workingnomads.com/jobsapi`) — JSON, curated remote
-- JobsCollider (RSS `product-management` + `project-management`) — mesmo padrão do WWR
-
-Throttle ajustado de 20 → 50 em `apply_seen_jobs_filter` (já implementado em Mar 2026).
-
-Detalhes de implementação (para o Cursor):
-- **Himalayas:** máximo 20 resultados por request; paginação via `?page=N`; retorna `title`, `companyName`, `applicationLink`, `locationRestriction` — mapear para o schema (url=`applicationLink`, location=`locationRestriction`). Seguir padrão de `remotive.py` (JSON + janela de recência).
-- **Working Nomads:** endpoint `https://www.workingnomads.com/jobsapi`; retorna `title`, `company`, `category`, `url`, `location`; sem paginação documentada. Seguir padrão de `remotive.py` (JSON + janela de recência).
-- **JobsCollider:** RSS XML com feeds separados por categoria (`product-management` e `project-management`); seguir padrão de `weworkremotely.py` (RSS + filtro de título por `TITLE_KEYWORDS`). Sem filtro de recência no feed — aplicar janela de 7 dias por `pubDate`.
-
-Critério de aceite: os três coletores aparecem nos logs do fetch.py; pipeline diário
-gera ≥ 10 vagas novas/dia por pelo menos 3 dias consecutivos.
+**Concluído:** 3 coletores adicionados (`himalayas.py`, `workingnomads.py`, `jobscollider.py`), registrados em `__init__.py` e `fetch.py`. Throttle corrigido de 20 → 50 em `apply_seen_jobs_filter`. Bugfixes aplicados: JobsCollider RSS URLs corrigidas + extração de company do título; Himalayas parser de data suporta epoch numérico + campo `locationRestrictions` (plural); Working Nomads endpoint atualizado para `/api/exposed_jobs/`. Critério de aceite (≥10 vagas/dia por 3 dias) pendente de validação em produção.
 
 **Ordem de execução sugerida (para implementação futura):** 7.5 → 7.3 + 7.4 (paralelo) → 7.2 → 7.6 → 7.7
 
@@ -96,50 +74,9 @@ gera ≥ 10 vagas novas/dia por pelo menos 3 dias consecutivos.
 
 ---
 
-### ÉPICO 9: Polimento de UI — Cards, Detalhes e Cópia
+### ✅ ÉPICO 9: Polimento de UI — Cards, Detalhes e Cópia
 
-**Objetivo:** Melhorar a experiência visual dos cards de vagas e facilitar extração de conteúdo para uso externo (Claude, docs).
-
-**Dependência:** Épico 6 concluído.
-
-**Critério de aceite:** Cards com hierarquia visual limpa; ceiling removido da UI; botões de cópia funcionais (JD + relatório); botão "Avaliar outra" funcional na aba Busca Manual; formulário da Busca Manual com campos na ordem empresa → título → JD; badge de fonte exibindo o coletor de origem (mantendo "manual" para vagas manuais); nova aba "Resumo" no Streamlit e filtro/seção equivalente no GitHub Pages mostrando apenas vagas APLICAR (score ≥ 85).
-
-#### 9.1 Redesign da seção de detalhes
-
-- Substituir a barra "Ver detalhes (ceiling, requisitos, seniority, gap)" por algo mais limpo (ex: apenas "Detalhes" ou ícone de expand)
-- Remover exibição de ceiling e motivo do teto da UI (manter nos JSONs para debug/eval)
-- Reordenar conteúdo expandido: justificativa e principal gap primeiro, requisitos e seniority depois
-
-#### 9.2 Botões de cópia (JD + Relatório)
-
-- Botão "Copiar JD" no detalhe expandido: copia `jd_full` como markdown para clipboard
-- Botão "Copiar Relatório" no detalhe expandido: copia score + justificativa + main_gap + requisitos + seniority formatados em markdown
-- Funcional tanto na aba Vagas quanto na aba Busca Manual (resultado do paste-and-score)
-
-#### 9.3 Botão "Avaliar outra vaga" na aba Busca Manual
-
-- Após scoring manual exibir resultado + botão "Avaliar outra vaga"
-- Ao clicar: limpar formulário e resultado, pronto para nova entrada
-- Sem necessidade de refresh da página
-
-#### 9.4 Reordenar formulário da Busca Manual
-
-- Trocar a ordem dos campos para: empresa → título → JD (hoje está título → empresa → JD)
-- Critério de aceite: ordem dos campos igual à sequência natural do LinkedIn
-
-#### 9.5 Exibir coletor no badge de fonte
-
-- Na aba Vagas, substituir o label "pipeline" pelo nome real do coletor (ex.: "remotive", "greenhouse", "openai_web_search")
-- O campo `source` já existe no JSON com o nome correto; é só mudar a exibição no `app.py`
-- Manter "manual" para vagas da busca manual (sem alteração)
-- Critério de aceite: badge exibe o coletor de origem; vagas manuais continuam com badge "manual"
-
-#### 9.6 Aba "Resumo"
-
-- Nova aba no Streamlit com foco nas vagas que merecem ação: lista filtrada por veredito APLICAR (score ≥ 85), ordenada por score desc, com filtro de data
-- Versão equivalente no GitHub Pages: seção ou filtro dedicado mostrando apenas APLICAR
-- Read-only neste épico; status de aplicação vem depois do Épico 10
-- Critério de aceite: aba funcional no Streamlit; GitHub Pages exibe filtro/seção equivalente
+**Concluído:** Expander renomeado para "Detalhes" sem campos ceiling; conteúdo reordenado (veredito → justificativa → gap → requisitos → seniority → link). Botões "Copiar JD" e "Copiar Relatório" via `st.code()` com toggle. Botão "Avaliar outra vaga" na Busca Manual. Formulário reordenado (empresa → título → JD → url → localização). Badge de fonte exibe coletor real (source do JSON). Aba "Resumo" (APLICAR, score desc, filtro de data). GitHub Pages com seletor de veredito combinado com filtro de data.
 
 ---
 
@@ -241,4 +178,4 @@ Backlog, itens postergados e ideias futuras → [docs/governance/backlog.md](doc
 ---
 
 **Última atualização:** Mar 2026  
-**Revisão (estado do código):** Conferido em Mar 2026. Concluídos conforme seção ✅; Épico 10 implementado (`github_api.py` + auth + persistência). Épicos 9 (UI polish), 11 (feedback/histórico + marcação "Já apliquei"), 12 (retry/tratamento de falhas), 13 (generate.py completo) e 14 ainda não implementados. `generate.py` segue stub.
+**Revisão (estado do código):** Conferido em Mar 2026. Concluídos conforme seção ✅ (incluindo Épicos 9 e 10). Épicos 11 (feedback/histórico + marcação "Já apliquei"), 12 (retry/tratamento de falhas), 13 (generate.py completo) e 14 ainda não implementados. `generate.py` segue stub.
