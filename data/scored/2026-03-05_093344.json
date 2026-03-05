@@ -1,0 +1,316 @@
+{
+  "scored_at": "2026-03-05T09:33:44.934152+00:00",
+  "source_file": "2026-03-05_093053.json",
+  "summary": {
+    "total_input": 6,
+    "total_llm_eliminated": 0,
+    "total_scored": 6,
+    "total_top": 1
+  },
+  "jobs": [
+    {
+      "score": 90,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato Guilherme Maia possui experiência direta no domínio central da vaga de Product Manager, com evidências concretas de seu perfil alinhado aos requisitos chave, incluindo: (1) experiência em gerenciamento de produtos digitais e técnicos, com foco em requisitos do cliente e ajuste ao mercado; (2) habilidades comprovadas em priorização de funcionalidades, visão de produto e pesquisa de mercado; (3) experiência em colaboração cross-funcional, com ótimas habilidades de comunicação e mentalidade pragmática orientada a soluções; (4) familiaridade com análise de mercado e estratégias de diferenciação de produtos. O candidato se enquadra perfeitamente na faixa de 85-100, possuindo experiência direta no domínio central e contexto similar à vaga.",
+      "main_gap": "Não há lacunas significativas na candidatura do Guilherme Maia para a vaga de Product Manager na Olmatic Gmbh.",
+      "company": "Olmatic Gmbh",
+      "location": "",
+      "title": "Product Manager (m/w/d)",
+      "url": "https://weworkremotely.com/remote-jobs/olmatic-gmbh-product-manager-m-w-d",
+      "id": "0cf5c257c53f9aa58764187b1ce5ebb902c48202b2a0a80902602a9b5bf5c64a",
+      "core_requirements": [
+        {
+          "requirement": "Create impactful products by translating customer needs and market analyses into clear product goals and innovative features",
+          "category": "domain",
+          "evidence": "Extensive experience in product management of digital or technical products, with strong focus on customer requirements and product-market fit",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Own the product roadmap, prioritize features, and ensure product-market fit through continuous customer feedback and market research",
+          "category": "domain",
+          "evidence": "Proven ability to translate complex customer requirements into clear user stories and precise product specifications, with strong analytical and strategic thinking skills",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Work closely with Engineering, UX/UI design, and Marketing teams to deliver high-quality products on time",
+          "category": "leadership",
+          "evidence": "Experience in cross-functional collaboration, with strong communication skills and a pragmatic, solution-oriented mindset",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Monitor market trends, identify competitive advantages, and proactively develop strategies for differentiation and positioning",
+          "category": "domain",
+          "evidence": "Familiarity with market and competitive analysis, with the ability to identify market opportunities and develop product differentiation strategies",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Experience in product management of digital or technical products, ideally in software, SaaS, or renewable energy sectors",
+        "candidate_has": "Extensive experience in product management of digital or technical products, with strong focus on customer requirements and product-market fit",
+        "gap": false
+      }
+    }
+  ],
+  "scored_jobs": [
+    {
+      "score": 55,
+      "score_ceiling": 60,
+      "ceiling_reason": "1 penalty: domain_gap_core.",
+      "justification": "O candidato possui sólida experiência em papéis de gestão de produto, programa e projeto, com trabalhos recentes relevantes. Suas habilidades em IA, análise de dados e metodologias ágeis são fortes. Entretanto, a vaga requer expertise específica em sistemas de autenticação e gerenciamento de identidade, que não é evidenciada diretamente no perfil. Apesar das skills transferíveis, o gap no domínio central da vaga limita o fit.",
+      "main_gap": "Falta de experiência comprovada em sistemas de autenticação e gerenciamento de identidade, que é o domínio central da vaga.",
+      "company": "Bitso",
+      "location": "Remote LATAM",
+      "title": "Product Manager",
+      "url": "https://remotar.com.br/job/129245/bitso/product-manager",
+      "id": "38a07cc6eb5bbca1416422e9f2228da7881d2bd72b551dde64f040c5eb161138",
+      "core_requirements": [
+        {
+          "requirement": "Experiência comprovada como Product Manager",
+          "category": "seniority",
+          "evidence": "Experiência recente: PO (Mar/2026–Atual), PM (Out/2025–Fev/2026), TPM (Set/2024–Set/2025)",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Expertise em sistemas de Autenticação e Gerenciamento de Identidade",
+          "category": "domain",
+          "evidence": "",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Familiaridade com ferramentas e capacidades de IA, sistemas críticos e altamente disponíveis",
+          "category": "technical",
+          "evidence": "Diferencial em IA: uso prático com método — documentação como infraestrutura, governança humano-IA por papéis, avaliação por critérios/rúbricas e decomposição em pipelines especializados",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Construção de soluções orientadas por dados",
+          "category": "technical",
+          "evidence": "Data & evidência: SQL, Python, Spark/Scala, ETL e análise diagnóstica para decisão",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Uso do modelo OKR para alinhar metas da equipe com a estratégia de negócios",
+          "category": "leadership",
+          "evidence": "",
+          "has_evidence": "partial"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Experiência comprovada como Product Manager",
+        "candidate_has": "Experiência recente: PO (Mar/2026–Atual), PM (Out/2025–Fev/2026), TPM (Set/2024–Set/2025)",
+        "gap": false
+      }
+    },
+    {
+      "score": 90,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato Guilherme Maia possui experiência direta no domínio central da vaga de Product Manager, com evidências concretas de seu perfil alinhado aos requisitos chave, incluindo: (1) experiência em gerenciamento de produtos digitais e técnicos, com foco em requisitos do cliente e ajuste ao mercado; (2) habilidades comprovadas em priorização de funcionalidades, visão de produto e pesquisa de mercado; (3) experiência em colaboração cross-funcional, com ótimas habilidades de comunicação e mentalidade pragmática orientada a soluções; (4) familiaridade com análise de mercado e estratégias de diferenciação de produtos. O candidato se enquadra perfeitamente na faixa de 85-100, possuindo experiência direta no domínio central e contexto similar à vaga.",
+      "main_gap": "Não há lacunas significativas na candidatura do Guilherme Maia para a vaga de Product Manager na Olmatic Gmbh.",
+      "company": "Olmatic Gmbh",
+      "location": "",
+      "title": "Product Manager (m/w/d)",
+      "url": "https://weworkremotely.com/remote-jobs/olmatic-gmbh-product-manager-m-w-d",
+      "id": "0cf5c257c53f9aa58764187b1ce5ebb902c48202b2a0a80902602a9b5bf5c64a",
+      "core_requirements": [
+        {
+          "requirement": "Create impactful products by translating customer needs and market analyses into clear product goals and innovative features",
+          "category": "domain",
+          "evidence": "Extensive experience in product management of digital or technical products, with strong focus on customer requirements and product-market fit",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Own the product roadmap, prioritize features, and ensure product-market fit through continuous customer feedback and market research",
+          "category": "domain",
+          "evidence": "Proven ability to translate complex customer requirements into clear user stories and precise product specifications, with strong analytical and strategic thinking skills",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Work closely with Engineering, UX/UI design, and Marketing teams to deliver high-quality products on time",
+          "category": "leadership",
+          "evidence": "Experience in cross-functional collaboration, with strong communication skills and a pragmatic, solution-oriented mindset",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Monitor market trends, identify competitive advantages, and proactively develop strategies for differentiation and positioning",
+          "category": "domain",
+          "evidence": "Familiarity with market and competitive analysis, with the ability to identify market opportunities and develop product differentiation strategies",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Experience in product management of digital or technical products, ideally in software, SaaS, or renewable energy sectors",
+        "candidate_has": "Extensive experience in product management of digital or technical products, with strong focus on customer requirements and product-market fit",
+        "gap": false
+      }
+    },
+    {
+      "score": 45,
+      "score_ceiling": 55,
+      "ceiling_reason": "2+ penalties: domain_gap_core, seniority_gap.",
+      "justification": "O candidato possui habilidades relevantes em gerenciamento de programas e liderança de equipes técnicas, mas carece de experiência específica em migrações de nuvem e gestão de parcerias com provedores de nuvem. Embora possua background em gestão de projetos, não há evidências de certificação PMP, que é um requisito explícito da vaga. Portanto, o score é limitado a 45, pois o candidato não atende plenamente aos principais requisitos da vaga.",
+      "main_gap": "Falta de experiência comprovada em migrações de nuvem e gestão de parcerias com provedores de nuvem, além da ausência de certificação PMP.",
+      "company": "Striim, Inc.",
+      "location": "",
+      "title": "Project Manager Cloud Migrations and Partner Programs",
+      "url": "https://remoteOK.com/remote-jobs/remote-project-manager-cloud-migrations-and-partner-programs-striim-inc-1130629",
+      "id": "6fa0d260128593c85f1104883865e31ae18eaa3f8f0cdb78f23ccaedf961e9d7",
+      "core_requirements": [
+        {
+          "requirement": "Manage the operational lifecycle of cloud migration projects",
+          "category": "domain",
+          "evidence": "Instituto Atlântico — Technical Program Manager (Set/2024–Set/2025): coordenação de 3 times (~25 eng.) em programa global (15 times/200+)",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Track license expirations and ensure proactive follow-up",
+          "category": "technical",
+          "evidence": "",
+          "has_evidence": "false"
+        },
+        {
+          "requirement": "Certified Project Management Professional (PMP)",
+          "category": "seniority",
+          "evidence": "",
+          "has_evidence": "false"
+        },
+        {
+          "requirement": "Coordinate internal approvals and oversee the migration license issuance",
+          "category": "domain",
+          "evidence": "",
+          "has_evidence": "false"
+        },
+        {
+          "requirement": "Create and maintain accurate Salesforce opportunities",
+          "category": "technical",
+          "evidence": "",
+          "has_evidence": "false"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Certified Project Management Professional (PMP)",
+        "candidate_has": "~3 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui uma sólida experiência em gestão de programas e projetos complexos, com habilidades comprovadas em coordenação de equipes, gerenciamento de dependências, priorização e entrega confiável. No entanto, a vaga exige 8+ anos de experiência, enquanto o candidato possui cerca de 5 anos nesse tipo de função, o que representa um gap de senioridade. Mesmo assim, suas habilidades transferíveis o tornam um bom candidato, com potencial de se adaptar e crescer no papel.",
+      "main_gap": "Gap de senioridade — a vaga exige 8+ anos, enquanto o candidato possui cerca de 5 anos de experiência relevante.",
+      "company": "GitLab",
+      "location": "Remote, Canada; Remote, Europe; Remote, US-Southeast",
+      "title": "Senior Technical Program Manager, Office of the CTO",
+      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8431366002",
+      "id": "05070496abc64b163472bff7a8d222362b0c630698d7f655fe3eee671e361008",
+      "core_requirements": [
+        {
+          "requirement": "Lead multiple complex, cross-functional programs across GitLab's Engineering division and partner functions, owning scope, timelines, risks, and delivery from kickoff through retrospective.",
+          "category": "leadership",
+          "evidence": "Coordinated 3 teams (~25 eng.) in program global (15 teams/200+) and delivered release with 50 defects on time; led 4 startups and 2 internal teams as PM, handling reallocations.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Coordinate dependencies across initiatives, surface blockers early, and keep stakeholders aligned on priorities, progress, and trade-offs.",
+          "category": "leadership",
+          "evidence": "Automated internal release reviews from 40+ to 10 minutes; documented 60 vulnerabilities in 4 weeks and navigated through delivery.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Partner with Engineering, Product, Finance, Legal, and Go-to-Market teams to turn ambiguous initiatives into clear plans and reliable delivery.",
+          "category": "leadership",
+          "evidence": "Experience aligning cross-functional teams in previous roles as PM, TPM and PO, delivering programs and products through clear scoping, planning and execution.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "8+ years",
+        "candidate_has": "~5 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui experiência relevante em gestão de programas e projetos complexos, incluindo com AI/ML, demonstrando habilidades transferíveis para a vaga. No entanto, há um gap de 2-3 anos na senioridade exigida de 6+ anos, o que reduz o seu encaixe imediato no perfil da vaga. Com isso, atribuo um score na faixa de 50-69, que reflete que a candidatura é viável, mas com um risco maior de não passar a triagem experiente.",
+      "main_gap": "Gap de 2-3 anos na senioridade exigida de 6+ anos de experiência em gestão de programas e projetos complexos.",
+      "company": "Databricks",
+      "location": "Northeast - United States",
+      "title": "AI Technical Program Manager, Professional Services - FINS",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8322791002",
+      "id": "ad560e823466c0dcb6eb41c8bf08f1310c63d267bb0d23d99e8e6e3f92af6770",
+      "core_requirements": [
+        {
+          "requirement": "Past experience managing large, complex engagements with enterprise customers",
+          "category": "seniority",
+          "evidence": "Instituto Atlântico — Technical Program Manager (Set/2024–Set/2025): coordenação de 3 times (~25 eng.) em programa global (15 times/200+); 60 vulnerabilidades em 4 semanas; release com 50 defeitos no prazo; automação interna reduziu revisão semanal de ~40 para ~10 min.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "6+ years of program/project management experience, ideally in a company similar to Databricks or with a focus on enterprise customers and AI/ML",
+          "category": "seniority",
+          "evidence": "Instituto Atlântico — Project Manager (Out/2025–Fev/2026): programa com 4 startups e depois 2 times (8 pessoas); gestão de pessoas/processo e realocação de 6/8 no término de contrato.\nInstituto Atlântico — Technical Program Manager (Set/2024–Set/2025): coordenação de 3 times (~25 eng.) em programa global (15 times/200+)",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Effectively builds and leverages customer relationships throughout the presales and delivery process",
+          "category": "leadership",
+          "evidence": "Instituto Atlântico — Product Owner (Jul/2022–Set/2024): reorganização component→product (~3 sprints para ~1), deploy 30→15 dias, PoC GenAI que contribuiu para contrato e mapeamento de 9 use cases.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Consistently articulates a thorough understanding of Databricks' vision and solutions to help deliver successful implementations and ensure positive engagement outcomes",
+          "category": "domain",
+          "evidence": "R&D aplicado (2026): metodologia experimental para artigo de consumo energético (LLM monolítico vs multiagente), com 100 questões em 4 níveis de complexidade, rubricas binárias e arquitetura com critérios de escalonamento.",
+          "has_evidence": "partial"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "6+ years of program/project management experience",
+        "candidate_has": "~3 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 55,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato tem experiência relevante em gestão de programas técnicos complexos, demonstrando habilidades em liderança, tomada de decisão arquitetural e gerenciamento de programas. No entanto, ele não possui experiência direta no domínio específico do setor público (PubSec), o que representa um gap significativo. Além disso, a vaga é para um nível sênior, enquanto o candidato possui ~3 anos de experiência em papéis de PM/TPM/tech, configurando um gap de senioridade. Portanto, um score de 55 é atribuído, refletindo o fit parcial do candidato para a vaga.",
+      "main_gap": "Falta de experiência direta no domínio do setor público (PubSec) e gap de senioridade para a vaga de nível sênior.",
+      "company": "Databricks",
+      "location": "Northeast - United States",
+      "title": "Sr. Technical Program Manager, Professional Services  - Public Sector (PubSec)",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8345482002",
+      "id": "992dd00b350bf484d19042d7107ad80224ae499f737e3d68fdcb39b9c5f95c9a",
+      "core_requirements": [
+        {
+          "requirement": "Responsible for the successful delivery of our most complex customer engagements by providing technical leadership and guidance to the implementation team.",
+          "category": "leadership",
+          "evidence": "- TPM (Set/2024–Set/2025) in program global de alta complexidade\n- Exp em liderança técnica, orientação a equipes e entrega de engajamentos complexos de clientes",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Guide technical teams through key architectural decisions, helping them navigate trade-offs between established and innovative approaches.",
+          "category": "technical",
+          "evidence": "- Exp em tomar decisões arquiteturais, orientar equipes técnicas e equilibrar abordagens estabelecidas e inovadoras",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Effectively manage all aspects of a program, including scope, schedule, budget, risk, and resources, with a focus on technical complexity.",
+          "category": "leadership",
+          "evidence": "- Exp em gestão completa de programas, incluindo escopo, cronograma, orçamento, risco e recursos, com foco em complexidade técnica",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Senior/Lead-level",
+        "candidate_has": "~3 anos em papéis de PM/TPM/tech",
+        "gap": true
+      }
+    }
+  ],
+  "eliminated_jobs": []
+}

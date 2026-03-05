@@ -1570,5 +1570,71 @@
     "source": "greenhouse",
     "title": "Executive Engagement Principal Program Manager",
     "company": "Cloudflare"
+  },
+  "38a07cc6eb5bbca1416422e9f2228da7881d2bd72b551dde64f040c5eb161138": {
+    "first_seen": "2026-03-05",
+    "source": "openai_web_search",
+    "title": "Product Manager",
+    "company": "Bitso"
+  },
+  "0cf5c257c53f9aa58764187b1ce5ebb902c48202b2a0a80902602a9b5bf5c64a": {
+    "first_seen": "2026-03-05",
+    "source": "weworkremotely",
+    "title": "Product Manager (m/w/d)",
+    "company": "Olmatic Gmbh"
+  },
+  "593ae1c87c6de8a30eee97ee115b4510b87ba10a2ca94685a9f1456dec178df4": {
+    "first_seen": "2026-03-05",
+    "source": "jobicy",
+    "title": "Product Owner, Staff Consultant",
+    "company": "Nagarro"
+  },
+  "3b2517c1779184c9eadc74405f580d93d9beba6b25a46181c12d19c2e906bd35": {
+    "first_seen": "2026-03-05",
+    "source": "jobicy",
+    "title": "Project Lead &amp;#8211; Operations / New Product Deployment",
+    "company": "Helprise"
+  },
+  "ddc98ef6128cb37c1366d90d35cb291530b9f13e982dfda9cb91844b7c34834c": {
+    "first_seen": "2026-03-05",
+    "source": "jobicy",
+    "title": "Responsable de secteur &amp;#8211; Valenciennes (H/F/X)",
+    "company": "Mondelēz International"
+  },
+  "5c8ef257665e3ebe82f4ada83fee16c0e5c7a84924e7db771f07afeac8fc140c": {
+    "first_seen": "2026-03-05",
+    "source": "remoteok",
+    "title": "Senior Sales Enablement Program Manager",
+    "company": "ChowNow"
+  },
+  "6fa0d260128593c85f1104883865e31ae18eaa3f8f0cdb78f23ccaedf961e9d7": {
+    "first_seen": "2026-03-05",
+    "source": "remoteok",
+    "title": "Project Manager Cloud Migrations and Partner Programs",
+    "company": "Striim, Inc."
+  },
+  "05070496abc64b163472bff7a8d222362b0c630698d7f655fe3eee671e361008": {
+    "first_seen": "2026-03-05",
+    "source": "greenhouse",
+    "title": "Senior Technical Program Manager, Office of the CTO",
+    "company": "GitLab"
+  },
+  "9df79270bb9cf2848511ed50292095e6c6c14b49d3bd805fda989cfb94541e43": {
+    "first_seen": "2026-03-05",
+    "source": "greenhouse",
+    "title": "Product Manager, Mobile Push",
+    "company": "Klaviyo"
+  },
+  "ad560e823466c0dcb6eb41c8bf08f1310c63d267bb0d23d99e8e6e3f92af6770": {
+    "first_seen": "2026-03-05",
+    "source": "greenhouse",
+    "title": "AI Technical Program Manager, Professional Services - FINS",
+    "company": "Databricks"
+  },
+  "992dd00b350bf484d19042d7107ad80224ae499f737e3d68fdcb39b9c5f95c9a": {
+    "first_seen": "2026-03-05",
+    "source": "greenhouse",
+    "title": "Sr. Technical Program Manager, Professional Services  - Public Sector (PubSec)",
+    "company": "Databricks"
   }
 }

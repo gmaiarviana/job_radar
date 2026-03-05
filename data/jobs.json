@@ -1,7 +1,52 @@
 {
-  "generated_at": "2026-03-04T09:31:39.866139+00:00",
-  "total": 62,
+  "generated_at": "2026-03-05T09:34:26.246149+00:00",
+  "total": 63,
   "jobs": [
+    {
+      "score": 90,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato Guilherme Maia possui experiência direta no domínio central da vaga de Product Manager, com evidências concretas de seu perfil alinhado aos requisitos chave, incluindo: (1) experiência em gerenciamento de produtos digitais e técnicos, com foco em requisitos do cliente e ajuste ao mercado; (2) habilidades comprovadas em priorização de funcionalidades, visão de produto e pesquisa de mercado; (3) experiência em colaboração cross-funcional, com ótimas habilidades de comunicação e mentalidade pragmática orientada a soluções; (4) familiaridade com análise de mercado e estratégias de diferenciação de produtos. O candidato se enquadra perfeitamente na faixa de 85-100, possuindo experiência direta no domínio central e contexto similar à vaga.",
+      "main_gap": "Não há lacunas significativas na candidatura do Guilherme Maia para a vaga de Product Manager na Olmatic Gmbh.",
+      "company": "Olmatic Gmbh",
+      "location": "",
+      "title": "Product Manager (m/w/d)",
+      "url": "https://weworkremotely.com/remote-jobs/olmatic-gmbh-product-manager-m-w-d",
+      "id": "0cf5c257c53f9aa58764187b1ce5ebb902c48202b2a0a80902602a9b5bf5c64a",
+      "core_requirements": [
+        {
+          "requirement": "Create impactful products by translating customer needs and market analyses into clear product goals and innovative features",
+          "category": "domain",
+          "evidence": "Extensive experience in product management of digital or technical products, with strong focus on customer requirements and product-market fit",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Own the product roadmap, prioritize features, and ensure product-market fit through continuous customer feedback and market research",
+          "category": "domain",
+          "evidence": "Proven ability to translate complex customer requirements into clear user stories and precise product specifications, with strong analytical and strategic thinking skills",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Work closely with Engineering, UX/UI design, and Marketing teams to deliver high-quality products on time",
+          "category": "leadership",
+          "evidence": "Experience in cross-functional collaboration, with strong communication skills and a pragmatic, solution-oriented mindset",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Monitor market trends, identify competitive advantages, and proactively develop strategies for differentiation and positioning",
+          "category": "domain",
+          "evidence": "Familiarity with market and competitive analysis, with the ability to identify market opportunities and develop product differentiation strategies",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Experience in product management of digital or technical products, ideally in software, SaaS, or renewable energy sectors",
+        "candidate_has": "Extensive experience in product management of digital or technical products, with strong focus on customer requirements and product-market fit",
+        "gap": false
+      },
+      "file_date": "2026-03-05",
+      "source": "pipeline"
+    },
     {
       "score": 55,
       "score_ceiling": 65,
@@ -1405,6 +1450,16 @@
       "discarded_title": 3,
       "discarded_blocklist": 1,
       "discarded_location": 4,
+      "discarded_quality": 0
+    },
+    {
+      "date": "2026-03-05",
+      "filtered_at": "2026-03-05T09:33:44.476119+00:00",
+      "total_input": 11,
+      "total_passed": 6,
+      "discarded_title": 1,
+      "discarded_blocklist": 2,
+      "discarded_location": 2,
       "discarded_quality": 0
     }
   ]
