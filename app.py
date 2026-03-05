@@ -432,8 +432,8 @@ def _render_linkedin():
 
         persisted_remote = True
         st.success("Vaga avaliada e salva no repositório!")
-    except Exception:
-        pass
+    except Exception as e:
+        st.caption(f"Persistência remota indisponível: {e}")
 
     # Tentativa 2: Fallback filesystem local
     if not persisted_remote:
@@ -452,6 +452,8 @@ def _render_linkedin():
         except Exception:
             st.info("Resultado exibido. Persistência indisponível neste ambiente.")
 
+    st.rerun()
+
 
 # --- Auth: verificação de email autorizado ---
 def _check_auth() -> bool:
@@ -466,13 +468,13 @@ def _check_auth() -> bool:
     # st.user (≥ 1.35) com fallback para st.experimental_user
     user_obj = getattr(st, "user", None) or getattr(st, "experimental_user", None)
     if user_obj is None:
-        return True
+        return False
 
     email = getattr(user_obj, "email", None)
-    if email is None:
-        return True
+    if not email:
+        return False
 
-    return email == authorized_email
+    return email.strip().lower() == authorized_email.strip().lower()
 
 
 # --- Main ---
