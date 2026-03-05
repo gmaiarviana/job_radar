@@ -201,6 +201,13 @@
 <div class="controls">
   <label for="date-filter">Data:</label>
   <select id="date-filter"><option value="">Carregando...</option></select>
+  <label for="verdict-filter">Veredito:</label>
+  <select id="verdict-filter">
+    <option value="">Todos</option>
+    <option value="APLICAR">APLICAR</option>
+    <option value="AVALIAR">AVALIAR</option>
+    <option value="PULAR">PULAR</option>
+  </select>
   <span class="summary" id="summary"></span>
 </div>
 
@@ -212,8 +219,8 @@
 (function() {
   "use strict";
 
-  let allJobs = [];
-  let pipelineRuns = [];
+  var allJobs = [];
+  var pipelineRuns = [];
 
   function scoreBadgeClass(score) {
     if (score >= 85) return "badge-green";
@@ -226,6 +233,13 @@
     if (score >= 85) return { label: "APLICAR", emoji: "\uD83D\uDFE2", color: "green" };
     if (score >= 70) return { label: "AVALIAR", emoji: "\uD83D\uDFE1", color: "orange" };
     return { label: "PULAR", emoji: "\u26AA", color: "gray" };
+  }
+
+  function getVerdictLabel(score) {
+    if (score == null) return "";
+    if (score >= 85) return "APLICAR";
+    if (score >= 70) return "AVALIAR";
+    return "PULAR";
   }
 
   function verdictReasonPhrase(score, mainGap) {
@@ -269,18 +283,19 @@
       ? '<a class="card-link" href="' + esc(url) + '" target="_blank" rel="noopener">Link</a>'
       : '';
 
-    // Details
+    // Details — 9.1 order: verdict → justification → main_gap → core_requirements → seniority → link
+    // No ceiling fields displayed
     var reasonPhrase = verdictReasonPhrase(score, mainGap);
     var detailHtml = '';
     detailHtml += '<div class="verdict-top">' + verdict.emoji + ' ' + esc(verdict.label) + ' \u2014 ' + esc(reasonPhrase) + '</div>';
     detailHtml += '<hr class="divider">';
 
-    if (job.score_ceiling != null) {
-      detailHtml += '<div class="detail-section"><h4>Teto</h4><p>' + esc(String(job.score_ceiling));
-      if (job.ceiling_reason) {
-        detailHtml += ' \u2014 ' + esc(job.ceiling_reason);
-      }
-      detailHtml += '</p></div>';
+    if (job.justification) {
+      detailHtml += '<div class="detail-section"><h4>Justificativa</h4><p>' + esc(job.justification) + '</p></div>';
+    }
+
+    if (job.main_gap) {
+      detailHtml += '<div class="detail-section"><h4>Principal gap</h4><p>' + esc(job.main_gap) + '</p></div>';
     }
 
     var coreReq = job.core_requirements;
@@ -311,12 +326,6 @@
       detailHtml += '</ul></div>';
     }
 
-    if (job.main_gap) {
-      detailHtml += '<div class="detail-section"><h4>Principal gap</h4><p>' + esc(job.main_gap) + '</p></div>';
-    }
-    if (job.justification) {
-      detailHtml += '<div class="detail-section"><h4>Justificativa</h4><p>' + esc(job.justification) + '</p></div>';
-    }
     if (url) {
       detailHtml += '<div class="detail-section"><a class="card-link" href="' + esc(url) + '" target="_blank" rel="noopener">Abrir vaga</a></div>';
     }
@@ -351,7 +360,7 @@
   function renderJobs(jobs) {
     var container = document.getElementById("jobs-container");
     if (jobs.length === 0) {
-      container.innerHTML = '<div class="empty-state">Nenhuma vaga encontrada para esta data.</div>';
+      container.innerHTML = '<div class="empty-state">Nenhuma vaga encontrada para os filtros selecionados.</div>';
       return;
     }
     var html = "";
@@ -361,16 +370,27 @@
     container.innerHTML = html;
   }
 
-  function filterByDate(date) {
-    var filtered;
-    if (!date) {
-      filtered = allJobs;
-    } else {
-      filtered = allJobs.filter(function(j) { return j.file_date === date; });
+  function applyFilters() {
+    var date = document.getElementById("date-filter").value;
+    var verdict = document.getElementById("verdict-filter").value;
+
+    var filtered = allJobs;
+
+    // Filter by date
+    if (date) {
+      filtered = filtered.filter(function(j) { return j.file_date === date; });
     }
+
+    // Filter by verdict (9.6b)
+    if (verdict) {
+      filtered = filtered.filter(function(j) {
+        return getVerdictLabel(j.score) === verdict;
+      });
+    }
+
     document.getElementById("summary").textContent = filtered.length + " vaga" + (filtered.length !== 1 ? "s" : "");
 
-    if (filtered.length === 0 && date) {
+    if (filtered.length === 0 && date && !verdict) {
       var dayRuns = pipelineRuns.filter(function(r) { return r.date === date; });
       if (dayRuns.length > 0) {
         var lastRun = dayRuns[dayRuns.length - 1];
@@ -418,16 +438,15 @@
       select.appendChild(opt);
     }
 
-    select.onchange = function() {
-      filterByDate(this.value);
-    };
+    select.onchange = function() { applyFilters(); };
+    document.getElementById("verdict-filter").onchange = function() { applyFilters(); };
 
     // Default: most recent
     if (dates.length > 0) {
       select.value = dates[0];
-      filterByDate(dates[0]);
+      applyFilters();
     } else {
-      filterByDate("");
+      applyFilters();
     }
   }
 
