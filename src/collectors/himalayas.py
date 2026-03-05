@@ -14,6 +14,7 @@ from . import TITLE_KEYWORDS
 HIMALAYAS_API_URL = "https://himalayas.app/jobs/api"
 HIMALAYAS_RECENT_HOURS = 168
 HIMALAYAS_MAX_PAGES = 5
+HIMALAYAS_PAGE_SIZE = 20
 LOG_PREFIX = "[fetch]"
 
 
@@ -59,14 +60,15 @@ def collect_himalayas() -> list[dict]:
 
     print(f"{LOG_PREFIX} 📡 Coletor himalayas...")
 
-    for page in range(1, HIMALAYAS_MAX_PAGES + 1):
-        url = f"{HIMALAYAS_API_URL}?page={page}"
+    for page in range(HIMALAYAS_MAX_PAGES):
+        offset = page * HIMALAYAS_PAGE_SIZE
+        url = f"{HIMALAYAS_API_URL}?limit={HIMALAYAS_PAGE_SIZE}&offset={offset}"
         try:
             req = Request(url, headers={"User-Agent": "JobRadar/1.0"})
             with urlopen(req, timeout=30) as resp:
                 data = json.loads(resp.read().decode("utf-8"))
         except (URLError, HTTPError, json.JSONDecodeError, OSError) as e:
-            print(f"{LOG_PREFIX} ✗ Erro Himalayas (página {page}): {e}")
+            print(f"{LOG_PREFIX} ✗ Erro Himalayas (offset {offset}): {e}")
             break
 
         jobs = data.get("jobs") or data.get("data") or []
@@ -95,17 +97,29 @@ def collect_himalayas() -> list[dict]:
             else:
                 location = str(loc_raw)
 
+            # Salário: minSalary/maxSalary/currency quando disponíveis
+            salary = None
+            min_sal = j.get("minSalary")
+            max_sal = j.get("maxSalary")
+            currency = j.get("currency") or "USD"
+            if min_sal and max_sal:
+                salary = f"{currency} {min_sal}–{max_sal}"
+            elif min_sal:
+                salary = f"{currency} {min_sal}+"
+            elif max_sal:
+                salary = f"Up to {currency} {max_sal}"
+
             all_raw.append({
                 "title": title,
                 "company": j.get("companyName") or j.get("company_name") or "",
                 "location": location,
-                "salary": None,
+                "salary": salary,
                 "url": j.get("applicationLink") or j.get("application_link") or j.get("url") or "",
                 "description": j.get("description") or "",
                 "date": str(date_val) if date_val else "",
             })
 
-        if page < HIMALAYAS_MAX_PAGES:
+        if page < HIMALAYAS_MAX_PAGES - 1:
             time.sleep(0.5)
 
     print(f"{LOG_PREFIX}   himalayas: {len(all_raw)} vagas (PM/TPM, últimas {HIMALAYAS_RECENT_HOURS}h).")
