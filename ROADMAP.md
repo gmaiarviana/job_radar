@@ -1,6 +1,6 @@
 # ROADMAP - Job Radar
 
-📡 **Status:** Pipeline completo (fetch → filter → score → dashboard). Épicos 7 e 8 concluídos. Próximo foco: Épicos 9 (Polimento de UI) e 10 (Persistência Online).
+📡 **Status:** Pipeline completo (fetch → filter → score → dashboard). Épicos 8 e 9 concluídos. Próximo foco: Épicos 7.3 (Expansão de Coleta) e 10 (Persistência Online).
 
 > **Filosofia:** POC → Protótipo → MVP. Validar cada etapa antes de avançar. Qualidade antes de volume.
 
@@ -74,50 +74,9 @@ Concluído: penalty removida de CEILING_BY_PENALTY e do prompt de analyze_job; p
 
 ---
 
-### ÉPICO 9: Polimento de UI — Cards, Detalhes e Cópia
+### ✅ ÉPICO 9: Polimento de UI — Cards, Detalhes e Cópia
 
-**Objetivo:** Melhorar a experiência visual dos cards de vagas e facilitar extração de conteúdo para uso externo (Claude, docs).
-
-**Dependência:** Épico 6 concluído.
-
-**Critério de aceite:** Cards com hierarquia visual limpa; ceiling removido da UI; botões de cópia funcionais (JD + relatório); botão "Avaliar outra" funcional na aba Busca Manual; formulário da Busca Manual com campos na ordem empresa → título → JD; badge de fonte exibindo o coletor de origem (mantendo "manual" para vagas manuais); nova aba "Resumo" no Streamlit e filtro/seção equivalente no GitHub Pages mostrando apenas vagas APLICAR (score ≥ 85).
-
-#### 9.1 Redesign da seção de detalhes
-
-- Substituir a barra "Ver detalhes (ceiling, requisitos, seniority, gap)" por algo mais limpo (ex: apenas "Detalhes" ou ícone de expand)
-- Remover exibição de ceiling e motivo do teto da UI (manter nos JSONs para debug/eval)
-- Reordenar conteúdo expandido: justificativa e principal gap primeiro, requisitos e seniority depois
-
-#### 9.2 Botões de cópia (JD + Relatório)
-
-- Botão "Copiar JD" no detalhe expandido: copia `jd_full` como markdown para clipboard
-- Botão "Copiar Relatório" no detalhe expandido: copia score + justificativa + main_gap + requisitos + seniority formatados em markdown
-- Funcional tanto na aba Vagas quanto na aba Busca Manual (resultado do paste-and-score)
-
-#### 9.3 Botão "Avaliar outra vaga" na aba Busca Manual
-
-- Após scoring manual exibir resultado + botão "Avaliar outra vaga"
-- Ao clicar: limpar formulário e resultado, pronto para nova entrada
-- Sem necessidade de refresh da página
-
-#### 9.4 Reordenar formulário da Busca Manual
-
-- Trocar a ordem dos campos para: empresa → título → JD (hoje está título → empresa → JD)
-- Critério de aceite: ordem dos campos igual à sequência natural do LinkedIn
-
-#### 9.5 Exibir coletor no badge de fonte
-
-- Na aba Vagas, substituir o label "pipeline" pelo nome real do coletor (ex.: "remotive", "greenhouse", "openai_web_search")
-- O campo `source` já existe no JSON com o nome correto; é só mudar a exibição no `app.py`
-- Manter "manual" para vagas da busca manual (sem alteração)
-- Critério de aceite: badge exibe o coletor de origem; vagas manuais continuam com badge "manual"
-
-#### 9.6 Aba "Resumo"
-
-- Nova aba no Streamlit com foco nas vagas que merecem ação: lista filtrada por veredito APLICAR (score ≥ 85), ordenada por score desc, com filtro de data
-- Versão equivalente no GitHub Pages: seção ou filtro dedicado mostrando apenas APLICAR
-- Read-only neste épico; status de aplicação vem depois do Épico 10
-- Critério de aceite: aba funcional no Streamlit; GitHub Pages exibe filtro/seção equivalente
+**Concluído:** Expander renomeado para "Detalhes" sem campos ceiling; conteúdo reordenado (veredito → justificativa → gap → requisitos → seniority → link). Botões "Copiar JD" e "Copiar Relatório" via `st.code()` com toggle. Botão "Avaliar outra vaga" na Busca Manual. Formulário reordenado (empresa → título → JD → url → localização). Badge de fonte exibe coletor real (source do JSON). Aba "Resumo" (APLICAR, score desc, filtro de data). GitHub Pages com seletor de veredito combinado com filtro de data.
 
 ---
 
@@ -257,4 +216,4 @@ Backlog, itens postergados e ideias futuras → [docs/governance/backlog.md](doc
 ---
 
 **Última atualização:** Mar 2026  
-**Revisão (estado do código):** Conferido em Mar 2026. Concluídos conforme seção ✅; Épicos 9 (UI polish, incluindo formulário da Busca Manual, badge de coletor e aba Resumo), 10 (auth Google + GitHub API), 11 (feedback/histórico + marcação "Já apliquei"), 12 (retry/tratamento de falhas), 13 (generate.py completo) e 14 ainda não implementados. `generate.py` segue stub; `github_api.py` não existe.
+**Revisão (estado do código):** Conferido em Mar 2026. Concluídos conforme seção ✅ (incluindo Épico 9); Épicos 10 (auth Google + GitHub API), 11 (feedback/histórico + marcação "Já apliquei"), 12 (retry/tratamento de falhas), 13 (generate.py completo) e 14 ainda não implementados. `generate.py` segue stub; `github_api.py` não existe.
