@@ -1,7 +1,130 @@
 {
-  "generated_at": "2026-03-05T09:34:26.246149+00:00",
-  "total": 63,
+  "generated_at": "2026-03-06T09:31:48.468984+00:00",
+  "total": 66,
   "jobs": [
+    {
+      "score": 95,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato possui experiência direta no domínio central da vaga, com um histórico sólido em papéis de gerenciamento de produtos, programas e projetos. Sua capacidade de entender profundamente as necessidades dos usuários, trabalhar de forma colaborativa com equipes técnicas e de negócios, e impulsionar o desenvolvimento e a entrega de soluções bem-sucedidas, se alinha perfeitamente com os principais requisitos da vaga. Essa experiência abrangente, combinada com habilidades técnicas avançadas, como o uso prático de IA, torna o candidato um ótimo ajuste para este cargo de Product Manager na Stripe.",
+      "main_gap": "Não há gaps significativos no perfil do candidato em relação aos requisitos da vaga.",
+      "company": "Stripe",
+      "location": "SF, SEA, NYC, US-Remote",
+      "title": "Product Manager, Seller Systems",
+      "url": "https://stripe.com/jobs/search?gh_jid=6964987",
+      "id": "61708ee69f8c633733740b3269719dcf498eddfef2aaa9a37a05a8fd2a4533fd",
+      "core_requirements": [
+        {
+          "requirement": "Strong product sense: ability to understand user needs in-depth and build delightful product experiences to solve them and make our users successful",
+          "category": "domain",
+          "evidence": "Extensive experience as a Product Owner, Project Manager and Technical Program Manager, with a focus on understanding user needs, building product experiences, and driving successful delivery.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Deeply understand the users and downstream consumers of this data touching multiple business domains, by working with Stripe's users, and with Stripe's technical and business teams",
+          "category": "domain",
+          "evidence": "Demonstrated ability to work cross-functionally with various stakeholders, including technical and business teams, to deeply understand user needs and requirements.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Partner with engineering leaders to design ingestion, enrichment, storage and serving interfaces to meet these user needs. You'll to synthesize and champion the product vision, roadmap and backlog across these domains.",
+          "category": "technical",
+          "evidence": "Experience in product discovery, delivery management, and roadmap/backlog prioritization, with the ability to work closely with engineering teams to design and implement technical solutions.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Not specified",
+        "candidate_has": "~7 years in PM/TPM tech roles",
+        "gap": false
+      },
+      "file_date": "2026-03-06",
+      "source": "pipeline"
+    },
+    {
+      "score": 95,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato Guilherme Maia possui experiência direta nos principais requisitos da vaga de Product Manager na equipe de Infrastructure and Data Experiences da Stripe. Ele tem histórico comprovado em funções de gerenciamento de produto, programa e entrega técnica, trabalhando em estreita colaboração com equipes de engenharia para entregar projetos de alto impacto. Suas habilidades técnicas em SQL, Python, Spark/Scala e aplicação de IA/ML, combinadas com sua experiência em definição de arquitetura, tomada de decisão estratégica e liderança de equipes, o qualificam muito bem para este papel.",
+      "main_gap": "Não há gaps significativos identificados no perfil do candidato para esta vaga.",
+      "company": "Stripe",
+      "location": "Remote in the US",
+      "title": "Product Manager, Stripe Infrastructure",
+      "url": "https://stripe.com/jobs/search?gh_jid=6651889",
+      "id": "bb4cb7bb0c60a7a3bed40858009dd007e16a35d0aafa1163a66c4ca91ff300c3",
+      "core_requirements": [
+        {
+          "requirement": "Partner with the engineering teams, including Core Infra, Developer Infra, Data Platform, and Service Platform, to ship functionality that delights users, has the right balance of impact vs engineering cost, and makes a measurable impact on the business",
+          "category": "domain",
+          "evidence": "Recent experience as Product Owner, Project Manager, and Technical Program Manager at Instituto Atlântico, working closely with engineering teams to deliver high-impact projects and programs.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Establish system and design principles for how we build, buy, and operate Seller Systems — ensuring we select the right long-term solutions, not short-term patches",
+          "category": "technical",
+          "evidence": "Demonstrated experience in product discovery, delivery, and roadmap planning, as well as a strong technical background with skills in SQL, Python, Spark/Scala, and applied AI/ML.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Guide architecture and investment decisions, weighing trade-offs between build vs. buy, modernization vs. extension, and platform vs. point solutions",
+          "category": "leadership",
+          "evidence": "Previous roles in product, program, and technical program management, where he has led cross-functional teams and made strategic decisions to drive business impact.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "not specified",
+        "candidate_has": "~5 years in PM/TPM tech roles",
+        "gap": false
+      },
+      "file_date": "2026-03-06",
+      "source": "pipeline"
+    },
+    {
+      "score": 90,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato Guilherme Maia possui experiência DIRETA nos domínios centrais desta vaga, incluindo liderança de programas globais complexos, colaboração com múltiplas equipes, e desenho e lançamento de iniciativas estratégicas para melhorar processos operacionais e resultados de negócio. Seu background como PO, PM e TPM no Instituto Atlântico demonstra habilidades sólidas em gestão de programas e entregas complexas, alinhamento de stakeholders, e uso de dados e evidências para a tomada de decisão. O conjunto de suas competências principais, experiência relevante e fit com o escopo da vaga se alinham muito bem aos requisitos-chave deste cargo de Gerente de Programa de Estratégia e Operações na Stripe.",
+      "main_gap": "Nenhum gap significativo identificado. O candidato atende plenamente aos requisitos essenciais da vaga.",
+      "company": "Stripe",
+      "location": "US-Remote",
+      "title": "Strategy & Operations Program Manager, Risk Ops",
+      "url": "https://stripe.com/jobs/search?gh_jid=7214197",
+      "id": "a799cf37d4863220046008b236d582e5548b483bce9f4f9429b7d20de057796a",
+      "core_requirements": [
+        {
+          "requirement": "Lead complex global programs, from initial scoping to design and execution and work on high-impact strategic initiatives",
+          "category": "leadership",
+          "evidence": "Extensive experience in leading complex global programs and high-impact strategic initiatives, demonstrated through roles as PO, PM, and TPM at Instituto Atlântico.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Collaborate with multiple stakeholders across Risk Operations, Risk Product, Risk Eng, and other stakeholder teams (e.g., Policy, Data Science) to prioritize and maximize the impact of your projects",
+          "category": "leadership",
+          "evidence": "Proven ability to collaborate cross-functionally and align multiple stakeholders, as evidenced by the Program Manager and Technical Program Manager roles at Instituto Atlântico.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Design and launch programs that lead to step-change improvements in our operational processes and business outcomes",
+          "category": "domain",
+          "evidence": "Experience in designing and launching programs that drive operational improvements and business outcomes, demonstrated through the PO and TPM roles at Instituto Atlântico.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Serve as the Risk Operations expert and partner closely with our cross-functional stakeholders to scope and execute large projects to create operational efficiencies and ensure operational readiness",
+          "category": "domain",
+          "evidence": "Expertise in scoping and executing large-scale projects to drive operational efficiencies, as evidenced by the PO, PM, and TPM roles at Instituto Atlântico.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Not specified",
+        "candidate_has": "~7 years in PM/TPM/tech roles",
+        "gap": false
+      },
+      "file_date": "2026-03-06",
+      "source": "pipeline"
+    },
     {
       "score": 90,
       "score_ceiling": 100,
@@ -1460,6 +1583,16 @@
       "discarded_title": 1,
       "discarded_blocklist": 2,
       "discarded_location": 2,
+      "discarded_quality": 0
+    },
+    {
+      "date": "2026-03-06",
+      "filtered_at": "2026-03-06T09:29:59.881657+00:00",
+      "total_input": 50,
+      "total_passed": 22,
+      "discarded_title": 8,
+      "discarded_blocklist": 0,
+      "discarded_location": 20,
       "discarded_quality": 0
     }
   ]
