@@ -18,7 +18,7 @@ from src.paths import FILTERED_DIR, SCORED_DIR, ensure_dirs
 # Carrega variáveis do arquivo .env
 load_dotenv()
 
-JD_SCORE_TRUNCATE = 3000  # analyze_job: limite no prompt (boilerplate/EEO não agrega)
+JD_SCORE_TRUNCATE = 6000  # analyze_job: limite no prompt (~76% das vagas têm JD > 3k; 6k cobre boa parte)
 
 # Ceiling por penalty (Épico 5 — rubrica de scoring). 2+ penalties → 55; nenhuma → 100.
 CEILING_BY_PENALTY = {
@@ -259,14 +259,14 @@ Cada vaga inclui a descrição completa (jd_full) da posição para você avalia
 # PERFIL DO CANDIDATO (CRITÉRIOS)
 {profile_content}
 
-# CRITÉRIOS ELIMINATÓRIOS:
+# CRITÉRIOS ELIMINATÓRIOS (siga o PERFIL acima; as regras abaixo operacionalizam o perfil):
 1. Localização (LOCATION): O candidato é brasileiro, trabalha remotamente do Brasil, SEM autorização de trabalho em US, Canada, UK, EU ou Austrália.
    - ELIMINAR se a vaga exigir: residência, work authorization ou presença física em US, Canada, UK, EU, Austrália ou Israel.
    - PERMITIR se for: worldwide, global, LATAM, ou países onde brasileiro pode trabalhar remotamente (Brazil, Mexico, Colombia, Argentina, Chile, etc.).
    - PERMITIR se location estiver vazia ou ambígua — em caso de dúvida, beneficie o candidato.
-2. Nível: Sênior, Staff, Principal ou Lead apenas. (Junior, Pleno, Mid, Estágio = ELIMINADO)
-3. Tipo de Cargo: PM, TPM ou Híbrido PM/Tech. (Engenheiro puro, EM, Marketing puro = ELIMINADO)
-4. Idioma: Vaga deve ser em Inglês (vagas apenas em PT ou ES = ELIMINADO)
+2. Nível (SENIORITY): Estágio e Intern = ELIMINAR. Associate, Pleno, Mid, Sênior, Staff, Principal e Lead podem passar; avalie pelo escopo e remuneração conforme o perfil.
+3. Tipo de Cargo / Escopo: ACEITAR vagas com escopo de gestão, produto, programa, projeto, delivery ou análise estruturada. Títulos aceitos (sem penalidade automática): PM, PO, TPM, Project Manager, Program Manager, Delivery Manager, Scrum Master, Business Analyst, Data Analyst, Strategy & Ops. Se o título parecer lateral, decidir pelas responsabilidades (ownership, indicadores, coordenação cross-functional). ELIMINAR: vagas estritamente técnicas sem ownership de produto/entrega/análise; funções de marketing sem componente de produto ou analytics.
+4. Idioma: O candidato fala inglês e português. ACEITAR vagas em inglês, PT-BR ou misto EN/PT. ELIMINAR vagas que exijam exclusivamente um idioma que o candidato não fala (ex.: vaga apenas em espanhol, francês, etc.).
 
 # FORMATO DE SAÍDA (JSON)
 Retorne APENAS um objeto JSON com:
@@ -366,6 +366,20 @@ def main():
         print(f"[score.py] -> Verificando eliminatórios para {len(jobs)} vagas...")
         passed_jobs, llm_eliminated = check_eliminatorios(client, jobs, profile)
         print(f"[score.py] [i] Vagas eliminadas pelo LLM: {len(llm_eliminated)}")
+
+        # 1.1 Dedup por id/id_hash (evita pontuar a mesma vaga 2x na mesma corrida)
+        seen_ids = set()
+        deduped = []
+        for j in passed_jobs:
+            key = j.get("id") or j.get("id_hash")
+            if key and key in seen_ids:
+                continue
+            if key:
+                seen_ids.add(key)
+            deduped.append(j)
+        if len(deduped) < len(passed_jobs):
+            print(f"[score.py] [i] Removidas {len(passed_jobs) - len(deduped)} duplicatas; {len(deduped)} vagas para scoring.")
+        passed_jobs = deduped
 
         # 2. Pipeline de 2 chamadas: analyze_job → compute_ceiling → score_with_analysis
         scored_jobs = []

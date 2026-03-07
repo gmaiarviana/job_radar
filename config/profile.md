@@ -43,7 +43,7 @@ Diferencial em IA: uso prático com método — documentação como infraestrutu
 - **Modelo de trabalho/localização:** aceitar apenas vagas remotas viáveis para LATAM ou worldwide; on-site/híbrido obrigatório fora de alcance geográfico = descarte.
 - **Salário:** piso de **$5.000 USD/mês**. Abaixo disso = descarte para Obj 1. Se salário não informado, não descartar automaticamente; manter com penalidade por incerteza.
 - **Senioridade mínima:** estágio/intern = descarte. Associate/pleno/sênior podem passar se escopo + remuneração forem compatíveis.
-- **Compatibilidade de escopo:** descartar vagas estritamente técnicas sem ownership de produto/entrega/análise e funções de marketing sem componente de produto/analytics.
+- **Compatibilidade de escopo / tipo de cargo:** aceitar vagas com escopo de gestão, produto, programa, projeto, delivery ou análise estruturada. Títulos aceitos (sem penalidade automática): PM, PO, TPM, Project/Program/Delivery Manager, Scrum Master, Business Analyst, Data Analyst, Strategy & Ops. Se o título parecer lateral, decidir por responsabilidades (ownership, indicadores, coordenação cross-functional). Descarte: vagas estritamente técnicas sem ownership de produto/entrega/análise; funções de marketing sem componente de produto ou analytics.
 
 ## Regras de Interpretação para Título da Vaga (evitar falso negativo)
 - **Não penalizar por título isolado** se o escopo for compatível com gestão, produto, delivery ou análise estruturada.
