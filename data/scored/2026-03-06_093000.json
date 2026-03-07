@@ -1,0 +1,866 @@
+{
+  "scored_at": "2026-03-06T09:30:00.368544+00:00",
+  "source_file": "2026-03-06_092608.json",
+  "summary": {
+    "total_input": 22,
+    "total_llm_eliminated": 5,
+    "total_scored": 15,
+    "total_top": 3
+  },
+  "jobs": [
+    {
+      "score": 95,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato possui experiência direta no domínio central da vaga, com um histórico sólido em papéis de gerenciamento de produtos, programas e projetos. Sua capacidade de entender profundamente as necessidades dos usuários, trabalhar de forma colaborativa com equipes técnicas e de negócios, e impulsionar o desenvolvimento e a entrega de soluções bem-sucedidas, se alinha perfeitamente com os principais requisitos da vaga. Essa experiência abrangente, combinada com habilidades técnicas avançadas, como o uso prático de IA, torna o candidato um ótimo ajuste para este cargo de Product Manager na Stripe.",
+      "main_gap": "Não há gaps significativos no perfil do candidato em relação aos requisitos da vaga.",
+      "company": "Stripe",
+      "location": "SF, SEA, NYC, US-Remote",
+      "title": "Product Manager, Seller Systems",
+      "url": "https://stripe.com/jobs/search?gh_jid=6964987",
+      "id": "61708ee69f8c633733740b3269719dcf498eddfef2aaa9a37a05a8fd2a4533fd",
+      "core_requirements": [
+        {
+          "requirement": "Strong product sense: ability to understand user needs in-depth and build delightful product experiences to solve them and make our users successful",
+          "category": "domain",
+          "evidence": "Extensive experience as a Product Owner, Project Manager and Technical Program Manager, with a focus on understanding user needs, building product experiences, and driving successful delivery.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Deeply understand the users and downstream consumers of this data touching multiple business domains, by working with Stripe's users, and with Stripe's technical and business teams",
+          "category": "domain",
+          "evidence": "Demonstrated ability to work cross-functionally with various stakeholders, including technical and business teams, to deeply understand user needs and requirements.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Partner with engineering leaders to design ingestion, enrichment, storage and serving interfaces to meet these user needs. You'll to synthesize and champion the product vision, roadmap and backlog across these domains.",
+          "category": "technical",
+          "evidence": "Experience in product discovery, delivery management, and roadmap/backlog prioritization, with the ability to work closely with engineering teams to design and implement technical solutions.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Not specified",
+        "candidate_has": "~7 years in PM/TPM tech roles",
+        "gap": false
+      }
+    },
+    {
+      "score": 95,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato Guilherme Maia possui experiência direta nos principais requisitos da vaga de Product Manager na equipe de Infrastructure and Data Experiences da Stripe. Ele tem histórico comprovado em funções de gerenciamento de produto, programa e entrega técnica, trabalhando em estreita colaboração com equipes de engenharia para entregar projetos de alto impacto. Suas habilidades técnicas em SQL, Python, Spark/Scala e aplicação de IA/ML, combinadas com sua experiência em definição de arquitetura, tomada de decisão estratégica e liderança de equipes, o qualificam muito bem para este papel.",
+      "main_gap": "Não há gaps significativos identificados no perfil do candidato para esta vaga.",
+      "company": "Stripe",
+      "location": "Remote in the US",
+      "title": "Product Manager, Stripe Infrastructure",
+      "url": "https://stripe.com/jobs/search?gh_jid=6651889",
+      "id": "bb4cb7bb0c60a7a3bed40858009dd007e16a35d0aafa1163a66c4ca91ff300c3",
+      "core_requirements": [
+        {
+          "requirement": "Partner with the engineering teams, including Core Infra, Developer Infra, Data Platform, and Service Platform, to ship functionality that delights users, has the right balance of impact vs engineering cost, and makes a measurable impact on the business",
+          "category": "domain",
+          "evidence": "Recent experience as Product Owner, Project Manager, and Technical Program Manager at Instituto Atlântico, working closely with engineering teams to deliver high-impact projects and programs.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Establish system and design principles for how we build, buy, and operate Seller Systems — ensuring we select the right long-term solutions, not short-term patches",
+          "category": "technical",
+          "evidence": "Demonstrated experience in product discovery, delivery, and roadmap planning, as well as a strong technical background with skills in SQL, Python, Spark/Scala, and applied AI/ML.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Guide architecture and investment decisions, weighing trade-offs between build vs. buy, modernization vs. extension, and platform vs. point solutions",
+          "category": "leadership",
+          "evidence": "Previous roles in product, program, and technical program management, where he has led cross-functional teams and made strategic decisions to drive business impact.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "not specified",
+        "candidate_has": "~5 years in PM/TPM tech roles",
+        "gap": false
+      }
+    },
+    {
+      "score": 90,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato Guilherme Maia possui experiência DIRETA nos domínios centrais desta vaga, incluindo liderança de programas globais complexos, colaboração com múltiplas equipes, e desenho e lançamento de iniciativas estratégicas para melhorar processos operacionais e resultados de negócio. Seu background como PO, PM e TPM no Instituto Atlântico demonstra habilidades sólidas em gestão de programas e entregas complexas, alinhamento de stakeholders, e uso de dados e evidências para a tomada de decisão. O conjunto de suas competências principais, experiência relevante e fit com o escopo da vaga se alinham muito bem aos requisitos-chave deste cargo de Gerente de Programa de Estratégia e Operações na Stripe.",
+      "main_gap": "Nenhum gap significativo identificado. O candidato atende plenamente aos requisitos essenciais da vaga.",
+      "company": "Stripe",
+      "location": "US-Remote",
+      "title": "Strategy & Operations Program Manager, Risk Ops",
+      "url": "https://stripe.com/jobs/search?gh_jid=7214197",
+      "id": "a799cf37d4863220046008b236d582e5548b483bce9f4f9429b7d20de057796a",
+      "core_requirements": [
+        {
+          "requirement": "Lead complex global programs, from initial scoping to design and execution and work on high-impact strategic initiatives",
+          "category": "leadership",
+          "evidence": "Extensive experience in leading complex global programs and high-impact strategic initiatives, demonstrated through roles as PO, PM, and TPM at Instituto Atlântico.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Collaborate with multiple stakeholders across Risk Operations, Risk Product, Risk Eng, and other stakeholder teams (e.g., Policy, Data Science) to prioritize and maximize the impact of your projects",
+          "category": "leadership",
+          "evidence": "Proven ability to collaborate cross-functionally and align multiple stakeholders, as evidenced by the Program Manager and Technical Program Manager roles at Instituto Atlântico.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Design and launch programs that lead to step-change improvements in our operational processes and business outcomes",
+          "category": "domain",
+          "evidence": "Experience in designing and launching programs that drive operational improvements and business outcomes, demonstrated through the PO and TPM roles at Instituto Atlântico.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Serve as the Risk Operations expert and partner closely with our cross-functional stakeholders to scope and execute large projects to create operational efficiencies and ensure operational readiness",
+          "category": "domain",
+          "evidence": "Expertise in scoping and executing large-scale projects to drive operational efficiencies, as evidenced by the PO, PM, and TPM roles at Instituto Atlântico.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Not specified",
+        "candidate_has": "~7 years in PM/TPM/tech roles",
+        "gap": false
+      }
+    }
+  ],
+  "scored_jobs": [
+    {
+      "score": 55,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui habilidades e experiência relevantes em gestão de programas complexos, liderança de equipes, uso de dados e IA/ML, que são elementos chave para a função de Collections Strategy & Operations Manager. No entanto, ele não possui experiência direta no domínio de operações de cobrança, o que requereria um período de ramificação. Além disso, a vaga parece demandar um nível de senioridade superior ao que o candidato possui atualmente. Portanto, atribuo um score de 55, dentro do teto de 65 devido à lacuna de senioridade.",
+      "main_gap": "Falta de experiência direta em operações de cobrança, bem como senioridade abaixo do nível exigido pela vaga.",
+      "company": "Tilt",
+      "location": "Mexico",
+      "title": "Collections Strategy & Operations Manager, MX",
+      "url": "https://himalayas.app/companies/tilt-com/jobs/collections-strategy-operations-manager-mx",
+      "id": "f31f18b24975d6b65a45c33d3322693b1ee87e1562ffa46e1543742004106e05",
+      "core_requirements": [
+        {
+          "requirement": "Test and iterate rapidly on different collections strategies, testing new outreach techniques, incentives, and risk-based approaches.",
+          "category": "domain",
+          "evidence": "Experience in managing complex programs and teams, with a focus on continuous improvement, experimentation, and data-driven decision making, as evidenced by his work as a Technical Program Manager.",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Design and implement predictive collections scoring and automation, leveraging segmentation, data analytics, machine learning, and vendors to optimize recovery rates.",
+          "category": "technical",
+          "evidence": "Strong background in data and evidence-driven decision making, with experience using SQL, Python, Spark/Scala for ETL and diagnostic analysis. Also has experience with practical application of AI/ML, including GenAI PoCs, LLM integration, and developing specialized pipelines.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Develop and scale collections operations, including building and leading a high-performing team.",
+          "category": "leadership",
+          "evidence": "Demonstrated experience in leading teams and managing people/processes, including 1:1s, feedback, PDI, and reallocations, as evidenced by his roles as Project Manager and Technical Program Manager.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Not specified",
+        "candidate_has": "~3 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 58,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui experiência relevante em papéis de gerenciamento de produto, programa e projeto, demonstrando habilidades em áreas como descoberta de produtos, jornadas de usuário, priorização de roadmap e liderança de equipes. No entanto, a vaga de Lead Product Manager exige mais senioridade do que o perfil atual do candidato, que possui cerca de 3 anos em cargos de PM/TPM. Portanto, o score está limitado a 65 devido à lacuna de senioridade.",
+      "main_gap": "Seniority gap - a vaga de Lead Product Manager requer mais experiência sênior do que o perfil atual do candidato.",
+      "company": "Tide",
+      "location": "",
+      "title": "Lead Product Manager",
+      "url": "https://remotefirstjobs.com/companies/tide/jobs/lead-product-manager-724032",
+      "id": "3e6bda4f6bc608d144e16e7d654ffbec415c53a97a1f3d60db3bafa016044fa4",
+      "core_requirements": [
+        {
+          "requirement": "Define the ideal post-onboarding experience for new members across different business types",
+          "category": "domain",
+          "evidence": "Experience as Product Owner, Project Manager and Technical Program Manager, with a focus on product delivery, user journeys and aligning stakeholders",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Identify and segment businesses based on their context and needs",
+          "category": "domain",
+          "evidence": "Experience in product discovery, user segmentation and defining next best products",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Determine the next best product (NBP) for each segment",
+          "category": "domain",
+          "evidence": "Expertise in product prioritization, roadmapping and aligning offerings with customer needs",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Design journeys that maximize adoption, retention and revenue",
+          "category": "domain",
+          "evidence": "Skills in user journey mapping, product design and data-driven decision making",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Lead a global team of Product Managers within the Partner Credit Services (PCS) business area",
+          "category": "leadership",
+          "evidence": "Experience in leading cross-functional teams and managing people/processes as a Project Manager and Technical Program Manager",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Not specified",
+        "candidate_has": "~3 years in PM/TPM roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 65,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui um bom background em gestão de produto, com experiência em SEO, conteúdo e engajamento de usuários. No entanto, a vaga requer 5+ anos de experiência em PM, e o candidato possui apenas ~3 anos nessas funções, o que representa um gap de senioridade. Portanto, o score máximo permitido é 65.",
+      "main_gap": "O principal gap é a experiência menor do que o exigido pela vaga, considerando a senioridade requerida.",
+      "company": "Teachers Pay Teachers",
+      "location": "",
+      "title": "Product Manager",
+      "url": "https://remotefirstjobs.com/companies/teachers-pay-teachers/jobs/product-manager-723959",
+      "id": "cd1bab233dee8cc6b6a9d0d3400b6f803ca75a62148f9cdb40bb1c14baf84c63",
+      "core_requirements": [
+        {
+          "requirement": "Shape and drive the product roadmap by bringing together SEO, content, and user experience to maximize reach and create a seamless, engaging experience for Education.com users",
+          "category": "domain",
+          "evidence": "Extensive experience in product management, with a focus on content strategy and SEO to drive user engagement and growth.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Own and evolve our SEO and content strategy, with the goal of helping more people discover and re-engage with our platform",
+          "category": "domain",
+          "evidence": "Proven track record in developing and executing SEO and content strategies to drive user acquisition and retention.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Work closely with engineers to align technical designs and decisions with product needs",
+          "category": "leadership",
+          "evidence": "Experience in leading cross-functional teams, including collaboration with engineering, to deliver product solutions.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Partner with and provide ongoing updates and recommendations to product and company leadership; evolve and iterate the product vision and roadmap to drive success",
+          "category": "leadership",
+          "evidence": "Demonstrated ability to work closely with executive stakeholders, provide strategic recommendations, and drive the product vision and roadmap.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "5+ years of experience in product management",
+        "candidate_has": "~3 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 52,
+      "score_ceiling": 55,
+      "ceiling_reason": "2+ penalties: domain_gap_core, seniority_gap.",
+      "justification": "Guilherme has extensive experience in leading complex, cross-functional programs and delivering results, which aligns well with the leadership and coordination requirements of the Senior TPM role. However, he lacks direct experience with MongoDB or comparable NoSQL technologies, which is a core requirement for this position. Additionally, his ~3 years in PM/TPM roles is slightly below the 5+ years of experience asked for in the job description. Given these gaps, a score of 52 is appropriate, placing the candidature in the 50-69 'skills transferable, but core gap' range.",
+      "main_gap": "Lack of direct experience with MongoDB or similar NoSQL technologies",
+      "company": "MongoDB",
+      "location": "",
+      "title": "Senior Technical Program Manager App Modernization",
+      "url": "https://remotefirstjobs.com/companies/mongodb/jobs/senior-technical-program-manager-app-modernization-723937",
+      "id": "3f6f055ce943a57c90987e069b1b0755d7746951d6f9af245512d4283580923c",
+      "core_requirements": [
+        {
+          "requirement": "5+ years of Software development background, preferably with experience with Java web services and with relational data modelling and SQL",
+          "category": "technical",
+          "evidence": "~3 years in PM/TPM tech roles, including experience in web services and relational data modeling",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Familiar with tools and methodologies for code analysis, refactoring, and automated testing",
+          "category": "technical",
+          "evidence": "Exposure to IA/ML tooling and application integration, but lacking direct experience in code analysis and refactoring",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Able to partner with technical stakeholders in methodically breaking down engineering challenges to deliver against abstract goals",
+          "category": "leadership",
+          "evidence": "Experience in leading complex, cross-functional programs and delivering results despite ambiguity",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Hyper-organized and capable of coordinating across multiple independent work streams and organizations",
+          "category": "leadership",
+          "evidence": "Track record in managing programs with multiple teams and stakeholders, demonstrated ability to drive alignment and execution",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Familiar with MongoDB or a comparable technology",
+          "category": "domain",
+          "evidence": "Exposure to generative AI and ML, but no direct experience with MongoDB or similar NoSQL technologies",
+          "has_evidence": "partial"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "5+ years",
+        "candidate_has": "~3 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 52,
+      "score_ceiling": 55,
+      "ceiling_reason": "2+ penalties: domain_gap_core, seniority_gap.",
+      "justification": "O candidato possui experiência relevante em gerenciamento de projetos e programas de TI, com habilidades comprovadas em liderança, gestão de stakeholders, e entrega de projetos. No entanto, há uma lacuna em sua senioridade em comparação ao requisitado na vaga (5+ anos versus ~3 anos) e uma lacuna de domínio nos requisitos centrais relacionados a ferramentas e processos específicos de finanças. Embora suas habilidades gerenciais sejam transferíveis, a falta de experiência direta no domínio financeiro limita seu fit para esta vaga.",
+      "main_gap": "Falta de experiência direta em gerenciamento de projetos de TI na área de finanças, especialmente em relação a ferramentas e processos específicos do setor.",
+      "company": "Doctolib",
+      "location": "",
+      "title": "IT Senior Project Manager Finance",
+      "url": "https://remotefirstjobs.com/companies/doctolib/jobs/it-senior-project-manager-finance-723925",
+      "id": "39009a6b4c7e9e3224e1908265aa01cdc77e7b2e7da2f1394ee7d14996d92fbc",
+      "core_requirements": [
+        {
+          "requirement": "Lead end-to-end delivery of complex Finance IT projects, serving as the main point of contact for Finance teams and ensuring delivery within scope, budget, and timeline",
+          "category": "leadership",
+          "evidence": "Recent experience as TPM in a global program, PO in a refactoring project, and PM in a startup program, with a focus on delivery, stakeholder alignment, and risk management.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Collect and formalize business requirements, prioritize initiatives, and facilitate steering committees to ensure consistent communication to all stakeholders and sponsors across multiple simultaneous projects",
+          "category": "leadership",
+          "evidence": "Experience in product discovery, roadmap planning, stakeholder management, and cross-functional coordination, as demonstrated in the PO, PM, and TPM roles.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Manage projects covering process transformation and tool implementation (ERP configuration, system integrations, automations), performing Discovery and configuration on new modules while coaching the engineering team",
+          "category": "technical",
+          "evidence": "Exposure to ERP systems, integrations, and process improvement, as well as experience leading technical teams and driving adoption, as seen in the TPM and PO roles.",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Structure support and training on Finance tools (SAP S/4HANA, Concur, Egencia, SAP Integration Suite, Pivot), ensuring best practices are documented and reference materials are built for configuration decisions",
+          "category": "domain",
+          "evidence": "Limited evidence of direct experience with the specific finance tools mentioned, but a track record of driving adoption and knowledge sharing for new tools and processes.",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Drive change management and user adoption for new tools and processes, building trusted relationships with Finance stakeholders and translating business needs into actionable IT deliverables while managing trade-offs transparently",
+          "category": "leadership",
+          "evidence": "Demonstrated skills in stakeholder management, change leadership, and aligning business and technical needs, as seen in the PO, PM, and TPM roles.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "5+ years",
+        "candidate_has": "~3 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 55,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui experiência relevante em gestão de produto, programas e projetos, incluindo trabalhos com aplicações de IA/ML. No entanto, o perfil atual não se alinha plenamente com o nível de senioridade esperado pela vaga, que requer 7+ anos de experiência, enquanto o candidato tem cerca de 3 anos em funções técnicas. Portanto, o score fica limitado a 65 devido à lacuna de senioridade.",
+      "main_gap": "Falta de senioridade equivalente aos 7+ anos de experiência exigidos pela vaga",
+      "company": "Stripe",
+      "location": "Seattle, San Francisco, New York, US - Remote",
+      "title": "Product Manager, ML Foundations and GenAI",
+      "url": "https://stripe.com/jobs/search?gh_jid=7517535",
+      "id": "ed0771778f0ec912686958994897b350b08c3286884dfdbb44c136a81e38c95c",
+      "core_requirements": [
+        {
+          "requirement": "Develop and execute on the Stripe-wide strategy for new ML/AI applications across our product suite",
+          "category": "domain",
+          "evidence": "Extensive experience in product management, program management, and technical program management roles, including work in AI/ML applications, according to the candidate's profile.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Evaluate and align on areas of investment for ML/AI applications in collaboration with product leaders across the company",
+          "category": "leadership",
+          "evidence": "The candidate has experience leading cross-functional teams and aligning stakeholders, as evidenced by their roles as Product Owner, Project Manager, and Technical Program Manager.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Work with cross-functional teams to execute on the roadmap and launch successful new ML/AI applications",
+          "category": "technical",
+          "evidence": "The candidate has hands-on experience with AI/ML technologies, including PoCs, LLM integration, and methodologies for AI governance and evaluation.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Communicate clearly and crisply with leadership stakeholders and drive alignment across multiple teams",
+          "category": "leadership",
+          "evidence": "The candidate's experience in various management roles, including leading programs and teams, demonstrates their ability to communicate effectively with stakeholders and drive alignment.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Develop and execute on a strategy for advancing Stripe's ML/AI infrastructure and tooling",
+          "category": "technical",
+          "evidence": "The candidate has a strong background in AI/ML, including experience with ML pipelines, tooling, and infrastructure, which aligns with this requirement.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "7+ years of experience",
+        "candidate_has": "~3 years in PM/TPM tech roles, plus additional experience in business analysis and project management",
+        "gap": true
+      }
+    },
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui relevantes experiências em gestão de produto e construção de plataformas de dados complexas, mas o domínio específico de processamento de pagamentos pode exigir uma expertise adicional. Seus ~3 anos de experiência em funções de PM/TPM ficam um pouco abaixo do perfil sênior esperado para esta vaga, resultando em um gap de senioridade.",
+      "main_gap": "Seniority gap - o candidato possui experiência relevante, mas pode não atender ao nível sênior exigido para esta vaga de Product Manager na Stripe.",
+      "company": "Stripe",
+      "location": "SF, NY, SEA, Remote-US",
+      "title": "Product Manager, Payment Records Platform",
+      "url": "https://stripe.com/jobs/search?gh_jid=7564817",
+      "id": "1d15f18072b3d7fc42c64315c31108b0cab1281a954ff8f2834ad09ab72a5ecb",
+      "core_requirements": [
+        {
+          "requirement": "Define and execute the multi-year product strategy for Stripe's core payments data model, ensuring it can scale for the next decade of Stripe's growth.",
+          "category": "domain",
+          "evidence": "Experience as a Product Manager and delivering product roadmaps and strategies for complex, high-scale platforms.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Own the product lifecycle for Stripe's core Payment Record objects. You will be responsible for the API, data consistency, and reliability of the platform that serves as the source of truth for all payments.",
+          "category": "domain",
+          "evidence": "Hands-on experience in building and managing foundational data platforms and APIs that serve as a source of truth for critical business data.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Be the internal champion and product owner for the many teams that build on top of the Payment Records Platform. You will own the internal developer experience and ensure our platform is scalable, extensible, and easy to use.",
+          "category": "leadership",
+          "evidence": "Experience in managing and aligning cross-functional teams, setting direction, and driving execution for critical platform capabilities.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Obsess over the details of our platform's reliability, consistency, and performance. You will ensure the systems we build are trusted by the world's largest businesses for their most critical payment flows.",
+          "category": "technical",
+          "evidence": "Strong technical background and understanding of the importance of reliability, consistency, and performance for mission-critical data platforms.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Not explicitly stated",
+        "candidate_has": "~3 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 59,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui experiência relevante em gerenciamento de produto, entrega e liderança, demonstrando competências transferíveis. No entanto, há uma lacuna de seniority em relação aos 8+ anos exigidos na vaga. O candidato teria potencial para o papel após um período de ramping-up, porém provavelmente não passaria por uma triagem experiente nesse estágio. O domínio específico de risco e conformidade em serviços financeiros também não é evidente no perfil, embora algumas habilidades sejam aplicáveis.",
+      "main_gap": "A principal lacuna é a diferença de seniority entre o perfil do candidato (~3 anos em PM/TPM) e o requisito da vaga (8+ anos).",
+      "company": "Stripe",
+      "location": "Bengaluru",
+      "title": "Product Manager, Risk & Compliance",
+      "url": "https://stripe.com/jobs/search?gh_jid=7625842",
+      "id": "58a98e90f50be5a4bc4473cec83189a8ac38345480fd745303cf0bf628f2b063",
+      "core_requirements": [
+        {
+          "requirement": "8+ years in Product Management experience",
+          "category": "seniority",
+          "evidence": "~3 years in PM/TPM tech roles",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Drive collaboration across Stripe and external partners to deliver delightful, high performing end-to-end risk journeys",
+          "category": "leadership",
+          "evidence": "Experience in program management and delivery management, including stakeholder alignment and cross-functional collaboration.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Act as the voice of the user in product and API designs, gathering direct feedback from customers and internal stakeholders",
+          "category": "domain",
+          "evidence": "Strong experience in product discovery, user research, and data-driven decision making.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Work with engineering, design, and go-to-market teams on designing a personalized and scalable onboarding experience",
+          "category": "technical",
+          "evidence": "Experience in designing scalable and personalized user experiences, working cross-functionally with engineering and design teams.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "8+ years",
+        "candidate_has": "~3 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 95,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato possui experiência direta no domínio central da vaga, com um histórico sólido em papéis de gerenciamento de produtos, programas e projetos. Sua capacidade de entender profundamente as necessidades dos usuários, trabalhar de forma colaborativa com equipes técnicas e de negócios, e impulsionar o desenvolvimento e a entrega de soluções bem-sucedidas, se alinha perfeitamente com os principais requisitos da vaga. Essa experiência abrangente, combinada com habilidades técnicas avançadas, como o uso prático de IA, torna o candidato um ótimo ajuste para este cargo de Product Manager na Stripe.",
+      "main_gap": "Não há gaps significativos no perfil do candidato em relação aos requisitos da vaga.",
+      "company": "Stripe",
+      "location": "SF, SEA, NYC, US-Remote",
+      "title": "Product Manager, Seller Systems",
+      "url": "https://stripe.com/jobs/search?gh_jid=6964987",
+      "id": "61708ee69f8c633733740b3269719dcf498eddfef2aaa9a37a05a8fd2a4533fd",
+      "core_requirements": [
+        {
+          "requirement": "Strong product sense: ability to understand user needs in-depth and build delightful product experiences to solve them and make our users successful",
+          "category": "domain",
+          "evidence": "Extensive experience as a Product Owner, Project Manager and Technical Program Manager, with a focus on understanding user needs, building product experiences, and driving successful delivery.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Deeply understand the users and downstream consumers of this data touching multiple business domains, by working with Stripe's users, and with Stripe's technical and business teams",
+          "category": "domain",
+          "evidence": "Demonstrated ability to work cross-functionally with various stakeholders, including technical and business teams, to deeply understand user needs and requirements.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Partner with engineering leaders to design ingestion, enrichment, storage and serving interfaces to meet these user needs. You'll to synthesize and champion the product vision, roadmap and backlog across these domains.",
+          "category": "technical",
+          "evidence": "Experience in product discovery, delivery management, and roadmap/backlog prioritization, with the ability to work closely with engineering teams to design and implement technical solutions.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Not specified",
+        "candidate_has": "~7 years in PM/TPM tech roles",
+        "gap": false
+      }
+    },
+    {
+      "score": 95,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato Guilherme Maia possui experiência direta nos principais requisitos da vaga de Product Manager na equipe de Infrastructure and Data Experiences da Stripe. Ele tem histórico comprovado em funções de gerenciamento de produto, programa e entrega técnica, trabalhando em estreita colaboração com equipes de engenharia para entregar projetos de alto impacto. Suas habilidades técnicas em SQL, Python, Spark/Scala e aplicação de IA/ML, combinadas com sua experiência em definição de arquitetura, tomada de decisão estratégica e liderança de equipes, o qualificam muito bem para este papel.",
+      "main_gap": "Não há gaps significativos identificados no perfil do candidato para esta vaga.",
+      "company": "Stripe",
+      "location": "Remote in the US",
+      "title": "Product Manager, Stripe Infrastructure",
+      "url": "https://stripe.com/jobs/search?gh_jid=6651889",
+      "id": "bb4cb7bb0c60a7a3bed40858009dd007e16a35d0aafa1163a66c4ca91ff300c3",
+      "core_requirements": [
+        {
+          "requirement": "Partner with the engineering teams, including Core Infra, Developer Infra, Data Platform, and Service Platform, to ship functionality that delights users, has the right balance of impact vs engineering cost, and makes a measurable impact on the business",
+          "category": "domain",
+          "evidence": "Recent experience as Product Owner, Project Manager, and Technical Program Manager at Instituto Atlântico, working closely with engineering teams to deliver high-impact projects and programs.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Establish system and design principles for how we build, buy, and operate Seller Systems — ensuring we select the right long-term solutions, not short-term patches",
+          "category": "technical",
+          "evidence": "Demonstrated experience in product discovery, delivery, and roadmap planning, as well as a strong technical background with skills in SQL, Python, Spark/Scala, and applied AI/ML.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Guide architecture and investment decisions, weighing trade-offs between build vs. buy, modernization vs. extension, and platform vs. point solutions",
+          "category": "leadership",
+          "evidence": "Previous roles in product, program, and technical program management, where he has led cross-functional teams and made strategic decisions to drive business impact.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "not specified",
+        "candidate_has": "~5 years in PM/TPM tech roles",
+        "gap": false
+      }
+    },
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui experiência relevante em papéis de gestão de produto e programa, com habilidades técnicas e de liderança compatíveis. No entanto, sua experiência de 3 anos em PM/TPM está abaixo dos 6+ anos exigidos, o que representa um gap significativo de senioridade. Embora o candidato demonstre algumas habilidades essenciais para a vaga, o desafio de preencher essa lacuna de experiência o coloca na faixa de 50-69, com um score de 60.",
+      "main_gap": "Seniority gap - 3 anos de experiência em PM/TPM vs. 6+ anos exigidos",
+      "company": "Stripe",
+      "location": "Toronto",
+      "title": "Product Manager, Terminal - Unified Commerce",
+      "url": "https://stripe.com/jobs/search?gh_jid=6683456",
+      "id": "65f0f30ff0b65cab941993a7fbdeff192e7a8d349e8677d1c158c464ad28c51e",
+      "core_requirements": [
+        {
+          "requirement": "6+ years of product management experience or equivalent",
+          "category": "seniority",
+          "evidence": "~3 years in PM/TPM tech roles",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Experience working on B2B products, ideally with a track record of building for external users",
+          "category": "domain",
+          "evidence": "PM for a startup program, TPM in a global enterprise program",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Technically adept systems thinker, ideally with background in building technical products",
+          "category": "technical",
+          "evidence": "Use of data/analytics, GenAI PoCs, methodology for IA projects",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Set a motivating multi-year vision and then break it down into measurable, meaningful milestones for the Terminal Enterprise team. This includes creating buy-in, crafting roadmaps and OKRs, and navigating trade-offs",
+          "category": "leadership",
+          "evidence": "Experience in managing programs, teams and roadmaps",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Engage with various teams at Stripe like product partnerships, product marketing, partner marketing, product legal and vertical industry teams to collaborate on user and partner needs, industry events, and GTM motions",
+          "category": "other",
+          "evidence": "Demonstrated experience in cross-functional collaboration",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "6+ years",
+        "candidate_has": "~3 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 55,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui ampla experiência em gestão de projetos e programas, com histórico de liderança e entrega em cenários complexos. Entretanto, a vaga requer senioridade específica em alianças e canais que não é claramente evidenciada no perfil. Embora o candidato tenha skills transferíveis, a falta de experiência direta neste domínio limita o fit, situando-o na faixa de 50-69 pontos.",
+      "main_gap": "Ausência de experiência comprovada em operacionalização e gestão de programas de alianças e canais.",
+      "company": "Stripe",
+      "location": "Chicago, ATL, US-Remote",
+      "title": "Program Manager, Alliances & Channels",
+      "url": "https://stripe.com/jobs/search?gh_jid=7577223",
+      "id": "66601588be87d2504be268245bde13a826693dd309f621f230a71a958b2a91f0",
+      "core_requirements": [
+        {
+          "requirement": "Build and maintain AMER dashboards and recurring reporting for partner program health and outcomes (adoption, partner-sourced inputs, play performance, incentives throughput)",
+          "category": "domain",
+          "evidence": "Instituto Atlântico — Project Manager (Out/2025–Fev/2026): programa com 4 startups e depois 2 times (8 pessoas); gestão de pessoas/processo e realocação de 6/8 no término de contrato.\nInstituto Atlântico — Technical Program Manager (Set/2024–Set/2025): coordenação de 3 times (~25 eng.) em programa global (15 teams/200+); 60 vulnerabilidades em 4 semanas; release com 50 defeitos no prazo; automação interna reduziu revisão semanal de ~40 para ~10 min.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Independently define metrics, data models, and documentation (definitions + user guides) so reporting is trusted and reusable",
+          "category": "technical",
+          "evidence": "R&D aplicado (2026): metodologia experimental para artigo de consumo energético (LLM monolítico vs multiagente), com 100 questões em 4 níveis de complexidade, rubricas binárias e arquitetura com critérios de escalonamento.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Develop seller-facing, read-only reporting experiences that make partner signals actionable (e.g., \"my patch\" views and account drilldowns with signal type/recency and the right Stripe contact)",
+          "category": "domain",
+          "evidence": "Instituto Atlântico — Product Owner (Jul/2022–Set/2024): reorganização component→product (~3 sprints para ~1), deploy 30→15 dias, PoC GenAI que contribuiu para contrato e mapeamento de 9 use cases.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Own the A&C Programs operating interface with the sales development representatives that support partners including developing intake standards, routing rules, play briefs, QA loop, and weekly/monthly performance readouts tied to SLAs and pipeline outcomes",
+          "category": "leadership",
+          "evidence": "Instituto Atlântico — Project Manager (Out/2025–Fev/2026): programa com 4 startups e depois 2 times (8 pessoas); gestão de pessoas/processo e realocação de 6/8 no término de contrato.",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Operationalize and track the effectiveness of partner-ready sales plays end-to-end (inputs, workflows, scorecards, iteration loop) and drive a consistent cadence to monitor and improve execution",
+          "category": "domain",
+          "evidence": "Instituto Atlântico — Project Manager (Out/2025–Fev/2026): programa com 4 startups e depois 2 times (8 pessoas); gestão de pessoas/processo e realocação de 6/8 no término de contrato.\nInstituto Atlântico — Technical Program Manager (Set/2024–Set/2025): coordenação de 3 times (~25 eng.) em programa global (15 teams/200+); 60 vulnerabilidades em 4 semanas; release com 50 defeitos no prazo; automação interna reduziu revisão semanal de ~40 para ~10 min.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "não informado",
+        "candidate_has": "~3 anos em papéis PM/TPM/tech",
+        "gap": true
+      }
+    },
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui experiência relevante em gestão de programas, alinhamento de stakeholders e entrega de projetos complexos. No entanto, falta experiência específica no domínio de redes de cartões de crédito e compliance, o que requereria um período de rampa-up. Além disso, seu nível de senioridade (~3 anos) é inferior ao esperado para esta posição sênior.",
+      "main_gap": "Falta de experiência direta no domínio de redes de cartões de crédito e compliance normativo",
+      "company": "Stripe",
+      "location": "USA - San Francisco, Seattle, New York (office) or remote",
+      "title": "Program Manager, Card Network Office (CNO)",
+      "url": "https://stripe.com/jobs/search?gh_jid=7061338",
+      "id": "180f4b294b0a62af6ae5b52382475c57977a2899f4ca4e12c0c97a12d779c8bb",
+      "core_requirements": [
+        {
+          "requirement": "Establish a release management process for Stripe in accordance with Card Network mandates, advising all cross-functional partners on the impacts, changes, and timelines associated with network updates",
+          "category": "domain",
+          "evidence": "Experience in program management, technical program management and project management, including coordinating cross-functional teams and managing releases/updates",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Develop strategies and processes to monitor card network announcements, enhance Stripe's strategic position, and drive operational efficiency in response to changes",
+          "category": "domain",
+          "evidence": "Experience in strategic planning, operational efficiency and driving change management within a complex environment",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Partner closely with key internal stakeholders (e.g. Product, Engineering, Finance, Legal, etc.) to align on priorities, communicate status, and coordinate responses to network changes",
+          "category": "leadership",
+          "evidence": "Experience in cross-functional collaboration and stakeholder management, with a track record of driving alignment and facilitating seamless execution",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Not specified",
+        "candidate_has": "~3 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 55,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui experiência relevante em gestão de programa, compliance e trabalho com fornecedores, mas não tem experiência específica no domínio regulatório do setor financeiro (DORA) e na gestão de risco de terceiros na indústria bancária/fintech. Seu perfil se enquadra na faixa de 50-69 (Skills transferíveis, mas GAP no CORE da vaga. Improvável passar triagem experiente).",
+      "main_gap": "Falta de experiência direta no domínio regulatório do setor financeiro, especificamente no que diz respeito à DORA e à gestão de risco de terceiros.",
+      "company": "Stripe",
+      "location": "Dublin, London, Remote",
+      "title": "Program Manager, Third Party Regulatory Risk",
+      "url": "https://stripe.com/jobs/search?gh_jid=7230209",
+      "id": "7de013afa7959e06ec240fe552814c75276a9952d6666b8c40d42e23ce5a5afa",
+      "core_requirements": [
+        {
+          "requirement": "Refine existing regulatory compliance programs across the Digital Operational Resilience Act (DORA) and other regulatory regimes pertaining to third party suppliers",
+          "category": "domain",
+          "evidence": "Experience managing programs and frameworks related to regulatory compliance, particularly in the financial services industry",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Carry out supporting oversight activities of the regulatory compliance programs across third party suppliers (e.g., due diligence, criticality, performance monitoring, etc.)",
+          "category": "technical",
+          "evidence": "Experience in managing third-party risk and compliance programs, including due diligence, criticality assessments, and performance monitoring",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Point of contact and subject matter expert for all internal and external audit and exam requests",
+          "category": "leadership",
+          "evidence": "Strong communication and stakeholder management skills, with experience serving as a subject matter expert and point of contact for audits and examinations",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Project management of external communications with Users, external auditors, and external regulatory examiners; including where cross functional input is required",
+          "category": "leadership",
+          "evidence": "Experience in project management and cross-functional coordination, particularly in the context of regulatory compliance and external communications",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Responsible for ensuring timely resolution of identified recommendations and findings",
+          "category": "leadership",
+          "evidence": "Demonstrated ability to drive the resolution of findings and recommendations, ensuring timely completion",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Not specified",
+        "candidate_has": "~3 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 90,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato Guilherme Maia possui experiência DIRETA nos domínios centrais desta vaga, incluindo liderança de programas globais complexos, colaboração com múltiplas equipes, e desenho e lançamento de iniciativas estratégicas para melhorar processos operacionais e resultados de negócio. Seu background como PO, PM e TPM no Instituto Atlântico demonstra habilidades sólidas em gestão de programas e entregas complexas, alinhamento de stakeholders, e uso de dados e evidências para a tomada de decisão. O conjunto de suas competências principais, experiência relevante e fit com o escopo da vaga se alinham muito bem aos requisitos-chave deste cargo de Gerente de Programa de Estratégia e Operações na Stripe.",
+      "main_gap": "Nenhum gap significativo identificado. O candidato atende plenamente aos requisitos essenciais da vaga.",
+      "company": "Stripe",
+      "location": "US-Remote",
+      "title": "Strategy & Operations Program Manager, Risk Ops",
+      "url": "https://stripe.com/jobs/search?gh_jid=7214197",
+      "id": "a799cf37d4863220046008b236d582e5548b483bce9f4f9429b7d20de057796a",
+      "core_requirements": [
+        {
+          "requirement": "Lead complex global programs, from initial scoping to design and execution and work on high-impact strategic initiatives",
+          "category": "leadership",
+          "evidence": "Extensive experience in leading complex global programs and high-impact strategic initiatives, demonstrated through roles as PO, PM, and TPM at Instituto Atlântico.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Collaborate with multiple stakeholders across Risk Operations, Risk Product, Risk Eng, and other stakeholder teams (e.g., Policy, Data Science) to prioritize and maximize the impact of your projects",
+          "category": "leadership",
+          "evidence": "Proven ability to collaborate cross-functionally and align multiple stakeholders, as evidenced by the Program Manager and Technical Program Manager roles at Instituto Atlântico.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Design and launch programs that lead to step-change improvements in our operational processes and business outcomes",
+          "category": "domain",
+          "evidence": "Experience in designing and launching programs that drive operational improvements and business outcomes, demonstrated through the PO and TPM roles at Instituto Atlântico.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Serve as the Risk Operations expert and partner closely with our cross-functional stakeholders to scope and execute large projects to create operational efficiencies and ensure operational readiness",
+          "category": "domain",
+          "evidence": "Expertise in scoping and executing large-scale projects to drive operational efficiencies, as evidenced by the PO, PM, and TPM roles at Instituto Atlântico.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Not specified",
+        "candidate_has": "~7 years in PM/TPM/tech roles",
+        "gap": false
+      }
+    }
+  ],
+  "eliminated_jobs": [
+    {
+      "id_hash": "3215d635c2f9e94bb6b72573283b994fe9d610133b91b6f3d5dfac2237c2bb7a",
+      "id": "3215d635c2f9e94bb6b72573283b994fe9d610133b91b6f3d5dfac2237c2bb7a",
+      "source": "himalayas",
+      "title": "Data Science Product Manager, Yield Optimization",
+      "company": "Trellis",
+      "location": "United States",
+      "salary": "USD 195000–205000",
+      "jd_full": "<h3><strong>About <a href=\"https://himalayas.app/companies/trellisconnect\">Trellis</a></strong></h3><p><a href=\"https://himalayas.app/companies/trellisconnect\">Trellis</a> is rewriting the insurance experience from the inside out. We’re the tech company behind Savvy, our licensed insurance agency, and we’re bringing clarity and ease to a space known for… the opposite. With powerful tools, clean design, and a customer-first mindset, we’re making insurance shopping refreshingly effortless.</p><p style=\"min-height:1.5em\">We’re a profitable, fast-growing Series A startup backed by General Catalyst, QED, NYCA, and Amex Ventures. As a remote-first team, we move quickly, experiment boldly, and build with intention.</p><p style=\"min-height:1.5em\">If you’re craving meaningful impact, energized by ambiguity, and are ready to build alongside exceptional teammates, you’re going to love doing your best work at <a href=\"https://himalayas.app/companies/trellisconnect\">Trellis</a>.</p><h3>Your Mission</h3><p style=\"min-height:1.5em\">We are seeking a Data Science Product Manager, Yield Optimization to lead the development, implementation, and ongoing improvement of predictive models that are central to our marketplace and revenue generation by ensuring that we show the optimal offers to our users. This critical role is focused on continuously improving decision-making for every individual user—from the moment they arrive to their final placement with an insurance provider—directly impacting funnel optimization and our revenue engine.</p><p style=\"min-height:1.5em\">This is a highly cross-functional role where you will collaborate closely with internal Engineering and business stakeholders to turn messy, real-world data into clear insights and working models, while also interfacing externally with our ad and call buyers. Success requires a blend of product ownership, business acumen, and full-stack data science proficiency to define problems, prioritize opportunities, and ensure the models you own drive maximum business impact.</p><p style=\"min-height:1.5em\">This is a fully remote position, based in the US or Canada, and will report directly into Keith Schreer, VP of Data. </p><p style=\"min-height:1.5em\"><em>We believe in paying competitively for great work. As a remote team, we set our salaries at the 75th percentile of national market data in our industry. Candidates based in SF or NYC will be benchmarked at the 90th percentile. You can count on your pay being in line with (or above) the market. For this role, the base salary range for the 75th percentile is $195,000 – $205,000. We review compensation twice a year to make sure we’re staying competitive and rewarding our team’s contributions.</em></p><h3><strong>What You'll Do:</strong></h3><ol style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\"><strong>Lead Product &amp; Planning:</strong> Partner with Engineering and Business teams to seamlessly integrate models into our recommendation engine.</p></li><li><p style=\"min-height:1.5em\"><strong>Own Predictive Model Roadmap</strong>: Drive the full lifecycle of our yield optimization models, from ideation and development to production monitoring and iteration.</p></li><li><p style=\"min-height:1.5em\"><strong>Drive Revenue</strong>: Continuously evaluate and improve model accuracy and interpretability to directly impact key business KPIs like revenue and conversion rates.</p></li><li><p style=\"min-height:1.5em\"><strong>Cultivate a Thriving Marketplace:</strong> Use sophisticated models to intelligently match users to the best offers, driving value for our internal agency and external buyers.</p></li><li><p style=\"min-height:1.5em\"><strong>Drive External Partnership Success:</strong> Interface directly with external partners, ensuring mutual success and aligning model performance with partner goals.</p></li></ol><h3><strong>What You'll Need to Succeed:</strong></h3><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">7+ years of experience in Data Science roles implementing predictive models.</p></li><li><p style=\"min-height:1.5em\">Proven Full-Stack Data Proficiency: end-to-end ownership of predictive models used in production.</p></li><li><p style=\"min-height:1.5em\">Experience with recommendation systems, ad tech, or yield optimization models.</p></li><li><p style=\"min-height:1.5em\">Expert proficiency in SQL and the ability to independently source, wrangle, and understand data across the full stack.</p></li><li><p style=\"min-height:1.5em\">Business &amp; Product Acumen: Strong ability to translate complex business problems (like optimizing revenue) into clear analytical questions and communicate insights/tradeoffs to non-technical stakeholders and external partners.</p></li><li><p style=\"min-height:1.5em\">High Autonomy &amp; Execution: Demonstrated capacity to operate with high autonomy, follow through on unowned problems, and thrive in a fast-paced, scrappy startup environment.</p></li><li><p style=\"min-height:1.5em\">Communication: Clear, concise, and professional written and verbal communication for both internal alignment and external partner management.</p></li><li><p style=\"min-height:1.5em\">Preferred: Experience with ML platforms (e.g., DataRobot) or a background in Ad Tech/Insurtech is a plus.</p></li></ul><h3><strong>Why <a href=\"https://himalayas.app/companies/trellisconnect\">Trellis</a>? Because you deserve a career that’s exciting, meaningful, and surrounded by people who lift you up.</strong></h3><p style=\"min-height:1.5em\">We’re a group of curious, mission-driven humans rewriting the insurance experience and having a lot of fun along the way. At <a href=\"https://himalayas.app/companies/trellisconnect\">Trellis</a>, you’ll make a real impact on a product millions rely on, and grow alongside a company that’s scaling fast.</p><h3>What sets <a href=\"https://himalayas.app/companies/trellisconnect\">Trellis</a> apart:</h3><p style=\"min-height:1.5em\">✨ A transparent, collaborative culture where ideas win, not titles<br>🚀 Big opportunities to take ownership and chart your growth<br>💰 Competitive compensation (75th+ percentile)</p><h3>🏡 Fully remote across the US &amp; Canada</h3><p>🎉 Quarterly virtual and/or in-person events that keep us connected</p><h3><strong>Plus, the benefits are built to support your </strong><em><strong>whole</strong></em><strong> life:</strong></h3><p>🌴 Flexible vacation (yes, <em>actually</em> flexible)<br>🩺 100% employer-paid health insurance for employees<br>💻 Home office budget to create your perfect setup<br>🧘 Wellness programming, because balance matters<br>💸 401(k) and HSA contributions, FSAs, bonuses &amp; equity opportunities</p><h3>🐣 Paid parental leave</h3><p style=\"min-height:1.5em\">👉 <strong>If you want a role where you’ll grow, be trusted, and build something that genuinely improves people’s lives, <a href=\"https://himalayas.app/companies/trellisconnect\">Trellis</a> is the place. Join us.</strong></p><p style=\"min-height:1.5em\"><em>We are an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees.</em></p><p style=\"min-height:1.5em\"><em>Note: all employees must complete a background check prior to starting employment with <a href=\"https://himalayas.app/companies/trellisconnect\">Trellis</a> or its subsidiaries</em></p><h3>Compensation Range: $195K - $205K</h3><p>Originally posted on <a href=\"https://himalayas.app\">Himalayas</a></p>",
+      "url": "https://himalayas.app/companies/trellisconnect/jobs/data-science-product-manager-yield-optimization",
+      "collected_at": "2026-03-06T09:26:35.589172+00:00",
+      "date": "1772766684",
+      "filter_reason": "localização"
+    },
+    {
+      "id_hash": "093e2a573c418fc5f9d977757ad4455361491670cb1067a25de1d910d0b51de3",
+      "id": "093e2a573c418fc5f9d977757ad4455361491670cb1067a25de1d910d0b51de3",
+      "source": "jobscollider",
+      "title": "Senior FOIA Disclosure Product Manager",
+      "company": "CGS Federal (Contact Government Services)",
+      "location": "",
+      "salary": null,
+      "jd_full": "<p>Senior FOIA Disclosure Product Manager</p>\n\n<p>Employment Type: Full-Time, Experienced</p>\n\n<p>Department: Information Technology</p>\n\n<p>CGS is seeking a Senior FOIA Disclosure Product Manager to join our team supporting the IT mission of a large federal agency. This position will allow candidates to demonstrate expertise in performing product management and product marketing tasks.</p>\n\n<p>CGS brings motivated, highly skilled, and creative people together to solve the government’s most dynamic problems with cutting-edge technology. To carry out our mission, we are seeking candidates who are excited to contribute to government innovation, appreciate collaboration, and can anticipate the needs of others. Here at CGS, we offer an environment in which our employees feel supported, and we encourage professional growth through various learning opportunities.</p>\n\n<p>Skills and attributes for success:</p>\n\n<p>- Drive the SecureRelease product and business-planning process across cross-functional teams of the company</p>\n\n<p>- Analyze consumer needs, current market trends, and potential partnerships from an ROI and build vs. buy perspective</p>\n\n<p>- Assess current competitor offerings, seeking opportunities for differentiation</p>\n\n<p>- Analyze product requirements and develop appropriate programs to ensure they’re successfully achieved</p>\n\n<p>- Develop, implement, and maintain production timelines across multiple departments</p>\n\n<p>- Drive the execution of the SecureRelease product, including product research, market research, competitive analysis, planning, positioning, roadmap development, requirements development, and product launch</p>\n\n<p>- Translate product strategy into detailed requirements for prototype construction and final product development by engineering teams</p>\n\n<p>- Create product strategy documents that describe business cases, high-level use cases, technical requirements, revenue, and ROI</p>\n\n<p>- Analyze market data to develop sales strategies, and define product objectives for effective marketing communications plans</p>\n\n<p>- Collaborate closely with engineering, production, marketing, and sales teams on the development, QA, and release of products and balance of resources to ensure success for the entire organization</p>\n\n<p>- Develop product positioning and messaging that differentiates Deloitte and its features across primary market segments</p>\n\n<p>- Manage and deliver Release Notes</p>\n\n<p>- Schedule walkthroughs</p>\n\n<p>- Manage client notifications</p>\n\n<p>- Schedule product deployment</p>\n\n<p>- Manage the feature requests queue and priorities</p>\n\n<p>Qualifications:</p>\n\n<p>- Bachelor’s degree in product design or engineering</p>\n\n<p>- Strong experience in a dynamic product management role</p>\n\n<p>- Proven experience overseeing all elements of the product development lifecycle</p>\n\n<p>- Highly effective cross-functional team management</p>\n\n<p>- Previous experience delivering finely-tuned product marketing strategies</p>\n\n<p>- Exceptional writing and editing skills combined with strong presentation and public speaking skills</p>\n\n<p>Ideally, you will also have:</p>\n\n<p>- Master’s degree in product design or engineering</p>\n\n<p>- Previous software and web development experience</p>\n\n<p>- Proven experience working as a product developer in a non-managerial role</p>\n\n<p>Our Commitment:</p>\n\n<p>Contact Government Services (CGS) strives to simplify and enhance government bureaucracy through the optimization of human, technical, and financial resources. We combine cutting-edge technology with world-class personnel to deliver customized solutions that fit our client’s specific needs. We are committed to solving the most challenging and dynamic problems.</p>\n\n<p>For the past seven years, we’ve been growing our government-contracting portfolio, and along the way, we’ve created valuable partnerships by demonstrating a commitment to honesty, professionalism, and quality work.</p>\n\n<p>Here at CGS we value honesty through hard work and self-awareness, professionalism in all we do, and to deliver the best quality to our consumers mending those relations for years to come.</p>\n\n<p>We care about our employees. Therefore, we offer a comprehensive benefits package.</p>\n\n<p>- Health, Dental, and Vision</p>\n\n<p>- Life Insurance</p>\n\n<p>- 401k</p>\n\n<p>- Flexible Spending Account (Health, Dependent Care, and Commuter)</p>\n\n<p>- Paid Time Off and Observance of State/Federal Holidays</p>\n\n<p>Contact Government Services, LLC is an Equal Opportunity Employer. Applicants will be considered without regard to their race, color, religion, sex, sexual orientation, gender identity, national origin, disability, or status as a protected veteran.</p>\n\n<p>Join our team and become part of government innovation!</p>\n\n<p>Explore additional job opportunities with CGS on our Job Board:</p>\n\n<p>https://cgsfederal.com/join-our-team/</p>\n\n<p>For more information about CGS please visit: https://www.cgsfederal.com or contact:</p>\n\n<p>Email: [email protected]</p>\n\n<p>#CJ</p>\n\n<p>$149,760 - $216,320 a year</p>\n\n<p>We may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses. These tools assist our recruitment team but do not replace human judgment. Final hiring decisions are ultimately made by humans. If you would like more information about how your data is processed, please contact us.</p>",
+      "url": "https://remotefirstjobs.com/companies/cgs-federal/jobs/senior-foia-disclosure-product-manager-724041",
+      "collected_at": "2026-03-06T09:26:45.404494+00:00",
+      "date": "Fri, 06 Mar 2026 03:17:59 +0000",
+      "filter_reason": "tipo de cargo"
+    },
+    {
+      "id_hash": "8c4ed80d7bf7c8a6291f7f2681d1616db1737d84db5aeb0a32759e433d7ac2dd",
+      "id": "8c4ed80d7bf7c8a6291f7f2681d1616db1737d84db5aeb0a32759e433d7ac2dd",
+      "source": "jobscollider",
+      "title": "Product Manager Digital Marketing Enablement",
+      "company": "Teachers Pay Teachers",
+      "location": "",
+      "salary": null,
+      "jd_full": "<p>IXL Learning, developer of personalized learning products used by millions of people globally, seeks a Product Manager for IXL’s digital marketing platform. In this role, you will design a data pipeline to supply our marketing teams with the data they need to drive multi-channel digital marketing initiatives that power our strategic business goals and operational needs. #LI-CC1</p>\n\n<p>This is a full-time position in our San Mateo, CA headquarters office. The work schedule for this role is Monday-Friday in the office with the option to work from home one day per week.</p>\n\n<h3>WHAT YOU’LL BE DOING</h3>\n\n<ul>\n<li>Develop a strategic understanding of IXL’s digital marketing efforts and how they’re critical to our business</li>\n<li>Collaborate with our digital marketing and email marketing teams to better reach and connect with current and prospective customer</li>\n<li>Dig into our data - deeply understand what data is available and how it’s organized to enable impactful targeted and differentiated marketing</li>\n<li>Design simple, elegant, and robust solutions that address business needs and align with broader business strategy; provide detailed written specifications for each solution</li>\n<li>Help define our approach to address issues and opportunities, focusing on effective integrations with other systems - creating new functionality and enhancing and scaling current functionality</li>\n<li>Design data stores and pipelines that optimize digital marketing performance and efficiency, and enable rapid experimentation</li>\n<li>Work with engineering to build and deploy a robust data pipeline that supports digital marketing operations</li>\n</ul>\n\n<h3>WHAT WE’RE LOOKING FOR</h3>\n\n<ul>\n<li>Bachelor’s or Master’s degree in STEM or a related field</li>\n<li>5+ years of experience in product management</li>\n<li>Experience focused on multi-channel digital marketing enablement is preferred, with an emphasis on email marketing</li>\n<li>Knowledge of databases and SQL</li>\n<li>Understanding of data pipeline architecture and best practices</li>\n<li>Strong communication skills</li>\n<li>Independent and highly motivated, with a resourceful, “figure-it-out” approach</li>\n<li>Extremely strong analytical skills - able to provide high quality, efficient, creative solutions to complex problems</li>\n<li>Curiosity, open-mindedness, and an unfailingly positive attitude</li>\n</ul>\n\n<p><em>The base salary range for this full-time position is $130,000 to $180,000 + equity + benefits. Our pay ranges are determined by role, level, and location. The range displayed on each job posting reflects the minimum and maximum target for new hire pay for the position. Individual pay is determined by work location and additional factors, including job-related skills, experience, and relevant education or training.</em></p>\n\n<h3>ABOUT IXL LEARNING</h3>\n\n<p>IXL Learning is the country’s largest EdTech company. We reach millions of learners through our diverse range of products. For example:</p>\n\n<ul>\n<li>1 in 4 students in the United States uses IXL.com</li>\n<li>Rosetta Stone provides an immersive learning experience for 25 languages</li>\n<li>Wyzant is the nation’s largest community of tutors, covering 300+ subjects</li>\n<li>Teachers Pay Teachers (TPT) is a comprehensive marketplace for millions of educator-created resources</li>\n</ul>\n\n<p>Our mission is to create innovative products that will make a real, positive difference for learners and educators and we’re looking for passionate, mission-minded people to join us in achieving this goal. We have a unique culture at IXL that fosters collaboration and the open exchange of ideas. We value our team and treat one another with kindness and respect. We approach our work with passion, tenacity, and authenticity. We find it immensely satisfying to develop products that impact the lives of millions and we are eager to have you join our team.</p>\n\n<p><em>At IXL, we value diversity in age, race, ethnicity, gender, sexual orientation, physical and mental ability, political and religious beliefs, and life experience, and we are proud to promote a work environment where everyone, from any background, can do their best work. IXL Learning is an equal opportunity employer.</em></p>",
+      "url": "https://remotefirstjobs.com/companies/teachers-pay-teachers/jobs/product-manager-digital-marketing-enablement-723969",
+      "collected_at": "2026-03-06T09:26:45.404536+00:00",
+      "date": "Fri, 06 Mar 2026 01:59:05 +0000",
+      "filter_reason": "localização"
+    },
+    {
+      "id_hash": "cd1bab233dee8cc6b6a9d0d3400b6f803ca75a62148f9cdb40bb1c14baf84c63",
+      "id": "cd1bab233dee8cc6b6a9d0d3400b6f803ca75a62148f9cdb40bb1c14baf84c63",
+      "source": "jobscollider",
+      "title": "Product Manager",
+      "company": "Teachers Pay Teachers",
+      "location": "",
+      "salary": null,
+      "jd_full": "<p>Education.com is the all-in-one resource for parents and educators looking for worksheets, games, lesson plans, and other types of printables and interactive activities. With a content library spanning over 37,000 educational resources, Education.com is known and trusted for always having something to support the learning moment for each child. As part of the IXL Learning family, Education.com operates as a small, nimble group, with the ability to tap into broader teams spanning curriculum design, digital marketing, customer support, systems scalability, and more. #LI-TB1</p>\n\n<p>Education.com is an indispensable resource for tens of millions of parents and teachers, and we know there are many more whose needs we are exceptionally well-positioned to meet. We seek a Product Manager to lead the next exciting phase of growth for Education.com. This Product Manager will draw upon their rich experience with SEO and content strategy to discover and define major opportunities for expanding Education.com’s reach, in close collaboration with company leadership.</p>\n\n<p>Product management at IXL starts with a passion for making a lasting impact on education. PM team members take products from initial brainstorming through detailed design to final launch and beyond, putting our users first in all that we do, and working collaboratively across many teams. As Product Manager for Education.com, you’ll work on all facets of the product, diving deep and doing whatever it takes to lead the continued evolution of this already beloved brand.</p>\n\n<p>This is a full-time position in our San Mateo, CA headquarters office. The work schedule for this role is Monday-Friday in the office with the option to work from home one day per week.</p>\n\n<h3>WHAT YOU’LL BE DOING</h3>\n\n<ul>\n<li>Shape and drive the product roadmap by bringing together SEO, content, and user experience to maximize reach and create a seamless, engaging experience for Education.com users</li>\n<li>Design simple yet robust solutions that address customer and business needs and align with broader business strategy; provide detailed written specifications for each solution</li>\n<li>Own and evolve our SEO and content strategy, with the goal of helping more people discover and re-engage with our platform</li>\n<li>Prioritize and identify issues and opportunities to help better connect users with the resources they are looking for</li>\n<li>Work closely with engineers to align technical designs and decisions with product needs</li>\n<li>Serve as a problem solver and point of contact, collaborating with and managing an internal cross-functional team to achieve the greatest positive impact for users</li>\n<li>Partner with and provide ongoing updates and recommendations to product and company leadership; evolve and iterate the product vision and roadmap to drive success</li>\n</ul>\n\n<h3>WHAT WE’RE LOOKING FOR</h3>\n\n<ul>\n<li>BA/BS degree in STEM or related field</li>\n<li>5+ years of experience in product management, including experience owning and driving SEO strategy as part of a product roadmap (in any industry; eg, ecommerce, Q&A sites, content publishers, booking platforms, online communities)</li>\n<li>An understanding of the K-12 market, including the evolving needs of parents and/or teachers in today’s K-12 environment, strongly preferred</li>\n<li>Strong analytical skills - ability to provide high quality, efficient, creative solutions to complex problems</li>\n<li>Ability to work effectively with diverse cross-functional teams that include engineering, design, content, marketing, and product and company leadership</li>\n<li>Strong written and spoken communication skills, with an eye to clarity and conciseness</li>\n<li>Highly motivated with a resourceful, “figure-it-out” approach</li>\n<li>Passion for improving education through technology</li>\n</ul>\n\n<p><em>The base salary range for this full-time position is $130,000 to $180,000 + equity + benefits. Our pay ranges are determined by role, level, and location. The range displayed on each job posting reflects the minimum and maximum target for new hire pay for the position. Individual pay is determined by work location and additional factors, including job-related skills, experience, and relevant education or training.</em></p>\n\n<h3>ABOUT IXL LEARNING</h3>\n\n<p>IXL Learning is the country’s largest EdTech company. We reach millions of learners through our diverse range of products. For example:</p>\n\n<ul>\n<li>1 in 4 students in the United States uses IXL.com</li>\n<li>Rosetta Stone provides an immersive learning experience for 25 languages</li>\n<li>Wyzant is the nation’s largest community of tutors, covering 300+ subjects</li>\n<li>Teachers Pay Teachers (TPT) is a comprehensive marketplace for millions of educator-created resources</li>\n</ul>\n\n<p>Our mission is to create innovative products that will make a real, positive difference for learners and educators and we’re looking for passionate, mission-minded people to join us in achieving this goal. We have a unique culture at IXL that fosters collaboration and the open exchange of ideas. We value our team and treat one another with kindness and respect. We approach our work with passion, tenacity, and authenticity. We find it immensely satisfying to develop products that impact the lives of millions and we are eager to have you join our team.</p>\n\n<p><em>At IXL, we value diversity in age, race, ethnicity, gender, sexual orientation, physical and mental ability, political and religious beliefs, and life experience, and we are proud to promote a work environment where everyone, from any background, can do their best work. IXL Learning is an equal opportunity employer.</em></p>",
+      "url": "https://remotefirstjobs.com/companies/teachers-pay-teachers/jobs/product-manager-723959",
+      "collected_at": "2026-03-06T09:26:45.404542+00:00",
+      "date": "Fri, 06 Mar 2026 01:48:04 +0000",
+      "filter_reason": "nível"
+    },
+    {
+      "id_hash": "fd2f1a3d830370e28643c4ec7e798093e0537868cf6b116e3d01d5654c1ee273",
+      "id": "fd2f1a3d830370e28643c4ec7e798093e0537868cf6b116e3d01d5654c1ee273",
+      "source": "jobscollider",
+      "title": "Senior Product Manager - Doctor to Patient flow",
+      "company": "Doctolib",
+      "location": "",
+      "salary": null,
+      "jd_full": "<p>We are looking for a <strong>Senior Product Manager</strong> to join the <strong>Practice Efficiency</strong> team in <strong>Berlin</strong>.</p>\n\n<p>You will work on Doctolib’s holistic solution to streamline the care journey by collecting and sharing complete, up-to-date, and structured information required for care delivery. It transforms how health professionals prepare for consultations, how administrative staff manage patient workflows, and how patients experience healthcare, replacing fragmented, paper-based processes with a seamless digital experience. You will collaborate with multiple product teams on a critical product area at the intersection of clinical data and user experience, while having measurable impact on both Patient and Healthcare Professional NPS.</p>\n\n<h3>What you will do</h3>\n\n<p>Your responsibilities include but are not limited to:</p>\n\n<ul>\n<li>Define and execute the product vision, strategy and roadmap for one or several capabilities of our practice efficiency domain</li>\n<li>Collaborate with engineers, designers, clinical experts, and go-to-market stakeholders to build solutions that serve multiple user personas across all Doctolib’s markets</li>\n<li>Conduct user research and competitive analysis to identify unmet needs and drive prioritization grounded in data</li>\n<li>Ensure regulatory and market-specific compliance while maintaining a scalable, country-agnostic architecture</li>\n<li>Foster a culture of collaboration, innovation, and continuous learning within the broader product management team, with the potential of leading other product managers</li>\n</ul>\n\n<h3><strong>Who you are</strong></h3>\n\n<p>Before you read on: if you don’t have the exact profile described below, but you feel this job description matches your skill set, we still encourage you to apply.</p>\n\n<p>You could be our next team mate if you:</p>\n\n<ul>\n<li>Have at least 5 years of experience in Product Management having worked with developers, designers, customers, stakeholders and leadership (Technical Product Management is a plus)</li>\n<li>Base your strategic product decisions on a strong analytical mindset grounded on data and customer needs - solving complex problems</li>\n<li>Have developed and launched products in a large scale SaaS or B2B environment, where you needed to change the engine while it ran at full speed</li>\n<li>Always put the user in the center of your work</li>\n<li>Are fluent in English (German or French is a plus)</li>\n</ul>\n\n<p>Now it would be fantastic if you:</p>\n\n<ul>\n<li>Have experience in the healthcare industry and/or leveraging state of the art technology such as AI</li>\n</ul>\n\n<h3><strong>What we offer</strong></h3>\n\n<ul>\n<li>A Deutschlandticket (Germany-wide public transport pass) fully paid for by Doctolib</li>\n<li>28 vacation days + 1 additional day for each full calendar year of employment (up to a maximum of 30 days)</li>\n<li>Work from abroad for up to 10 days per year thanks to our flexibility days policy</li>\n<li>Company health insurance with great supplementary benefits through our partner Allianz</li>\n<li>Company pension scheme (bAV) through Allianz with an employer subsidy of 40% (15% within the probationary period)</li>\n<li>The Doctolib Parent Care program, which includes one month additional parental leave and much more</li>\n<li>Free mental health and coaching services through our partner Moka.care</li>\n<li>Subsidized sports membership through our partner Urban Sports Club</li>\n<li>A flexible workplace policy offering both hybrid and office-based mode</li>\n<li>Alongside healthy snacks and our regular breakfast buffet, we provide a subsidized meal benefit</li>\n<li>For caregivers and workers with disabilities, a package including an adaptation of the remote policy, extra days off for medical reasons, and psychological support</li>\n</ul>\n\n<h3><strong>The interview process</strong></h3>\n\n<ul>\n<li>Recruiter Interview</li>\n<li>Manager Interview</li>\n<li>Case Study</li>\n<li>Final Interview</li>\n<li>At least one reference check</li>\n</ul>\n\n<h3><strong>Job details</strong></h3>\n\n<ul>\n<li>Permanent position</li>\n<li>Full-Time / Part-Time</li>\n<li>Workplace: Berlin</li>\n<li>Start date: As soon as possible</li>\n<li>Compensation: fix + bonus on objectives (according to your profile)</li>\n</ul>\n\n<p>If you would like to find out more about tech life at Doctolib, feel free to read our latest Medium blog articles!</p>\n\n<p><em>At Doctolib, we are committed to improving access to healthcare for everyone. This translates into our recruitment process. We evaluate candidates based solely on qualifications and motivation, without any form of discrimination.</em></p>\n\n<p><em>The more diverse ideas are heard, the more our product will truly improve healthcare for all. You are welcome to apply to Doctolib, regardless of your gender, religion, age, sexual orientation, ethnicity, disability.</em></p>\n\n<p><em>To ensure equal opportunities, we invite you to exclude personal information (e.g. pictures, age) from your applications. If you require any accommodation, please let us know for support during the hiring process.</em></p>\n\n<p><em>Join us in building the healthcare we all dream of!</em></p>\n\n<p><em>All information provided is processed by Doctolib for application management. For data processing details, click</em> <em>here</em> <em>.</em></p>\n\n<p><em>Please contact hr.dataprivacy(AT)doctolib.com to exercise your rights (but not for applications).</em></p>",
+      "url": "https://remotefirstjobs.com/companies/doctolib/jobs/senior-product-manager-doctor-to-patient-flow-723971",
+      "collected_at": "2026-03-06T09:26:45.404531+00:00",
+      "date": "Fri, 06 Mar 2026 02:01:15 +0000",
+      "filter_reason": "localização"
+    }
+  ]
+}
