@@ -1,0 +1,24 @@
+{
+  "date": "2026-03-07",
+  "discarded_at": "2026-03-07T12:05:53.697409-03:00",
+  "total": 1,
+  "by_reason": {
+    "jd_too_short": 1
+  },
+  "items": [
+    {
+      "id_hash": "af3b0f0bd399ac4c404a16cd03cd7cbcda48913a67960e791295f52f53a23d3b",
+      "id": "af3b0f0bd399ac4c404a16cd03cd7cbcda48913a67960e791295f52f53a23d3b",
+      "source": "openai_web_search",
+      "title": "IT Program Manager / Digital Platforms Program Lead",
+      "company": "Cognizant",
+      "location": "Foster City, Califórnia, Estados Unidos",
+      "salary": null,
+      "jd_full": "O Senior IT Program Manager liderará a entrega de programas complexos de TI em múltiplas plataformas digitais, incluindo SFMC, GPro, Ostro AI e outras. Este papel é responsável por garantir a execução bem-sucedida do programa, alinhando a estratégia de negócios com soluções técnicas escaláveis, reforçando a governança e conformidade, gerenciando fornecedores e impulsionando inovação e melhoria contínua.",
+      "url": "https://careers.cognizant.com/latam-pt/vagas/00067814331/it-program-manager-digital-platforms-program-lead/",
+      "collected_at": "2026-03-07T12:00:57.580044-03:00",
+      "date": "last week",
+      "discard_reason": "jd_too_short"
+    }
+  ]
+}
