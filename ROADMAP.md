@@ -79,7 +79,9 @@ Concluído: (1) **profile.md** — seção "Âncora de Seniority" adicionada: PM
 
 ### ✅ ÉPICO 9: Polimento de UI — Cards, Detalhes e Cópia
 
-**Concluído:** Expander renomeado para "Detalhes" sem campos ceiling; conteúdo reordenado (veredito → justificativa → gap → requisitos → seniority → link). Botões "Copiar JD" e "Copiar Relatório" via `st.code()` com toggle. Botão "Avaliar outra vaga" na Busca Manual. Formulário reordenado (empresa → título → JD → url → localização). Badge de fonte exibe coletor real (source do JSON). Aba "Resumo" (APLICAR, score desc, filtro de data). GitHub Pages com seletor de veredito combinado com filtro de data.
+**Concluído:** Expander renomeado para "Detalhes" sem campos ceiling; conteúdo reordenado (veredito → justificativa → gap → requisitos → seniority → link). Botões "Copiar JD" e "Copiar Relatório" via `st.code()` com toggle. Botão "Avaliar outra vaga" na Busca Manual. Formulário reordenado (empresa → título → JD → url → localização). Badge de fonte exibe coletor real (source do JSON). GitHub Pages com seletor de veredito combinado com filtro de data.
+
+**Redesign app.py (concluído):** Duas abas — Vagas e Busca Manual (Resumo removida). Lista principal rankeada por data DESC e score DESC. Sidebar: seletor de data com "Todas" no topo (default) e filtro de veredito (Todos/APLICAR/AVALIAR/PULAR). Sem regressão em Detalhes, Copiar, link.
 
 ---
 

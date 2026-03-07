@@ -1,7 +1,8 @@
 """
 app.py — Interface Streamlit do Job Radar.
 
-Épico 6 + 9 | UI funcional: tabela unificada de vagas + Resumo + Busca Manual (paste-and-score).
+UI: aba Vagas (ranked por data + score) + Busca Manual (paste-and-score).
+Sidebar: seletor de data (com "Todas") e filtro de veredito.
 
 Uso:
     streamlit run app.py
@@ -164,23 +165,34 @@ def _format_report(job: dict) -> str:
     return "\n".join(lines)
 
 
-# --- Sidebar: seletor de data (único, compartilhado entre Vagas e Resumo) ---
-def _render_sidebar(all_rows: list[dict]) -> str | None:
+# --- Sidebar: seletor de data (com "Todas") + filtro de veredito ---
+def _render_sidebar(all_rows: list[dict]) -> tuple[str | None, str]:
+    """
+    Retorna (selected_date, verdict_filter).
+    selected_date = None quando "Todas" está selecionado.
+    verdict_filter: "Todos" | "APLICAR" | "AVALIAR" | "PULAR".
+    """
     dates = sorted({r["file_date"] for r in all_rows if r["file_date"]}, reverse=True)
-    if not dates:
-        st.sidebar.caption("Nenhuma data disponível.")
-        return None
-    selected = st.sidebar.selectbox(
+    date_options = ["Todas"] + dates
+    selected_date_label = st.sidebar.selectbox(
         "Data dos resultados",
-        options=dates,
+        options=date_options,
         index=0,
-        format_func=lambda d: d or "(sem data)",
         key="shared_date_selector",
     )
-    return selected
+    selected_date = None if selected_date_label == "Todas" else selected_date_label
+
+    verdict_options = ["Todos", "APLICAR", "AVALIAR", "PULAR"]
+    verdict_filter = st.sidebar.selectbox(
+        "Veredito",
+        options=verdict_options,
+        index=0,
+        key="verdict_filter",
+    )
+    return selected_date, verdict_filter
 
 
-# --- Renderização de detalhes expandidos (reutilizado em Vagas, Resumo e Busca Manual) ---
+# --- Renderização de detalhes expandidos (reutilizado em Vagas e Busca Manual) ---
 def _render_expanded_details(job: dict, key_suffix: str) -> None:
     """
     9.1: Renderiza conteúdo expandido na ordem:
@@ -304,16 +316,27 @@ def _render_job_cards(jobs_with_meta: list[dict], key_prefix: str = "") -> None:
             _render_expanded_details(job, key_suffix=f"{key_prefix}{idx}")
 
 
-# --- Página 1: Vagas ---
-def _render_vagas(all_rows: list[dict], selected_date: str | None):
+# --- Página 1: Vagas (ranked by date DESC, score DESC) ---
+def _render_vagas(all_rows: list[dict], selected_date: str | None, verdict_filter: str):
+    # Filtro de data
     if selected_date is not None:
         rows = [r for r in all_rows if r["file_date"] == selected_date]
     else:
         rows = all_rows
 
+    # Filtro de veredito
+    if verdict_filter == "APLICAR":
+        rows = [r for r in rows if (r["job"].get("score") or 0) >= 85]
+    elif verdict_filter == "AVALIAR":
+        rows = [r for r in rows if 70 <= (r["job"].get("score") or 0) < 85]
+    elif verdict_filter == "PULAR":
+        rows = [r for r in rows if (r["job"].get("score") or 0) < 70]
+
+    # Ordenação: mais recentes primeiro; dentro do mesmo dia, maior score primeiro
     jobs_with_meta = sorted(
         rows,
-        key=lambda r: (r["job"].get("score") is None, -(r["job"].get("score") or 0)),
+        key=lambda r: (r["file_date"] or "0000-00-00", (r["job"].get("score") or 0)),
+        reverse=True,
     )
 
     if not jobs_with_meta:
@@ -321,26 +344,6 @@ def _render_vagas(all_rows: list[dict], selected_date: str | None):
         return
 
     _render_job_cards(jobs_with_meta, key_prefix="vagas_")
-
-
-# --- Página 2: Resumo (APLICAR only) ---
-def _render_resumo(all_rows: list[dict], selected_date: str | None):
-    if selected_date is not None:
-        rows = [r for r in all_rows if r["file_date"] == selected_date]
-    else:
-        rows = all_rows
-
-    # Filter: only APLICAR (score >= 85)
-    aplicar_rows = [r for r in rows if (r["job"].get("score") or 0) >= 85]
-
-    # Sort by score descending
-    aplicar_rows.sort(key=lambda r: -(r["job"].get("score") or 0))
-
-    if not aplicar_rows:
-        st.info("Nenhuma vaga com veredito APLICAR (score >= 85) encontrada para a data selecionada.")
-        return
-
-    _render_job_cards(aplicar_rows, key_prefix="resumo_")
 
 
 # --- Helpers: Busca Manual (links + scoring) ---
@@ -587,16 +590,14 @@ def main():
         st.error("Acesso não autorizado. Este app é restrito ao proprietário.")
         st.stop()
 
-    # Load data once, render sidebar once (shared by Vagas and Resumo)
+    # Load data once, render sidebar once (shared by Vagas)
     all_rows = _load_scored_jobs()
-    selected_date = _render_sidebar(all_rows)
+    selected_date, verdict_filter = _render_sidebar(all_rows)
 
-    tab1, tab2, tab3 = st.tabs(["Vagas", "Resumo", "Busca Manual"])
+    tab1, tab2 = st.tabs(["Vagas", "Busca Manual"])
     with tab1:
-        _render_vagas(all_rows, selected_date)
+        _render_vagas(all_rows, selected_date, verdict_filter)
     with tab2:
-        _render_resumo(all_rows, selected_date)
-    with tab3:
         _render_busca_manual()
 
 
