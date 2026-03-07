@@ -35,8 +35,8 @@ Thumbs.db
 *.log
 logs/
 
-# Data — vagas brutas, filtradas e pontuadas SOBEM pro repo (GitHub Actions → git pull local)
-# Feedback, outputs finais e evals ficam apenas local
+# Data — sobem: data/raw/, data/scored/, data/seen_jobs.json (CONSTITUTION). Não sobem:
+data/filtered/       # intermediário, regenerável a partir de raw
 data/feedback/
 data/output/
 data/eval/
