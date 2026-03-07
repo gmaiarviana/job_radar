@@ -54,6 +54,9 @@ Habilitado. OPENAI_API_KEY configurada nos secrets do Actions. Coletor já roda 
 #### ✅ 7.5 Remover penalty `outsourcing_context` do scoring
 Concluído: penalty removida de CEILING_BY_PENALTY e do prompt de analyze_job; penalties apenas `seniority_gap` e `domain_gap_core`. Testes atualizados (4 cenários + 2 auto-eliminate); todos passam.
 
+#### ✅ Ajuste de qualidade no scoring (seniority + domain_gap_core)
+Concluído: (1) **profile.md** — seção "Âncora de Seniority" adicionada: PM/TPM em tech ~3–4 anos desde Jul/2022; construção civil e Nubank BA não contam como PM/TPM para seniority. (2) **score.py** — prompt de analyze_job: seniority_gap referenciando a Âncora; domain_gap_core com regra explícita de que skills genéricas de PM (roadmap, priorização, stakeholder management, agile, cross-functional) não constituem evidência de domínio; domínio = tipo de produto/sistema/indústria. Validação: Stripe 7+ years → ceiling=65; vagas em domínio sem evidência direta → domain_gap_core true (ex.: K-12, card networks).
+
 #### ✅ 7.6 Seed das novas fontes
 
 - Remote OK e Get on Board populam `seen_jobs` via runs normais de `fetch.py` (sem necessidade de seed dedicado).

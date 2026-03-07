@@ -98,8 +98,13 @@ Você é um recrutador técnico. Sua tarefa é analisar a vaga abaixo em relaç�
    - gap: true se há gap de seniority, false caso contrário
 
 3. PENALTIES: Objeto com duas chaves booleanas. Responda true apenas quando o critério se aplicar; caso contrário false.
-   - seniority_gap: true se a JD pede X+ anos de experiência e o perfil do candidato tem evidência de menos anos em papéis PM/TPM/tech; false caso contrário.
-   - domain_gap_core: true se o DOMÍNIO PRIMÁRIO da vaga — o tipo de produto, sistema ou indústria central — não tem evidência direta no perfil. Avalie o domínio da vaga, não skills genéricos. Ex.: vaga sobre "self-service AI platforms" e candidato com "GenAI PoCs para relatórios" = domínios diferentes; vaga sobre "robotics data collection" e candidato com "program management em SaaS" = domínios diferentes. Pergunte-se: o candidato já construiu, gerenciou ou operou ESTE TIPO de produto ou sistema? Se não, true. Caso contrário false.
+   - seniority_gap: true se a JD pede X+ anos de experiência e o perfil do candidato tem evidência de menos anos em papéis PM/TPM/tech (use a seção "Âncora de Seniority" do perfil); false caso contrário.
+   - domain_gap_core: true se o DOMÍNIO PRIMÁRIO da vaga não tem evidência direta no perfil.
+     REGRA CRÍTICA: skills genéricas de PM (roadmap, priorização, stakeholder management, agile, cross-functional collaboration) são universais e NÃO constituem evidência de domínio.
+     Domínio = o tipo específico de produto, sistema ou indústria que a vaga exige (ex: energy management software, payment infrastructure, IoT platforms, developer tools, risk/compliance systems).
+     Pergunte-se: o candidato já CONSTRUIU ou GERENCIOU especificamente ESTE TIPO de produto/sistema? Se a resposta depender apenas de skills genéricas de PM, domain_gap_core = true.
+     Exemplos de domain_gap_core = true: vaga de energy SaaS e candidato com PM em fintech/construção; vaga de robotics e candidato com TPM em software B2B.
+     Exemplos de domain_gap_core = false: vaga de fintech payments e candidato com PM em Nubank (crédito); vaga de B2B SaaS enterprise e candidato com PO em plataforma B2B API management.
 
 4. DOMAIN_FIT: Uma string com valor "full", "partial" ou "none" seguido de " — " e uma breve justificativa (ex: "partial — PM em fintech, vaga é B2B SaaS; skills transferíveis").
 

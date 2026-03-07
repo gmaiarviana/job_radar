@@ -39,6 +39,11 @@ Diferencial em IA: uso prático com método — documentação como infraestrutu
 - **Nubank — Business Analyst (1 linha):** operação de crédito em alta escala (150k/dia) com ganhos em qualidade de dados, custo e eficiência de pipeline.
 - **Campos Gouveia — Project Manager (1 linha):** gestão de obra de 15 andares (~5.000 m²) com liderança direta de ~30 pessoas.
 
+## Âncora de Seniority (para scoring)
+- **PM/TPM em tecnologia:** ~3-4 anos (desde Jul/2022). Inclui: PO Jul/2022–Set/2024, TPM Set/2024–Set/2025, PM Out/2025–Fev/2026, PO Mar/2026–atual.
+- **Experiência anterior (construção civil, 2016–2019):** gestão operacional de obras. NÃO conta como PM/TPM em tecnologia para fins de seniority.
+- **Nubank (Feb/2021–Mai/2022):** Business Analyst, não PM. Conta como experiência em tech, não como PM/TPM.
+
 ## Critérios Eliminatórios (hard filters)
 - **Modelo de trabalho/localização:** aceitar apenas vagas remotas viáveis para LATAM ou worldwide; on-site/híbrido obrigatório fora de alcance geográfico = descarte.
 - **Salário:** piso de **$5.000 USD/mês**. Abaixo disso = descarte para Obj 1. Se salário não informado, não descartar automaticamente; manter com penalidade por incerteza.
