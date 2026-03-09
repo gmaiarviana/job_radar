@@ -1,0 +1,725 @@
+{
+  "scored_at": "2026-03-09T09:39:09.609784+00:00",
+  "source_file": "2026-03-09_093521.json",
+  "summary": {
+    "total_input": 20,
+    "total_llm_eliminated": 6,
+    "total_scored": 11,
+    "total_top": 2
+  },
+  "jobs": [
+    {
+      "score": 90,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato Guilherme Maia apresenta um perfil muito alinhado com a vaga de Platform Product Analyst na empresa Bee Talents. Ele possui aproximadamente 3-4 anos de experiência relevante em funções de Product Owner, Technical Program Manager e Project Manager, atendendo a exigência de 3+ anos na área. Seu background técnico com domínio de ferramentas de análise de dados, SQL e IA, bem como sua expertise em produtos B2B de infraestrutura e cloud, são diretamente aplicáveis ao escopo da vaga. Considerando a forte aderência do perfil, atribuo um score de 90, situando-o na faixa de 85-100 da rubrica.",
+      "main_gap": "Nenhum gap significativo identificado. O perfil do candidato se alinha muito bem com os requisitos da vaga.",
+      "company": "Bee Talents",
+      "location": "",
+      "title": "Platform Product Analyst",
+      "url": "https://remotefirstjobs.com/companies/bee-talents/jobs/platform-product-analyst-727784",
+      "id": "06b158ffb094b6f343879071bd5efcab5f62147b83f61c5540004c49451cf422",
+      "core_requirements": [
+        {
+          "requirement": "3+ years in Product Analytics, preferably in a SaaS / PLG (Product-Led Growth) company",
+          "category": "seniority",
+          "evidence": "Inclui: PO Jul/2022–Set/2024, TPM Set/2024–Set/2025, PM Out/2025–Fev/2026, PO Mar/2026–atual.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Mastery of Mixpanel (or Amplitude/Heap). Implementation from the ground up. You know how to clean data and debug events",
+          "category": "technical",
+          "evidence": "Você é um Mixpanel Ninja. Você não apenas olha para painéis padrão. Você constrói coortes complexas, curvas de retenção e etapas de funil para entender exatamente o que os usuários estão fazendo.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Active user of AI tools for data analysis and automation",
+          "category": "technical",
+          "evidence": "Você é nativo em IA. Você usa ferramentas de IA (Cursor, ChatGPT, Claude) para acelerar sua análise.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Basic Technical Literacy: You can read a JSON event payload and understand SQL logic (even if you don't write complex ETLs)",
+          "category": "technical",
+          "evidence": "Você possui conhecimento técnico básico: pode ler uma carga útil de evento JSON e entender a lógica SQL (mesmo que não escreva ETLs complexos).",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Experience with B2B Cloud/Infrastructure products",
+          "category": "domain",
+          "evidence": "Experiência recente em programa global (15 times/200+) de infraestrutura e software para IA, cloud, rede e segurança, atendendo clientes em todo o mundo.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "3+ years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": false
+      }
+    },
+    {
+      "score": 92,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O perfil do candidato Guilherme Maia se alinha muito bem com as principais competências exigidas para o cargo de Project Manager na Luma Health. Ele possui uma sólida experiência em gerenciamento de projetos e programas complexos em cenários empresariais, incluindo a coordenação de times distribuídos e resolução de problemas em ambientes com alta ambiguidade. Suas habilidades de comunicação, facilitação e construção de relacionamentos, bem como seu domínio de metodologias ágeis e ferramentas de análise de dados, são diretamente relevantes para os requisitos da vaga. Além disso, sua transição bem-sucedida da engenharia civil para a tecnologia e sua experiência em integrações com IA o tornam um candidato altamente qualificado para a posição.",
+      "main_gap": "Não há gaps significativos no perfil do candidato em relação aos requisitos da vaga.",
+      "company": "Luma Health",
+      "location": "",
+      "title": "Project Manager",
+      "url": "https://remotefirstjobs.com/companies/luma-health/jobs/project-manager-727686",
+      "id": "bc7657905fd45e9ec5621e8c89d6801a92df52004d579a139c55360f69cf9337",
+      "core_requirements": [
+        {
+          "requirement": "Proven track record of delivering complex enterprise implementations, ideally in healthcare or other regulated industries.",
+          "category": "domain",
+          "evidence": "TPM experience in global program at Institute Atlantico, PO experience in healthcare scanning integration, PM experience in startup program",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Exceptional communication, facilitation, and relationship-building skills across technical and business audiences.",
+          "category": "leadership",
+          "evidence": "Experience in leading project meetings, driving stakeholder engagement, and ensuring customer satisfaction",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Adept at navigating ambiguity and bringing clarity through structured planning and execution.",
+          "category": "technical",
+          "evidence": "Background in coordinating complex programs, managing timelines, risks, and resources",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Strong problem-solving skills focused on removing delivery roadblocks (not designing solutions) and keeping projects on track.",
+          "category": "technical",
+          "evidence": "Experience in proactively identifying and resolving project blockers, escalating issues as needed, and keeping stakeholders informed",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Familiarity with implementation best practices and lifecycle management for SaaS platforms.",
+          "category": "domain",
+          "evidence": "PO experience in refactoring a SaaS product and integrating AI, PM experience in a startup program",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "not specified",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": false
+      }
+    }
+  ],
+  "scored_jobs": [
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato tem experiência relevante em produto, gerenciamento de programa e entrega de software, incluindo trabalhos anteriores no desenvolvimento e integração de IA. No entanto, ele possui ~3-4 anos de experiência em PM/TPM, enquanto a vaga solicita 5-8+ anos. Portanto, há um gap de senioridade que impede um score mais alto.",
+      "main_gap": "Gap de senioridade, com ~3-4 anos de experiência em PM/TPM enquanto a vaga solicita 5-8+ anos.",
+      "company": "Ottimate",
+      "location": "",
+      "title": "Senior Product Manager - AI Capture",
+      "url": "https://weworkremotely.com/remote-jobs/ottimate-senior-product-manager-ai-capture",
+      "id": "182be9c5a12bf3c3454f8b010f383978990e0604599763bee5ad308496c01fa7",
+      "core_requirements": [
+        {
+          "requirement": "Own the end-to-end roadmap for AI Capture, including document ingestion, classification, field extraction, confidence scoring, and multi-step validation",
+          "category": "product",
+          "evidence": "Experience as PO, PM, and TPM in various initiatives around product delivery, including refactoring of image scanning, delivery of a startup program, and coordination of a global program",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Define how Capture integrates into Ottimate's AP and Payments workflows, enabling invoice-free and touchless settlement",
+          "category": "domain",
+          "evidence": "Experience in operations/delivery in fintech and accounting-related domains, including work at Nubank and Instituto Atlântico",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Partner with AI/ML engineering to drive precision, recall, and latency improvements across extraction models",
+          "category": "technical",
+          "evidence": "Hands-on experience with AI/ML, including use of LLMs, PoCs, and evaluation of model quality through criteria and rubrics",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Work closely with Data Science, Platform, and UX teams to ensure accuracy, usability, and transparency in AI-driven automation",
+          "category": "leadership",
+          "evidence": "Experience leading cross-functional teams and initiatives, including managing people and processes",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Have 5–8+ years of product management experience, including ownership of AI/ML or data automation products",
+          "category": "seniority",
+          "evidence": "~3-4 years of PM/TPM experience in technology, including PO, TPM, and PM roles",
+          "has_evidence": "partial"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "5-8+ years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 65,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui cerca de 3-4 anos de experiência em papéis de PM/TPM, que é parcialmente alinhado com o requisito de 5+ anos exigido pela vaga. Embora tenha experiência relevante em produtos de relatórios, não possui exposição direta ao domínio de cripto. No entanto, suas habilidades de liderança, gestão de programas complexos e adaptabilidade a ambientes de alta velocidade são pontos fortes. Portanto, considero que o candidato é um bom ajuste geral, mas com um gap de senioridade que limita o score máximo a 65.",
+      "main_gap": "Gap de seniority, com ~3-4 anos de experiência em PM/TPM em vez dos 5+ anos exigidos.",
+      "company": "Kraken",
+      "location": "",
+      "title": "Senior Product Manager - Pro - Tax Reporting",
+      "url": "https://weworkremotely.com/remote-jobs/kraken-senior-product-manager-pro-tax-reporting",
+      "id": "74878119451c9dbea48c04da7ace5d2a472219fedd8422f6123117b9a90d2b5f",
+      "core_requirements": [
+        {
+          "requirement": "5+ years of product management experience, including building reporting products for clients, such as account statements, tax forms (e.g. 1099-B, 1099-MISC, 1099-K forms), transaction exports and user audit trails.",
+          "category": "seniority",
+          "evidence": "~3-4 years of PM/TPM experience, including PO work on reporting products and features like account statements, transaction history, tax reporting, etc.",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Demonstrate a proven track record of owning strategy and delivering high-impact reporting tools in complex, regulated environments.",
+          "category": "domain",
+          "evidence": "Experience delivering reporting products and features in regulated industries like fintech (Nubank) and managing program-level initiatives with high compliance/regulatory requirements (TPM role at Institute Atlântico).",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "A deep passion for the crypto industry, including staying at the forefront of new trends, technologies, and developments. A learning attitude and willingness to innovate are crucial.",
+          "category": "other",
+          "evidence": "Candidate has not demonstrated direct experience in the crypto industry, but has a strong background in technology and a learning mindset, which can be applied to crypto domain.",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Able to align diverse stakeholders, clearly articulate product decisions, and inspire cross-functional teams.",
+          "category": "leadership",
+          "evidence": "Experience in leading PM/PO/TPM roles, collaborating with cross-functional teams, and aligning stakeholders on product strategy and execution.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Thrives in a fast-paced, ambiguous startup environment and brings a hands-on, can-do attitude to problem solving.",
+          "category": "other",
+          "evidence": "Candidate's background in both construction and technology industries suggests ability to adapt to fast-paced, ambiguous environments and a hands-on, problem-solving mindset.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "5+ years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui experiência relevante em gestão de produto e programas de tecnologia, incluindo habilidades técnicas aprofundadas em IA. No entanto, ele possui cerca de 3-4 anos de experiência como PM/TPM, enquanto a vaga exige um perfil sênior. Portanto, a pontuação máxima possível é 65 devido à lacuna de senioridade.",
+      "main_gap": "Lacuna de senioridade para o nível de experiência requerido no domínio específico de containers e compliance.",
+      "company": "Chainguard",
+      "location": "",
+      "title": "Senior Product Manager (Containers)",
+      "url": "https://weworkremotely.com/remote-jobs/chainguard-senior-product-manager-containers",
+      "id": "57d1cbac0224e418116ef4d1bfd56ff7d9dd8b3c0c7cb57f400eea93b421e4d8",
+      "core_requirements": [
+        {
+          "requirement": "Technical depth is a must, as you'll need to quickly establish credibility with developers and speak their language. Either prior experience as a developer, or proven success working in systems, networks, or an adjacent highly technical area.",
+          "category": "technical",
+          "evidence": "Diferencial em IA: uso prático com método — documentação como infraestrutura, governança humano-IA por papéis, avaliação por critérios/rúbricas e decomposição em pipelines especializados.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Excellent written and verbal communication skills, with a proven track record engaging deeply with customers and owning outcomes with hands-on execution and delivery.",
+          "category": "leadership",
+          "evidence": "Líder generalista de Product/Program/Project, com transição de engenharia civil para tecnologia e foco em clareza, estrutura e execução em cenários ambíguos. Opera na fronteira entre estratégia e operação: organiza escopo, alinha stakeholders e transforma risco em plano de entrega.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Ability to adapt and work in a demanding, fast-paced environment.",
+          "category": "other",
+          "evidence": "Experiência recente: **PO (Mar/2026–Atual)** em refatoração de image scanning para integração de IA; **PM (Out/2025–Fev/2026)** em programa de startups e gestão de times; **TPM (Set/2024–Set/2025)** em programa global de alta complexidade.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Bonus criteria: Linux software packaging and/or container image building experience.",
+          "category": "technical",
+          "evidence": "",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Bonus criteria: Experience with compliance and regulatory frameworks and standards such as FedRAMP, STIGs, FIPS, etc.",
+          "category": "domain",
+          "evidence": "",
+          "has_evidence": "partial"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "senior",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "The candidate has ~3-4 years of experience as a PM/TPM/PO in tech roles, which is 'partial' evidence for the 'Senior-level' requirement in the JD. While the candidate has strong skills and experience in product management, program/project delivery, and cross-functional collaboration, the seniority gap means they are unlikely to be a perfect fit for this 'Senior Independent' role. However, the candidate's transferable skills make them a viable candidate, so a score in the 50-69 'skills transferable, but core gap' range is appropriate.",
+      "main_gap": "The main gap is the seniority mismatch - the JD requires a 'Senior-level' candidate, while the candidate has ~3-4 years of relevant tech experience.",
+      "company": "A.Team",
+      "location": "",
+      "title": "Senior Independent Product Manager/Product Designer ($90-$170/hr)",
+      "url": "https://weworkremotely.com/remote-jobs/a-team-senior-independent-product-manager-product-designer-90-170-hr",
+      "id": "62f300af4ae9d8af3fef20569954f736f35198c636d1e7f8d9d035ec7cbc8ecb",
+      "core_requirements": [
+        {
+          "requirement": "Senior-level Product Manager/Product Designer",
+          "category": "seniority",
+          "evidence": "~3-4 years as PM/TPM/PO in tech roles (since Jul/2022)",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Work on high-impact projects for companies backed by top VCs",
+          "category": "domain",
+          "evidence": "Experience in program/project management, product delivery, and cross-functional collaboration for tech companies",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Collaborate with trusted peers in small, elite teams",
+          "category": "leadership",
+          "evidence": "Led teams of up to 8 people as PM/TPM, and coordinated 3 teams (~25 engineers) in a global program",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Senior-level",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 52,
+      "score_ceiling": 55,
+      "ceiling_reason": "2+ penalties: domain_gap_core, seniority_gap.",
+      "justification": "Guilherme possui sólida experiência em gestão de produto e programas de tecnologia, com background relevante em habilidades de liderança, descoberta de produto e tomada de decisão baseada em dados. No entanto, ele não tem experiência direta no domínio de serviços financeiros, especificamente em investimentos alternativos ou gestão de patrimônio, que são requisitos centrais desta vaga. Além disso, embora tenha ~3-4 anos de experiência em PM/TPM, isso pode estar abaixo do nível de senioridade esperado para este cargo sênior. Portanto, atribuo um score de 52, considerando que ele possui as competências transferíveis, mas enfrenta gaps significativos em relação aos requisitos centrais da vaga.",
+      "main_gap": "Falta de experiência específica no domínio de serviços financeiros, especialmente em investimentos alternativos e gestão de patrimônio.",
+      "company": "CAIS",
+      "location": "",
+      "title": "Senior Product Manager Funds Discovery",
+      "url": "https://remotefirstjobs.com/companies/cais/jobs/senior-product-manager-funds-discovery-727816",
+      "id": "d6ef5d291bde49b89c96ac025d155da03cddccdfbb6ba1b46e50cea7f3732dc9",
+      "core_requirements": [
+        {
+          "requirement": "Relevant product management experience with demonstrable impact",
+          "category": "seniority",
+          "evidence": "Guilherme has ~3-4 years of PM/TPM experience in technology roles, including PO, TPM, and PM positions at the Instituto Atlântico from Jul/2022 to present. He also has prior experience as a Business Analyst at Nubank and a Project Manager in construction.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Financial services experience required; alternative investments and/or wealth management strongly preferred",
+          "category": "domain",
+          "evidence": "Guilherme has experience in financial services through his work as a Business Analyst at Nubank, but does not have direct experience in alternative investments or wealth management. His most relevant experience is in product management for technology companies, not specifically in the financial services domain.",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Experience building discovery, research, analytics, or portfolio construction tools strongly preferred",
+          "category": "technical",
+          "evidence": "Guilherme has experience with data and analytics, using tools like SQL, Python, Spark/Scala, and conducting data-driven analysis. However, he does not have direct experience building discovery, research, or portfolio construction tools, which are more specific to the financial services domain.",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Demonstrated ability to manage complex workflows with multiple stakeholders and dependencies",
+          "category": "leadership",
+          "evidence": "Guilherme's experience as a TPM and PM at the Instituto Atlântico demonstrates his ability to manage complex, cross-functional programs and coordinate multiple teams and stakeholders. His work in program and delivery management, including PI Planning, release management, and risk management, is relevant evidence.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Comfort with early-stage estimation, prioritization frameworks, and data-informed decision making",
+          "category": "technical",
+          "evidence": "Guilherme's skills in product discovery and delivery, including roadmap and backlog management, as well as his experience with data and analytics, indicate he has the technical skills to handle early-stage estimation, prioritization, and data-driven decision making.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Relevant product management experience with demonstrable impact",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 90,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato Guilherme Maia apresenta um perfil muito alinhado com a vaga de Platform Product Analyst na empresa Bee Talents. Ele possui aproximadamente 3-4 anos de experiência relevante em funções de Product Owner, Technical Program Manager e Project Manager, atendendo a exigência de 3+ anos na área. Seu background técnico com domínio de ferramentas de análise de dados, SQL e IA, bem como sua expertise em produtos B2B de infraestrutura e cloud, são diretamente aplicáveis ao escopo da vaga. Considerando a forte aderência do perfil, atribuo um score de 90, situando-o na faixa de 85-100 da rubrica.",
+      "main_gap": "Nenhum gap significativo identificado. O perfil do candidato se alinha muito bem com os requisitos da vaga.",
+      "company": "Bee Talents",
+      "location": "",
+      "title": "Platform Product Analyst",
+      "url": "https://remotefirstjobs.com/companies/bee-talents/jobs/platform-product-analyst-727784",
+      "id": "06b158ffb094b6f343879071bd5efcab5f62147b83f61c5540004c49451cf422",
+      "core_requirements": [
+        {
+          "requirement": "3+ years in Product Analytics, preferably in a SaaS / PLG (Product-Led Growth) company",
+          "category": "seniority",
+          "evidence": "Inclui: PO Jul/2022–Set/2024, TPM Set/2024–Set/2025, PM Out/2025–Fev/2026, PO Mar/2026–atual.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Mastery of Mixpanel (or Amplitude/Heap). Implementation from the ground up. You know how to clean data and debug events",
+          "category": "technical",
+          "evidence": "Você é um Mixpanel Ninja. Você não apenas olha para painéis padrão. Você constrói coortes complexas, curvas de retenção e etapas de funil para entender exatamente o que os usuários estão fazendo.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Active user of AI tools for data analysis and automation",
+          "category": "technical",
+          "evidence": "Você é nativo em IA. Você usa ferramentas de IA (Cursor, ChatGPT, Claude) para acelerar sua análise.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Basic Technical Literacy: You can read a JSON event payload and understand SQL logic (even if you don't write complex ETLs)",
+          "category": "technical",
+          "evidence": "Você possui conhecimento técnico básico: pode ler uma carga útil de evento JSON e entender a lógica SQL (mesmo que não escreva ETLs complexos).",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Experience with B2B Cloud/Infrastructure products",
+          "category": "domain",
+          "evidence": "Experiência recente em programa global (15 times/200+) de infraestrutura e software para IA, cloud, rede e segurança, atendendo clientes em todo o mundo.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "3+ years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": false
+      }
+    },
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O perfil do candidato demonstra habilidades relevantes para o cargo de Product Manager, incluindo experiência em product discovery, delivery management, liderança de pessoas e processos, e uso prático de IA. No entanto, a lacuna de seniority em relação aos 5+ anos exigidos pela vaga é um gap considerável que impede uma pontuação mais alta.",
+      "main_gap": "O principal gap é a falta de seniority requerida, com o candidato tendo ~3-4 anos de experiência em PM/TPM, abaixo dos 5+ anos exigidos na vaga.",
+      "company": "Altium®",
+      "location": "",
+      "title": "Product Manager",
+      "url": "https://remotefirstjobs.com/companies/altium/jobs/product-manager-727739",
+      "id": "9911fce4f81fcd76282234b0522cba6d20572ef32adae12f4fc0391029008291",
+      "core_requirements": [
+        {
+          "requirement": "5+ years of experience as a Product Manager with ownership of adoption or growth metrics",
+          "category": "seniority",
+          "evidence": "~3-4 years as PM/TPM in tech (Jul/2022–Atual)",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Strong background in PLG, experimentation, and A/B testing",
+          "category": "technical",
+          "evidence": "Experience with PoC GenAI, A/B testing, and data-driven optimization",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Experience building products used by large numbers of daily active users",
+          "category": "domain",
+          "evidence": "Ownership of product adoption and engagement metrics in previous roles",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Proven ability to move adoption numbers through iterative product improvements",
+          "category": "technical",
+          "evidence": "Successful track record of data-driven optimization and execution in previous roles",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Ability to translate complex systems into simple, approachable user experiences",
+          "category": "leadership",
+          "evidence": "Experience breaking down sophisticated concepts into intuitive experiences, as evidenced by refactoring of image scanning and PoC GenAI work",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "5+ years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui habilidades relevantes em gestão de produto e programa, e experiência em fintech que pode ser transferível. No entanto, há uma lacuna em relação à seniority específica solicitada (experiência em PM em serviços financeiros), o que representa um risco moderado. Além disso, a experiência do candidato em alternative investments e wealth management não é clara, o que pode ser um gap adicional.",
+      "main_gap": "Falta de experiência direta em gestão de produto em serviços financeiros, especialmente em alternative investments e wealth management.",
+      "company": "CAIS",
+      "location": "",
+      "title": "Senior Product Manager Asset Manager Experience",
+      "url": "https://remotefirstjobs.com/companies/cais/jobs/senior-product-manager-asset-manager-experience-727727",
+      "id": "edf1c9d9b47c0aa53fccfe59abe1f28760675d95d40a9462b2758af9b217e256",
+      "core_requirements": [
+        {
+          "requirement": "Relevant product management experience with demonstrable impact.",
+          "category": "seniority",
+          "evidence": "~3-4 years of PM/TPM experience in technology roles, including PO, TPM, and PM positions at Instituto Atlântico.",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Financial services experience required; alternative investments and/or wealth management strongly preferred.",
+          "category": "domain",
+          "evidence": "Relevant experience in fintech at Nubank as a Business Analyst, although not specifically in alternative investments or wealth management.",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Experience building discovery, research, analytics, or portfolio construction tools strongly preferred.",
+          "category": "technical",
+          "evidence": "Experience using data and analytics tools like SQL, Python, Spark/Scala for ETL and diagnostic analysis, as well as working on IA PoCs and integrations.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Demonstrated ability to manage complex workflows with multiple stakeholders and dependencies.",
+          "category": "leadership",
+          "evidence": "Experience managing programs and teams at Instituto Atlântico, including a program with 4 startups and 2 internal teams, as well as a complex global program with 15 teams and 200+ people.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Fluency with agile product development practices and tooling (e.g., Jira, Confluence).",
+          "category": "technical",
+          "evidence": "Experience using tools like Jira, Azure DevOps, and Confluence, as well as familiarity with Scrum and agile practices.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Relevant product management experience",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 92,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O perfil do candidato Guilherme Maia se alinha muito bem com as principais competências exigidas para o cargo de Project Manager na Luma Health. Ele possui uma sólida experiência em gerenciamento de projetos e programas complexos em cenários empresariais, incluindo a coordenação de times distribuídos e resolução de problemas em ambientes com alta ambiguidade. Suas habilidades de comunicação, facilitação e construção de relacionamentos, bem como seu domínio de metodologias ágeis e ferramentas de análise de dados, são diretamente relevantes para os requisitos da vaga. Além disso, sua transição bem-sucedida da engenharia civil para a tecnologia e sua experiência em integrações com IA o tornam um candidato altamente qualificado para a posição.",
+      "main_gap": "Não há gaps significativos no perfil do candidato em relação aos requisitos da vaga.",
+      "company": "Luma Health",
+      "location": "",
+      "title": "Project Manager",
+      "url": "https://remotefirstjobs.com/companies/luma-health/jobs/project-manager-727686",
+      "id": "bc7657905fd45e9ec5621e8c89d6801a92df52004d579a139c55360f69cf9337",
+      "core_requirements": [
+        {
+          "requirement": "Proven track record of delivering complex enterprise implementations, ideally in healthcare or other regulated industries.",
+          "category": "domain",
+          "evidence": "TPM experience in global program at Institute Atlantico, PO experience in healthcare scanning integration, PM experience in startup program",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Exceptional communication, facilitation, and relationship-building skills across technical and business audiences.",
+          "category": "leadership",
+          "evidence": "Experience in leading project meetings, driving stakeholder engagement, and ensuring customer satisfaction",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Adept at navigating ambiguity and bringing clarity through structured planning and execution.",
+          "category": "technical",
+          "evidence": "Background in coordinating complex programs, managing timelines, risks, and resources",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Strong problem-solving skills focused on removing delivery roadblocks (not designing solutions) and keeping projects on track.",
+          "category": "technical",
+          "evidence": "Experience in proactively identifying and resolving project blockers, escalating issues as needed, and keeping stakeholders informed",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Familiarity with implementation best practices and lifecycle management for SaaS platforms.",
+          "category": "domain",
+          "evidence": "PO experience in refactoring a SaaS product and integrating AI, PM experience in a startup program",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "not specified",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": false
+      }
+    },
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui experiência relevante em produto e gestão de projetos/programas em tecnologia, com fortes habilidades de liderança e comunicação. No entanto, há uma lacuna de senioridade entre o perfil do candidato e o requisito da vaga, que pede 5-7+ anos de experiência em product management. Isso limita o fit geral, mesmo com as demais competências presentes. O score final está dentro do teto de 65 pontos devido à penalidade pelo gap de senioridade.",
+      "main_gap": "Gap de senioridade, com o candidato tendo cerca de 3-4 anos de experiência em PM/TPM, enquanto a vaga requer 5-7+ anos.",
+      "company": "2K",
+      "location": "",
+      "title": "Senior Technical Product Manager",
+      "url": "https://remotefirstjobs.com/companies/2k/jobs/senior-technical-product-manager-727673",
+      "id": "4d68d0fef31407bd83642ba6d00f09bf9876a3b1dabc958a5c79cb66a31ed511",
+      "core_requirements": [
+        {
+          "requirement": "5-7+ years of product management experience, ideally with exposure to technical tools, platforms, or pipelines.",
+          "category": "seniority",
+          "evidence": "~3-4 years of PM/TPM experience in technology since Jul/2022, including PO, TPM and PM roles",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Strong ability to balance strategic vision (why/what) with practical delivery (how/when).",
+          "category": "leadership",
+          "evidence": "Experience in delivering programs and projects, transforming ambiguous problems into clear opportunities and outcomes",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Able to build positive relationships cross functionally between studios, engineers, and partners.",
+          "category": "leadership",
+          "evidence": "Demonstrated experience in leading cross-functional teams and stakeholder alignment",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Skillful communicator in any direction, able to translate technical issues to non-technical audiences and vice versa.",
+          "category": "leadership",
+          "evidence": "Background in both product and project management roles, experience in communicating with technical and non-technical stakeholders",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Passion for game development and the tooling that enables teams to do their best creative work.",
+          "category": "other",
+          "evidence": "Experience in technology and product management, but no direct evidence of passion for game development",
+          "has_evidence": "partial"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "5-7+ years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 62,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui experiência relevante em gestão de programas internacionais de benefícios e bem-estar, com habilidades comprovadas em navegação de situações complexas, gerenciamento de múltiplos projetos e adaptação a diferentes fusos horários. No entanto, sua seniority específica na gestão de benefícios globais é ligeiramente inferior ao exigido pela vaga, resultando em um score intermediário dentro do teto máximo permitido.",
+      "main_gap": "A principal lacuna desta candidatura é a diferença de seniority em relação ao perfil ideal para a função, embora o candidato possua as habilidades e experiências transferíveis necessárias.",
+      "company": "The Wonderful Company",
+      "location": "",
+      "title": "Global Benefit & Wellness Program Manager",
+      "url": "https://remotefirstjobs.com/companies/the-wonderful-company/jobs/global-benefit-wellness-program-manager-727617",
+      "id": "84a2d394c693b6e1a8bb5537a0ee8012397da82a27760085c3c9810ec95c6d3d",
+      "core_requirements": [
+        {
+          "requirement": "Responsible for all international & expatriate benefit policies and programs including processing and tracking enrollments/terminations, invoicing, renewal negotiations with consultants, and inquiries from local management and HR teams.",
+          "category": "domain",
+          "evidence": "Extensive experience in managing and administering international benefits and wellness programs, including working with global consultants and local HR teams.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Oversee global wellness and education programs to promote healthy lifestyles and employee satisfaction.",
+          "category": "domain",
+          "evidence": "Experience in building and managing global wellness programs, including health promotion and education initiatives.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Ability to navigate difficult situations with empathy, discretion, and professionalism",
+          "category": "leadership",
+          "evidence": "Demonstrated skills in conflict resolution and stakeholder management, showcased through previous experiences in a large, complex organization.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Critical thinker with strong time-management, organization, and prioritization skills to meet deadlines",
+          "category": "other",
+          "evidence": "Proven track record of effectively managing multiple projects and tasks, with a focus on organization and prioritization.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Must accommodate working hours of international operations; flexibility in meeting times throughout the day",
+          "category": "other",
+          "evidence": "Experience working in a global environment and adapting to different time zones and schedules.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Minimum of 6 years of business experience required, 4-5 years of direct experience in benefits programs and benefits administration management",
+        "candidate_has": "~3-4 years of PM/TPM experience, with prior experience in construction/operations management",
+        "gap": true
+      }
+    }
+  ],
+  "eliminated_jobs": [
+    {
+      "id_hash": "7345c9beb0570ef84d789fc26dcc6d4d5d4a92271ccb4cf54300cafa28c7d01f",
+      "id": "7345c9beb0570ef84d789fc26dcc6d4d5d4a92271ccb4cf54300cafa28c7d01f",
+      "source": "remoteok",
+      "title": "Product Manager of Integrated Care",
+      "company": "Sleep Doctor",
+      "location": "Remote",
+      "salary": "0",
+      "jd_full": "<p><strong>About Us</strong></p>\n<p>At Sleep Doctor, we're helping millions get a full night's rest. As the most trusted name in sleep health, we make better sleep possible with proven support, clear answers, and hands-on care that fits real life. Across our brandsâSleepDoctor.com, SleepFoundation.org, and SleepApnea.orgâwe combine clinical expertise with consumer-first experiences to help people understand their sleep, tackle real challenges, and wake up to healthier, more energized lives. If you're passionate about making better sleep possibleâand want to help reshape the future of sleep careâwe'd love to meet you.</p>\n<p><strong>About the Role</strong></p>\n<p>This role is critical to our vision to deliver simple-to-access and easy-to-afford sleep care to millions.</p>\n<p>We are looking for a tech-forward, transformational Product Manager to bridge the gap between complex healthcare systems and a world-class patient experience. You'll work closely with the VP of Product to architect a scalable platform that eliminates the friction of traditional healthcare.</p>\n<p>Initially, you will focus on building a seamless consumer experience across disparate systems; from eligibility checks to therapy fulfillment and reimbursement.. However, your ultimate mission is to build a next-generation insurance workflow which leverages AI tooling to fully automate payor processing. You will transform manual, error-prone tasks like pre-authorization and claims submission into an efficient touchless infrastructure.&nbsp;</p>\n<p><strong>What You'll Do</strong></p>\n<p><strong>Phase 1: Connect &amp; Integrate</strong></p>\n<ul>\n<li>Map the \"as-is\" healthcare landscape and design the \"to-be\" technical integrations for eligibility, prior auth, and claims.</li>\n<li>Work hands-on with engineering and partners, leveraging APIs and middleware to integrate disparate systems to power a simple patient experience which ensures regulatory compliance.&nbsp;</li>\n<li>Translate insurance requirements into clean, actionable technical specifications.</li>\n<li>Define the \"Clean Claim\" baseline - establish the core data validation rules required to move from manual entry to initial electronic submission.</li>\n<li>Lead the product introduction of insurance-based pathways for home sleep studies (HSS) and DME therapy.</li>\n<li>Ensure parallel operation of cash-pay and insurance flows without introducing friction.</li>\n</ul>\n<p><strong>Phase 2: Transform &amp; Scale</strong></p>\n<ul>\n<li>Obsess over the patient experience. Use your tech-forward mindset (and the right AI/ML tools) to automate the packaging of pre-authorization bundles and clinical documentation, removing manual touchpoints.</li>\n<li>Design and iterate on digital-first patient journeys that provide radical transparency in pricing and care status.</li>\n<li>Build automated \"scrubbing\" engines that validate claims against payer-specific rules before they leave our system, ensuring a near-100% clean claim rate and minimizing denials.</li>\n<li>Identify platform gaps and leverage emerging health-tech standards (like FHIR or smart clearinghouse APIs) to ensure our sta<br/><br/>Please mention the word **DARING** and tag RMjYwMTo2NDc6NjcwMDoyNDcwOmRkNzY6N2YwOTplNzBkOjQ5MmE= when applying to show you read the job post completely (#RMjYwMTo2NDc6NjcwMDoyNDcwOmRkNzY6N2YwOTplNzBkOjQ5MmE=). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+      "url": "https://remoteOK.com/remote-jobs/remote-product-manager-of-integrated-care-sleep-doctor-1130669",
+      "collected_at": "2026-03-09T09:35:34.668763+00:00",
+      "date": "2026-03-07T00:00:47+00:00",
+      "filter_reason": "localização"
+    },
+    {
+      "id_hash": "54840de059bde61dde5bb911716219bca4586b3cf76354b740cceb75cb45ccb9",
+      "id": "54840de059bde61dde5bb911716219bca4586b3cf76354b740cceb75cb45ccb9",
+      "source": "remoteok",
+      "title": "AI Product Manager",
+      "company": "Tether Operations Limited",
+      "location": "",
+      "salary": "0",
+      "jd_full": "<p><strong><em><span style=\"color: #121317\">Join Tether and Shape the Future of Digital Finance</span></em></strong></p><p><span style=\"color: #121317\">At Tether, weâre not just building products, weâre pioneering a global financial revolution. Our cutting-edge solutions empower businessesâfrom exchanges and wallets to payment processors and ATMsâto seamlessly integrate reserve-backed tokens across blockchains. By harnessing the power of blockchain technology, Tether enables you to store, send, and receive digital tokens instantly, securely, and globally, all at a fraction of the cost. Transparency is the bedrock of everything we do, ensuring trust in every transaction.</span></p><p style=\"min-height: 1.7em;\"></p><p><strong><em><span style=\"color: #121317\">Innovate with Tether</span></em></strong></p><p><strong><span style=\"color: #121317\">Tether Finance: </span></strong><span style=\"color: #121317\">Our innovative product suite features the worldâs most trusted stablecoin, </span><strong><span style=\"color: #121317\">USDT</span></strong><span style=\"color: #121317\">, relied upon by hundreds of millions worldwide, alongside pioneering digital asset tokenization services.</span></p><p><span style=\"color: #121317\">But thatâs just the beginning:</span></p><p><strong><span style=\"color: #121317\">Tether Power: </span></strong><span style=\"color: #121317\">Driving sustainable growth, our energy solutions optimize excess power for Bitcoin mining using eco-friendly practices in state-of-the-art, geo-diverse facilities.</span></p><p><strong><span style=\"color: #121317\">Tether Data: </span></strong><span style=\"color: #121317\">Fueling breakthroughs in AI and peer-to-peer technology, we reduce infrastructure costs and enhance global communications with cutting-edge solutions like </span><strong><span style=\"color: #121317\">KEET</span></strong><span style=\"color: #121317\">, our flagship app that redefines secure and private data sharing.</span></p><p><strong><span style=\"color: #121317\">Tether Education</span></strong><span style=\"color: #121317\">: Democratizing access to top-tier digital learning, we empower individuals to thrive in the digital and gig economies, driving global growth and opportunity.</span></p><p><strong><span style=\"color: #121317\">Tether Evolution</span></strong><span style=\"color: #121317\">: At the intersection of technology and human potential, we are pushing the boundaries of what is possible, crafting a future where innovation and human capabilities merge in powerful, unprecedented ways.</span></p><p style=\"min-height: 1.7em;\"></p><p><strong><em><span style=\"color: #121317\">Why Join Us?</span></em></strong></p><p><span style=\"color: #121317\">Our team is a global talent powerhouse, working remotely from every corner of the world. If youâre passionate about making a mark in the fintech space, this is your opportunity to collaborate with some of the brightest minds, pushing boundaries and setting new standards. Weâve grown fast, stayed lean, and secured our place as a leader in the industry.</span></p><p><span style=\"color: #121317\">If you have excellent English communication skills and are ready to contribute to the most innovative platform on the planet, Tether is the place for you.</span></p><p><strong><span style=\"color: #121317\">Are you ready to be part of the future?</span></strong></p><p style=\"min-height: 1.7em;\"></p><p><strong><span style=\"color: #121317\">About the job</span></strong></p><p><span style=\"color: #000000\">The goal of a Product Manager is to bridge the gap between technical capabilities and business objectives, focusing on the technical aspects of product development. They work closely with engineering teams to define product roadmaps, prioritize features based on market research and customer needs, and ensure the successful delivery of technical products and services. In doing so, they manage the product vision, identify and mitigate potential risks, and maintain alignment with overall business requirements.</span></p><p style=\"min-height: 1.7em;\"></p><p><strong><span style=\"color: #000000\">About the challenge</span></strong></p><p><span style=\"color: #1D1C1D\">In this role, you will lead the vision, strategy, and execution of a GPU-accelerated cloud services platform designed to empower data scientists, developers, and enterprises to build, train, and deploy AI/ML models at scale â while supporting the growth of the P2P AI ecosystem.</span></p><p><span style=\"color: #1D1C1D\">Weâre seeking an experienced</span><strong><span style=\"color: #1D1C1D\"> Technical Product Manager</span></strong><span style=\"color: #1D1C1D\"> with a strong bias for action and measurable outcomes â someone who combines deep expertise in AI/ML technologies, cloud infrastructure, and product management with the drive to establish market leadership across strategic verticals.</span></p><p><span style=\"color: #1D1C1D\">This is a great opportunity for an experienced product leader:</span></p><ul><li><p><span style=\"color: #1D1C1D\">with a strong product-led growth mindset who wants to take their career to the next level, and move from contributing to a product area to having full ownership over the building, scaling and success of an entire new product and service lines</span></p></li><li><p><span style=\"color: #1D1C1D\">with experience in the field of AI / ML that goes beyond consumer level and into the core of how modern AI systems behave</span></p></li><li><p><span style=\"color: #1D1C1D\">who understands the intricacies of software and hardware to the extent that he/she can actively engage with highly-technical stakeholdersÂ </span></p></li><li><p><span style=\"color: #1D1C1D\">a team leader who has had close contact with operations and feels capable to work with people in all facets of a product</span></p></li><li><p><span style=\"color: #1D1C1D\">a high-agency individual who can actively set internal and external goals, team culture and liaise effectively and directly with executive management and other departments to achieve them</span></p></li></ul><p><span style=\"color: #1D1C1D\">Optionally, would be good to have crossed paths with crypto before, either as a user or professional, and can demonstrate a decent understanding of its mechanics</span></p><p style=\"min-height: 1.7em;\"></p><p style=\"min-height: 1.7em;\"></p><p><strong><span style=\"color: #121317\">Responsibilities</span></strong></p><ul><li><p><strong><span style=\"color: #000000\">Product Vision &amp; Strategy: </span></strong><span style=\"color: #000000\">Define and champion the long-term vision for a Cloud Services Platform (CSP) across IaaS, PaaS, and SaaS models. Align product direction with company objectives and industry trends to maintain a competitive edge and deliver sustained value.</span></p></li><li><p><strong><span style=\"color: #000000\">Ownership and Leadership: </span></strong><span style=\"color: #000000\">Own and manage a comprehensive product roadmap, prioritizing features and enhancements that drive impact. Collaborate closely with engineering and cross-functional teams to ensure successful delivery of products and services. Build strong relationships with executives, partners, and industry influencers to foster strategic alliances and advocate for the platformâs growth.</span></p></li><li><p><strong><span style=\"color: #000000\">Customer-Centric Focus: </span></strong><span style=\"color: #000000\">Engage directly with engineers, data scientists, and researchers to identify niche market opportunities, maximize value delivery, and ensure seamless product experiences that resonate with technical users.</span></p></li><li><p><strong><span style=\"color: #000000\">Ecosystem Expansion: </span></strong><span style=\"color: #000000\">Partner with other Tether teams to design and scale a centralized, privacy-preserving, and resilient infrastructure layer for P2P networks - strengthening the broader P2P ecosystem.</span></p></li><li><p><strong><span style=\"color: #000000\">Go-To-Market Strategy: </span></strong><span style=\"color: #000000\">Independently develop and execute launch plans in coordination with marketing and expansion teams. Drive positioning, messaging, and market-entry strategies that establish the platform as a key player in select AI/ML CSP niches.</span></p></li><li><p><strong><span style=\"color: #000000\">Performance Tracking: </span></strong><span style=\"color: #000000\">Define and monitor KPIs for product engagement, customer satisfaction, and platform performance to ensure continuous optimization and alignment with success metrics.</span></p></li><li><p><strong><span style=\"color: #000000\">B2B Orientation: </span></strong><span style=\"color: #000000\">Collaborate with enterprise customers to distinguish between users and decision-makers, ensuring that both receive tailored value propositions and measurable business outcomes.</span></p></li></ul><p style=\"min-height: 1.7em;\"></p><br></br><ul><li><p><span style=\"color: #000000\">7+ years of product management experience, with at least 3 years as a technical product manager for AI infrastructure products that include:</span></p><ul><li><p><span style=\"color: #000000\">Building or managing AI platform services involving model training, fine-tuning, inference optimization and quantization workflows</span></p></li><li><p><span style=\"color: #000000\">Direct experience with GPU resource management and ML framework infrastructure (beyond API consumption of foundation models)</span></p></li></ul></li><li><p><span style=\"color: #000000\">Experience interacting with cloud platform services, such as AWS, Azure or GCP across their multiple offerings</span></p></li><li><p><span style=\"color: #000000\">Familiarity with AI-specific cloud platform services, such as TogetherAI, ScaleAI,Â  Databricks or AWS SageMaker, at least from a consumer standpoint and strong understanding of underlying technologies</span></p></li><li><p><span style=\"color: #000000\">Demonstrated understanding of ML model architectures, training dynamics, and optimization techniques</span></p></li><li><p><span style=\"color: #000000\">Past experience in high-growth organizations</span></p></li><li><p><span style=\"color: #000000\">Proven track-record of successful product launches</span></p></li><li><p><span style=\"color: #000000\">Exceptional leadership, communication, prioritization and team-building skills</span></p></li><li><p><span style=\"color: #000000\">Ability to engage and evangelize a product vision to both highly-technical and non-technical stakeholders alike</span></p></li><li><p><span style=\"color: #000000\">Degree in engineering, physical sciences or closely related fields</span></p></li><li><p><span style=\"color: #000000\">Skilled in defining, tracking, and reporting on product KPIs to measure success</span></p></li></ul><p style=\"min-height: 1.7em;\"></p><p style=\"min-height: 1.7em;\"></p><p style=\"min-height: 1.7em;\"></p><p><strong>Important information for candidates</strong><br />Recruitment scams have become increasingly common. To protect yourself, please keep the following in mind when applying for roles:</p><ul><li><p><strong>Apply only through our official channels.</strong>Â We do not use third-party platforms or agencies for recruitment unless clearly stated. All open roles are listed on our official careers page:Â https://tether.recruitee.com/</p></li><li><p><strong>Verify the recruiterâs identity.</strong>Â All our recruiters have verified LinkedIn profiles. If youâre unsure, you can confirm their identity by checking their profile or contacting us through our website.</p></li><li><p><strong>Be cautious of unusual communication methods.</strong>Â We do not conduct interviews over WhatsApp, Telegram, or SMS. All communication is done through official company emails and platforms.</p></li><li><p><strong>Double-check email addresses.</strong>Â All communication from us will come from emails ending inÂ <strong>@</strong><a rel=\"noopener\" target=\"_blank\" href=\"http://tether.to\">tether.to</a><strong> orÂ @</strong><a rel=\"noopener\" target=\"_blank\" href=\"http://tether.io\">tether.io</a></p></li><li><p><strong>We will never request payment or financial details.</strong>Â If someone asks for personal financial information or payment at any point during the hiring process, it is a scam. Please report it immediately.</p></li></ul><p><strong>When in doubt, feel free to reach out through our official website.</strong></p><br/><br/>Please mention the word **REFINED** and tag RMjYwMTo2NDc6NjcwMDoyNDcwOmRkNzY6N2YwOTplNzBkOjQ5MmE= when applying to show you read the job post completely (#RMjYwMTo2NDc6NjcwMDoyNDcwOmRkNzY6N2YwOTplNzBkOjQ5MmE=). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+      "url": "https://remoteOK.com/remote-jobs/remote-ai-product-manager-tether-operations-limited-1130662",
+      "collected_at": "2026-03-09T09:35:34.668776+00:00",
+      "date": "2026-03-06T16:00:03+00:00",
+      "filter_reason": "localização"
+    },
+    {
+      "id_hash": "6ab0206fbcd1aeffdd1dc3c7a6bbea9895945ab8f1e6190392093d393dbe16f7",
+      "id": "6ab0206fbcd1aeffdd1dc3c7a6bbea9895945ab8f1e6190392093d393dbe16f7",
+      "source": "jobscollider",
+      "title": "Product Manager Integrated Care",
+      "company": "SleepDoctor",
+      "location": "",
+      "salary": null,
+      "jd_full": "<p><strong>About Us</strong></p>\n\n<p>At Sleep Doctor, we’re helping millions get a full night’s rest. As the most trusted name in sleep health, we make better sleep possible with proven support, clear answers, and hands-on care that fits real life. Across our brands—SleepDoctor.com, SleepFoundation.org, and SleepApnea.org—we combine clinical expertise with consumer-first experiences to help people understand their sleep, tackle real challenges, and wake up to healthier, more energized lives. If you’re passionate about making better sleep possible—and want to help reshape the future of sleep care—we’d love to meet you.</p>\n\n<p><strong>About the Role</strong></p>\n\n<p>This role is critical to our vision to deliver simple-to-access and easy-to-afford sleep care to millions.</p>\n\n<p>We are looking for a tech-forward, transformational Product Manager to bridge the gap between complex healthcare systems and a world-class patient experience. You’ll work closely with the VP of Product to architect a scalable platform that eliminates the friction of traditional healthcare.</p>\n\n<p>Initially, you will focus on building a seamless consumer experience across disparate systems; from eligibility checks to therapy fulfillment and reimbursement.. However, your ultimate mission is to build a next-generation insurance workflow which leverages AI tooling to fully automate payor processing. You will transform manual, error-prone tasks like pre-authorization and claims submission into an efficient touchless infrastructure.</p>\n\n<p><strong>What You’ll Do</strong></p>\n\n<p><strong>Phase 1: Connect & Integrate</strong></p>\n\n<ul>\n<li>Map the “as-is” healthcare landscape and design the “to-be” technical integrations for eligibility, prior auth, and claims.</li>\n<li>Work hands-on with engineering and partners, leveraging APIs and middleware to integrate disparate systems to power a simple patient experience which ensures regulatory compliance.</li>\n<li>Translate insurance requirements into clean, actionable technical specifications.</li>\n<li>Define the “Clean Claim” baseline - establish the core data validation rules required to move from manual entry to initial electronic submission.</li>\n<li>Lead the product introduction of insurance-based pathways for home sleep studies (HSS) and DME therapy.</li>\n<li>Ensure parallel operation of cash-pay and insurance flows without introducing friction.</li>\n</ul>\n\n<p><strong>Phase 2: Transform & Scale</strong></p>\n\n<ul>\n<li>Obsess over the patient experience. Use your tech-forward mindset (and the right AI/ML tools) to automate the packaging of pre-authorization bundles and clinical documentation, removing manual touchpoints.</li>\n<li>Design and iterate on digital-first patient journeys that provide radical transparency in pricing and care status.</li>\n<li>Build automated “scrubbing” engines that validate claims against payer-specific rules before they leave our system, ensuring a near-100% clean claim rate and minimizing denials.</li>\n<li>Identify platform gaps and leverage emerging health-tech standards (like FHIR or smart clearinghouse APIs) to ensure our stack is future-proof and scalable.</li>\n</ul>\n\n<p><strong>Continuous Ownership</strong></p>\n\n<ul>\n<li>Own the end-to-end insurance product roadmap, balancing rapid “scrappy” launches with long-term platform stability.</li>\n<li>Collaborate with Clinical, Ops, and Billing teams to ensure our tech solves real-world operational pain points and reduces administrative overhead.</li>\n<li>Maintain an uncompromising standard for HIPAA compliance and data integrity while pushing the boundaries of UX.</li>\n</ul>\n\n<p><strong>What You Bring To The Role</strong></p>\n\n<ul>\n<li><strong>Deep Healthcare Experience:</strong> 5+ years in Product Management specifically within healthcare (Health-tech, Insurance-tech, or Digital Health). You know the difference between an 835 and an 837, but you also know how to make them work in a modern cloud environment.</li>\n<li><strong>Tech-Forward Mindset:</strong> You are comfortable talking APIs with engineers and system architecture with stakeholders. You don’t just want to follow the process, you want to automate it.</li>\n<li><strong>Transformational Drive:</strong> You have a proven track record of taking complex, legacy-style workflows and turning them into seamless, user-centric digital products.</li>\n<li><strong>“Roll Up Your Sleeves” Mentality:</strong> In the beginning, you’ll be doing the heavy lifting to get the integrations live. You enjoy the challenge of connecting the dots to make a vision reality.</li>\n<li><strong>Patient-First Philosophy:</strong> You are passionate about improving the lives of patients and believe that better technology is the key to better health outcomes.</li>\n<li><strong>Familiarity with the Stack:</strong> Experience with HSS (Home Sleep Studies) or DME (Durable Medical Equipment) flows is a massive plus.</li>\n</ul>\n\n<p><strong>Who We Are</strong></p>\n\n<ul>\n<li>We’re committed to a vision of millions waking rested and ready.</li>\n<li>We are Human First because our patients and teammates are why we’re here.</li>\n<li>We are growing rapidly but sustainably because we are committed to Relentless Progress.</li>\n<li>Run into a challenge or a new opportunity?  We tackle it as a team because we know that we are Stronger Together.</li>\n<li>We’re going to push you to ask big questions and find bold answers.  Everyone has a seat at the table, regardless of their title or job description</li>\n</ul>\n\n<p><strong>Compensation Range</strong></p>\n\n<p>$140,000 - $150,000/yr. Note that final compensation is subject to the candidate’s specific qualifications and location, as well as the needs of the company. This person is eligible to partake in the company’s bonus program.</p>\n\n<p>Note that final compensation is subject to the candidate’s specific qualifications and location, as well as the needs of the company.</p>\n\n<p>The Company currently provides medical, vision, and dental insurance with 100% of the employee  medical, vision,   and   dental   premiums  covered   by   the   Company.  There is an option to participate in both a medical FSA and dependent care FSA. We offer a 401(k) plan, with fully matching contributions up to 3% of salary and 50% matching from 3% to 5% of salary.  You will be eligible for Paid Time Off in accordance with the company’s policies. Our Seattle-based employees will receive commuter benefits.</p>\n\n<p><em>Sleep Doctor is committed to bringing together individuals from diverse backgrounds and perspectives. We strive to create an inclusive environment where everyone can thrive and be their authentic self, feel a sense of community, and do great work together. We are proud to be an equal opportunity employer open to all qualified applicants</em></p>",
+      "url": "https://remotefirstjobs.com/companies/sleepdoctor/jobs/product-manager-integrated-care-727777",
+      "collected_at": "2026-03-09T09:35:41.255751+00:00",
+      "date": "Sun, 08 Mar 2026 23:07:58 +0000",
+      "filter_reason": "localização"
+    },
+    {
+      "id_hash": "ff52be276b6ac3d4cebe49dd02052433734c7cb8ae51c8639c5361af45a6d1fc",
+      "id": "ff52be276b6ac3d4cebe49dd02052433734c7cb8ae51c8639c5361af45a6d1fc",
+      "source": "jobscollider",
+      "title": "Implementation Project Manager",
+      "company": "bswift",
+      "location": "",
+      "salary": null,
+      "jd_full": "<p><strong>Want to be a bswifter?</strong></p>\n\n<p><em>At bswift we’ve been transforming benefits administration since 1996, making it simpler, smarter, and more human. Our state-of-the-art, cloud-based technology and services empower employees to understand, manage, and love their benefits. From downtown Chicago, and remotely across the country, we serve thousands of companies and millions of people nationwide, reducing administrative burdens and freeing HR teams to focus on creating thriving, people-first workplaces.</em></p>\n\n<p><em>We’re looking for motivated and goal-driven individuals who share our passion for delivering excellence and creating solutions that make a difference. The reward is a fun, flexible and creative environment with ample opportunity for professional and personal growth. If you love the bswift values of pursue excellence, embrace accountability, deliver superior service, and be a great place to work, we want to hear from you!</em></p>\n\n<p><strong>ABOUT US</strong></p>\n\n<p>bswift is a leading benefits administration company that delivers tailored solutions to help employers and employees navigate the complexities of benefits. Our mission is to simplify the world of employee benefits while providing exceptional service to our clients. We are seeking an experienced and motivated <strong>Implementation Project Manager</strong> to join our team and support successful client implementations.</p>\n\n<p><strong>WHAT YOU’LL DO</strong></p>\n\n<p>The <strong>Implementation Project Manager</strong> is responsible for managing the full lifecycle of client implementations—from initial discovery and project kickoff through configuration, testing, and handoff to ongoing delivery teams. This role ensures implementation success by managing timelines, coordinating workstreams, guiding clients through key decisions, and partnering closely with cross-functional teams. You will serve as a primary project contact, helping to ensure a high-quality, on-time, and accurate implementation experience.</p>\n\n<p><strong>KEY RESPONSIBILITIES</strong></p>\n\n<p><strong>Project Leadership & Delivery</strong></p>\n\n<ul>\n<li><p>Manage end-to-end implementation projects, ensuring successful execution across all phases of the lifecycle.</p></li>\n\n<li><p>Facilitate key project sessions including discovery, kickoff, requirements gathering, testing planning, and status meetings.</p></li>\n\n<li><p>Develop, manage, and maintain project plans, timelines, and documentation.</p></li>\n\n<li><p>Track project progress against defined milestones and contractual service levels, escalating concerns as appropriate.</p></li>\n\n<li><p>Provide regular status updates to internal partners and clients.</p></li>\n</ul>\n\n<p><strong>Client & Stakeholder Management</strong></p>\n\n<ul>\n<li><p>Serve as a primary point of contact for clients throughout the implementation process.</p></li>\n\n<li><p>Support client expectation management by clearly communicating timelines, risks, scope, and required decisions.</p></li>\n\n<li><p>Build strong working relationships with clients, brokers, and internal stakeholders through clear communication and responsiveness.</p></li>\n\n<li><p>Coordinate with cross-functional teams—including configuration, technical, compliance, and service delivery—to support timely and accurate deliverables.</p></li>\n</ul>\n\n<p><strong>Risk Management & Issue Resolution</strong></p>\n\n<ul>\n<li><p>Identify and communicate project risks, dependencies, and potential roadblocks.</p></li>\n\n<li><p>Partner with leadership and project stakeholders to support issue resolution and escalation when needed.</p></li>\n\n<li><p>Monitor interdependencies across workstreams and proactively address items that could impact timelines or quality.</p></li>\n</ul>\n\n<p><strong>WHAT YOU NEED TO SUCCEED</strong></p>\n\n<p><strong>Required Education & Experience</strong></p>\n\n<ul>\n<li><p>Bachelor’s degree in Business Administration, Project Management, or a related field</p></li>\n\n<li><p>3+ years of project management or implementation experience, preferably within benefits, HR technology, SaaS, or related environments</p></li>\n\n<li><p>Working knowledge of benefits administration processes and/or implementation methodologies</p></li>\n\n<li><p>Strong written and verbal communication skills with both technical and non-technical audiences</p></li>\n\n<li><p>Proven ability to manage multiple projects simultaneously in a fast-paced environment</p></li>\n\n<li><p>Strong organizational, problem-solving, and critical-thinking skills</p></li>\n\n<li><p>Proficiency in MS Excel (including VLOOKUPs, pivot tables, and data analysis) and other MS Office tools</p></li>\n\n<li><p>High attention to detail, reliability, and accountability</p></li>\n</ul>\n\n<p><strong>PREFERRED QUALIFICATIONS</strong></p>\n\n<ul>\n<li><p>Project Management certification (PMP, CAPM, Agile, etc.)</p></li>\n\n<li><p>Experience with benefits administration platforms, HRIS systems, or SaaS implementations</p></li>\n\n<li><p>Experience working on cross-functional or technical project teams</p></li>\n\n<li><p>Smartsheet experience</p></li>\n</ul>\n\n<p><strong>OTHER INFORMATION</strong></p>\n\n<p>This job description is not designed to cover every activity, duty, or responsibility that may be required. Responsibilities may change at any time with or without notice.</p>\n\n<p><strong>Required Hours:</strong> Standard business hours, with flexibility based on client and project needs.</p>\n\n<p><strong>Why Join bswift?</strong></p>\n\n<p>At bswift, we empower our employees to make a meaningful impact, innovate, and grow. Joining our team means stepping into a collaborative and dynamic environment that values creativity, initiative, and a passion for client success. We are dedicated to fostering an inclusive workplace that celebrates diversity and values each team member’s unique contributions.</p>\n\n<p><strong>Benefits of Working at bswift:</strong></p>\n\n<ul>\n<li><strong>Comprehensive Health Benefits</strong>: Access to health, dental, and vision plans to support your wellness and that of your family.</li>\n<li><strong>Competitive Compensation</strong>: A compensation package that recognizes your skills, experience, and contributions, including performance-based incentives for most roles.</li>\n<li><strong>Remote first, Office friendly environment!</strong> No time to commute?  No problem!</li>\n<li><strong>Retirement Savings Plans</strong>: Options to help you plan for a secure financial future with employer-sponsored retirement savings programs.</li>\n<li><strong>Professional Development</strong>: Opportunities for career growth, including training and access to resources to support your career progression.</li>\n<li><strong>Supportive Culture</strong>: A work environment that encourages collaboration, open communication, and creative problem-solving, where your voice and ideas are valued.</li>\n<li><strong>Employee Wellbeing Initiatives</strong>: Programs focused on mental health, financial planning, and wellness resources to help you thrive inside and outside of work.</li>\n</ul>\n\n<p><strong>Make an Impact</strong>: At bswift, your work directly contributes to transforming how organizations approach benefits administration and client engagement. Join us to be part of an organization that is making a meaningful difference in the lives of our clients and their employees.</p>\n\n<p><em>Specific benefit offerings vary by position and may be subject to change.</em></p>\n\n<p>Standard working hours are 8am-5pm Central Time, unless otherwise stated in the Job Description.</p>\n\n<p>In the spirit of pay transparency, we are excited to share the base salary range for this position is $90,000-$120,000, exclusive of fringe benefits or potential bonuses.  If you are hired at bswift, your final base salary compensation will be determined based on factors such as geographic location, skills, education, and/or experience. In addition to those factors – we believe in the importance of pay equity and consider internal equity of our current team members as a part of any final offer. Please keep in mind that the range mentioned above is the full base salary range for the role. Hiring at the maximum of the range would not be typical in order to allow for future & continued salary growth. We also offer a generous compensation and benefits package!</p>\n\n<p><em>At bswift, our mission is clear: Become the preeminent benefits administrator through exceptional people, innovative technology, and delighted customers. And our values are at the heart of everything we do to accomplish that mission. We</em> <strong><em>Pursue Excellence, Embrace Accountability, Deliver Superior Service,</em></strong> <em>and strive to</em> <strong><em>Be A Great Place To Work</em></strong> <em>. We take pride in having an engaged, collaborative team that goes the extra mile to get the job done right.</em></p>\n\n<p><em>bswift has been regularly named one of Chicago’s Best and Brightest Companies to Work For®, as well as one of the Nation’s Best and Brightest Companies to Work For® year after year. We offer a fun, flexible, and creative environment where you can grow both professionally and personally.</em></p>\n\n<p><em>If you have what it takes to join our award-winning culture, we’d love to hear from you!</em></p>",
+      "url": "https://remotefirstjobs.com/companies/bswift/jobs/implementation-project-manager-727744",
+      "collected_at": "2026-03-09T09:35:41.255769+00:00",
+      "date": "Sun, 08 Mar 2026 22:32:51 +0000",
+      "filter_reason": "salário"
+    },
+    {
+      "id_hash": "ececeec03ac67bd1cab20c5a1a8d6af464b41632f848d38f214be3d51963c13d",
+      "id": "ececeec03ac67bd1cab20c5a1a8d6af464b41632f848d38f214be3d51963c13d",
+      "source": "jobscollider",
+      "title": "Interior Architect / Project Manager",
+      "company": "SNIPEBRIDGE",
+      "location": "",
+      "salary": null,
+      "jd_full": "<p>Snipebridge, a strategic talent solutions company specializing in connecting exceptional talent to great career opportunities in the Architecture & Planning industry, is seeking an experienced Interior Architect.</p>\n\n<p>Our client is an award winning architecture and design firm, celebrated for crafting environments that integrate harmoniously with their surroundings. They draw inspiration from local materials and the natural beauty of the area. With a strong focus on sustainability and collaboration with clients, their portfolio encompasses luxury residential projects showcasing a commitment to thoughtfully addressing the distinct context of each location.</p>\n\n<p><strong>Position Summary:</strong></p>\n\n<p>The Interior Architect will lead interior architecture for multiple high-end projects, integrating spatial planning, materiality, and detailing from concept through construction administration. They will be part of a collaborative environment, working with principals, architects, and the interior design team to create cohesive, site-responsive environments tailored to each particular client and context. This position has the ability to be remote.</p>\n\n<p><strong>Education/Skills/Experience:</strong></p>\n\n<ul>\n<li><p>Degree in Interior Architecture, Interior Design, or Architecture from an accredited university</p></li>\n\n<li><p>8-10+ years of experience in interior architecture for high-end single-family residential or hospitality projects from concept through completion</p></li>\n\n<li><p>Detail-oriented and organized with strong understanding of millwork, finishes, lighting, and spatial detailing</p></li>\n\n<li><p>Excellent listener and communicator, able to comprehend and disseminate information efficiently</p></li>\n\n<li><p>Experienced and technically knowledgeable enough to provide mentorship of junior staff</p></li>\n\n<li><p>Proven track record and thorough understanding of:</p>\n\n<ul>\n<li>Leading interior architecture through all phases from concept design through construction observation (spatial planning, material selection, millwork detailing, finish coordination)</li>\n<li>Revit Proficiency</li>\n<li>3D rendering expertise in tools that allow for photorealistic renders, material visualization, and spatial representation using platforms like Twinmotion, Lumion, or similar</li>\n<li>Coordinating interior architecture with structural, MEP, lighting, and furniture/furnishings teams</li>\n<li>Managing simultaneous projects and delegating to team members</li>\n<li>Collaborating with architects and interior designers to create integrated, holistic design solutions</li>\n</ul></li>\n</ul>\n\n<p>At the time of posting this job, the hiring range for this position is between $110,000 and $150,000 annually.  Final salary decisions are made based upon the extent and relatedness of the candidate’s education and experience and considering internal equity and external market factors.</p>\n\n<p><em>All applicants must be legally authorized to work in the United States without sponsorship and must already possess long-term work authorization.</em></p>",
+      "url": "https://remotefirstjobs.com/companies/snipebridge/jobs/interior-architect-project-manager-727605",
+      "collected_at": "2026-03-09T09:35:41.255796+00:00",
+      "date": "Sun, 08 Mar 2026 20:02:46 +0000",
+      "filter_reason": "localização"
+    },
+    {
+      "id_hash": "d08b72dcb3d281ca6ded40eac464782f4a43ba0fd4bbe479c41d65d1b9de9e8d",
+      "id": "d08b72dcb3d281ca6ded40eac464782f4a43ba0fd4bbe479c41d65d1b9de9e8d",
+      "source": "jobscollider",
+      "title": "Technical Program/Project Manager ERP",
+      "company": "Test Yantra",
+      "location": "",
+      "salary": null,
+      "jd_full": "<p>Role: <strong>Technical Program/Project Manager</strong></p>\n\n<p>Employment: Contract</p>\n\n<p>Location: Warsaw,PL - Hybrid</p>\n\n<p>Skills:</p>\n\n<p>Experience:</p>\n\n<p>• 10 to 15 years of experience managing technical programs/projects leveraging program/project management methodologies such as Agile, Waterfall, Scrum etc.</p>\n\n<p>• Experience working on ERP Migrations/Consolidations (preferred experience migrating from an existing SAP ECC instance to an SAP S4 HANA instance)</p>\n\n<p>• Hands-on experience with project management tools like Jira, MS Project, or similar platforms.</p>",
+      "url": "https://remotefirstjobs.com/companies/test-yantra/jobs/technical-programproject-manager-erp-727599",
+      "collected_at": "2026-03-09T09:35:41.255801+00:00",
+      "date": "Sun, 08 Mar 2026 19:56:07 +0000",
+      "filter_reason": "localização"
+    }
+  ]
+}
