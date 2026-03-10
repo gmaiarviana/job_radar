@@ -2296,5 +2296,149 @@
     "source": "jobscollider",
     "title": "Technical Program/Project Manager ERP",
     "company": "Test Yantra"
+  },
+  "9908317df8021b8c6684eebf467543687a9a49c13b133db9fa5ce6e1ab35e921": {
+    "first_seen": "2026-03-10",
+    "source": "openai_web_search",
+    "title": "Technical Product Manager",
+    "company": "Omie"
+  },
+  "ec6a8399601ab638149cb00bbd703e5acbba05d79272e4d9219e53efe051fd91": {
+    "first_seen": "2026-03-10",
+    "source": "openai_web_search",
+    "title": "Senior Product Manager",
+    "company": "Pismo"
+  },
+  "2d78023afab96202b2bfdded68445f96458dd1d89a67b7ece2c6884ddbbe57bb": {
+    "first_seen": "2026-03-10",
+    "source": "weworkremotely",
+    "title": "Associate Director - Product Strategy & Operations",
+    "company": "Highlevel"
+  },
+  "da840d15c129a1180c95d8d9eb37cc5690354dd1d84db018aaef76be86b0698a": {
+    "first_seen": "2026-03-10",
+    "source": "weworkremotely",
+    "title": "Product Analyst Intern (Spring/Summer 2026)",
+    "company": "Accuweather Careers"
+  },
+  "c1ced0e56ca2d3859bf66f9f7678651a9f3da113d7aa9f31d666592037645c94": {
+    "first_seen": "2026-03-10",
+    "source": "jobicy",
+    "title": "Country Manager",
+    "company": "Solplanet"
+  },
+  "f83cb6a209e7bf52cc3c0bd631942f84ea167bc3ccb8374bfc8d77a11be5ec0c": {
+    "first_seen": "2026-03-10",
+    "source": "jobicy",
+    "title": "Principal IT Project Manager",
+    "company": "Labcorp"
+  },
+  "997cfa6d28d8279b4541f6d103b2d3dd46b96cd58d53c9c11499a13f8a934346": {
+    "first_seen": "2026-03-10",
+    "source": "jobscollider",
+    "title": "Junior Digital Project Manager",
+    "company": "Ogilvy"
+  },
+  "2ea44e272ec9c315a13a45242457839507a91637c922fcaa7810228a556cf540": {
+    "first_seen": "2026-03-10",
+    "source": "jobscollider",
+    "title": "Delivery Manager",
+    "company": "Cytora"
+  },
+  "53860f0414249820ff7c2398eedc5b5908d0162e93366d64f050fbeb0491e64e": {
+    "first_seen": "2026-03-10",
+    "source": "jobscollider",
+    "title": "Product Manager II Real User Monitoring RUM",
+    "company": "Datadog"
+  },
+  "6e42b3aa522382f87469611f5e5bba31aaab395aabb5f55f82fa92122bbfbea7": {
+    "first_seen": "2026-03-10",
+    "source": "jobscollider",
+    "title": "Financial Crime & Compliance Product Manager",
+    "company": "BVNK"
+  },
+  "f3736b55a716646e9ac720e3bf6f26495a3e82506dc085602b9a44aa3bcb1aab": {
+    "first_seen": "2026-03-10",
+    "source": "jobscollider",
+    "title": "Technical Product Owner",
+    "company": "Tether.io"
+  },
+  "e2045d8fe53c46ef92a30581deb0d8ca73f279e28646072d85fa86488829305a": {
+    "first_seen": "2026-03-10",
+    "source": "jobscollider",
+    "title": "Senior Product Manager",
+    "company": "NBCUniversal"
+  },
+  "e81dd38e3430237a144f1c0464d07348d6c2ee2f57a6b8de59fe955b5d860477": {
+    "first_seen": "2026-03-10",
+    "source": "jobscollider",
+    "title": "Program Manager Strategic Initiatives",
+    "company": "Agility Robotics"
+  },
+  "3c71749f8373b7cbdd95cc495a05be122b0d7397c876560a1a3dcb8cbc0411e7": {
+    "first_seen": "2026-03-10",
+    "source": "jobscollider",
+    "title": "Technical Project Manager",
+    "company": "NBCUniversal"
+  },
+  "f10d9991ef7aed6fd5d6c9690aa6431374c8e6e49852094c56322395d45031fc": {
+    "first_seen": "2026-03-10",
+    "source": "jobscollider",
+    "title": "Associate Product Manager",
+    "company": "Utility Warehouse"
+  },
+  "25231c9ba0bff582be291503395cc79560d0dac76f5bd1b3520b11f15bb0b9b7": {
+    "first_seen": "2026-03-10",
+    "source": "jobscollider",
+    "title": "Customer Success Program Manager",
+    "company": "Sonatype"
+  },
+  "ece4ac07c790f41c1c5aa0de8b8f0639e53d55163b11833a07cee743bc91a275": {
+    "first_seen": "2026-03-10",
+    "source": "jobscollider",
+    "title": "Associate Product Manager Intern",
+    "company": "Visa"
+  },
+  "cd87fec67f968ea8caafb002d5fe972d712357173380ce52f64a40fd6f49bb2e": {
+    "first_seen": "2026-03-10",
+    "source": "jobscollider",
+    "title": "Senior Project Manager/Scrum Master",
+    "company": "Apply Digital"
+  },
+  "6a2a52f3c7554b78de6c2b520372648c115053ebaeeb5859ce5f02011c18d943": {
+    "first_seen": "2026-03-10",
+    "source": "greenhouse",
+    "title": "Technical Program Manager,  Identity and Access Management Programs",
+    "company": "Stripe"
+  },
+  "ef25df418b4162b8db9de4c2025b3d17d88af14c711222d95703f65963cb7b9f": {
+    "first_seen": "2026-03-10",
+    "source": "greenhouse",
+    "title": "Technical Program Manager, Internal Systems",
+    "company": "Stripe"
+  },
+  "a5207c74b6291f1efb62416ab4060b94459c239747f10cd4a5ed44347f7e05e6": {
+    "first_seen": "2026-03-10",
+    "source": "greenhouse",
+    "title": "Technical Program Manager, Risk",
+    "company": "Stripe"
+  },
+  "19f950ecb237327804f793483c31489335f1b7b82ec121d241788ae1ffea7cd4": {
+    "first_seen": "2026-03-10",
+    "source": "greenhouse",
+    "title": "Technical Program Manager",
+    "company": "Databricks"
+  },
+  "a50a79941ae3168179c9c096ee437c6e85594ef13ab4c7c83eef33381a62ee55": {
+    "first_seen": "2026-03-10",
+    "source": "greenhouse",
+    "title": "Product Manager, Data Engine",
+    "company": "Scale AI"
+  },
+  "acabf20c5bfc0b2ce8b3a1a508be90af628d5ef17a75bef981d206d9f5f0ee5b": {
+    "first_seen": "2026-03-10",
+    "source": "greenhouse",
+    "title": "Product Manager, Privacy & Transparency",
+    "company": "Cloudflare"
   }
 }
