@@ -1,7 +1,103 @@
 {
-  "generated_at": "2026-03-11T09:36:52.597753+00:00",
-  "total": 43,
+  "generated_at": "2026-03-12T09:37:34.250469+00:00",
+  "total": 45,
   "jobs": [
+    {
+      "score": 92,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato Guilherme Maia possui experiência direta e relevante para a função de Lead Project Manager na empresa Encora. Ele tem uma sólida trajetória em papéis de gerenciamento de projetos, programas e produtos, liderando equipes multifuncionais e entregando resultados em cenários complexos. Suas habilidades técnicas, de liderança e de gestão de stakeholders se alinham plenamente aos requisitos da vaga. Com cerca de 3-4 anos de experiência em funções de PM/TPM em tecnologia, ele possui a senioridade necessária para assumir esse cargo de liderança.",
+      "main_gap": "Não há gaps evidentes. O candidato possui o perfil ideal para a vaga.",
+      "company": "Encora",
+      "location": "",
+      "title": "Lead Project Manager",
+      "url": "https://remotefirstjobs.com/companies/encora-inc/jobs/lead-project-manager-730803",
+      "id": "4ec35d3237024a18a912d4b7ed12513a56e2974cd91c2647f354cfb51fd297d3",
+      "core_requirements": [
+        {
+          "requirement": "Lead and manage the engineering team, ensuring effective collaboration, productivity and alignment with project objectives.",
+          "category": "leadership",
+          "evidence": "Program management experience leading teams of ~25 engineers across multiple teams in a global program (Instituto Atlântico, Sep/2024-Sep/2025). Also has experience managing a program with 4 startups and then 2 teams (8 people total) as a Project Manager (Instituto Atlântico, Oct/2025-Feb/2026).",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Oversee project planning, timelines and delivery, ensuring milestones and deliverables are completed successfully.",
+          "category": "leadership",
+          "evidence": "Experience as a Technical Program Manager (Instituto Atlântico, Sep/2024-Sep/2025) coordinating 3 teams (~25 engineers) in a global program, as well as Project Manager (Instituto Atlântico, Oct/2025-Feb/2026) managing a program with 4 startups and then 2 teams. Also has experience as a Product Owner (Instituto Atlântico, Jul/2022-Sep/2024, Mar/2026-current) responsible for planning, delivery and milestones.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Coordinate with stakeholders and technical teams to ensure clear communication, proper resource allocation and project progress.",
+          "category": "leadership",
+          "evidence": "Experience in multiple roles (PO, PM, TPM) working with cross-functional teams and stakeholders to coordinate communication, resources and project progress.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Provide technical guidance to the team and support decision making to ensure high quality solutions and successful delivery.",
+          "category": "technical",
+          "evidence": "Strong technical background and experience, including use of IA/ML, data analytics, and Agile methodologies. Has demonstrated the ability to provide technical guidance and support decision making.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Not specified",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": false
+      },
+      "file_date": "2026-03-12",
+      "source": "pipeline"
+    },
+    {
+      "score": 90,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato possui experiência direta no domínio central da vaga, com perfil que se alinha muito bem aos requisitos chave, incluindo expertise em AI e agentes conversacionais, capacidade de análise de dados e otimização baseada em métricas, e vivência em ambientes SaaS de alto crescimento. A seniority de ~3-4 anos em funções de PM/TPM também é adequada para o escopo da vaga.",
+      "main_gap": "Não há gaps significativos, o perfil do candidato cobre muito bem os requisitos da posição.",
+      "company": "Wellhub",
+      "location": "Brazil (Remote)",
+      "title": "Revenue Operations Program Manager",
+      "url": "https://job-boards.greenhouse.io/gympass/jobs/8459030002",
+      "id": "535e4e4cd02e7c50b8fe736cb65df91692b6a1bf15384285393f104552a1b9a5",
+      "core_requirements": [
+        {
+          "requirement": "Support the design and deployment of AI Agents to support key sales and commercial workflows, in partnership with the Director of Global Programs, Product, and Marketing.",
+          "category": "technical",
+          "evidence": "Expertise in AI and experience with AI agents, with evidence from R&D work on AI methodology for pipelines and agent integration.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Design, develop and refine conversational logic for AI Agents within our selected AI Agent platform(s). Act as the internal operational expert and day-to-day operator for our AI Agent platform(s).",
+          "category": "technical",
+          "evidence": "Hands-on experience designing and operating conversational AI agents, including development of conversational logic.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Monitor day-to-day performance, as well as help to develop regular reports with cross-functional partners to improve AI Agent performance, including tracking critical metrics such as: deflection rates, meeting rates, lead-to-MQL conversion, MQL-to-Opp Validation, and full-cycle conversion.",
+          "category": "technical",
+          "evidence": "Strong analytical and data-driven decision making skills, with experience in generating performance reports and driving optimizations based on metrics.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Understand our commercial processes and our client needs – represent Revenue team and client' perspectives in internal strategy and planning sessions, and in discussions with cross-functional stakeholders.",
+          "category": "domain",
+          "evidence": "Demonstrated experience in high-growth SaaS environments, with the ability to bridge business and technical teams.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Drive and influence the development, prioritization, and analysis of A/B experiments with our AI Agents, to accelerate business growth and improve operational efficiency.",
+          "category": "leadership",
+          "evidence": "Track record of driving data-driven decisions and optimizations through A/B testing and experimentation.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "not specified",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": false
+      },
+      "file_date": "2026-03-12",
+      "source": "pipeline"
+    },
     {
       "score": 95,
       "score_ceiling": 100,
@@ -2199,6 +2295,16 @@
       "discarded_title": 6,
       "discarded_blocklist": 1,
       "discarded_location": 9,
+      "discarded_quality": 0
+    },
+    {
+      "date": "2026-03-12",
+      "filtered_at": "2026-03-12T09:35:05.367347+00:00",
+      "total_input": 33,
+      "total_passed": 24,
+      "discarded_title": 3,
+      "discarded_blocklist": 0,
+      "discarded_location": 6,
       "discarded_quality": 0
     }
   ]
