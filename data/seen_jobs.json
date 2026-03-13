@@ -2836,5 +2836,95 @@
     "source": "greenhouse",
     "title": "Benefits Program Manager",
     "company": "Faire"
+  },
+  "73e0924f2a1278184fdc8b9abf6ccb52ab7bd249c55a53975e5463cd5b023663": {
+    "first_seen": "2026-03-13",
+    "source": "openai_web_search",
+    "title": "Sr. Product Manager, International Tech Latam",
+    "company": "Amazon"
+  },
+  "871a56c39cf4363d8a002c74408397e86f408fde73f873dc363a0150c1d22615": {
+    "first_seen": "2026-03-13",
+    "source": "openai_web_search",
+    "title": "Sr. Product Manager",
+    "company": "Disney"
+  },
+  "b4dbd3112ba17dc5171f6a51dc7ad1aa60e3c7a0a936528156f15a1218fb755c": {
+    "first_seen": "2026-03-13",
+    "source": "openai_web_search",
+    "title": "Product Manager, LATAM (São Paulo, Brasil)",
+    "company": "Airbnb"
+  },
+  "5f1d4d31788f3d0af5631e36b6db1f1ea726fb62bc0934ba3469d53b6014c635": {
+    "first_seen": "2026-03-13",
+    "source": "himalayas",
+    "title": "Senior/Staff Design Program Manager",
+    "company": "Instacart"
+  },
+  "6a959ce34632eecf3b8638b4f190e705c2ccfcf696025ea77c729240ad1fced9": {
+    "first_seen": "2026-03-13",
+    "source": "himalayas",
+    "title": "Senior Product Manager, Delivery",
+    "company": "Candidly"
+  },
+  "3fc60b7cf9a5b7430f62c90c27b5b694bb09b10cc273ea4538d9e733e432e9cb": {
+    "first_seen": "2026-03-13",
+    "source": "himalayas",
+    "title": "Senior Implementation Project Manager  (USA)",
+    "company": "Kalepa"
+  },
+  "462892a2c83d122abb796f9a307db531698be4b9dd2a844e204774276aa1266a": {
+    "first_seen": "2026-03-13",
+    "source": "himalayas",
+    "title": "Remote Technical Project Manager (Data Privacy & AI)",
+    "company": "Lavendo"
+  },
+  "c021ea87f5685acbf1330e9f64b35fc9e42e54215ab042a7668186381ed7d854": {
+    "first_seen": "2026-03-13",
+    "source": "jobscollider",
+    "title": "Product Manager",
+    "company": "Calyxo, Inc."
+  },
+  "004118617c79349eff9190c02d94ce1ecb1cb80dda971261e26e094130f2c8e1": {
+    "first_seen": "2026-03-13",
+    "source": "jobscollider",
+    "title": "Product Manager Optimized Checkout Suite Buyer Experience",
+    "company": "Stripe"
+  },
+  "9ff18aace6cc85af4e6ab1fdce22ae5e8733ea74f2cdc1a789d7a1f981303bc5": {
+    "first_seen": "2026-03-13",
+    "source": "jobscollider",
+    "title": "Senior Product Manager - Adjudication",
+    "company": "SmithRx"
+  },
+  "a1f5a666b73564b799488f428b011f3c741853ac87d15cf08b7e514380228232": {
+    "first_seen": "2026-03-13",
+    "source": "jobscollider",
+    "title": "Insurance Product Analyst",
+    "company": "TAL Australia"
+  },
+  "4b106df029f558408737b455d83fa09879abcf15663afec53a1eee8266b7828e": {
+    "first_seen": "2026-03-13",
+    "source": "greenhouse",
+    "title": "Program Manager, Enablement Content",
+    "company": "GitLab"
+  },
+  "2984c6d6c990b4c24b0ca943688fae9a4e571f1364f6685027c396db87fd1633": {
+    "first_seen": "2026-03-13",
+    "source": "greenhouse",
+    "title": "Product Manager - WhatsApp",
+    "company": "Klaviyo"
+  },
+  "9286d4eecf8aeef0207ed609249e71dbaef90fcb229c7129f6e5bf6928b97d2f": {
+    "first_seen": "2026-03-13",
+    "source": "greenhouse",
+    "title": "Senior Product Manager, Growth",
+    "company": "Samsara"
+  },
+  "a46dd2c773bbec797cdf64233c9eb4c6482529a24a30227e26e190bd77e6ec1e": {
+    "first_seen": "2026-03-13",
+    "source": "ashby",
+    "title": "Staff Product Manager - Benefits",
+    "company": "Deel"
   }
 }

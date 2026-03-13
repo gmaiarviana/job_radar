@@ -1,0 +1,276 @@
+{
+  "scored_at": "2026-03-13T09:32:15.265369+00:00",
+  "source_file": "2026-03-13_092739.json",
+  "summary": {
+    "total_input": 8,
+    "total_llm_eliminated": 2,
+    "total_scored": 5,
+    "total_top": 0
+  },
+  "jobs": [],
+  "scored_jobs": [
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato Guilherme possui experiência relevante em gestão de produto, programa e entrega, com transferência de habilidades da engenharia civil para a área de tecnologia. Entretanto, ainda possui uma lacuna de seniority em relação ao nível sênior exigido pela vaga. Suas competências técnicas, de liderança e de organização estão alinhadas com os requisitos da posição, mas falta uma experiência mais direta no domínio específico da expansão de produtos da Amazon no Brasil. Acredito que com um rápido ramp-up, Guilherme pode se tornar um bom candidato para essa vaga.",
+      "main_gap": "Falta de experiência prévia na expansão de produtos da Amazon no mercado brasileiro.",
+      "company": "Amazon",
+      "location": "São Paulo, Brasil",
+      "title": "Sr. Product Manager, International Tech Latam",
+      "url": "https://www.adzuna.com.br/details/5657898266",
+      "id": "73e0924f2a1278184fdc8b9abf6ccb52ab7bd249c55a53975e5463cd5b023663",
+      "core_requirements": [
+        {
+          "requirement": "Definir e executar a estratégia para expansão de produtos no Brasil",
+          "category": "domain",
+          "evidence": "Objetivo de Busca (Obj 1): Gerar entrevistas e obter oferta internacional de pelo menos $5.000 USD/mês para negociação de aumento salarial. O scoring deve priorizar vagas com escopo real de gestão, produto, programa, projeto, delivery ou análise estratégica, sem prender avaliação ao rótulo do cargo.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Liderar o planejamento e execução do roadmap de produtos para expandir as capacidades da Amazon no Brasil",
+          "category": "domain",
+          "evidence": "Experiência recente: PO (Mar/2026–Atual) em refatoração de image scanning para integração de IA; PM (Out/2025–Fev/2026) em programa de startups e gestão de times; TPM (Set/2024–Set/2025) em programa global de alta complexidade.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Colaborar com equipes de Tax, Accounting, Legal e Public Policy para garantir que as soluções atendam aos requisitos regulatórios",
+          "category": "leadership",
+          "evidence": "Resumo Profissional: Opera na fronteira entre estratégia e operação: organiza escopo, alinha stakeholders e transforma risco em plano de entrega.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Responsável pelo desenvolvimento de produtos do início ao fim, incluindo a criação de documentos detalhando requisitos e histórias de usuários para engenharia",
+          "category": "technical",
+          "evidence": "Skills Principais: Product discovery/delivery: visão de produto, priorização, roadmap/backlog, user journeys, foco em valor.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Gerenciar trade-offs entre ganhos de curto prazo e apostas estratégicas de longo prazo, e desenvolver a estratégia de longo prazo para expansões de produtos no Brasil",
+          "category": "leadership",
+          "evidence": "Resumo Profissional: Opera na fronteira entre estratégia e operação: organiza escopo, alinha stakeholders e transforma risco em plano de entrega.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Senior",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 55,
+      "score_ceiling": 60,
+      "ceiling_reason": "1 penalty: domain_gap_core.",
+      "justification": "O candidato possui excelente experiência em gerenciamento de produtos e programas, incluindo integração de IA e coordenação de equipes distribuídas. Suas habilidades de liderança, entrega e uso de dados/evidências são muito relevantes para o cargo. No entanto, a falta de experiência específica no mercado LATAM representa um gap central para a vaga, que exige conhecimento profundo dessa região. Embora suas outras competências sejam robustas, esse gap de domínio regional limita o fit geral da candidatura.",
+      "main_gap": "Falta de experiência comprovada no mercado LATAM, que é requisito central para a vaga.",
+      "company": "Airbnb",
+      "location": "São Paulo, SP, Brasil",
+      "title": "Product Manager, LATAM (São Paulo, Brasil)",
+      "url": "https://br.linkedin.com/jobs/product-manager-vagas-s%C3%A3o-paulo-sp",
+      "id": "b4dbd3112ba17dc5171f6a51dc7ad1aa60e3c7a0a936528156f15a1218fb755c",
+      "core_requirements": [
+        {
+          "requirement": "Liderar a estratégia e execução de produtos para a região da América Latina",
+          "category": "domain",
+          "evidence": "Experiência recente como PO, PM e TPM em produtos/programas globais, incluindo integração de IA e coordenação de times distribuídos.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Trabalhar em estreita colaboração com equipes multifuncionais para identificar oportunidades de crescimento, definir requisitos de produtos e garantir a entrega bem-sucedida de soluções",
+          "category": "leadership",
+          "evidence": "Experiência em gestão de pessoas e processo, incluindo realocação de equipe, coordenação cross-functional, facilitação de cerimônias ágeis e alinhamento com stakeholders.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Conhecimento profundo do mercado LATAM",
+          "category": "domain",
+          "evidence": "Não há evidência explícita de conhecimento do mercado LATAM no perfil.",
+          "has_evidence": "false"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "not specified",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": false
+      }
+    },
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui uma base sólida de experiência em gestão de projetos e programas de tecnologia, incluindo trabalho em soluções baseadas em IA. No entanto, ele não atende ao requisito de 10+ anos de experiência solicitado, tendo cerca de 3-4 anos na área de PM/TPM. Apesar disso, o candidato demonstra skills transferíveis e potencial para aprender rapidamente o domínio de privacidade de dados e regulações. Portanto, considerando o gap de seniority, atribuo um score de 60, posicionando o candidato na faixa de 50-69, como uma candidatura viável com risco.",
+      "main_gap": "Seniority gap de 6-7 anos em relação ao requisito da vaga",
+      "company": "Lavendo",
+      "location": "Argentina, Armenia, Azerbaijan, Chile, Colombia, Cyprus, Estonia, Georgia, Germany, Hungary, Mexico, Montenegro, Peru, Poland, Portugal, Serbia, Slovakia, Spain, Turkey",
+      "title": "Remote Technical Project Manager (Data Privacy & AI)",
+      "url": "https://himalayas.app/companies/lavendo/jobs/remote-technical-project-manager-data-privacy-ai-5464563768",
+      "id": "462892a2c83d122abb796f9a307db531698be4b9dd2a844e204774276aa1266a",
+      "core_requirements": [
+        {
+          "requirement": "10+ years of working experience. You're a Software Engineer turned Project Manager in a B2B SaaS product environment",
+          "category": "seniority",
+          "evidence": "Candidate has ~3 years of PM/TPM experience in technology, plus prior experience in construction management (2016-2019). While the 10+ years requested is not fully met, the candidate has a solid background as a software engineer transitioning into product/project management roles.",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Strong communication and interpersonal skills for working with both clients at the VP/C-suite level and internal engineering teams",
+          "category": "leadership",
+          "evidence": "Candidate's experience as a PM/TPM, including coordinating with clients and cross-functional teams, demonstrates strong communication and interpersonal skills.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Technical knowledge related to SaaS products or cloud-based platforms (coding not required)",
+          "category": "technical",
+          "evidence": "Candidate has experience working with SaaS products and cloud-based platforms, including PoCs for AI integration and delivering complex programs.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Demonstrated ability to manage multiple SaaS projects",
+          "category": "domain",
+          "evidence": "Candidate's experience as a PM/TPM, including managing programs with multiple projects and startups, demonstrates their ability to manage SaaS projects.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Bonus: background in privacy and knowledge of data privacy regulations (GDPR, CCPA, etc.)",
+          "category": "domain",
+          "evidence": "While the candidate does not have explicit experience in data privacy and regulations, their work in AI-powered solutions and delivering complex programs suggests they have the potential to pick up this domain knowledge quickly.",
+          "has_evidence": "partial"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "10+ years",
+        "candidate_has": "~3 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 53,
+      "score_ceiling": 55,
+      "ceiling_reason": "2+ penalties: domain_gap_core, seniority_gap.",
+      "justification": "O candidato possui ampla experiência em gestão de produto, programa e projeto em tecnologia, com habilidades relevantes como resolução de problemas complexos, liderança de equipes e tomada de decisão baseada em dados. No entanto, ele não possui experiência direta no domínio de dispositivos médicos, o que representa um gap importante para o escopo desta vaga. Além disso, a seniority requerida de 5 anos (com pelo menos 3 anos no setor de dispositivos médicos) não é totalmente atendida pelo candidato, que possui cerca de 3-4 anos de experiência relevante em tecnologia. Portanto, o candidato é considerado como tendo um fit parcial para a vaga, com risco de não atender plenamente aos requisitos do cliente.",
+      "main_gap": "Falta de experiência direta no domínio de dispositivos médicos e gap de seniority em relação aos requisitos da vaga.",
+      "company": "Calyxo, Inc.",
+      "location": "",
+      "title": "Product Manager",
+      "url": "https://remotefirstjobs.com/companies/calyxo-inc/jobs/product-manager-732236",
+      "id": "c021ea87f5685acbf1330e9f64b35fc9e42e54215ab042a7668186381ed7d854",
+      "core_requirements": [
+        {
+          "requirement": "At least 5 years of related work experience in Product Management, Marketing, R&D, and/or Project Management, with at least 3 years in the medical device industry.",
+          "category": "seniority",
+          "evidence": "~3-4 years PM/TPM in technology since Jul/2022, plus 1 year BA experience at Nubank and 3 years as PM in construction. Relevant seniority is ~3-4 years in tech PM/TPM roles.",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Creative problem solving, including excellent analytical skills and the ability to take on complex, ambiguous problems by breaking them into smaller components and finding solutions.",
+          "category": "technical",
+          "evidence": "Demonstrated skills in product discovery/delivery, program/delivery management, data/evidence-based decision making, and IA application.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Experience with innovative Class II or Class III medical devices a plus.",
+          "category": "domain",
+          "evidence": "",
+          "has_evidence": "false"
+        },
+        {
+          "requirement": "Proven ability to act as a business partner and effectively communicate internally and externally at all organizational levels.",
+          "category": "leadership",
+          "evidence": "Experience leading cross-functional teams and stakeholder alignment in complex programs.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Demonstrated \"Field Focused\" style through co-traveling with reps, attending and participating in training workshops, etc.",
+          "category": "other",
+          "evidence": "No explicit evidence in the profile, but not a core requirement for the role.",
+          "has_evidence": "partial"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "At least 5 years of related work experience, with at least 3 years in the medical device industry",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui uma sólida experiência em gestão de produtos e programas, com um histórico de liderança em projetos complexos. No entanto, a exigência de 8+ anos de experiência em um papel de gerenciamento de produtos é uma lacuna significativa em relação ao perfil atual do candidato de ~3-4 anos. Apesar de suas habilidades transferíveis, essa diferença de senioridade pode ser um obstáculo para atender plenamente aos requisitos do cargo. Portanto, o score é definido em 60, na faixa de 50-69, refletindo o ajuste parcial do perfil, mas com a ressalva da lacuna de senioridade.",
+      "main_gap": "Seniority gap - 3-4 anos de experiência em PM/TPM vs. 8+ anos exigidos",
+      "company": "Stripe",
+      "location": "",
+      "title": "Product Manager Optimized Checkout Suite Buyer Experience",
+      "url": "https://remotefirstjobs.com/companies/stripe/jobs/product-manager-optimized-checkout-suite-buyer-experience-732198",
+      "id": "004118617c79349eff9190c02d94ce1ecb1cb80dda971261e26e094130f2c8e1",
+      "core_requirements": [
+        {
+          "requirement": "Brings 8+ years of experience in a product management role",
+          "category": "seniority",
+          "evidence": "~3-4 years PM/TPM experience",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Has partnered closely with engineers and designers to build products (especially front end surfaces) and complex systems at scale",
+          "category": "technical",
+          "evidence": "Extensive experience in managing complex programs and teams, including PO, TPM and PM roles at Instituto Atlântico",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Has an obsession with product quality and an eye for design",
+          "category": "domain",
+          "evidence": "Demonstrated ability to drive product improvements and refactor existing systems, including image scanning integration with AI",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Has the ability to thrive with a high level of autonomy and responsibility",
+          "category": "leadership",
+          "evidence": "Experience in managing multiple teams, stakeholders and complex programs with autonomy",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Brings a desire for continuous product improvement and can optimize for shipping a portfolio of small, medium, and large releases",
+          "category": "other",
+          "evidence": "Evidence of driving process improvements and release management in various roles",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "8+ years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    }
+  ],
+  "eliminated_jobs": [
+    {
+      "id_hash": "9ff18aace6cc85af4e6ab1fdce22ae5e8733ea74f2cdc1a789d7a1f981303bc5",
+      "id": "9ff18aace6cc85af4e6ab1fdce22ae5e8733ea74f2cdc1a789d7a1f981303bc5",
+      "source": "jobscollider",
+      "title": "Senior Product Manager - Adjudication",
+      "company": "SmithRx",
+      "location": "",
+      "salary": null,
+      "jd_full": "<p><strong>Who We Are:</strong></p>\n\n<p>SmithRx is a rapidly growing, venture-backed Health-Tech company.  Our mission is to disrupt the expensive and inefficient Pharmacy Benefit Management (PBM) sector by building a next-generation drug acquisition platform driven by cutting edge technology, innovative cost saving tools, and best-in-class customer service.  With hundreds of thousands of members onboarded since 2016, SmithRx has a solution that is resonating with clients all across the country.</p>\n\n<p>We pride ourselves for our mission-driven and collaborative culture that inspires our employees to do their best work. We believe that the U.S healthcare system is in need of transformation, and we come to work each day dedicated to making that change a reality. At our core, we are guided by our company values:</p>\n\n<ul>\n<li><strong>Integrity:</strong> Our purpose guides our actions and gives us confidence in the path ahead. With unwavering honesty and dependability, we embrace the pressure of challenging the old and exemplify ethical leadership to create the new.</li>\n<li><strong>Courage:</strong> We face continuous challenges with grit and resilience. We embrace the discomfort of the unknown by balancing autonomy with empathy, and ownership with vulnerability. We boldly challenge the status quo to keep moving forward—always.</li>\n<li><strong>Together:</strong> The success of SmithRx reflects the strength of our partnerships and the commitment of our team. Our shared values bind us together and make us one. When one falls, we all fall; when one rises, we all rise.</li>\n</ul>\n\n<p><strong>Job Summary:</strong></p>\n\n<p>The Product and Engineering team at SmithRx is developing the next-generation modern pharmacy benefits management (PBM) platform that will change how companies administer and manage pharmacy benefits. Our unified technology platform provides real-time actionable insights that drive cost savings, power clinical services, and result in a brilliant customer experience. A unified technology platform exists nowhere else in the pharmacy benefit ecosystem to programmatically solve widespread deficiencies. SmithRx delivers unmatched service quality and operational efficiencies that exceed all industry standards.</p>\n\n<p>As a Senior Product Manager, you will own the vision, strategy, and execution of our core claims adjudication engine. This role is the backbone of our mission to disrupt the PBM industry, ensuring that every prescription claim is processed with precision and accuracy. You will leverage your deep expertise in NCPDP standards, real-time transaction processing, and pharmacy billing workflows to build and scale our tech-first platform that outpaces legacy PBM systems. As the product leader for claim routing and pricing logic, you will bridge the gap between complex clinical rules and high-performance engineering, guiding cross-functional teams to deliver a seamless, transparent experience for pharmacies, clients, and members.</p>\n\n<p><strong>What you will do:</strong></p>\n\n<ul>\n<li><strong>Product Strategy & Vision:</strong> Define and drive the multi-year product roadmap for the SmithRx claims adjudication platform, identifying opportunities to enhance processing speed, automation, and transparency while maintaining a highly flexible, cloud-native architecture.</li>\n<li><strong>Adjudication Logic & Standards:</strong> Serve as an internal product Subject Matter Expert (SME) on NCPDP Telecommunication Standards (D.0 and beyond). Translate complex benefit designs, coordination of benefits (COB), and real-time pricing models into scalable, automated logic.</li>\n<li><strong>End-to-End Product Lifecycle:</strong> Lead the full product lifecycle for adjudication features—from initial requirement gathering through engineering sprints and quality assurance—ensuring that new logic deployments do not disrupt high-volume, real-time transaction flows.</li>\n<li><strong>Cross-Functional Leadership:</strong> Partner closely with Engineering, Data Science, Implementation and Operations teams to write detailed technical user stories, manage the adjudication platform backlog, and ensure the engine scales to support complex clinical rules and custom client configurations.</li>\n<li><strong>System Integrity & Performance:</strong> Create, monitor and optimize key performance indicators (KPIs) related to claim success rates, latency, and financial accuracy. Develop robust testing frameworks to ensure that pricing logic and eligibility checks are 100% accurate at the point of sale.</li>\n<li><strong>Stakeholder & Vendor Engagement:</strong> Collaborate with internal Operations and Clinical teams to streamline manual overrides, exception handling and other processes. Support engagement with external partners, such as switch vendors and PSAOs, to resolve routing issues and improve the pharmacy provider experience.</li>\n<li><strong>Regulatory & Market Alignment:</strong> Ensure the adjudication engine is built to support evolving industry requirements; prior experience working with EGWP guidelines, Medicare Part D compliance, or OIG/CMS reporting standards is a significant plus to ensure our platform remains competitive.</li>\n</ul>\n\n<p><strong>What you will bring to SmithRx:</strong></p>\n\n<ul>\n<li>5+ years of progressive experience in Product Management or a related technical domain, with a minimum of 3+ years dedicated to claims adjudication, pharmacy switch technology, or PBM core platforms.</li>\n<li>Deep technical knowledge of NCPDP Telecommunication Standards (specifically Version D.0) and the transactional workflows between pharmacies, switches, and PBMs.</li>\n<li>Expertise in complex benefit strings, including real-time pricing logic, Coordination of Benefits (COB), and eligibility verification.</li>\n<li>Proven ability to lead cross-functional collaboration across Engineering, Data Science, and Operations to deliver high-concurrency, low-latency technical solutions.</li>\n<li>Strong analytical skills with experience leveraging AI tools and data modeling to improve system efficiency, audit claim accuracy, and automate exception handling.</li>\n<li>High-stakes delivery: Ability to prioritize and execute in a fast-paced environment where system uptime and financial accuracy are mission-critical.</li>\n<li>Excellent communication skills, with the unique ability to translate claim logic into clear business impact for executive leadership and clients.</li>\n<li>Significant plus: experience incorporating EGWP guidelines into adjudication logic; a strong understanding of CMS-mandated benefit phases and their technical implementation</li>\n</ul>\n\n<p><strong>Why This Role is Exciting:</strong></p>\n\n<ul>\n<li><strong>Build the Engine of Innovation</strong> – Drive the next wave of PBM disruption by owning the core “brain” of our platform. You’ll build high-performance logic that processes millions of transactions with precision and absolute financial integrity.</li>\n<li><strong>High-Impact Domain and Ownership</strong> – You aren’t just managing a feature; you are shaping the very foundation of how SmithRx scales.</li>\n<li><strong>A Strategic Seat at the Table</strong> – As the primary SME for Claims Adjudication, you won’t just execute; you will define the architecture of our competitive advantage.</li>\n<li><strong>Solve the “Hard” Problems</strong> – Partner with world-class Engineers and Data Scientists to solve the industry’s most complex puzzles.</li>\n<li><strong>Grow With Us</strong> – As SmithRx continues its rapid growth, so will your influence. You will have the opportunity to lead the expansion of our technical product suite and redefine what a modern adjudication platform looks like.</li>\n</ul>\n\n<p><strong>What SmithRx Offers You:</strong></p>\n\n<ul>\n<li>Highly competitive wellness benefits including Medical, Pharmacy, Dental, Vision, and Life Insurance and AD&D Insurance</li>\n<li>Flexible Spending Benefits</li>\n<li>401(k) Retirement Savings Program</li>\n<li>Short-term and long-term disability</li>\n<li>Discretionary Paid Time Off</li>\n<li>Paid Company Holidays</li>\n<li>Wellness Benefits</li>\n<li>Commuter Benefits</li>\n<li>Paid Parental Leave benefits</li>\n<li>Employee Assistance Program (EAP)</li>\n<li>Well-stocked kitchen in office locations</li>\n<li>Professional development and training opportunities</li>\n</ul>",
+      "url": "https://remotefirstjobs.com/companies/smithrx/jobs/senior-product-manager-adjudication-732115",
+      "collected_at": "2026-03-13T09:27:59.206486+00:00",
+      "date": "Fri, 13 Mar 2026 01:08:51 +0000",
+      "filter_reason": "localização"
+    },
+    {
+      "id_hash": "a1f5a666b73564b799488f428b011f3c741853ac87d15cf08b7e514380228232",
+      "id": "a1f5a666b73564b799488f428b011f3c741853ac87d15cf08b7e514380228232",
+      "source": "jobscollider",
+      "title": "Insurance Product Analyst",
+      "company": "TAL Australia",
+      "location": "",
+      "salary": null,
+      "jd_full": "<h3>Company Description</h3>\n\n<ul>\n<li>Help protect over 5 million Australians, making a real difference in their lives during their most challenging times.</li>\n<li>12-month fixed term contract</li>\n<li>Sydney, Melbourne, or Brisbane office locations</li>\n</ul>\n\n<p><strong>Why Join Us?</strong></p>\n\n<p>Welcome to TAL. As a leading life insurer, we’ve been protecting Australians for over 150 years. Backed by Daiichi Life, we’re driven by big ambitions and empower to create better products and services.</p>\n\n<p>Together with our Partners, we’re helping millions of Australians live a life filled with choices, options, and freedoms. See the direct impact you make delivering support and financial security with care and expertise. Grow beyond expectations with diverse roles, global connections, and exclusive learning opportunities.</p>\n\n<p>Work with passionate, bright and capable colleagues. Feel inspired by supportive leaders. Collaborate with heart, where flexibility, wellbeing and inclusivity is valued. Together, we’re reimagining insurance.</p>\n\n<p>So, bring a curious mind and an ambition to help us become the progressive, digitally enabled leading insurer.</p>\n\n<h3>Job Description</h3>\n\n<p>As an Insurance Product Analyst, you’ll help shape and steward TAL’s Group Life product portfolio, ensuring our offerings remain competitive, relevant, and deeply aligned to the needs of our partners and their members. Your work strengthens TAL’s mission to support Australians’ financial wellbeing by guiding thoughtful product evolution and enabling sustainable growth. This role is meaningful because the insights you generate and the decisions you influence directly contribute to protecting more Australians and helping them live life with confidence.</p>\n\n<p><strong>In This Role You Will:</strong></p>\n\n<ul>\n<li>Drive clear product strategies that strengthen the performance and competitiveness of the portfolio.</li>\n<li>Negotiate and shape complex contracts to secure strong, sustainable partner outcomes.</li>\n<li>Ensure products meet legislative and regulatory obligations to protect TAL and its partners.</li>\n<li>Maintain accurate, compelling product documentation that supports partner confidence and compliance.</li>\n<li>Analyse market insights and competitor activity to guide strategic product decisions.</li>\n<li>Implement product enhancements that improve value, experience, and commercial performance.</li>\n<li>Identify emerging opportunities and risks to inform proactive product evolution.</li>\n</ul>\n\n<p><em><strong>Please note, this is a 12-month fixed term contract.</strong></em></p>\n\n<h3>Qualifications</h3>\n\n<ul>\n<li>Tertiary qualifications in law, finance, business, commerce and/or related disciples</li>\n<li>Apply sound product and insurance knowledge to make clear, well‑reasoned decisions.</li>\n<li>Demonstrate a solid understanding of compliance and regulatory expectations.</li>\n<li>Use strong analytical thinking to turn data into meaningful insights and recommendations.</li>\n<li>Communicate clearly and organise work effectively to deliver quality outcomes.</li>\n<li>Assess new opportunities with a commercial mindset and a focus on customer value.</li>\n<li>Build constructive relationships and influence others through collaboration and trust.</li>\n</ul>\n\n<h3>Additional Information</h3>\n\n<p>TAL is one of Australia’s leading life insurers, committed to inclusion, and supporting the career growth of our diverse workforce. We’re proud to be:</p>\n\n<ul>\n<li><p>An Inclusive Employer – Recognised as Employer of Choice for Gender Equality by the Workplace Gender Equality Agency and Bronze Tier Status within the Australian Workplace Equality Index</p></li>\n\n<li><p>Diversity Champions – Member of Diversity Council Australia, Australian Disability Network, Pride in Diversity and Champions of Change</p></li>\n\n<li><p>Reconciliation Advocates – Read our Innovate Reconciliation Action Plan.</p></li>\n\n<li><p>We welcome applications from people with diverse experiences, perspectives and backgrounds including Aboriginal and Torres Strait Islander people, caregivers, individuals living with disabilities, people from culturally diverse backgrounds and the LGBTIQ+ community.</p></li>\n\n<li><p>Need adjustments during the recruitment process? Let our team know by getting in touch with us here.—we’re here to support you.</p></li>\n</ul>\n\n<p>You’re always accountable for your actions. You never give up. You strive to find the best outcomes for customers and partners. And you value working together to find the best solutions for problems.</p>\n\n<p>As part of the recruitment process, there are several checks which may be conducted to demonstrate your eligibility for a role at TAL including Criminal History, Bankruptcy, Entitlement to Work, Regulatory and Reference Checks.</p>\n\n<p>#LI-Hybrid</p>\n\n<p>Everyone at TAL has a responsibility to do the right thing and is accountable for the way they conduct themselves. Our expectations are that you follow the principles set out in our Code of Conduct when you come to work every day. Risk management is everyone’s responsibility.</p>\n\n<p><em>If you are already a TAL employee please apply via the SmartRecruiters button in Workday and navigate to the Employee Portal. This is important to ensure that your application is recorded accurately</em>.</p>",
+      "url": "https://remotefirstjobs.com/companies/tal-australia/jobs/insurance-product-analyst-732102",
+      "collected_at": "2026-03-13T09:27:59.206492+00:00",
+      "date": "Fri, 13 Mar 2026 00:54:41 +0000",
+      "filter_reason": "salário"
+    }
+  ]
+}
