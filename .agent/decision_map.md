@@ -18,6 +18,7 @@ Este documento mapeia onde cada informação "mora" para evitar duplicação.
 | **Backlog, postergado e ideias futuras** | `docs/governance/backlog.md` |
 | **Design Técnico** | `ARCHITECTURE.md` |
 | **Processo de refinamento / Governança** | `docs/governance/CONSTITUTION.md` |
+| **Decisões (fontes, coletores, pipeline)** | `docs/governance/DECISIONS.md` |
 | **Avaliação de dados (corpus pesado)** | CONSTITUTION.md §4 (NotebookLM; cópias TXT em `data/raw/copy txt/` e `data/scored/copy txt/`) |
 | **Templates e critérios de épicos** | `docs/governance/planning_guidelines.md` |
 | **Como fazer commit (sintaxe shell)** | `.agent/workflows/commit.md` |

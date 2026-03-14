@@ -34,10 +34,7 @@ from src.collectors import (
     getonboard as getonboard_collector,
     remoteok as remoteok_collector,
     remotive as remotive_collector,
-    weworkremotely as wwr_collector,
 )
-
-import xml.etree.ElementTree as ET
 
 LOG_PREFIX = "[diagnose]"
 
@@ -264,76 +261,6 @@ def diagnose_remotive() -> None:
             )
 
 
-def diagnose_weworkremotely() -> None:
-    print("\n" + "=" * 80)
-    print("WE WORK REMOTELY — Diagnóstico")
-    print("=" * 80)
-
-    try:
-        req = Request(wwr_collector.WWR_RSS_URL, headers={"User-Agent": "JobRadar/1.0"})
-        with urlopen(req, timeout=30) as resp:
-            status = getattr(resp, "status", None)
-            content = resp.read()
-    except (URLError, HTTPError, OSError) as e:
-        print(f"{LOG_PREFIX} Erro ao buscar RSS WeWorkRemotely: {e}")
-        return
-
-    print(f"{LOG_PREFIX} GET {wwr_collector.WWR_RSS_URL} -> HTTP {status}")
-
-    try:
-        root = ET.fromstring(content)
-    except ET.ParseError as e:
-        print(f"{LOG_PREFIX} Erro parse RSS WeWorkRemotely: {e}")
-        return
-
-    channel = root.find("channel")
-    if channel is None:
-        print(f"{LOG_PREFIX} RSS WeWorkRemotely sem canal 'channel'.")
-        return
-
-    items = list(channel.findall("item"))
-    total_items = len(items)
-    print(f"{LOG_PREFIX} Total de items no feed: {total_items}")
-
-    rows: list[list[str]] = []
-    matched_count = 0
-    all_titles: list[str] = []
-
-    for item in items[:10]:
-        raw_title = (item.findtext("title") or "").strip()
-        all_titles.append(raw_title)
-        company, title_only = wwr_collector._extract_company_and_title(raw_title)  # type: ignore[attr-defined]
-        lower_title = raw_title.lower()
-        matched = any(k in lower_title for k in TITLE_KEYWORDS)
-        if matched:
-            matched_count += 1
-        pub_date = (item.findtext("pubDate") or "").strip()
-        rows.append(
-            [
-                raw_title,
-                company,
-                title_only,
-                "True" if matched else "False",
-                pub_date,
-            ]
-        )
-
-    print("\n" + "-" * 80)
-    print("Amostra do feed (até 10 items)")
-    print("-" * 80)
-    _print_table(
-        rows,
-        headers=["title_raw", "company", "title_after_split", "matches_keywords", "pubDate"],
-    )
-
-    if matched_count == 0 and all_titles:
-        print("\n" + "-" * 80)
-        print("Nenhum item casa com as TITLE_KEYWORDS atuais. Títulos completos do feed:")
-        print("-" * 80)
-        for t in all_titles:
-            print(f"  - {t}")
-
-
 def _getonboard_extract_company_like_collector(item: dict) -> str:
     attrs = item.get("attributes") or {}
     # Diagnóstico segue a mesma lógica simplificada do coletor:
@@ -453,7 +380,7 @@ def main() -> None:
     parser.add_argument(
         "--source",
         default="all",
-        choices=["all", "both", "remoteok", "getonboard", "remotive", "weworkremotely"],
+        choices=["all", "both", "remoteok", "getonboard", "remotive"],
         help="Qual fonte diagnosticar (default: all).",
     )
     args = parser.parse_args()
@@ -464,8 +391,6 @@ def main() -> None:
         diagnose_getonboard()
     if args.source in ("all", "both", "remotive"):
         diagnose_remotive()
-    if args.source in ("all", "both", "weworkremotely"):
-        diagnose_weworkremotely()
 
 
 if __name__ == "__main__":

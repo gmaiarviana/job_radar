@@ -42,7 +42,6 @@ from src.paths import RAW_DIR, ensure_dirs
 from src.seen_jobs import load_seen, mark_seen, save_seen
 from src.collectors.remotive import collect_remotive
 from src.collectors.openai_search import collect_openai_web_search
-from src.collectors.weworkremotely import collect_weworkremotely
 from src.collectors.jobicy import collect_jobicy
 from src.collectors.greenhouse import collect_greenhouse
 from src.collectors.lever import collect_lever
@@ -115,7 +114,7 @@ def main():
         print(f"{LOG_PREFIX} 🧪 MODO DRY-RUN")
         print(f"  Roles: {roles}")
         print(f"  Locations: {locations}")
-        print(f"  Coletores: openai_web_search, remotive, weworkremotely, jobicy, remoteok, getonboard, himalayas, workingnomads, jobscollider, greenhouse, lever, ashby")
+        print(f"  Coletores: openai_web_search, remotive, jobicy, remoteok, getonboard, himalayas, workingnomads, jobscollider, greenhouse, lever, ashby")
         if companies_data is not None:
             n_sectors = len(companies_data["companies"])
             print(f"  Empresas-alvo (3.1): {total_companies} em {n_sectors} setores (config/companies.yaml)")
@@ -139,7 +138,6 @@ def main():
         print(f"{LOG_PREFIX} ! OPENAI_API_KEY não definida; coletor openai_web_search omitido.")
 
     collectors_config.append(("remotive", collect_remotive))
-    collectors_config.append(("weworkremotely", collect_weworkremotely))
     collectors_config.append(("jobicy", collect_jobicy))
     collectors_config.append(("remoteok", collect_remoteok))
     collectors_config.append(("getonboard", collect_getonboard))
