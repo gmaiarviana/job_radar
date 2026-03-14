@@ -2164,5 +2164,767 @@
     "source": "ashby",
     "title": "Senior Product Manager, Methodology",
     "company": "Watershed"
+  },
+  "84a13b9844145d070eae4a1da71239e7629b5c01634ffd82794f48438ad7655a": {
+    "first_seen": "2026-03-09",
+    "source": "openai_web_search",
+    "title": "Senior Product Manager, Ads AI/ML",
+    "company": "Disney"
+  },
+  "182be9c5a12bf3c3454f8b010f383978990e0604599763bee5ad308496c01fa7": {
+    "first_seen": "2026-03-09",
+    "source": "weworkremotely",
+    "title": "Senior Product Manager - AI Capture",
+    "company": "Ottimate"
+  },
+  "74878119451c9dbea48c04da7ace5d2a472219fedd8422f6123117b9a90d2b5f": {
+    "first_seen": "2026-03-09",
+    "source": "weworkremotely",
+    "title": "Senior Product Manager - Pro - Tax Reporting",
+    "company": "Kraken"
+  },
+  "57d1cbac0224e418116ef4d1bfd56ff7d9dd8b3c0c7cb57f400eea93b421e4d8": {
+    "first_seen": "2026-03-09",
+    "source": "weworkremotely",
+    "title": "Senior Product Manager (Containers)",
+    "company": "Chainguard"
+  },
+  "62f300af4ae9d8af3fef20569954f736f35198c636d1e7f8d9d035ec7cbc8ecb": {
+    "first_seen": "2026-03-09",
+    "source": "weworkremotely",
+    "title": "Senior Independent Product Manager/Product Designer ($90-$170/hr)",
+    "company": "A.Team"
+  },
+  "7345c9beb0570ef84d789fc26dcc6d4d5d4a92271ccb4cf54300cafa28c7d01f": {
+    "first_seen": "2026-03-09",
+    "source": "remoteok",
+    "title": "Product Manager of Integrated Care",
+    "company": "Sleep Doctor"
+  },
+  "54840de059bde61dde5bb911716219bca4586b3cf76354b740cceb75cb45ccb9": {
+    "first_seen": "2026-03-09",
+    "source": "remoteok",
+    "title": "AI Product Manager",
+    "company": "Tether Operations Limited"
+  },
+  "4b8dca1cb7356f25997a241ddf9ec1c831ee885b9e3c9fb3804166689fce973a": {
+    "first_seen": "2026-03-09",
+    "source": "himalayas",
+    "title": "Sr. Project Manager - Data Centers Design",
+    "company": "SSOE Group"
+  },
+  "58625e93794a3cdeca0bb7f29f00a2b8d1b0b663c53e7aa9b2f6f34550bb7f51": {
+    "first_seen": "2026-03-09",
+    "source": "himalayas",
+    "title": "Product Analyst (CMS)",
+    "company": "Numentica"
+  },
+  "c16981b495c75115ede9854b56cf476d70b3b9abe019066da62bdd9241468a33": {
+    "first_seen": "2026-03-09",
+    "source": "jobscollider",
+    "title": "Technical Product Manager",
+    "company": "ShyftLabs"
+  },
+  "d6ef5d291bde49b89c96ac025d155da03cddccdfbb6ba1b46e50cea7f3732dc9": {
+    "first_seen": "2026-03-09",
+    "source": "jobscollider",
+    "title": "Senior Product Manager Funds Discovery",
+    "company": "CAIS"
+  },
+  "06b158ffb094b6f343879071bd5efcab5f62147b83f61c5540004c49451cf422": {
+    "first_seen": "2026-03-09",
+    "source": "jobscollider",
+    "title": "Platform Product Analyst",
+    "company": "Bee Talents"
+  },
+  "6ab0206fbcd1aeffdd1dc3c7a6bbea9895945ab8f1e6190392093d393dbe16f7": {
+    "first_seen": "2026-03-09",
+    "source": "jobscollider",
+    "title": "Product Manager Integrated Care",
+    "company": "SleepDoctor"
+  },
+  "9911fce4f81fcd76282234b0522cba6d20572ef32adae12f4fc0391029008291": {
+    "first_seen": "2026-03-09",
+    "source": "jobscollider",
+    "title": "Product Manager",
+    "company": "Altium®"
+  },
+  "edf1c9d9b47c0aa53fccfe59abe1f28760675d95d40a9462b2758af9b217e256": {
+    "first_seen": "2026-03-09",
+    "source": "jobscollider",
+    "title": "Senior Product Manager Asset Manager Experience",
+    "company": "CAIS"
+  },
+  "ff52be276b6ac3d4cebe49dd02052433734c7cb8ae51c8639c5361af45a6d1fc": {
+    "first_seen": "2026-03-09",
+    "source": "jobscollider",
+    "title": "Implementation Project Manager",
+    "company": "bswift"
+  },
+  "bc7657905fd45e9ec5621e8c89d6801a92df52004d579a139c55360f69cf9337": {
+    "first_seen": "2026-03-09",
+    "source": "jobscollider",
+    "title": "Project Manager",
+    "company": "Luma Health"
+  },
+  "dda54e8d56f8fb984a91f28c0eb94ef8ca3b4514d42b67363ac13f8438406bcd": {
+    "first_seen": "2026-03-09",
+    "source": "jobscollider",
+    "title": "Senior Project Manager - IT and Business Projects",
+    "company": "MWResource, Inc."
+  },
+  "4d68d0fef31407bd83642ba6d00f09bf9876a3b1dabc958a5c79cb66a31ed511": {
+    "first_seen": "2026-03-09",
+    "source": "jobscollider",
+    "title": "Senior Technical Product Manager",
+    "company": "2K"
+  },
+  "84a2d394c693b6e1a8bb5537a0ee8012397da82a27760085c3c9810ec95c6d3d": {
+    "first_seen": "2026-03-09",
+    "source": "jobscollider",
+    "title": "Global Benefit & Wellness Program Manager",
+    "company": "The Wonderful Company"
+  },
+  "ececeec03ac67bd1cab20c5a1a8d6af464b41632f848d38f214be3d51963c13d": {
+    "first_seen": "2026-03-09",
+    "source": "jobscollider",
+    "title": "Interior Architect / Project Manager",
+    "company": "SNIPEBRIDGE"
+  },
+  "d08b72dcb3d281ca6ded40eac464782f4a43ba0fd4bbe479c41d65d1b9de9e8d": {
+    "first_seen": "2026-03-09",
+    "source": "jobscollider",
+    "title": "Technical Program/Project Manager ERP",
+    "company": "Test Yantra"
+  },
+  "9908317df8021b8c6684eebf467543687a9a49c13b133db9fa5ce6e1ab35e921": {
+    "first_seen": "2026-03-10",
+    "source": "openai_web_search",
+    "title": "Technical Product Manager",
+    "company": "Omie"
+  },
+  "ec6a8399601ab638149cb00bbd703e5acbba05d79272e4d9219e53efe051fd91": {
+    "first_seen": "2026-03-10",
+    "source": "openai_web_search",
+    "title": "Senior Product Manager",
+    "company": "Pismo"
+  },
+  "2d78023afab96202b2bfdded68445f96458dd1d89a67b7ece2c6884ddbbe57bb": {
+    "first_seen": "2026-03-10",
+    "source": "weworkremotely",
+    "title": "Associate Director - Product Strategy & Operations",
+    "company": "Highlevel"
+  },
+  "da840d15c129a1180c95d8d9eb37cc5690354dd1d84db018aaef76be86b0698a": {
+    "first_seen": "2026-03-10",
+    "source": "weworkremotely",
+    "title": "Product Analyst Intern (Spring/Summer 2026)",
+    "company": "Accuweather Careers"
+  },
+  "c1ced0e56ca2d3859bf66f9f7678651a9f3da113d7aa9f31d666592037645c94": {
+    "first_seen": "2026-03-10",
+    "source": "jobicy",
+    "title": "Country Manager",
+    "company": "Solplanet"
+  },
+  "f83cb6a209e7bf52cc3c0bd631942f84ea167bc3ccb8374bfc8d77a11be5ec0c": {
+    "first_seen": "2026-03-10",
+    "source": "jobicy",
+    "title": "Principal IT Project Manager",
+    "company": "Labcorp"
+  },
+  "997cfa6d28d8279b4541f6d103b2d3dd46b96cd58d53c9c11499a13f8a934346": {
+    "first_seen": "2026-03-10",
+    "source": "jobscollider",
+    "title": "Junior Digital Project Manager",
+    "company": "Ogilvy"
+  },
+  "2ea44e272ec9c315a13a45242457839507a91637c922fcaa7810228a556cf540": {
+    "first_seen": "2026-03-10",
+    "source": "jobscollider",
+    "title": "Delivery Manager",
+    "company": "Cytora"
+  },
+  "53860f0414249820ff7c2398eedc5b5908d0162e93366d64f050fbeb0491e64e": {
+    "first_seen": "2026-03-10",
+    "source": "jobscollider",
+    "title": "Product Manager II Real User Monitoring RUM",
+    "company": "Datadog"
+  },
+  "6e42b3aa522382f87469611f5e5bba31aaab395aabb5f55f82fa92122bbfbea7": {
+    "first_seen": "2026-03-10",
+    "source": "jobscollider",
+    "title": "Financial Crime & Compliance Product Manager",
+    "company": "BVNK"
+  },
+  "f3736b55a716646e9ac720e3bf6f26495a3e82506dc085602b9a44aa3bcb1aab": {
+    "first_seen": "2026-03-10",
+    "source": "jobscollider",
+    "title": "Technical Product Owner",
+    "company": "Tether.io"
+  },
+  "e2045d8fe53c46ef92a30581deb0d8ca73f279e28646072d85fa86488829305a": {
+    "first_seen": "2026-03-10",
+    "source": "jobscollider",
+    "title": "Senior Product Manager",
+    "company": "NBCUniversal"
+  },
+  "e81dd38e3430237a144f1c0464d07348d6c2ee2f57a6b8de59fe955b5d860477": {
+    "first_seen": "2026-03-10",
+    "source": "jobscollider",
+    "title": "Program Manager Strategic Initiatives",
+    "company": "Agility Robotics"
+  },
+  "3c71749f8373b7cbdd95cc495a05be122b0d7397c876560a1a3dcb8cbc0411e7": {
+    "first_seen": "2026-03-10",
+    "source": "jobscollider",
+    "title": "Technical Project Manager",
+    "company": "NBCUniversal"
+  },
+  "f10d9991ef7aed6fd5d6c9690aa6431374c8e6e49852094c56322395d45031fc": {
+    "first_seen": "2026-03-10",
+    "source": "jobscollider",
+    "title": "Associate Product Manager",
+    "company": "Utility Warehouse"
+  },
+  "25231c9ba0bff582be291503395cc79560d0dac76f5bd1b3520b11f15bb0b9b7": {
+    "first_seen": "2026-03-10",
+    "source": "jobscollider",
+    "title": "Customer Success Program Manager",
+    "company": "Sonatype"
+  },
+  "ece4ac07c790f41c1c5aa0de8b8f0639e53d55163b11833a07cee743bc91a275": {
+    "first_seen": "2026-03-10",
+    "source": "jobscollider",
+    "title": "Associate Product Manager Intern",
+    "company": "Visa"
+  },
+  "cd87fec67f968ea8caafb002d5fe972d712357173380ce52f64a40fd6f49bb2e": {
+    "first_seen": "2026-03-10",
+    "source": "jobscollider",
+    "title": "Senior Project Manager/Scrum Master",
+    "company": "Apply Digital"
+  },
+  "6a2a52f3c7554b78de6c2b520372648c115053ebaeeb5859ce5f02011c18d943": {
+    "first_seen": "2026-03-10",
+    "source": "greenhouse",
+    "title": "Technical Program Manager,  Identity and Access Management Programs",
+    "company": "Stripe"
+  },
+  "ef25df418b4162b8db9de4c2025b3d17d88af14c711222d95703f65963cb7b9f": {
+    "first_seen": "2026-03-10",
+    "source": "greenhouse",
+    "title": "Technical Program Manager, Internal Systems",
+    "company": "Stripe"
+  },
+  "a5207c74b6291f1efb62416ab4060b94459c239747f10cd4a5ed44347f7e05e6": {
+    "first_seen": "2026-03-10",
+    "source": "greenhouse",
+    "title": "Technical Program Manager, Risk",
+    "company": "Stripe"
+  },
+  "19f950ecb237327804f793483c31489335f1b7b82ec121d241788ae1ffea7cd4": {
+    "first_seen": "2026-03-10",
+    "source": "greenhouse",
+    "title": "Technical Program Manager",
+    "company": "Databricks"
+  },
+  "a50a79941ae3168179c9c096ee437c6e85594ef13ab4c7c83eef33381a62ee55": {
+    "first_seen": "2026-03-10",
+    "source": "greenhouse",
+    "title": "Product Manager, Data Engine",
+    "company": "Scale AI"
+  },
+  "acabf20c5bfc0b2ce8b3a1a508be90af628d5ef17a75bef981d206d9f5f0ee5b": {
+    "first_seen": "2026-03-10",
+    "source": "greenhouse",
+    "title": "Product Manager, Privacy & Transparency",
+    "company": "Cloudflare"
+  },
+  "795680180b99162788c4777c941ea3515cb04f54fb7cca7265eaace0f0b15bf6": {
+    "first_seen": "2026-03-11",
+    "source": "openai_web_search",
+    "title": "Product Manager, LATAM (São Paulo, Brazil)",
+    "company": "Airbnb"
+  },
+  "7b5ffadfbba9c5cecd33aa8fd682dcf384d1f28bfa6dc3c6fc50ab7889667a22": {
+    "first_seen": "2026-03-11",
+    "source": "weworkremotely",
+    "title": "Senior Product Manager, Personalization",
+    "company": "Cookunity"
+  },
+  "f21c6e5c8e1cd62cd4163322fee5ac279040614a71f985ecdac8dd5f299640b0": {
+    "first_seen": "2026-03-11",
+    "source": "weworkremotely",
+    "title": "Staff Product Manager - Ecommerce",
+    "company": "Highlevel"
+  },
+  "4823c091a4116eed545ce02050aba0ae3b626a65603ed610767e70eb642a83a5": {
+    "first_seen": "2026-03-11",
+    "source": "weworkremotely",
+    "title": "Product Manager - AI Agents",
+    "company": "Assembled"
+  },
+  "5f6a1071cfb92b350834da820cd63a79cf78dd678901272a6ad38bd8615d9d79": {
+    "first_seen": "2026-03-11",
+    "source": "weworkremotely",
+    "title": "Senior Product Manager E-Commerce Experience (m/f/d)",
+    "company": "Dr. Ansay"
+  },
+  "0725cf5519cecf087bb4bccb0d880576e2faf1069c6aa0dbd19e1276b899aca4": {
+    "first_seen": "2026-03-11",
+    "source": "jobicy",
+    "title": "Lead Program Manager, Pricing Governance",
+    "company": "HubSpot"
+  },
+  "b2a81f3a217a577d55e0038776d7e587a76748903e086913ba9a572141d6fbe4": {
+    "first_seen": "2026-03-11",
+    "source": "jobicy",
+    "title": "Data Center Strategic Partnerships Manager",
+    "company": "Meta"
+  },
+  "dcf43a580153bada29599530eb3b68d6e4ccd033994b5d1f25f9fc6f46d99609": {
+    "first_seen": "2026-03-11",
+    "source": "jobicy",
+    "title": "Energy Manager &amp;#8211; Commercial Energy Supply",
+    "company": "Meta"
+  },
+  "9aada6c54760428a6a51084b30c92d5f24a59d3f396c92760c50957adb658d67": {
+    "first_seen": "2026-03-11",
+    "source": "jobicy",
+    "title": "Strategic Partnerships Data Center Lead",
+    "company": "Meta"
+  },
+  "badca93febbeb1ae27e529aa4b12ade19e3857c6c570c2a67538dd0c38da457c": {
+    "first_seen": "2026-03-11",
+    "source": "jobicy",
+    "title": "Consultant, Senior (EPM)",
+    "company": "Infor"
+  },
+  "3a6360413cbeff80bb1bea693fe9cef7c6ae9c333490c0f9c51c83b133eb05ce": {
+    "first_seen": "2026-03-11",
+    "source": "jobicy",
+    "title": "Senior Manager, Operations Integration &amp;#038; Support",
+    "company": "Hilton"
+  },
+  "520d64c86619d3cb5143fa62b662fb4b42a6a0180acefe4ad9aa5acd5eb4b274": {
+    "first_seen": "2026-03-11",
+    "source": "jobicy",
+    "title": "Senior Project Manager AD&amp;#038;C Luxury &amp;#038; Lifestyle Renovations",
+    "company": "Hilton"
+  },
+  "370bb0ffa750119293b34dd11f1a3fca34c2f30affca077fcd47e9a50e1e5d89": {
+    "first_seen": "2026-03-11",
+    "source": "jobicy",
+    "title": "Sr Manager, Digital Architecture",
+    "company": "World Wide Technology"
+  },
+  "95700b1ddbcc8d44ba9c4d703c9c0ceb77ed1b581dce1417dbb3b3b1a1b04833": {
+    "first_seen": "2026-03-11",
+    "source": "jobicy",
+    "title": "Sr. Digital Architect",
+    "company": "World Wide Technology"
+  },
+  "7ef16164859925a4b91cbe5b81880397c49ff9616fd6c308e3626e374736b2cb": {
+    "first_seen": "2026-03-11",
+    "source": "jobicy",
+    "title": "Lead Digital Architect",
+    "company": "World Wide Technology"
+  },
+  "35c3aa13ca065e2a0d2853292b1282a86c8ad51efd9361b7f9f10ffc9ad7594e": {
+    "first_seen": "2026-03-11",
+    "source": "jobicy",
+    "title": "Manager, Digital Architecture",
+    "company": "World Wide Technology"
+  },
+  "d1ab39660bba40e0df2d422f0bfe9b59bc58590bc08268cbf0d196fcbb7e59f8": {
+    "first_seen": "2026-03-11",
+    "source": "jobicy",
+    "title": "National Performance Manager",
+    "company": "Impel"
+  },
+  "8ba2c996f501172836a581bbd90f7593e547c97067bc0415e31bde7c99c7d95d": {
+    "first_seen": "2026-03-11",
+    "source": "jobicy",
+    "title": "Sr. Environmental Project Manager &amp;#8211; PFAS",
+    "company": "APTIM"
+  },
+  "40b2e70d760b11c5aca51ceb9603f919b2b14f082715012a6c21ce491e496a93": {
+    "first_seen": "2026-03-11",
+    "source": "himalayas",
+    "title": "Associate Program Manager, Medical Communications",
+    "company": "Precision AQ"
+  },
+  "3dfecf198bb489a0095f24f236013926529b1db5da4096eccb86badf59acdd1b": {
+    "first_seen": "2026-03-11",
+    "source": "himalayas",
+    "title": "AI Product Manager",
+    "company": "YipitData"
+  },
+  "2d7f83e946274bce0d6b986294a3f0552c8f6d396fe5d70c4e93bc5ed8fc9736": {
+    "first_seen": "2026-03-11",
+    "source": "himalayas",
+    "title": "RD Station - Pessoa Product Manager Senior- Dados de Negócio",
+    "company": "RD Station"
+  },
+  "b717e4a400a6a1a021ca950fe642a94accf4e29a9d4481dfe4bff4afc7b6e8ce": {
+    "first_seen": "2026-03-11",
+    "source": "himalayas",
+    "title": "Technical Project Manager I",
+    "company": "dv01"
+  },
+  "98e5c2bbf9333ee171cce2e7e5b9c45f255af51a35cbd9c35aa67124232d58b9": {
+    "first_seen": "2026-03-11",
+    "source": "jobscollider",
+    "title": "Group Agile Delivery Manager",
+    "company": "Gousto"
+  },
+  "6443556f30449b57aa66e6fe9faeff95b1cfd2124c036566f93373f53af4d39e": {
+    "first_seen": "2026-03-11",
+    "source": "jobscollider",
+    "title": "Program Manager AI Programs",
+    "company": "Airtable"
+  },
+  "11e919e6f8ad3c17027caddb51124483744e7714c6b8cd512520969693e3c5d7": {
+    "first_seen": "2026-03-11",
+    "source": "greenhouse",
+    "title": "Program Manager",
+    "company": "Turing"
+  },
+  "a47b2b8574abb244d6f7c431d7ec55d80ef115c3f087442b9ea6af5d85433775": {
+    "first_seen": "2026-03-11",
+    "source": "greenhouse",
+    "title": "Group PM / Principal Product Manager, AI Developer Tools",
+    "company": "GitLab"
+  },
+  "24fc839f43575cf3f9141fc5acde0633d7d43090520c642c14e6b6c13bd74d51": {
+    "first_seen": "2026-03-11",
+    "source": "greenhouse",
+    "title": "Program Manager, Marketplace Operations",
+    "company": "Faire"
+  },
+  "de08cc39ba0eb1b4d5cfd87a05f56507003b819e52df473eba36ea47f321d275": {
+    "first_seen": "2026-03-11",
+    "source": "greenhouse",
+    "title": "Staff Product Manager, AI Discovery",
+    "company": "Faire"
+  },
+  "d3385e43c882897f741472a50a38d0b79e3b2bf68a0e4df0ba72388f16fa4429": {
+    "first_seen": "2026-03-11",
+    "source": "greenhouse",
+    "title": "Staff Product Manager, Brand",
+    "company": "Faire"
+  },
+  "7422c9ab4a4c91a3ab6f577f3b0311109ef1bb4a4cb28190c7f72ca29c53dd05": {
+    "first_seen": "2026-03-11",
+    "source": "greenhouse",
+    "title": "Staff Product Manager, FinTech & Ops",
+    "company": "Faire"
+  },
+  "848d84abdd6eadc54680b7c9e384c2feedf4b78fe4e61f377f251e2f75c58d36": {
+    "first_seen": "2026-03-11",
+    "source": "greenhouse",
+    "title": "Staff Product Manager, Search Algorithms",
+    "company": "Faire"
+  },
+  "abd5e83fd6a36768c15e9d0020f13e701d9c99ca33cdbe6e8b28abbafc55f6c0": {
+    "first_seen": "2026-03-11",
+    "source": "greenhouse",
+    "title": "Technical Program Manager Intern (Summer 2026)",
+    "company": "Cloudflare"
+  },
+  "b5081a813dc8cb2c07c9370bf10160f1e5f936344cc89c5ae5715a81c81d3a44": {
+    "first_seen": "2026-03-11",
+    "source": "greenhouse",
+    "title": "Engineering Program Manager",
+    "company": "Planet Labs"
+  },
+  "8b2ce8086fcdba9d978977d8138e998757ead279d768506348a4ac69e97e0134": {
+    "first_seen": "2026-03-12",
+    "source": "openai_web_search",
+    "title": "Senior Program Manager - Cloud Platform",
+    "company": "Cognizant"
+  },
+  "ef3bbb96b6a1b4541925b17650fac963f028d3c5fc9139e0ca997de3951785a9": {
+    "first_seen": "2026-03-12",
+    "source": "weworkremotely",
+    "title": "Senior Product Manager - ShareGate Platform",
+    "company": "Workleap"
+  },
+  "5f2100e2a9d522fff615b92a14fd5934ae0fb7c31980fa9bbf5e838693e17f65": {
+    "first_seen": "2026-03-12",
+    "source": "weworkremotely",
+    "title": "Senior Product Manager, Confluent Cloud Kafka",
+    "company": "Confluent"
+  },
+  "669cf6947b5e0e56976f3271e076dfac5e64694219aba63d5725276fd42b35d5": {
+    "first_seen": "2026-03-12",
+    "source": "jobicy",
+    "title": "Senior Product Manager, Payroll",
+    "company": "Remote"
+  },
+  "4c3e89aa23894482768f9076985a90ccfb620f44c27f0cffd268ee7394be8d26": {
+    "first_seen": "2026-03-12",
+    "source": "jobicy",
+    "title": "Lead Project Management Specialist 1 &amp;#8211; Project Mgmt",
+    "company": "GE Vernova"
+  },
+  "9c987de1304d1e87f56f3cd13f10d5bc74812f620a26b8192890cdc421dc7b47": {
+    "first_seen": "2026-03-12",
+    "source": "jobicy",
+    "title": "Senior Manager, Franchise Operations, Tianjin",
+    "company": "The Coca-Cola Company"
+  },
+  "7ed8f2c2fe1a0b1d5fe9c1b8d0dfa3d533ded3bfad5d48266d4c551cbc7e33ce": {
+    "first_seen": "2026-03-12",
+    "source": "jobicy",
+    "title": "Director, Supplier Management Program",
+    "company": "The Coca-Cola Company"
+  },
+  "6aa1f6ce2daca30b784e59516b0ec413e50d58a28daec742661215506d580e43": {
+    "first_seen": "2026-03-12",
+    "source": "jobicy",
+    "title": "Manager, Franchise Operations, Battlefield Markets",
+    "company": "The Coca-Cola Company"
+  },
+  "6b9349f74550d4cc54c0c4971b19f82b48451b7d883ecf4b1f2079fa70501c07": {
+    "first_seen": "2026-03-12",
+    "source": "jobicy",
+    "title": "Manager, Franchise Operations, Jilin",
+    "company": "The Coca-Cola Company"
+  },
+  "be2b5f7f13aa0a23d270efd4c4edaa786f17081dd408df6b7f894b0356c34645": {
+    "first_seen": "2026-03-12",
+    "source": "jobicy",
+    "title": "Manager, Franchise Operations &amp;#8211; Guizhou",
+    "company": "The Coca-Cola Company"
+  },
+  "6478167c37efefc36748195a9bda93b7467488f1463a4e8118bfc087d03ea4f0": {
+    "first_seen": "2026-03-12",
+    "source": "jobicy",
+    "title": "Senior Manager, Franchise Operations &amp;#8211; Shaanxi",
+    "company": "The Coca-Cola Company"
+  },
+  "857554e10eb01fa7f8dcea530b98091efa067fb9ab6bf104345c09f9edc261bb": {
+    "first_seen": "2026-03-12",
+    "source": "jobicy",
+    "title": "Senior Manager, Commercial Mainland, SCCL",
+    "company": "The Coca-Cola Company"
+  },
+  "51780a950e8ccae44d9e6d6ca763c829f23494e8053b89c987a4782d6d6b3ece": {
+    "first_seen": "2026-03-12",
+    "source": "jobicy",
+    "title": "Manager, Franchise Operations, Inner Mongolia",
+    "company": "The Coca-Cola Company"
+  },
+  "3558d89ecf62b9ce08cc05154e52b24e1755bc57c4b8d9143efbd5974be3dc48": {
+    "first_seen": "2026-03-12",
+    "source": "jobicy",
+    "title": "Product Manager, External Signals",
+    "company": "Veriff"
+  },
+  "89f5e7699ad3b3da68fc93d645c47198cbbce5529a49c991cdd48699f73cdb9a": {
+    "first_seen": "2026-03-12",
+    "source": "himalayas",
+    "title": "Strategic Accounts - Delivery Manager (All Levels) 2026",
+    "company": "Suade"
+  },
+  "0df1f4866f71340b95dd4d5565738b65f8dbb3ce933dcf0c6c1ce952ba260100": {
+    "first_seen": "2026-03-12",
+    "source": "himalayas",
+    "title": "Program Manager, Customer Care Services",
+    "company": "ICF"
+  },
+  "8783e3031c9eef8781e26154989b36cc18721f4d9d3c24881ad1c64a06ce1ee5": {
+    "first_seen": "2026-03-12",
+    "source": "himalayas",
+    "title": "Product Manager",
+    "company": "CoderPad"
+  },
+  "3b80dabb948da293f064320d83a71d867b9b37174ed8757b179d613b175b81b9": {
+    "first_seen": "2026-03-12",
+    "source": "himalayas",
+    "title": "Senior Product Manager, Product Operations",
+    "company": "RELX"
+  },
+  "0d2857c7b9ebe39a98060e762998163f0faf108c4b4450523386adca9a172fed": {
+    "first_seen": "2026-03-12",
+    "source": "jobscollider",
+    "title": "Product Manager",
+    "company": "Visa"
+  },
+  "bf180b460e428bab4636234a80276ce6f91a6f1394c411d6027487e8b9eab7c6": {
+    "first_seen": "2026-03-12",
+    "source": "jobscollider",
+    "title": "Project Manager",
+    "company": "Visa"
+  },
+  "b71a1a71f328c1c4985f0f82e914e0a78d1c8ea19bb4304fa42095927abec62b": {
+    "first_seen": "2026-03-12",
+    "source": "jobscollider",
+    "title": "Product Manager Public Cloud Expert",
+    "company": "Deutsche Telekom IT Solutions HU"
+  },
+  "4ec35d3237024a18a912d4b7ed12513a56e2974cd91c2647f354cfb51fd297d3": {
+    "first_seen": "2026-03-12",
+    "source": "jobscollider",
+    "title": "Lead Project Manager",
+    "company": "Encora"
+  },
+  "5590b9635e29dc969c99cb0ef5a73e4af1d0b46a2ba9972642d1d64dc0185121": {
+    "first_seen": "2026-03-12",
+    "source": "jobscollider",
+    "title": "Product Analyst",
+    "company": "Visa"
+  },
+  "1a0018baab6a7b3aa7ac12193107ae384d8e0b3655fea7eafc127cfb3734ca01": {
+    "first_seen": "2026-03-12",
+    "source": "jobscollider",
+    "title": "Senior Technical Product Marketing Manager",
+    "company": "Fivetran"
+  },
+  "45316c91465981bb897b0d875ad85055858182960d2bac65883ecd2b14d87a07": {
+    "first_seen": "2026-03-12",
+    "source": "greenhouse",
+    "title": "Product Manager, Optimized Checkout Suite, Buyer Experience",
+    "company": "Stripe"
+  },
+  "d62e01611818e1faedf1a3419fb5dee6a36d8ec9a27af59d147988cd300d345b": {
+    "first_seen": "2026-03-12",
+    "source": "greenhouse",
+    "title": "Technical Program Manager",
+    "company": "Stripe"
+  },
+  "209183bc1560ef1954d9cad188cdc852125b68926ea9084a4b4544c9c14265e8": {
+    "first_seen": "2026-03-12",
+    "source": "greenhouse",
+    "title": "Principal Product Manager, AI - People & Places",
+    "company": "Amplitude"
+  },
+  "6d5af7839d41b827f1388401964eaaed05a85b567977e7c2499ab6685cbd2890": {
+    "first_seen": "2026-03-12",
+    "source": "greenhouse",
+    "title": "Senior Technical Program Manager, Services",
+    "company": "Databricks"
+  },
+  "fbc2a1f583843a6e200648abb434bf942f7882959d7a8b8e138d36c6df581c6d": {
+    "first_seen": "2026-03-12",
+    "source": "greenhouse",
+    "title": "Revenue Growth Program Manager",
+    "company": "Wellhub"
+  },
+  "535e4e4cd02e7c50b8fe736cb65df91692b6a1bf15384285393f104552a1b9a5": {
+    "first_seen": "2026-03-12",
+    "source": "greenhouse",
+    "title": "Revenue Operations Program Manager",
+    "company": "Wellhub"
+  },
+  "02e07efc11ad7007732400215be3201221c9507c5c371a201fce90fad156c3e9": {
+    "first_seen": "2026-03-12",
+    "source": "greenhouse",
+    "title": "RevOps Program Manager",
+    "company": "Wellhub"
+  },
+  "1d750e80411858df13b3551a61a94defdbc4eabed9e29328492ed8afd0393e56": {
+    "first_seen": "2026-03-12",
+    "source": "greenhouse",
+    "title": "Staff Program Manager",
+    "company": "Wellhub"
+  },
+  "beffe160f322a76b2d13a6b3a857fedfdcf78c3fc739fdf6887586060cb6ed74": {
+    "first_seen": "2026-03-12",
+    "source": "greenhouse",
+    "title": "Benefits Program Manager",
+    "company": "Faire"
+  },
+  "73e0924f2a1278184fdc8b9abf6ccb52ab7bd249c55a53975e5463cd5b023663": {
+    "first_seen": "2026-03-13",
+    "source": "openai_web_search",
+    "title": "Sr. Product Manager, International Tech Latam",
+    "company": "Amazon"
+  },
+  "871a56c39cf4363d8a002c74408397e86f408fde73f873dc363a0150c1d22615": {
+    "first_seen": "2026-03-13",
+    "source": "openai_web_search",
+    "title": "Sr. Product Manager",
+    "company": "Disney"
+  },
+  "b4dbd3112ba17dc5171f6a51dc7ad1aa60e3c7a0a936528156f15a1218fb755c": {
+    "first_seen": "2026-03-13",
+    "source": "openai_web_search",
+    "title": "Product Manager, LATAM (São Paulo, Brasil)",
+    "company": "Airbnb"
+  },
+  "5f1d4d31788f3d0af5631e36b6db1f1ea726fb62bc0934ba3469d53b6014c635": {
+    "first_seen": "2026-03-13",
+    "source": "himalayas",
+    "title": "Senior/Staff Design Program Manager",
+    "company": "Instacart"
+  },
+  "6a959ce34632eecf3b8638b4f190e705c2ccfcf696025ea77c729240ad1fced9": {
+    "first_seen": "2026-03-13",
+    "source": "himalayas",
+    "title": "Senior Product Manager, Delivery",
+    "company": "Candidly"
+  },
+  "3fc60b7cf9a5b7430f62c90c27b5b694bb09b10cc273ea4538d9e733e432e9cb": {
+    "first_seen": "2026-03-13",
+    "source": "himalayas",
+    "title": "Senior Implementation Project Manager  (USA)",
+    "company": "Kalepa"
+  },
+  "462892a2c83d122abb796f9a307db531698be4b9dd2a844e204774276aa1266a": {
+    "first_seen": "2026-03-13",
+    "source": "himalayas",
+    "title": "Remote Technical Project Manager (Data Privacy & AI)",
+    "company": "Lavendo"
+  },
+  "c021ea87f5685acbf1330e9f64b35fc9e42e54215ab042a7668186381ed7d854": {
+    "first_seen": "2026-03-13",
+    "source": "jobscollider",
+    "title": "Product Manager",
+    "company": "Calyxo, Inc."
+  },
+  "004118617c79349eff9190c02d94ce1ecb1cb80dda971261e26e094130f2c8e1": {
+    "first_seen": "2026-03-13",
+    "source": "jobscollider",
+    "title": "Product Manager Optimized Checkout Suite Buyer Experience",
+    "company": "Stripe"
+  },
+  "9ff18aace6cc85af4e6ab1fdce22ae5e8733ea74f2cdc1a789d7a1f981303bc5": {
+    "first_seen": "2026-03-13",
+    "source": "jobscollider",
+    "title": "Senior Product Manager - Adjudication",
+    "company": "SmithRx"
+  },
+  "a1f5a666b73564b799488f428b011f3c741853ac87d15cf08b7e514380228232": {
+    "first_seen": "2026-03-13",
+    "source": "jobscollider",
+    "title": "Insurance Product Analyst",
+    "company": "TAL Australia"
+  },
+  "4b106df029f558408737b455d83fa09879abcf15663afec53a1eee8266b7828e": {
+    "first_seen": "2026-03-13",
+    "source": "greenhouse",
+    "title": "Program Manager, Enablement Content",
+    "company": "GitLab"
+  },
+  "2984c6d6c990b4c24b0ca943688fae9a4e571f1364f6685027c396db87fd1633": {
+    "first_seen": "2026-03-13",
+    "source": "greenhouse",
+    "title": "Product Manager - WhatsApp",
+    "company": "Klaviyo"
+  },
+  "9286d4eecf8aeef0207ed609249e71dbaef90fcb229c7129f6e5bf6928b97d2f": {
+    "first_seen": "2026-03-13",
+    "source": "greenhouse",
+    "title": "Senior Product Manager, Growth",
+    "company": "Samsara"
+  },
+  "a46dd2c773bbec797cdf64233c9eb4c6482529a24a30227e26e190bd77e6ec1e": {
+    "first_seen": "2026-03-13",
+    "source": "ashby",
+    "title": "Staff Product Manager - Benefits",
+    "company": "Deel"
   }
 }

@@ -1,0 +1,883 @@
+{
+  "scored_at": "2026-03-12T09:35:05.877758+00:00",
+  "source_file": "2026-03-12_093132.json",
+  "summary": {
+    "total_input": 24,
+    "total_llm_eliminated": 5,
+    "total_scored": 15,
+    "total_top": 2
+  },
+  "jobs": [
+    {
+      "score": 90,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato possui experiência direta no domínio central da vaga, com perfil que se alinha muito bem aos requisitos chave, incluindo expertise em AI e agentes conversacionais, capacidade de análise de dados e otimização baseada em métricas, e vivência em ambientes SaaS de alto crescimento. A seniority de ~3-4 anos em funções de PM/TPM também é adequada para o escopo da vaga.",
+      "main_gap": "Não há gaps significativos, o perfil do candidato cobre muito bem os requisitos da posição.",
+      "company": "Wellhub",
+      "location": "Brazil (Remote)",
+      "title": "Revenue Operations Program Manager",
+      "url": "https://job-boards.greenhouse.io/gympass/jobs/8459030002",
+      "id": "535e4e4cd02e7c50b8fe736cb65df91692b6a1bf15384285393f104552a1b9a5",
+      "core_requirements": [
+        {
+          "requirement": "Support the design and deployment of AI Agents to support key sales and commercial workflows, in partnership with the Director of Global Programs, Product, and Marketing.",
+          "category": "technical",
+          "evidence": "Expertise in AI and experience with AI agents, with evidence from R&D work on AI methodology for pipelines and agent integration.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Design, develop and refine conversational logic for AI Agents within our selected AI Agent platform(s). Act as the internal operational expert and day-to-day operator for our AI Agent platform(s).",
+          "category": "technical",
+          "evidence": "Hands-on experience designing and operating conversational AI agents, including development of conversational logic.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Monitor day-to-day performance, as well as help to develop regular reports with cross-functional partners to improve AI Agent performance, including tracking critical metrics such as: deflection rates, meeting rates, lead-to-MQL conversion, MQL-to-Opp Validation, and full-cycle conversion.",
+          "category": "technical",
+          "evidence": "Strong analytical and data-driven decision making skills, with experience in generating performance reports and driving optimizations based on metrics.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Understand our commercial processes and our client needs – represent Revenue team and client' perspectives in internal strategy and planning sessions, and in discussions with cross-functional stakeholders.",
+          "category": "domain",
+          "evidence": "Demonstrated experience in high-growth SaaS environments, with the ability to bridge business and technical teams.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Drive and influence the development, prioritization, and analysis of A/B experiments with our AI Agents, to accelerate business growth and improve operational efficiency.",
+          "category": "leadership",
+          "evidence": "Track record of driving data-driven decisions and optimizations through A/B testing and experimentation.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "not specified",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": false
+      }
+    },
+    {
+      "score": 92,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato Guilherme Maia possui experiência direta e relevante para a função de Lead Project Manager na empresa Encora. Ele tem uma sólida trajetória em papéis de gerenciamento de projetos, programas e produtos, liderando equipes multifuncionais e entregando resultados em cenários complexos. Suas habilidades técnicas, de liderança e de gestão de stakeholders se alinham plenamente aos requisitos da vaga. Com cerca de 3-4 anos de experiência em funções de PM/TPM em tecnologia, ele possui a senioridade necessária para assumir esse cargo de liderança.",
+      "main_gap": "Não há gaps evidentes. O candidato possui o perfil ideal para a vaga.",
+      "company": "Encora",
+      "location": "",
+      "title": "Lead Project Manager",
+      "url": "https://remotefirstjobs.com/companies/encora-inc/jobs/lead-project-manager-730803",
+      "id": "4ec35d3237024a18a912d4b7ed12513a56e2974cd91c2647f354cfb51fd297d3",
+      "core_requirements": [
+        {
+          "requirement": "Lead and manage the engineering team, ensuring effective collaboration, productivity and alignment with project objectives.",
+          "category": "leadership",
+          "evidence": "Program management experience leading teams of ~25 engineers across multiple teams in a global program (Instituto Atlântico, Sep/2024-Sep/2025). Also has experience managing a program with 4 startups and then 2 teams (8 people total) as a Project Manager (Instituto Atlântico, Oct/2025-Feb/2026).",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Oversee project planning, timelines and delivery, ensuring milestones and deliverables are completed successfully.",
+          "category": "leadership",
+          "evidence": "Experience as a Technical Program Manager (Instituto Atlântico, Sep/2024-Sep/2025) coordinating 3 teams (~25 engineers) in a global program, as well as Project Manager (Instituto Atlântico, Oct/2025-Feb/2026) managing a program with 4 startups and then 2 teams. Also has experience as a Product Owner (Instituto Atlântico, Jul/2022-Sep/2024, Mar/2026-current) responsible for planning, delivery and milestones.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Coordinate with stakeholders and technical teams to ensure clear communication, proper resource allocation and project progress.",
+          "category": "leadership",
+          "evidence": "Experience in multiple roles (PO, PM, TPM) working with cross-functional teams and stakeholders to coordinate communication, resources and project progress.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Provide technical guidance to the team and support decision making to ensure high quality solutions and successful delivery.",
+          "category": "technical",
+          "evidence": "Strong technical background and experience, including use of IA/ML, data analytics, and Agile methodologies. Has demonstrated the ability to provide technical guidance and support decision making.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Not specified",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": false
+      }
+    }
+  ],
+  "scored_jobs": [
+    {
+      "score": 50,
+      "score_ceiling": 55,
+      "ceiling_reason": "2+ penalties: domain_gap_core, seniority_gap.",
+      "justification": "O candidato possui skills transferíveis como product management e delivery, mas há gaps significativos em relação aos requisitos centrais da vaga: experiência específica em produtos de plataforma SaaS B2B (especialmente no ecossistema Microsoft 365) e seniority de 5+ anos nesse domínio. Ainda assim, o perfil demonstra capacidade de atuar em funções de gestão de produto e entrega, o que pode permitir um potencial de longo prazo na posição.",
+      "main_gap": "Falta de experiência direta em produtos de plataforma SaaS B2B e senioridade de 5+ anos nesse domínio",
+      "company": "Workleap",
+      "location": "",
+      "title": "Senior Product Manager - ShareGate Platform",
+      "url": "https://weworkremotely.com/remote-jobs/workleap-senior-product-manager-sharegate-platform",
+      "id": "ef3bbb96b6a1b4541925b17650fac963f028d3c5fc9139e0ca997de3951785a9",
+      "core_requirements": [
+        {
+          "requirement": "5+ years of experience in SaaS B2B product management, ideally on platform products",
+          "category": "seniority",
+          "evidence": "~3-4 years of experience as PO, TPM and PM in technology",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Experience owning trial, onboarding, billing, or purchase flows",
+          "category": "domain",
+          "evidence": "Experience as PO for image scanning with IA integration, and as PM for program with startups and internal teams",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Track record of driving growth tactics tied to activation and conversion",
+          "category": "domain",
+          "evidence": "Improved onboarding and reduced delivery cycle in previous roles",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Strong ability to collaborate across product, engineering, sales, marketing, and channel",
+          "category": "leadership",
+          "evidence": "Experience leading cross-functional teams and aligning stakeholders in previous roles",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Familiarity with distributor/reseller flows and self-serve models",
+          "category": "domain",
+          "evidence": "",
+          "has_evidence": "false"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "5+ years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui experiência relevante em gestão de produto e entrega, incluindo atuação em papéis de PO, PM e TPM. No entanto, ele não atende completamente o requisito de seniority mínima de 5 anos, possuindo cerca de 3-4 anos nestes papéis. Sua experiência anterior em construção civil, embora relevante em termos de gestão e liderança, não é diretamente aplicável ao domínio de produtos de software. Portanto, o candidato possui as principais habilidades técnicas e de liderança exigidas, mas ainda apresenta uma lacuna em termos de seniority específica na área de produto de software.",
+      "main_gap": "Seniority gap - candidato possui ~3-4 anos de experiência em PM/TPM, menor que os 5 anos mínimos exigidos",
+      "company": "Confluent",
+      "location": "",
+      "title": "Senior Product Manager, Confluent Cloud Kafka",
+      "url": "https://weworkremotely.com/remote-jobs/confluent-senior-product-manager-confluent-cloud-kafka",
+      "id": "5f2100e2a9d522fff615b92a14fd5934ae0fb7c31980fa9bbf5e838693e17f65",
+      "core_requirements": [
+        {
+          "requirement": "Minimum 5 years of experience as a software product manager, ideally for a developer product",
+          "category": "seniority",
+          "evidence": "~3-4 years of PM/TPM experience in tech roles (since Jul/2022); additional ~3 years of prior experience in construction/operations",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Empathy for our enterprise customers, and a passion for solving their problems with the software",
+          "category": "domain",
+          "evidence": "Experience as PO, PM, TPM working with enterprise customers and solving their operational challenges (e.g., release management, risk mitigation, process automation)",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Ability to craft a product strategy and roadmap in concert with customers, engineering, design, and go-to-market teams",
+          "category": "leadership",
+          "evidence": "Experience in PO, PM, TPM roles leading cross-functional collaboration and aligning stakeholders on product vision and delivery",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Strong technical competency, especially with distributed data systems, public and private clouds, and stream processing",
+          "category": "technical",
+          "evidence": "Experience working with Kafka, cloud infrastructure, and data pipelines as PO, PM, and TPM; plus background in IA/ML applied research",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Experience with data sharing technologies is a plus",
+          "category": "technical",
+          "evidence": "Familiarity with data sharing and integration technologies through work in PO, PM, and TPM roles",
+          "has_evidence": "partial"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Minimum 5 years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 50,
+      "score_ceiling": 55,
+      "ceiling_reason": "2+ penalties: domain_gap_core, seniority_gap.",
+      "justification": "O candidato tem uma boa experiência em gestão de produto e programa, com habilidades relevantes em IA e colaboração. No entanto, há um gap significativo no domínio específico de folha de pagamento e funções de RH, o que é uma exigência central desta vaga. Além disso, a candidatura apresenta uma lacuna de seniority, já que o candidato possui cerca de 3-4 anos de experiência em PM/TPM, enquanto a vaga solicita um perfil de senior product manager. Portanto, o score máximo permitido para esta vaga é 55.",
+      "main_gap": "Falta de experiência específica em folha de pagamento e domínio de RH, além da lacuna de seniority em relação ao perfil de senior product manager.",
+      "company": "Remote",
+      "location": "LATAM",
+      "title": "Senior Product Manager, Payroll",
+      "url": "https://jobicy.com/jobs/140529-senior-product-manager-payroll",
+      "id": "669cf6947b5e0e56976f3271e076dfac5e64694219aba63d5725276fd42b35d5",
+      "core_requirements": [
+        {
+          "requirement": "Experience as a senior product manager working in a multi-product, high-growth scale-up company.",
+          "category": "seniority",
+          "evidence": "Instituto Atlântico — Product Owner (Mar/2026–Atual), Instituto Atlântico — Project Manager (Out/2025–Fev/2026), Instituto Atlântico — Technical Program Manager (Set/2024–Set/2025)",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Strong understanding of end-to-end payroll processes and HR functions. Hands-on experience building payroll software and systems is preferred.",
+          "category": "domain",
+          "evidence": "",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Experience launching products or features that leveraged AI.",
+          "category": "technical",
+          "evidence": "R&D aplicado (2026): metodologia experimental para artigo de consumo energético (LLM monolítico vs multiagente), com 100 questões em 4 níveis de complexidade, rubricas binárias e arquitetura com critérios de escalonamento. Instituto Atlântico — Product Owner (Jul/2022–Set/2024): PoC GenAI que contribuiu para contrato e mapeamento de 9 use cases.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Outstanding communication and collaboration skills, including across different departments (e.g. operations, business, sales, finance, etc.) to ensure that we are satisfying critical customer, business and operational requirements",
+          "category": "leadership",
+          "evidence": "Instituto Atlântico — Project Manager (Out/2025–Fev/2026): gestão de pessoas/processo e realocação de 6/8 no término de contrato. Instituto Atlântico — Technical Program Manager (Set/2024–Set/2025): coordenação de 3 times (~25 eng.) em programa global (15 times/200+); 60 vulnerabilidades em 4 semanas; release com 50 defeitos no prazo; automação interna reduziu revisão semanal de ~40 para ~10 min.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Use AI tools to 10x productivity, decision-making, and workflow efficiency",
+          "category": "technical",
+          "evidence": "R&D aplicado (2026): metodologia experimental para artigo de consumo energético (LLM monolítico vs multiagente), com 100 questões em 4 níveis de complexidade, rubricas binárias e arquitetura com critérios de escalonamento. Instituto Atlântico — Product Owner (Jul/2022–Set/2024): PoC GenAI que contribuiu para contrato e mapeamento de 9 use cases.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "senior product manager",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 55,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui experiência relevante em gestão de produto e liderança de programas e projetos em empresas de tecnologia, mas ainda não atinge os 4+ anos de experiência exigidos pela vaga. Ele possui as principais habilidades técnicas e de liderança requeridas, mas carece de experiência específica em B2B e para clientes corporativos, que é um elemento crítico do domínio da vaga. Portanto, a candidatura é viável, mas com alguns riscos. O score máximo permitido é 65 devido ao gap de seniority.",
+      "main_gap": "O principal gap é a experiência específica em gestão de produto B2B para clientes corporativos, que não está totalmente evidenciada no perfil do candidato.",
+      "company": "Veriff",
+      "location": "Brazil,  Estonia,  Spain",
+      "title": "Product Manager, External Signals",
+      "url": "https://jobicy.com/jobs/140500-product-manager-external-signals",
+      "id": "3558d89ecf62b9ce08cc05154e52b24e1755bc57c4b8d9143efbd5974be3dc48",
+      "core_requirements": [
+        {
+          "requirement": "4+ years of product management experience or equivalent",
+          "category": "seniority",
+          "evidence": "~3-4 years of PM/TPM experience in technology",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Experience working on B2B products, ideally with a track record of building for enterprise customers at scale-up environment",
+          "category": "domain",
+          "evidence": "Experience managing programs and projects for enterprise customers, but not explicitly in B2B product management",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Technically adept systems thinker, comfortable diving into APIs, data pipelines, decision engines, and vendor integrations; you translate complex backend trade-offs into clear product requirements",
+          "category": "technical",
+          "evidence": "Strong technical skills, including experience with data, IA, and translating technical concepts into product requirements",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Great interpersonal skills and strong verbal and written communication. You can make complex concepts accessible and drive alignment across Engineering, Legal and GTM.",
+          "category": "leadership",
+          "evidence": "Demonstrated leadership and communication skills, including experience aligning cross-functional teams",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "4+ years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui um excelente perfil técnico e de liderança, com ampla experiência em gestão de programas complexos, integração de IA/ML e entrega de valor para stakeholders sênior. No entanto, a lacuna de seniority em relação aos requisitos da vaga é um fator limitante significativo, reduzindo o score final para a faixa de 50-69. Apesar de possuir as competências transferíveis, faltam alguns anos de experiência direta em um papel de TPM com o escopo e complexidade exigidos.",
+      "main_gap": "Gap de seniority - o candidato possui ~3-4 anos de experiência em PM/TPM, enquanto a vaga requer 8-12+ anos.",
+      "company": "Databricks",
+      "location": "London, United Kingdom",
+      "title": "Senior Technical Program Manager, Services",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8395519002",
+      "id": "6d5af7839d41b827f1388401964eaaed05a85b567977e7c2499ab6685cbd2890",
+      "core_requirements": [
+        {
+          "requirement": "8–12+ years leading large-scale technical programs",
+          "category": "seniority",
+          "evidence": "~3-4 years in PM/TPM tech roles (since Jul/2022), including TPM role from Sep/2024 to Sep/2025",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Advanced technical fluency; 2 Databricks Associate Certifications or 1 Professional-level Certification required within 6 months of hire",
+          "category": "technical",
+          "evidence": "Experience with Databricks technologies not mentioned explicitly, but strong background in IA/ML engineering and operations",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Proven track record of leveraging AI-enabled tools to optimize large-scale program delivery and cross-functional synergy",
+          "category": "technical",
+          "evidence": "Documented experience with IA/ML integration, including use of GenAI PoCs and LLM pipelines",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Proven ability to engage, influence, and build trust with senior executive stakeholders (CxOs)",
+          "category": "leadership",
+          "evidence": "Demonstrated experience in leading cross-functional initiatives and coordinating complex, high-visibility programs with senior stakeholders",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Experience successfully managing projects with teams of up to 5 people and contract values in excess of $0.5M",
+          "category": "other",
+          "evidence": "Experience leading teams of up to 8 people in program management roles, including TPM role with a global program of 25+ engineers and $0.5M+ contract value",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "8–12+ years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 52,
+      "score_ceiling": 55,
+      "ceiling_reason": "2+ penalties: domain_gap_core, seniority_gap.",
+      "justification": "O candidato possui bom background em gestão de produtos e programas, com experiência em metodologias ágeis, liderança de times e uso de dados para tomada de decisão. No entanto, ele não possui experiência prévia em programas de crescimento de receita com foco em inteligência artificial aplicada a workflows comerciais. Além disso, a vaga requer um nível de seniority que o candidato ainda não atingiu. Portanto, seu perfil se enquadra na faixa de 50-69 pontos, com um score final de 52.",
+      "main_gap": "Falta de experiência específica em programas de crescimento de receita com foco em IA aplicada a workflows comerciais.",
+      "company": "Wellhub",
+      "location": "Brazil (Remote)",
+      "title": "Revenue Growth Program Manager",
+      "url": "https://job-boards.greenhouse.io/gympass/jobs/8439922002",
+      "id": "fbc2a1f583843a6e200648abb434bf942f7882959d7a8b8e138d36c6df581c6d",
+      "core_requirements": [
+        {
+          "requirement": "Support the design and deployment of AI Agents to support key sales and commercial workflows",
+          "category": "technical",
+          "evidence": "Experience or strong familiarity with how Generative AI systems operate. Experience training AI agents or designing conversational logic is a significant plus.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Collaborate with the Revenue (Sales and Marketing) leadership to ensure we're continuously training and improving our AI Agent",
+          "category": "leadership",
+          "evidence": "Ability to act as a bridge between different areas (Commercial, Product, Marketing) with enough autonomy to handle peer-level interactions effectively.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Monitor day-to-day performance, as well as help to develop regular reports with cross-functional partners to improve AI Agent performance",
+          "category": "technical",
+          "evidence": "Proven ability to gather data and perform ongoing reporting. You should be able to identify where clients are dropping off in a conversation and suggest optimizations based on performance metrics.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Understand our commercial processes and our client needs",
+          "category": "domain",
+          "evidence": "Previous experience in high-growth SaaS environments is mandatory.",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Drive and influence the development, prioritization, and analysis of A/B experiments with our AI Agents, to accelerate business growth and improve operational efficiency",
+          "category": "leadership",
+          "evidence": "Analytical and problem-solving skills, with proven track record of driving insights and making decisions based on data.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": null,
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 90,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato possui experiência direta no domínio central da vaga, com perfil que se alinha muito bem aos requisitos chave, incluindo expertise em AI e agentes conversacionais, capacidade de análise de dados e otimização baseada em métricas, e vivência em ambientes SaaS de alto crescimento. A seniority de ~3-4 anos em funções de PM/TPM também é adequada para o escopo da vaga.",
+      "main_gap": "Não há gaps significativos, o perfil do candidato cobre muito bem os requisitos da posição.",
+      "company": "Wellhub",
+      "location": "Brazil (Remote)",
+      "title": "Revenue Operations Program Manager",
+      "url": "https://job-boards.greenhouse.io/gympass/jobs/8459030002",
+      "id": "535e4e4cd02e7c50b8fe736cb65df91692b6a1bf15384285393f104552a1b9a5",
+      "core_requirements": [
+        {
+          "requirement": "Support the design and deployment of AI Agents to support key sales and commercial workflows, in partnership with the Director of Global Programs, Product, and Marketing.",
+          "category": "technical",
+          "evidence": "Expertise in AI and experience with AI agents, with evidence from R&D work on AI methodology for pipelines and agent integration.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Design, develop and refine conversational logic for AI Agents within our selected AI Agent platform(s). Act as the internal operational expert and day-to-day operator for our AI Agent platform(s).",
+          "category": "technical",
+          "evidence": "Hands-on experience designing and operating conversational AI agents, including development of conversational logic.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Monitor day-to-day performance, as well as help to develop regular reports with cross-functional partners to improve AI Agent performance, including tracking critical metrics such as: deflection rates, meeting rates, lead-to-MQL conversion, MQL-to-Opp Validation, and full-cycle conversion.",
+          "category": "technical",
+          "evidence": "Strong analytical and data-driven decision making skills, with experience in generating performance reports and driving optimizations based on metrics.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Understand our commercial processes and our client needs – represent Revenue team and client' perspectives in internal strategy and planning sessions, and in discussions with cross-functional stakeholders.",
+          "category": "domain",
+          "evidence": "Demonstrated experience in high-growth SaaS environments, with the ability to bridge business and technical teams.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Drive and influence the development, prioritization, and analysis of A/B experiments with our AI Agents, to accelerate business growth and improve operational efficiency.",
+          "category": "leadership",
+          "evidence": "Track record of driving data-driven decisions and optimizations through A/B testing and experimentation.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "not specified",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": false
+      }
+    },
+    {
+      "score": 52,
+      "score_ceiling": 55,
+      "ceiling_reason": "2+ penalties: domain_gap_core, seniority_gap.",
+      "justification": "O candidato possui uma boa base de experiência em gestão de produtos, programas e projetos em tecnologia, com habilidades relevantes em liderança, gestão de dados e integração de IA. No entanto, ele não possui experiência direta no domínio de AI/RevOps exigido para esta vaga, nem a senioridade de 5-7 anos tipicamente esperada para um papel de Program Manager sênior. Portanto, a candidatura se encaixa melhor na faixa de 50-69, com um score de 52 devido às múltiplas lacunas.",
+      "main_gap": "Falta de experiência específica no domínio de AI/RevOps e lacuna de senioridade em relação ao nível esperado para a vaga.",
+      "company": "Wellhub",
+      "location": "Brazil (Remote)",
+      "title": "RevOps Program Manager",
+      "url": "https://job-boards.greenhouse.io/gympass/jobs/8459041002",
+      "id": "02e07efc11ad7007732400215be3201221c9507c5c371a201fce90fad156c3e9",
+      "core_requirements": [
+        {
+          "requirement": "Support the design and deployment of AI Agents to support key sales and commercial workflows",
+          "category": "technical",
+          "evidence": "Experience or strong familiarity with how Generative AI systems operate. Experience training AI agents or designing conversational logic.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Collaborate with the Revenue (Sales and Marketing) leadership to ensure we're continuously training and improving our AI Agent",
+          "category": "leadership",
+          "evidence": "Ability to act as a bridge between different areas (Commercial, Product, Marketing) with enough autonomy to handle peer-level interactions effectively.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Monitor day-to-day performance, as well as help to develop regular reports with cross-functional partners to improve AI Agent performance",
+          "category": "technical",
+          "evidence": "Proven ability to gather data and perform ongoing reporting. You should be able to identify where clients are dropping off in a conversation and suggest optimizations based on performance metrics.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Understand our commercial processes and our client needs – represent Revenue team and client' perspectives in internal strategy and planning sessions",
+          "category": "domain",
+          "evidence": "Previous experience in high-growth SaaS environments is mandatory.",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Drive and influence the development, prioritization, and analysis of A/B experiments with our AI Agents, to accelerate business growth and improve operational efficiency",
+          "category": "leadership",
+          "evidence": "Analytical and problem-solving skills, with proven track record of driving insights and making decisions based on data.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Not specified",
+        "candidate_has": "~3-4 years as PM/TPM in tech",
+        "gap": true
+      }
+    },
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui uma boa trajetória em gestão de produtos, programas e entregas, com experiência relevante em áreas como integração de IA, gestão de startups e coordenação de equipes. No entanto, ele não atende completamente o requisito de seniority da vaga, que solicita 6+ anos de experiência, enquanto o candidato tem ~3-4 anos. Apesar da boa transferência de habilidades, esse gap de seniority limita o ajuste do perfil à vaga.",
+      "main_gap": "Gap de seniority: a vaga requer 6+ anos de experiência, enquanto o candidato possui ~3-4 anos em papéis de PM/TPM.",
+      "company": "Visa",
+      "location": "",
+      "title": "Product Manager",
+      "url": "https://remotefirstjobs.com/companies/visa/jobs/product-manager-730920",
+      "id": "0d2857c7b9ebe39a98060e762998163f0faf108c4b4450523386adca9a172fed",
+      "core_requirements": [
+        {
+          "requirement": "Own the end‑to‑end product lifecycle for one or more real‑time payments fraud & scam prevention products, from concept through launch and scale",
+          "category": "domain",
+          "evidence": "Recent experience as PO (Mar/2026–Atual) in refactoring of image scanning for IA integration, and PM (Out/2025–Fev/2026) in startup program and team management. Also has PM (Jul/2022–Set/2024) in reorganization of component to product and PoC of GenAI that contributed to a contract.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Work closely with data scientists, ML engineers, and technology teams to design and deliver AI‑driven capabilities",
+          "category": "technical",
+          "evidence": "Candidate has experience in using IA in a practical way, with documentation as infrastructure, human-AI governance, evaluation by criteria/rubrics, and decomposition in specialized pipelines.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Balance product vision, delivery, and commercial outcomes, ensuring solutions are scalable, compliant, and market‑ready",
+          "category": "leadership",
+          "evidence": "Previous experience as TPM (Set/2024–Set/2025) in a global program with 15 teams and 200+ people, where they coordinated 3 teams, reduced weekly review time from 40 to 10 minutes through internal automation, and delivered a release with 50 defects on time.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "6+ years of relevant work experience with a bachelor's degree",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 55,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui experiência relevante em gestão de projetos, programas e entregas, incluindo em empresas de tecnologia, mas não possui 8+ anos de experiência específica em serviços financeiros e pagamentos, que é o domínio primário desta vaga. Portanto, ele se encaixa na faixa de 50-69, com improvável passar por uma triagem experiente.",
+      "main_gap": "O principal gap é a falta de experiência direta no domínio de serviços financeiros e pagamentos, que é o foco central desta vaga de Project Manager na Visa.",
+      "company": "Visa",
+      "location": "",
+      "title": "Project Manager",
+      "url": "https://remotefirstjobs.com/companies/visa/jobs/project-manager-730890",
+      "id": "bf180b460e428bab4636234a80276ce6f91a6f1394c411d6027487e8b9eab7c6",
+      "core_requirements": [
+        {
+          "requirement": "Bachelor's Degree or equivalent qualification",
+          "category": "seniority",
+          "evidence": "Resumo Profissional e Experiências Chave",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "A minimum of 8+ years' experience in a customer support role in financial services, payment card, software, or information services",
+          "category": "seniority",
+          "evidence": "Experiências Chave com ~3-4 anos em PM/TPM na tecnologia",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Strong experience with API implementations and web-based technology such as HTML, web-based service APIs, JSON",
+          "category": "technical",
+          "evidence": "Experiência com IA aplicada, incluindo integração de LLM, e menção de habilidades técnicas em SQL, Python, Spark/Scala",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Excellent project management skills",
+          "category": "leadership",
+          "evidence": "Ampla experiência relatada em gestão de projetos, programas e entregas, incluindo coordenação de times, release management, dependências e comunicação executiva",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Excellent verbal, written, presentation and interpersonal skills. Demonstrated ability to articulate complex technical terms or processes into business language",
+          "category": "other",
+          "evidence": "Destaque para habilidades de liderança, comunicação e colaboração evidenciadas nas Experiências Chave",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "8+ years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 55,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui experiência relevante em gestão de produtos e programas, incluindo etapas do ciclo de vida do produto, definição de visão, roadmap e priorização, e entrega com times de engenharia. No entanto, há uma lacuna na experiência direta com tecnologias de nuvem pública, que é um requisito central da vaga. Além disso, o candidato tem aproximadamente 3 anos de experiência em funções de PM/TPM, enquanto a vaga requer 5-8 anos. Portanto, a candidatura se enquadra na faixa de 50-69, com um score de 55.",
+      "main_gap": "Falta de experiência direta com tecnologias de nuvem pública, que é um requisito fundamental da vaga.",
+      "company": "Deutsche Telekom IT Solutions HU",
+      "location": "",
+      "title": "Product Manager Public Cloud Expert",
+      "url": "https://remotefirstjobs.com/companies/deutsche-telekom-it-solutions-hu/jobs/product-manager-public-cloud-expert-730867",
+      "id": "b71a1a71f328c1c4985f0f82e914e0a78d1c8ea19bb4304fa42095927abec62b",
+      "core_requirements": [
+        {
+          "requirement": "Manage the end-to-end product lifecycle from ideation to the launch of the product including monitoring of the products success & a potential end-of-life management.",
+          "category": "domain",
+          "evidence": "Diverse experience as PO, PM, TPM, including full product lifecycle management.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Define product vision, roadmap, and prioritization based on customer needs and business goals.",
+          "category": "domain",
+          "evidence": "Demonstrated experience in product discovery, roadmapping, and prioritization.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Work closely with engineering teams to prioritize features, track progress, and ensure timely delivery of products and services.",
+          "category": "leadership",
+          "evidence": "Experience leading cross-functional teams, including engineering, to deliver products.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Minimum of 5-8 years of professional experience in IT ideally with a focus on modern cloud technologies.",
+          "category": "seniority",
+          "evidence": "The candidate has ~3 years of experience in PM/TPM roles in technology, but does not have direct experience with cloud technologies.",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Proven experience as a product manager or similar role, with a track record of successfully launching and managing products.",
+          "category": "seniority",
+          "evidence": "The candidate has experience as a PO, PM, and TPM, indicating relevant experience in product management roles.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "5-8 years",
+        "candidate_has": "~3 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 92,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato Guilherme Maia possui experiência direta e relevante para a função de Lead Project Manager na empresa Encora. Ele tem uma sólida trajetória em papéis de gerenciamento de projetos, programas e produtos, liderando equipes multifuncionais e entregando resultados em cenários complexos. Suas habilidades técnicas, de liderança e de gestão de stakeholders se alinham plenamente aos requisitos da vaga. Com cerca de 3-4 anos de experiência em funções de PM/TPM em tecnologia, ele possui a senioridade necessária para assumir esse cargo de liderança.",
+      "main_gap": "Não há gaps evidentes. O candidato possui o perfil ideal para a vaga.",
+      "company": "Encora",
+      "location": "",
+      "title": "Lead Project Manager",
+      "url": "https://remotefirstjobs.com/companies/encora-inc/jobs/lead-project-manager-730803",
+      "id": "4ec35d3237024a18a912d4b7ed12513a56e2974cd91c2647f354cfb51fd297d3",
+      "core_requirements": [
+        {
+          "requirement": "Lead and manage the engineering team, ensuring effective collaboration, productivity and alignment with project objectives.",
+          "category": "leadership",
+          "evidence": "Program management experience leading teams of ~25 engineers across multiple teams in a global program (Instituto Atlântico, Sep/2024-Sep/2025). Also has experience managing a program with 4 startups and then 2 teams (8 people total) as a Project Manager (Instituto Atlântico, Oct/2025-Feb/2026).",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Oversee project planning, timelines and delivery, ensuring milestones and deliverables are completed successfully.",
+          "category": "leadership",
+          "evidence": "Experience as a Technical Program Manager (Instituto Atlântico, Sep/2024-Sep/2025) coordinating 3 teams (~25 engineers) in a global program, as well as Project Manager (Instituto Atlântico, Oct/2025-Feb/2026) managing a program with 4 startups and then 2 teams. Also has experience as a Product Owner (Instituto Atlântico, Jul/2022-Sep/2024, Mar/2026-current) responsible for planning, delivery and milestones.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Coordinate with stakeholders and technical teams to ensure clear communication, proper resource allocation and project progress.",
+          "category": "leadership",
+          "evidence": "Experience in multiple roles (PO, PM, TPM) working with cross-functional teams and stakeholders to coordinate communication, resources and project progress.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Provide technical guidance to the team and support decision making to ensure high quality solutions and successful delivery.",
+          "category": "technical",
+          "evidence": "Strong technical background and experience, including use of IA/ML, data analytics, and Agile methodologies. Has demonstrated the ability to provide technical guidance and support decision making.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Not specified",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": false
+      }
+    },
+    {
+      "score": 55,
+      "score_ceiling": 60,
+      "ceiling_reason": "1 penalty: domain_gap_core.",
+      "justification": "O candidato possui experiência relevante em papéis de gerenciamento de produtos e programas, com habilidades transferíveis em áreas como definição de requisitos, gerenciamento de entregas e otimização de processos. No entanto, há uma lacuna no domínio específico de soluções de pagamentos móveis e integrações, que são elementos centrais nesta vaga de Analista de Produto na Visa. Embora o candidato tenha potencial a longo prazo, é provável que precise de um período de adaptação para se familiarizar com o contexto da indústria de pagamentos.",
+      "main_gap": "Falta de experiência direta no domínio de soluções de pagamentos móveis e integrações regionais/globais",
+      "company": "Visa",
+      "location": "",
+      "title": "Product Analyst",
+      "url": "https://remotefirstjobs.com/companies/visa/jobs/product-analyst-730746",
+      "id": "5590b9635e29dc969c99cb0ef5a73e4af1d0b46a2ba9972642d1d64dc0185121",
+      "core_requirements": [
+        {
+          "requirement": "Manage and deliver Tap integrations with key regional partners",
+          "category": "domain",
+          "evidence": "Experience as PO, PM, TPM working with regional/global partners and integrations",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Drive strategic, cross‑product operations across multiple mobile solution programs",
+          "category": "leadership",
+          "evidence": "Experience in coordinating cross-functional teams and programs",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Lead solution requirements definition, testing coordination, and approval workflows for product certification",
+          "category": "technical",
+          "evidence": "Experience in managing product delivery, requirements, and testing processes",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Lead user experience research and incorporate insights into product design and strategy",
+          "category": "domain",
+          "evidence": "Experience in user research and using insights for product design and strategy",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Diagnose existing processes, design scalable solutions, and implement enhancements across the Tap portfolio",
+          "category": "leadership",
+          "evidence": "Experience in process optimization and implementing enhancements in complex, global programs",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "3+ years with Bachelor's or 2+ years with Advanced Degree",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": false
+      }
+    },
+    {
+      "score": 52,
+      "score_ceiling": 55,
+      "ceiling_reason": "2+ penalties: domain_gap_core, seniority_gap.",
+      "justification": "O candidato possui um perfil sólido em gestão de produto, programa e entrega, com experiência relevante em IA e metodologias ágeis. No entanto, seu background é mais voltado para integração de IA do que especificamente para o domínio de data lakes, data warehouses e infraestrutura de dados da Fivetran. Além disso, embora tenha ~3-4 anos de experiência em PM/TPM na tecnologia, a vaga solicita 4-8 anos, o que representa um gap de senioridade. Portanto, atribuo um score de 52, na faixa de 50-69, pois suas habilidades transferíveis são relevantes, mas há gaps significativos em relação ao core da vaga.",
+      "main_gap": "O principal gap está no domínio específico da Fivetran, com foco em data integration, data lakes e data warehousing, que não é um alinhamento direto com a experiência do candidato.",
+      "company": "Fivetran",
+      "location": "",
+      "title": "Senior Technical Product Marketing Manager",
+      "url": "https://remotefirstjobs.com/companies/fivetran/jobs/senior-technical-product-marketing-manager-730730",
+      "id": "1a0018baab6a7b3aa7ac12193107ae384d8e0b3655fea7eafc127cfb3734ca01",
+      "core_requirements": [
+        {
+          "requirement": "4-8 years of experience in product marketing, data engineering, product management, sales engineering, and/or data and analytics consulting",
+          "category": "seniority",
+          "evidence": "~3-4 years as PM/TPM in tech since Jul/2022",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Data industry experience and expertise: Either hands-on work with or a deep knowledge of data engineering with a focus on data integration, data lakes, open table formats (e.g. Delta Lake, Apache Iceberg), data warehouses, data catalogs and related technologies (e.g. SQL, dbt, python, Spark)",
+          "category": "domain",
+          "evidence": "PO experience in image scanning and IA integration, use of SQL, Python, Spark/Scala, ETL and analysis for decision-making, IA methodology including GenAI PoCs and LLM integration",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Technical aptitude and a desire to learn more: Knowledge of modern data infrastructure and tools, particularly in relation to data lakes and their role in analytics and storage. Has a keen interest in all things data integration and cloud destinations and a willingness to work on new product areas as they arise",
+          "category": "technical",
+          "evidence": "Experience with IA methodology including GenAI PoCs, LLM integration, and decomposition in specialized pipelines",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Experience working with multiple different teams: Proven experience partnering and coaching across Product, Sales, Marketing, and Enablement teams to deliver impactful results",
+          "category": "leadership",
+          "evidence": "Experience in cross-functional coordination and people/process leadership as PO, PM, and TPM, including Scrum Master responsibilities",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Strong in-person, virtual, and written communication: Exceptional verbal and written communication skills, capable of adapting messaging for different technical personas and mediums",
+          "category": "other",
+          "evidence": "Experience in creating technical content (architecture, whitepapers, demos, etc.) and representing Fivetran as a platform expert through events and presentations",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "4-8 years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 65,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui experiência relevante em gestão de produto, programas e entregas complexas, incluindo trabalho com IA. No entanto, ele possui gap de seniority, tendo aproximadamente 3-4 anos de experiência em PM/TPM, enquanto a vaga requer 8+ anos. Apesar de suas outras qualificações, esse gap de seniority é significativo e impede que ele receba uma pontuação mais alta.",
+      "main_gap": "Seniority: o candidato possui aproximadamente metade da experiência exigida pela vaga.",
+      "company": "Stripe",
+      "location": "SEA, SF, NYC, US - Remote",
+      "title": "Product Manager, Optimized Checkout Suite, Buyer Experience",
+      "url": "https://stripe.com/jobs/search?gh_jid=7696434",
+      "id": "45316c91465981bb897b0d875ad85055858182960d2bac65883ecd2b14d87a07",
+      "core_requirements": [
+        {
+          "requirement": "8+ years of experience in a product management role",
+          "category": "seniority",
+          "evidence": "~3-4 years of PM/TPM experience in tech since Jul/2022, plus prior experience in construction",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Has partnered closely with engineers and designers to build products (especially front end surfaces) and complex systems at scale",
+          "category": "technical",
+          "evidence": "Experience as PO, TPM and PM in technology, including managing complex programs and refactoring work",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Has an obsession with product quality and an eye for design",
+          "category": "other",
+          "evidence": "Evidence of focus on product quality and design through roles as PO and PM, including PoC work with GenAI",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Experience with payment integrations is a plus",
+          "category": "domain",
+          "evidence": "No direct experience with payment integrations, but has experience in fintech and crédito operations at Nubank",
+          "has_evidence": "partial"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "8+ years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    }
+  ],
+  "eliminated_jobs": [
+    {
+      "id_hash": "9c987de1304d1e87f56f3cd13f10d5bc74812f620a26b8192890cdc421dc7b47",
+      "id": "9c987de1304d1e87f56f3cd13f10d5bc74812f620a26b8192890cdc421dc7b47",
+      "source": "jobicy",
+      "title": "Senior Manager, Franchise Operations, Tianjin",
+      "company": "The Coca-Cola Company",
+      "location": "China",
+      "salary": null,
+      "jd_full": "<p><b>Location(s):</b></p><p>China</p><p><b>City/Cities:</b></p><p>Tianjin</p><p><b>Travel Required:</b></p><p>26% &#8211; 50%</p><p><b>Relocation Provided:</b></p><p>No</p><p><b>Job Posting End Date:</b></p><p>April 9, 2026</p><p><b>Shift:</b></p><p><b>Job Description Summary: </b></p><p>​<b>Manager:</b> Director, Franchise Operations, BJ/TJ/HB <br><b>Location:</b> Tianjin, China <br><b>Role Type:</b> Individual Contributor <br><b>Language:</b> Fluent English &amp; Mandarin <br><b>Relocation Provided:</b> Limited relocation available (domestic location), we encourage all GCM employees to apply to internal posting. </p><p><b>Please note:</b> This role is not a fully remote position. The selected candidate will need to be based in Tianjin and follow our hybrid work setup. </p><p><b>Job Description Summary:</b> </p><p>At the Coca-Cola Company, we work collaboratively to find new and innovative ways to strategically move the business forward by leading, developing and executing digital strategies in partnership with our customer and bottler relationships. We set the standards and policies for the Company, and we’re looking for candidates with a proven ability to implement initiatives, develop marketing strategies and decipher market data to make a global impact for the world’s most recognized brands. </p><p>You’ll execute strategies with bottling partners, assist management with identifying opportunities, provide recommendations and implement key initiatives including sales planning, monitoring sales and activity records. The successful candidate needs to demonstrate their ability to execute highly complex or specialized projects in the commercial marketplace. </p><p><b>What You’ll Do for Us</b> </p><ul><li><p>Identifies and develops business opportunities and plans, with continuous analysis of business opportunities by developing Key Performance Indicators to achieve revenue goals. Along with the continued assessment of local capabilities to ensure that the execution plan is correctly supported. </p></li></ul><ul><li><p>Knowledgeable on local consumers and customers’ needs in key channels, in order to develop plans to increase volume, change package mix and generate more profitability to Coca-Cola system business. </p></li></ul><ul><li><p>Analyzes issues by packages and develops activities focusing trade, sales force and consumers closely with other related areas, such as Shopper behavior, RTM, RGM, Marketing, Technical and Finance resulting in robust plans. </p></li></ul><ul><li><p>Translates shopper and channel insights, trends and assessments, into channel strategies and plans. </p></li></ul><ul><li><p>Identifies success factors that drive growth in revenue per case, faster transaction growth than volume growth, and growth in system /customer profitability and market Per Capita number. </p></li></ul><ul><li><p>Unleashes channel potential through better execution and improves internal processes, supports tools implementation to maximize speed and effectiveness of company&#8217;s response to changing market conditions and enhance go-to-market. </p></li></ul><ul><li><p>Leads and facilitates strategic and annual business planning processes across the system, ensuring plans reflect mid-to-long term growth strategies. </p></li></ul><ul><li><p>Manages cross functional project teams as required. </p></li></ul><ul><li><p>Supports the Operating Unite development; ensuring the identification of opportunities and risks based on market analysis across channels and shopper/consumer, to deliver volume, profit and share targets for entire portfolio, including recommendation of system investments. </p></li></ul><ul><li><p>Perform other job‑related duties as assigned, in response to evolving business needs and market dynamics. </p></li></ul><p><b>Requirements &amp; Qualifications</b> </p><ul><li><p>Bachelor’s degree or above in Business, Marketing, Finance, or a related field. </p></li></ul><ul><li><p>5+ years of working experience with a global consumer packaged goods industry. </p></li></ul><ul><li><p>Experience with annual business planning, forecasting, customer and distributor management, or other related commercial topics. </p></li></ul><ul><li><p>Result-driven, self-motivated with strong cross function collaboration skills and influencing without authority skills, etc. </p></li></ul><ul><li><p>Fluent in both Mandarin and English, with the ability to operate effectively in a business environment. </p></li></ul><p><b>What can help you to be successful in the role?</b> </p><ul><li><p><b>Partnering for Growth: </b> </p></li></ul><ul><li><p>System Economics: Engages the System understanding the economics and value chain to drive profitable growth and value sharing. </p></li></ul><ul><li><p>Business Planning: Articulates the Business Plan to maximize the most valued opportunities, looking beyond conventional thinking and course correcting as required. </p></li></ul><ul><li><p>Revenue Growth Management: Engages the System to identify and build plans to capture value in the market aligning prices to brand position while remaining affordable, relevant to the customer and competitive in the marketplace. </p></li></ul><ul><li><p><b>Influencing for Results</b> </p></li></ul><ul><li><p>Business Integration: Comprehends TCCC&#8217;s direction, strategy, industry trends and functional areas dynamics and key content to connect the internal network and be able to lead the agenda with Bottlers and external stakeholders. </p></li></ul><ul><li><p>Communications: Communicates with clarity and precision, presenting complex information in a concise format that is audience appropriate. </p></li></ul><ul><li><p>Negotiation: Engages in discussion to reach agreements with stakeholders, reconciling differences and generating outcomes in accordance with the strategic priorities. </p></li></ul><ul><li><p><b>Execution for Competitive Edge</b> </p></li></ul><ul><li><p>Channel Management: Manages an integrated channel plan, understanding both traditional and digital channel dynamics and matching them to brand opportunities to drive both brand love (HH Penetration, incidence, frequency, per capita) and brand value (Revenue, Margin &amp; Price premium). </p></li></ul><ul><li><p>Execution Excellence: Drives PicOS/e-PicOS implementation for all POS and Occasions leveraging an optimal segmentation, maximizing results through RED, delivering according to the calendar and being aware of the System’s positioning within the competitive landscape. </p></li></ul><ul><li><p>Market Dynamics: Interprets market variables, data and KPIs to generate insights that enhance decision-making. </p></li></ul><ul><li><p><b>Leadership Behavior:</b> </p></li></ul><ul><li><p>Be the role model </p></li></ul><ul><li><p>Set the agenda </p></li></ul><ul><li><p>Help people be their best selves </p></li></ul><p><b>Skills:</b></p><p><b>Our Purpose and Growth Culture:</b></p><p>We are taking deliberate action to nurture an inclusive culture that is grounded in our company purpose, to refresh the world and make a difference. We act with a growth mindset, take an expansive approach to what’s possible and believe in continuous learning to improve our business and ourselves. We focus on four key behaviors – curious, empowered, inclusive and agile – and value how we work as much as what we achieve. We believe that our culture is one of the reasons our company continues to thrive after 130+ years. Visit <a href=\"https://www.coca-colacompany.com/company/purpose-and-vision\" rel=\"nofollow ugc noopener\" target=\"_blank\">Our Purpose and Vision</a> to learn more about these behaviors and how you can bring them to life in your next role at Coca-Cola.</p>",
+      "url": "https://jobicy.com/jobs/140516-senior-manager-franchise-operations-tianjin",
+      "collected_at": "2026-03-12T09:31:44.326214+00:00",
+      "date": "2026-03-11T11:11:56+00:00",
+      "filter_reason": "localização"
+    },
+    {
+      "id_hash": "6aa1f6ce2daca30b784e59516b0ec413e50d58a28daec742661215506d580e43",
+      "id": "6aa1f6ce2daca30b784e59516b0ec413e50d58a28daec742661215506d580e43",
+      "source": "jobicy",
+      "title": "Manager, Franchise Operations, Battlefield Markets",
+      "company": "The Coca-Cola Company",
+      "location": "China",
+      "salary": null,
+      "jd_full": "<p><b>Location(s):</b></p><p>China</p><p><b>City/Cities:</b></p><p><b>Travel Required:</b></p><p>26% &#8211; 50%</p><p><b>Relocation Provided:</b></p><p>No</p><p><b>Job Posting End Date:</b></p><p>April 9, 2026</p><p><b>Shift:</b></p><p><b>Job Description Summary: </b></p><p><b>Manager:</b> Senior Director, Franchise Operations, Battlefield Market<br><b>Location:</b> Hangzhou, China<br><b>Role Type:</b> Individual Contributor<br><b>Language:</b> Fluent English &amp; Mandarin<br><b>Relocation Provided:</b> Limited relocation available (domestic location).</p><p><b>Please note:</b> This role is not a fully remote position. The selected candidate will need to be based in Hangzhou and follow our hybrid work setup.</p><p><b>Job Description Summary:</b></p><p>At the Coca-Cola Company, we work collaboratively to find new and innovative ways to strategically move the business forward by leading, developing and executing digital strategies in partnership with our customer and bottler relationships. We set the standards and policies for the Company, and we’re looking for candidates with a proven ability to implement initiatives, develop marketing strategies and decipher market data to make a global impact for the world’s most recognized brands.</p><p>You’ll execute strategies with bottling partners, assist management with identifying opportunities, provide recommendations and implement key initiatives including sales planning, monitoring sales and activity records. The successful candidate needs to demonstrate their ability to execute highly complex or specialized projects in the commercial marketplace. </p><p><b>What You’ll Do for Us</b></p><ul><li>Identifies and develops business opportunities and plans, with continuous analysis of business opportunities by developing Key Performance Indicators to achieve revenue goals. Along with the continued assessment of local capabilities to ensure that the execution plan is correctly supported. </li><li>Knowledgeable on local consumers and customers’ needs in key channels, in order to develop plans to increase volume, change package mix and generate more profitability to Coca-Cola system business.</li><li>Analyzes issues by packages and develops activities focusing trade, sales force and consumers closely with other related areas, such as Shopper behavior, RTM, RGM, Marketing, Technical and Finance resulting in robust plans.</li><li>Translates shopper and channel insights, trends and assessments, into channel strategies and plans.</li><li>Identifies success factors that drive growth in revenue per case, faster transaction growth than volume growth, and growth in system /customer profitability and market Per Capita number.</li><li>Unleashes channel potential through better execution and improves internal processes, supports tools implementation to maximize speed and effectiveness of company&#8217;s response to changing market conditions and enhance go-to-market.</li><li>Leads and facilitates strategic and annual business planning processes across the system, ensuring plans reflect mid-to-long term growth strategies.</li><li>Manages cross functional project teams as required.</li><li>Supports the Operating Unite development; ensuring the identification of opportunities and risks based on market analysis across channels and shopper/consumer, to deliver volume, profit and share targets for entire portfolio, including recommendation of system investments.</li><li>Perform other job-related duties as assigned, in response to evolving business needs and market dynamics.</li></ul><p><b>Requirements &amp; Qualifications</b></p><ul><li>Bachelor’s degree or above in Business, Marketing, Finance, or a related field.</li><li>3+ years of working experience with a global consumer packaged goods industry.</li><li>Experience with annual business planning, forecasting, customer and distributor management, or other related commercial topics.</li><li>Result-driven, self-motivated with strong cross function collaboration skills and influencing without authority skills, etc.</li><li>Fluent in both Mandarin and English, with the ability to operate effectively in a business environment.</li></ul><p><b>What can help you to be successful in the role?</b></p><ul><li><b>Partnering for Growth: </b><ul><li>System Economics: Engages the System understanding the economics and value chain to drive profitable growth and value sharing.</li><li>Business Planning: Articulates the Business Plan to maximize the most valued opportunities, looking beyond conventional thinking and course correcting as required.</li><li>Revenue Growth Management: Engages the System to identify and build plans to capture value in the market aligning prices to brand position while remaining affordable, relevant to the customer and competitive in the marketplace.</li></ul></li><li><b>Influencing for Results</b><ul><li>Business Integration: Comprehends TCCC&#8217;s direction, strategy, industry trends and functional areas dynamics and key content to connect the internal network and be able to lead the agenda with Bottlers and external stakeholders.</li><li>Communications: Communicates with clarity and precision, presenting complex information in a concise format that is audience appropriate.</li><li>Negotiation: Engages in discussion to reach agreements with stakeholders, reconciling differences and generating outcomes in accordance with the strategic priorities.</li></ul></li><li><b>Execution for Competitive Edge</b><ul><li>Channel Management: Manages an integrated channel plan, understanding both traditional and digital channel dynamics and matching them to brand opportunities to drive both brand love (HH Penetration, incidence, frequency, per capita) and brand value (Revenue, Margin &amp; Price premium).</li><li>Execution Excellence: Drives PicOS/e-PicOS implementation for all POS and Occasions leveraging an optimal segmentation, maximizing results through RED, delivering according to the calendar and being aware of the System’s positioning within the competitive landscape.</li><li>Market Dynamics: Interprets market variables, data and KPIs to generate insights that enhance decision-making.</li></ul></li><li><b>Leadership Behavior:</b><ul><li>Be the role model</li><li>Set the agenda</li><li>Help people be their best selves</li></ul></li></ul><p><b>Skills:</b></p><p>Channel Management, Distributor Management, Influencing, Influential Communications, Route to Market, System Economics</p><p><b>Our Purpose and Growth Culture:</b></p><p>We are taking deliberate action to nurture an inclusive culture that is grounded in our company purpose, to refresh the world and make a difference. We act with a growth mindset, take an expansive approach to what’s possible and believe in continuous learning to improve our business and ourselves. We focus on four key behaviors – curious, empowered, inclusive and agile – and value how we work as much as what we achieve. We believe that our culture is one of the reasons our company continues to thrive after 130+ years. Visit <a href=\"https://www.coca-colacompany.com/company/purpose-and-vision\" rel=\"nofollow ugc noopener\" target=\"_blank\">Our Purpose and Vision</a> to learn more about these behaviors and how you can bring them to life in your next role at Coca-Cola.</p>",
+      "url": "https://jobicy.com/jobs/140515-manager-franchise-operations-battlefield-markets",
+      "collected_at": "2026-03-12T09:31:44.326227+00:00",
+      "date": "2026-03-11T11:11:54+00:00",
+      "filter_reason": "localização"
+    },
+    {
+      "id_hash": "6b9349f74550d4cc54c0c4971b19f82b48451b7d883ecf4b1f2079fa70501c07",
+      "id": "6b9349f74550d4cc54c0c4971b19f82b48451b7d883ecf4b1f2079fa70501c07",
+      "source": "jobicy",
+      "title": "Manager, Franchise Operations, Jilin",
+      "company": "The Coca-Cola Company",
+      "location": "China",
+      "salary": null,
+      "jd_full": "<p><b>Location(s):</b></p><p>China</p><p><b>City/Cities:</b></p><p>Changchun</p><p><b>Travel Required:</b></p><p>26% &#8211; 50%</p><p><b>Relocation Provided:</b></p><p>No</p><p><b>Job Posting End Date:</b></p><p>April 9, 2026</p><p><b>Shift:</b></p><p><b>Job Description Summary: </b></p><p><b>Manager:</b> Senior Director, Franchise Operations, HLJ/JL/LN/IM <br><b>Location:</b> Changchun, Jilin, China <br><b>Role Type:</b> Individual Contributor <br><b>Language:</b> Fluent English &amp; Mandarin <br><b>Relocation Provided:</b> Limited relocation available (domestic location), we encourage all GCM employees to apply to internal posting. </p><p><b>Please note:</b> This role is not a fully remote position. The selected candidate will need to be based in Changchun and follow our hybrid work setup. </p><p><b>Job Description Summary:</b> </p><p>At the Coca-Cola Company, we work collaboratively to find new and innovative ways to strategically move the business forward by leading, developing and executing digital strategies in partnership with our customer and bottler relationships. We set the standards and policies for the Company, and we’re looking for candidates with a proven ability to implement initiatives, develop marketing strategies and decipher market data to make a global impact for the world’s most recognized brands. </p><p>You’ll execute strategies with bottling partners, assist management with identifying opportunities, provide recommendations and implement key initiatives including sales planning, monitoring sales and activity records. The successful candidate needs to demonstrate their ability to execute highly complex or specialized projects in the commercial marketplace. </p><p><b>What You’ll Do for Us</b> </p><ul><li><p>Identifies and develops business opportunities and plans, with continuous analysis of business opportunities by developing Key Performance Indicators to achieve revenue goals. Along with the continued assessment of local capabilities to ensure that the execution plan is correctly supported. </p></li></ul><ul><li><p>Knowledgeable on local consumers and customers’ needs in key channels, in order to develop plans to increase volume, change package mix and generate more profitability to Coca-Cola system business. </p></li></ul><ul><li><p>Analyzes issues by packages and develops activities focusing trade, sales force and consumers closely with other related areas, such as Shopper behavior, RTM, RGM, Marketing, Technical and Finance resulting in robust plans. </p></li></ul><ul><li><p>Translates shopper and channel insights, trends and assessments, into channel strategies and plans. </p></li></ul><ul><li><p>Identifies success factors that drive growth in revenue per case, faster transaction growth than volume growth, and growth in system /customer profitability and market Per Capita number. </p></li></ul><ul><li><p>Unleashes channel potential through better execution and improves internal processes, supports tools implementation to maximize speed and effectiveness of company&#8217;s response to changing market conditions and enhance go-to-market. </p></li></ul><ul><li><p>Leads and facilitates strategic and annual business planning processes across the system, ensuring plans reflect mid-to-long term growth strategies. </p></li></ul><ul><li><p>Manages cross functional project teams as required. </p></li></ul><ul><li><p>Supports the Operating Unite development; ensuring the identification of opportunities and risks based on market analysis across channels and shopper/consumer, to deliver volume, profit and share targets for entire portfolio, including recommendation of system investments. </p></li></ul><ul><li><p>Perform other job‑related duties as assigned, in response to evolving business needs and market dynamics. </p></li></ul><p><b>Requirements &amp; Qualifications</b> </p><ul><li><p>Bachelor’s degree or above in Business, Marketing, Finance, or a related field. </p></li></ul><ul><li><p>3+ years of working experience with a global consumer packaged goods industry. </p></li></ul><ul><li><p>Experience with annual business planning, forecasting, customer and distributor management, or other related commercial topics. </p></li></ul><ul><li><p>Result-driven, self-motivated with strong cross function collaboration skills and influencing without authority skills, etc. </p></li></ul><ul><li><p>Fluent in both Mandarin and English, with the ability to operate effectively in a business environment. </p></li></ul><p><b>What can help you to be successful in the role?</b> </p><ul><li><p><b>Partnering for Growth: </b> </p></li></ul><ul><li><p>System Economics: Engages the System understanding the economics and value chain to drive profitable growth and value sharing. </p></li></ul><ul><li><p>Business Planning: Articulates the Business Plan to maximize the most valued opportunities, looking beyond conventional thinking and course correcting as required. </p></li></ul><ul><li><p>Revenue Growth Management: Engages the System to identify and build plans to capture value in the market aligning prices to brand position while remaining affordable, relevant to the customer and competitive in the marketplace. </p></li></ul><ul><li><p><b>Influencing for Results</b> </p></li></ul><ul><li><p>Business Integration: Comprehends TCCC&#8217;s direction, strategy, industry trends and functional areas dynamics and key content to connect the internal network and be able to lead the agenda with Bottlers and external stakeholders. </p></li></ul><ul><li><p>Communications: Communicates with clarity and precision, presenting complex information in a concise format that is audience appropriate. </p></li></ul><ul><li><p>Negotiation: Engages in discussion to reach agreements with stakeholders, reconciling differences and generating outcomes in accordance with the strategic priorities. </p></li></ul><ul><li><p><b>Execution for Competitive Edge</b> </p></li></ul><ul><li><p>Channel Management: Manages an integrated channel plan, understanding both traditional and digital channel dynamics and matching them to brand opportunities to drive both brand love (HH Penetration, incidence, frequency, per capita) and brand value (Revenue, Margin &amp; Price premium). </p></li></ul><ul><li><p>Execution Excellence: Drives PicOS/e-PicOS implementation for all POS and Occasions leveraging an optimal segmentation, maximizing results through RED, delivering according to the calendar and being aware of the System’s positioning within the competitive landscape. </p></li></ul><ul><li><p>Market Dynamics: Interprets market variables, data and KPIs to generate insights that enhance decision-making. </p></li></ul><ul><li><p><b>Leadership Behavior:</b> </p></li></ul><ul><li><p>Be the role model </p></li></ul><ul><li><p>Set the agenda </p></li></ul><ul><li><p>Help people be their best selves </p></li></ul><p><b>Skills:</b></p><p><b>Our Purpose and Growth Culture:</b></p><p>We are taking deliberate action to nurture an inclusive culture that is grounded in our company purpose, to refresh the world and make a difference. We act with a growth mindset, take an expansive approach to what’s possible and believe in continuous learning to improve our business and ourselves. We focus on four key behaviors – curious, empowered, inclusive and agile – and value how we work as much as what we achieve. We believe that our culture is one of the reasons our company continues to thrive after 130+ years. Visit <a href=\"https://www.coca-colacompany.com/company/purpose-and-vision\" rel=\"nofollow ugc noopener\" target=\"_blank\">Our Purpose and Vision</a> to learn more about these behaviors and how you can bring them to life in your next role at Coca-Cola.</p>",
+      "url": "https://jobicy.com/jobs/140514-manager-franchise-operations-jilin",
+      "collected_at": "2026-03-12T09:31:44.326232+00:00",
+      "date": "2026-03-11T11:11:53+00:00",
+      "filter_reason": "localização"
+    },
+    {
+      "id_hash": "857554e10eb01fa7f8dcea530b98091efa067fb9ab6bf104345c09f9edc261bb",
+      "id": "857554e10eb01fa7f8dcea530b98091efa067fb9ab6bf104345c09f9edc261bb",
+      "source": "jobicy",
+      "title": "Senior Manager, Commercial Mainland, SCCL",
+      "company": "The Coca-Cola Company",
+      "location": "China",
+      "salary": null,
+      "jd_full": "<p><b>Location(s):</b></p><p>China</p><p><b>City/Cities:</b></p><p>Shanghai</p><p><b>Travel Required:</b></p><p>00% &#8211; 25%</p><p><b>Relocation Provided:</b></p><p>No</p><p><b>Job Posting End Date:</b></p><p>April 9, 2026</p><p><b>Shift:</b></p><p><b>Job Description Summary: </b></p><p>​<b>Manager:</b> Vice President, Franchise Operations &#8211; SCCL, ZH &amp; Macau <br><b>Role Type:</b> Individual Contributor <br><b>Language:</b> Fluent English &amp; Mandarin <br><b>Relocation Provided:</b> Limited relocation available (domestic location), we encourage all GCM employees to apply to internal posting. </p><p><b>Please note:</b> This role is not a fully remote position. The selected candidate will need to be based in Shanghai and follow our hybrid work setup. </p><p><b>Job Description Summary:</b> </p><p>At The Coca-Cola Company, we have been refreshing the world and making a difference for 139 years. With a portfolio of more than 200 brands enjoyed by billions of consumers globally, we are committed to driving sustainable growth and creating value for our customers, communities, and stakeholders. </p><p>This role leads the end‑to‑end commercial agenda for the SCCL,ZH &amp; Macau Mainland market, shaping and delivering system‑wide commercial priorities in close partnership with the local bottler. The role drives the development and execution of a multi‑year commercial roadmap, grounded in deep commercial expertise across portfolio, route‑to‑market, revenue growth management, channel strategy, execution excellence, etc. It ensures OU commercial strategies are translated into clear, market‑ready plans with strong execution discipline and measurable business impact, while driving alignment, data‑driven decision‑making, and commercially focused joint planning across the system. </p><p><b>What You’ll Do for Us</b> </p><p><b>Commercial Strategy &amp; Planning</b> </p><ul><li><p>Lead overall commercial strategy and planning for the SCCL,ZH &amp; Macau Mainland market, grounded in a deep understanding of local market dynamics, consumer and customer insights, channel economics, and competitive landscape, etc. </p></li></ul><ul><li><p>Bring deep commercial expertise across route‑to‑market, revenue growth management, portfolio, and channel economics, etc to shape and own a multi‑year commercial roadmap for SCCL,ZH &amp; Macau Mainland, clearly articulating growth priorities, strategic choices, and success metrics in line with OU strategies. </p></li></ul><ul><li><p>Operationalize brand plans, activating new product launches, channel marketing plans and initiatives, brand/price/package strategy and in-store equipment guidance and activation strategy, etc. </p></li></ul><ul><li><p>Balances immediate and long-term priorities. Seeks to meet critical objectives while considering the impact of those decisions and activities on the ability to achieve long-term goals. </p></li></ul><p><b>In</b><b>‑</b><b>Market Execution &amp; Performance Management</b> </p><ul><li><p>Define, deploy, and govern execution frameworks, tools, and processes aligned with market dynamics and organizational strategy, ensuring disciplined and consistent execution of commercial plans across channels and customer segments. </p></li></ul><ul><li><p>Act as the primary interface between the OU and bottler execution teams to embed execution standards into day‑to‑day operations, including oversight of commercial infrastructure and equipment deployment, pilot testing of new execution solutions, and scaling of proven best practices. </p></li></ul><ul><li><p>Establish robust performance management routines, including KPI tracking, execution scorecards, and structured business reviews, to monitor progress, identify gaps, and drive continuous improvement. </p></li></ul><p><b>Capability Enablement &amp; System Partnership</b> </p><ul><li><p>Build and enable strong commercial and sales capabilities across the system to support sustainable growth, including the development and deployment of sales force and customer communication toolkits that equip frontline teams with clear, simple, and effective execution guidance. </p></li></ul><ul><li><p>Drive structured capability development through frameworks, targeted training and on‑the‑job coaching, while advancing digital, SFA, and process improvements to enhance productivity, execution accuracy, decision speed, and best‑in‑class ways of working. </p></li></ul><ul><li><p>Act as a trusted commercial partner to bottler leadership, operations teams, and cross‑functional stakeholders, fostering strong collaboration and shared accountability, and facilitating best‑practice sharing across the OU and broader bottling system to strengthen system capability. </p></li></ul><p><b>Perform other job</b><b>‑</b><b>related duties as assigned, in response to evolving business needs and market dynamics</b> </p><p><b>Requirements &amp; Qualifications</b> </p><ul><li><p>Bachelor’s degree or above in Business Administration, Management, Marketing, Finance, Economics, or related field. </p></li></ul><ul><li><p>5+ years’ of progressive commercial experience within FMCG, with demonstrated accountability for commercial strategy, planning, and in‑market execution. </p></li></ul><ul><li><p>Proven ability to lead end‑to‑end commercial agendas, leveraging expertise across route‑to‑market, revenue growth management, portfolio and channel strategy to deliver sustainable growth and execution excellence. </p></li></ul><ul><li><p>Strong experience working with a bottler, distributor, or partner‑led business model, with the ability to influence without authority and drive alignment across multiple stakeholders. </p></li></ul><ul><li><p>Highly analytical with strong business acumen, capable of translating data and insights into clear commercial plans and execution priorities. </p></li></ul><ul><li><p>Fluent in English and Mandarin, with the ability to operate effectively in a multicultural, cross‑functional environment. </p></li></ul><p><b>What We&#8217;ll Do for You</b> </p><ul><li><p><b>Exposure to World Class Leaders: </b>Availability to global technology leaders that will expand your network and exposure you to emerging technologies and techniques. </p></li></ul><ul><li><p><b>Iconic Brand: </b>Work on the most recognized brand in the world and be part of developing the brands next chapter. </p></li></ul><ul><li><p><b>Learning Culture: </b>Access to resources and management programs that give you the resources to continually develop your skills and knowledge. </p></li></ul><p><b>Skills:</b></p><p>Account Management, Business Development, Business Planning, Communication, Consultative Sales Management, Contracts, Customer Relationship Management (CRM), Decision Making, Forecasting Process (Inactive), Leadership, Marketing, National Account Sales, Negotiation, Pitch Presentations, Sales Forecasting, Sales Management, Sales Process, Teamwork</p><p><b>Our Purpose and Growth Culture:</b></p><p>We are taking deliberate action to nurture an inclusive culture that is grounded in our company purpose, to refresh the world and make a difference. We act with a growth mindset, take an expansive approach to what’s possible and believe in continuous learning to improve our business and ourselves. We focus on four key behaviors – curious, empowered, inclusive and agile – and value how we work as much as what we achieve. We believe that our culture is one of the reasons our company continues to thrive after 130+ years. Visit <a href=\"https://www.coca-colacompany.com/company/purpose-and-vision\" rel=\"nofollow ugc noopener\" target=\"_blank\">Our Purpose and Vision</a> to learn more about these behaviors and how you can bring them to life in your next role at Coca-Cola.</p>",
+      "url": "https://jobicy.com/jobs/140510-senior-manager-commercial-mainland-sccl",
+      "collected_at": "2026-03-12T09:31:44.326247+00:00",
+      "date": "2026-03-11T11:11:48+00:00",
+      "filter_reason": "localização"
+    },
+    {
+      "id_hash": "51780a950e8ccae44d9e6d6ca763c829f23494e8053b89c987a4782d6d6b3ece",
+      "id": "51780a950e8ccae44d9e6d6ca763c829f23494e8053b89c987a4782d6d6b3ece",
+      "source": "jobicy",
+      "title": "Manager, Franchise Operations, Inner Mongolia",
+      "company": "The Coca-Cola Company",
+      "location": "China",
+      "salary": null,
+      "jd_full": "<p><b>Location(s):</b></p><p>China</p><p><b>City/Cities:</b></p><p>Hohhot</p><p><b>Travel Required:</b></p><p>26% &#8211; 50%</p><p><b>Relocation Provided:</b></p><p>No</p><p><b>Job Posting End Date:</b></p><p>April 9, 2026</p><p><b>Shift:</b></p><p><b>Job Description Summary: </b></p><p><b>Manager:</b> Senior Director, Franchise Operations, HLJ/JL/LN/IM <br><b>Location:</b> Hohhot, Inner Mongolia, China <br><b>Role Type:</b> Individual Contributor <br><b>Language:</b> Fluent English &amp; Mandarin <br><b>Relocation Provided:</b> Limited relocation available (domestic location), we encourage all GCM employees to apply to internal posting. </p><p><b>Please note:</b> This role is not a fully remote position. The selected candidate will need to be based in Hohhot and follow our hybrid work setup. </p><p><b>Job Description Summary:</b> </p><p>At the Coca-Cola Company, we work collaboratively to find new and innovative ways to strategically move the business forward by leading, developing and executing digital strategies in partnership with our customer and bottler relationships. We set the standards and policies for the Company, and we’re looking for candidates with a proven ability to implement initiatives, develop marketing strategies and decipher market data to make a global impact for the world’s most recognized brands. </p><p>You’ll execute strategies with bottling partners, assist management with identifying opportunities, provide recommendations and implement key initiatives including sales planning, monitoring sales and activity records. The successful candidate needs to demonstrate their ability to execute highly complex or specialized projects in the commercial marketplace. </p><p><b>What You’ll Do for Us</b> </p><ul><li><p>Identifies and develops business opportunities and plans, with continuous analysis of business opportunities by developing Key Performance Indicators to achieve revenue goals. Along with the continued assessment of local capabilities to ensure that the execution plan is correctly supported. </p></li></ul><ul><li><p>Knowledgeable on local consumers and customers’ needs in key channels, in order to develop plans to increase volume, change package mix and generate more profitability to Coca-Cola system business. </p></li></ul><ul><li><p>Analyzes issues by packages and develops activities focusing trade, sales force and consumers closely with other related areas, such as Shopper behavior, RTM, RGM, Marketing, Technical and Finance resulting in robust plans. </p></li></ul><ul><li><p>Translates shopper and channel insights, trends and assessments, into channel strategies and plans. </p></li></ul><ul><li><p>Identifies success factors that drive growth in revenue per case, faster transaction growth than volume growth, and growth in system /customer profitability and market Per Capita number. </p></li></ul><ul><li><p>Unleashes channel potential through better execution and improves internal processes, supports tools implementation to maximize speed and effectiveness of company&#8217;s response to changing market conditions and enhance go-to-market. </p></li></ul><ul><li><p>Leads and facilitates strategic and annual business planning processes across the system, ensuring plans reflect mid-to-long term growth strategies. </p></li></ul><ul><li><p>Manages cross functional project teams as required. </p></li></ul><ul><li><p>Supports the Operating Unite development; ensuring the identification of opportunities and risks based on market analysis across channels and shopper/consumer, to deliver volume, profit and share targets for entire portfolio, including recommendation of system investments. </p></li></ul><ul><li><p>Perform other job-related duties as assigned, in response to evolving business needs and market dynamics. </p></li></ul><p><b>Requirements &amp; Qualifications</b> </p><ul><li><p>Bachelor’s degree or above in Business, Marketing, Finance, or a related field. </p></li></ul><ul><li><p>3+ years of working experience with a global consumer packaged goods industry. </p></li></ul><ul><li><p>Experience with annual business planning, forecasting, customer and distributor management, or other related commercial topics. </p></li></ul><ul><li><p>Result-driven, self-motivated with strong cross function collaboration skills and influencing without authority skills, etc. </p></li></ul><ul><li><p>Fluent in both Mandarin and English, with the ability to operate effectively in a business environment. </p></li></ul><p><b>What can help you to be successful in the role?</b> </p><ul><li><p><b>Partnering for Growth: </b> </p></li></ul><ul><li><p>System Economics: Engages the System understanding the economics and value chain to drive profitable growth and value sharing. </p></li></ul><ul><li><p>Business Planning: Articulates the Business Plan to maximize the most valued opportunities, looking beyond conventional thinking and course correcting as required. </p></li></ul><ul><li><p>Revenue Growth Management: Engages the System to identify and build plans to capture value in the market aligning prices to brand position while remaining affordable, relevant to the customer and competitive in the marketplace. </p></li></ul><ul><li><p><b>Influencing for Results</b> </p></li></ul><ul><li><p>Business Integration: Comprehends TCCC&#8217;s direction, strategy, industry trends and functional areas dynamics and key content to connect the internal network and be able to lead the agenda with Bottlers and external stakeholders. </p></li></ul><ul><li><p>Communications: Communicates with clarity and precision, presenting complex information in a concise format that is audience appropriate. </p></li></ul><ul><li><p>Negotiation: Engages in discussion to reach agreements with stakeholders, reconciling differences and generating outcomes in accordance with the strategic priorities. </p></li></ul><ul><li><p><b>Execution for Competitive Edge</b> </p></li></ul><ul><li><p>Channel Management: Manages an integrated channel plan, understanding both traditional and digital channel dynamics and matching them to brand opportunities to drive both brand love (HH Penetration, incidence, frequency, per capita) and brand value (Revenue, Margin &amp; Price premium). </p></li></ul><ul><li><p>Execution Excellence: Drives PicOS/e-PicOS implementation for all POS and Occasions leveraging an optimal segmentation, maximizing results through RED, delivering according to the calendar and being aware of the System’s positioning within the competitive landscape. </p></li></ul><ul><li><p>Market Dynamics: Interprets market variables, data and KPIs to generate insights that enhance decision-making. </p></li></ul><ul><li><p><b>Leadership Behavior:</b> </p></li></ul><ul><li><p>Be the role model </p></li></ul><ul><li><p>Set the agenda </p></li></ul><ul><li><p>Help people be their best selves </p></li></ul><p><b>Skills:</b></p><p><b>Our Purpose and Growth Culture:</b></p><p>We are taking deliberate action to nurture an inclusive culture that is grounded in our company purpose, to refresh the world and make a difference. We act with a growth mindset, take an expansive approach to what’s possible and believe in continuous learning to improve our business and ourselves. We focus on four key behaviors – curious, empowered, inclusive and agile – and value how we work as much as what we achieve. We believe that our culture is one of the reasons our company continues to thrive after 130+ years. Visit <a href=\"https://www.coca-colacompany.com/company/purpose-and-vision\" rel=\"nofollow ugc noopener\" target=\"_blank\">Our Purpose and Vision</a> to learn more about these behaviors and how you can bring them to life in your next role at Coca-Cola.</p>",
+      "url": "https://jobicy.com/jobs/140509-manager-franchise-operations-inner-mongolia",
+      "collected_at": "2026-03-12T09:31:44.326252+00:00",
+      "date": "2026-03-11T11:11:47+00:00",
+      "filter_reason": "localização"
+    }
+  ]
+}

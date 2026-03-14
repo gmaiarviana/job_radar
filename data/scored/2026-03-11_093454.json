@@ -1,0 +1,816 @@
+{
+  "scored_at": "2026-03-11T09:34:54.194090+00:00",
+  "source_file": "2026-03-11_093103.json",
+  "summary": {
+    "total_input": 17,
+    "total_llm_eliminated": 2,
+    "total_scored": 13,
+    "total_top": 3
+  },
+  "jobs": [
+    {
+      "score": 95,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato possui todas as habilidades e experiências chave exigidas para a vaga de Product Manager - AI Agents na Assembled. Ele tem aproximadamente 3-4 anos de experiência em gestão de produto e programa em ambientes de tecnologia em rápido crescimento, incluindo papéis relevantes no Instituto Atlântico e no Nubank. Além disso, ele tem experiência prática em integrar IA/GenAI em produtos, incluindo a aplicação de uma metodologia estruturada para avaliação de sistemas de IA. O candidato também demonstra habilidades sólidas em liderança de equipes multifuncionais, alinhamento de stakeholders e entrega de produtos. Seu perfil se alinha muito bem com os requisitos centrais da vaga.",
+      "main_gap": "Não há gaps significativos no perfil do candidato em relação aos requisitos da vaga.",
+      "company": "Assembled",
+      "location": "",
+      "title": "Product Manager - AI Agents",
+      "url": "https://weworkremotely.com/remote-jobs/assembled-product-manager-ai-agents",
+      "id": "4823c091a4116eed545ce02050aba0ae3b626a65603ed610767e70eb642a83a5",
+      "core_requirements": [
+        {
+          "requirement": "Minimum of 3 years of product management experience in fast-growing tech environments (Enterprise SaaS experience strongly preferred)",
+          "category": "seniority",
+          "evidence": "~3-4 years of PM/TPM experience in tech since Jul/2022, including roles at Institute Atlântico and Nubank",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Passion for AI and experience either as a deep personal user and/or in work",
+          "category": "technical",
+          "evidence": "Experience in integrating AI/GenAI into products, including PoCs, LLM integration, and methodology for evaluating AI systems",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Collaborate with engineering and design teams to design and deliver impactful solutions. Provide clear requirements and direction, prioritize key features, and remove blockers",
+          "category": "leadership",
+          "evidence": "Experience in leading cross-functional teams, aligning stakeholders, and driving product delivery as PO, PM, and TPM",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Customer orientation, with a passion for translating business problems into product solutions",
+          "category": "domain",
+          "evidence": "Experience in working closely with customers and prospects to understand their problems and needs, and translating them into product solutions",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Technical fluency to drill into complex design and implementation challenges",
+          "category": "technical",
+          "evidence": "Strong technical skills, including SQL, Python, Spark/Scala, and experience in evaluating and integrating AI systems",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Minimum of 3 years of product management experience",
+        "candidate_has": "~3-4 years of PM/TPM experience in tech since Jul/2022",
+        "gap": false
+      }
+    },
+    {
+      "score": 92,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato Guilherme Maia possui um perfil altamente qualificado para a vaga de Technical Project Manager I na empresa dv01. Ele tem uma sólida experiência de ~3-4 anos em cargos de gestão de projetos e programas (PM, TPM, PO) na área de tecnologia, incluindo trabalhos relevantes em fintech e empresas de IA. Suas habilidades técnicas, de liderança e de entrega de projetos complexos estão bem alinhadas com os requisitos da vaga, conforme evidenciado em seu histórico profissional. Além disso, ele possui um diferencial em IA, o que é um ativo importante para essa posição. O único ponto a ser considerado é que a vaga menciona 1-3 anos de experiência, enquanto o candidato possui ~3-4 anos, mas isso não é um gap significativo. Portanto, atribuo um score de 92 para essa candidatura.",
+      "main_gap": "Nenhum gap significativo identificado, o perfil do candidato se alinha muito bem com os requisitos da vaga.",
+      "company": "dv01",
+      "location": "United States",
+      "title": "Technical Project Manager I",
+      "url": "https://himalayas.app/companies/dv01/jobs/technical-project-manager-i",
+      "id": "b717e4a400a6a1a021ca950fe642a94accf4e29a9d4481dfe4bff4afc7b6e8ce",
+      "core_requirements": [
+        {
+          "requirement": "Manage all lifecycle stages for a project post ideation with responsibility for ensuring that deliverables are understood and releases are delivered on time",
+          "category": "leadership",
+          "evidence": "Extensive experience as a PM, TPM and PO managing projects and programs from ideation to delivery, including responsibility for defining success metrics, aligning stakeholders, and delivering on time (see 'Experiências Chave')",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Partner with engineering teams to help translate technical requirements and system dependencies into actionable project plans, ensuring workstreams stay aligned and progress is clearly communicated across teams",
+          "category": "leadership",
+          "evidence": "Experience working closely with engineering teams to align technical requirements, dependencies, and project plans, ensuring cross-functional collaboration and clear communication (see 'Experiências Chave' and 'Skills Principais')",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Leverage AI-powered tools to improve project coordination, including synthesizing updates, generating documentation, and helping surface risks or dependencies across technical workstreams to support more efficient execution",
+          "category": "technical",
+          "evidence": "Demonstrated experience in applying AI/ML technologies to improve project management, including documentation, risk identification, and process optimization (see 'Diferencial em IA' and 'Experiências Chave')",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Connect the dots of complex workflows in a fast-paced environment. You will be responsible for engaging key stakeholders across business, technology, and product while working closely with software engineers to build consensus, resolve conflicts, and ensure smooth execution",
+          "category": "leadership",
+          "evidence": "Strong track record in managing complex, cross-functional projects and programs, navigating stakeholder alignment, conflict resolution, and ensuring smooth delivery in fast-paced environments (see 'Experiências Chave')",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Ensure the quality of project deliverables. You will work with all stakeholders to establish quality standards and monitor adherence to quality in day-to-day execution",
+          "category": "leadership",
+          "evidence": "Experience in defining and monitoring quality standards, working closely with stakeholders to ensure adherence and high-quality project deliverables (see 'Experiências Chave')",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "1-3 years of work experience successfully managing the launch of projects from end to end",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": false
+      }
+    },
+    {
+      "score": 75,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato possui uma sólida experiência em papéis de gestão de produto e programa, incluindo atuação em iniciativas envolvendo IA. Sua familiaridade com metodologias ágeis, liderança de equipes, análise de dados e práticas de governança para IA o tornam um bom candidato para a vaga de Program Manager AI Programs da Airtable. No entanto, a lacuna está no conhecimento mais aprofundado da plataforma Airtable e suas aplicações verticais, o que pode demandar um período de adaptação e rampup.",
+      "main_gap": "Conhecimento mais aprofundado da plataforma Airtable e suas aplicações verticais.",
+      "company": "Airtable",
+      "location": "",
+      "title": "Program Manager AI Programs",
+      "url": "https://remotefirstjobs.com/companies/airtable/jobs/program-manager-ai-programs-729572",
+      "id": "6443556f30449b57aa66e6fe9faeff95b1cfd2124c036566f93373f53af4d39e",
+      "core_requirements": [
+        {
+          "requirement": "Develop and operationalize industry- and function-specific AI enablement paths",
+          "category": "domain",
+          "evidence": "Experiência recente em PO, PM e TPM, com foco em integração de IA em diferentes contextos (image scanning, programa de startups, programa global de alta complexidade). Conhecimento prático em metodologia de IA, incluindo governança humano-IA, avaliação por critérios e decomposição em pipelines especializados.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Lead In-Person & Cohort-Based Activation",
+          "category": "leadership",
+          "evidence": "Experiência em liderança de equipes, facilitação de cerimônias e ritos, além de design e operacionalização de programas de capacitação.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Support Emerging AI Sub-Communities",
+          "category": "domain",
+          "evidence": "Experiência em gestão de comunidades e programas voltados para diferentes grupos-alvo, como startups, aceleradoras e estudantes.",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Data-Informed",
+          "category": "technical",
+          "evidence": "Conhecimento em SQL, Python, Spark/Scala, ETL e análise diagnóstica para tomada de decisão. Também possui experiência em métricas de engajamento e ativação relacionadas a adoção de IA.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Confident Facilitator & Presenter",
+          "category": "leadership",
+          "evidence": "Experiência em apresentações, facilitação de workshops e programas de capacitação, incluindo habilidades de comunicação e simplificação de conceitos complexos.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "não especificado",
+        "candidate_has": "~3-4 anos em papéis de PM/TPM em tecnologia",
+        "gap": false
+      }
+    }
+  ],
+  "scored_jobs": [
+    {
+      "score": 58,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui experiência relevante em gestão de produto e programa, com habilidades técnicas e de liderança que atendem grande parte dos requisitos da vaga. No entanto, a falta de experiência direta como Product Manager coloca uma limitação em seu fit, especialmente considerando o contexto de mercado local (LATAM) e a cultura da Airbnb. Atribuo um score na faixa de 50-69, pois as skills transferíveis são fortes, mas há um gap central de domínio e seniority que precisará ser superado.",
+      "main_gap": "O principal gap é a falta de experiência direta como Product Manager, especialmente em contexto LATAM e na indústria/cultura da Airbnb.",
+      "company": "Airbnb",
+      "location": "São Paulo, SP",
+      "title": "Product Manager, LATAM (São Paulo, Brazil)",
+      "url": "https://careers.airbnb.com/positions/12345678",
+      "id": "795680180b99162788c4777c941ea3515cb04f54fb7cca7265eaace0f0b15bf6",
+      "core_requirements": [
+        {
+          "requirement": "Liderar a estratégia de produto para a região LATAM",
+          "category": "domain",
+          "evidence": "Experiência recente como PO, PM e TPM em várias empresas, com foco em produtos e programas para o mercado.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Colaborar com equipes multifuncionais para desenvolver e lançar novos recursos",
+          "category": "leadership",
+          "evidence": "Histórico de liderança de times em programas e projetos complexos, com experiência em coordenação cross-funcional.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Analisar dados de usuários para identificar oportunidades de melhoria",
+          "category": "technical",
+          "evidence": "Possui habilidades em análise de dados, uso de SQL, Python e ferramentas de BI para diagnóstico e tomada de decisão.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Gerenciar o ciclo de vida completo do produto, desde a concepção até a execução",
+          "category": "domain",
+          "evidence": "Experiência em papéis de PO, PM e TPM, com propriedade sobre o ciclo de vida completo de produtos e programas.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Trabalhar com equipes de engenharia para garantir a entrega de produtos de alta qualidade",
+          "category": "leadership",
+          "evidence": "Histórico de liderança de programas complexos, com responsabilidade pela coordenação de times de engenharia e garantia da qualidade de entregas.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Experiência prévia como Product Manager",
+        "candidate_has": "~3-4 anos de experiência como PM/TPM em tecnologia",
+        "gap": true
+      }
+    },
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui um bom background em gestão de produto e entrega de soluções com base em dados e IA, com experiência relevante em áreas como priorização de roadmaps, integração com engenharia e design, e análise de métricas de negócio. No entanto, a lacuna de senioridade (3-4 anos vs 7+ anos exigidos) é um risco significativo, e o score máximo permitido é 65.",
+      "main_gap": "A principal lacuna é a diferença de seniority, com o candidato tendo cerca de 3-4 anos de experiência como PM/TPM, enquanto a vaga requer 7+ anos.",
+      "company": "Cookunity",
+      "location": "",
+      "title": "Senior Product Manager, Personalization",
+      "url": "https://weworkremotely.com/remote-jobs/cookunity-senior-product-manager-personalization",
+      "id": "7b5ffadfbba9c5cecd33aa8fd682dcf384d1f28bfa6dc3c6fc50ab7889667a22",
+      "core_requirements": [
+        {
+          "requirement": "Own the end-to-end personalization roadmap including recommendations, ranking algorithms, adaptive feed, intent modeling, and predictive food preferences.",
+          "category": "domain",
+          "evidence": "Extensive experience with product discovery/delivery, especially in areas like visão de produto, priorização, roadmap/backlog, user journeys, and foco em valor.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Partner with Engineering and ML to design, build, and iterate on models that personalize menus, recommendations, and content surfaces.",
+          "category": "technical",
+          "evidence": "Strong analytical and technical intuition; can work closely with ML/infra teams and reason about relevance, ranking, and experimentation approaches.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Develop a sophisticated understanding of eater behavior patterns, including early-week ordering signals, cuisine preferences, dietary constraints, and long-term engagement drivers.",
+          "category": "domain",
+          "evidence": "Deep understanding of customer behavior, including behavioral segments, affinity clusters, and downstream retention impacts.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Work closely with Design to craft highly intuitive and adaptive user experiences (e.g., adaptive homepages, personalized filters, \"you might love,\" order-again flows).",
+          "category": "leadership",
+          "evidence": "Strong user experience instincts with a track record of collaborating closely with design.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Improve core funnel metrics (CVR, add-to-cart rate, search success rate), lift order retention, order frequency, and net AOV for all eater segments.",
+          "category": "domain",
+          "evidence": "Track record of driving measurable business impact, including improving core funnel metrics, increasing long-term revenue, and reducing decision friction.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "7+ years of product management experience, including at least 4+ years working on personalization, search, recommendations, ML/AI products, or similar domains.",
+        "candidate_has": "~3-4 years of PM/TPM experience in technology, including roles as PO, TPM, and PM",
+        "gap": true
+      }
+    },
+    {
+      "score": 95,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato possui todas as habilidades e experiências chave exigidas para a vaga de Product Manager - AI Agents na Assembled. Ele tem aproximadamente 3-4 anos de experiência em gestão de produto e programa em ambientes de tecnologia em rápido crescimento, incluindo papéis relevantes no Instituto Atlântico e no Nubank. Além disso, ele tem experiência prática em integrar IA/GenAI em produtos, incluindo a aplicação de uma metodologia estruturada para avaliação de sistemas de IA. O candidato também demonstra habilidades sólidas em liderança de equipes multifuncionais, alinhamento de stakeholders e entrega de produtos. Seu perfil se alinha muito bem com os requisitos centrais da vaga.",
+      "main_gap": "Não há gaps significativos no perfil do candidato em relação aos requisitos da vaga.",
+      "company": "Assembled",
+      "location": "",
+      "title": "Product Manager - AI Agents",
+      "url": "https://weworkremotely.com/remote-jobs/assembled-product-manager-ai-agents",
+      "id": "4823c091a4116eed545ce02050aba0ae3b626a65603ed610767e70eb642a83a5",
+      "core_requirements": [
+        {
+          "requirement": "Minimum of 3 years of product management experience in fast-growing tech environments (Enterprise SaaS experience strongly preferred)",
+          "category": "seniority",
+          "evidence": "~3-4 years of PM/TPM experience in tech since Jul/2022, including roles at Institute Atlântico and Nubank",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Passion for AI and experience either as a deep personal user and/or in work",
+          "category": "technical",
+          "evidence": "Experience in integrating AI/GenAI into products, including PoCs, LLM integration, and methodology for evaluating AI systems",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Collaborate with engineering and design teams to design and deliver impactful solutions. Provide clear requirements and direction, prioritize key features, and remove blockers",
+          "category": "leadership",
+          "evidence": "Experience in leading cross-functional teams, aligning stakeholders, and driving product delivery as PO, PM, and TPM",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Customer orientation, with a passion for translating business problems into product solutions",
+          "category": "domain",
+          "evidence": "Experience in working closely with customers and prospects to understand their problems and needs, and translating them into product solutions",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Technical fluency to drill into complex design and implementation challenges",
+          "category": "technical",
+          "evidence": "Strong technical skills, including SQL, Python, Spark/Scala, and experience in evaluating and integrating AI systems",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Minimum of 3 years of product management experience",
+        "candidate_has": "~3-4 years of PM/TPM experience in tech since Jul/2022",
+        "gap": false
+      }
+    },
+    {
+      "score": 55,
+      "score_ceiling": 60,
+      "ceiling_reason": "1 penalty: domain_gap_core.",
+      "justification": "O candidato Guilherme possui sólida experiência em gestão de produtos de tecnologia, incluindo em programas e projetos de alto impacto. Suas habilidades em metodologias ágeis, análise orientada a dados e escalabilidade de produtos móveis são relevantes para o escopo da vaga. No entanto, não há evidência clara de que ele tenha experiência específica em e-commerce e marketplace, especialmente em um ambiente de e-commerce de saúde/cannabis, que parece ser o domínio central desta vaga. Portanto, a pontuação é limitada a 55, na faixa de 'Skills transferíveis, mas GAP no CORE da vaga'.",
+      "main_gap": "Falta de experiência comprovada no domínio específico de e-commerce de saúde/cannabis.",
+      "company": "Dr. Ansay",
+      "location": "",
+      "title": "Senior Product Manager E-Commerce Experience (m/f/d)",
+      "url": "https://weworkremotely.com/remote-jobs/dr-ansay-senior-product-manager-e-commerce-experience-m-f-d",
+      "id": "5f6a1071cfb92b350834da820cd63a79cf78dd678901272a6ad38bd8615d9d79",
+      "core_requirements": [
+        {
+          "requirement": "Solid professional experience in product management, focusing on e-commerce and marketplace applications; ideally in a 10M+ ARR environment",
+          "category": "seniority",
+          "evidence": "Instituto Atlântico — Product Owner (Mar/2026–Atual): refatoração de image scanning para integração de IA; Instituto Atlântico — Project Manager (Out/2025–Fev/2026): programa com 4 startups e depois 2 times (8 pessoas); Instituto Atlântico — Technical Program Manager (Set/2024–Set/2025): coordenação de 3 times (~25 eng.) em programa global (15 teams/200+)",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Expertise in agile methodologies, data-driven analysis, and scaling mobile products",
+          "category": "technical",
+          "evidence": "Program & delivery management: PI Planning (SAFe), dependências, release management, risco, comunicação executiva. Data & evidência: SQL, Python, Spark/Scala, ETL e análise diagnóstica para decisão",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Inspire and guide teams through clear, goal-focused communication and a collaborative approach",
+          "category": "leadership",
+          "evidence": "Liderança de pessoas/processo: 1:1, feedback, PDI, realocação, facilitação de ritos (incluindo Scrum Master)",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Solid professional experience",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": false
+      }
+    },
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui uma sólida trajetória em gerenciamento de programas e produtos, com experiência em tecnologia, SaaS e monetização. Ele demonstra habilidades em liderança, comunicação, análise de sistemas e trabalho transversal. No entanto, há uma lacuna de seniority, pois a vaga pede 'Proven experience', enquanto o candidato possui ~3-4 anos de PM/TPM. Mesmo assim, ele parece capaz de se desenvolver rapidamente e ter um bom desempenho nesta função, com um nível de risco moderado.",
+      "main_gap": "Seniority - o candidato possui ~3-4 anos de experiência como PM/TPM, enquanto a vaga pede 'Proven experience' nesta área",
+      "company": "HubSpot",
+      "location": "USA",
+      "title": "Lead Program Manager, Pricing Governance",
+      "url": "https://jobicy.com/jobs/140463-lead-program-manager-pricing-governance",
+      "id": "0725cf5519cecf087bb4bccb0d880576e2faf1069c6aa0dbd19e1276b899aca4",
+      "core_requirements": [
+        {
+          "requirement": "Proven experience in program management, pricing strategy, revenue operations, or product operations, ideally within SaaS or usage-based business models",
+          "category": "domain",
+          "evidence": "Experience as PO, PM, TPM in technology industry, with exposure to SaaS/B2B products and monetization strategies",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Background partnering with Finance, Sales Operations, Deal Desk, Revenue Operations, and technical teams to align business decisions with execution",
+          "category": "domain",
+          "evidence": "Experience working cross-functionally with different teams, including operations and finance, to execute on business goals",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Strong leadership presence with the ability to influence without authority, build consensus across senior stakeholders, and bring structure and clarity to ambiguous, cross-functional environments",
+          "category": "leadership",
+          "evidence": "Demonstrated ability to lead and influence senior stakeholders, as evidenced by TPM and PM roles managing cross-functional programs and initiatives",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Systems thinking that connects pricing decisions to downstream impacts across people, process, and technology",
+          "category": "technical",
+          "evidence": "Experience in applying structured methods and frameworks to analyze and optimize complex systems, as shown in the candidate's background in IA and analytical approaches",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Excellence in strategic communication, translating complexity into clear insights for executives and diverse stakeholders",
+          "category": "other",
+          "evidence": "Strong communication skills, as evidenced by the candidate's ability to align stakeholders and deliver results in cross-functional environments",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Proven experience in program management, pricing strategy, revenue operations, or product operations",
+        "candidate_has": "~3-4 years of PM/TPM experience in technology",
+        "gap": true
+      }
+    },
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato tem uma ótima base técnica e experiência em liderança de times, alinhamento de stakeholders e entrega de projetos, demonstrando competências relevantes para a vaga. No entanto, o gap de seniority (3-4 anos em PM/TPM vs 10+ anos esperados) resulta em um score máximo de 65, uma vez que a vaga exige mais experiência específica em arquitetura digital do que o candidato possui atualmente.",
+      "main_gap": "Seniority gap - a vaga requer 10+ anos de experiência em arquitetura digital, enquanto o candidato tem cerca de 3-4 anos em funções de gerenciamento de produtos e programas.",
+      "company": "World Wide Technology",
+      "location": "USA",
+      "title": "Sr Manager, Digital Architecture",
+      "url": "https://jobicy.com/jobs/140443-sr-manager-digital-architecture",
+      "id": "370bb0ffa750119293b34dd11f1a3fca34c2f30affca077fcd47e9a50e1e5d89",
+      "core_requirements": [
+        {
+          "requirement": "Deep expertise in modern architectural practices, including cloud-native architecture, microservices, serverless design, and DevOps practices.",
+          "category": "technical",
+          "evidence": "Skills section lists several technical architecture competencies, including cloud-native, microservices, serverless, and DevOps. Candidate has relevant experience in these areas as a Technical Program Manager and Product Owner.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Extensive experience in leading and developing high-performing teams of architects, with a focus on mentoring and professional growth.",
+          "category": "leadership",
+          "evidence": "Candidate has experience managing teams of 25+ engineers as a Technical Program Manager, as well as experience managing people/process as a Project Manager and Product Owner.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Ability to align architectural decisions with business strategy, balancing technical innovation with business outcomes.",
+          "category": "domain",
+          "evidence": "Candidate has experience working closely with business goals and strategy as a Product Owner and Project Manager, including aligning technical decisions with organizational priorities.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Exceptional communication skills, with the ability to convey complex technical concepts to both technical and non-technical audiences.",
+          "category": "other",
+          "evidence": "Candidate's experience in leadership and cross-functional roles suggests strong communication abilities. Specific examples are not provided, but this is a common skill for senior-level technical managers.",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Experience working in a collaborative, cross-functional environment, with the ability to drive alignment across multiple teams and stakeholders.",
+          "category": "leadership",
+          "evidence": "Candidate's experience in program and project management roles, as well as his work as a Product Owner, demonstrates the ability to collaborate across functions and align diverse stakeholders.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "10+ years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 62,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui experiência relevante em gestão de produto, programa e projeto, com transição bem-sucedida da engenharia civil para a tecnologia. Ele demonstra habilidades sólidas em liderança, comunicação, análise de dados e aplicação prática de IA. No entanto, a seniority de ~3-4 anos em funções de PM/TPM fica aquém dos 7 anos mínimos exigidos pela vaga. Apesar disso, o perfil geral do candidato apresenta um bom fit com as responsabilidades e requisitos do cargo, com evidências que demonstram sua capacidade de atuar neste domínio.",
+      "main_gap": "Gap de senioridade de ~3 anos em relação ao mínimo exigido pela vaga.",
+      "company": "World Wide Technology",
+      "location": "USA",
+      "title": "Manager, Digital Architecture",
+      "url": "https://jobicy.com/jobs/140440-manager-digital-architecture",
+      "id": "35c3aa13ca065e2a0d2853292b1282a86c8ad51efd9361b7f9f10ffc9ad7594e",
+      "core_requirements": [
+        {
+          "requirement": "Strong understanding of modern architecture patterns, including cloud-native design, microservices, and distributed systems",
+          "category": "technical",
+          "evidence": "Diferencial em IA: uso prático com método — documentação como infraestrutura, governança humano-IA por papéis, avaliação por critérios/rúbricas e decomposição em pipelines especializados.",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Proven ability to lead and guide technical teams, driving alignment on architectural decisions and approaches",
+          "category": "leadership",
+          "evidence": "Experiência recente: **PO (Mar/2026–Atual)** em refatoração de image scanning para integração de IA; **PM (Out/2025–Fev/2026)** em programa de startups e gestão de times; **TPM (Set/2024–Set/2025)** em programa global de alta complexidade.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Ability to build strong relationships with clients, understanding their needs and delivering solutions that exceed expectations",
+          "category": "leadership",
+          "evidence": "Líder generalista de Product/Program/Project, com transição de engenharia civil para tecnologia e foco em clareza, estrutura e execução em cenários ambíguos. Opera na fronteira entre estratégia e operação: organiza escopo, alinha stakeholders e transforma risco em plano de entrega.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Excellent communication skills, capable of conveying complex technical concepts clearly to both technical and business audiences",
+          "category": "other",
+          "evidence": "Líder generalista de Product/Program/Project, com transição de engenharia civil para tecnologia e foco em clareza, estrutura e execução em cenários ambíguos.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Deep understanding of industry trends, emerging technologies, and best practices in architecture and software engineering",
+          "category": "technical",
+          "evidence": "Diferencial em IA: uso prático com método — documentação como infraestrutura, governança humano-IA por papéis, avaliação por critérios/rúbricas e decomposição em pipelines especializados.",
+          "has_evidence": "partial"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "A minimum of 7 years' progressive experience in a related field",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 55,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui experiência relevante em papéis de liderança e gestão de produto/programa, demonstrando habilidades técnicas e de liderança. No entanto, há uma lacuna de seniority para o nível de Arquiteto Digital Sênior, que exige pelo menos 8 anos de experiência em engenharia de software. Com cerca de 3-4 anos em papéis de PM/TPM na tecnologia, o candidato não atende plenamente aos requisitos de seniority dessa vaga, ficando abaixo do nível esperado. Portanto, o score máximo permitido é 65.",
+      "main_gap": "Lacuna de seniority em engenharia de software, com cerca de 3-4 anos de experiência em gestão de produto/programa, ao invés dos 8+ anos exigidos para o cargo de Arquiteto Digital Sênior.",
+      "company": "World Wide Technology",
+      "location": "USA",
+      "title": "Sr. Digital Architect",
+      "url": "https://jobicy.com/jobs/140442-sr-digital-architect",
+      "id": "95700b1ddbcc8d44ba9c4d703c9c0ceb77ed1b581dce1417dbb3b3b1a1b04833",
+      "core_requirements": [
+        {
+          "requirement": "8+ years of experience in software engineering",
+          "category": "seniority",
+          "evidence": "~3-4 years as PM/TPM in technology (since Jul/2022), plus 4+ years in construction/operations management (2016-2019)",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "3+ years of experience in architecting distributed systems, mobile applications, and/or web applications",
+          "category": "technical",
+          "evidence": "Relevant experience: PO role in refactoring image scanning with IA integration, TPM role in global high-complexity program, and PM role in startup program management",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Experience leading project teams of engineers and developers through the delivery of complex software implementations",
+          "category": "leadership",
+          "evidence": "Experience as TPM leading ~25 engineers in global program, as PM managing 4 startups and 2 internal teams, and as PO responsible for user stories, ceremonies, and team alignment",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Prior experience presenting complex technical concepts to external clients and C-Suite level executives",
+          "category": "leadership",
+          "evidence": "Experience presenting PoCs, research, and methodology to stakeholders, including executive-level, as part of PO and PM roles",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Highly proficient in a variety of technologies vertically and horizontally. Being proficient in multiple stacks is preferred",
+          "category": "technical",
+          "evidence": "Demonstrated proficiency across product discovery, delivery management, data/analytics, and AI/ML engineering in various roles, with skills in SQL, Python, Spark/Scala, and LLM integration",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "8+ years of experience in software engineering",
+        "candidate_has": "~3-4 years in PM/TPM tech roles, plus 4+ years in construction/operations",
+        "gap": true
+      }
+    },
+    {
+      "score": 50,
+      "score_ceiling": 55,
+      "ceiling_reason": "2+ penalties: domain_gap_core, seniority_gap.",
+      "justification": "O candidato possui experiência relevante em gestão de produtos e programas, incluindo liderança de equipes e habilidades técnicas, como uso de IA. No entanto, ele não atende aos requisitos mínimos de seniority (15+ anos) e não possui experiência direta em arquitetura de sistemas escaláveis, que é o core da vaga. Embora seu perfil possa ser melhorado com o tempo, no momento ele não se encaixa plenamente no escopo desta oportunidade.",
+      "main_gap": "O candidato não possui experiência direta em arquitetura de sistemas escaláveis, que é o domínio central desta vaga, e também tem uma lacuna de seniority (apenas ~3 anos em PM/TPM, quando a vaga requer 15+).",
+      "company": "World Wide Technology",
+      "location": "USA",
+      "title": "Lead Digital Architect",
+      "url": "https://jobicy.com/jobs/140441-lead-digital-architect",
+      "id": "7ef16164859925a4b91cbe5b81880397c49ff9616fd6c308e3626e374736b2cb",
+      "core_requirements": [
+        {
+          "requirement": "A minimum of 15 years' progressive experience in a related field required",
+          "category": "seniority",
+          "evidence": "Candidate has ~3 years of experience in PM/TPM tech roles, which is not sufficient to meet this requirement. Additionally, the candidate has prior experience in construction (2016-2019), which is not directly relevant to this role.",
+          "has_evidence": "false"
+        },
+        {
+          "requirement": "Designs and develops system architecture for scalable system",
+          "category": "technical",
+          "evidence": "The candidate has experience with product delivery and management, but does not have direct evidence of designing and developing system architecture.",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Provides technical leadership to several teams, including multiple Architects and Technical Leads on WWT Digital led projects",
+          "category": "leadership",
+          "evidence": "The candidate has experience leading teams and managing projects, but does not have direct experience leading multiple architects and technical leads.",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Highly proficient in a variety of technologies vertically and horizontally. Being proficient in multiple stacks is preferred",
+          "category": "technical",
+          "evidence": "The candidate has experience with a variety of technologies, including IA, data, and software development. However, there is no explicit mention of being highly proficient in multiple technology stacks.",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Ability to plan and manage at both strategic and tactical levels to consistently meet/exceed planned objectives",
+          "category": "leadership",
+          "evidence": "The candidate has experience in product and program management, which involves planning and managing at both strategic and tactical levels. The evidence in the profile suggests the candidate can meet this requirement.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "15+ years",
+        "candidate_has": "~3 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato apresenta experiência relevante em papéis de gerenciamento de produto e programa, incluindo habilidades-chave como definição de visão estratégica, gerenciamento do ciclo de vida do produto, análise de mercado e relacionamento com stakeholders. No entanto, o candidato possui cerca de 3-4 anos de experiência em PM/TPM, enquanto a vaga exige um nível de sênior. Dessa forma, o candidato possui skills transferíveis, mas há um gap de seniority que limita o score máximo a 65.",
+      "main_gap": "O principal gap é a diferença de seniority entre o candidato (cerca de 3-4 anos em papéis de PM/TPM) e o nível sênior exigido pela vaga.",
+      "company": "RD Station",
+      "location": "Brazil",
+      "title": "RD Station - Pessoa Product Manager Senior- Dados de Negócio",
+      "url": "https://himalayas.app/companies/rd-station/jobs/rd-station-pessoa-product-manager-senior-dados-de-negocio-2198449909",
+      "id": "2d7f83e946274bce0d6b986294a3f0552c8f6d396fe5d70c4e93bc5ed8fc9736",
+      "core_requirements": [
+        {
+          "requirement": "Definir e comunicar a visão estratégica do produto, alinhando-a com as diretrizes da RD e das áreas de Produto & Engenharia.",
+          "category": "leadership",
+          "evidence": "Experiência recente como PO (Mar/2026–Atual), PM (Out/2025–Fev/2026) e TPM (Set/2024–Set/2025), com histórico de alinhar visão de produto a stakeholders e entregar valor",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Gerenciar o ciclo de vida completo do produto, desde a concepção, desenvolvimento, lançamento até o acompanhamento pós-lançamento.",
+          "category": "domain",
+          "evidence": "Experiência em gerenciar ciclo de vida de produtos de dados e tecnológicos complexos, com foco em resultados mensuráveis",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Realizar análises de mercado e benchmarking para identificar boas práticas, oportunidades e tendências que possam ser incorporadas ao produto.",
+          "category": "technical",
+          "evidence": "Habilidade comprovada em realizar pesquisas de mercado, benchmarking e análise de dados para embasar decisões",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Construir e manter relacionamentos sólidos com stakeholders internos, como engenheiros de dados, cientistas de dados e áreas de negócio, garantindo alinhamento e colaboração.",
+          "category": "leadership",
+          "evidence": "Experiência em liderar equipes multidisciplinares e construir relacionamentos colaborativos com diferentes áreas",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Definir, monitorar e garantir o atingimento de metas e KPIs que reflitam o sucesso do produto e os objetivos de negócio.",
+          "category": "domain",
+          "evidence": "Histórico de definir, monitorar e atingir metas e KPIs que refletem o sucesso de produtos e objetivos de negócio",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Senior",
+        "candidate_has": "~3-4 anos em papéis PM/TPM em tecnologia",
+        "gap": true
+      }
+    },
+    {
+      "score": 92,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato Guilherme Maia possui um perfil altamente qualificado para a vaga de Technical Project Manager I na empresa dv01. Ele tem uma sólida experiência de ~3-4 anos em cargos de gestão de projetos e programas (PM, TPM, PO) na área de tecnologia, incluindo trabalhos relevantes em fintech e empresas de IA. Suas habilidades técnicas, de liderança e de entrega de projetos complexos estão bem alinhadas com os requisitos da vaga, conforme evidenciado em seu histórico profissional. Além disso, ele possui um diferencial em IA, o que é um ativo importante para essa posição. O único ponto a ser considerado é que a vaga menciona 1-3 anos de experiência, enquanto o candidato possui ~3-4 anos, mas isso não é um gap significativo. Portanto, atribuo um score de 92 para essa candidatura.",
+      "main_gap": "Nenhum gap significativo identificado, o perfil do candidato se alinha muito bem com os requisitos da vaga.",
+      "company": "dv01",
+      "location": "United States",
+      "title": "Technical Project Manager I",
+      "url": "https://himalayas.app/companies/dv01/jobs/technical-project-manager-i",
+      "id": "b717e4a400a6a1a021ca950fe642a94accf4e29a9d4481dfe4bff4afc7b6e8ce",
+      "core_requirements": [
+        {
+          "requirement": "Manage all lifecycle stages for a project post ideation with responsibility for ensuring that deliverables are understood and releases are delivered on time",
+          "category": "leadership",
+          "evidence": "Extensive experience as a PM, TPM and PO managing projects and programs from ideation to delivery, including responsibility for defining success metrics, aligning stakeholders, and delivering on time (see 'Experiências Chave')",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Partner with engineering teams to help translate technical requirements and system dependencies into actionable project plans, ensuring workstreams stay aligned and progress is clearly communicated across teams",
+          "category": "leadership",
+          "evidence": "Experience working closely with engineering teams to align technical requirements, dependencies, and project plans, ensuring cross-functional collaboration and clear communication (see 'Experiências Chave' and 'Skills Principais')",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Leverage AI-powered tools to improve project coordination, including synthesizing updates, generating documentation, and helping surface risks or dependencies across technical workstreams to support more efficient execution",
+          "category": "technical",
+          "evidence": "Demonstrated experience in applying AI/ML technologies to improve project management, including documentation, risk identification, and process optimization (see 'Diferencial em IA' and 'Experiências Chave')",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Connect the dots of complex workflows in a fast-paced environment. You will be responsible for engaging key stakeholders across business, technology, and product while working closely with software engineers to build consensus, resolve conflicts, and ensure smooth execution",
+          "category": "leadership",
+          "evidence": "Strong track record in managing complex, cross-functional projects and programs, navigating stakeholder alignment, conflict resolution, and ensuring smooth delivery in fast-paced environments (see 'Experiências Chave')",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Ensure the quality of project deliverables. You will work with all stakeholders to establish quality standards and monitor adherence to quality in day-to-day execution",
+          "category": "leadership",
+          "evidence": "Experience in defining and monitoring quality standards, working closely with stakeholders to ensure adherence and high-quality project deliverables (see 'Experiências Chave')",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "1-3 years of work experience successfully managing the launch of projects from end to end",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": false
+      }
+    },
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O perfil de Guilherme é bastante alinhado com os requisitos do cargo de Agile Delivery Manager, com experiência relevante em papéis de gestão de produto, programa e projeto. Ele demonstra habilidades sólidas em liderança, entrega digital e resolução de problemas em ambientes complexos. No entanto, sua experiência em PM/TPM de aproximadamente 3-4 anos fica um pouco abaixo do esperado para este cargo, que normalmente requer 4-5 anos de senioridade. Portanto, a candidatura merece um score alto, mas com uma penalidade leve devido ao gap de senioridade.",
+      "main_gap": "Gap de 1 ano na senioridade esperada para este cargo de Agile Delivery Manager",
+      "company": "Gousto",
+      "location": "",
+      "title": "Group Agile Delivery Manager",
+      "url": "https://remotefirstjobs.com/companies/gousto/jobs/group-agile-delivery-manager-729609",
+      "id": "98e5c2bbf9333ee171cce2e7e5b9c45f255af51a35cbd9c35aa67124232d58b9",
+      "core_requirements": [
+        {
+          "requirement": "Experience managing complex, cross-team programmes and initiatives",
+          "category": "leadership",
+          "evidence": "Extensive experience in TPM (Technical Program Manager) and PM (Project Manager) roles at the Institute Atlântico, leading complex global programs with multiple teams and stakeholders",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Background delivering digital products and services across the full lifecycle from idea to optimisation",
+          "category": "domain",
+          "evidence": "Significant experience as a PO (Product Owner) and PM focused on digital product delivery and optimization, including work on image scanning, startups, and IA integration",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Ability to lead and influence without direct line authority",
+          "category": "leadership",
+          "evidence": "Demonstrated ability to lead through influence, clarity, and credibility, as evidenced by the PO, PM, and TPM roles where Guilherme led cross-functional teams and stakeholders without direct line management",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Confidence in identifying and resolving delivery problems within teams or systems",
+          "category": "leadership",
+          "evidence": "Strong track record of identifying and resolving delivery problems, as shown by the improvements made during the TPM role, such as reducing weekly review time from 40 to 10 minutes through internal automation",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Ability to create structure in ambiguous environments",
+          "category": "leadership",
+          "evidence": "Guilherme's background demonstrates the ability to bring structure and clarity to ambiguous environments, as evidenced by his work as a PO, PM, and TPM, including the reorganization of a component-based system into a product-based one",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Experience managing complex, cross-team programmes and initiatives",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 75,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato possui uma sólida experiência em papéis de gestão de produto e programa, incluindo atuação em iniciativas envolvendo IA. Sua familiaridade com metodologias ágeis, liderança de equipes, análise de dados e práticas de governança para IA o tornam um bom candidato para a vaga de Program Manager AI Programs da Airtable. No entanto, a lacuna está no conhecimento mais aprofundado da plataforma Airtable e suas aplicações verticais, o que pode demandar um período de adaptação e rampup.",
+      "main_gap": "Conhecimento mais aprofundado da plataforma Airtable e suas aplicações verticais.",
+      "company": "Airtable",
+      "location": "",
+      "title": "Program Manager AI Programs",
+      "url": "https://remotefirstjobs.com/companies/airtable/jobs/program-manager-ai-programs-729572",
+      "id": "6443556f30449b57aa66e6fe9faeff95b1cfd2124c036566f93373f53af4d39e",
+      "core_requirements": [
+        {
+          "requirement": "Develop and operationalize industry- and function-specific AI enablement paths",
+          "category": "domain",
+          "evidence": "Experiência recente em PO, PM e TPM, com foco em integração de IA em diferentes contextos (image scanning, programa de startups, programa global de alta complexidade). Conhecimento prático em metodologia de IA, incluindo governança humano-IA, avaliação por critérios e decomposição em pipelines especializados.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Lead In-Person & Cohort-Based Activation",
+          "category": "leadership",
+          "evidence": "Experiência em liderança de equipes, facilitação de cerimônias e ritos, além de design e operacionalização de programas de capacitação.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Support Emerging AI Sub-Communities",
+          "category": "domain",
+          "evidence": "Experiência em gestão de comunidades e programas voltados para diferentes grupos-alvo, como startups, aceleradoras e estudantes.",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Data-Informed",
+          "category": "technical",
+          "evidence": "Conhecimento em SQL, Python, Spark/Scala, ETL e análise diagnóstica para tomada de decisão. Também possui experiência em métricas de engajamento e ativação relacionadas a adoção de IA.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Confident Facilitator & Presenter",
+          "category": "leadership",
+          "evidence": "Experiência em apresentações, facilitação de workshops e programas de capacitação, incluindo habilidades de comunicação e simplificação de conceitos complexos.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "não especificado",
+        "candidate_has": "~3-4 anos em papéis de PM/TPM em tecnologia",
+        "gap": false
+      }
+    }
+  ],
+  "eliminated_jobs": [
+    {
+      "id_hash": "badca93febbeb1ae27e529aa4b12ade19e3857c6c570c2a67538dd0c38da457c",
+      "id": "badca93febbeb1ae27e529aa4b12ade19e3857c6c570c2a67538dd0c38da457c",
+      "source": "jobicy",
+      "title": "Consultant, Senior (EPM)",
+      "company": "Infor",
+      "location": "USA",
+      "salary": null,
+      "jd_full": "<h2> General information </h2><p> Country United States City Remote Location Job ID 48310 Department Infor Consulting Services Experience Level MID_SENIOR_LEVEL Employment Status FULL_TIME Workplace Type Remote </p><h2> Description &amp; Requirements </h2><p> Infor is seeking an experienced and analytical EPM (Enterprise Performance Management Consultant) to support customers in designing, implementing, and optimizing Infor EPM solutions. This role blends financial expertise with hands-on implementation work and requires practiced FP&amp;A fundamentals, budgeting leadership, consolidation experience, and the ability to work directly with customers to deliver high quality EPM outcomes. <br />A Day in the Life Typically Includes: </p><ul><li>Lead or support end to end budgeting and forecasting solution design within Infor EPM Budgeting &amp; Planning. </li><li>Develop and refine complex financial models using Excel and Infor EPM Modeling Services. </li><li>Support multinational financial consolidation using Infor EPM Financial Consolidation, including intercompany eliminations, ownership structures, and consolidation logic. </li><li>Configure and deploy EPM components using the Infor EPM Platform. </li><li>Facilitate requirements gathering, solution design, functional specifications, testing, validation, and customer enablement. </li><li>Deliver customer training on Budgeting, Planning, Consolidation, Reporting, and other EPM components. </li></ul><p>Basic Qualifications: </p><ul><li>Bachelor’s degree in Accounting or Finance. </li><li>Experience in FP&amp;A, including financial modeling, planning cycles, and reporting. </li><li>Experience leading the budget process and planning forecasting for multiple business units within the organization. </li><li>Manufacturing or multi-industry FP&amp;A experience. </li><li>Experience with multinational financial consolidation, preferably using a dedicated tool. </li><li>Proficiency building complex financial models in Excel or planning technologies. </li><li>Experience in gathering and translating business requirements. </li><li>Consulting or customer-facing implementation experience. </li><li>Legal authorization to work permanently in the United States for any employer without requiring a visa transfer or sponsorship now or in the future. </li><li>Ability to travel up to 50% throughout North America (US and Canada), based on project needs. </li></ul><p>Preferred Qualifications: </p><ul><li>Corporate accounting experience. </li><li>Hands-on experience with any EPM application. (e.g EPM Budgeting &amp; Planning, EPM Financial Consolidation, Self-Service Reporting) </li><li>Experience implementing or supporting other EPM solutions (Hyperion, Cognos, TM1, Anaplan, OneStream, Adaptive, etc.). </li></ul><p>Remote (Dallas, TX, Atlanta, GA) <br><strong>About Infor</strong><br>Infor is where ambition meets impact. Join a global community of bold thinkers and innovators, where your expertise doesn’t just solve problems. it shapes industries, unlocks opportunities, and creates real-world impact for billions of people. At Infor, you’re not just building a career. you’re helping to build what’s next.<br>Infor is a global leader in business cloud software products for companies in industry specific markets. Infor builds complete industry suites in the cloud and efficiently deploys technology that puts the user experience first, leverages data science, and integrates easily into existing systems. Over 60,000 organizations worldwide rely on Infor to help overcome market disruptions and achieve business-wide digital transformation.<br>For more information visit <a href=\"https://www.infor.com/\" rel=\"nofollow ugc noopener\" target=\"_blank\">www.infor.com</a><br /><strong>Our Values</strong><br>At Infor, we strive for an environment that is founded on a business philosophy called <a href=\"https://www.kochinc.com/about/business-philosophy\" rel=\"nofollow ugc noopener\" target=\"_blank\">Principle Based Management</a>™ (PBM™) and eight Guiding Principles: integrity, stewardship &amp; compliance, transformation, principled entrepreneurship, knowledge, humility, respect, self-actualization.<br>We have a relentless commitment to a culture based on PBM™. Informed by the principles that allow a free and open society to flourish, PBM™ prepares individuals to innovate, improve, and transform while fostering a healthy, growing organization that creates long-term value for its clients and supporters and fulfillment for its employees.<br>Infor is an Equal Opportunity Employer. We are committed to creating a diverse and inclusive work environment. Infor does not discriminate against candidates or employees because of their sex, race, gender identity, disability, age, sexual orientation, religion, national origin, veteran status, or any other protected status under the law. If you require accommodation or assistance at any time during the application or selection processes, please submit a request by following the directions located in the <a href=\"https://www.infor.com/about/careers/faq\" rel=\"nofollow ugc noopener\" target=\"_blank\">FAQ section</a>.<br><strong>Fraud Awareness</strong><br>We have been made aware of unauthorized individuals posing as Infor recruiters, including some who have made fraudulent offers of employment. Please read our <a href=\"https://dam.infor.com/api/public/content/b45f298e1ab44b84ac898d759b2c21f7?v=3994f5e9\" rel=\"nofollow ugc noopener\" target=\"_blank\">guidelines </a>and protect yourself from recruitment scams.<br><strong>Fraud Privacy Policy</strong><br>We value your privacy at Infor. You may access our privacy policy <a href=\"https://www.infor.com/about/privacy\" rel=\"nofollow ugc noopener\" target=\"_blank\">here</a>.</p><p>This employer uses E-Verify. Please visit <a href=\"https://www.e-verify.gov/sites/default/files/everify/posters/EVerifyParticipationPoster.pdf\" target=\"_blank\" rel=\"nofollow ugc noopener\">this website</a> for additional information.</p><p>E-Verify Illinois: Click <a href=\"https://urldefense.com/v3/__https:/labor.illinois.gov/content/dam/soi/en/web/idol/employers/posters/e-verify/Right*20to*20Privacy*20in*20the*20Workplace_English.pdf__;JSUlJSU!!HKYIif90!154lf71nclZEcQp1aQVd0fgvIsnniFuE5GJHmtEYO7ZLWsxqLIIB4UyXjjkJevaTR4hT6miCGA2MoD9_ur7IME9KtUTr0Ks%24\" target=\"_blank\" rel=\"nofollow ugc noopener\">here</a>, <a href=\"https://urldefense.com/v3/__https:/labor.illinois.gov/content/dam/soi/en/web/idol/employers/posters/e-verify/Right*20to*20Privacy*20in*20the*20Workplace_Spanish.pdf__;JSUlJSU!!HKYIif90!154lf71nclZEcQp1aQVd0fgvIsnniFuE5GJHmtEYO7ZLWsxqLIIB4UyXjjkJevaTR4hT6miCGA2MoD9_ur7IME9K4WDnGhk%24\" target=\"_blank\" rel=\"nofollow ugc noopener\">aquí</a>, or <a href=\"https://urldefense.com/v3/__https:/labor.illinois.gov/content/dam/soi/en/web/idol/employers/posters/e-verify/Right*20to*20Privacy*20in*20the*20Workplace_Polish.pdf__;JSUlJSU!!HKYIif90!154lf71nclZEcQp1aQVd0fgvIsnniFuE5GJHmtEYO7ZLWsxqLIIB4UyXjjkJevaTR4hT6miCGA2MoD9_ur7IME9KWVMifxU%24\" target=\"_blank\" rel=\"nofollow ugc noopener\">tu</a>.</p>",
+      "url": "https://jobicy.com/jobs/140452-consultant-senior-epm",
+      "collected_at": "2026-03-11T09:31:14.827994+00:00",
+      "date": "2026-03-10T17:53:52+00:00",
+      "filter_reason": "localização"
+    },
+    {
+      "id_hash": "8ba2c996f501172836a581bbd90f7593e547c97067bc0415e31bde7c99c7d95d",
+      "id": "8ba2c996f501172836a581bbd90f7593e547c97067bc0415e31bde7c99c7d95d",
+      "source": "jobicy",
+      "title": "Sr. Environmental Project Manager &amp;#8211; PFAS",
+      "company": "APTIM",
+      "location": "USA",
+      "salary": "150000-175000 USD yearly",
+      "jd_full": "<p><strong>Job Overview:</strong></p><p>APTIM, a full-service multidiscipline environmental and engineering consulting firm, is currently seeking an experienced, goal-oriented <strong>PFAS Project Director/Manager</strong> with proven marketing skills to continue to expand and drive our growth in the remediation of constituents impacted by PFAS and other Emerging Contaminants. The qualified candidate will collaborate with our in-house Subject Matter Experts across our various Business Lines and Business Units to foster growth and collaboration as we seek to further leverage our PFAS expertise on existing contracts as well as to generate new opportunities with both Federal and Private-sector clients, including but not limited to airports, manufacturers, and drinking water purveyors. The successful candidate will be highly motivated with demonstrated experience and a successful track record of driving market growth in PFAS-related pursuits. Office/Geographic location is flexible.</p><p><strong>Key Responsibilities/Accountabilities:</strong></p><ul>\n<li>Function as seller-doer, develops and maintains long-lasting and meaningful relationships with clients and industry teaming partners</li>\n<li>Possess a solid understanding of PFAS regulatory trends and commercial client strategies for risk management, and how to convert such trends into business opportunities</li>\n<li>Utilize knowledge and work experience to develop business development strategies to meet client needs</li>\n<li>Support Program and Capture Managers with Task Order bids; lead captures for PFAS pursuits</li>\n<li>Ability to understand and communicate risks to leadership and within project execution teams</li>\n<li>Experience in tracking and capitalizing on federal funding as related to PFAS-related opportunities</li>\n<li>Effectively communicate APTIM&#8217;s technical prowess in the remediation of PFAS-impacted constituents to stakeholders, including representation of the company at conferences, workshops, and other professional forums</li>\n</ul><p><strong>Basic Qualifications:</strong></p><ul>\n<li>Bachelor&#8217;s degree or Master&#8217;s degree in a scientific or engineering discipline</li>\n<li>Minimum of 15 years&#8217; of progressively more responsible Program or Project Management level experience, including 3 years in a business development or similar role</li>\n<li>Has in-depth functional expertise and broad business knowledge related to PFAS</li>\n<li>Proven track record of client marketing and development on PFAS/Emerging Contaminant related projects</li>\n<li>Well-developed interpersonal and communication skills (verbal, written, proposal and presentation)</li>\n<li>Experienced in proposal development and management (scope, budget, schedule).</li>\n<li>Self-starter with strong cognitive problem-solving abilities</li>\n<li>Professional registration/certification/licensure as relevant to degree or discipline preferred</li>\n</ul><p><strong>About APTIM</strong></p><p>APTIM enhances the quality of the environment, wellbeing of people, resilience of communities, and opportunity for employees to make a difference, not just a living. A leading professional solutions firm, we specialize in environmental, sustainability, resilience, and infrastructure solutions. Our team of experts provide these integrated solutions for forward-thinking government agencies, commercial and industrial clients, and energy customers. Together, we create sustainable and resilient communities for all.</p><p>What you can expect from APTIM:</p><ul>\n<li>Work that is worthy of your time and talent</li>\n<li>Respect and flexibility to live a full life at work and at home</li>\n<li>Dogged determination to deliver for our clients and communities</li>\n<li>A voice in making our company better</li>\n<li>Investment into your personal and professional development</li>\n</ul><p>As of the date of this posting, a good faith estimate of the current pay range for this position is $150K to $175K yearly. Compensation depends on several factors including: experience, education, key skills, geographic location of the position, client requirements, external market competitiveness, and internal equity among other employees within APTIM.</p><p><strong>Employee Benefits</strong></p><p>APTIM Environmental &amp; Infrastructure LLC, is committed to providing an extensive range of benefits that protect and promote the health and financial well-being of our employees and their families through the APTIM Benefits Marketplace <a href=\"https://aptim.makeityoursource.com/\" rel=\"nofollow ugc noopener\" target=\"_blank\">https://aptim.makeityoursource.com/</a>.</p><ul>\n<li>Medical, vision, and dental insurance: Through the marketplace, our employees can choose benefits from five metallic levels and 10+ carriers to find the right benefits that work for them in their location.</li>\n<li>Life insurance</li>\n<li>Short-term and long-term disability insurance</li>\n<li>Paid holidays, vacation, and sick leave (eligibility based on company policy and applicable law)</li>\n<li>401(k) APTIM offers three 401k plans through the Aon Pooled Employer Plan (PEP). The specific plan you are eligible for depends on the business unit you are in. The details of the largest plan are found here:</li>\n<ul>\n<li><a href=\"https://aptim.makeityoursource.com/getattachment/427b25cf-c3d5-43c1-97af-a3c3f474a136/APTIM-Corp-401(k)-Guide.pdf\" rel=\"nofollow ugc noopener\" target=\"_blank\">APTIM 401(k) Guide</a></li>\n<li><a href=\"https://aptim.makeityoursource.com/helpful-documents\" rel=\"nofollow ugc noopener\" target=\"_blank\">APTIM &#8211; Helpful Documents</a></li>\n</ul>\n</ul><p><strong>Watch our video:<br></strong><a href=\"https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DcCRFRS4ZZjg&amp;data=05%7C02%7Cnorwood.banon%40aptim.com%7C8f0a469eceaa48383fa308dd8f25a189%7C722bb117d3964e7c982b8c9f8038294d%7C0%7C0%7C638824113971626225%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=CIO7lYTFhMUBWAvVPBeUL4U0hTsScP5cbUTbdrqjdAU%3D&amp;reserved=0\" rel=\"nofollow ugc noopener\" target=\"_blank\"><strong>About APTIM &#8211; In Pursuit of Better</strong></a></p><p><strong>#LI-Remote #LI-BS1</strong></p>",
+      "url": "https://jobicy.com/jobs/140436-sr-environmental-project-manager-pfas-2",
+      "collected_at": "2026-03-11T09:31:14.828054+00:00",
+      "date": "2026-03-10T17:53:31+00:00",
+      "filter_reason": "localização"
+    }
+  ]
+}
