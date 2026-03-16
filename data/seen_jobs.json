@@ -2926,5 +2926,113 @@
     "source": "ashby",
     "title": "Staff Product Manager - Benefits",
     "company": "Deel"
+  },
+  "2218cbc0a6c001ed475e2c159e0573cbea3fdccec5b45c7fda6fc196e34df61a": {
+    "first_seen": "2026-03-16",
+    "source": "openai_web_search",
+    "title": "Senior Product Manager",
+    "company": "Serasa Experian"
+  },
+  "1aa8702b57cb1fb858d1d2ecb6ffe60f393cb48eaf3598b774897d0b4aa208cb": {
+    "first_seen": "2026-03-16",
+    "source": "openai_web_search",
+    "title": "Product Manager",
+    "company": "Hotmart"
+  },
+  "d91c92d90aec16c3ba6ca67590e37ada1bfe383fce65f3f0323a5bf9a5dce3ee": {
+    "first_seen": "2026-03-16",
+    "source": "remoteok",
+    "title": "Senior IT Project Manager",
+    "company": "Precision Medicine Group"
+  },
+  "ae62cc6792022b420ff053d376cd93350698f15c984167f123bfa24141cadbc9": {
+    "first_seen": "2026-03-16",
+    "source": "remoteok",
+    "title": "Technical Product Manager",
+    "company": "LaunchBrightly"
+  },
+  "21f27461091d8ecb6d5be9c5e7045c022ffe6d2c59a20210f186f22def40b530": {
+    "first_seen": "2026-03-16",
+    "source": "himalayas",
+    "title": "Solutions Delivery Manager",
+    "company": "Brown & Brown Insurance"
+  },
+  "1caf5720fe1d7f481fd0db22107118ddaa1ea7f99e65e8f93cababe52e29dde8": {
+    "first_seen": "2026-03-16",
+    "source": "jobscollider",
+    "title": "Digital Product Manager",
+    "company": "SquareTrade"
+  },
+  "dd582190af5e55e6b390287426aa333495fe7c8e1524269a2adc68e44e7b6559": {
+    "first_seen": "2026-03-16",
+    "source": "jobscollider",
+    "title": "Blade Repair Project Manager",
+    "company": "SkySpecs"
+  },
+  "fb489b7e5ead17e90818ef579259b96b0396d4ee4102fe16d9bacdc603bdba0a": {
+    "first_seen": "2026-03-16",
+    "source": "jobscollider",
+    "title": "Product Manager",
+    "company": "Belong Health"
+  },
+  "033b0bd289d4b8859438b0374caf5283aaa602af1d7af7abc112da323c3963dd": {
+    "first_seen": "2026-03-16",
+    "source": "jobscollider",
+    "title": "Senior Product Manager",
+    "company": "SI Group"
+  },
+  "cc207df23f3d598cede24bfaac36ede0ce20308bdafe5cd12571a89c3a51076e": {
+    "first_seen": "2026-03-16",
+    "source": "jobscollider",
+    "title": "Data Product Manager Firmographics",
+    "company": "Findem"
+  },
+  "92f6e5fd319d12373919965fd646f8f8cdd45ca9eab7002bffbd9dd962908ce3": {
+    "first_seen": "2026-03-16",
+    "source": "jobscollider",
+    "title": "Senior Client Services Project Manager CX",
+    "company": "NiCE"
+  },
+  "2c51371c2a90e8e2c755580d7b88ca80331800cff0d16e4f4570d5e71b66de37": {
+    "first_seen": "2026-03-16",
+    "source": "jobscollider",
+    "title": "Lead Technical Product Manager",
+    "company": "EdReports"
+  },
+  "bacef74967dea7dc6c5c79facb10878a6cdf9b334f7f6e56062439c57c18329e": {
+    "first_seen": "2026-03-16",
+    "source": "jobscollider",
+    "title": "Operations Program Manager",
+    "company": "Aescape"
+  },
+  "d02a7bba4636d5ec90264ac16b2c4a08dc1de5392dffde1a1274ac22bdd81ae5": {
+    "first_seen": "2026-03-16",
+    "source": "greenhouse",
+    "title": "Professional Services, Program Manager",
+    "company": "GitLab"
+  },
+  "ca6d48d0d1db60375f8508f55e3169bc27205e87c5e221457f113d61efcf6547": {
+    "first_seen": "2026-03-16",
+    "source": "greenhouse",
+    "title": "Product Manager, WhatsApp",
+    "company": "Klaviyo"
+  },
+  "dd587edad8b3e2342ea2c6c312d25755fe98acafc1bbebbc9b54808ba9d8e6df": {
+    "first_seen": "2026-03-16",
+    "source": "greenhouse",
+    "title": "Sr. Technical Program Manager, Professional Services",
+    "company": "Databricks"
+  },
+  "5faa5d9158e2f01c410f8c7540103c51e3900cf8aed49ccb845c5562382e45c4": {
+    "first_seen": "2026-03-16",
+    "source": "greenhouse",
+    "title": "Forward Deployed Product Manager, Enterprise",
+    "company": "Scale AI"
+  },
+  "bf4ea56e8c4be9dfa3e6983a1fe43cf63914719faad117858fdf319a615d412c": {
+    "first_seen": "2026-03-16",
+    "source": "greenhouse",
+    "title": "Staff Product Manager, Pricing",
+    "company": "Faire"
   }
 }
