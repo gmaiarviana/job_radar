@@ -1,7 +1,109 @@
 {
-  "generated_at": "2026-03-16T09:55:18.301895+00:00",
-  "total": 37,
+  "generated_at": "2026-03-17T09:47:38.546532+00:00",
+  "total": 39,
   "jobs": [
+    {
+      "score": 100,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato Guilherme Maia possui experiência DIRETA no domínio central da vaga de Product Manager na Airbnb. Ele tem uma sólida trajetória em papéis de gerenciamento de produto, programa e projeto, atuando em cenários complexos e ambíguos. Suas habilidades em liderança de pessoas e processos, análise de dados e entrega de alto desempenho se alinham perfeitamente com as responsabilidades da vaga. Além disso, a experiência prévia em contextos internacionais e a familiaridade com metodologias ágeis são vantagens adicionais.",
+      "main_gap": "Não há gaps ou riscos significativos nesta candidatura.",
+      "company": "Airbnb",
+      "location": "Cidade do México, CDMX",
+      "title": "Product Manager, LATAM (Mexico City, Mexico)",
+      "url": "https://br.linkedin.com/jobs/view/product-manager-latam-mexico-city-mexico-at-airbnb-4298289315",
+      "id": "b4f800a146c171d3714dd97f13b8b5ad80a953d005f5b6b385ffc0cdb30cbdad",
+      "core_requirements": [
+        {
+          "requirement": "Definir a visão e a estratégia do produto para a região LATAM",
+          "category": "domain",
+          "evidence": "Possui experiência como PO, PM e TPM, com foco em clareza, estrutura e execução em cenários ambíguos, atuando na fronteira entre estratégia e operação.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Colaborar com equipes multifuncionais para desenvolver e lançar novos recursos",
+          "category": "leadership",
+          "evidence": "Experiência em gestão de pessoas/processo, com realocação de equipes e liderança direta de até ~30 pessoas.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Analisar dados de usuários para identificar oportunidades de melhoria",
+          "category": "technical",
+          "evidence": "Habilidades em SQL, Python, Spark/Scala, ETL e análise diagnóstica para tomada de decisão.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Trabalhar com equipes de engenharia para garantir a entrega pontual e de alta qualidade",
+          "category": "leadership",
+          "evidence": "Experiência em gestão de programas e projetos, incluindo PI Planning, release management, risco e comunicação executiva.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Comunicar-se com stakeholders internos e externos para alinhar expectativas e prioridades",
+          "category": "other",
+          "evidence": "Competências em liderança de pessoas e processos, incluindo 1:1, feedback, PDI, facilitação de ritos e alinhamento de stakeholders.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Experiência prévia em gerenciamento de produtos",
+        "candidate_has": "~3-4 anos em papéis de PM/TPM em tecnologia",
+        "gap": false
+      },
+      "file_date": "2026-03-17",
+      "source": "pipeline"
+    },
+    {
+      "score": 92,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato apresenta excelente alinhamento com os requisitos centrais da vaga de Web Project Manager, com experiência comprovada em gerenciamento de projetos web e digitais end-to-end, compreensão sólida de conceitos web fundamentais, experiência em trabalhar com equipes cross-funcionais e fornecedores externos, além de habilidades de organização e comunicação. Suas experiências recentes como PM, TPM e PO são bastante relevantes e demonstram a capacidade de entrega em cenários complexos.",
+      "main_gap": "Não há gaps significativos identificados. O candidato atende plenamente aos requisitos da vaga.",
+      "company": "Marco",
+      "location": "Argentina, Brazil, Colombia, Philippines, South Africa",
+      "title": "Web Project Manager",
+      "url": "https://himalayas.app/companies/marcohire/jobs/web-project-manager",
+      "id": "6ea6a2c150ef6bfe615ea035ac778558a798fb33988eeb9e6baa4292fcf863e1",
+      "core_requirements": [
+        {
+          "requirement": "Proven experience managing complex web & digital projects end-to-end",
+          "category": "domain",
+          "evidence": "Recent experience as PM (Out/2025–Fev/2026) and PO (Jul/2022–Set/2024, Mar/2026–Atual) managing web/digital projects, including responsibilities for project scope, goals, timelines, resources, and full project lifecycle.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Strong understanding of web fundamentals (UX, CRO, SEO, performance)",
+          "category": "technical",
+          "evidence": "Experience as PO driving website projects, including focus on technical standards (responsiveness, speed, SEO) and business objectives (conversion rate). Also has experience with PoCs integrating AI/GenAI into web workflows.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Experience working with cross-functional teams and external vendors",
+          "category": "leadership",
+          "evidence": "Extensive experience coordinating with internal stakeholders (marketing, sales, IT, content) and external vendors (developers, designers) across multiple roles, including PM, TPM, and PO.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Exceptional organizational skills and follow-through",
+          "category": "other",
+          "evidence": "Demonstrated ability to create detailed project plans, manage resources, and provide regular status updates, as evidenced by roles as PM, TPM, and PO.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Clear, proactive communicator who keeps stakeholders aligned",
+          "category": "leadership",
+          "evidence": "Experience in roles requiring strong stakeholder management and communication, such as PM, TPM, and PO.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Proven experience managing complex web & digital projects end-to-end",
+        "candidate_has": "~3-4 years of PM/TPM/PO experience in web/digital projects",
+        "gap": false
+      },
+      "file_date": "2026-03-17",
+      "source": "pipeline"
+    },
     {
       "score": 60,
       "score_ceiling": 65,
@@ -1894,6 +1996,16 @@
       "total_passed": 11,
       "discarded_title": 1,
       "discarded_blocklist": 2,
+      "discarded_location": 4,
+      "discarded_quality": 0
+    },
+    {
+      "date": "2026-03-17",
+      "filtered_at": "2026-03-17T09:46:33.739162+00:00",
+      "total_input": 23,
+      "total_passed": 16,
+      "discarded_title": 2,
+      "discarded_blocklist": 1,
       "discarded_location": 4,
       "discarded_quality": 0
     }

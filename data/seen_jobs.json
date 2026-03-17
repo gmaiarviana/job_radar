@@ -3034,5 +3034,143 @@
     "source": "greenhouse",
     "title": "Staff Product Manager, Pricing",
     "company": "Faire"
+  },
+  "b4f800a146c171d3714dd97f13b8b5ad80a953d005f5b6b385ffc0cdb30cbdad": {
+    "first_seen": "2026-03-17",
+    "source": "openai_web_search",
+    "title": "Product Manager, LATAM (Mexico City, Mexico)",
+    "company": "Airbnb"
+  },
+  "18cdfbb93f044adba131d759df2872330fded7f61f47a84b901972bbe350c78a": {
+    "first_seen": "2026-03-17",
+    "source": "jobicy",
+    "title": "Sr. Product Manager-Analytics",
+    "company": "EDB"
+  },
+  "099c05dd50d8eaeaaabe9f813616f3b8eb1f99b4d2e00938bd581164293129e7": {
+    "first_seen": "2026-03-17",
+    "source": "jobicy",
+    "title": "Product Owner",
+    "company": "Impel"
+  },
+  "62ae32f3f268927d8980a32ad21e6c8aa02d5f6c29669bb821895fbe37b1b266": {
+    "first_seen": "2026-03-17",
+    "source": "jobicy",
+    "title": "Partner Operations and Strategy Manager",
+    "company": "Samsara"
+  },
+  "ef633ac0e8533b0bfc4eeb94488f9d5fb60ba251e90b8e24977ed9fee4ce4edb": {
+    "first_seen": "2026-03-17",
+    "source": "jobicy",
+    "title": "Senior Datacenter Delivery Strategist",
+    "company": "Meta"
+  },
+  "6ea6a2c150ef6bfe615ea035ac778558a798fb33988eeb9e6baa4292fcf863e1": {
+    "first_seen": "2026-03-17",
+    "source": "himalayas",
+    "title": "Web Project Manager",
+    "company": "Marco"
+  },
+  "c030725062366c7271762eb3099670077cd7ff246a93a7279fd3ff11f2be460c": {
+    "first_seen": "2026-03-17",
+    "source": "himalayas",
+    "title": "Lead Product Manager (Series C Insurtech)",
+    "company": "NextStep"
+  },
+  "4a2e913280b433ed4fe6714d8600cbdda19a42bf8f8829aaf29e5b5a3e02f00e": {
+    "first_seen": "2026-03-17",
+    "source": "jobscollider",
+    "title": "Strategy & Operations Manager",
+    "company": "Snorkel AI"
+  },
+  "c878ba04f51234005730733ffac8d1101c5cbbc5e79644baa4ea1b454b4bd9d3": {
+    "first_seen": "2026-03-17",
+    "source": "jobscollider",
+    "title": "Technical Program Manager Safety Systems Engineering",
+    "company": "OpenAI"
+  },
+  "22ffe3f7e23f48af36287be0aa8d248600a524fda01ad2f9957953b59ad4ad8f": {
+    "first_seen": "2026-03-17",
+    "source": "jobscollider",
+    "title": "Senior Strategy & Operations Manager",
+    "company": "Snorkel AI"
+  },
+  "371af641e56208ac37589f607dd4f2c7452e868ac1146520e86b2ae17b5a5b23": {
+    "first_seen": "2026-03-17",
+    "source": "jobscollider",
+    "title": "Associate Product Manager AI First",
+    "company": "Eulerity"
+  },
+  "fe0e742a88a41a127d6dc83fb4524a38f026e9f487e7e83158f078aac012d5d9": {
+    "first_seen": "2026-03-17",
+    "source": "jobscollider",
+    "title": "Application Engineer - Technical Program Manager",
+    "company": "Applied Intuition"
+  },
+  "1e138ce0123be5138b9584b773f540c9096b112f43a9b1aa56591bc3254dd48e": {
+    "first_seen": "2026-03-17",
+    "source": "jobscollider",
+    "title": "Mid/Senior Product Manager",
+    "company": "SmartRecruiters"
+  },
+  "6837ed520ad8434f0664ad2a11bae2de4500fa140b021665d769c53dc84259a0": {
+    "first_seen": "2026-03-17",
+    "source": "jobscollider",
+    "title": "Principal Product Builder (Product Manager)",
+    "company": "Apollo.io"
+  },
+  "d4d44ce78e3c9d19ad211fa2b790978c8212384631dfaa0190c1f6ea568d17de": {
+    "first_seen": "2026-03-17",
+    "source": "jobscollider",
+    "title": "Product Analyst",
+    "company": "GoCardless"
+  },
+  "edf29b2a560635f5101bbbb4d986e365bfe20a012ebfa0e822bea79f9c48c7d4": {
+    "first_seen": "2026-03-17",
+    "source": "jobscollider",
+    "title": "Senior Project Manager",
+    "company": "Version 1"
+  },
+  "56765f1933b94a420e2eeb467a3264655ed3964fec2f33a2e14c00c8195891b2": {
+    "first_seen": "2026-03-17",
+    "source": "jobscollider",
+    "title": "Senior Project Manager",
+    "company": "Online Education Services (OES)"
+  },
+  "e9958f755ccb6ff054ad93b31567aaf327ae9ca0053ca28bb7212d8b87bd37f7": {
+    "first_seen": "2026-03-17",
+    "source": "jobscollider",
+    "title": "Project Manager Fiber Engineering & Construction",
+    "company": "Brightspeed"
+  },
+  "72352fed95d904a6e5a467f3d1ffdc988ce3e93fbbe88fac97e8b5d0fe8ad4cb": {
+    "first_seen": "2026-03-17",
+    "source": "jobscollider",
+    "title": "Service Delivery Manager",
+    "company": "Axon Spain"
+  },
+  "bed069813c6e9309ddbfa29ea5494092d0abdc6c7c774b2876d09765edb7fa04": {
+    "first_seen": "2026-03-17",
+    "source": "jobscollider",
+    "title": "Senior Project Manager",
+    "company": "Experian"
+  },
+  "bcb00da87ced87fb99e91e9853b17aacdf91c218034a33ca86c40e8c7ffd3e54": {
+    "first_seen": "2026-03-17",
+    "source": "greenhouse",
+    "title": "Technical Program Manager",
+    "company": "Turing"
+  },
+  "223e206d986531f5cc6311a20095051a899529f313c1349bb5dd08e9ddf817cb": {
+    "first_seen": "2026-03-17",
+    "source": "greenhouse",
+    "title": "Sr People Program Manager",
+    "company": "Amplitude"
+  },
+  "87566d6a7f14a6c12fd8df607b98b40c4d749b0d39e2411bbae42fce13de45e3": {
+    "first_seen": "2026-03-17",
+    "source": "ashby",
+    "title": "Staff Product Manager, Mobility",
+    "company": "Deel"
   }
 }
