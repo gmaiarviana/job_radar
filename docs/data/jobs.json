@@ -1,7 +1,58 @@
 {
-  "generated_at": "2026-03-17T09:47:38.546532+00:00",
-  "total": 39,
+  "generated_at": "2026-03-18T09:44:46.629956+00:00",
+  "total": 40,
   "jobs": [
+    {
+      "score": 90,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato Guilherme Maia apresenta experiência DIRETA no domínio central da vaga de Product Manager para Store Operations, com um sólido histórico de 3-4 anos em funções como PO, TPM e PM em ambientes de tecnologia. Ele demonstrou habilidades técnicas relevantes, incluindo experiência com IA, metodologias de entrega, métricas e análise de dados. Seu perfil se alinha muito bem com os requisitos-chave da vaga, como melhoria de produtos existentes, fluência técnica e mentalidade de dono. Não foram identificados gaps significativos que comprometam sua capacidade de executar o papel com sucesso.",
+      "main_gap": "Nenhum gap crítico identificado. O perfil do candidato se encaixa muito bem na vaga de Product Manager para Store Operations.",
+      "company": "Afresh",
+      "location": "",
+      "title": "Product Manager Store Operations",
+      "url": "https://remotefirstjobs.com/companies/afresh/jobs/product-manager-store-operations-737667",
+      "id": "7653981291f2a21ed06a1fc054fbdbd65f4ef4e81b499c8ea7b4b3fd22206a89",
+      "core_requirements": [
+        {
+          "requirement": "2+ years as a PM shipping customer-facing software in a fast-paced environment",
+          "category": "seniority",
+          "evidence": "PM since Jul/2022, including PO, TPM, and PM roles",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Proven track record of improving an in-market product: balance bugs and tech debt with new value, ship incremental, low-risk rollouts",
+          "category": "technical",
+          "evidence": "PO experience in refactoring image scanning, improving deploy time from 30 to 15 days, and integrating GenAI",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Technical fluency: Understands the basics of web app and mobile architecture, can read an API spec and make calls to it, write basic SQL or experienced with at least 1 programming language",
+          "category": "technical",
+          "evidence": "Experience with SQL, Python, Spark/Scala, and IA prototyping",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Analytical decision-making: define useful metrics, synthesize qual and quant; A/B tests or phased rollouts a plus",
+          "category": "technical",
+          "evidence": "Methodologies involving metrics, rubricas, and phased rollouts, as evidenced in the IA R&D project",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Ownership Mindset: incidents, SLAs, alerting, on-call coordination, and follow-ups that drive lasting fixes",
+          "category": "leadership",
+          "evidence": "Demonstrated ownership of incident response, SLAs, and on-call coordination in the TPM role",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "2+ years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": false
+      },
+      "file_date": "2026-03-18",
+      "source": "pipeline"
+    },
     {
       "score": 100,
       "score_ceiling": 100,
@@ -2007,6 +2058,16 @@
       "discarded_title": 2,
       "discarded_blocklist": 1,
       "discarded_location": 4,
+      "discarded_quality": 0
+    },
+    {
+      "date": "2026-03-18",
+      "filtered_at": "2026-03-18T09:43:33.318621+00:00",
+      "total_input": 14,
+      "total_passed": 10,
+      "discarded_title": 1,
+      "discarded_blocklist": 0,
+      "discarded_location": 3,
       "discarded_quality": 0
     }
   ]

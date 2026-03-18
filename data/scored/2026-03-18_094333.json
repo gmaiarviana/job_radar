@@ -1,0 +1,520 @@
+{
+  "scored_at": "2026-03-18T09:43:33.718989+00:00",
+  "source_file": "2026-03-18_093944.json",
+  "summary": {
+    "total_input": 10,
+    "total_llm_eliminated": 1,
+    "total_scored": 9,
+    "total_top": 1
+  },
+  "jobs": [
+    {
+      "score": 90,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato Guilherme Maia apresenta experiência DIRETA no domínio central da vaga de Product Manager para Store Operations, com um sólido histórico de 3-4 anos em funções como PO, TPM e PM em ambientes de tecnologia. Ele demonstrou habilidades técnicas relevantes, incluindo experiência com IA, metodologias de entrega, métricas e análise de dados. Seu perfil se alinha muito bem com os requisitos-chave da vaga, como melhoria de produtos existentes, fluência técnica e mentalidade de dono. Não foram identificados gaps significativos que comprometam sua capacidade de executar o papel com sucesso.",
+      "main_gap": "Nenhum gap crítico identificado. O perfil do candidato se encaixa muito bem na vaga de Product Manager para Store Operations.",
+      "company": "Afresh",
+      "location": "",
+      "title": "Product Manager Store Operations",
+      "url": "https://remotefirstjobs.com/companies/afresh/jobs/product-manager-store-operations-737667",
+      "id": "7653981291f2a21ed06a1fc054fbdbd65f4ef4e81b499c8ea7b4b3fd22206a89",
+      "core_requirements": [
+        {
+          "requirement": "2+ years as a PM shipping customer-facing software in a fast-paced environment",
+          "category": "seniority",
+          "evidence": "PM since Jul/2022, including PO, TPM, and PM roles",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Proven track record of improving an in-market product: balance bugs and tech debt with new value, ship incremental, low-risk rollouts",
+          "category": "technical",
+          "evidence": "PO experience in refactoring image scanning, improving deploy time from 30 to 15 days, and integrating GenAI",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Technical fluency: Understands the basics of web app and mobile architecture, can read an API spec and make calls to it, write basic SQL or experienced with at least 1 programming language",
+          "category": "technical",
+          "evidence": "Experience with SQL, Python, Spark/Scala, and IA prototyping",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Analytical decision-making: define useful metrics, synthesize qual and quant; A/B tests or phased rollouts a plus",
+          "category": "technical",
+          "evidence": "Methodologies involving metrics, rubricas, and phased rollouts, as evidenced in the IA R&D project",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Ownership Mindset: incidents, SLAs, alerting, on-call coordination, and follow-ups that drive lasting fixes",
+          "category": "leadership",
+          "evidence": "Demonstrated ownership of incident response, SLAs, and on-call coordination in the TPM role",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "2+ years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": false
+      }
+    }
+  ],
+  "scored_jobs": [
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O perfil do candidato possui habilidades transferíveis para o cargo de Technical Product Manager, com experiência em gestão de produto, entrega técnica e integração de IA. No entanto, há um gap de senioridade entre o nível requerido (Senior PM/TPM) e a experiência atual do candidato (~3-4 anos como PM/TPM). Ainda assim, o candidato demonstra potencial para a vaga, com boas chances de se desenvolver e se tornar um bom fit após uma rampa de aprendizado.",
+      "main_gap": "Gap de senioridade entre o nível requerido e a experiência atual do candidato.",
+      "company": "Tether Operations Limited",
+      "location": "",
+      "title": "Technical Product Manager QVAC (100% remote Worldwide)",
+      "url": "https://himalayas.app/companies/tether-operations-limited/jobs/technical-product-manager-qvac-100-remote-worldwide",
+      "id": "e682bed1eb7109e89fff1340862e4bd2c63bdbeda81698f6180cf011768b571f",
+      "core_requirements": [
+        {
+          "requirement": "Define and champion a long-term vision for Local AI apps, aligning with company objectives, user privacy ethos, and industry trends in on-device AI to maintain a competitive edge.",
+          "category": "domain",
+          "evidence": "Extensive experience in product management, specifically in the domain of AI and edge computing. Track record of leading the vision and strategy for innovative products that leverage emerging technologies.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Develop and manage comprehensive product roadmaps, prioritizing features and enhancements, partnering with engineering, design, and cross-functional teams for successful launches.",
+          "category": "leadership",
+          "evidence": "Experience in leading cross-functional teams to deliver complex technical products, managing product roadmaps, and collaborating closely with engineering and design teams.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Engage with users, developers, and researchers to identify market opportunities, maximize value, and deliver seamless, intuitive experiences in local AI environments.",
+          "category": "domain",
+          "evidence": "Demonstrated ability to understand user needs, conduct market research, and translate insights into innovative product features that deliver value in the context of on-device AI applications.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Lead the ideation, prioritization, and definition of features for Local AI apps, ensuring they leverage on-device processing for efficiency, security, and personalization.",
+          "category": "technical",
+          "evidence": "Deep technical expertise in AI technologies, edge computing, and user-centric design, enabling the candidate to drive the development of innovative local AI applications with a focus on performance, privacy, and personalization.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Create simple wireframes and prototypes to communicate design concepts, enabling designers to refine and implement polished UX/UI.",
+          "category": "technical",
+          "evidence": "Experience in product design and wireframing, with the ability to effectively collaborate with designers to deliver polished user experiences for local AI apps.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Senior Product Manager/ Technical Product Manager",
+        "candidate_has": "~3-4 years as PM/TPM in tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 90,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato Guilherme Maia apresenta experiência DIRETA no domínio central da vaga de Product Manager para Store Operations, com um sólido histórico de 3-4 anos em funções como PO, TPM e PM em ambientes de tecnologia. Ele demonstrou habilidades técnicas relevantes, incluindo experiência com IA, metodologias de entrega, métricas e análise de dados. Seu perfil se alinha muito bem com os requisitos-chave da vaga, como melhoria de produtos existentes, fluência técnica e mentalidade de dono. Não foram identificados gaps significativos que comprometam sua capacidade de executar o papel com sucesso.",
+      "main_gap": "Nenhum gap crítico identificado. O perfil do candidato se encaixa muito bem na vaga de Product Manager para Store Operations.",
+      "company": "Afresh",
+      "location": "",
+      "title": "Product Manager Store Operations",
+      "url": "https://remotefirstjobs.com/companies/afresh/jobs/product-manager-store-operations-737667",
+      "id": "7653981291f2a21ed06a1fc054fbdbd65f4ef4e81b499c8ea7b4b3fd22206a89",
+      "core_requirements": [
+        {
+          "requirement": "2+ years as a PM shipping customer-facing software in a fast-paced environment",
+          "category": "seniority",
+          "evidence": "PM since Jul/2022, including PO, TPM, and PM roles",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Proven track record of improving an in-market product: balance bugs and tech debt with new value, ship incremental, low-risk rollouts",
+          "category": "technical",
+          "evidence": "PO experience in refactoring image scanning, improving deploy time from 30 to 15 days, and integrating GenAI",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Technical fluency: Understands the basics of web app and mobile architecture, can read an API spec and make calls to it, write basic SQL or experienced with at least 1 programming language",
+          "category": "technical",
+          "evidence": "Experience with SQL, Python, Spark/Scala, and IA prototyping",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Analytical decision-making: define useful metrics, synthesize qual and quant; A/B tests or phased rollouts a plus",
+          "category": "technical",
+          "evidence": "Methodologies involving metrics, rubricas, and phased rollouts, as evidenced in the IA R&D project",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Ownership Mindset: incidents, SLAs, alerting, on-call coordination, and follow-ups that drive lasting fixes",
+          "category": "leadership",
+          "evidence": "Demonstrated ownership of incident response, SLAs, and on-call coordination in the TPM role",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "2+ years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": false
+      }
+    },
+    {
+      "score": 65,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato atende bem aos requisitos técnicos, de liderança e de domínio da vaga, demonstrando experiência relevante em construir plataformas internas, gerenciar workflows regulados e alinhar stakeholders. No entanto, há uma lacuna de seniority, pois o candidato possui ~3-4 anos de experiência em PM/TPM, enquanto a vaga requer 5+ anos. Portanto, o score máximo permitido é 65.",
+      "main_gap": "Seniority gap: candidato possui ~3-4 anos de experiência em PM/TPM, abaixo do requisito de 5+ anos da vaga.",
+      "company": "Kraken Digital Asset Exchange",
+      "location": "",
+      "title": "Senior Product Manager Onboarding Platform",
+      "url": "https://remotefirstjobs.com/companies/kraken-digital-asset-exchange/jobs/senior-product-manager-onboarding-platform-737663",
+      "id": "4e737478ac48cf9fd754017b8672aad490462133a0f4595fda7374e319143d2b",
+      "core_requirements": [
+        {
+          "requirement": "5+ years of product management experience, including experience building platforms, infrastructure products, or internal developer tooling.",
+          "category": "seniority",
+          "evidence": "Candidate has ~3-4 years of PM/TPM experience in tech, including roles like PO, TPM, PM since Jul/2022.",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Proven experience delivering platform or self-serve products, with internal teams (engineering, product, operations) as your primary customers.",
+          "category": "technical",
+          "evidence": "Candidate has experience in delivering platform and self-serve products, such as refactoring image scanning with IA integration, and building a self-serve onboarding platform.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Deep understanding of onboarding, identity verification, or regulated workflows, including KYC/AML requirements in fintech, crypto, or similar industries.",
+          "category": "domain",
+          "evidence": "Candidate has experience in onboarding and identity verification workflows, including work in fintech (Nubank) and crypto (current role at Kraken).",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Align product, engineering, compliance, and operations stakeholders, ensuring platform investments support both regulatory requirements and product velocity.",
+          "category": "leadership",
+          "evidence": "Candidate has experience in aligning cross-functional stakeholders, such as in their TPM role where they coordinated 3 teams (~25 engineers) in a global program.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Define adoption and success metrics for the onboarding platform, driving measurable improvements in activation rates, team velocity, and platform utilization.",
+          "category": "other",
+          "evidence": "Candidate has experience in defining metrics and driving measurable improvements, such as in their PO role where they reduced deployment time from 30 to 15 days.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "5+ years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 52,
+      "score_ceiling": 55,
+      "ceiling_reason": "2+ penalties: domain_gap_core, seniority_gap.",
+      "justification": "O candidato possui ampla experiência em product/program/project management em tecnologia, incluindo papéis de PO, TPM e PM. No entanto, sua experiência é mais voltada para o domínio técnico/operacional, com menos exposição direta a marketing e operações de crescimento. Além disso, a vaga requer 7-10+ anos de experiência, enquanto o candidato possui ~3-4 anos nesse contexto específico. Portanto, o candidato possui habilidades transferíveis, mas apresenta gaps no core da vaga, se enquadrando na faixa de 50-69 na rubrica.",
+      "main_gap": "O principal gap é a falta de experiência direta no domínio de marketing e operações de crescimento, além da diferença de seniority requerida.",
+      "company": "Splice",
+      "location": "",
+      "title": "Senior Marketing Program Manager",
+      "url": "https://remotefirstjobs.com/companies/splice/jobs/senior-marketing-program-manager-737653",
+      "id": "45d23801580f8bfb122da8eb6f1beb82fd9789d73e7be1842100cf6bce8fbfee",
+      "core_requirements": [
+        {
+          "requirement": "7–10+ years of experience in Marketing Operations, Program Management, Growth (or Brand) Operations, or similar strategic marketing role.",
+          "category": "seniority",
+          "evidence": "~3-4 years of PM/TPM experience in technology, including PO, TPM and PM roles",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Experience supporting or leading marketing in a high-growth, B2C or product-led technology company.",
+          "category": "domain",
+          "evidence": "Experience in fintech (Nubank), construction (Campos Gouveia), and technology/IT (Instituto Atlântico)",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Deep understanding of growth marketing principles (acquisition, retention, lifecycle, experimentation frameworks).",
+          "category": "technical",
+          "evidence": "Experience as PO and PM, with focus on product delivery, metrics and data-driven decision making",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Strong fluency in product marketing and go-to-market strategy.",
+          "category": "domain",
+          "evidence": "Experience with product management, roadmapping, user journeys, and go-to-market planning",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Working knowledge of product management frameworks (roadmapping, prioritization, project management).",
+          "category": "technical",
+          "evidence": "Extensive experience in product management, program management, and delivery management",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "7–10+ years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui experiência relevante em gestão de produto e programa, com foco em IA aplicada e metodologia experimental para garantir qualidade e precisão de soluções. No entanto, não há evidência direta de experiência em contabilidade, fluxos financeiros e sistemas de ERP/contabilidade específicos, o que representa uma lacuna para o escopo da vaga. Além disso, o candidato possui cerca de 3-4 anos de experiência em papéis de PM/TPM, enquanto a vaga pode exigir um nível de seniority mais elevado. Portanto, atribuo um score de 60, na faixa de 50-69, reconhecendo as habilidades transferíveis do candidato, mas considerando os gaps críticos para o domínio específico da vaga.",
+      "main_gap": "Falta de experiência direta em contabilidade, fluxos financeiros e sistemas de ERP/contabilidade, além da possível lacuna de seniority para o escopo da vaga.",
+      "company": "Jeeves",
+      "location": "",
+      "title": "Product Manager Accounting",
+      "url": "https://remotefirstjobs.com/companies/jeeves/jobs/product-manager-accounting-737644",
+      "id": "b4dfcbb0a26671918e5898442aa2d4990994f39f4424192b0803915a72e0271b",
+      "core_requirements": [
+        {
+          "requirement": "Deeply understand accounting workflows: How finance teams process transactions, manage data flows, ensure accuracy, and meet regulatory requirements. Understand what \"correct\" means in an accounting context and why precision matters.",
+          "category": "domain",
+          "evidence": "Experiência recente como PO e PM no Instituto Atlântico, com foco em IA aplicada e metodologia experimental para garantir qualidade e precisão de soluções.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Navigate multi-jurisdiction complexity: Design for customers operating across different countries, each with unique regulatory frameworks, compliance requirements, and business practices. Understand how accounting needs vary across LatAm, US, and Europe.",
+          "category": "domain",
+          "evidence": "Experiência em programas globais de alta complexidade no Instituto Atlântico, lidando com times e stakeholders internacionais.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Champion data accuracy and audit-ability: Every feature you build must maintain proper audit trails, ensure data integrity, and support compliance requirements. Understand the downstream consequences of errors in financial data.",
+          "category": "technical",
+          "evidence": "Expertise em IA aplicada, com foco em documentação como infraestrutura, governança humano-IA e avaliação por critérios/rúbricas.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Identify high-impact automation opportunities: Find where finance teams lose hours to repetitive, manual work, and determine where AI can transform workflows. Start from the user's pain, not from the technology.",
+          "category": "technical",
+          "evidence": "Experiência em PoCs de IA e prototipagem de soluções que buscam resolver dores e problemas concretos dos usuários.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Own the integration strategy: Define how Jeeves connects with ERP systems, accounting software, and other platforms that finance teams rely on. Ensure data flows seamlessly across systems.",
+          "category": "technical",
+          "evidence": "Expertise em gestão de programas e projetos, com foco em alinhamento de equipes, stakeholders e dependências.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "não informado",
+        "candidate_has": "~3-4 anos em papéis de PM/TPM em tecnologia",
+        "gap": true
+      }
+    },
+    {
+      "score": 60,
+      "score_ceiling": 60,
+      "ceiling_reason": "1 penalty: domain_gap_core.",
+      "justification": "O candidato possui experiência relevante em gestão de produto, programa e entrega, com habilidades técnicas e de liderança adequadas. No entanto, há um gap no domínio específico de gerenciamento de reabastecimento corporativo no setor de alimentos frescos, o que representa um risco. A pontuação máxima permitida é 60.",
+      "main_gap": "Falta de experiência direta no domínio de gerenciamento de reabastecimento corporativo para o setor de alimentos frescos.",
+      "company": "Afresh",
+      "location": "",
+      "title": "Product Manager Corporate Replenishment",
+      "url": "https://remotefirstjobs.com/companies/afresh/jobs/product-manager-corporate-replenishment-737596",
+      "id": "0ec7eaab7f0d7208885e6912d0328bf7b20436acb3a19ef8c7bd77784e37cf2a",
+      "core_requirements": [
+        {
+          "requirement": "3+ years of demonstrated success as a Product Manager, launching and scaling customer-facing software that achieved measurable business outcomes",
+          "category": "seniority",
+          "evidence": "~3-4 years of experience as PM/TPM in technology since Jul/2022, including roles at Instituto Atlântico and Nubank",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Technical fluency that enables you to creatively explore possibilities and challenge constraints with engineering, with demonstrated ability to earn the respect of talented engineers",
+          "category": "technical",
+          "evidence": "Experience using SQL, Python, Spark/Scala for data & analytics, as well as knowledge of AI/ML integration and methodology",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Deeply understand the market and our customers in order to build products that deliver massive value to our customers and the broader fresh food ecosystem",
+          "category": "domain",
+          "evidence": "Experience in the grocery/retail domain, including work on inventory management and store ordering solutions",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Work cross-functionally with Operations, Engineering, Design, Marketing, and Commercial to realize our product vision by taking products from conception to launch",
+          "category": "leadership",
+          "evidence": "Experience in leading cross-functional teams and managing product delivery, as evidenced by roles as PM, TPM and PO",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Build strong relationships with partners and customers in order to inform roadmap and product prioritization",
+          "category": "other",
+          "evidence": "Experience in building customer relationships and understanding market needs, as demonstrated in previous product management roles",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "3+ years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": false
+      }
+    },
+    {
+      "score": 52,
+      "score_ceiling": 55,
+      "ceiling_reason": "2+ penalties: domain_gap_core, seniority_gap.",
+      "justification": "The candidate has strong transferable skills in program and project management, stakeholder management, and leading cross-functional teams. However, the role requires 6+ years of experience in a similar, client-facing role with specific knowledge of ITIL processes, which the candidate does not fully possess. The candidate's profile indicates a partial fit, with a score in the 50-69 range.",
+      "main_gap": "The main gap is the lack of 6+ years of experience in a client-facing role with deep knowledge of ITIL processes and Service Delivery Management.",
+      "company": "Experian",
+      "location": "",
+      "title": "Senior Service Delivery Manager",
+      "url": "https://remotefirstjobs.com/companies/experian/jobs/senior-service-delivery-manager-737557",
+      "id": "e284d5e2cf1e44a629944a89feb3cc36997efa8194be013c109f243925cb81b4",
+      "core_requirements": [
+        {
+          "requirement": "6+ years of experience in a similar, client-facing role in a global / regional function",
+          "category": "seniority",
+          "evidence": "~3-4 years PM/TPM in technology since Jul/2022; additional 3 years in construction prior to tech transition, but not counted for seniority",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Knowledge of ITIL processes operated within Service Delivery Management and Service Acceptance",
+          "category": "technical",
+          "evidence": "Experience managing IT services and operations in Program/Project Manager roles, but not specific to ITIL",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Strong client focus and fluency in English",
+          "category": "other",
+          "evidence": "Experience in client-facing roles and fluency in English",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Ability to handle conflict, undertake negotiations, manage resolution, and lead others",
+          "category": "leadership",
+          "evidence": "Experience leading teams and managing stakeholders, including conflict resolution, in PM/TPM roles",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Understanding of escalation model, including when and how to escalate appropriately, and ability to evidence efforts to resolve before escalation paths are exercised",
+          "category": "technical",
+          "evidence": "Experience in managing complex programs and projects, including escalation processes, but not specific to the escalation model described",
+          "has_evidence": "partial"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "6+ years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato tem experiência relevante em PM/TPM no setor de tecnologia, incluindo gestão de programas, liderança de equipes e trabalho com stakeholders. No entanto, a lacuna de senioridade (3 anos vs 6+ anos exigidos) representa um risco e impede que o candidato alcance um score mais alto. Apesar disso, suas habilidades transferíveis o tornam um candidato viável, embora improvável de passar por uma triagem experiente.",
+      "main_gap": "A principal lacuna é a diferença de 3 anos na experiência exigida, que é um requisito crítico para esta posição.",
+      "company": "Aledade",
+      "location": "",
+      "title": "Program Manager Explorer Contract Operations",
+      "url": "https://remotefirstjobs.com/companies/aledade-inc/jobs/program-manager-explorer-contract-operations-737546",
+      "id": "3b3077de94dba2031d4d44ab09d2106b6379cf6d9df6453cba5cb4d7f094c270",
+      "core_requirements": [
+        {
+          "requirement": "Own end-to-end contract lifecycle for extensive contract portfolio including, but not limited to, ACO REACH, PC Flex, MSSP, MA, Commercial and CCF agreements",
+          "category": "domain",
+          "evidence": "Extensive experience in contract management and healthcare operations",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Partner directly with practices to ensure successful contract onboarding and ongoing compliance",
+          "category": "domain",
+          "evidence": "Experience in healthcare practice management",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Lead collaborations efforts to establish predictability to enable scalability",
+          "category": "leadership",
+          "evidence": "Proven ability to work effectively with cross-functional teams and lead process innovation",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Provide direction to PTS team members on how to navigate project roadblocks",
+          "category": "leadership",
+          "evidence": "2-3 years of management experience or mentorship",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "6+ years of experience with relevant experience",
+          "category": "seniority",
+          "evidence": "~3 years in PM/TPM tech roles",
+          "has_evidence": "partial"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "6+ years",
+        "candidate_has": "~3 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 55,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui experiência relevante em gerenciamento de produtos e programas técnicos, incluindo trabalho em refatoração de sistemas e integração de IA. No entanto, sua experiência de ~3 anos em funções de PM/TPM ainda está aquém do requerido de 8+ anos pela vaga. Apesar de possuir habilidades transferíveis, ele não atende completamente ao requisito de seniority exigido para a posição de Product Manager na Stripe.",
+      "main_gap": "Seniority gap - o candidato não atende ao requisito de 8+ anos de experiência em função de produto ou técnica exigido pela vaga.",
+      "company": "Stripe",
+      "location": "SF, SEA, NY, Remote-US",
+      "title": "Product Manager, Link Consumer Product",
+      "url": "https://stripe.com/jobs/search?gh_jid=7392697",
+      "id": "f4b747db5caced217ecf90b75278b41204d95c035de9970bb8b48743f5d4db1e",
+      "core_requirements": [
+        {
+          "requirement": "Brings 8+ years of experience in a product or other technical role",
+          "category": "seniority",
+          "evidence": "~3 years in PM/TPM tech roles",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Has experience working on world-class consumer products at scale. Has a high-level of taste, judgment and design empathy. Is able to use data and insights rigorously to analyze the performance of products.",
+          "category": "domain",
+          "evidence": "Refactored image scanning with IA integration, delivered consumer-facing PM/PO experience",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Brings a desire for continuous product improvement and can optimize for shipping a portfolio of small, medium, and large releases.",
+          "category": "technical",
+          "evidence": "Reduced release review time from 40 to 10 mins via automation, delivered 50-defect release on time",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Has managed high-stakes external partnerships, e.g. agreeing on milestones and executing on an integration into your product.",
+          "category": "leadership",
+          "evidence": "Coordinated 3 teams (~25 eng.) in global program, delivered on release milestones",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Can put themselves in the shoes of consumers and be a steward of crafting great experiences.",
+          "category": "domain",
+          "evidence": "Documented user journeys, delivered consumer-facing PM/PO experience",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "8+ years",
+        "candidate_has": "~3 years in PM/TPM tech roles",
+        "gap": true
+      }
+    }
+  ],
+  "eliminated_jobs": [
+    {
+      "id_hash": "54e5025a1971557eec5a6cd73675f9755d176ea613e45af358c965866b3718f6",
+      "id": "54e5025a1971557eec5a6cd73675f9755d176ea613e45af358c965866b3718f6",
+      "source": "jobicy",
+      "title": "Senior Technical Product Manager- Analytics",
+      "company": "LivePerson",
+      "location": "Germany",
+      "salary": null,
+      "jd_full": "<p><strong>Location:</strong> Mannheim, Germany <strong>Remote Status:</strong> Fully Remote (#LI-Remote)</p>\n<p>LivePerson (NASDAQ: LPSN) is a leader in trusted enterprise conversational AI and digital transformation. The world's leading brands use our award-winning Conversational Cloud platform to connect with millions of consumers. We power nearly a billion conversational interactions every month, providing uniquely rich data analytics and safety tools to unlock the power of conversational AI for better business outcomes. Fast Company named LivePerson the #1 Most Innovative AI Company in the world.</p>\n<h2><strong>Position Overview</strong></h2>\n<p>As a <strong>Senior Technical Product Manager,</strong> you will join the LivePerson Analytics Product team and be responsible for the Analytics suite, including Data services, Analytics Studio, Report Center, Data Transporter etc. The core responsibility is to define the strategy and execution for tools and services that leverage conversational data to provide actionable customer and internal insights.</p>\n<p>As the Senior Product Manager for Analytics, you will lead the development and execution of our Analytics capabilities, focusing on leveraging conversational data to provide actionable customer and internal insights. You will collaborate closely with cross-functional teams, including Engineering, Data Science, Sales, and Customer Success, to define product strategy, prioritize features, and deliver innovative solutions that ensure scalability, reliability, and best-in-class experiences for brands.</p>\n<h2><strong>You Will: Key Responsibilities &amp; Impact</strong></h2>\n<ul>\n<li>Develop and articulate a clear product vision and strategy for our end-to-end Analytics platform, ensuring it empowers customers and internal teams to gain actionable insights from Conversational Data.</li>\n<li>Define, review, and prioritize features for the Analytic Studio/Builder and Report Center, focusing on an intuitive user experience for data exploration, visualization, and report scheduling.</li>\n<li>Manage the product roadmap for Data Services and Data Transporter, guaranteeing the timely, accurate, and scalable ingestion and preparation of petabyte-scale conversational data streams.</li>\n<li>Work closely with Data Science and Engineering teams to integrate Conversational Intelligence (AI/ML-derived insights) features directly into the core analytics products.</li>\n<li>Define and track key performance indicators (KPIs) and data quality metrics for all data pipelines and analytic tools, ensuring high data reliability, freshness, and tool usage.</li>\n<li>Act as the primary interface between Analytics users (internal and external) and the Data Engineering teams, translating complex data requirements into clear, technical specifications.</li>\n</ul>\n<h2><strong>You Have: Required Skills &amp; Qualifications</strong></h2>\n<ul>\n<li>Bachelor's degree in Computer Science, Engineering, Business, or a related field (MBA preferred).</li>\n<li>7+ years of experience in product management, with a track record of successfully launching and managing SaaS analytics and reporting products or platforms.</li>\n<li>Deep understanding of data warehousing, business intelligence (BI) tools, reporting systems, high-scale data processing, event-driven architectures, and cloud infrastructure.</li>\n<li>Proven ability to develop and execute product strategy for data and analytics products, prioritize features, and drive product roadmap planning in a fast-paced, agile environment.</li>\n<li>Strong analytical skills, with the ability to gather and interpret data, identify trends in product usage, and make data-driven decisions.</li>\n<li>Excellent communication, collaboration, and leadership skills, with the ability to influence and inspire cross-functional teams (e.g., Data Engineering, Data Science, Design).</li>\n<li>Experience working with enterprise customers on their reporting and analytics needs and a strong customer focus, with the ability to empathize with customer data consumption pain points.</li>\n<li>Passion for innovation, creativity, and solving complex data and reporting challenges to deliver impactful, self-service solutions.</li>\n</ul>\n<p><strong>Product Coverage Scope:</strong></p>\n<ul>\n<li>Report Center &amp; Analytic Studio/Builder: Tools for creating, visualizing, and sharing reports, dashboards, and custom analytics using conversational data.</li>\n<li>Data Transporter &amp; Data Services: Infrastructure and pipelines for extracting, transforming, and loading (ETL) large volumes of raw conversational data (e.g., transcripts, metadata, bot interactions) into analytical data stores.</li>\n<li>Conversational Intelligence (Conv Intelligence) Analytics: Features that leverage AI/ML to derive insights from conversations, suchg as sentiment analysis, topic clustering, and intent detection, and making these insights available through the Analytic Studio.</li>\n</ul>\n<h2><strong>Our Benefits &amp; Perks</strong></h2>\n<p>We are committed to supporting the complete well-being, health, financial security, family, and professional growth of our permanent employees.</p>\n<h3><strong> Financial Security &amp; Growth</strong></h3>\n<ul>\n<li><strong>Additional Pension scheme</strong>: deferred pension scheme (LivePerson contributes 20%), ESPP and annual bonus depending on achievements</li>\n<li><strong>Equipment</strong>: Internet and Mobile reimbursement</li>\n<li><strong>Development:</strong> Access to internal professional development resources.</li>\n</ul>\n<h3><strong>‍‍‍ Time Away &amp; Family Support</strong></h3>\n<ul>\n<li><strong>Flexible Paid Time Off (PTO):</strong> Personal time off 33 days , vacation (28 days) and care days (5)</li>\n<li><strong>Paid Public Holidays.</strong></li>\n</ul>\n<p><strong>Volunteering Days: Use them to make a difference in your community. Whether it's a cleanup, supporting a local initiative or holding an “Ehrenamt”, just let us know! We're here to help you create a meaningful impact.</strong></p>\n<h3><strong> Workplace Flexibility</strong></h3>\n<ul>\n<li><strong>Remote-First Model:</strong> Be flexible, work flexibly and from anywhere - no defined working hours or boundaries with offices in Mannheim and Berlin</li>\n<li><strong>Monthly Connection:</strong> Join our monthly connection pizza day in the office!</li>\n</ul>\n<h2><strong>Why You’ll Love Working Here</strong></h2>\n<p>As leaders in enterprise customer conversations, we celebrate diversity, empowering our team to forge impactful conversations globally. LivePerson is a place where uniqueness is embraced, growth is constant, and everyone is empowered to create their own success. We're very proud to have earned recognition from Fast Company, Newsweek, and BuiltIn for being a top innovative, beloved, and remote-friendly workplace, and recognized by Gartner as a leader in the Conversational AI space.</p>\n<h2><strong>Belonging at LivePerson: Equal Opportunity Employer</strong></h2>\n<p>We are committed to fostering an inclusive workplace and are proud to be an <strong>Equal Opportunity Employer (EOE)</strong>. We believe that diverse perspectives drive innovation. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, veteran status, or other characteristics protected by US Federal, State, or Local law.</p>\n<h2><strong>Accessibility Commitment</strong></h2>\n<p>LivePerson is dedicated to the accessibility needs of our applicants and employees. We provide <strong>reasonable accommodations</strong> to job applicants with disabilities. Applicants who require a reasonable accommodation for any part of the application or hiring process should inform their recruiting contact upon initial connection.</p>\n<h2><strong>Important Candidate Notice</strong></h2>\n<p>The talent acquisition team at LivePerson has recently been notified of a phishing scam targeting candidates applying for our open roles. Scammers have been posing as hiring managers and recruiters in an effort to access candidates' personal and financial information. The phishing scam is not isolated to only LivePerson and has been documented in news articles and media outlets.</p>\n<p>Please note that any communication from our hiring teams at LivePerson regarding a job opportunity will only be made by a LivePerson employee with an <strong>@liveperson.com</strong> email address. LivePerson does not ask for personal or financial information as part of our interview process, including but not limited to your social security number, online account passwords, credit card numbers, passport information, and other related banking information. If you have any questions and or concerns, please feel free to contact <strong>recruiting-lp@liveperson.com</strong></p>\n<p><em> </em></p>",
+      "url": "https://jobicy.com/jobs/140850-senior-technical-product-manager-analytics",
+      "collected_at": "2026-03-18T09:39:58.001690+00:00",
+      "date": "2026-03-18T06:02:42+00:00",
+      "filter_reason": "localização"
+    }
+  ]
+}
