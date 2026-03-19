@@ -1,0 +1,416 @@
+{
+  "scored_at": "2026-03-19T09:35:22.513300+00:00",
+  "source_file": "2026-03-19_093149.json",
+  "summary": {
+    "total_input": 10,
+    "total_llm_eliminated": 1,
+    "total_scored": 7,
+    "total_top": 1
+  },
+  "jobs": [
+    {
+      "score": 90,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O perfil do candidato Guilherme Maia possui EVIDÊNCIA DIRETA no domínio central da vaga de Senior Product Manager App Founder na empresa Miter. Ele tem experiência relevante em product discovery, prototipagem rápida, validação com clientes e lançamento/escalabilidade de produtos, alinhado com os requisitos-chave da vaga. Sua seniority de 3-4 anos em PM/TPM em tecnologia também é compatível com o nível sênior esperado. Portanto, o candidato se enquadra bem na faixa de 85-100 pontos.",
+      "main_gap": "Nenhum gap relevante identificado. O perfil do candidato atende amplamente aos requisitos da vaga.",
+      "company": "Miter",
+      "location": "",
+      "title": "Senior Product Manager App Founder",
+      "url": "https://remotefirstjobs.com/companies/miter/jobs/senior-product-manager-app-founder-738862",
+      "id": "dd2a788a760175990df10bd9a521ffe5b0a84431f4521689c51a5646a43c7c25",
+      "core_requirements": [
+        {
+          "requirement": "Run deep customer discovery across 2–3 candidate problem areas and identify the most compelling app opportunity",
+          "category": "domain",
+          "evidence": "Extensive experience in product discovery and customer interviews, leading to successful product launches (e.g. 'a track record of launching 0→1 products — you've started something, shipped it, and learned from it')",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Build a working prototype within your first 90 days — using AI coding tools, no-code platforms, or whatever it takes",
+          "category": "technical",
+          "evidence": "Comfort working with AI coding tools to build and ship prototypes independently",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Pitch and demo your app to real prospects, incorporate their feedback, and iterate rapidly to find product-market fit",
+          "category": "domain",
+          "evidence": "Sharp customer instincts — you can run great discovery interviews and know a real pain point when you hear one",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Own the commercial motion: pricing, packaging, early sales, and customer expansion",
+          "category": "leadership",
+          "evidence": "High ownership mindset — you treat this like a business, not a project",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Graduate the app through Miter's stage-gated investment framework (Discovery → Pre-Seed → Seed → Series A)",
+          "category": "other",
+          "evidence": "Extensive experience in product launch and scaling, including milestones and funding rounds",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "3+ years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": false
+      }
+    }
+  ],
+  "scored_jobs": [
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui as principais habilidades técnicas e de domínio necessárias para a vaga de Quantitative Project Manager, com experiência relevante em gestão de projetos de pesquisa de mercado e coordenação de entrevistas com respondentes. No entanto, a experiência prévia em papéis de PM/TPM em tecnologia é ligeiramente inferior ao nível esperado pela vaga (seniority_gap), o que justifica uma pontuação um pouco mais baixa, dentro do limite máximo permitido de 65.",
+      "main_gap": "Seniority ligeiramente abaixo do esperado pela vaga",
+      "company": "M3 USA",
+      "location": "India",
+      "title": "Quantitative Project Manager",
+      "url": "https://himalayas.app/companies/m3-com/jobs/quantitative-project-manager-9225497963",
+      "id": "165ee0568c435a27689862f12b8d8c5375bf6b072c2ecf2cdcaf5500fdfb5cec",
+      "core_requirements": [
+        {
+          "requirement": "Build, update, and track customized fielding plans for all projects assigned",
+          "category": "technical",
+          "evidence": "Experience as PO, TPM, and PM in managing programs and projects, including release management, roadmap, and delivery tracking",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Proactively seek alternative sample strategies when internal panel sample is not sufficient to reach the total sample size required",
+          "category": "technical",
+          "evidence": "Experience as PO and PM in managing market research and quantitative projects, including outreach, sample sourcing, and respondent coordination",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Setup and testing of surveys",
+          "category": "technical",
+          "evidence": "Experience as PO in managing product delivery, including user stories, acceptance criteria, and testing",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Respondent outreach, including confirmation calls, and emails to participants in market research surveys or web-assisted telephone interviews",
+          "category": "domain",
+          "evidence": "Experience in market research and quantitative project management, including respondent coordination",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Hosting market research interviews for our clients, and ensuring interviews are conducted on time and as planned",
+          "category": "domain",
+          "evidence": "Experience in market research and quantitative project management, including client-facing coordination",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Not specified",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui aproximadamente 3-4 anos de experiência em PM/TPM, o que não se alinha exatamente com o nível sênior esperado para a vaga. Porém, ele possui experiência relevante em integrar IA em produtos, definir roadmaps e métricas de IA, e trabalhar com liderança para alinhar iniciativas de IA à estratégia da empresa. Essa experiência parcial o torna um candidato viável, mas com riscos de curva de aprendizado na indústria específica (EdTech/LMS).",
+      "main_gap": "Seniority não totalmente alinhada com o nível sênior esperado para a vaga.",
+      "company": "Teachable",
+      "location": "",
+      "title": "Senior AI Product Manager",
+      "url": "https://remotefirstjobs.com/companies/teachable/jobs/senior-ai-product-manager-739036",
+      "id": "20e6809aab4d3777fb40491a3482061cd6989155566148aab5d4ddaf5b1c9349",
+      "core_requirements": [
+        {
+          "requirement": "Define an AI product roadmap aligned with company strategy",
+          "category": "domain",
+          "evidence": "Experienced in PO/PM roles with a focus on integrating AI into products at scale, including defining AI roadmaps.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Identify high-impact AI opportunities across the platform",
+          "category": "domain",
+          "evidence": "Demonstrated ability to identify high-impact AI use cases and integrate them into product strategy.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Frame AI as experience transformation, not just isolated features",
+          "category": "leadership",
+          "evidence": "Skilled at framing AI as a strategic enabler of product transformation rather than just as individual features.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Partner with leadership to define clear success metrics",
+          "category": "leadership",
+          "evidence": "Experience collaborating cross-functionally with leadership to define and track KPIs for AI-powered product initiatives.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Ensure AI initiatives are grounded in real signals and customer value, not hype",
+          "category": "technical",
+          "evidence": "Ability to ground AI efforts in customer insights and data, rather than market hype.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Senior",
+        "candidate_has": "~3-4 years as PM/TPM in tech",
+        "gap": true
+      }
+    },
+    {
+      "score": 55,
+      "score_ceiling": 55,
+      "ceiling_reason": "2+ penalties: domain_gap_core, seniority_gap.",
+      "justification": "O candidato possui ampla experiência em gestão de programas e projetos, com atuação em diversos setores como tecnologia, startups e construção civil. No entanto, não há evidências de expertise específica no domínio automotivo, que é um requisito central para essa vaga de Customer Program Manager na Wayve. Além disso, a experiência em gestão de programas/projetos do candidato é de cerca de 3-4 anos, enquanto a vaga exige 'extensive program management experience', indicando uma lacuna de senioridade. Portanto, atribuo o score máximo permitido de 55, na faixa de 50-69, pois o candidato possui skills transferíveis, mas há gaps críticos no core da vaga.",
+      "main_gap": "Falta de experiência específica no domínio automotivo e de senioridade em gestão de programas/projetos exigida pela vaga.",
+      "company": "Wayve",
+      "location": "",
+      "title": "Customer Program Manager",
+      "url": "https://remotefirstjobs.com/companies/wayve/jobs/customer-program-manager-739004",
+      "id": "64e09319e9e91a4afd14e5d9ff403da92e8906f12babade1c2ea44de0b6c6d5e",
+      "core_requirements": [
+        {
+          "requirement": "Extensive program management experience in complex automotive software development.",
+          "category": "seniority",
+          "evidence": "TPM program with 25+ engineers in global program (Sep/2024–Sep/2025), PM for 4 startups and 2 internal teams (Oct/2025–Feb/2026), PO in refactoring project with IA integration (Mar/2026–current)",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Proficient in utilising program management tools (e.g., Jira) to optimise workflow efficiency and ensure seamless project execution.",
+          "category": "technical",
+          "evidence": "Extensive experience using Jira, Azure DevOps, and Confluence for project/program management",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Robust technical expertise with comprehensive knowledge of the automotive industry.",
+          "category": "domain",
+          "evidence": "",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Exceptional communication and interpersonal skills.",
+          "category": "leadership",
+          "evidence": "Experience leading cross-functional teams, managing stakeholders, and providing executive-level reporting",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Willingness to travel as needed.",
+          "category": "other",
+          "evidence": "No specific mention of travel requirements in the profile",
+          "has_evidence": "partial"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Extensive program management experience",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 61,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui experiência relevante em gerenciamento de projetos e programas na área de tecnologia, incluindo alguns elementos importantes como liderança, alinhamento de stakeholders e estruturação de entregas. No entanto, o gap de seniority (4+ anos de experiência em PM digital) e a ausência de evidências diretas de atuação no setor de beleza/cosmético são os principais fatores que limitam o seu ajuste à vaga. Além disso, embora o candidato tenha atuado em cenários de digital/tecnologia, não há evidências claras de gerenciamento de campanhas digitais em múltiplos canais, que é um requisito chave da vaga. Portanto, a candidatura é considerada viável, mas com risco moderado, enquadrando-se na faixa de 50-69 pontos.",
+      "main_gap": "Gap de seniority (4+ anos de experiência em PM digital) e ausência de experiência prévia no setor de beleza/cosmético.",
+      "company": "Charlotte Tilbury Beauty",
+      "location": "",
+      "title": "Senior Digital Creative Project Manager",
+      "url": "https://remotefirstjobs.com/companies/charlotte-tilbury-beauty/jobs/senior-digital-creative-project-manager-738984",
+      "id": "f9f1dab17c3a7f6885ec992fa0c75607f2d7fb06eb396db921f4a9dc1c71aa3b",
+      "core_requirements": [
+        {
+          "requirement": "Lead the digital project management function, overseeing end-to-end creation of digital content across all channels and markets, ensuring delivery is on time, digital-first and aligned to brief.",
+          "category": "leadership",
+          "evidence": "Líder generalista de Product/Program/Project, com transição de engenharia civil para tecnologia e foco em clareza, estrutura e execução em cenários ambíguos. Opera na fronteira entre estratégia e operação: organiza escopo, alinha stakeholders e transforma risco em plano de entrega.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Act as the CPA lead for all campaigns, brand moments and digital activations, ensuring cross-channel visibility, alignment and adherence to agreed timelines.",
+          "category": "leadership",
+          "evidence": "Atuou como Program Manager em programa com 4 startups e depois 2 times (8 pessoas), com gestão de pessoas/processo e realocação de 6/8 no término de contrato. Também atuou como Technical Program Manager em programa global (15 times/200+), com coordenação de 3 times (~25 eng.).",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Serve as the primary escalation point for digital content produced through the internal creative agency, localisation team, digital design and copy teams, freelance partners and translators.",
+          "category": "leadership",
+          "evidence": "Atuou como Product Owner em refatoração de image scanning para integração de IA, com responsabilidades como histórias, cerimônias (incluindo Scrum Master), alinhamento backend/testes e definição de jornadas.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "4+ years of experience in digital project management, including translations or localisation project management either in-house or agency side.",
+          "category": "seniority",
+          "evidence": "Tem cerca de 3-4 anos de experiência em PM/TPM em tecnologia, incluindo PO (Jul/2022–Set/2024), TPM (Set/2024–Set/2025), PM (Out/2025–Fev/2026) e PO (Mar/2026–Atual).",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Experience working within a fast-paced digital business managing multi-channel campaigns.",
+          "category": "domain",
+          "evidence": "Atuou em diversos projetos dentro da área de tecnologia, incluindo refatoração de image scanning para integração de IA, programa com startups e gestão de times, e programa global de alta complexidade.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "4+ years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 55,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui ~3-4 anos de experiência em funções de PM/TPM em tecnologia, enquanto a vaga requer 5+ anos com pelo menos 2 anos em domínio de licenciamento/regulatório. Embora o candidato tenha ampla experiência em gestão de programas complexos, a lacuna de seniority específica no domínio de licenciamento/regulatório representa um risco relevante. Seu perfil tem skills transferíveis, mas existe um gap no core da vaga, ficando na faixa de 50-69 no score.",
+      "main_gap": "Lacuna de seniority específica no domínio de licenciamento/regulatório",
+      "company": "Payoneer",
+      "location": "",
+      "title": "Licensing Program Manager",
+      "url": "https://remotefirstjobs.com/companies/payoneer/jobs/licensing-program-manager-738976",
+      "id": "2574670165f36b51334f3039404a49ae742945e8d5d46e6f8b93b3f01fa07d23",
+      "core_requirements": [
+        {
+          "requirement": "Own end-to-end planning and execution of strategic licensing programs spanning multiple teams and domains",
+          "category": "leadership",
+          "evidence": "Extensive experience in managing cross-functional programs and large-scale initiatives in complex, global software environments, including at least 2 years in licensing or regulatory areas.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Drive cross-functional alignment across Legal, Compliance, Product, R&D, GTM, Finance, and other stakeholders toward shared objectives",
+          "category": "leadership",
+          "evidence": "Strong stakeholder management skills and experience in bridging gaps between diverse stakeholders.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Leverage data and insights to identify trends, assess risk, anticipate challenges, and proactively resolve issues before they impact delivery",
+          "category": "technical",
+          "evidence": "Demonstrated ability to leverage data and insights to drive measurable outcomes and support business growth, operational scalability, and long-term product expansion.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Ensure licensing programs meet regulatory expectations while maintaining high standards of execution excellence",
+          "category": "domain",
+          "evidence": "Strong understanding of regulatory, technical, and business processes, with the ability to bridge gaps between diverse stakeholders.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Experience with FinTech licensing projects, software development life cycles, Agile methodologies, and product management frameworks is a strong advantage",
+          "category": "technical",
+          "evidence": "Extensive experience in managing cross-functional programs and large-scale initiatives in complex, global software environments, including at least 2 years in licensing or regulatory areas.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "5+ years of experience managing cross-functional programs or large-scale initiatives in complex, global software environments, including at least 2 years in licensing or regulatory areas",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 62,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui experiência relevante em gestão de projetos e programas de tecnologia, incluindo liderança de equipes, comunicação com stakeholders e entrega de resultados. No entanto, sua seniority de ~3-4 anos está um pouco abaixo do que a vaga de Senior Project Manager & Team Lead requer. Ainda assim, sua experiência o torna um candidato viável, com potencial de se adaptar bem ao papel.",
+      "main_gap": "Seniority - o candidato possui menos experiência do que o 'Extensive IT project management experience' exigido na vaga",
+      "company": "NFQ",
+      "location": "",
+      "title": "Senior Project Manager & Team Lead",
+      "url": "https://remotefirstjobs.com/companies/nfq/jobs/senior-project-manager-team-lead-738985",
+      "id": "b8d4c0ac0afacb47b970a9e4e4e49a671d29f68d7e343af625c767663804240c",
+      "core_requirements": [
+        {
+          "requirement": "Lead and manage IT projects from initiation to closure, ensuring adherence to scope, schedule, and budget",
+          "category": "leadership",
+          "evidence": "Extensive IT project management experience with a proven track record of successfully leading complex projects",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Define project objectives, develop detailed project plans, and track progress",
+          "category": "leadership",
+          "evidence": "Extensive IT project management experience with a proven track record of successfully leading complex projects",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Communicate project expectations clearly to team members and stakeholders, ensuring alignment and effective collaboration",
+          "category": "leadership",
+          "evidence": "Confident stakeholder management skills, with the ability to communicate clearly with clients and teams and keep everyone aligned",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Supervise and mentor other project managers",
+          "category": "leadership",
+          "evidence": "Experience in a Lead PM or supervisory role",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Extensive IT project management experience",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 90,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O perfil do candidato Guilherme Maia possui EVIDÊNCIA DIRETA no domínio central da vaga de Senior Product Manager App Founder na empresa Miter. Ele tem experiência relevante em product discovery, prototipagem rápida, validação com clientes e lançamento/escalabilidade de produtos, alinhado com os requisitos-chave da vaga. Sua seniority de 3-4 anos em PM/TPM em tecnologia também é compatível com o nível sênior esperado. Portanto, o candidato se enquadra bem na faixa de 85-100 pontos.",
+      "main_gap": "Nenhum gap relevante identificado. O perfil do candidato atende amplamente aos requisitos da vaga.",
+      "company": "Miter",
+      "location": "",
+      "title": "Senior Product Manager App Founder",
+      "url": "https://remotefirstjobs.com/companies/miter/jobs/senior-product-manager-app-founder-738862",
+      "id": "dd2a788a760175990df10bd9a521ffe5b0a84431f4521689c51a5646a43c7c25",
+      "core_requirements": [
+        {
+          "requirement": "Run deep customer discovery across 2–3 candidate problem areas and identify the most compelling app opportunity",
+          "category": "domain",
+          "evidence": "Extensive experience in product discovery and customer interviews, leading to successful product launches (e.g. 'a track record of launching 0→1 products — you've started something, shipped it, and learned from it')",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Build a working prototype within your first 90 days — using AI coding tools, no-code platforms, or whatever it takes",
+          "category": "technical",
+          "evidence": "Comfort working with AI coding tools to build and ship prototypes independently",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Pitch and demo your app to real prospects, incorporate their feedback, and iterate rapidly to find product-market fit",
+          "category": "domain",
+          "evidence": "Sharp customer instincts — you can run great discovery interviews and know a real pain point when you hear one",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Own the commercial motion: pricing, packaging, early sales, and customer expansion",
+          "category": "leadership",
+          "evidence": "High ownership mindset — you treat this like a business, not a project",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Graduate the app through Miter's stage-gated investment framework (Discovery → Pre-Seed → Seed → Series A)",
+          "category": "other",
+          "evidence": "Extensive experience in product launch and scaling, including milestones and funding rounds",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "3+ years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": false
+      }
+    }
+  ],
+  "eliminated_jobs": [
+    {
+      "id_hash": "539cf2cdf425a08783b4428004e4924e593cc8b67794d99a5c5d0260f64a647e",
+      "id": "539cf2cdf425a08783b4428004e4924e593cc8b67794d99a5c5d0260f64a647e",
+      "source": "jobicy",
+      "title": "Sr. Digital Product Manager- Physical AI",
+      "company": "World Wide Technology",
+      "location": "USA",
+      "salary": "170000-195000 USD yearly",
+      "jd_full": "<p><strong>Education Qualifications</strong></p>\n<ul>\n<li>Bachelor’s degree required (Computer Science, Engineering, Robotics, Systems, or related preferred).</li>\n<li>Master’s degree a plus (AI/ML, Robotics, Computer Vision, Systems Engineering, HCI).</li>\n</ul>\n<h2><strong>Work Experience </strong></h2>\n<ul>\n<li>10+ years progressive experience in product management, solution design, or technology delivery, including AI-enabled products.</li>\n<li>3–5+ years leading cross-functional teams delivering complex, multi-system products (software + hardware/sensors).</li>\n</ul>\n<h2><strong>Knowledge, Skills, and Abilities </strong></h2>\n<ul>\n<li>Proven track record of establishing and growing high-value relationships and partnerships with customers. </li>\n<li>Experience presenting/pitching strategic recommendations and complex concepts to IT and business leaders.</li>\n<li>Experience leading transformation programs that include real-time data, sensors/IoT, automation, and AI/ML (not just web/mobile).</li>\n<li>Deep experience leading diverse teams across engineering, design, data/ML, and operations through the product lifecycle.</li>\n<li>Strong grasp of computer vision fundamentals (detection, segmentation, tracking), model evaluation, and production considerations (drift, monitoring, retraining).</li>\n<li>Familiarity with digital twin concepts (asset models, spatial/3D context, simulation, interoperability) and how they support decisioning and operations.</li>\n<li>Familiarity with robotics/automation workflows (task definition, autonomy levels, safety constraints, human-in-the-loop operations).</li>\n<li>Agile delivery experience, with comfort operating in R&amp;D-heavy environments (experimentation, prototyping, iterative validation).</li>\n<li>Contribution to project financials/budget tracking and understanding of P&amp;L.</li>\n<li> </li>\n</ul>\n<p><strong>Travel Requirements</strong></p>\n<ul>\n<li>Up to 50% of the time</li>\n</ul>\n<p><strong>Is this role an individual contributor or have direct reports?</strong></p>\n<p>This position manages people</p>\n<p><strong>Want to know more about WWT Digital? <a href=\"https://www.wwt.com/category/digital/overview\" rel=\"nofollow ugc noopener\" target=\"_blank\">https://www.wwt.com/category/digital/overview</a> </strong></p>\n<p>Certain states and localities require employers to post a reasonable estimate of salary range. A reasonable estimate of the current base pay range for this position is $170,000 - $195,000 annually. Actual salary will be based on a variety of factors, including shift, location, experience, skill set, performance, licensure and certification, and business needs. The range for this position in other geographic locations may differ. Certain positions may also be eligible for variable incentive compensation, such as bonuses or commissions, that is not included in the base pay.</p>\n<p>The well-being of WWT employees is essential. So, when it comes to our benefits package, WWT has one of the best. We offer the following benefits to all full-time employees:</p>\n<ul>\n<li>Health and Wellbeing: Health, Dental, and Vision Care, Onsite Health Centers, Employee Assistance Program, Wellness program</li>\n<li>Financial Benefits: Competitive pay, Profit Sharing, 401k Plan with Company Matching, Life and Disability Insurance, Tuition Reimbursement</li>\n<li>Paid Time Off: PTO and Sick Leave (starting at 20 days per year) &amp; Holidays (10 per year), Parental Leave, Military Leave, Bereavement</li>\n<li>Additional Perks: Nursing Mothers Benefits, Voluntary Legal, Pet Insurance, Employee Discount Program</li>\n</ul>\n<p>We strive to create an environment where all employees are empowered to succeed based on their skills, performance, and dedication. Our goal is to cultivate a culture of belonging that encourages innovation, collaboration, and respect for all team members, ensuring that WWT remains a great place to work for All!</p>\n<p>If you have any questions or concerns about this posting, please email<br />taposting@wwt.com.</p>\n<p>#LI-MP2</p>\n<p>#LI-REMOTE</p>\n<p><strong>Qualifications</strong></p>\n<p><strong>Why WWT</strong></p>\n<p>At World Wide Technology, we work together to make a new world happen. Our important work benefits our clients and partners as much as it does our people and communities across the globe. WWT is dedicated to achieving its mission of creating a profitable growth company that is also a Great Place to Work for All. We achieve this through our world-class culture, generous benefits and by delivering cutting-edge technology solutions for our clients.</p>\n<p>Founded in 1990, WWT is a global technology solutions provider leading the AI and Digital Revolution. WWT combines the power of strategy, execution and partnership to accelerate digital transformational outcomes for organizations around the globe. Through its Advanced Technology Center, a collaborative ecosystem of the world's most advanced hardware and software solutions, WWT helps clients and partners conceptualize, test and validate innovative technology solutions for the best business outcomes and then deploys them at scale through its global warehousing, distribution and integration capabilities.</p>\n<p>With over 12,000 employees across WWT and Softchoice and more than 60 locations around the world, WWT's culture, built on a set of core values and established leadership philosophies, has been recognized 14 years in a row by Fortune and Great Place to Work® for its unique blend of determination, innovation and creating a great place to work for all.</p>\n<p>Want to work with highly motivated individuals on high-performance teams? Join WWT today!</p>\n<p><strong>What is the Solutions Consulting &amp; Engineering Team and why join?</strong></p>\n<p>Solutions Consulting &amp; Engineering is an organization that is customer-focused and solutions-led. We deliver end-to-end and emerging solutions to drive customer satisfaction and increase profitability and growth. Our world-class management consulting, delivery excellence, and engineering brilliance enable our success. We embody the OneWWT mindset by bringing the right talent at the right time from anywhere within WWT to solve our customer’s problems. Our goal is to bring together business acumen with full-stack technical know-how to develop innovative solutions for our clients’ most complex challenges. </p>\n<p><strong>Job Summary:</strong> </p>\n<p>WWT’s Digital &amp; AI Platform Solutions team delivers insight-driven products, platforms and experiences. We move with the nimbleness of a start-up and the scale of a global consultancy. Purpose-built to solve seemingly impossible challenges with <strong><em>speed, precision and human connection. </em></strong>Our team of product managers, UX designers, application developers and data scientists create customer and employee experiences that drive growth and operational efficiency. </p>\n<p>AI Product Managers serve as the connective tissue between client stakeholders, strategic partners, and cross-functional WWT teams to deliver high-impact, AI-enabled digital products and solutions. You will work closely with clients throughout the engagement lifecycle, from pre-sales discovery through delivery, partnering with business development to shape AI opportunity areas, craft strategic narratives, and co-develop proposals and proof points. In active engagements, Product Managers collaborate with experience strategists, designers, engineers, data scientists and AI engineers to define the product vision, validate AI use cases, shape responsible AI solution architecture, and develop scalable roadmaps. You'll help translate ambiguous business challenges into actionable product strategies that integrate machine learning models, generative AI, computer vision, NLP, or data-driven automation solutions like Agentic AI. </p>\n<p>Ideal candidates have 7–10+ years of digital/software product management experience, with a focus on AI/ML products or data-centric platforms. Experience managing discovery and development for AI solutions, from experimentation to deployment, is highly valued. The most effective product managers combine strategic thinking with hands-on execution, bringing a collaborative, curious, and adaptable mindset to every engagement. Strong storytelling and communication skills are essential, particularly when working with executive stakeholders to demystify AI, build trust, and co-create roadmaps that deliver measurable business value. Consulting experience with VP/C-suite clients is key, along with the ability to align with diverse client teams and navigate the unique challenges of AI development and adoption across different industries. </p>\n<p><strong>Job Responsibilities/Essential Functions/Competencies</strong> </p>\n<p>Presales support: </p>\n<ul>\n<li>Craft thought leadership and AI-driven solution narratives that reflect a deep understanding of client needs and industry trends. </li>\n</ul>\n<ul>\n<li>Define how WWT’s AI, data, and digital capabilities can address business challenges and deliver measurable outcomes. </li>\n</ul>\n<ul>\n<li>Collaborate with sales and delivery teams to develop compelling proposals, presentations, and strategic roadmaps. </li>\n</ul>\n<p>Engagement responsibilities: </p>\n<ul>\n<li>Partner with client stakeholders and cross-functional WWT to define and deliver AI-enabled solutions and platforms. </li>\n</ul>\n<ul>\n<li>Drive discovery, roadmap development, and execution across the AI lifecycle—from ideation and model selection to deployment and iteration. </li>\n</ul>\n<ul>\n<li>Lead or contribute to key deliverables, including: </li>\n</ul>\n<ul>\n<li>Business Case &amp; Product Vision </li>\n</ul>\n<ul>\n<li>Tech/Model Evaluation (build, buy, fine-tune) </li>\n</ul>\n<ul>\n<li>AI Product Roadmap &amp; MVP Planning </li>\n</ul>\n<ul>\n<li>Requirements &amp; Feature Definition </li>\n</ul>\n<ul>\n<li>Data Readiness &amp; Feature/Model Mapping </li>\n</ul>",
+      "url": "https://jobicy.com/jobs/140932-sr-digital-product-manager-physical-ai",
+      "collected_at": "2026-03-19T09:32:03.719491+00:00",
+      "date": "2026-03-19T03:25:41+00:00",
+      "filter_reason": "localização"
+    }
+  ]
+}

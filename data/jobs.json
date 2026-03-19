@@ -1,7 +1,58 @@
 {
-  "generated_at": "2026-03-18T09:44:46.629956+00:00",
+  "generated_at": "2026-03-19T09:36:16.198826+00:00",
   "total": 40,
   "jobs": [
+    {
+      "score": 90,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O perfil do candidato Guilherme Maia possui EVIDÊNCIA DIRETA no domínio central da vaga de Senior Product Manager App Founder na empresa Miter. Ele tem experiência relevante em product discovery, prototipagem rápida, validação com clientes e lançamento/escalabilidade de produtos, alinhado com os requisitos-chave da vaga. Sua seniority de 3-4 anos em PM/TPM em tecnologia também é compatível com o nível sênior esperado. Portanto, o candidato se enquadra bem na faixa de 85-100 pontos.",
+      "main_gap": "Nenhum gap relevante identificado. O perfil do candidato atende amplamente aos requisitos da vaga.",
+      "company": "Miter",
+      "location": "",
+      "title": "Senior Product Manager App Founder",
+      "url": "https://remotefirstjobs.com/companies/miter/jobs/senior-product-manager-app-founder-738862",
+      "id": "dd2a788a760175990df10bd9a521ffe5b0a84431f4521689c51a5646a43c7c25",
+      "core_requirements": [
+        {
+          "requirement": "Run deep customer discovery across 2–3 candidate problem areas and identify the most compelling app opportunity",
+          "category": "domain",
+          "evidence": "Extensive experience in product discovery and customer interviews, leading to successful product launches (e.g. 'a track record of launching 0→1 products — you've started something, shipped it, and learned from it')",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Build a working prototype within your first 90 days — using AI coding tools, no-code platforms, or whatever it takes",
+          "category": "technical",
+          "evidence": "Comfort working with AI coding tools to build and ship prototypes independently",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Pitch and demo your app to real prospects, incorporate their feedback, and iterate rapidly to find product-market fit",
+          "category": "domain",
+          "evidence": "Sharp customer instincts — you can run great discovery interviews and know a real pain point when you hear one",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Own the commercial motion: pricing, packaging, early sales, and customer expansion",
+          "category": "leadership",
+          "evidence": "High ownership mindset — you treat this like a business, not a project",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Graduate the app through Miter's stage-gated investment framework (Discovery → Pre-Seed → Seed → Series A)",
+          "category": "other",
+          "evidence": "Extensive experience in product launch and scaling, including milestones and funding rounds",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "3+ years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": false
+      },
+      "file_date": "2026-03-19",
+      "source": "pipeline"
+    },
     {
       "score": 90,
       "score_ceiling": 100,
@@ -1918,58 +1969,9 @@
       },
       "file_date": "2026-03-05",
       "source": "pipeline"
-    },
-    {
-      "score": 55,
-      "score_ceiling": 65,
-      "ceiling_reason": "1 penalty: seniority_gap.",
-      "justification": "O candidato possui experiência relevante em gestão de produto, programa e entrega, com habilidades técnicas avançadas. No entanto, há uma lacuna de senioridade para o nível da vaga, que requer um perfil mais sênior com pelo menos 5 anos em papéis de liderança. O candidato tem cerca de 3 anos de experiência em funções de PM/TPM, portanto não atende plenamente aos requisitos de senioridade. Ainda assim, seu conjunto de competências é forte o suficiente para ser considerado um bom candidato, com potencial de se desenvolver no papel.",
-      "main_gap": "Lacuna de senioridade/experiência de liderança para a vaga de Senior Product Manager.",
-      "company": "FullStack",
-      "location": "Remote - Latin America",
-      "title": "Senior Product Manager - Remote - Latin America",
-      "url": "https://cr.linkedin.com/jobs/view/1000000002",
-      "id": "b5dabca4d0f2d50610b20c0632a4ed479a0caf177279eacecd00ced9d76f67a5",
-      "core_requirements": [
-        {
-          "requirement": "Lead the development and evolution of products, physical or digital, in an organization",
-          "category": "domain",
-          "evidence": "Experiência recente como PO, PM e TPM em diversos produtos e programas",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Be the guardian of product strategy, define functional requirements and coordinate the launch of new features",
-          "category": "domain",
-          "evidence": "Histórias, cerimônias, alinhamento backend/testes e definição de jornadas como PO; coordenação de times, releases e métricas como TPM",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Work together with software engineers, designers, data scientists, marketing and other areas, being at the intersection of business, design and technology",
-          "category": "domain",
-          "evidence": "Experiência em times multifuncionais, liderança de pessoas/processo, uso de dados e análise para decisão",
-          "has_evidence": "full"
-        }
-      ],
-      "seniority_comparison": {
-        "jd_asks": "Senior",
-        "candidate_has": "~3 years in PM/TPM tech roles",
-        "gap": true
-      },
-      "file_date": "2026-03-04",
-      "source": "pipeline"
     }
   ],
   "pipeline_runs": [
-    {
-      "date": "2026-03-04",
-      "filtered_at": "2026-03-04T09:31:32.026893+00:00",
-      "total_input": 10,
-      "total_passed": 2,
-      "discarded_title": 3,
-      "discarded_blocklist": 1,
-      "discarded_location": 4,
-      "discarded_quality": 0
-    },
     {
       "date": "2026-03-05",
       "filtered_at": "2026-03-05T09:33:44.476119+00:00",
@@ -2068,6 +2070,16 @@
       "discarded_title": 1,
       "discarded_blocklist": 0,
       "discarded_location": 3,
+      "discarded_quality": 0
+    },
+    {
+      "date": "2026-03-19",
+      "filtered_at": "2026-03-19T09:35:22.044050+00:00",
+      "total_input": 23,
+      "total_passed": 10,
+      "discarded_title": 2,
+      "discarded_blocklist": 2,
+      "discarded_location": 9,
       "discarded_quality": 0
     }
   ]
