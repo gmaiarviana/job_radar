@@ -1,7 +1,109 @@
 {
-  "generated_at": "2026-03-19T09:36:16.198826+00:00",
-  "total": 40,
+  "generated_at": "2026-03-20T09:34:08.981402+00:00",
+  "total": 41,
   "jobs": [
+    {
+      "score": 90,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato possui experiência abrangente e diretamente relevante para a função de Senior Product Manager Endpoint. Ele demonstra sólida experiência em liderança de produtos, gestão de programas complexos, implementação de soluções de IA e capacidade de traduzir requisitos técnicos em definições de produto claras. Seu perfil se encaixa plenamente no escopo da vaga, atendendo a todos os requisitos essenciais.",
+      "main_gap": "Não há gaps ou riscos significativos identificados nesta candidatura.",
+      "company": "Nexthink",
+      "location": "",
+      "title": "Senior Product Manager Endpoint",
+      "url": "https://remotefirstjobs.com/companies/nexthink/jobs/senior-product-manager-endpoint-740225",
+      "id": "8a842529c3a3d596a6945158578e10076c8709f2a12940d4e922994804cedc52",
+      "core_requirements": [
+        {
+          "requirement": "Define and drive the roadmap for endpoint troubleshooting capabilities, aligned with customer needs, business priorities, and platform direction.",
+          "category": "domain",
+          "evidence": "Experience as a Product Manager in a product-led company, ideally in enterprise software or another technical domain. Strong ability to understand complex technical systems and work closely with engineering teams while staying focused on customer value and outcomes.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Lead delivery of capabilities that improve how endpoint issues are detected, understood, and resolved.",
+          "category": "domain",
+          "evidence": "Experience as a Product Manager in a product-led company, ideally in enterprise software or another technical domain. Strong ability to understand complex technical systems and work closely with engineering teams while staying focused on customer value and outcomes.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Translate complex technical topics into clear product requirements, priorities, and trade-offs.",
+          "category": "technical",
+          "evidence": "Strong technical foundation, with a Master's degree in computer science, engineering, or equivalent practical experience. Solid understanding of platform architecture, APIs, integrations, backend systems, and endpoint-related technical concepts.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Identify opportunities to apply AI in practical ways that improve troubleshooting effectiveness and user experience.",
+          "category": "technical",
+          "evidence": "Strong interest in AI-driven product experiences, with familiarity in how AI can be applied to troubleshooting, data-driven workflows, and product capabilities, and good judgment on where it creates real value.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Define and track metrics to measure adoption, troubleshooting effectiveness, and product impact.",
+          "category": "leadership",
+          "evidence": "Experience as a Product Manager in a product-led company, ideally in enterprise software or another technical domain. Able to operate effectively in a fast-paced environment with changing priorities, clear trade-offs, and disciplined choices about what not to build.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "3+ years of experience as a Product Manager",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": false
+      },
+      "file_date": "2026-03-20",
+      "source": "pipeline"
+    },
+    {
+      "score": 80,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato possui experiência relevante em posições de PM/TPM, com boa evidência técnica e de liderança. Embora o domínio específico de healthcare/home care não seja uma especialidade, suas habilidades transferíveis em gestão de produto, programa e entrega são adequadas para a vaga. O gap principal é a falta de experiência direta no setor, mas suas competências gerais de PM e a disposição para aprender o novo domínio compensam esse risco.",
+      "main_gap": "Falta de experiência direta no domínio de healthcare/home care",
+      "company": "AlayaCare",
+      "location": "",
+      "title": "Product Manager",
+      "url": "https://remotefirstjobs.com/companies/alayacare/jobs/product-manager-740187",
+      "id": "82279672e78e1e934693a952d18d33a1523cfeeb0098fad7cc1e73d30b08d6df",
+      "core_requirements": [
+        {
+          "requirement": "Owns the strategy and success of our embedded analytics offering, Data Exploration",
+          "category": "domain",
+          "evidence": "PO in image scanning + IA integration; PM in startups + team management program; TPM in global high-complexity program",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Balances customer needs, technical complexity, and business priorities to deliver solutions that are both impactful and easy to use",
+          "category": "technical",
+          "evidence": "Experience in product discovery/delivery, program/delivery management, data & evidence, IA applied with methodology",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Serves as the main representative for Data Exploration, engaging with clients, partners, and internal teams",
+          "category": "leadership",
+          "evidence": "Experience in program and project management, with stakeholder management and communication",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Defines roles and responsibilities for data stewardship, ownership, and accuracy",
+          "category": "domain",
+          "evidence": "Experience in data governance, metadata processes, and data literacy enablement",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Partners with engineering to define feature requirements and deliver on scope and timelines",
+          "category": "technical",
+          "evidence": "Experience in agile/scrum processes and feature development collaboration",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Not specified",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": false
+      },
+      "file_date": "2026-03-20",
+      "source": "pipeline"
+    },
     {
       "score": 90,
       "score_ceiling": 100,
@@ -1924,64 +2026,9 @@
       },
       "file_date": "2026-03-06",
       "source": "pipeline"
-    },
-    {
-      "score": 90,
-      "score_ceiling": 100,
-      "ceiling_reason": "Nenhuma penalty aplicável.",
-      "justification": "O candidato Guilherme Maia possui experiência direta no domínio central da vaga de Product Manager, com evidências concretas de seu perfil alinhado aos requisitos chave, incluindo: (1) experiência em gerenciamento de produtos digitais e técnicos, com foco em requisitos do cliente e ajuste ao mercado; (2) habilidades comprovadas em priorização de funcionalidades, visão de produto e pesquisa de mercado; (3) experiência em colaboração cross-funcional, com ótimas habilidades de comunicação e mentalidade pragmática orientada a soluções; (4) familiaridade com análise de mercado e estratégias de diferenciação de produtos. O candidato se enquadra perfeitamente na faixa de 85-100, possuindo experiência direta no domínio central e contexto similar à vaga.",
-      "main_gap": "Não há lacunas significativas na candidatura do Guilherme Maia para a vaga de Product Manager na Olmatic Gmbh.",
-      "company": "Olmatic Gmbh",
-      "location": "",
-      "title": "Product Manager (m/w/d)",
-      "url": "https://weworkremotely.com/remote-jobs/olmatic-gmbh-product-manager-m-w-d",
-      "id": "0cf5c257c53f9aa58764187b1ce5ebb902c48202b2a0a80902602a9b5bf5c64a",
-      "core_requirements": [
-        {
-          "requirement": "Create impactful products by translating customer needs and market analyses into clear product goals and innovative features",
-          "category": "domain",
-          "evidence": "Extensive experience in product management of digital or technical products, with strong focus on customer requirements and product-market fit",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Own the product roadmap, prioritize features, and ensure product-market fit through continuous customer feedback and market research",
-          "category": "domain",
-          "evidence": "Proven ability to translate complex customer requirements into clear user stories and precise product specifications, with strong analytical and strategic thinking skills",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Work closely with Engineering, UX/UI design, and Marketing teams to deliver high-quality products on time",
-          "category": "leadership",
-          "evidence": "Experience in cross-functional collaboration, with strong communication skills and a pragmatic, solution-oriented mindset",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Monitor market trends, identify competitive advantages, and proactively develop strategies for differentiation and positioning",
-          "category": "domain",
-          "evidence": "Familiarity with market and competitive analysis, with the ability to identify market opportunities and develop product differentiation strategies",
-          "has_evidence": "full"
-        }
-      ],
-      "seniority_comparison": {
-        "jd_asks": "Experience in product management of digital or technical products, ideally in software, SaaS, or renewable energy sectors",
-        "candidate_has": "Extensive experience in product management of digital or technical products, with strong focus on customer requirements and product-market fit",
-        "gap": false
-      },
-      "file_date": "2026-03-05",
-      "source": "pipeline"
     }
   ],
   "pipeline_runs": [
-    {
-      "date": "2026-03-05",
-      "filtered_at": "2026-03-05T09:33:44.476119+00:00",
-      "total_input": 11,
-      "total_passed": 6,
-      "discarded_title": 1,
-      "discarded_blocklist": 2,
-      "discarded_location": 2,
-      "discarded_quality": 0
-    },
     {
       "date": "2026-03-06",
       "filtered_at": "2026-03-06T09:29:59.881657+00:00",
@@ -2080,6 +2127,16 @@
       "discarded_title": 2,
       "discarded_blocklist": 2,
       "discarded_location": 9,
+      "discarded_quality": 0
+    },
+    {
+      "date": "2026-03-20",
+      "filtered_at": "2026-03-20T09:33:14.906745+00:00",
+      "total_input": 19,
+      "total_passed": 11,
+      "discarded_title": 2,
+      "discarded_blocklist": 0,
+      "discarded_location": 6,
       "discarded_quality": 0
     }
   ]

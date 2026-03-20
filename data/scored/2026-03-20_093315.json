@@ -1,0 +1,487 @@
+{
+  "scored_at": "2026-03-20T09:33:15.312229+00:00",
+  "source_file": "2026-03-20_092840.json",
+  "summary": {
+    "total_input": 11,
+    "total_llm_eliminated": 3,
+    "total_scored": 7,
+    "total_top": 2
+  },
+  "jobs": [
+    {
+      "score": 90,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato possui experiência abrangente e diretamente relevante para a função de Senior Product Manager Endpoint. Ele demonstra sólida experiência em liderança de produtos, gestão de programas complexos, implementação de soluções de IA e capacidade de traduzir requisitos técnicos em definições de produto claras. Seu perfil se encaixa plenamente no escopo da vaga, atendendo a todos os requisitos essenciais.",
+      "main_gap": "Não há gaps ou riscos significativos identificados nesta candidatura.",
+      "company": "Nexthink",
+      "location": "",
+      "title": "Senior Product Manager Endpoint",
+      "url": "https://remotefirstjobs.com/companies/nexthink/jobs/senior-product-manager-endpoint-740225",
+      "id": "8a842529c3a3d596a6945158578e10076c8709f2a12940d4e922994804cedc52",
+      "core_requirements": [
+        {
+          "requirement": "Define and drive the roadmap for endpoint troubleshooting capabilities, aligned with customer needs, business priorities, and platform direction.",
+          "category": "domain",
+          "evidence": "Experience as a Product Manager in a product-led company, ideally in enterprise software or another technical domain. Strong ability to understand complex technical systems and work closely with engineering teams while staying focused on customer value and outcomes.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Lead delivery of capabilities that improve how endpoint issues are detected, understood, and resolved.",
+          "category": "domain",
+          "evidence": "Experience as a Product Manager in a product-led company, ideally in enterprise software or another technical domain. Strong ability to understand complex technical systems and work closely with engineering teams while staying focused on customer value and outcomes.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Translate complex technical topics into clear product requirements, priorities, and trade-offs.",
+          "category": "technical",
+          "evidence": "Strong technical foundation, with a Master's degree in computer science, engineering, or equivalent practical experience. Solid understanding of platform architecture, APIs, integrations, backend systems, and endpoint-related technical concepts.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Identify opportunities to apply AI in practical ways that improve troubleshooting effectiveness and user experience.",
+          "category": "technical",
+          "evidence": "Strong interest in AI-driven product experiences, with familiarity in how AI can be applied to troubleshooting, data-driven workflows, and product capabilities, and good judgment on where it creates real value.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Define and track metrics to measure adoption, troubleshooting effectiveness, and product impact.",
+          "category": "leadership",
+          "evidence": "Experience as a Product Manager in a product-led company, ideally in enterprise software or another technical domain. Able to operate effectively in a fast-paced environment with changing priorities, clear trade-offs, and disciplined choices about what not to build.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "3+ years of experience as a Product Manager",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": false
+      }
+    },
+    {
+      "score": 80,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato possui experiência relevante em posições de PM/TPM, com boa evidência técnica e de liderança. Embora o domínio específico de healthcare/home care não seja uma especialidade, suas habilidades transferíveis em gestão de produto, programa e entrega são adequadas para a vaga. O gap principal é a falta de experiência direta no setor, mas suas competências gerais de PM e a disposição para aprender o novo domínio compensam esse risco.",
+      "main_gap": "Falta de experiência direta no domínio de healthcare/home care",
+      "company": "AlayaCare",
+      "location": "",
+      "title": "Product Manager",
+      "url": "https://remotefirstjobs.com/companies/alayacare/jobs/product-manager-740187",
+      "id": "82279672e78e1e934693a952d18d33a1523cfeeb0098fad7cc1e73d30b08d6df",
+      "core_requirements": [
+        {
+          "requirement": "Owns the strategy and success of our embedded analytics offering, Data Exploration",
+          "category": "domain",
+          "evidence": "PO in image scanning + IA integration; PM in startups + team management program; TPM in global high-complexity program",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Balances customer needs, technical complexity, and business priorities to deliver solutions that are both impactful and easy to use",
+          "category": "technical",
+          "evidence": "Experience in product discovery/delivery, program/delivery management, data & evidence, IA applied with methodology",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Serves as the main representative for Data Exploration, engaging with clients, partners, and internal teams",
+          "category": "leadership",
+          "evidence": "Experience in program and project management, with stakeholder management and communication",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Defines roles and responsibilities for data stewardship, ownership, and accuracy",
+          "category": "domain",
+          "evidence": "Experience in data governance, metadata processes, and data literacy enablement",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Partners with engineering to define feature requirements and deliver on scope and timelines",
+          "category": "technical",
+          "evidence": "Experience in agile/scrum processes and feature development collaboration",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Not specified",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": false
+      }
+    }
+  ],
+  "scored_jobs": [
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui habilidades transferíveis de gestão de projetos e programas, com experiência em liderança de equipes, gerenciamento de stakeholders e entrega de projetos. No entanto, ele não atende ao requisito de senioridade específico da vaga, que exige 5-7 anos de experiência em projetos de implantação, especialmente no setor de saúde. Apesar disso, o perfil demonstra capacidade de adaptação a novos domínios e a possibilidade de uma curva de aprendizado acelerada.",
+      "main_gap": "A principal lacuna é a diferença de senioridade, com o candidato tendo ~3-4 anos de experiência em PM/TPM, enquanto a vaga requer 5-7 anos de experiência em gerenciamento de projetos de implantação em larga escala no setor de saúde.",
+      "company": "MEDFAR",
+      "location": "",
+      "title": "Project Manager",
+      "url": "https://remotefirstjobs.com/companies/medfar/jobs/project-manager-740326",
+      "id": "77fa6cb26c2345f5fccd2f227cf53794e5d9e68c09b10b05ff0231c24fd9a378",
+      "core_requirements": [
+        {
+          "requirement": "Ensure rigorous planning, coordination, and monitoring of deployment projects in accordance with established schedules, budgets, and requirements.",
+          "category": "leadership",
+          "evidence": "Experienced in managing large-scale deployment projects (5-7 years); skilled in stakeholder management and conflict resolution; able to work under pressure and manage multiple projects simultaneously.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Define and assign tasks to team members based on their skills and availability.",
+          "category": "leadership",
+          "evidence": "Experience in team management and resource development.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Ensure compliance with applicable project management standards, processes, and methodologies.",
+          "category": "technical",
+          "evidence": "Familiarity with project management standards and methodologies (PMP, CSM certifications are assets).",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Ensure the quality of deliverables and customer satisfaction throughout deployments.",
+          "category": "domain",
+          "evidence": "Experience in managing large-scale deployment projects in the healthcare industry, with focus on improving clinical processes.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Evaluates the motivations, objectives, and success criteria of the project for the client;",
+          "category": "domain",
+          "evidence": "Experience in managing large-scale deployment projects, including evaluating project objectives and success criteria for clients.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "5 to 7 years of successful experience in managing large-scale deployment projects",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 55,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui uma sólida experiência em gerenciamento de produtos e programas técnicos, incluindo papéis de Product Owner, Technical Program Manager e Project Manager. No entanto, há uma lacuna entre os 3-4 anos de experiência em tecnologia do candidato e os 5+ anos exigidos pela vaga, especialmente na área de gestão de plataforma e infraestrutura. Embora suas habilidades sejam transferíveis, o candidato precisará de um período de rampa para se adaptar ao domínio específico desta posição.",
+      "main_gap": "Lacuna de seniority na área de gestão de plataforma e infraestrutura, com 3-4 anos de experiência em tecnologia contra 5+ anos exigidos pela vaga.",
+      "company": "Invoca",
+      "location": "",
+      "title": "Senior Platform Technical Product Manager",
+      "url": "https://remotefirstjobs.com/companies/invoca/jobs/senior-platform-technical-product-manager-740230",
+      "id": "c197b5c7781337f1073f8bf7cce6e582c95207c52f2285adf435f01ea7fedfe5",
+      "core_requirements": [
+        {
+          "requirement": "5+ years of hands-on experience in a platform, infrastructure, or other engineering-heavy role, which includes 2+ years of dedicated Product Management experience",
+          "category": "seniority",
+          "evidence": "~3-4 years PM/TPM in technology since Jul/2022, including PO, TPM and PM roles",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Proven track record of successfully leading and delivering complex, cross-team technical initiatives in an Agile/Scrum environment",
+          "category": "leadership",
+          "evidence": "Delivered complex cross-team initiatives as TPM, including release management, risk mitigation, and process improvement",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Strong working knowledge of distributed systems, APIs, cloud infrastructure (AWS/GCP), and data platforms",
+          "category": "technical",
+          "evidence": "Demonstrated experience with cloud infrastructure, APIs, and data platforms through prior roles and personal projects",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Familiarity with CI/CD, DevOps practices, and system reliability principles",
+          "category": "technical",
+          "evidence": "Evidence of familiarity with DevOps and reliability principles through prior work experience and personal interests",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Demonstrated ability to influence without direct authority across multiple technical teams",
+          "category": "leadership",
+          "evidence": "Demonstrated ability to coordinate cross-functional teams and influence stakeholders through prior PM/TPM roles",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "5+ years of hands-on experience in a platform, infrastructure, or other engineering-heavy role, which includes 2+ years of dedicated Product Management experience",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 90,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato possui experiência abrangente e diretamente relevante para a função de Senior Product Manager Endpoint. Ele demonstra sólida experiência em liderança de produtos, gestão de programas complexos, implementação de soluções de IA e capacidade de traduzir requisitos técnicos em definições de produto claras. Seu perfil se encaixa plenamente no escopo da vaga, atendendo a todos os requisitos essenciais.",
+      "main_gap": "Não há gaps ou riscos significativos identificados nesta candidatura.",
+      "company": "Nexthink",
+      "location": "",
+      "title": "Senior Product Manager Endpoint",
+      "url": "https://remotefirstjobs.com/companies/nexthink/jobs/senior-product-manager-endpoint-740225",
+      "id": "8a842529c3a3d596a6945158578e10076c8709f2a12940d4e922994804cedc52",
+      "core_requirements": [
+        {
+          "requirement": "Define and drive the roadmap for endpoint troubleshooting capabilities, aligned with customer needs, business priorities, and platform direction.",
+          "category": "domain",
+          "evidence": "Experience as a Product Manager in a product-led company, ideally in enterprise software or another technical domain. Strong ability to understand complex technical systems and work closely with engineering teams while staying focused on customer value and outcomes.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Lead delivery of capabilities that improve how endpoint issues are detected, understood, and resolved.",
+          "category": "domain",
+          "evidence": "Experience as a Product Manager in a product-led company, ideally in enterprise software or another technical domain. Strong ability to understand complex technical systems and work closely with engineering teams while staying focused on customer value and outcomes.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Translate complex technical topics into clear product requirements, priorities, and trade-offs.",
+          "category": "technical",
+          "evidence": "Strong technical foundation, with a Master's degree in computer science, engineering, or equivalent practical experience. Solid understanding of platform architecture, APIs, integrations, backend systems, and endpoint-related technical concepts.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Identify opportunities to apply AI in practical ways that improve troubleshooting effectiveness and user experience.",
+          "category": "technical",
+          "evidence": "Strong interest in AI-driven product experiences, with familiarity in how AI can be applied to troubleshooting, data-driven workflows, and product capabilities, and good judgment on where it creates real value.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Define and track metrics to measure adoption, troubleshooting effectiveness, and product impact.",
+          "category": "leadership",
+          "evidence": "Experience as a Product Manager in a product-led company, ideally in enterprise software or another technical domain. Able to operate effectively in a fast-paced environment with changing priorities, clear trade-offs, and disciplined choices about what not to build.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "3+ years of experience as a Product Manager",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": false
+      }
+    },
+    {
+      "score": 80,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato possui experiência relevante em posições de PM/TPM, com boa evidência técnica e de liderança. Embora o domínio específico de healthcare/home care não seja uma especialidade, suas habilidades transferíveis em gestão de produto, programa e entrega são adequadas para a vaga. O gap principal é a falta de experiência direta no setor, mas suas competências gerais de PM e a disposição para aprender o novo domínio compensam esse risco.",
+      "main_gap": "Falta de experiência direta no domínio de healthcare/home care",
+      "company": "AlayaCare",
+      "location": "",
+      "title": "Product Manager",
+      "url": "https://remotefirstjobs.com/companies/alayacare/jobs/product-manager-740187",
+      "id": "82279672e78e1e934693a952d18d33a1523cfeeb0098fad7cc1e73d30b08d6df",
+      "core_requirements": [
+        {
+          "requirement": "Owns the strategy and success of our embedded analytics offering, Data Exploration",
+          "category": "domain",
+          "evidence": "PO in image scanning + IA integration; PM in startups + team management program; TPM in global high-complexity program",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Balances customer needs, technical complexity, and business priorities to deliver solutions that are both impactful and easy to use",
+          "category": "technical",
+          "evidence": "Experience in product discovery/delivery, program/delivery management, data & evidence, IA applied with methodology",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Serves as the main representative for Data Exploration, engaging with clients, partners, and internal teams",
+          "category": "leadership",
+          "evidence": "Experience in program and project management, with stakeholder management and communication",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Defines roles and responsibilities for data stewardship, ownership, and accuracy",
+          "category": "domain",
+          "evidence": "Experience in data governance, metadata processes, and data literacy enablement",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Partners with engineering to define feature requirements and deliver on scope and timelines",
+          "category": "technical",
+          "evidence": "Experience in agile/scrum processes and feature development collaboration",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Not specified",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": false
+      }
+    },
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui excelente experiência em gestão de programas técnicos, incluindo liderança de equipes complexas e mitigação de riscos. Sua familiaridade com tecnologias de BI, dados e IA também é relevante. No entanto, o JD solicita um profissional sênior, e o candidato tem cerca de 3-4 anos de experiência como PM/TPM, o que pode ser insuficiente para essa posição. Por isso, o score máximo permitido é 65.",
+      "main_gap": "O principal gap é a diferença de senioridade entre o que é exigido no JD e o que o candidato possui.",
+      "company": "Databricks",
+      "location": "USCA",
+      "title": "Sr. Technical Program Manager, Professional Services - Healthcare & Life Sciences (HLS)",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8438797002",
+      "id": "35b24960619be469bd74eaa8eccc0ba8a2b951a9aba9a697d4ae32ba0d836171",
+      "core_requirements": [
+        {
+          "requirement": "Be responsible for the successful delivery of our most complex customer engagements by providing technical leadership and guidance to the implementation team.",
+          "category": "leadership",
+          "evidence": "Extensive experience in TPM/PM roles at Instituto Atlântico, including coordinating 3 teams (~25 eng.) in a global program and managing a team of 4 startups and 2 internal teams.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Guide technical teams through key architectural decisions, helping them navigate trade-offs between established and innovative approaches.",
+          "category": "technical",
+          "evidence": "Strong technical background, including practical experience with IA methodologies like documentation-as-infrastructure, human-AI governance, and specialized pipelines. Also has experience making technical decisions as PO and TPM.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Proactively identify and mitigate technical risks and dependencies that could impact project timelines and goals.",
+          "category": "leadership",
+          "evidence": "Demonstrated ability to manage risk and dependencies in complex programs, as evidenced by the TPM role at Instituto Atlântico where he reduced weekly review time from 40 to 10 minutes through internal automation.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Experience with BI, data management, and big data technologies is preferred.",
+          "category": "domain",
+          "evidence": "Relevant experience with data technologies, including SQL, Python, Spark/Scala, and ETL, as well as practical application of AI/ML methodologies.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Senior/Experienced",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 54,
+      "score_ceiling": 55,
+      "ceiling_reason": "2+ penalties: domain_gap_core, seniority_gap.",
+      "justification": "O candidato Guilherme Maia possui experiência relevante em gestão de programas e projetos, incluindo liderança de equipes, alinhamento de stakeholders e entrega de resultados. No entanto, seu perfil não indica experiência específica em Customer Success, o que é um gap central para a vaga. Além disso, embora tenha ~3-4 anos de experiência em PM/TPM, a vaga exige 8+ anos, caracterizando um gap de senioridade. Portanto, o score máximo permitido é de 55, considerando as penalidades aplicáveis.",
+      "main_gap": "Falta de experiência específica em Customer Success, domínio-chave para a vaga.",
+      "company": "Samsara",
+      "location": "Remote - Canada",
+      "title": "Senior Program Manager - CS Programs",
+      "url": "https://www.samsara.com/company/careers/roles/7595083?gh_jid=7595083",
+      "id": "ea1ef23cced5245e5c2010daa4d12a07245801e180854bf9ddf82dab95fe2e6f",
+      "core_requirements": [
+        {
+          "requirement": "Own and manage core Customer Success cadences, including QBRs, risk reviews, top deal reviews, and internal planning forums, ensuring consistent structure, clear outputs, and strong follow-through.",
+          "category": "leadership",
+          "evidence": "PO/PM roles managing programs and projects with clear delivery cadence and stakeholder alignment",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Drive end-to-end coordination of key CS meetings and execution moments, including blitz days and cross-functional cadences, ensuring alignment, accountability, and high-quality execution.",
+          "category": "leadership",
+          "evidence": "PO/PM roles leading complex, cross-functional programs and initiatives",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Build and maintain the CS operating calendar, including planning cycles, key milestones, and recurring forums, to ensure alignment across teams and visibility into priorities.",
+          "category": "leadership",
+          "evidence": "Experience in program/project management, driving operational cadence and planning",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Partner with Product, Enablement, and CS leadership to manage the new product release calendar, ensuring readiness, communication, and effective rollout to the field.",
+          "category": "domain",
+          "evidence": "PO/PM roles managing product delivery and launch, though not specifically in customer success domain",
+          "has_evidence": "partial"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "8+ years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 55,
+      "score_ceiling": 55,
+      "ceiling_reason": "2+ penalties: domain_gap_core, seniority_gap.",
+      "justification": "O candidato possui cerca de 3 anos de experiência em papéis de PM/TPM em empresas de tecnologia, o que está abaixo dos 5+ anos exigidos para esta vaga. Além disso, sua experiência prévia é em gestão de projetos de construção civil, não no domínio específico de hardware/IoT requerido. Embora possua habilidades transferíveis em gestão de programas, coordenação de equipes multifuncionais e resolução de problemas, o perfil apresenta gaps em relação aos requisitos centrais da vaga.",
+      "main_gap": "O principal gap é a falta de experiência específica em programas de hardware e IoT, bem como a lacuna de seniority em relação ao que é exigido para a vaga.",
+      "company": "Samsara",
+      "location": "Remote - Taiwan",
+      "title": "Sr. Engineering Program Manager",
+      "url": "https://www.samsara.com/company/careers/roles/7706338?gh_jid=7706338",
+      "id": "966dd942336ac5e36c23aea5b4b5fd2e03e5311d98fa8607e2dbe7a9cb971dec",
+      "core_requirements": [
+        {
+          "requirement": "5+ years experience in hardware engineering program management - proven ability to effectively manage multiple projects and factory build events",
+          "category": "seniority",
+          "evidence": "~3 years of experience in PM/TPM roles at technology companies",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Solid organizational skills including attention to details, prioritization and triage of issues",
+          "category": "technical",
+          "evidence": "Demonstrated ability to manage complex programs, coordinate cross-functional teams, and drive issues to resolution as a PO, PM and TPM",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Proven record driving cross-functional teams toward shared goals",
+          "category": "leadership",
+          "evidence": "Experience leading and managing teams as a PO, PM and TPM, including reallocating team members during program transitions",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Self-motivated, proactive, creative and critical problem-solving capabilities",
+          "category": "other",
+          "evidence": "Track record of proactively addressing issues, driving innovation, and delivering results in complex, ambiguous environments",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Manage JDM and other key suppliers to ensure on-time delivery of high-quality devices",
+          "category": "domain",
+          "evidence": "Experience managing suppliers and partners to deliver high-quality hardware products, though not specifically in the domain of IoT/connected devices",
+          "has_evidence": "partial"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "5+ years",
+        "candidate_has": "~3 years in PM/TPM tech roles",
+        "gap": true
+      }
+    }
+  ],
+  "eliminated_jobs": [
+    {
+      "id_hash": "49c1e8b5c61ffa9fd940690b8729028dc84acf7c8511dc5d09208a593b2045a4",
+      "id": "49c1e8b5c61ffa9fd940690b8729028dc84acf7c8511dc5d09208a593b2045a4",
+      "source": "jobscollider",
+      "title": "Lead Product Manager",
+      "company": "Rover.com",
+      "location": "",
+      "salary": null,
+      "jd_full": "<p>Who we are:</p>\n\n<p>Want to make an impact? Join our pack and come work (and play!) with us.</p>\n\n<p>We believe everyone deserves the unconditional love of a pet—and at Rover, our mission is to make it easier to experience that love. Founded in 2011, the Rover app and website connect dog and cat parents with loving pet sitters and dog walkers in neighborhoods across the US, Canada, and Europe. We empower our community of trusted pet sitters and dog walkers to run their own pet care businesses on Rover with the tools and security of a global company to back them.</p>\n\n<p>Headquartered in Seattle, Washington, we work closely with our teams in Barcelona, San Antonio, Spokane, and remote locations. We’ve got a reputation for being a great place to work, having been named among the 100 Best Companies to Work For in Seattle Business Magazine and Washington’s Best Workplaces in the Puget Sound Business Journal. We’re an agile, fast-growing company, and our leadership comes from some of the world’s most respected tech companies.</p>\n\n<p>At Rover, our furry coworkers are just as important as our human ones—and we wouldn’t have it any other way. Along with making the joys of pet parenthood more accessible, we’re committed to fostering a diverse, inclusive, and welcoming community of pet people—and that starts with our employees.</p>\n\n<p><strong>Who we’re looking for:</strong></p>\n\n<p>We are seeking a Senior Product Manager who thrives at the intersection of marketplace economics and monetization innovation. You are a strategic thinker with deep marketplace experience, someone who understands the levers that drive supply-side success and is passionate about building sustainable, high-impact monetization products and value proposition for Rover providers.</p>\n\n<p>In this role, you will lead the development of alternative monetization, provider value added, and economic strategies that strengthen the value proposition for our providers and unlock new revenue streams for Rover. You will work closely with engineering, design, data science, operations, and finance to craft monetization features and economic incentives that balance marketplace health with long-term revenue growth.</p>\n\n<p>The ideal candidate for this role brings a data-driven mindset, business acumen, customer centricity, and a builder’s curiosity, with a proven ability to translate economic principles into impactful product experiences.</p>\n\n<p><em>This is a hybrid position that has the minimum expectation to work out of our Barcelona Office in the Poblenou neighborhood two days per week on Mondays and Thursdays. For this reason, candidates must be based in Barcelona or willing to relocate.</em></p>\n\n<h3>Qualified candidates will ideally need experience across five key themes:</h3>\n\n<ul>\n<li><strong>Marketplace expertise:</strong> Experience and deep understanding of marketplace dynamics and product strategy. You can navigate ambiguity to design, test, and scale product initiatives that balance value creation and perception across different type of customers,  ensuring both sides of the marketplace feel fairly served while driving sustainable platform growth.ve liquidity, and drive sustainable growth on both sides of the marketplace.</li>\n<li><strong>Data-driven, customer focused decision making:</strong> You are fluent in both quantitative and qualitative insights. You leverage data to uncover opportunity areas, measure elasticity, and evaluate the impact of pricing and monetization tests. At the same time, you build rich customer narratives grounded in qualitative research. You seamlessly balance analytical rigor with customer narratives, translating both numbers and stories into clear marketplace strategies and actionable execution plans.</li>\n<li><strong>Cross-functional leadership:</strong> You excel at bringing together product, engineering, design, analytics, marketing, and finance to define and deliver monetization initiatives. You thrive in ambiguity, communicate effectively across disciplines, and ensure alignment toward shared goals.</li>\n<li><strong>Execution and iteration mindset:</strong> You combine strategic vision with operational excellence. You are able to launch MVPs, measure impact rigorously, and iterate rapidly. You maintain a balance between experimentation speed and quantitative and financial rigor. You also know how to scale products once hypotheses are proven.</li>\n</ul>\n\n<p><strong>Nice to have:</strong></p>\n\n<ul>\n<li><strong>Product monetization expertise:</strong> Experience identifying and launching new monetization avenues, such as paid premium features, subscription models, tiered services, or monetization of SaaS tooling, that enhance provider success while expanding company revenue.</li>\n</ul>\n\n<h3>Plus we are looking for these characteristics:</h3>\n\n<ul>\n<li>You have a true passion for Rover’s mission and values - and are highly motivated by the responsibility to continuously improve our provider experience and increase revenue growth</li>\n<li>You have an unlimited curiosity, always probing for the “why” behind user behavior, market shifts, and emerging technologies</li>\n<li>You know how to leverage qualitative and quantitative data to solve for ambiguous problems, make decisions and drive growth</li>\n<li>Above all, you seek the truth. You know your market, customers and competition better than anyone, and you excel at integrating this information into your decisions and tactics</li>\n<li>You can go get the information you need to validate your hypotheses and can synthesize it into what to do next</li>\n<li>You never hesitate to roll up your sleeves and tackle something hands-on, you persevere when others fall away.</li>\n<li>You never stop pushing towards clarity and delivery and bring your cross-functional partners along with you.</li>\n</ul>\n\n<h3>Your Qualifications:</h3>\n\n<ul>\n<li>7+ years of hands-on product experience. Experience in fast-paced environments is a plus.</li>\n<li>Excellent organizational and analytical skills with strong technical abilities</li>\n<li>Very comfortable with SQL, Google Analytics, Tableau, Periscope, or other data visualization tools.</li>\n<li>Experience with multivariate product experimentation frameworks.</li>\n<li>Experience leading teams through challenging prioritization decisions, creating clear and transparent frameworks that lead to well defined and impactful roadmaps</li>\n<li>Proven ability to motivate teams to produce quality outcomes within challenging timeframes and ongoing change</li>\n<li>BS/MS/MBA in Business, Computer Science, Mathematics, Economics or a related technical field or equivalent practical experience</li>\n<li>Experience working with remote stakeholders, specially engineering, design and data.</li>\n</ul>\n\n<h3>Benefits of Working at Rover.com:</h3>\n\n<ul>\n<li>Long-term incentive plan with a company performance-based cash payout</li>\n<li>Pension plan</li>\n<li>Private medical insurance</li>\n<li>25 days PTO</li>\n<li>Meal allowance and flexible compensation plan (transport and nursery)</li>\n<li>Gym membership</li>\n<li>€450 to cover the costs associated with the adoption of a pet</li>\n<li>Annual €150 wellness reimbursement</li>\n<li>Flexible work hours, sometimes you’ll need to be in at certain times, but on the whole, we’re pretty flexible when it comes to managing workload and time</li>\n<li>Grab snacks, fresh fruit, in our kitchen to keep yourself going</li>\n<li>Regular team activities, events, game nights, and more</li>\n<li>Dog-friendly office</li>\n</ul>\n\n<p>Rover is an equal-opportunity employer committed to promoting a diverse, inclusive, and inventive environment with the best employees. We’re driven by seeing our people succeed and grow, and we work to ensure everyone contributes to their fullest potential. We consider all qualified applicants without regard to age, race, color, ancestry, national origin, religion, disability, protected veteran status, sex, gender identity or expression, sexual orientation, or any other protected status in accordance with applicable laws, regulations, and ordinances.</p>\n\n<p>_</p>",
+      "url": "https://remotefirstjobs.com/companies/rovercom/jobs/lead-product-manager-740345",
+      "collected_at": "2026-03-20T09:28:57.942544+00:00",
+      "date": "Fri, 20 Mar 2026 03:11:14 +0000",
+      "filter_reason": "localização"
+    },
+    {
+      "id_hash": "68df9170696070b341027daf3dba70d4b568452377bfa4559fc4db3702aedc5a",
+      "id": "68df9170696070b341027daf3dba70d4b568452377bfa4559fc4db3702aedc5a",
+      "source": "jobscollider",
+      "title": "Senior Product Manager Data Platform & Products",
+      "company": "Visa",
+      "location": "",
+      "salary": null,
+      "jd_full": "<h3>Company Description</h3>\n\n<p>Visa is a world leader in payments technology, facilitating transactions between consumers, merchants, financial institutions and government entities across more than 200 countries and territories, dedicated to uplifting everyone, everywhere by being the best way to pay and be paid.</p>\n\n<p>At Visa, you’ll have the opportunity to create impact at scale — tackling meaningful challenges, growing your skills and seeing your contributions impact lives around the world. Join Visa and do work that matters — to you, to your community, and to the world.</p>\n\n<p>Progress starts with you.</p>\n\n<h3>Job Description</h3>\n\n<p>The Visa Acceptance Platform team is seeking a Senior Product Manager to join the Acceptance Data Platform & Analytics organization. This team builds and operates a modern, cloud‑native data platform that enables Visa Acceptance products and domains to own, manage, and scale their data and analytics capabilities, while leveraging shared platform services for consistency, governance, and operational efficiency.</p>\n\n<p>The Acceptance Data Platform serves as the foundational layer for analytics, reporting, KPIs, and downstream intelligence across Acceptance products. While the platform increasingly supports AI‑enabled use cases, this role is first and foremost focused on data platform capabilities—including data ingestion, modeling, metrics standardization, APIs, governance, and analytics enablement at scale.</p>\n\n<p>We are looking for a Senior Product Manager with strong data platform and analytics expertise, who can partner deeply with data engineering and platform teams to deliver reliable, governed, and reusable data capabilities that power decision‑making across the Acceptance ecosystem.</p>\n\n<p>What You Will Do:</p>\n\n<p>In this role, you will own the vision, strategy, and execution of the Acceptance Data Platform, ensuring it provides scalable, reliable, and well‑governed data foundations for analytics and reporting across Visa Acceptance products. You will work closely with data engineering, architecture, and analytics teams to define and prioritize cloud‑native data platform capabilities such as data ingestion, modeling, KPI and metrics standardization, APIs, and governance, while balancing domain flexibility with enterprise standards. You will enable consistent, trusted analytics and self‑service reporting for product teams, operational users, and leadership, and ensure the platform scales efficiently with strong performance and cost controls. As a secondary focus, you will ensure the data platform is AI‑ready by delivering high‑quality, well‑modeled data and standardized metrics that can be safely consumed by machine learning and AI platforms. Throughout, you will drive cross‑functional delivery, measure success through adoption and data quality metrics, and continuously improve the platform based on telemetry and stakeholder feedback</p>\n\n<p>How the Day-to-Day Work Looks Like:</p>\n\n<p>In this role, your day‑to‑day work centers on building and evolving the Acceptance Data Platform that powers analytics, reporting, and downstream intelligence across Visa Acceptance solutions. You operate at the intersection of product strategy, data platforms, analytics, and enablement, ensuring the foundation is scalable, governed, and trusted.</p>\n\n<p>On a typical day, you will:</p>\n\n<ul>\n<li>Work closely with data engineering and platform teams to define and prioritize core data platform capabilities—such as ingestion, storage, data modeling, KPI standardization, APIs, and reporting frameworks—balancing scalability, performance, cost, and governance.</li>\n<li>Translate complex platform and analytics needs into clear product requirements, maintaining a well‑prioritized backlog that engineering teams can execute against with confidence.</li>\n<li>Review and validate data schemas, KPI definitions, and analytics designs to ensure metrics are consistent, reusable, and trusted across Acceptance products.</li>\n<li>Partner with domain product teams and analytics consumers to understand how data is used today, identify gaps or duplication, and introduce shared platform capabilities that accelerate delivery and reduce fragmentation.</li>\n<li>Guide the evolution of analytics and reporting experiences, ensuring dashboards, APIs, and self‑service tools are built on standardized data and platform‑defined metrics rather than one‑off implementations.</li>\n<li>Collaborate with architecture, security, privacy, and governance teams to ensure data platform capabilities meet compliance, quality, and auditability requirements without slowing innovation.</li>\n<li>Enrich and strengthen the Acceptance Solutions Machine Learning Platform (MLP) and Artificial Intelligence Platform (AIP) by:\n\n<ul>\n<li>Ensuring high‑quality, well‑modeled, and well‑governed data is available as input for models and AI workflows</li>\n<li>Driving alignment between data platform capabilities and MLP/AIP requirements for feature consistency, reproducibility, and operational readiness</li>\n<li>Partnering with ML and AI teams to identify platform improvements that simplify model training, deployment, and consumption—without shifting ownership of model logic into the data platform</li>\n</ul></li>\n<li>Use platform telemetry, adoption metrics, and stakeholder feedback to continuously refine priorities and guide roadmap decisions.</li>\n<li>Participate in agile delivery rituals to ensure predictable, high‑quality execution across multiple engineering teams.</li>\n<li>Communicate platform progress, trade‑offs, and outcomes clearly to stakeholders and leadership, reinforcing trust in the data and analytics foundation.</li>\n</ul>\n\n<p>This is a hybrid position. Expectation of days in office will be confirmed by your hiring manager.</p>\n\n<h3>Qualifications</h3>\n\n<p>Required Qualifications:</p>\n\n<ul>\n<li>8 or more years of relevant work experience with a Bachelor Degree or at least 5 years of experience with an Advanced Degree (e.g. Masters, MBA, JD, MD) or 2 years of work experience with a PhD</li>\n</ul>\n\n<p>Preferred Qualifications:</p>\n\n<ul>\n<li>9 or more years of relevant work experience with a Bachelor Degree or 7 or more relevant years of experience with an Advanced Degree (e.g. Masters, MBA, JD, MD) or 3 or more years of experience with a PhD</li>\n<li>Degree in Computer Science, Engineering, Information Systems, or a related field</li>\n<li>Experience in Payment Processing domain</li>\n<li>Proven experience owning and delivering complex data platform or analytics products</li>\n<li>Hands on experience with cloud native data platforms (e.g., Amazon S3, Databricks, ClickHouse, or similar)</li>\n<li>Familiarity with data mesh concepts, federated governance, or domain oriented data ownership</li>\n<li>Experience building platform products consumed by multiple internal teams</li>\n<li>Exposure to AI enabled analytics or ML use cases (as a consumer of data platforms, not as a core focus)</li>\n<li>Experience working in large scale, regulated, enterprise environments</li>\n</ul>\n\n<p>Strong understanding of:</p>\n\n<ul>\n<li>Data modeling, schemas, and metrics design</li>\n<li>Analytics and reporting platforms</li>\n<li>How data quality and governance impact downstream use cases</li>\n<li>Ability to partner effectively with senior data engineering and platform teams</li>\n<li>Excellent communication, problem solving, and decision making skills in complex, ambiguous environments</li>\n</ul>\n\n<h3>Additional Information</h3>\n\n<p><strong>Work Hours:</strong> Varies upon the needs of the department.</p>\n\n<p><strong>Travel Requirements:</strong> This position requires travel 5-10% of the time.</p>\n\n<p><strong>Mental/Physical Requirements:</strong> This position will be performed in an office setting.  The position will require the incumbent to sit and stand at a desk, communicate in person and by telephone, frequently operate standard office equipment, such as telephones and computers.</p>\n\n<p>Visa is an EEO Employer.  Qualified applicants will receive consideration for employment without regard to race, color, religion, sex, national origin, sexual orientation, gender identity, disability or protected veteran status.  Visa will also consider for employment qualified applicants with criminal histories in a manner consistent with EEOC guidelines and applicable local law.</p>\n\n<p>Visa will consider for employment qualified applicants with criminal histories in a manner consistent with applicable local law, including the requirements of Article 49 of the San Francisco Police Code.</p>\n\n<p><strong>U.S. APPLICANTS ONLY: The estimated salary range for this position is 152,200.00 to 243,700.00 USD per year, which may include potential sales incentive payments (if applicable). Salary may vary depending on job-related factors which may include knowledge, skills, experience, and location. In addition, this position may be eligible for bonus and equity. Visa has a comprehensive benefits package for which this position may be eligible that includes Medical, Dental, Vision, 401 (k), FSA/HSA, Life Insurance, Paid Time Off, and Wellness Program.</strong></p>",
+      "url": "https://remotefirstjobs.com/companies/visa/jobs/senior-product-manager-data-platform-products-740299",
+      "collected_at": "2026-03-20T09:28:57.942572+00:00",
+      "date": "Fri, 20 Mar 2026 02:21:04 +0000",
+      "filter_reason": "localização"
+    },
+    {
+      "id_hash": "f340b6a7fdd5b4478a39527e84355550cb3234fe2a11150569cfe3967222643c",
+      "id": "f340b6a7fdd5b4478a39527e84355550cb3234fe2a11150569cfe3967222643c",
+      "source": "greenhouse",
+      "title": "Technical Program Manager, Payments Experiences",
+      "company": "Stripe",
+      "location": "Chicago, Remote in the US",
+      "salary": null,
+      "jd_full": "&lt;h2&gt;Who we are&lt;/h2&gt;\n&lt;h3&gt;About Stripe&lt;/h3&gt;\n&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career.&lt;/span&gt;&lt;/p&gt;\n&lt;h3&gt;About the team&lt;/h3&gt;\n&lt;p&gt;Stripe&#39;s Payments Experiences teams focus on empowering merchants to create delightful and highly optimized payment experiences. This involves Stripe&#39;s Payment Links, Elements, Checkout, and Terminal, which are reshaping online and in-person shopping. These products enhance convenience and security for consumers across numerous businesses, ultimately boosting conversion rates and lowering cost for merchants. The Technical Program Management (TPM) team collaborates closely with product, engineering, go-to-market teams, and customers to achieve the teams&#39; most important objectives.&lt;/p&gt;\n&lt;h2&gt;What you’ll do&lt;/h2&gt;\n&lt;p&gt;Effective TPMs at Stripe always bias towards driving the right solutions for our users and internal stakeholders with the north star focus of delivering long term impact for the product and for Stripe. You’ll do this even when it’s not the easiest path for us or our teams, and requires trade-off decisions. You will look ahead and around corners to enable our teams to operate at their best, and for opportunities to eliminate the unnecessary in delivering results. Payments Experiences is still in early days. So you will have an opportunity to have significant influence on the product roadmap and technical direction for the team.&lt;/p&gt;\n&lt;h3&gt;Responsibilities&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;Drive functional and technical delivery of key team-, org-, and company-wide initiatives&lt;/li&gt;\n&lt;li&gt;Collaborate with engineering teams to design, scope, and shepherd features&lt;/li&gt;\n&lt;li&gt;Create functional specs, project plans, and roadmaps&lt;/li&gt;\n&lt;li&gt;Own and execute multiple software engineering programs simultaneously&lt;/li&gt;\n&lt;li&gt;Help drive product decisions to align with higher company initiatives&lt;/li&gt;\n&lt;li&gt;Help influence peers / managers and build consensus while dealing with ambiguity&lt;/li&gt;\n&lt;li&gt;Drive clarity across all stakeholders on the goal, problem and outcomes the team is working towards.&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Understand the technical problems that need to be solved, and work closely with necessary stakeholders of the engineering teams, technical systems/processes involved to define and manage the most effective way to enable teams to deliver solutions.&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Bring rapid clarity to ambiguous situations, resolve them effectively, communicate decisions efficiently, and enable teams to move towards implementing solutions. You will bring your experience and contextual knowledge to bear on the problems that teams need to solve&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;&lt;strong&gt;Who you are&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;We’re looking for someone who meets the minimum requirements to be considered for the role. If you meet these requirements, you are encouraged to apply. The preferred qualifications are a bonus, not a requirement.&lt;/span&gt;&lt;/p&gt;\n&lt;h3&gt;Minimum requirements&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;7+ years of product management or technical program management experience with extensive experience partnering closely with software engineering teams&lt;/li&gt;\n&lt;li&gt;Experience providing program management during all phases of software development.&lt;/li&gt;\n&lt;li&gt;Proven track record of defining and executing complex programs across multiple functions&lt;/li&gt;\n&lt;li&gt;Excellent written and verbal communication skills, with the ability to establish strong relationships with stakeholders and senior leaders&lt;/li&gt;\n&lt;li&gt;Thrive in solving ambiguous problems and see opportunities where others see chaos&lt;/li&gt;\n&lt;li&gt;Experience influencing technical decisions particularly as they impact reliability, security, latency and scalability&lt;/li&gt;\n&lt;li&gt;Relentless focus on users and solving for their needs and wants&lt;/li&gt;\n&lt;li&gt;Have strong prioritization frameworks to drive development for the product team and customers. You will have a strong understanding of our product roadmaps and help leaders navigate how to balance meeting the roadmap and balancing priority customer needs&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h3&gt;&lt;strong&gt;Preferred qualifications&lt;/strong&gt;&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&amp;nbsp;Experience with payments-related products&lt;/span&gt;&lt;/li&gt;\n&lt;/ul&gt;",
+      "url": "https://stripe.com/jobs/search?gh_jid=6932491",
+      "collected_at": "2026-03-20T09:33:03.526057+00:00",
+      "date": "2026-03-19T18:34:23-04:00",
+      "filter_reason": "localização"
+    }
+  ]
+}
