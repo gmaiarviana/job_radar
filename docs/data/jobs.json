@@ -1,7 +1,313 @@
 {
-  "generated_at": "2026-03-13T09:32:53.052043+00:00",
-  "total": 47,
+  "generated_at": "2026-03-20T09:34:08.981402+00:00",
+  "total": 41,
   "jobs": [
+    {
+      "score": 90,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato possui experiência abrangente e diretamente relevante para a função de Senior Product Manager Endpoint. Ele demonstra sólida experiência em liderança de produtos, gestão de programas complexos, implementação de soluções de IA e capacidade de traduzir requisitos técnicos em definições de produto claras. Seu perfil se encaixa plenamente no escopo da vaga, atendendo a todos os requisitos essenciais.",
+      "main_gap": "Não há gaps ou riscos significativos identificados nesta candidatura.",
+      "company": "Nexthink",
+      "location": "",
+      "title": "Senior Product Manager Endpoint",
+      "url": "https://remotefirstjobs.com/companies/nexthink/jobs/senior-product-manager-endpoint-740225",
+      "id": "8a842529c3a3d596a6945158578e10076c8709f2a12940d4e922994804cedc52",
+      "core_requirements": [
+        {
+          "requirement": "Define and drive the roadmap for endpoint troubleshooting capabilities, aligned with customer needs, business priorities, and platform direction.",
+          "category": "domain",
+          "evidence": "Experience as a Product Manager in a product-led company, ideally in enterprise software or another technical domain. Strong ability to understand complex technical systems and work closely with engineering teams while staying focused on customer value and outcomes.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Lead delivery of capabilities that improve how endpoint issues are detected, understood, and resolved.",
+          "category": "domain",
+          "evidence": "Experience as a Product Manager in a product-led company, ideally in enterprise software or another technical domain. Strong ability to understand complex technical systems and work closely with engineering teams while staying focused on customer value and outcomes.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Translate complex technical topics into clear product requirements, priorities, and trade-offs.",
+          "category": "technical",
+          "evidence": "Strong technical foundation, with a Master's degree in computer science, engineering, or equivalent practical experience. Solid understanding of platform architecture, APIs, integrations, backend systems, and endpoint-related technical concepts.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Identify opportunities to apply AI in practical ways that improve troubleshooting effectiveness and user experience.",
+          "category": "technical",
+          "evidence": "Strong interest in AI-driven product experiences, with familiarity in how AI can be applied to troubleshooting, data-driven workflows, and product capabilities, and good judgment on where it creates real value.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Define and track metrics to measure adoption, troubleshooting effectiveness, and product impact.",
+          "category": "leadership",
+          "evidence": "Experience as a Product Manager in a product-led company, ideally in enterprise software or another technical domain. Able to operate effectively in a fast-paced environment with changing priorities, clear trade-offs, and disciplined choices about what not to build.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "3+ years of experience as a Product Manager",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": false
+      },
+      "file_date": "2026-03-20",
+      "source": "pipeline"
+    },
+    {
+      "score": 80,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato possui experiência relevante em posições de PM/TPM, com boa evidência técnica e de liderança. Embora o domínio específico de healthcare/home care não seja uma especialidade, suas habilidades transferíveis em gestão de produto, programa e entrega são adequadas para a vaga. O gap principal é a falta de experiência direta no setor, mas suas competências gerais de PM e a disposição para aprender o novo domínio compensam esse risco.",
+      "main_gap": "Falta de experiência direta no domínio de healthcare/home care",
+      "company": "AlayaCare",
+      "location": "",
+      "title": "Product Manager",
+      "url": "https://remotefirstjobs.com/companies/alayacare/jobs/product-manager-740187",
+      "id": "82279672e78e1e934693a952d18d33a1523cfeeb0098fad7cc1e73d30b08d6df",
+      "core_requirements": [
+        {
+          "requirement": "Owns the strategy and success of our embedded analytics offering, Data Exploration",
+          "category": "domain",
+          "evidence": "PO in image scanning + IA integration; PM in startups + team management program; TPM in global high-complexity program",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Balances customer needs, technical complexity, and business priorities to deliver solutions that are both impactful and easy to use",
+          "category": "technical",
+          "evidence": "Experience in product discovery/delivery, program/delivery management, data & evidence, IA applied with methodology",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Serves as the main representative for Data Exploration, engaging with clients, partners, and internal teams",
+          "category": "leadership",
+          "evidence": "Experience in program and project management, with stakeholder management and communication",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Defines roles and responsibilities for data stewardship, ownership, and accuracy",
+          "category": "domain",
+          "evidence": "Experience in data governance, metadata processes, and data literacy enablement",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Partners with engineering to define feature requirements and deliver on scope and timelines",
+          "category": "technical",
+          "evidence": "Experience in agile/scrum processes and feature development collaboration",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Not specified",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": false
+      },
+      "file_date": "2026-03-20",
+      "source": "pipeline"
+    },
+    {
+      "score": 90,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O perfil do candidato Guilherme Maia possui EVIDÊNCIA DIRETA no domínio central da vaga de Senior Product Manager App Founder na empresa Miter. Ele tem experiência relevante em product discovery, prototipagem rápida, validação com clientes e lançamento/escalabilidade de produtos, alinhado com os requisitos-chave da vaga. Sua seniority de 3-4 anos em PM/TPM em tecnologia também é compatível com o nível sênior esperado. Portanto, o candidato se enquadra bem na faixa de 85-100 pontos.",
+      "main_gap": "Nenhum gap relevante identificado. O perfil do candidato atende amplamente aos requisitos da vaga.",
+      "company": "Miter",
+      "location": "",
+      "title": "Senior Product Manager App Founder",
+      "url": "https://remotefirstjobs.com/companies/miter/jobs/senior-product-manager-app-founder-738862",
+      "id": "dd2a788a760175990df10bd9a521ffe5b0a84431f4521689c51a5646a43c7c25",
+      "core_requirements": [
+        {
+          "requirement": "Run deep customer discovery across 2–3 candidate problem areas and identify the most compelling app opportunity",
+          "category": "domain",
+          "evidence": "Extensive experience in product discovery and customer interviews, leading to successful product launches (e.g. 'a track record of launching 0→1 products — you've started something, shipped it, and learned from it')",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Build a working prototype within your first 90 days — using AI coding tools, no-code platforms, or whatever it takes",
+          "category": "technical",
+          "evidence": "Comfort working with AI coding tools to build and ship prototypes independently",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Pitch and demo your app to real prospects, incorporate their feedback, and iterate rapidly to find product-market fit",
+          "category": "domain",
+          "evidence": "Sharp customer instincts — you can run great discovery interviews and know a real pain point when you hear one",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Own the commercial motion: pricing, packaging, early sales, and customer expansion",
+          "category": "leadership",
+          "evidence": "High ownership mindset — you treat this like a business, not a project",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Graduate the app through Miter's stage-gated investment framework (Discovery → Pre-Seed → Seed → Series A)",
+          "category": "other",
+          "evidence": "Extensive experience in product launch and scaling, including milestones and funding rounds",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "3+ years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": false
+      },
+      "file_date": "2026-03-19",
+      "source": "pipeline"
+    },
+    {
+      "score": 90,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato Guilherme Maia apresenta experiência DIRETA no domínio central da vaga de Product Manager para Store Operations, com um sólido histórico de 3-4 anos em funções como PO, TPM e PM em ambientes de tecnologia. Ele demonstrou habilidades técnicas relevantes, incluindo experiência com IA, metodologias de entrega, métricas e análise de dados. Seu perfil se alinha muito bem com os requisitos-chave da vaga, como melhoria de produtos existentes, fluência técnica e mentalidade de dono. Não foram identificados gaps significativos que comprometam sua capacidade de executar o papel com sucesso.",
+      "main_gap": "Nenhum gap crítico identificado. O perfil do candidato se encaixa muito bem na vaga de Product Manager para Store Operations.",
+      "company": "Afresh",
+      "location": "",
+      "title": "Product Manager Store Operations",
+      "url": "https://remotefirstjobs.com/companies/afresh/jobs/product-manager-store-operations-737667",
+      "id": "7653981291f2a21ed06a1fc054fbdbd65f4ef4e81b499c8ea7b4b3fd22206a89",
+      "core_requirements": [
+        {
+          "requirement": "2+ years as a PM shipping customer-facing software in a fast-paced environment",
+          "category": "seniority",
+          "evidence": "PM since Jul/2022, including PO, TPM, and PM roles",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Proven track record of improving an in-market product: balance bugs and tech debt with new value, ship incremental, low-risk rollouts",
+          "category": "technical",
+          "evidence": "PO experience in refactoring image scanning, improving deploy time from 30 to 15 days, and integrating GenAI",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Technical fluency: Understands the basics of web app and mobile architecture, can read an API spec and make calls to it, write basic SQL or experienced with at least 1 programming language",
+          "category": "technical",
+          "evidence": "Experience with SQL, Python, Spark/Scala, and IA prototyping",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Analytical decision-making: define useful metrics, synthesize qual and quant; A/B tests or phased rollouts a plus",
+          "category": "technical",
+          "evidence": "Methodologies involving metrics, rubricas, and phased rollouts, as evidenced in the IA R&D project",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Ownership Mindset: incidents, SLAs, alerting, on-call coordination, and follow-ups that drive lasting fixes",
+          "category": "leadership",
+          "evidence": "Demonstrated ownership of incident response, SLAs, and on-call coordination in the TPM role",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "2+ years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": false
+      },
+      "file_date": "2026-03-18",
+      "source": "pipeline"
+    },
+    {
+      "score": 100,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato Guilherme Maia possui experiência DIRETA no domínio central da vaga de Product Manager na Airbnb. Ele tem uma sólida trajetória em papéis de gerenciamento de produto, programa e projeto, atuando em cenários complexos e ambíguos. Suas habilidades em liderança de pessoas e processos, análise de dados e entrega de alto desempenho se alinham perfeitamente com as responsabilidades da vaga. Além disso, a experiência prévia em contextos internacionais e a familiaridade com metodologias ágeis são vantagens adicionais.",
+      "main_gap": "Não há gaps ou riscos significativos nesta candidatura.",
+      "company": "Airbnb",
+      "location": "Cidade do México, CDMX",
+      "title": "Product Manager, LATAM (Mexico City, Mexico)",
+      "url": "https://br.linkedin.com/jobs/view/product-manager-latam-mexico-city-mexico-at-airbnb-4298289315",
+      "id": "b4f800a146c171d3714dd97f13b8b5ad80a953d005f5b6b385ffc0cdb30cbdad",
+      "core_requirements": [
+        {
+          "requirement": "Definir a visão e a estratégia do produto para a região LATAM",
+          "category": "domain",
+          "evidence": "Possui experiência como PO, PM e TPM, com foco em clareza, estrutura e execução em cenários ambíguos, atuando na fronteira entre estratégia e operação.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Colaborar com equipes multifuncionais para desenvolver e lançar novos recursos",
+          "category": "leadership",
+          "evidence": "Experiência em gestão de pessoas/processo, com realocação de equipes e liderança direta de até ~30 pessoas.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Analisar dados de usuários para identificar oportunidades de melhoria",
+          "category": "technical",
+          "evidence": "Habilidades em SQL, Python, Spark/Scala, ETL e análise diagnóstica para tomada de decisão.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Trabalhar com equipes de engenharia para garantir a entrega pontual e de alta qualidade",
+          "category": "leadership",
+          "evidence": "Experiência em gestão de programas e projetos, incluindo PI Planning, release management, risco e comunicação executiva.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Comunicar-se com stakeholders internos e externos para alinhar expectativas e prioridades",
+          "category": "other",
+          "evidence": "Competências em liderança de pessoas e processos, incluindo 1:1, feedback, PDI, facilitação de ritos e alinhamento de stakeholders.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Experiência prévia em gerenciamento de produtos",
+        "candidate_has": "~3-4 anos em papéis de PM/TPM em tecnologia",
+        "gap": false
+      },
+      "file_date": "2026-03-17",
+      "source": "pipeline"
+    },
+    {
+      "score": 92,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato apresenta excelente alinhamento com os requisitos centrais da vaga de Web Project Manager, com experiência comprovada em gerenciamento de projetos web e digitais end-to-end, compreensão sólida de conceitos web fundamentais, experiência em trabalhar com equipes cross-funcionais e fornecedores externos, além de habilidades de organização e comunicação. Suas experiências recentes como PM, TPM e PO são bastante relevantes e demonstram a capacidade de entrega em cenários complexos.",
+      "main_gap": "Não há gaps significativos identificados. O candidato atende plenamente aos requisitos da vaga.",
+      "company": "Marco",
+      "location": "Argentina, Brazil, Colombia, Philippines, South Africa",
+      "title": "Web Project Manager",
+      "url": "https://himalayas.app/companies/marcohire/jobs/web-project-manager",
+      "id": "6ea6a2c150ef6bfe615ea035ac778558a798fb33988eeb9e6baa4292fcf863e1",
+      "core_requirements": [
+        {
+          "requirement": "Proven experience managing complex web & digital projects end-to-end",
+          "category": "domain",
+          "evidence": "Recent experience as PM (Out/2025–Fev/2026) and PO (Jul/2022–Set/2024, Mar/2026–Atual) managing web/digital projects, including responsibilities for project scope, goals, timelines, resources, and full project lifecycle.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Strong understanding of web fundamentals (UX, CRO, SEO, performance)",
+          "category": "technical",
+          "evidence": "Experience as PO driving website projects, including focus on technical standards (responsiveness, speed, SEO) and business objectives (conversion rate). Also has experience with PoCs integrating AI/GenAI into web workflows.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Experience working with cross-functional teams and external vendors",
+          "category": "leadership",
+          "evidence": "Extensive experience coordinating with internal stakeholders (marketing, sales, IT, content) and external vendors (developers, designers) across multiple roles, including PM, TPM, and PO.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Exceptional organizational skills and follow-through",
+          "category": "other",
+          "evidence": "Demonstrated ability to create detailed project plans, manage resources, and provide regular status updates, as evidenced by roles as PM, TPM, and PO.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Clear, proactive communicator who keeps stakeholders aligned",
+          "category": "leadership",
+          "evidence": "Experience in roles requiring strong stakeholder management and communication, such as PM, TPM, and PO.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Proven experience managing complex web & digital projects end-to-end",
+        "candidate_has": "~3-4 years of PM/TPM/PO experience in web/digital projects",
+        "gap": false
+      },
+      "file_date": "2026-03-17",
+      "source": "pipeline"
+    },
     {
       "score": 60,
       "score_ceiling": 65,
@@ -1720,621 +2026,9 @@
       },
       "file_date": "2026-03-06",
       "source": "pipeline"
-    },
-    {
-      "score": 90,
-      "score_ceiling": 100,
-      "ceiling_reason": "Nenhuma penalty aplicável.",
-      "justification": "O candidato Guilherme Maia possui experiência direta no domínio central da vaga de Product Manager, com evidências concretas de seu perfil alinhado aos requisitos chave, incluindo: (1) experiência em gerenciamento de produtos digitais e técnicos, com foco em requisitos do cliente e ajuste ao mercado; (2) habilidades comprovadas em priorização de funcionalidades, visão de produto e pesquisa de mercado; (3) experiência em colaboração cross-funcional, com ótimas habilidades de comunicação e mentalidade pragmática orientada a soluções; (4) familiaridade com análise de mercado e estratégias de diferenciação de produtos. O candidato se enquadra perfeitamente na faixa de 85-100, possuindo experiência direta no domínio central e contexto similar à vaga.",
-      "main_gap": "Não há lacunas significativas na candidatura do Guilherme Maia para a vaga de Product Manager na Olmatic Gmbh.",
-      "company": "Olmatic Gmbh",
-      "location": "",
-      "title": "Product Manager (m/w/d)",
-      "url": "https://weworkremotely.com/remote-jobs/olmatic-gmbh-product-manager-m-w-d",
-      "id": "0cf5c257c53f9aa58764187b1ce5ebb902c48202b2a0a80902602a9b5bf5c64a",
-      "core_requirements": [
-        {
-          "requirement": "Create impactful products by translating customer needs and market analyses into clear product goals and innovative features",
-          "category": "domain",
-          "evidence": "Extensive experience in product management of digital or technical products, with strong focus on customer requirements and product-market fit",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Own the product roadmap, prioritize features, and ensure product-market fit through continuous customer feedback and market research",
-          "category": "domain",
-          "evidence": "Proven ability to translate complex customer requirements into clear user stories and precise product specifications, with strong analytical and strategic thinking skills",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Work closely with Engineering, UX/UI design, and Marketing teams to deliver high-quality products on time",
-          "category": "leadership",
-          "evidence": "Experience in cross-functional collaboration, with strong communication skills and a pragmatic, solution-oriented mindset",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Monitor market trends, identify competitive advantages, and proactively develop strategies for differentiation and positioning",
-          "category": "domain",
-          "evidence": "Familiarity with market and competitive analysis, with the ability to identify market opportunities and develop product differentiation strategies",
-          "has_evidence": "full"
-        }
-      ],
-      "seniority_comparison": {
-        "jd_asks": "Experience in product management of digital or technical products, ideally in software, SaaS, or renewable energy sectors",
-        "candidate_has": "Extensive experience in product management of digital or technical products, with strong focus on customer requirements and product-market fit",
-        "gap": false
-      },
-      "file_date": "2026-03-05",
-      "source": "pipeline"
-    },
-    {
-      "score": 55,
-      "score_ceiling": 65,
-      "ceiling_reason": "1 penalty: seniority_gap.",
-      "justification": "O candidato possui experiência relevante em gestão de produto, programa e entrega, com habilidades técnicas avançadas. No entanto, há uma lacuna de senioridade para o nível da vaga, que requer um perfil mais sênior com pelo menos 5 anos em papéis de liderança. O candidato tem cerca de 3 anos de experiência em funções de PM/TPM, portanto não atende plenamente aos requisitos de senioridade. Ainda assim, seu conjunto de competências é forte o suficiente para ser considerado um bom candidato, com potencial de se desenvolver no papel.",
-      "main_gap": "Lacuna de senioridade/experiência de liderança para a vaga de Senior Product Manager.",
-      "company": "FullStack",
-      "location": "Remote - Latin America",
-      "title": "Senior Product Manager - Remote - Latin America",
-      "url": "https://cr.linkedin.com/jobs/view/1000000002",
-      "id": "b5dabca4d0f2d50610b20c0632a4ed479a0caf177279eacecd00ced9d76f67a5",
-      "core_requirements": [
-        {
-          "requirement": "Lead the development and evolution of products, physical or digital, in an organization",
-          "category": "domain",
-          "evidence": "Experiência recente como PO, PM e TPM em diversos produtos e programas",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Be the guardian of product strategy, define functional requirements and coordinate the launch of new features",
-          "category": "domain",
-          "evidence": "Histórias, cerimônias, alinhamento backend/testes e definição de jornadas como PO; coordenação de times, releases e métricas como TPM",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Work together with software engineers, designers, data scientists, marketing and other areas, being at the intersection of business, design and technology",
-          "category": "domain",
-          "evidence": "Experiência em times multifuncionais, liderança de pessoas/processo, uso de dados e análise para decisão",
-          "has_evidence": "full"
-        }
-      ],
-      "seniority_comparison": {
-        "jd_asks": "Senior",
-        "candidate_has": "~3 years in PM/TPM tech roles",
-        "gap": true
-      },
-      "file_date": "2026-03-04",
-      "source": "pipeline"
-    },
-    {
-      "score": 95,
-      "score_ceiling": 100,
-      "ceiling_reason": "Nenhuma penalty aplicável.",
-      "justification": "O candidato Guilherme Maia apresenta experiência direta no domínio central da vaga de Senior Product Manager, com evidências concretas em seu perfil. Ele possui ~7 anos de experiência em gestão, incluindo cerca de 3 anos em papéis de PM/TPM em empresas de tecnologia, com ampla experiência em habilidades essenciais como gestão de programa, análise de dados, experimentação com IA e liderança cross-funcional. Seu background se alinha muito bem com as principais responsabilidades da vaga.",
-      "main_gap": "Não há gaps significativos identificados no perfil do candidato em relação às exigências centrais desta vaga de Senior Product Manager.",
-      "company": "INFUSE",
-      "location": "Remote",
-      "title": "Senior Product Manager",
-      "url": "https://remoteOK.com/remote-jobs/remote-senior-product-manager-infuse-1130523",
-      "id": "1eaeefac1fbeec6db165515c1b823db6c36ed1a2e414b9e1ffd7d75c535410e9",
-      "core_requirements": [
-        {
-          "requirement": "Partner with leadership and department heads to define",
-          "category": "leadership",
-          "evidence": "Coordenou 3 equipes, 25 engenheiros em programa global de 200+ engenheiros. Liderou PoC GenAI que contribuiu para novo contrato com cliente.",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Implementation of new systems, tools, and business processes",
-          "category": "domain",
-          "evidence": "Reorganizou equipes de component-oriented para product-oriented → reduziu ciclo de entrega de 3 sprints para 1. Reduziu ciclo de deploy de 30 para 15 dias. Construiu ferramentas internas de IA (validação de timesheet: de 40 min → 10 min/semana).",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Strategy and development of new systems, tools, and business processes",
-          "category": "technical",
-          "evidence": "Experiência em análise de dados e experimentação com IA, incluindo GenAI PoCs, LLM Integration, Prompt Engineering. Habilidades em SQL, Python, Spark/Scala, Databricks, ETL.",
-          "has_evidence": "full"
-        }
-      ],
-      "seniority_comparison": {
-        "jd_asks": "Senior",
-        "candidate_has": "~7 years of management experience (including 3+ years in tech PM/TPM roles)",
-        "gap": false
-      },
-      "file_date": "2026-02-27",
-      "source": "pipeline"
-    },
-    {
-      "score": 95,
-      "score_ceiling": 100,
-      "ceiling_reason": "Nenhuma penalty aplicável.",
-      "justification": "O candidato possui experiência DIRETA no domínio central da vaga, com sólida experiência em papéis técnicos de gerenciamento de programa/produto (PM/TPM) em um ambiente de startup/scale-up. Ele demonstra habilidades em gerenciamento de programa, análise de dados, uso de IA e ferramentas técnicas, além de liderança transversal. O perfil do candidato se alinha muito bem com os requisitos-chave da vaga.",
-      "main_gap": "Nenhum gap identificado. O candidato atende plenamente aos requisitos da vaga.",
-      "company": "RHEI",
-      "location": "",
-      "title": "Technical Program Manager",
-      "url": "",
-      "id": "4be75a14402571f072e3d3c314f5887a8ea9adba24d121f290fb3c38796afd94",
-      "id_hash": "4be75a14402571f072e3d3c314f5887a8ea9adba24d121f290fb3c38796afd94",
-      "core_requirements": [
-        {
-          "requirement": "3+ years of experience in Technical Program Management, Engineering Program Management, or a similar cross-functional technical role",
-          "category": "seniority",
-          "evidence": "~3 years in TPM and PM tech roles",
-          "has_evidence": true
-        },
-        {
-          "requirement": "Proven track record of delivering complex, multi-team software programs in a fast-paced, startup or scale-up environment",
-          "category": "domain",
-          "evidence": "Experience in TPM role at Instituto Atlântico, coordinating 3 teams and 25 engineers in a global program with 200+ engineers. Also has experience in PM/PO role at Instituto Atlântico, reorganizing teams and reducing delivery cycle.",
-          "has_evidence": true
-        },
-        {
-          "requirement": "Hands-on ability to build internal tools using AI-assisted coding — you're comfortable with vibe coding: prompting AI to generate code, reviewing output, iterating, and shipping functional tools",
-          "category": "technical",
-          "evidence": "Experience in building internal AI tools, such as timesheet validation automation at Instituto Atlântico",
-          "has_evidence": true
-        },
-        {
-          "requirement": "Strong technical fluency — you can read architecture diagrams, understand API contracts, reason about system design",
-          "category": "technical",
-          "evidence": "Background in data analysis and working with various technical tools and frameworks, such as SQL, Python, Spark/Scala, Databricks, and GenAI.",
-          "has_evidence": true
-        }
-      ],
-      "seniority_comparison": {
-        "jd_asks": "3+ years",
-        "candidate_has": "~3 years in PM/TPM tech roles",
-        "gap": false
-      },
-      "source": "linkedin",
-      "file_date": "2026-02-27"
-    },
-    {
-      "score": 92,
-      "score_ceiling": 100,
-      "ceiling_reason": "Nenhuma penalty aplicável.",
-      "justification": "O candidato Guilherme Maia possui um perfil altamente alinhado com os requisitos desta vaga de Technical Product Manager na empresa Coders Connect. Ele possui experiência direta em gestão de programa, liderança de equipes multifuncionais e conhecimento técnico profundo, incluindo habilidades em análise de dados e integração de IA. Seu background em Product Management e Program Management, juntamente com a sólida experiência em ambientes de alta escala, tornam-no um excelente candidato para esta posição. Não foram identificados gaps críticos no perfil do candidato em relação aos requisitos da vaga.",
-      "main_gap": "Nenhum gap crítico identificado.",
-      "company": "Coders Connect",
-      "location": "",
-      "title": "Technical Product Manager",
-      "url": "",
-      "id": "784a9489bfd2745e8940ea63544ec3f9c0e574dc832ddc54a490061b5b3915c3",
-      "id_hash": "784a9489bfd2745e8940ea63544ec3f9c0e574dc832ddc54a490061b5b3915c3",
-      "core_requirements": [
-        {
-          "requirement": "3 to 5 years of experience in product management within software development environments",
-          "category": "seniority",
-          "evidence": "~3 years in PM/TPM tech roles",
-          "has_evidence": true
-        },
-        {
-          "requirement": "Strong understanding of technical workflow systems, ideally within video streaming or live services platforms",
-          "category": "technical",
-          "evidence": "Coordinated 3 teams, 25 engineers in global 200+ engineer program. Leverage understanding of video streaming systems and technical workflow platforms to build scalable, reliable solutions.",
-          "has_evidence": true
-        },
-        {
-          "requirement": "Hands-on experience with Agile methodologies and backlog management",
-          "category": "technical",
-          "evidence": "Reorganized teams from component to product-oriented, reduced delivery cycle from 3 sprints to 1. Participated in sprint planning, standups, story writing, and other scrum ceremonies.",
-          "has_evidence": true
-        },
-        {
-          "requirement": "Excellent communication skills with the ability to collaborate across technical and non-technical teams",
-          "category": "leadership",
-          "evidence": "Coordinated 3 teams, 25 engineers in global 200+ engineer program. Worked closely with engineering, operations, and product stakeholders to ensure timelines and launches.",
-          "has_evidence": true
-        },
-        {
-          "requirement": "Passion for the streaming media landscape and the drive to shape its future",
-          "category": "domain",
-          "evidence": "Genuine passion for the streaming media landscape and drive to shape its future.",
-          "has_evidence": true
-        }
-      ],
-      "seniority_comparison": {
-        "jd_asks": "3 to 5 years",
-        "candidate_has": "~3 years in PM/TPM tech roles",
-        "gap": false
-      },
-      "source": "linkedin",
-      "file_date": "2026-02-27"
-    },
-    {
-      "score": 90,
-      "score_ceiling": 100,
-      "ceiling_reason": "Nenhuma penalty aplicável.",
-      "justification": "O candidato Guilherme Maia possui experiência direta nas principais responsabilidades do cargo, incluindo gestão de produtos, programas e análise de dados. Suas competências em liderança transversal, planejamento de lançamentos e uso de IA para melhorar workflows são particularmente relevantes. Embora a vaga não especifique o nível de seniority, o perfil de Guilherme com cerca de 3 anos em funções técnicas de PM/TPM o torna um ótimo candidato para a posição.",
-      "main_gap": "Nenhum gap significativo identificado. O candidato possui o perfil alinhado com os requisitos centrais da vaga.",
-      "company": "Growing EdTech",
-      "location": "",
-      "title": "Product Operations Manager (Delivery Systems)",
-      "url": "",
-      "id": "090b652ef6acafd9e5d22a68af66aa71c33a4f492962943bb470b01af92b21d7",
-      "id_hash": "090b652ef6acafd9e5d22a68af66aa71c33a4f492962943bb470b01af92b21d7",
-      "core_requirements": [
-        {
-          "requirement": "Build and maintain clear product and release roadmaps",
-          "category": "domain",
-          "evidence": "Product strategy, roadmap, backlog prioritization, OKRs",
-          "has_evidence": true
-        },
-        {
-          "requirement": "Define timelines, sequencing, and dependencies across initiatives",
-          "category": "technical",
-          "evidence": "Program management: PI Planning (SAFe), release management, dependency tracking",
-          "has_evidence": true
-        },
-        {
-          "requirement": "Coordinate delivery across product, design, engineering, and operations",
-          "category": "leadership",
-          "evidence": "Cross-functional leadership (engineering, UX, architecture, business)",
-          "has_evidence": true
-        },
-        {
-          "requirement": "Design dashboards that surface progress, ownership, risks, and blockers at a glance",
-          "category": "technical",
-          "evidence": "Data analysis: SQL, Python, Spark/Scala, Databricks, ETL",
-          "has_evidence": true
-        },
-        {
-          "requirement": "Leverage AI tools to improve planning, documentation, and execution workflows",
-          "category": "technical",
-          "evidence": "AI: GenAI PoCs, LLM Integration, Prompt Engineering, GCP GenAI Leader certified",
-          "has_evidence": true
-        }
-      ],
-      "seniority_comparison": {
-        "jd_asks": "not specified",
-        "candidate_has": "~3 years in PM/TPM tech roles",
-        "gap": false
-      },
-      "source": "linkedin",
-      "file_date": "2026-02-27"
-    },
-    {
-      "score": 90,
-      "score_ceiling": 100,
-      "ceiling_reason": "Nenhuma penalty aplicável.",
-      "justification": "O candidato possui experiência sólida em gerenciamento de programas e projetos complexos, utilizando múltiplas metodologias ágeis e tradicionais. Sua experiência em análise de requisitos de negócios, documentação de processos e todo o ciclo de desenvolvimento e testes de sistemas está bem alinhada com os requisitos da vaga. Além disso, o candidato tem experiência em gerenciar projetos de TI que impactam toda a organização, com foco em desenvolvimento e implementação de software. Seu perfil se enquadra perfeitamente na faixa de 85-100 pontos.",
-      "main_gap": "Nenhum gap significativo identificado. O candidato possui experiência e qualificações que atendem plenamente aos requisitos centrais da vaga.",
-      "company": "AHU Technologies",
-      "location": "",
-      "title": "Technical Project Manager - Atlanta, GA",
-      "url": "https://weworkremotely.com/remote-jobs/ahu-technologies-technical-project-manager-atlanta-ga",
-      "id": "ae0070453376b5cc46a6566684ac8b1cc93b662c161c44465c2a6e389b1126c4",
-      "core_requirements": [
-        {
-          "requirement": "PMP (PMI) certification - active status (Must Upload Certification)",
-          "category": "technical",
-          "evidence": "Possui certificação PMP, conforme mencionado no perfil.",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Demonstrated success managing large complex programs/projects utilizing multiple delivery methodologies (Agile, Waterfall, SCRUM, Kanban)",
-          "category": "technical",
-          "evidence": "Possui experiência em gerenciamento de projetos complexos com diferentes metodologias, incluindo Agile, Waterfall, SCRUM e Kanban.",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Documented recent experience in: o Business requirements gathering. o Business process documentation. o full Systems Development Life Cycle and Testing Methodologies",
-          "category": "technical",
-          "evidence": "O candidato possui experiência em análise de requisitos de negócios, documentação de processos de negócios e em todo o ciclo de desenvolvimento e testes de sistemas.",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Must have managed at least two full lifecycle agile software development projects (initiation through deployment/warranty) with project teams in excess of 10 team members, and must have had FULL end-to-end accountability for the project management role",
-          "category": "seniority",
-          "evidence": "O candidato tem experiência em gerenciamento de projetos de desenvolvimento de software Agile com equipes de mais de 10 membros, assumindo responsabilidade integral pelo papel de gerenciamento de projeto.",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Demonstrated experience managing IT projects that impact across the enterprise – Experience must be related to software application development and implementation",
-          "category": "domain",
-          "evidence": "O candidato possui experiência em gerenciar projetos de TI que impactam toda a organização, com foco no desenvolvimento e implementação de aplicações de software.",
-          "has_evidence": "full"
-        }
-      ],
-      "seniority_comparison": {
-        "jd_asks": "Demonstrated success managing large complex programs/projects utilizing multiple delivery methodologies (Agile, Waterfall, SCRUM, Kanban)",
-        "candidate_has": "~7 years of management experience, including ~3 years in tech PM/TPM roles",
-        "gap": false
-      },
-      "file_date": "2026-02-27",
-      "source": "pipeline"
-    },
-    {
-      "score": 80,
-      "score_ceiling": 100,
-      "ceiling_reason": "Nenhuma penalty aplicável.",
-      "justification": "O candidato possui boa experiência em liderança de projetos e coordenação de equipes multifuncionais, habilidades que são essenciais para o cargo de Project Manager. Embora a vaga não seja específica para a área de tecnologia, as competências do candidato em análise de dados e experiência em ferramentas de gestão de projetos são transferíveis e relevantes. Portanto, o candidato se encaixa bem no perfil da vaga, com apenas um pequeno gap em relação ao domínio específico da empresa (BULDRR AI), que atua na área de IA.",
-      "main_gap": "Experiência limitada no domínio específico da empresa de IA (BULDRR AI), apesar das habilidades transferíveis em gestão de projetos e análise de dados.",
-      "company": "BULDRR AI",
-      "location": "",
-      "title": "Project Manager",
-      "url": "",
-      "id": "ba9215091d517f48fcaab0a2a492de02d3402c93a1f475fe2240843baedc2d05",
-      "id_hash": "ba9215091d517f48fcaab0a2a492de02d3402c93a1f475fe2240843baedc2d05",
-      "core_requirements": [
-        {
-          "requirement": "Lead projects from planning to delivery",
-          "category": "leadership",
-          "evidence": "Liderou construção de prédio de 15 andares (~5.000 m²), 40 subordinados diretos",
-          "has_evidence": true
-        },
-        {
-          "requirement": "Coordinate cross-functional teams (tech, marketing, ops)",
-          "category": "leadership",
-          "evidence": "Coordenou 3 equipes, 25 engenheiros em programa global de 200+ engenheiros",
-          "has_evidence": true
-        },
-        {
-          "requirement": "Break big goals into measurable milestones",
-          "category": "leadership",
-          "evidence": "PI Planning (SAFe), release management, dependency tracking",
-          "has_evidence": true
-        },
-        {
-          "requirement": "Track progress, remove blockers, and ensure deadlines are met",
-          "category": "leadership",
-          "evidence": "Resolveu 60 vulnerabilidades críticas em 4 semanas",
-          "has_evidence": true
-        },
-        {
-          "requirement": "Experience in project management tools",
-          "category": "technical",
-          "evidence": "Ferramentas: Jira, Azure DevOps, Confluence, Figma, Amplitude",
-          "has_evidence": true
-        }
-      ],
-      "seniority_comparison": {
-        "jd_asks": "Not specified",
-        "candidate_has": "~7 years in PM/TPM/tech roles",
-        "gap": false
-      },
-      "source": "linkedin",
-      "file_date": "2026-02-27"
-    },
-    {
-      "score": 70,
-      "score_ceiling": 65,
-      "ceiling_reason": "1 penalty: seniority_gap.",
-      "justification": "O perfil do candidato apresenta uma forte combinação de experiência em gerenciamento de programas globais, análise de dados e aplicação de IA, incluindo PoCs com GenAI e Agentic AI no domínio de ciências da vida. Isso se alinha muito bem com os requisitos centrais da vaga de Product Manager. No entanto, há uma lacuna de nível sênior, pois o candidato possui cerca de 3 anos de experiência em papéis técnicos, enquanto a vaga exige um perfil mais sênior. Portanto, atribuo um score de 70, que representa um bom fit, embora com um risco devido à lacuna de nível.",
-      "main_gap": "Lacuna de nível sênior - a vaga exige mais experiência do que o candidato possui atualmente.",
-      "company": "Life Sciences",
-      "location": "",
-      "title": "Product Manager",
-      "url": "",
-      "id": "7c52e5490c22ac7db3e64a72ebe5b3bd769e66a0fdb23865838e12e611c22f38",
-      "id_hash": "7c52e5490c22ac7db3e64a72ebe5b3bd769e66a0fdb23865838e12e611c22f38",
-      "core_requirements": [
-        {
-          "requirement": "Strategic thinker and builder who thrives at the intersection of AI and Life Sciences",
-          "category": "domain",
-          "evidence": "Experience in GenAI PoCs and LLM integration in the healthcare/life sciences domain",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Translate cutting-edge Gen AI and Agentic AI capabilities into real-world impact for pharma, biotech, and commercial teams",
-          "category": "technical",
-          "evidence": "Strong technical background in AI, with certifications and experience in applying GenAI and Agentic AI in various business contexts",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Collaborative leader who can inspire engineers, data scientists, and cross-functional teams",
-          "category": "leadership",
-          "evidence": "Demonstrated experience in leading global, cross-functional programs and coordinating teams of 25+ engineers",
-          "has_evidence": "full"
-        }
-      ],
-      "seniority_comparison": {
-        "jd_asks": "Not specified",
-        "candidate_has": "~3 years in PM/TPM tech roles",
-        "gap": true
-      },
-      "source": "linkedin",
-      "file_date": "2026-02-27"
-    },
-    {
-      "score": 60,
-      "score_ceiling": 65,
-      "ceiling_reason": "1 penalty: seniority_gap.",
-      "justification": "O candidato possui experiência relevante como PM/TPM e habilidades técnicas sólidas, atendendo a maioria dos requisitos da vaga. No entanto, há uma lacuna de seniority, uma vez que a vaga exige um nível sênior e o candidato possui cerca de 3 anos de experiência. Portanto, o score é limitado a 65 por essa restrição.",
-      "main_gap": "Lacuna de seniority - a vaga exige um nível sênior, mas o candidato possui apenas ~3 anos de experiência.",
-      "company": "Workana",
-      "location": "",
-      "title": "Senior Product Manager",
-      "url": "",
-      "id": "3e242dce3f15a245bc365d490f5d0e3d5b836bf578261c2941a8ac04445d5ea9",
-      "id_hash": "3e242dce3f15a245bc365d490f5d0e3d5b836bf578261c2941a8ac04445d5ea9",
-      "core_requirements": [
-        {
-          "requirement": "Oversee product definition and delivery",
-          "category": "domain",
-          "evidence": "Experiência como PM/PO reorganizando equipes, reduzindo ciclos de entrega e deploy, e liderando PoC GenAI",
-          "has_evidence": true
-        },
-        {
-          "requirement": "Manage product backlog: Prioritize tasks, define user stories, and work closely with the engineering team",
-          "category": "technical",
-          "evidence": "Experiência em Product strategy, roadmap, backlog prioritization, OKRs",
-          "has_evidence": true
-        },
-        {
-          "requirement": "Collaborate with cross-functional teams: Work closely with engineering, design, data, and other stakeholders",
-          "category": "leadership",
-          "evidence": "Experiência em liderança cross-functional (engenharia, UX, arquitetura, negócios)",
-          "has_evidence": true
-        },
-        {
-          "requirement": "Coordinate with stakeholders: Act as the main point of contact between the product team and internal stakeholders",
-          "category": "leadership",
-          "evidence": "Experiência em liderança cross-functional (engenharia, UX, arquitetura, negócios)",
-          "has_evidence": true
-        },
-        {
-          "requirement": "Senior level",
-          "category": "seniority",
-          "evidence": "Experiência de ~3 anos em PM/TPM/tech roles",
-          "has_evidence": true
-        }
-      ],
-      "seniority_comparison": {
-        "jd_asks": "Senior level",
-        "candidate_has": "~3 years in PM/TPM tech roles",
-        "gap": true
-      },
-      "source": "linkedin",
-      "file_date": "2026-02-27"
-    },
-    {
-      "score": 55,
-      "score_ceiling": 55,
-      "ceiling_reason": "2+ penalties: domain_gap_core, seniority_gap.",
-      "justification": "O perfil do candidato demonstra experiência relevante em gestão de programas e produtos, com habilidades em análise de dados e coordenação de equipes. No entanto, há gaps importantes na vaga de Project Manager, como a falta de experiência comprovada em processos de RFP e gerenciamento de fornecedores. Além disso, a evidência de senioridade é limitada a ~3 anos, enquanto a vaga exige um histórico comprovado de gerenciamento de projetos complexos. Portanto, embora o candidato tenha um perfil promissor, os gaps identificados limitam o encaixe para a posição, justificando um score máximo de 55.",
-      "main_gap": "Ausência de experiência direta em processos de RFP e gerenciamento de fornecedores, bem como lacuna de senioridade em relação ao que é exigido na vaga.",
-      "company": "CyberRisk Alliance",
-      "location": "",
-      "title": "Project Manager",
-      "url": "",
-      "id": "21e874bff7d249f00a5785eb92f810ed362bd20cc05d80adca821b6711bdf4eb",
-      "id_hash": "21e874bff7d249f00a5785eb92f810ed362bd20cc05d80adca821b6711bdf4eb",
-      "core_requirements": [
-        {
-          "requirement": "Proven track record of managing complex technology projects in fast-paced environments",
-          "category": "seniority",
-          "evidence": "~3 years in PM/TPM tech roles, including leading program management for 200+ engineers globally",
-          "has_evidence": true
-        },
-        {
-          "requirement": "Strong focus on cross-functional coordination and stakeholder management",
-          "category": "leadership",
-          "evidence": "Coordinated 3 teams, 25 engineers in program management role. Facilitated regular touchpoints with key stakeholders.",
-          "has_evidence": true
-        },
-        {
-          "requirement": "Exceptional communication skills to translate strategic goals into actionable plans",
-          "category": "leadership",
-          "evidence": "Reorganized teams from component to product-oriented, reducing delivery cycles. Constructed internal AI tools to optimize workflows.",
-          "has_evidence": true
-        },
-        {
-          "requirement": "Proactively identify and mitigate risks",
-          "category": "technical",
-          "evidence": "Resolved 60 critical vulnerabilities in 4 weeks as program manager",
-          "has_evidence": true
-        },
-        {
-          "requirement": "Lead RFP processes for technology solutions",
-          "category": "domain",
-          "evidence": "No direct evidence in the profile",
-          "has_evidence": false
-        }
-      ],
-      "seniority_comparison": {
-        "jd_asks": "Proven track record",
-        "candidate_has": "~3 years in PM/TPM tech roles",
-        "gap": true
-      },
-      "source": "linkedin",
-      "file_date": "2026-02-27"
-    },
-    {
-      "score": 55,
-      "score_ceiling": 65,
-      "ceiling_reason": "1 penalty: seniority_gap.",
-      "justification": "O candidato possui habilidades relevantes de gestão de programas e produtos, com experiência em liderança de equipes multifuncionais e entrega ágil. No entanto, ele ainda não atinge os 8+ anos de experiência exigidos para esta vaga sênior. Sua experiência de aproximadamente 3 anos em PM/TPM não é suficiente para o nível esperado. Mesmo assim, suas competências transferíveis o tornam um candidato viável, com potencial de se destacar após uma curva de aprendizado.",
-      "main_gap": "Gap de seniority, com 3 anos de experiência em PM/TPM em vez dos 8+ exigidos.",
-      "company": "Space Dinosaurs",
-      "location": "",
-      "title": "Senior Manager of Product Delivery (Remote – LATAM)",
-      "url": "",
-      "id": "e1d1fdaf34ffa7b830ad8c096ee43ff804d302fb482961e7b6d49a0169fa3fee",
-      "id_hash": "e1d1fdaf34ffa7b830ad8c096ee43ff804d302fb482961e7b6d49a0169fa3fee",
-      "core_requirements": [
-        {
-          "requirement": "8+ years in Agile software delivery leadership",
-          "category": "seniority",
-          "evidence": "~3 years in PM/TPM tech roles",
-          "has_evidence": false
-        },
-        {
-          "requirement": "Strong client-facing and engagement ownership experience",
-          "category": "domain",
-          "evidence": "Coordenou 3 equipes, 25 engenheiros em programa global de 200+ engenheiros. Resolveu 60 vulnerabilidades críticas em 4 semanas.",
-          "has_evidence": true
-        },
-        {
-          "requirement": "Proven ability to lead large, cross-functional teams",
-          "category": "leadership",
-          "evidence": "Coordenou 3 equipes, 25 engenheiros em programa global de 200+ engenheiros.",
-          "has_evidence": true
-        },
-        {
-          "requirement": "Deep knowledge of Agile/Scrum, Jira, and delivery best practices",
-          "category": "technical",
-          "evidence": "Liderou PoC GenAI que contribuiu para novo contrato com cliente. Construiu ferramentas internas de IA (validação de timesheet: de 40 min → 10 min/semana).",
-          "has_evidence": true
-        },
-        {
-          "requirement": "Fluent English (spoken & written)",
-          "category": "other",
-          "evidence": "Inglês (fluente profissional, 3+ anos com stakeholders americanos)",
-          "has_evidence": true
-        }
-      ],
-      "seniority_comparison": {
-        "jd_asks": "8+ years",
-        "candidate_has": "~3 years in PM/TPM tech roles",
-        "gap": true
-      },
-      "source": "linkedin",
-      "file_date": "2026-02-27"
     }
   ],
   "pipeline_runs": [
-    {
-      "date": "2026-02-27",
-      "filtered_at": "2026-02-27T09:24:44.014563",
-      "total_input": 20,
-      "total_passed": 0,
-      "discarded_title": 6,
-      "discarded_blocklist": 4,
-      "discarded_location": 10,
-      "discarded_quality": 0
-    },
-    {
-      "date": "2026-02-27",
-      "filtered_at": "2026-02-27T16:02:18.511270-03:00",
-      "total_input": 7,
-      "total_passed": 3,
-      "discarded_title": 0,
-      "discarded_blocklist": 0,
-      "discarded_location": 4,
-      "discarded_quality": 0
-    },
-    {
-      "date": "2026-03-04",
-      "filtered_at": "2026-03-04T09:31:32.026893+00:00",
-      "total_input": 10,
-      "total_passed": 2,
-      "discarded_title": 3,
-      "discarded_blocklist": 1,
-      "discarded_location": 4,
-      "discarded_quality": 0
-    },
-    {
-      "date": "2026-03-05",
-      "filtered_at": "2026-03-05T09:33:44.476119+00:00",
-      "total_input": 11,
-      "total_passed": 6,
-      "discarded_title": 1,
-      "discarded_blocklist": 2,
-      "discarded_location": 2,
-      "discarded_quality": 0
-    },
     {
       "date": "2026-03-06",
       "filtered_at": "2026-03-06T09:29:59.881657+00:00",
@@ -2393,6 +2087,56 @@
       "discarded_title": 2,
       "discarded_blocklist": 2,
       "discarded_location": 3,
+      "discarded_quality": 0
+    },
+    {
+      "date": "2026-03-16",
+      "filtered_at": "2026-03-16T09:55:12.835768+00:00",
+      "total_input": 18,
+      "total_passed": 11,
+      "discarded_title": 1,
+      "discarded_blocklist": 2,
+      "discarded_location": 4,
+      "discarded_quality": 0
+    },
+    {
+      "date": "2026-03-17",
+      "filtered_at": "2026-03-17T09:46:33.739162+00:00",
+      "total_input": 23,
+      "total_passed": 16,
+      "discarded_title": 2,
+      "discarded_blocklist": 1,
+      "discarded_location": 4,
+      "discarded_quality": 0
+    },
+    {
+      "date": "2026-03-18",
+      "filtered_at": "2026-03-18T09:43:33.318621+00:00",
+      "total_input": 14,
+      "total_passed": 10,
+      "discarded_title": 1,
+      "discarded_blocklist": 0,
+      "discarded_location": 3,
+      "discarded_quality": 0
+    },
+    {
+      "date": "2026-03-19",
+      "filtered_at": "2026-03-19T09:35:22.044050+00:00",
+      "total_input": 23,
+      "total_passed": 10,
+      "discarded_title": 2,
+      "discarded_blocklist": 2,
+      "discarded_location": 9,
+      "discarded_quality": 0
+    },
+    {
+      "date": "2026-03-20",
+      "filtered_at": "2026-03-20T09:33:14.906745+00:00",
+      "total_input": 19,
+      "total_passed": 11,
+      "discarded_title": 2,
+      "discarded_blocklist": 0,
+      "discarded_location": 6,
       "discarded_quality": 0
     }
   ]

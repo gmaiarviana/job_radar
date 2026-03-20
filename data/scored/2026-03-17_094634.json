@@ -1,0 +1,564 @@
+{
+  "scored_at": "2026-03-17T09:46:34.228092+00:00",
+  "source_file": "2026-03-17_094227.json",
+  "summary": {
+    "total_input": 16,
+    "total_llm_eliminated": 5,
+    "total_scored": 8,
+    "total_top": 2
+  },
+  "jobs": [
+    {
+      "score": 100,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato Guilherme Maia possui experiência DIRETA no domínio central da vaga de Product Manager na Airbnb. Ele tem uma sólida trajetória em papéis de gerenciamento de produto, programa e projeto, atuando em cenários complexos e ambíguos. Suas habilidades em liderança de pessoas e processos, análise de dados e entrega de alto desempenho se alinham perfeitamente com as responsabilidades da vaga. Além disso, a experiência prévia em contextos internacionais e a familiaridade com metodologias ágeis são vantagens adicionais.",
+      "main_gap": "Não há gaps ou riscos significativos nesta candidatura.",
+      "company": "Airbnb",
+      "location": "Cidade do México, CDMX",
+      "title": "Product Manager, LATAM (Mexico City, Mexico)",
+      "url": "https://br.linkedin.com/jobs/view/product-manager-latam-mexico-city-mexico-at-airbnb-4298289315",
+      "id": "b4f800a146c171d3714dd97f13b8b5ad80a953d005f5b6b385ffc0cdb30cbdad",
+      "core_requirements": [
+        {
+          "requirement": "Definir a visão e a estratégia do produto para a região LATAM",
+          "category": "domain",
+          "evidence": "Possui experiência como PO, PM e TPM, com foco em clareza, estrutura e execução em cenários ambíguos, atuando na fronteira entre estratégia e operação.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Colaborar com equipes multifuncionais para desenvolver e lançar novos recursos",
+          "category": "leadership",
+          "evidence": "Experiência em gestão de pessoas/processo, com realocação de equipes e liderança direta de até ~30 pessoas.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Analisar dados de usuários para identificar oportunidades de melhoria",
+          "category": "technical",
+          "evidence": "Habilidades em SQL, Python, Spark/Scala, ETL e análise diagnóstica para tomada de decisão.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Trabalhar com equipes de engenharia para garantir a entrega pontual e de alta qualidade",
+          "category": "leadership",
+          "evidence": "Experiência em gestão de programas e projetos, incluindo PI Planning, release management, risco e comunicação executiva.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Comunicar-se com stakeholders internos e externos para alinhar expectativas e prioridades",
+          "category": "other",
+          "evidence": "Competências em liderança de pessoas e processos, incluindo 1:1, feedback, PDI, facilitação de ritos e alinhamento de stakeholders.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Experiência prévia em gerenciamento de produtos",
+        "candidate_has": "~3-4 anos em papéis de PM/TPM em tecnologia",
+        "gap": false
+      }
+    },
+    {
+      "score": 92,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato apresenta excelente alinhamento com os requisitos centrais da vaga de Web Project Manager, com experiência comprovada em gerenciamento de projetos web e digitais end-to-end, compreensão sólida de conceitos web fundamentais, experiência em trabalhar com equipes cross-funcionais e fornecedores externos, além de habilidades de organização e comunicação. Suas experiências recentes como PM, TPM e PO são bastante relevantes e demonstram a capacidade de entrega em cenários complexos.",
+      "main_gap": "Não há gaps significativos identificados. O candidato atende plenamente aos requisitos da vaga.",
+      "company": "Marco",
+      "location": "Argentina, Brazil, Colombia, Philippines, South Africa",
+      "title": "Web Project Manager",
+      "url": "https://himalayas.app/companies/marcohire/jobs/web-project-manager",
+      "id": "6ea6a2c150ef6bfe615ea035ac778558a798fb33988eeb9e6baa4292fcf863e1",
+      "core_requirements": [
+        {
+          "requirement": "Proven experience managing complex web & digital projects end-to-end",
+          "category": "domain",
+          "evidence": "Recent experience as PM (Out/2025–Fev/2026) and PO (Jul/2022–Set/2024, Mar/2026–Atual) managing web/digital projects, including responsibilities for project scope, goals, timelines, resources, and full project lifecycle.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Strong understanding of web fundamentals (UX, CRO, SEO, performance)",
+          "category": "technical",
+          "evidence": "Experience as PO driving website projects, including focus on technical standards (responsiveness, speed, SEO) and business objectives (conversion rate). Also has experience with PoCs integrating AI/GenAI into web workflows.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Experience working with cross-functional teams and external vendors",
+          "category": "leadership",
+          "evidence": "Extensive experience coordinating with internal stakeholders (marketing, sales, IT, content) and external vendors (developers, designers) across multiple roles, including PM, TPM, and PO.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Exceptional organizational skills and follow-through",
+          "category": "other",
+          "evidence": "Demonstrated ability to create detailed project plans, manage resources, and provide regular status updates, as evidenced by roles as PM, TPM, and PO.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Clear, proactive communicator who keeps stakeholders aligned",
+          "category": "leadership",
+          "evidence": "Experience in roles requiring strong stakeholder management and communication, such as PM, TPM, and PO.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Proven experience managing complex web & digital projects end-to-end",
+        "candidate_has": "~3-4 years of PM/TPM/PO experience in web/digital projects",
+        "gap": false
+      }
+    }
+  ],
+  "scored_jobs": [
+    {
+      "score": 100,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato Guilherme Maia possui experiência DIRETA no domínio central da vaga de Product Manager na Airbnb. Ele tem uma sólida trajetória em papéis de gerenciamento de produto, programa e projeto, atuando em cenários complexos e ambíguos. Suas habilidades em liderança de pessoas e processos, análise de dados e entrega de alto desempenho se alinham perfeitamente com as responsabilidades da vaga. Além disso, a experiência prévia em contextos internacionais e a familiaridade com metodologias ágeis são vantagens adicionais.",
+      "main_gap": "Não há gaps ou riscos significativos nesta candidatura.",
+      "company": "Airbnb",
+      "location": "Cidade do México, CDMX",
+      "title": "Product Manager, LATAM (Mexico City, Mexico)",
+      "url": "https://br.linkedin.com/jobs/view/product-manager-latam-mexico-city-mexico-at-airbnb-4298289315",
+      "id": "b4f800a146c171d3714dd97f13b8b5ad80a953d005f5b6b385ffc0cdb30cbdad",
+      "core_requirements": [
+        {
+          "requirement": "Definir a visão e a estratégia do produto para a região LATAM",
+          "category": "domain",
+          "evidence": "Possui experiência como PO, PM e TPM, com foco em clareza, estrutura e execução em cenários ambíguos, atuando na fronteira entre estratégia e operação.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Colaborar com equipes multifuncionais para desenvolver e lançar novos recursos",
+          "category": "leadership",
+          "evidence": "Experiência em gestão de pessoas/processo, com realocação de equipes e liderança direta de até ~30 pessoas.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Analisar dados de usuários para identificar oportunidades de melhoria",
+          "category": "technical",
+          "evidence": "Habilidades em SQL, Python, Spark/Scala, ETL e análise diagnóstica para tomada de decisão.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Trabalhar com equipes de engenharia para garantir a entrega pontual e de alta qualidade",
+          "category": "leadership",
+          "evidence": "Experiência em gestão de programas e projetos, incluindo PI Planning, release management, risco e comunicação executiva.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Comunicar-se com stakeholders internos e externos para alinhar expectativas e prioridades",
+          "category": "other",
+          "evidence": "Competências em liderança de pessoas e processos, incluindo 1:1, feedback, PDI, facilitação de ritos e alinhamento de stakeholders.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Experiência prévia em gerenciamento de produtos",
+        "candidate_has": "~3-4 anos em papéis de PM/TPM em tecnologia",
+        "gap": false
+      }
+    },
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui uma sólida experiência em gestão de produtos de software de infraestrutura e analytics, com background em tecnologias relevantes como Lakehouse, Apache Iceberg e Delta Lake. No entanto, a vaga exige um profissional com nível de seniority superior ao que o candidato possui atualmente, com uma lacuna de ~1-2 anos em relação ao perfil solicitado. Portanto, seu perfil se enquadra na faixa de 50-69 pontos, considerando que as demais habilidades técnicas e de liderança estão alinhadas com os requisitos da vaga.",
+      "main_gap": "Seniority: o candidato possui ~3-4 anos de experiência como PM/TPM, enquanto a vaga exige um nível de sênior.",
+      "company": "EDB",
+      "location": "Europe",
+      "title": "Sr. Product Manager-Analytics",
+      "url": "https://jobicy.com/jobs/140771-sr-product-manager-analytics",
+      "id": "18cdfbb93f044adba131d759df2872330fded7f61f47a84b901972bbe350c78a",
+      "core_requirements": [
+        {
+          "requirement": "Define, champion and execute the year-long vision and strategy for our next-generation Postgres Analytics platform, informed by customer insights and emerging trends within the Lakehouse ecosystem",
+          "category": "domain",
+          "evidence": "Experienced in product management for complex, data-intensive infrastructure software for enterprise analytics workloads with Warehouse/Lakehouse architectures. Demonstrated success as a product manager in this domain.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Serve as the key subject matter expert on advanced data technologies, specifically the Lakehouse Ecosystem (including Apache Iceberg and Delta Lake), Apache Spark, ClickHouse, and modern Cloud Data Platforms (e.g. Snowflake, Databricks, Cloudera, and the modern data platforms at AWS, GCP and Azure)",
+          "category": "technical",
+          "evidence": "Familiarity and experience with the Lakehouse ecosystem, open data/metadata formats like Apache Iceberg and Delta Lake, and the competitive landscape of this ecosystem. Familiarity and experience with both stable and emerging technologies in the Data ecosystem, including Clickhouse and Apache Spark.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Conduct market analysis, competitive landscape assessments, and deep customer/stakeholder interviews to identify key unmet needs and opportunities where EDB is uniquely positioned to win",
+          "category": "domain",
+          "evidence": "Experience in conducting market analysis, competitive landscape assessments, and deep customer/stakeholder interviews to inform product strategy and roadmap.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Excellent cross-functional communication skills and the ability to discuss highly technical concepts with different audiences, whether they're customers, executives or engineers",
+          "category": "leadership",
+          "evidence": "Demonstrated ability to communicate technical concepts effectively with various stakeholders, including customers, executives, and engineers.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Hands-on attitude toward product development. You're an early adopter who gets your hands dirty with new products before they're ready. You win the trust of engineering teams and field teams by engaging at a deep level with the products you own",
+          "category": "leadership",
+          "evidence": "Hands-on attitude toward product development, with a track record of being an early adopter and deeply engaging with the products they own to win the trust of engineering and field teams.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "senior-level experience",
+        "candidate_has": "~3-4 years as PM/TPM in technology",
+        "gap": true
+      }
+    },
+    {
+      "score": 92,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato apresenta excelente alinhamento com os requisitos centrais da vaga de Web Project Manager, com experiência comprovada em gerenciamento de projetos web e digitais end-to-end, compreensão sólida de conceitos web fundamentais, experiência em trabalhar com equipes cross-funcionais e fornecedores externos, além de habilidades de organização e comunicação. Suas experiências recentes como PM, TPM e PO são bastante relevantes e demonstram a capacidade de entrega em cenários complexos.",
+      "main_gap": "Não há gaps significativos identificados. O candidato atende plenamente aos requisitos da vaga.",
+      "company": "Marco",
+      "location": "Argentina, Brazil, Colombia, Philippines, South Africa",
+      "title": "Web Project Manager",
+      "url": "https://himalayas.app/companies/marcohire/jobs/web-project-manager",
+      "id": "6ea6a2c150ef6bfe615ea035ac778558a798fb33988eeb9e6baa4292fcf863e1",
+      "core_requirements": [
+        {
+          "requirement": "Proven experience managing complex web & digital projects end-to-end",
+          "category": "domain",
+          "evidence": "Recent experience as PM (Out/2025–Fev/2026) and PO (Jul/2022–Set/2024, Mar/2026–Atual) managing web/digital projects, including responsibilities for project scope, goals, timelines, resources, and full project lifecycle.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Strong understanding of web fundamentals (UX, CRO, SEO, performance)",
+          "category": "technical",
+          "evidence": "Experience as PO driving website projects, including focus on technical standards (responsiveness, speed, SEO) and business objectives (conversion rate). Also has experience with PoCs integrating AI/GenAI into web workflows.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Experience working with cross-functional teams and external vendors",
+          "category": "leadership",
+          "evidence": "Extensive experience coordinating with internal stakeholders (marketing, sales, IT, content) and external vendors (developers, designers) across multiple roles, including PM, TPM, and PO.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Exceptional organizational skills and follow-through",
+          "category": "other",
+          "evidence": "Demonstrated ability to create detailed project plans, manage resources, and provide regular status updates, as evidenced by roles as PM, TPM, and PO.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Clear, proactive communicator who keeps stakeholders aligned",
+          "category": "leadership",
+          "evidence": "Experience in roles requiring strong stakeholder management and communication, such as PM, TPM, and PO.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Proven experience managing complex web & digital projects end-to-end",
+        "candidate_has": "~3-4 years of PM/TPM/PO experience in web/digital projects",
+        "gap": false
+      }
+    },
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui experiência relevante em gestão de produto, programa e entrega, demonstrando habilidades transferíveis para este tipo de função. No entanto, há um gap de seniority de aproximadamente 1-2 anos em comparação ao perfil da vaga. Portanto, atribuo um score de 60, dentro da faixa de 50-69 que reflete um bom fit de skills, mas com a necessidade de ramp-up no domínio específico.",
+      "main_gap": "Seniority abaixo do esperado para a função",
+      "company": "Snorkel AI",
+      "location": "",
+      "title": "Strategy & Operations Manager",
+      "url": "https://remotefirstjobs.com/companies/snorkel-ai/jobs/strategy-operations-manager-736481",
+      "id": "4a2e913280b433ed4fe6714d8600cbdda19a42bf8f8829aaf29e5b5a3e02f00e",
+      "core_requirements": [
+        {
+          "requirement": "Partner directly with the Head of Delivery to ensure operational clarity, execution rigor, and alignment across the three delivery teams",
+          "category": "leadership",
+          "evidence": "Institute Atlântico — Project Manager (Out/2025–Fev/2026): programa com 4 startups e depois 2 times (8 pessoas); gestão de pessoas/processo e realocação de **6/8** no término de contrato.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Own delivery-related OKRs, tracking, and reporting to ensure goals are clearly defined, measurable, and progressing",
+          "category": "leadership",
+          "evidence": "Instituto Atlântico — Technical Program Manager (Set/2024–Set/2025): coordenação de 3 times (~25 eng.) em programa global (15 times/200+); 60 vulnerabilidades em 4 semanas; release com 50 defeitos no prazo; automação interna reduziu revisão semanal de ~40 para ~10 min.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Translate strategic priorities into structured operating plans and measurable milestones",
+          "category": "leadership",
+          "evidence": "Instituto Atlântico — Product Owner (Jul/2022–Set/2024): reorganização component→product (~3 sprints para ~1), deploy 30→15 dias, PoC GenAI que contribuiu para contrato e mapeamento de 9 use cases.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Serve as a thought partner and executor to Delivery leadership and adjacent teams",
+          "category": "leadership",
+          "evidence": "Instituto Atlântico — Project Manager (Out/2025–Fev/2026): programa com 4 startups e depois 2 times (8 pessoas); gestão de pessoas/processo e realocação de **6/8** no término de contrato.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "5+ years of experience in strategy, operations, consulting, or similar roles",
+          "category": "seniority",
+          "evidence": "PM/TPM em tecnologia: ~3-4 anos (desde Jul/2022). Inclui: PO Jul/2022–Set/2024, TPM Set/2024–Set/2025, PM Out/2025–Fev/2026, PO Mar/2026–atual.",
+          "has_evidence": "partial"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "5+ years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui ~3-4 anos de experiência relevante como PM/TPM, o que não atende ao requisito de 5+ anos esperado para a vaga. Porém, ele possui as habilidades técnicas e de liderança necessárias, incluindo experiência em análise de dados, comunicação com stakeholders sênior e entrega de iniciativas complexas. Portanto, ele se encaixa na faixa de 50-69, sendo uma candidatura viável com alguns riscos.",
+      "main_gap": "O principal gap é a falta de experiência sênior em gestão de estratégia e operações, conforme exigido para o cargo.",
+      "company": "Snorkel AI",
+      "location": "",
+      "title": "Senior Strategy & Operations Manager",
+      "url": "https://remotefirstjobs.com/companies/snorkel-ai/jobs/senior-strategy-operations-manager-736460",
+      "id": "22ffe3f7e23f48af36287be0aa8d248600a524fda01ad2f9957953b59ad4ad8f",
+      "core_requirements": [
+        {
+          "requirement": "5+ years of experience in strategy, operations, marketplace or program management roles in a fast-paced environment; 3-5 years of people leadership",
+          "category": "seniority",
+          "evidence": "~3-4 years of PM/TPM experience in technology, including 1 year as PM, 1 year as TPM, and current role as PO; also 3 years of prior experience in construction project management",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Strong analytical and problem-solving skills; Proficiency in SQL for data analysis, an ability to define metrics, and translate insights into action",
+          "category": "technical",
+          "evidence": "Experience using SQL, Python, and Spark/Scala for data analysis and translating insights into action",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Experience launching and scaling complex high-impact cross-functional initiatives with multiple stakeholders, including technical teams",
+          "category": "domain",
+          "evidence": "Experience managing complex global programs and cross-functional initiatives, including coordinating 3 teams of ~25 engineers and driving automation to improve efficiency",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Strong executive communication skills (written, verbal, and visual), with a demonstrated ability to influence senior stakeholders without authority",
+          "category": "leadership",
+          "evidence": "Experience aligning stakeholders and communicating effectively with executives, as evidenced by managing a program with 15 teams and 200+ people, and driving process improvements that reduced weekly review time from 40 to 10 minutes",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "5+ years of experience in strategy, operations, marketplace or program management roles",
+        "candidate_has": "~3-4 years of PM/TPM experience in technology",
+        "gap": true
+      }
+    },
+    {
+      "score": 58,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui experiência relevante em gestão de produto e programas, incluindo papéis como PO, TPM e PM nos últimos 3-4 anos. Ele demonstra habilidades sólidas em descoberta de produto, gerenciamento de entrega e uso de dados para informar decisões. Sua familiaridade com IA e metodologias relacionadas também é um ativo. No entanto, o perfil indica um gap de seniority em comparação com o nível esperado para a vaga, que não é especificado no JD. Portanto, o score é limitado a 65 devido a esse gap de seniority.",
+      "main_gap": "O principal gap desta candidatura é a seniority, pois o JD não especifica o nível esperado e o candidato possui ~3-4 anos de experiência em papéis de PM/TPM, abaixo do típico para uma vaga de nível sênior.",
+      "company": "SmartRecruiters",
+      "location": "",
+      "title": "Mid/Senior Product Manager",
+      "url": "https://remotefirstjobs.com/companies/smartrecruiters/jobs/midsenior-product-manager-736422",
+      "id": "1e138ce0123be5138b9584b773f540c9096b112f43a9b1aa56591bc3254dd48e",
+      "core_requirements": [
+        {
+          "requirement": "Experience in product management with strong foundational skills (experience in SaaS and/or B2B products is highly desirable)",
+          "category": "seniority",
+          "evidence": "~3-4 years of PM experience in technology (including PO, TPM, PM roles)",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Good understanding of UX principles and modern product discovery practices; Ability to create prototypes and low fidelity mock-ups (think vibe coding tools) to demonstrate your ideas and gather feedback is highly valuable",
+          "category": "technical",
+          "evidence": "Experience in product discovery, user journeys, prototyping, and using data to inform decisions",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "General exposure to or interest in AI-powered products, including generative AI or intelligent automation, with a willingness to learn more",
+          "category": "technical",
+          "evidence": "Relevant experience with IA applications, including use of LLMs, PoCs, and methodology around documentation, governance, and evaluation",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Clear, effective communication skills, with the ability to explain product concepts to both technical and non-technical audiences",
+          "category": "leadership",
+          "evidence": "Experience in managing stakeholders, aligning teams, and communicating product progress and tradeoffs",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "A collaborative attitude and aspiration to be a thoughtful, reliable teammate",
+          "category": "other",
+          "evidence": "Demonstrated experience in managing teams, aligning stakeholders, and delivering complex initiatives",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Not specified",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 58,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O perfil do candidato apresenta skills transferíveis para a função de Senior Project Manager, com experiência recente em papéis de gestão de produto, programa e projeto. No entanto, há um gap de senioridade, pois o candidato possui ~3-4 anos de experiência em PM/TPM, enquanto a vaga requer 5+ anos. Apesar da boa aderência aos requisitos técnicos e de liderança, o gap de senioridade é um risco relevante.",
+      "main_gap": "Gap de senioridade; o candidato possui ~3-4 anos de experiência em PM/TPM, enquanto a vaga requer 5+ anos.",
+      "company": "Experian",
+      "location": "",
+      "title": "Senior Project Manager",
+      "url": "https://remotefirstjobs.com/companies/experian/jobs/senior-project-manager-736271",
+      "id": "bed069813c6e9309ddbfa29ea5494092d0abdc6c7c774b2876d09765edb7fa04",
+      "core_requirements": [
+        {
+          "requirement": "Lead end-to-end project management for large-scale, complex, technical, and programs",
+          "category": "leadership",
+          "evidence": "Recent experience as TPM in a complex global program, and as PM leading a program with startups and teams",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Manage CRM migrations and related technical implementations (CRM, CPQ, CLM, or billing systems)",
+          "category": "technical",
+          "evidence": "Experience as PO in refactoring and integrating AI with image scanning systems",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Guide change management and partner engagement throughout the project lifecycle",
+          "category": "leadership",
+          "evidence": "Demonstrated experience in reallocating and managing people/processes during program transitions",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Ensure adherence to project management methodologies and governance standards",
+          "category": "technical",
+          "evidence": "Proficiency in Agile/Scrum practices, as evidenced by Scrum Master experience",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "5+ years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 54,
+      "score_ceiling": 55,
+      "ceiling_reason": "2+ penalties: domain_gap_core, seniority_gap.",
+      "justification": "O candidato possui experiência relevante em gestão de projetos e programas na indústria de tecnologia, mas não atende completamente aos requisitos específicos da vaga de Projeto Manager Fiber Engineering & Construction, que pede 5+ anos de experiência em telecomunicações. Além disso, existe um gap de senioridade, pois o candidato possui ~3 anos neste tipo de função. No entanto, o candidato demonstra skills transferíveis e potencial de longo prazo para a vaga.",
+      "main_gap": "Falta de experiência comprovada em projetos de engenharia e construção de redes de fibra óptica na indústria de telecomunicações.",
+      "company": "Brightspeed",
+      "location": "",
+      "title": "Project Manager Fiber Engineering & Construction",
+      "url": "https://remotefirstjobs.com/companies/brightspeed/jobs/project-manager-fiber-engineering-construction-736309",
+      "id": "e9958f755ccb6ff054ad93b31567aaf327ae9ca0053ca28bb7212d8b87bd37f7",
+      "core_requirements": [
+        {
+          "requirement": "5+ years Telecommunication experience",
+          "category": "seniority",
+          "evidence": "~3 years in PM/TPM tech roles",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Bachelor's degree, Engineering degree or equivalent practical work experience",
+          "category": "technical",
+          "evidence": "Experience in engineering and construction management",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Project Manager Certification",
+          "category": "technical",
+          "evidence": "Experienced as Project Manager in tech industry",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Ability to facility project creation and management in standard PM tools (MS Project, SmartSheets, Confluence, JIRA, Service Now)",
+          "category": "technical",
+          "evidence": "Experience with PM tools in tech industry",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Experience with Telcom Network Design systems (IQGeo, GIS, SmallWorld) and Telcom Facility Record Management tools (O2, BOSS, AMS)",
+          "category": "domain",
+          "evidence": "",
+          "has_evidence": "partial"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "5+ years",
+        "candidate_has": "~3 years in PM/TPM tech roles",
+        "gap": true
+      }
+    }
+  ],
+  "eliminated_jobs": [
+    {
+      "id_hash": "c878ba04f51234005730733ffac8d1101c5cbbc5e79644baa4ea1b454b4bd9d3",
+      "id": "c878ba04f51234005730733ffac8d1101c5cbbc5e79644baa4ea1b454b4bd9d3",
+      "source": "jobscollider",
+      "title": "Technical Program Manager Safety Systems Engineering",
+      "company": "OpenAI",
+      "location": "",
+      "salary": null,
+      "jd_full": "<p><strong>About the Team</strong></p>\n\n<p>The Safety Systems team is in need of a Technical Program Manager to streamline our full safety stack and integration of various safety research and mitigations into ChatGPT and our API. This role is critical for driving safe deployment of our new models, synthesizing inputs from multiple stakeholders — ranging across research, product, engineering, legal, and policy — and ensuring all the risks are effectively and properly monitored, mitigated, or resolved.</p>\n\n<p><strong>About the Role</strong></p>\n\n<p>As a Safety Engineering TPM, you will be responsible for critical tasks ranging from tracking safety engineering progress and risk tables to overseeing critical data infrastructure programs, acting as the connective tissue to enhance the deployment of OpenAI’s safety system. Additionally, you will create and execute a compute roadmap for your team to ensure that our top priorities are resourced while taking advantage of new opportunities to make key safety infrastructure investments. Your primary focus will be to build a foundational layer to support the safety of all of our models and products.</p>\n\n<p>This role is based in San Francisco, CA. We use a hybrid work model of 3 days in the office per week and offer relocation assistance to new employees.</p>\n\n<p><strong>In this role, you will:</strong></p>\n\n<ul>\n<li><p>Manage key risk areas and corresponding stakeholders.</p></li>\n\n<li><p>Work directly with safety engineers, engineering managers, and product managers to build common safety infrastructure.</p></li>\n\n<li><p>Manage data and compute infrastructure, including data residency and capacity planning.</p></li>\n\n<li><p>Design and run key internal programs, including incident management and processes for regularly updating our safety mitigations.</p></li>\n\n<li><p>Prioritize and manage a portfolio of infrastructure requests from other internal teams.</p></li>\n</ul>\n\n<p><strong>You might thrive in this role if you:</strong></p>\n\n<ul>\n<li><p>Have an undergraduate or graduate degree in computer science or computer engineering, or a demonstrated track record of engineering expertise.</p></li>\n\n<li><p>Have an extensive track record of successfully delivering high-profile, complex technical projects against tight deadlines.</p></li>\n\n<li><p>Are technically adept, and have effectively partnered with engineering and fundamental research teams of the highest caliber.</p></li>\n\n<li><p>Have expertise in designing and implementing simple, scalable processes that solve complex problems.</p></li>\n\n<li><p>Are relentlessly resourceful and thrive in ambiguous, fast-paced environments.</p></li>\n\n<li><p>Have strong knowledge of content integrity and moderation, including industry best practices and regulatory guidelines.</p></li>\n\n<li><p>Have exceptional written and verbal communication skills.</p></li>\n\n<li><p>Care about AGI safety.</p></li>\n</ul>\n\n<p><strong>About OpenAI</strong></p>\n\n<p>OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.</p>\n\n<p>We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic.</p>\n\n<p>For additional information, please see OpenAI’s Affirmative Action and Equal Employment Opportunity Policy Statement.</p>\n\n<p>Background checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.</p>\n\n<p>To notify OpenAI that you believe this job posting is non-compliant, please submit a report through this form. No response will be provided to inquiries unrelated to job posting compliance.</p>\n\n<p>We are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this link.</p>\n\n<p>OpenAI Global Applicant Privacy Policy</p>\n\n<p>At OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.</p>",
+      "url": "https://remotefirstjobs.com/companies/openai/jobs/technical-program-manager-safety-systems-engineering-736469",
+      "collected_at": "2026-03-17T09:42:47.299218+00:00",
+      "date": "Tue, 17 Mar 2026 02:57:04 +0000",
+      "filter_reason": "localização"
+    },
+    {
+      "id_hash": "371af641e56208ac37589f607dd4f2c7452e868ac1146520e86b2ae17b5a5b23",
+      "id": "371af641e56208ac37589f607dd4f2c7452e868ac1146520e86b2ae17b5a5b23",
+      "source": "jobscollider",
+      "title": "Associate Product Manager AI First",
+      "company": "Eulerity",
+      "location": "",
+      "salary": null,
+      "jd_full": "<p><strong>Why This Role Exists</strong></p>\n\n<p>Eulerity is an AI-native marketing automation platform — not a legacy tool with AI bolted on. We serve enterprise brands like Mastercard, UPS Store, Uber Eats, and European Wax Center, automating digital advertising across thousands of franchise locations. We’ve crossed $10M ARR, largely bootstrapped, and we’re accelerating.</p>\n\n<p>We’re not looking for someone who “uses AI tools.” We’re looking for someone who thinks in systems, ships fast, and treats AI as the primary interface between product ideas and execution. You’ll be the closest intellectual partner to our Head of Product — expected to challenge, synthesize, and build, not just take notes.</p>\n\n<p><strong>If you’ve built projects from scratch, obsessed over product decisions at 2 AM, and know the difference between a great prompt and a great system — read on.</strong></p>\n\n<p><strong>The Fast Facts</strong></p>\n\n<ul>\n<li><strong>Salary:</strong> <strong>$95,000 – $125,000</strong></li>\n<li><strong>Location:</strong> <strong>NYC Midtown — 3–4 days/week in office</strong></li>\n<li><strong>AI Tools Budget:</strong> <strong>Unlimited. Use what makes you sharp.</strong></li>\n<li><strong>Benefits:</strong> <strong>Medical, dental, vision + 401k match + unlimited PTO</strong></li>\n</ul>\n\n<p><strong>What You’ll Actually Do</strong></p>\n\n<p>This is a high-ownership role. You’ll be in the room where product decisions get made, and your voice will matter from day one.</p>\n\n<ul>\n<li>Partner directly with the Head of Product on roadmap definition, feature prioritization, and strategic positioning — acting as a real thought partner, not a note-taker</li>\n<li>Use AI tools to 10x your throughput: generate user stories, synthesize customer feedback, draft specs, prototype concepts, and accelerate research that would otherwise take days</li>\n<li>Own specific product areas end-to-end — from discovery through engineering handoff to post-launch measurement</li>\n<li>Run structured experiments: define hypotheses, instrument analytics, read results, and make recommendations</li>\n<li>Translate complex technical discussions into clear requirements that engineers actually want to build from</li>\n<li>Conduct sharp competitive analysis and market research — and bring the so-what, not just the what</li>\n<li>Lead sprint ceremonies (standups, planning, retros) with the energy of someone who genuinely cares about shipping</li>\n<li>Stay fluent in what’s happening in AI and marketing tech — and actively bring new ideas into the team’s thinking</li>\n</ul>\n\n<p><strong>Who You Are</strong></p>\n\n<p>We’re looking for a rare combination: technically solid, creatively ambitious, and energized by moving fast in a small team.</p>\n\n<p><strong>Non-Negotiables</strong></p>\n\n<ul>\n<li>You are genuinely AI-native — you build with AI, you reason with AI, and all your workflows are built around it</li>\n<li>You’ve shipped something real: a side project, a capstone, an app, a tool — something you took from idea to existence</li>\n<li>You’re a fast, clear communicator — written, verbal, and in a whiteboard session</li>\n<li>You are based in NYC (or the tri-state area) and can commit to 3–4 days in Midtown</li>\n<li>Bachelor’s degree in Computer Science, Engineering, Product Design, or a related technical field</li>\n</ul>\n\n<p><strong>Big Differentiators</strong></p>\n\n<ul>\n<li>Experience with LLMs, AI agent frameworks, or AI-assisted product development (you’ve actually used these, not just read about them)</li>\n<li>Comfort reading code, querying data, and debugging — you don’t need to write production code, but you can hold your own and then some in a technical conversation</li>\n<li>Background in SaaS business models</li>\n<li>You’ve worked in a startup or high-velocity environment where ambiguity was the norm and you thrived</li>\n<li>Strong product intuition — you can identify when something feels off before the data confirms it</li>\n</ul>\n\n<p><strong>What Makes Eulerity Different</strong></p>\n\n<p>We are not a company that talks about AI. We are a company that runs on it.</p>\n\n<ul>\n<li>Our platform uses cross-learning AI agents that optimize across thousands of advertiser accounts simultaneously — not just one</li>\n<li>We have deep integration moats built over years with Google, Meta, Apple, and Microsoft — a barrier competitors can’t replicate quickly</li>\n<li>We operate a top-down GTM model: we close enterprise contracts at the brand level and then unlock activation at scale across franchise locations</li>\n<li>We are lean, profitable, and intentional about every hire — you’ll have real scope from week one</li>\n<li>We think about AI-native engineering as a core competency, not an experiment</li>\n</ul>\n\n<p>This is a place where what you build ships. Your work will be seen by real users, measured in real results, and recognized on the team.</p>\n\n<p><strong>Benefits</strong></p>\n\n<ul>\n<li>🩺 Comprehensive benefits\n\n<ul>\n<li>Medical Insurance</li>\n<li>Dental Insurance</li>\n<li>Vision Insurance</li>\n</ul></li>\n<li>🏖️ Unlimited PTO</li>\n<li>🚅 Commuter benefits</li>\n<li>📈 401(k) with company match</li>\n<li>💻 Hybrid</li>\n<li>🍽️ In-office lunches and unlimited snacks</li>\n</ul>\n\n<p><strong>Compensation</strong></p>\n\n<p>​​Our salary ranges are based on paying competitively for our company’s size and industry, and are one part of the total compensation package that also includes benefits, perks and other opportunities at Eulerity. The expected range for this role is $95,000 - $125,000, commensurate with experience.</p>",
+      "url": "https://remotefirstjobs.com/companies/eulerity/jobs/associate-product-manager-ai-first-736450",
+      "collected_at": "2026-03-17T09:42:47.299231+00:00",
+      "date": "Tue, 17 Mar 2026 02:36:31 +0000",
+      "filter_reason": "nível"
+    },
+    {
+      "id_hash": "fe0e742a88a41a127d6dc83fb4524a38f026e9f487e7e83158f078aac012d5d9",
+      "id": "fe0e742a88a41a127d6dc83fb4524a38f026e9f487e7e83158f078aac012d5d9",
+      "source": "jobscollider",
+      "title": "Application Engineer - Technical Program Manager",
+      "company": "Applied Intuition",
+      "location": "",
+      "salary": null,
+      "jd_full": "<h3>About Applied Intuition</h3>\n\n<p>Applied Intuition, Inc. is powering the future of physical AI. Founded in 2017 and now valued at $15 billion, the Silicon Valley company is creating the digital infrastructure needed to bring intelligence to every moving machine on the planet. Applied Intuition services the automotive, defense, trucking, construction, mining and agriculture industries in three core areas: tools and infrastructure, operating systems, and autonomy. Eighteen of the top 20 global automakers, as well as the United States military and its allies, trust the company’s solutions to deliver physical intelligence. Applied Intuition is headquartered in Sunnyvale, California, with offices in Washington, D.C.; San Diego; Ft. Walton Beach, Florida; Ann Arbor, Michigan; London; Stuttgart; Munich; Stockholm; Bangalore; Seoul; and Tokyo. Learn more at applied.co.</p>\n\n<p><em>We are an in-office company, and our expectation is that employees primarily work from their Applied Intuition office 5 days a week. However, we also recognize the importance of flexibility and trust our employees to manage their schedules responsibly. This may include occasional remote work, starting the day with morning meetings from home before heading to the office, or leaving earlier when needed to accommodate family commitments.</em></p>\n\n<h3>About Seoul</h3>\n\n<p>Applied Intuition entered the Korean market in 2020. The team has rapidly grown over the past few years and established strategic relationships with major Korean automotive OEM customers. Based in Gangnam, the Seoul site consists of more than 10 employees who previously come from LG, Ansys, Unity, and other renowned companies.</p>\n\n<h3><strong>About the role</strong></h3>\n\n<p>We are looking for an Application Engineering - Technical Program Manager to drive business-critical multi-disciplinary engineering projects from concept through execution. This role will leverage strong leadership, communication, planning, and engineering skills to help us manage the increased complexity of our releases and customer requests. Our ideal candidate has lots of experience shepherding complex releases in a fast-paced and customer-centric environment. This position will work cross-functionally with our Engineering, Operation, Sales, Customer & Product teams.</p>\n\n<h3><strong>At Applied Intuition, you will:</strong></h3>\n\n<ul>\n<li>Execute projects as the single point of contact spanning multiple organizations, track progress, and ensure the successful completion of all milestones, metrics, and final deliverables</li>\n<li>Manage the tracking and planning of customer requests, then collaborate with our engineering teams to ensure that we always deliver</li>\n<li>Keep our incredibly talented and rapidly growing engineering team productive by planning requirements, identifying risks, managing a calendar of deliverables, and communicating a ton with a lively sense of humor</li>\n<li>Provide regular touchpoints with internal teams to update them on customer use cases and workflows that our current software solutions do not yet provide a solution for. Track all outstanding QA issues and partner with QA to ensure resolution</li>\n<li>Continuously engage customers to understand further pain points and areas for more project engagements. Evaluate project timings with customers and adjust resource needs based on their feedback</li>\n</ul>\n\n<h3><strong>We’re looking for someone who has:</strong></h3>\n\n<ul>\n<li>A Bachelor’s or Master’s degree in Engineering, Computer Science, or a related technical field</li>\n<li>5+ years of experience working within engineering, project management, or product teams</li>\n<li>4+ years of experience in a TPM or TAM(Technical Account Manager) role at a fast-paced software company</li>\n<li>Strong experience managing complex releases with international and cross-functional stakeholders (both internal and external)</li>\n<li>Excellent written and verbal communication skills in both Korean and English; comfortable managing customer expectations and technical requirements</li>\n</ul>\n\n<h3><strong>Nice to have:</strong></h3>\n\n<ul>\n<li>Knowledge in both software and hardware aspects of software development.</li>\n<li>Experience directly managing or leading teams of engineers in a formal leadership capacity</li>\n<li>Has worked with commercially available tools (JIRA, etc.)</li>\n<li>Professional project management certification</li>\n<li>Proven track record of leading complex programs involving 15+ software and hardware engineers.</li>\n<li>Direct experience in the autonomy development domain (e.g., ADAS, robotics, sensors, or simulation).</li>\n<li>Is gifted with an ability to execute thoughtfully and efficiently, with a “no task is too big or too small” mindset to get the job done</li>\n</ul>\n\n<p><em>Don’t meet every single requirement? If you’re excited about this role but your past experience doesn’t align perfectly with every qualification in the job description, we encourage you to apply anyway. You may be just the right candidate for this or other roles.</em></p>\n\n<p><em>Applied Intuition is an equal opportunity employer and federal contractor or subcontractor. Consequently, the parties agree that, as applicable, they will abide by the requirements of 41 CFR 60-1.4(a), 41 CFR 60-300.5(a) and 41 CFR 60-741.5(a) and that these laws are incorporated herein by reference. These regulations prohibit discrimination against qualified individuals based on their status as protected veterans or individuals with disabilities, and prohibit discrimination against all individuals based on their race, color, religion, sex, sexual orientation, gender identity or national origin. These regulations require that covered prime contractors and subcontractors take affirmative action to employ and advance in employment individuals without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, protected veteran status or disability. The parties also agree that, as applicable, they will abide by the requirements of Executive Order 13496 (29 CFR Part 471, Appendix A to Subpart A), relating to the notice of employee rights under federal labor laws.</em></p>",
+      "url": "https://remotefirstjobs.com/companies/applied-intuition/jobs/application-engineer-technical-program-manager-736443",
+      "collected_at": "2026-03-17T09:42:47.299238+00:00",
+      "date": "Tue, 17 Mar 2026 02:28:49 +0000",
+      "filter_reason": "localização"
+    },
+    {
+      "id_hash": "d4d44ce78e3c9d19ad211fa2b790978c8212384631dfaa0190c1f6ea568d17de",
+      "id": "d4d44ce78e3c9d19ad211fa2b790978c8212384631dfaa0190c1f6ea568d17de",
+      "source": "jobscollider",
+      "title": "Product Analyst",
+      "company": "GoCardless",
+      "location": "",
+      "salary": null,
+      "jd_full": "<h3><strong>About Us at GoCardless</strong></h3>\n\n<p>GoCardless is a <strong>global bank payment</strong> company. Over <strong>100,000 businesses</strong>, from start-ups to household names, use GoCardless to collect and send payments through direct debit, real-time payments and open banking.</p>\n\n<p>GoCardless processes <strong>US$130bn+</strong> of payments annually, across <strong>30+ countries</strong>; helping customers collect and send both <strong>recurring</strong> and <strong>one-off payments</strong>, without the chasing, stress or expensive fees. We use AI-powered solutions to improve payment success and reduce fraud. And, with open banking connectivity to over <strong>2,500 banks</strong>, we help our customers make faster, more informed decisions.</p>\n\n<p>We are headquartered in the <strong>UK</strong> with offices in <strong>London</strong> and <strong>Leeds</strong>, and additional locations in <strong>Australia, France, Ireland, Latvia, Portugal</strong> and the <strong>United States.</strong></p>\n\n<p>At GoCardless, we’re all about <strong>supporting you</strong>! We’re committed to making our hiring process <strong>inclusive</strong> and <strong>accessible</strong>. If you need extra support or adjustments, reach out to your <strong>Talent Partner</strong> — we’re here to help!</p>\n\n<p>And remember: we don’t expect you to meet every single requirement. If you’re excited by this role, <strong>we encourage you to apply!</strong></p>\n\n<h3>Payment Intelligence</h3>\n\n<p>Our mission is to make GoCardless the best way to pay and be paid. Our ambition is to dramatically improve payment performance and safeguard our customers from bad outcomes like payment fraud and failures. You will help find data opportunities and areas to improve our payment intelligence products. You should be comfortable with large data sets, customer data, and machine learning principles. You’ll work alongside Product Managers, Engineers and Data Scientists in our two core Payment Intelligence teams to provide critical insights and help drive product direction.</p>\n\n<p>Our existing Payment Intelligence Products are already one of the key reasons why customers choose GoCardless. These include Protect+, which defends customers from fraud, and Success+, which helps customers intelligently recover failed payments. You will need to own our understanding of these products and identify insights and opportunities to help us develop new intelligent features.</p>\n\n<h3><strong>What You’ll Do</strong></h3>\n\n<p>At GoCardless analytics is at the core of everything we do and drives business performance through data insight. You will play a critical role partnering closely with stakeholders across the business (including product, operations, marketing, and commercial teams) in order to deliver actionable insights to influence decisions at every level of the organisation. The role is focussed on identifying value and driving change throughout the business derived from insights. Your insights will be turned into actions that will help drive the future of GoCardless. You will act as the bridge between the data, technical and business stakeholders informing strategic plans and will own and evolve a suite of reports designed to give a wide range of stakeholders access insights.</p>\n\n<ul>\n<li>Work closely with Product Managers, data analysts, engineers and Product Leaders to influence the roadmap for product & growth teams through data-led insights and recommendations</li>\n<li>Own and iterate on experiments to generate user insight and drive business metrics, allowing the team to quickly take action on business opportunities.</li>\n<li>Define how we quantitatively evaluate success, setting KPIs, designing tracking to measure what really matters, delving into the leading indicators of user behaviour</li>\n<li>Influence the organisation to increase Product Data coverage and implement user tracking best practices - acting as a mentor to guide other members of the organisation to become data driven</li>\n<li>Build models of user-segmentation, customer lifetime value etc in order to inform strategic product & commercial decisions</li>\n<li>Continuously innovate on the practices and the tools we rely on to deliver the right insights at the right decision points (A/B Testing, Analysis (SQL), Visualisation (Looker), Tracking (Amplitude), Automation (Python), AI (Gemini)</li>\n</ul>\n\n<h3><strong>What Excites You</strong></h3>\n\n<ul>\n<li>Become a strategic partner and advisor for the business: you like to proactively seek out gaps in our product capabilities, suggest areas of improvement based on tangible data, as well as owning processes to run and improve testing from the tracking point of view when developing new features.</li>\n<li>Act as a catalyst for change across the organization, driving the evolution of our data analytics standards, internal processes, and overall product data strategy to ensure scalability and operational excellence.</li>\n<li>Translate complex technical findings into compelling, high-impact narratives. You will bridge the gap between technical data and commercial strategy, influencing product roadmaps and executive decision-making across the entire organization.</li>\n<li>Stay current with AI and data trends to solve real-world problems. You like to leverage these technologies to enhance the payment experience, as well as to optimize data analysis, and deliver high-impact insights and strategic recommendations across the business.</li>\n<li>Unlocking new layers of payment performance, from uncovering new fraud vectors to maximizing success rates</li>\n<li>Serve as a cross-functional mentor, championing a data-driven mindset and elevating the analytical capabilities of team members throughout the company.</li>\n</ul>\n\n<h3><strong>What Excites us</strong></h3>\n\n<ul>\n<li>You have a background working in similar fast paced product-driven teams and are great at communicating insights to a range of audiences, including senior stakeholders, to drive data-informed product decisions</li>\n<li>You are a self-starter, focused on results, with a demonstrated background in using analytics to drive the understanding, growth, and success of a product</li>\n<li>You have extensive experience with data visualisation tools mentioned above and develop compelling visualisations which influence decision making and business understanding</li>\n<li>You have advanced SQL skills and intermediate Python skills & have experience leveraging AI capabilities to enhance data analysis, automate tasks, and improve decision-making processes</li>\n<li>You have a background working in similar fast paced teams and are great at communicating insights to a range of audiences, including senior stakeholders, to drive data-informed decisions.</li>\n<li>You are solution-oriented and able to own projects from start to finish. You are comfortable motivating stakeholders across the business and negotiating timelines to unblock yourself and make things happen!</li>\n</ul>\n\n<p><strong>Salary range:</strong> the expected base salary range for this position is between <strong>€32,000 - €48,000</strong>.</p>\n\n<p>Base salary ranges are based on role, job level, location, and market data. Please note that whilst we strive to offer competitive compensation, our approach is to pay between the minimum and the mid-point of the pay range until performance can be assessed in role. Offers will take into account level of experience, interview assessment, budgets and parity between you and fellow employees at GoCardless doing similar work.</p>\n\n<h3><strong>The Good Stuff!</strong></h3>\n\n<ul>\n<li><strong>Wellbeing</strong>: Dedicated support and medical cover to keep you healthy.</li>\n<li><strong>Work Away Scheme</strong>: Work from anywhere for up to 90 days in any 12-month period.</li>\n<li><strong>Hybrid Working</strong>: Our hybrid model offers flexibility, with in-office days determined by your team.</li>\n<li><strong>Equity</strong>: All permanently employed GeeCees get equity to share in our success.</li>\n<li><strong>Parental leave</strong>: Tailored leave to support your life’s great adventure.</li>\n<li><strong>Time off:</strong> Annual holiday leave based on your location, supplemented by 3 volunteer days and 4 wellness days.</li>\n</ul>\n\n<h3><strong>Life at GoCardless</strong></h3>\n\n<p>We’re an organisation defined by our values; We <strong>start with why</strong> before we begin any project, to ensure it’s aligned with our mission. We <strong>make it happen</strong>, working with urgency and taking personal accountability for getting things done. We <strong>act with integrity</strong>, always. We <strong>care deeply</strong> about what we do and we know it’s essential that we <strong>be humble</strong> whilst we do it. Our Values form part of the GoCardless DNA, and are used to not only help us nurture and develop our culture, but to deliver impactful work that will help us to achieve our vision.</p>\n\n<h3><strong>Diversity & Inclusion</strong></h3>\n\n<p>We’re building the <strong>payment network of the future</strong>, and to achieve our goal, we need a <strong>diverse team</strong> with a range of perspectives and experiences. As of July 2024, here’s where we stand:</p>\n\n<ul>\n<li>45% identify as women</li>\n<li>23% identify as Black, Asian, Mixed, or Other</li>\n<li>10% identify as LGBTQIA+</li>\n<li>9% identify as neurodiverse</li>\n<li>2% identify as disabled</li>\n</ul>\n\n<p>If you want to learn more, you can read about our Employee Resource Groups and objectives here as well as our latest D&I Report</p>\n\n<h3><strong>Sustainability at GoCardless</strong></h3>\n\n<p>We’re committed to reducing our <strong>environmental impact</strong> and leaving a sustainable world for future generations. As co-founders of the <strong>Tech Zero coalition</strong>, we’re working towards a <strong>climate-positive future</strong>. Check out our sustainability action plan here.</p>\n\n<p><strong>Find out more about Life at GoCardless via X, Instagram and LinkedIn.</strong></p>",
+      "url": "https://remotefirstjobs.com/companies/gocardless/jobs/product-analyst-736385",
+      "collected_at": "2026-03-17T09:42:47.299261+00:00",
+      "date": "Tue, 17 Mar 2026 00:55:38 +0000",
+      "filter_reason": "salário"
+    },
+    {
+      "id_hash": "72352fed95d904a6e5a467f3d1ffdc988ce3e93fbbe88fac97e8b5d0fe8ad4cb",
+      "id": "72352fed95d904a6e5a467f3d1ffdc988ce3e93fbbe88fac97e8b5d0fe8ad4cb",
+      "source": "jobscollider",
+      "title": "Service Delivery Manager",
+      "company": "Axon Spain",
+      "location": "",
+      "salary": null,
+      "jd_full": "<h3><strong>Join Axon and be a Force for Good.</strong></h3>\n\n<p>At Axon, we’re on a mission to Protect Life. We’re explorers, pursuing society’s most critical safety and justice issues with our ecosystem of devices and cloud software. Like our products, we work better together. We connect with candor and care, seeking out diverse perspectives from our customers, communities and each other.</p>\n\n<p>Life at Axon is fast-paced, challenging and meaningful. Here, you’ll take ownership and drive real change. Constantly grow as you work hard for a mission that matters at a company where you matter.</p>\n\n<p><strong>Your Impact</strong></p>\n\n<p>As the Service Delivery Manager, you will lead a team responsible for delivering successful implementations of Axon Enterprise’s products, including (but not limited to) Axon Evidence, associated software solutions, and hardware sensors. Your team will guide customers through onboarding, configuration, training, and deployment, ensuring each solution is implemented smoothly and aligned with the customer’s operational needs.</p>\n\n<p>Beyond delivering projects, this role focuses on creating exceptional customer experiences at every stage of the implementation journey. You will ensure the team anticipates customer needs, communicates clearly, and removes obstacles so agencies can quickly realise the full value of Axon’s technology. Through your leadership, you will foster a culture where the team takes pride not only in what they deliver, but in how they deliver it—bringing care, ownership, and collaboration to every customer interaction.</p>\n\n<p>Location: Remotely from United Kingdom</p>\n\n<p>Reporting to: Sr. Director Professional Services, International</p>\n\n<p>Number of Reports: 8</p>\n\n<p>Travel Expectations: approx. 30%</p>\n\n<p><strong>What You’ll Do</strong></p>\n\n<ul>\n<li><strong>Team Leadership:</strong> Guide, mentor, and develop the Service Delivery Team, fostering a collaborative and high-performance culture. Conduct regular performance reviews, provide coaching, and identify training opportunities to enhance team skills and knowledge.</li>\n<li><strong>Resource Management:</strong> Effectively manage team resources, ensuring optimal allocation and utilization of skills and expertise to meet project demands. Monitor team workloads and provide support to balance priorities.</li>\n<li><strong>Complex Deployments:</strong> Lead and manage a team responsible for executing complex, enterprise-grade product deployments. Provide strategic oversight across change management activities, technical presentations, solution demonstrations, and technical workshops, ensuring alignment between client partners and internal stakeholders.</li>\n<li><strong>Stakeholder Collaboration:</strong> Work closely with business and IT leaders to define the vision, scope, and delivery timelines for project deliverables. Ensure that project milestones and deadlines are met, and that all documentation supports project scope and customer acceptance for revenue recognition while maintaining clear communication and strong customer partnerships throughout the implementation lifecycle.</li>\n<li><strong>Technical Expertise:</strong> Maintain a deep understanding of Axon products and services, ensuring the team successfully installs, configures, and tests solutions, including interview rooms, in-car video systems, activation devices, and body-worn cameras.</li>\n<li><strong>Feedback & Documentation:</strong> Document customer feature requests and issues, providing critical feedback to sales and product management teams for continuous improvement.</li>\n<li><strong>Strategic Planning:</strong> Work closely with the PSO Commonwealth Director and Sr. International Director to align on strategic initiatives. Contribute to the strategic planning of the Service Delivery Team, identifying opportunities for process improvements, resource enhancements, and service offerings.</li>\n</ul>\n\n<p><strong>What You Bring</strong></p>\n\n<ul>\n<li><strong>Leadership Experience:</strong> Proven experience in managing teams, with strong leadership skills to guide and develop talent in a dynamic environment.</li>\n<li><strong>Specialised Knowledge:</strong> Proven operating experience in areas such as Digital Video, Mobile Communications, or SaaS.</li>\n<li><strong>Project Management Skills:</strong> Experience in project management and resource tracking, with a strong understanding of software/hardware testing and implementation within complex customer environments.</li>\n<li><strong>Technical Acumen:</strong> Comfort with basic networking concepts and mobile applications, combined with the ability to troubleshoot effectively.</li>\n<li><strong>Professional Experience & Industry Insight:</strong> A solid understanding of the company’s solutions and products, including their strengths, weaknesses, opportunities, and threats. Law enforcement experience not mandatory but considered an asset.</li>\n<li><strong>Project Management Excellence:</strong> Demonstrated ability to implement, drive, and track multiple simultaneous projects, with strong problem-solving skills.</li>\n<li><strong>Willingness to Travel:</strong> Availability to travel (30%) within the United Kingdom & Ireland, with occasional international travel.</li>\n<li><strong>Educational Background:</strong> Bachelor’s degree in Management, Business or Information Technology, Information Systems, or applicable Technical Engineering (Computer Science, Software Engineering, Software Development), or equivalent experience.</li>\n</ul>\n\n<p><strong>Benefits that Benefit You</strong></p>\n\n<ul>\n<li>Competitive base salary and RSUs.</li>\n<li>Comprehensive pension plan with matching contribution</li>\n<li>Private health insurance & cash plans</li>\n<li>30 days paid holiday + UK public holidays</li>\n<li>Enhanced maternity/paternity leave</li>\n<li>GymPass subscription</li>\n<li>Life assurance & income protection</li>\n<li>Career growth support and wellness resources</li>\n</ul>\n\n<p><em>Benefits listed herein may vary depending on the nature of your employment and the location where you work.</em></p>\n\n<p>Don’t meet every single requirement? That’s ok. At Axon, we Aim Far. We think big with a long-term view because we want to reinvent the world to be a safer, better place. We are also committed to building diverse teams that reflect the communities we serve.</p>\n\n<p>Studies have shown that women and people of color are less likely to apply to jobs unless they check every box in the job description. If you’re excited about this role and our mission to Protect Life but your experience doesn’t align perfectly with every qualification listed here, we encourage you to apply anyways. You may be just the right candidate for this or other roles.</p>\n\n<p><strong>Important Notes</strong></p>\n\n<p><em>The above job description is not intended as, nor should it be construed as, exhaustive of all duties, responsibilities, skills, efforts, or working conditions associated with this job. The job description may change or be supplemented at any time in accordance with business needs and conditions.</em></p>\n\n<p><em>Some roles may also require legal eligibility to work in a firearms environment.</em></p>\n\n<p><em>We collect personal information from applicants to evaluate candidates for employment. You may request access, deletion, or exercise other CCPA rights at <strong>axongreenhousesupport@axon.com</strong> or via our Axon Privacy Web Form. For more information, please see the Your California Privacy Rights section of our Applicant and Candidate Privacy Notice.</em></p>\n\n<p><em>Axon’s mission is to Protect Life and is committed to the well-being and safety of its employees as well as Axon’s impact on the environment. All Axon employees must be aware of and committed to the appropriate environmental, health, and safety regulations, policies, and procedures. Axon employees are empowered to report safety concerns as they arise and activities potentially impacting the environment.</em></p>\n\n<p><em>We are an equal opportunity employer that promotes justice, advances equity, values diversity and fosters inclusion. We’re committed to hiring the best talent — regardless of race, creed, color, ancestry, religion, sex (including pregnancy), national origin, sexual orientation, age, citizenship status, marital status, disability, gender identity, genetic information, veteran status, or any other characteristic protected by applicable laws, regulations and ordinances — and empowering all of our employees so they can do their best work. If you have a disability or special need that requires assistance or accommodation during the application or the recruiting process, please email recruitingops@axon.com.  Please note that this email address is for accommodation purposes only. Axon will not respond to inquiries for other purposes.</em></p>",
+      "url": "https://remotefirstjobs.com/companies/axon/jobs/service-delivery-manager-736288",
+      "collected_at": "2026-03-17T09:42:47.299287+00:00",
+      "date": "Mon, 16 Mar 2026 23:00:32 +0000",
+      "filter_reason": "localização"
+    }
+  ]
+}
