@@ -1,10 +1,10 @@
 # Job Radar
 
-Sistema automatizado de busca, scoring e aplicação a vagas remotas para Product Manager / Technical Program Manager.
+Sistema automatizado de busca e scoring para vagas remotas para Product Manager / Technical Program Manager.
 
 ## 🎯 Objetivo
 
-Encontrar vagas altamente relevantes e automatizar a preparação de materiais de aplicação de alta qualidade, reduzindo o esforço manual para 5-10 minutos por dia.
+Encontrar vagas altamente relevantes e automatizar o scoring, reduzindo o esforço manual para 5-10 minutos por dia.
 
 ## 🧭 Jornada do Usuário
 
@@ -27,10 +27,7 @@ Online (Streamlit Cloud, sempre disponível):
 Manual (Streamlit local, quando quiser):
   7. Abre o app: streamlit run app.py
   8. Vê as vagas do dia com scores e justificativas
-  9. Clica "Preparar aplicação" nas vagas que interessam
- 10. Sistema gera currículo + cover letter personalizados (PDF)
- 11. Faz download, revisa, submete na plataforma
- 12. Marca "👍 Bom match" ou "👎 Não relevante" para calibrar scoring
+  9. Marca "👍 Bom match" ou "👎 Não relevante" para calibrar scoring
 ```
 
 ## 📂 Estrutura de Documentação
@@ -57,9 +54,8 @@ Para facilitar o trabalho de agentes de IA:
 | :--- | :--- |
 | OpenAI Search (~80 buscas) | ~$1.00 |
 | Claude Haiku (Scoring) | ~$1.50 |
-| Claude Sonnet (Escrita) | ~$1.50 |
 | Streamlit Cloud | $0 (tier gratuito) |
-| **Total** | **~$4.00** |
+| **Total** | **~$2.50** |
 
 ---
 
@@ -96,7 +92,7 @@ Para facilitar o trabalho de agentes de IA:
 
 **Persistência**: com `GITHUB_TOKEN` configurado, scoring manual persiste diretamente no repositório via GitHub API. Sem token, fallback para filesystem local (efêmero no Cloud).
 
-### Desenvolvimento local (scoring + geração)
+### Desenvolvimento local (scoring)
 
 #### Pré-requisitos (desenvolvimento / scoring manual)
 
@@ -122,7 +118,7 @@ Para validar o pipeline de fetch: `python src/fetch.py --dry-run`
 
 ```powershell
 git pull                    # Sincroniza vagas do Actions
-streamlit run app.py        # Revisa e gera materiais
+streamlit run app.py        # Revisa e avalia vagas
 ```
 
 #### Variáveis de Ambiente
@@ -133,9 +129,6 @@ ANTHROPIC_API_KEY=sk-ant-...
 GITHUB_TOKEN=ghp_...              # Opcional: persistência via GitHub API (Streamlit Cloud)
 GITHUB_REPO=owner/repo            # Opcional: formato "owner/repo"
 AUTHORIZED_EMAIL=seu@gmail.com    # Opcional: restrição de acesso no Streamlit Cloud
-SMTP_USER=seu@gmail.com           # Opcional: alertas por email
-SMTP_PASS=xxxx-xxxx-xxxx-xxxx
-NOTIFY_EMAIL=seu@gmail.com
 ```
 
 ---

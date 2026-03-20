@@ -1,5 +1,5 @@
 ---
-description: how to verify the fetch-score-generate pipeline stubs
+description: how to verify the fetch-score pipeline stubs
 ---
 
 // turbo-all
@@ -8,7 +8,7 @@ description: how to verify the fetch-score-generate pipeline stubs
 
 1. Run the full pipeline stubs to check for syntax errors and directory creation:
 ```powershell
-python src/fetch.py; python src/score.py; python src/generate.py --job-id 123; python src/notify.py
+python src/fetch.py; python src/score.py
 ```
 
 2. Check if the output directories exist (Note: stubs may not create JSON files yet):

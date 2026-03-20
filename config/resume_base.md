@@ -1,5 +1,5 @@
 # Currículo Base — Modular
-# Usado pelo generate.py para gerar versões personalizadas por vaga.
+# Template de currículo base (o LLM adapta seleções por vaga).
 # O LLM reorganiza ênfases e seleciona bullets, SEM inventar experiência.
 
 ---

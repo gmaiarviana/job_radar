@@ -40,15 +40,6 @@ jobs:
         run: python src/score.py
         # TODO: Épico 4.2 — retry 1x se falhar
 
-      - name: Notify PERFECT_MATCH
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          SMTP_USER: ${{ secrets.SMTP_USER }}
-          SMTP_PASS: ${{ secrets.SMTP_PASS }}
-          NOTIFY_EMAIL: ${{ secrets.NOTIFY_EMAIL }}
-        run: python src/notify.py
-        # TODO: Épico 4.3 — implementar notify.py
-
       - name: Build frontend data
         run: python src/build_frontend_data.py
 

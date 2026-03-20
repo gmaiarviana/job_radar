@@ -143,22 +143,20 @@ Concluído: (1) **profile.md** — seção "Âncora de Seniority" adicionada: PM
 
 ---
 
-### ÉPICO 13: Geração de Materiais
+---
 
-**Objetivo:** Gerar currículo e cover letter personalizados por vaga, com botão na UI.
+### ÉPICO 13: Geração de Materiais (implementação futura)
 
-**Dependência:** Scoring estável por ≥ 2 semanas.
+**Objetivo:** Gerar currículo e cover letter personalizados por vaga na UI.
 
-**Critério de aceite:** Materiais gerados para 5 vagas reais. ≥ 4 prontos para enviar com mínima edição.
+**Dependência:** Scoring estável por pelo menos 2 semanas.
+
+**Critério de aceite:** Materiais gerados para 5 vagas reais. Pelo menos 4 devem estar prontos para enviar com mínima edição.
 
 #### 13.1 Currículo base modular (`config/resume_base.md`)
 #### 13.2 Template de cover letter (`config/cover_letter_template.md`)
-#### 13.3 Script generate.py (Claude Sonnet)
-#### 13.4 Geração de PDF (weasyprint)
-#### 13.5 Botão "Preparar aplicação" na UI
-
-- Em cada card com score ≥ 70
-- Loading → preview → download PDF
+#### 13.3 Geração de PDF (weasyprint / reportlab)
+#### 13.4 Botão "Preparar aplicação" na UI
 
 ---
 
@@ -183,4 +181,4 @@ Backlog, itens postergados e ideias futuras → [docs/governance/backlog.md](doc
 ---
 
 **Última atualização:** Mar 2026  
-**Revisão (estado do código):** Conferido em Mar 2026. Concluídos conforme seção ✅ (incluindo Épicos 9 e 10). Épicos 11 (feedback/histórico + marcação "Já apliquei"), 12 (retry/tratamento de falhas), 13 (generate.py completo) e 14 ainda não implementados. `generate.py` segue stub.
+**Revisão (estado do código):** Conferido em Mar 2026. Concluídos conforme seção ✅ (incluindo Épicos 9 e 10). Épicos 11 (feedback/histórico + marcação "Já apliquei"), 12 (retry/tratamento de falhas) e 13 (geração de materiais) ainda não implementados.

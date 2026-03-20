@@ -155,7 +155,6 @@ Quando o corpus de dados (`data/raw/*.json` ou `data/scored/*.json`) for grande 
 | **Discutir scoring** | ROADMAP.md (Épico 4) + `config/search.yaml` + `src/score.py` | ROADMAP.md + config/search.yaml + src/score.py |
 | **Discutir pipeline / CI** | `.github/workflows/daily.yml` + ROADMAP.md (Épico 7) | daily.yml + ROADMAP.md + ARCHITECTURE.md |
 | **Discutir interface (Streamlit)** | ROADMAP.md (Épico 5) + ARCHITECTURE.md | ROADMAP.md + ARCHITECTURE.md + código da UI |
-| **Discutir geração (CV/CL)** | ROADMAP.md (Épico 6) + config (resume_base, cover_letter_template) | ROADMAP.md + config/ + src/generate.py |
 | **Revisar processo de refinamento** | Este arquivo (CONSTITUTION.md) | docs/governance/CONSTITUTION.md |
 | **Revisar fechamento de tarefas** | closure_protocol.md | .agent/closure_protocol.md |
 
@@ -199,7 +198,7 @@ Quando o corpus de dados (`data/raw/*.json` ou `data/scored/*.json`) for grande 
 
 ### Consultados sob demanda
 - **Config:** `config/profile.md`, `config/search.yaml`, `config/companies.yaml` (quando existir), templates.
-- **Código:** `src/fetch.py`, `src/score.py`, `src/generate.py`, pipeline em `.github/workflows/`.
+- **Código:** `src/fetch.py`, `src/score.py`, pipeline em `.github/workflows/`.
 
 ---
 

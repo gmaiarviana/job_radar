@@ -24,8 +24,6 @@ graph TD
     F2[Streamlit Cloud] -->|git clone| E
     E -->|Visualiza + Scoring| F2
     E -->|Visualiza| F[app.py]
-    F -->|Clique: Preparar| G[generate.py - Claude Sonnet]
-    G -->|PDFs| H[data/output/]
     F -->|Feedback| I[data/feedback/ JSON]
 ```
 
@@ -38,8 +36,6 @@ graph TD
 | **Filter** | `src/filter.py` | — | Hard filters gratuitos: title (exclude_title_keywords de search.yaml) + location (blocklist + allowlist) + quality guard (JD/título/empresa). Lê `data/raw/`, grava `data/filtered/` (mesmo nome; jd_full intacto). CLI: `--input` ou `--date`. `data/filtered/` no .gitignore. |
 | **Score** | `src/score.py` | Claude Haiku | Lê de `data/filtered/`. Eliminatórios em batch com payload completo (title, company, location, jd_full). Deep Scoring individual com JD truncado a 3000 chars no prompt (não no armazenamento). Chamada 1 (analyze_job) retorna `penalties` como dict de bools (seniority_gap, domain_gap_core); compute_ceiling calcula teto em Python; Chamada 2 (score_with_analysis) recebe análise + ceiling e atribui score final (early return se ceiling ≤ 50, senão Haiku com teto explícito). main() executa esse pipeline por vaga; output por vaga inclui score_ceiling, ceiling_reason, core_requirements, seniority_comparison. Contra `config/profile.md`. |
 | **Interface** | `app.py` | Streamlit | Duas abas: **Vagas** (lista unificada de `data/scored/` rankeada por data DESC e score DESC; sidebar: seletor de data com opção "Todas" no topo e dropdown de veredito Todos/APLICAR/AVALIAR/PULAR; cards com score, veredito, badge de fonte, salário, link; expander "Detalhes" com botões "Copiar JD"/"Copiar Relatório") e **Busca Manual** (links de `config/manual_searches.yaml` + paste-and-score; salva em `data/scored/manual_*.json`; atualiza `seen_jobs.json`). Funciona local e em Streamlit Cloud. Depende de `src/score.py`, `src/job_schema.py`, `src/seen_jobs.py`, `src/paths.py`. |
-| **Writer** | `src/generate.py`| Claude Sonnet | Redação de alta qualidade para CV e Cover Letter. |
-| **Notifier** | `src/notify.py` | SMTP | Alertas imediatos para `PERFECT_MATCH` (score > 95). |
 | **GitHub API** | `src/github_api.py` | GitHub Contents API | Persistência remota via API: `get_file(path)` retorna conteúdo + SHA; `put_file(path, content, sha)` cria ou atualiza arquivo no repo. Usado pelo `app.py` no Streamlit Cloud para gravar `manual_*.json` e `seen_jobs.json` diretamente no repositório. Fallback: filesystem local quando token ausente. |
 | **Frontend Data** | `src/build_frontend_data.py` | — | Consolida `data/scored/` em `data/jobs.json`. O workflow copia para `docs/data/jobs.json` para o GitHub Pages servir. Filtra últimos 14 dias, ordena por data e score. Roda no pipeline diário (Actions) e como CLI. |
 | **Eval** | `src/eval/build_gabarito.py`, `eval_eliminatorios.py`, `test_scoring.py`, `validate_scoring_pipeline.py` | — | Infraestrutura de avaliação: gabarito machine-readable, eval parametrizado por modelo; testes de scoring (compute_ceiling); validação do pipeline de 2 chamadas no seed (5.1.5) via `--seed <path>`. |
@@ -50,7 +46,7 @@ graph TD
 | :--- | :--- | :--- |
 | **Busca de vagas** | Pipeline multi-fonte: OpenAI Search, Remotive, We Work Remotely, Jobicy (Épico 2); dedup persistente + throttle (2.7). | Coletores independentes; schema único; dedupe cross-fonte; `seen_jobs.json` evita reprocessar vagas entre runs; throttle limita a 20 novos JDs/run (preparado para ATS). |
 | **Scoring** | Claude Haiku | Rápido e barato para análise de texto longo. |
-| **Geração de materiais** | Claude Sonnet | Escrita superior e tom profissional. |
+| **Geração de materiais (futuro)** | Claude Sonnet | Escrita superior e tom profissional. |
 | **Interface** | Streamlit Local | Agilidade no desenvolvimento e custo zero de hospedagem. |
 | **Pipeline** | GitHub Actions | Gratuito, automatizado e confiável (nuvem). |
 | **Persistência** | JSON (Data-as-Code) | Simplicidade; controle de versão serve como banco de dados. |
@@ -86,8 +82,6 @@ job-radar/
 │   ├── build_frontend_data.py   # Consolida scored → data/jobs.json (workflow copia para docs/data/)
 │   ├── filter.py                # Hard filters (location + quality); raw → filtered
 │   ├── score.py                 # Scoring via Claude Haiku (lê filtered)
-│   ├── generate.py              # Writer via Claude Sonnet
-│   ├── notify.py                # Alertas SMTP
 │   ├── eval/                    # Scripts de avaliação e benchmarking
 │   │   ├── __init__.py
 │   │   ├── build_gabarito.py    # Gera gabarito machine-readable a partir de lista curada

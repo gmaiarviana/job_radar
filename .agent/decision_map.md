@@ -9,7 +9,6 @@ Este documento mapeia onde cada informação "mora" para evitar duplicação.
 | **Parâmetros de Busca (Pesos)** | `config/search.yaml` |
 | **Links de busca (Busca Manual)** | `config/manual_searches.yaml` |
 | **Prompt de Scoring** | `src/score.py` |
-| **Prompt de Geração (CV/CL)** | `src/generate.py` |
 | **Voz do Usuário (Templates)** | `config/cover_letter_template.md` & `config/resume_base.md` |
 | **Pipeline de Automação** | `.github/workflows/daily.yml` |
 | **Configuração do Streamlit Cloud** | `.streamlit/config.toml` & `.streamlit/secrets.toml.example` |

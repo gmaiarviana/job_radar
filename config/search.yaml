@@ -76,7 +76,6 @@ filters:
 
 scoring:
   min_score: 80          # Score mínimo para salvar em scored/
-  perfect_match_score: 95 # Threshold para enviar email de alerta
 
   # Pesos por critério (apenas referência para o prompt)
   weights:

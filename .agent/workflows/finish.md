@@ -12,7 +12,7 @@ Leia o arquivo `.agent/closure_protocol.md` para garantir que todos os passos me
 2. **Verificação Técnica**:
 Execute o workflow de verificação:
 ```powershell
-python src/fetch.py; python src/score.py; python src/generate.py --job-id 123; python src/notify.py
+python src/fetch.py; python src/score.py
 ```
 
 3. **Arquivamento do Roadmap**:

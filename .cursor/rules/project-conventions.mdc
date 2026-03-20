@@ -12,7 +12,7 @@ alwaysApply: true
 | Informação | Arquivo / pasta |
 | :--- | :--- |
 | Narrativa de carreira, perfil, parâmetros de busca | `config/` (career_narrative.md, profile.md, search.yaml) |
-| Prompts de scoring e geração | `src/score.py`, `src/generate.py` |
+| Prompts de scoring | `src/score.py` |
 | Pipeline de automação | `.github/workflows/daily.yml` |
 | Status e próximo passo | `ROADMAP.md` |
 | Design técnico atual | `ARCHITECTURE.md` |
