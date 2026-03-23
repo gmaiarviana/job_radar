@@ -1,0 +1,508 @@
+{
+  "scored_at": "2026-03-23T09:54:14.622330+00:00",
+  "source_file": "2026-03-23_095040.json",
+  "summary": {
+    "total_input": 13,
+    "total_llm_eliminated": 1,
+    "total_scored": 9,
+    "total_top": 1
+  },
+  "jobs": [
+    {
+      "score": 75,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato possui experiência relevante em gerenciamento de projeto, programa e produto, com cerca de 3-4 anos de atuação na área de tecnologia. Suas habilidades em liderança, gestão de pessoas/processos, análise de dados e familiaridade com ferramentas ágeis são compatíveis com os requisitos da vaga. No entanto, sua experiência específica no domínio de e-commerce e marketing digital é parcial, o que representa um gap que precisa ser considerado. O candidato atende aos principais requisitos da vaga, mas uma adaptação ao contexto da agência de marketing digital seria necessária.",
+      "main_gap": "Falta de experiência direta no domínio de e-commerce e marketing digital.",
+      "company": "Paired",
+      "location": "Brazil",
+      "title": "Project Manager for Ecommerce Marketing Agency (US Based/Remote)",
+      "url": "https://himalayas.app/companies/paired-so/jobs/project-manager-for-ecommerce-marketing-agency-us-based-remote",
+      "id": "eb5b8f969a46703996b09391bbdc8119429a0bd1422d650f04544eb7e0a3b533",
+      "core_requirements": [
+        {
+          "requirement": "3+ years of experience in project management, preferably in an eCommerce, marketing, or digital agency setting",
+          "category": "seniority",
+          "evidence": "~3 years in PM/TPM tech roles",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Familiar with email marketing tools (especially Klaviyo) and eCommerce platforms (e.g., Shopify)",
+          "category": "technical",
+          "evidence": "Product Owner refactoring image scanning with IA integration, Project Manager for program with startups",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Comfortable analyzing campaign performance metrics (open rate, CTR, CVR, revenue attribution, etc.)",
+          "category": "technical",
+          "evidence": "Data & evidence skills: SQL, Python, Spark/Scala, ETL and diagnostic analysis",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Exceptional communication and interpersonal skills, with the ability to build relationships with team members and clients",
+          "category": "leadership",
+          "evidence": "PO, PM, TPM roles involving stakeholder management and team coordination",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Familiarity with Slack, Google Suite, and project management tools (e.g., ClickUp or Asana)",
+          "category": "technical",
+          "evidence": "Experience with Jira, Azure DevOps, Confluence",
+          "has_evidence": "partial"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "3+ years",
+        "candidate_has": "~3 years in PM/TPM tech roles",
+        "gap": false
+      }
+    }
+  ],
+  "scored_jobs": [
+    {
+      "score": 55,
+      "score_ceiling": 60,
+      "ceiling_reason": "1 penalty: domain_gap_core.",
+      "justification": "O candidato possui experiência sólida em gestão de produto, programa e entrega, incluindo alguns aspectos relacionados a precificação e receita. No entanto, há uma lacuna em relação ao domínio específico de hotelaria e gestão de tarifas e inventário, que é o core da vaga. Embora suas habilidades transferíveis sejam relevantes, a falta de experiência direta nesse contexto torna a candidatura improvável de passar por uma triagem experiente.",
+      "main_gap": "Falta de experiência direta na gestão de tarifas e inventário em hotéis, domínio central da vaga",
+      "company": "Hilton",
+      "location": "USA",
+      "title": "Revenue Manager Full Service, RMCC Managed",
+      "url": "https://jobicy.com/jobs/141028-revenue-manager-full-service-rmcc-managed-2",
+      "id": "1fae14f07669cef2761ee1450f2d31ea1ec4ddf916fa00fc410825884256a303",
+      "core_requirements": [
+        {
+          "requirement": "Two (2) years of work experience in Revenue Management",
+          "category": "seniority",
+          "evidence": "~3 years of experience in PM/TPM tech roles since Jul/2022, including some revenue/pricing work as PO",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Experience managing hotel rates and inventory",
+          "category": "domain",
+          "evidence": "Experience as PO managing product/feature delivery, including pricing/strategy, at the Instituto Atlântico",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Experience analyzing, and explaining statistical data to develop strategies and generate a course of action",
+          "category": "technical",
+          "evidence": "Experience in data analysis (SQL, Python, Spark/Scala) and using evidence to drive product decisions, as described in the profile",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "In-depth knowledge of industry analytical reports such as STR and shop reports",
+          "category": "domain",
+          "evidence": "",
+          "has_evidence": "false"
+        },
+        {
+          "requirement": "Experience working with GRO & OnQ R&I",
+          "category": "technical",
+          "evidence": "",
+          "has_evidence": "false"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "2+ years of work experience in Revenue Management",
+        "candidate_has": "~3 years in PM/TPM tech roles since Jul/2022",
+        "gap": false
+      }
+    },
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato tem ~3 anos de experiência em roles de PM/TPM na área de tecnologia, o que é próximo, mas abaixo dos 4+ anos exigidos. Ele possui experiência relevante em gestão de produto, programa e entrega, com conhecimento técnico em tópicos como IA, dados e metodologias ágeis. No entanto, sua experiência é mais generalista e não especificamente na área de marketing/crescimento. Portanto, atribuo um score de 60, dentro da faixa de 50-69 'Skills transferíveis, mas GAP no CORE da vaga. Improvável passar triagem experiente'.",
+      "main_gap": "Experiência específica em marketing de crescimento e métricas de performance, embora tenha transferibilidade de habilidades.",
+      "company": "12Go Asia",
+      "location": "",
+      "title": "Product Manager Growth",
+      "url": "https://remoteOK.com/remote-jobs/remote-product-manager-growth-12go-asia-1130851",
+      "id": "867882e6a94fc4934ad02e72d34b66faf4b1feca1569061f2329930a23bc3ba2",
+      "core_requirements": [
+        {
+          "requirement": "4+ years of experience in Product Management or MarTech",
+          "category": "seniority",
+          "evidence": "~3 years in PM/TPM tech roles",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Experience with growth and performance marketing",
+          "category": "domain",
+          "evidence": "Broad ownership across PPC, SEO, and AI",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Google Ads + attribution knowledge",
+          "category": "technical",
+          "evidence": "Integrations with Google Ads and other ad platforms using APIs and Tag Manager",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Mobile measurement + ATT experience",
+          "category": "technical",
+          "evidence": "Mobile growth (App campaign, AppsFlyer, Firebase)",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Understanding of technical SEO",
+          "category": "technical",
+          "evidence": "Core SEO infrastructure: sitemaps, indexing, robots.txt, meta tags, redirects, URL structure",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "4+ years",
+        "candidate_has": "~3 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 61,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O perfil do candidato apresenta sólida experiência em funções de liderança de produto, programa e projeto, com foco em entrega e execução. Isso se alinha parcialmente com os requisitos da vaga de Senior Product Manager, especialmente em termos de ownership da execução, expansão da rede e arquitetura para escala. No entanto, a vaga exige um nível de seniority maior do que a experiência atual do candidato, que é de ~3-4 anos em PM/TPM em tecnologia. Portanto, atribuímos um score na faixa de 50-69, indicando que o candidato tem skills transferíveis, mas há um gap no core da vaga, o que torna a candidatura improvável de passar por uma triagem experiente.",
+      "main_gap": "O principal gap é a diferença de seniority entre a vaga de Senior PM e a experiência atual do candidato de ~3-4 anos em PM/TPM em tecnologia.",
+      "company": "Mesh",
+      "location": "",
+      "title": "Senior Product Manager Core Infrastructure",
+      "url": "https://remoteOK.com/remote-jobs/remote-senior-product-manager-core-infrastructure-mesh-1130848",
+      "id": "cecab798360824aa8a60a277501ab933c3f8a21bd43e9faa46ae6ae92e375779",
+      "core_requirements": [
+        {
+          "requirement": "Ownership: You are the execution engine for the Core team. If a process is broken, you fix it. If an engineering team is blocked, you unblock them. You take pride in sweating the details that others ignore.",
+          "category": "leadership",
+          "evidence": "Candidate has extensive experience in leadership roles, including PO, TPM, and PM roles where they were responsible for driving execution, unblocking teams, and taking pride in delivering quality work.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Expand the Network: Own the execution for expanding Mesh's coverage of external platforms. You will figure out how to integrate new crypto exchanges and standardize connections with self-custodial wallets.",
+          "category": "domain",
+          "evidence": "Candidate has experience in PO and PM roles where they were responsible for integrating external platforms and managing complex integration efforts. The candidate also has experience in the fintech/crypto domain, which is relevant for this role.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Architect for Scale: Partner with our Head of Core and senio",
+          "category": "technical",
+          "evidence": "Candidate has experience in technical roles, including product management and technical program management, where they were responsible for architecting and scaling systems and solutions.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Senior",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 75,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato possui experiência relevante em gerenciamento de projeto, programa e produto, com cerca de 3-4 anos de atuação na área de tecnologia. Suas habilidades em liderança, gestão de pessoas/processos, análise de dados e familiaridade com ferramentas ágeis são compatíveis com os requisitos da vaga. No entanto, sua experiência específica no domínio de e-commerce e marketing digital é parcial, o que representa um gap que precisa ser considerado. O candidato atende aos principais requisitos da vaga, mas uma adaptação ao contexto da agência de marketing digital seria necessária.",
+      "main_gap": "Falta de experiência direta no domínio de e-commerce e marketing digital.",
+      "company": "Paired",
+      "location": "Brazil",
+      "title": "Project Manager for Ecommerce Marketing Agency (US Based/Remote)",
+      "url": "https://himalayas.app/companies/paired-so/jobs/project-manager-for-ecommerce-marketing-agency-us-based-remote",
+      "id": "eb5b8f969a46703996b09391bbdc8119429a0bd1422d650f04544eb7e0a3b533",
+      "core_requirements": [
+        {
+          "requirement": "3+ years of experience in project management, preferably in an eCommerce, marketing, or digital agency setting",
+          "category": "seniority",
+          "evidence": "~3 years in PM/TPM tech roles",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Familiar with email marketing tools (especially Klaviyo) and eCommerce platforms (e.g., Shopify)",
+          "category": "technical",
+          "evidence": "Product Owner refactoring image scanning with IA integration, Project Manager for program with startups",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Comfortable analyzing campaign performance metrics (open rate, CTR, CVR, revenue attribution, etc.)",
+          "category": "technical",
+          "evidence": "Data & evidence skills: SQL, Python, Spark/Scala, ETL and diagnostic analysis",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Exceptional communication and interpersonal skills, with the ability to build relationships with team members and clients",
+          "category": "leadership",
+          "evidence": "PO, PM, TPM roles involving stakeholder management and team coordination",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Familiarity with Slack, Google Suite, and project management tools (e.g., ClickUp or Asana)",
+          "category": "technical",
+          "evidence": "Experience with Jira, Azure DevOps, Confluence",
+          "has_evidence": "partial"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "3+ years",
+        "candidate_has": "~3 years in PM/TPM tech roles",
+        "gap": false
+      }
+    },
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui experiência relevante em gestão de produto (PM/TPM), incluindo habilidades em planejamento de roadmap, metodologias ágeis e foco no usuário. No entanto, há um gap de senioridade em relação aos 4+ anos exigidos pela vaga. Mesmo assim, suas competências gerais em liderança, entrega e análise o tornam um bom candidato, porém com risco moderado de não atender plenamente aos requisitos mais seniores da posição.",
+      "main_gap": "Gap de senioridade de cerca de 1 ano em relação aos 4+ anos exigidos para a função.",
+      "company": "Very Good Ventures",
+      "location": "",
+      "title": "Senior Product Manager",
+      "url": "https://remotefirstjobs.com/companies/very-good-ventures/jobs/senior-product-manager-742927",
+      "id": "d52f97e30f29488f215a803edde51d69f6e283daed64a6e7c6fe776fde9bf6da",
+      "core_requirements": [
+        {
+          "requirement": "Ability to autonomously develop, define, and communicate a clear product strategy aligned with overall business objectives, considering market trends, customer needs, and the competitive landscape.",
+          "category": "leadership",
+          "evidence": "Recent experience as Product Owner, Project Manager, and Technical Program Manager, with responsibilities including defining product vision, aligning stakeholders, and driving cross-functional execution.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Collaborate with your team to create a comprehensive product roadmap, outlining key milestones, releases, and dependencies to ensure timely project delivery.",
+          "category": "leadership",
+          "evidence": "Experience in managing programs and projects, including roadmap planning, release management, and coordination of dependencies.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Utilize Agile methodologies in your work.",
+          "category": "technical",
+          "evidence": "Expertise in Agile frameworks, including Scrum, as evidenced by experience in leading sprint ceremonies and managing Agile teams.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Champion a user-centric approach, ensuring the design and functionality of projects contribute to a positive user experience.",
+          "category": "domain",
+          "evidence": "Strong background in product discovery and delivery, including user journey mapping and focus on delivering value to users.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Technical literacy in software development concepts and familiarity with modern frameworks (Flutter, React Native, JavaScript) to facilitate productive engineering partnerships",
+          "category": "technical",
+          "evidence": "Demonstrated experience working with engineering teams and familiarity with modern web and mobile frameworks, even though the specific frameworks (Flutter, React Native) are not explicitly mentioned in the profile.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "4+ years of direct product management experience",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 55,
+      "score_ceiling": 60,
+      "ceiling_reason": "1 penalty: domain_gap_core.",
+      "justification": "O candidato possui uma forte experiência em liderança de projetos e programas, com habilidades comprovadas em gerenciamento de requisitos, cronogramas, orçamentos e mitigação de riscos. No entanto, a falta de experiência direta no domínio de bens de consumo é uma lacuna crítica para essa vaga específica. Embora suas habilidades gerais de gerenciamento de projetos sejam transferíveis, o candidato não atende plenamente aos requisitos centrais da vaga, que exige experiência prévia no setor de bens de consumo.",
+      "main_gap": "Ausência de experiência direta no domínio de bens de consumo empacotados",
+      "company": "Wellbeam Consumer Health",
+      "location": "",
+      "title": "Project Manager",
+      "url": "https://remotefirstjobs.com/companies/wellbeam-consumer-health/jobs/project-manager-743059",
+      "id": "48dc1fcb9168dcc1fdce0605ba1e2afcde7df4dcbbbf4b5f4e5224319f9c76fb",
+      "core_requirements": [
+        {
+          "requirement": "Lead projects from requirements definition through deployment, identifying schedules, scopes, budget estimations, and project implementation plans, including risk mitigation",
+          "category": "leadership",
+          "evidence": "Extensive experience in PM/TPM roles, leading projects, defining requirements, managing scopes, budgets, and risks. Evidenced in roles at Institute Atlântico and Campos Gouveia.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Analyze project progress and, when necessary, adapt scope, timelines, and costs to ensure that the project team adheres to project requirements",
+          "category": "leadership",
+          "evidence": "Strong background in program and project management, with experience adapting scope, timelines, and costs to ensure project delivery. Demonstrated in TPM and PM roles at Institute Atlântico.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Develop and maintain partnerships with outside resources—including third-party vendors and researchers",
+          "category": "leadership",
+          "evidence": "Experience in coordinating with external stakeholders and vendors, as evidenced by the Delivery Manager and TPM roles at Institute Atlântico.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Report project outcomes and/or risks to the appropriate management channels as needed—escalating issues as necessary based on project work plans",
+          "category": "leadership",
+          "evidence": "Proven track record of reporting project progress, outcomes, and risks to management, as demonstrated in the PM and TPM roles at Institute Atlântico.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Previous experience of working in consumer-packaged goods with multiple stakeholders is essential for this role",
+          "category": "domain",
+          "evidence": "While the candidate has experience in technology and product management roles, there is no direct evidence of experience in the consumer-packaged goods domain. The profile focuses more on general PM/TPM skills rather than domain-specific expertise.",
+          "has_evidence": "partial"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "at least 3 years of related experience",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": false
+      }
+    },
+    {
+      "score": 55,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui cerca de 3-4 anos de experiência em papéis de gestão de projeto e programa em tecnologia, o que está abaixo do intervalo de 3-5+ anos solicitado na vaga. No entanto, ele demonstra habilidades transferíveis relevantes, como coordenação de equipes multifuncionais, gerenciamento de múltiplos projetos e entrega em ambientes complexos e urgentes. Apesar da lacuna de experiência no domínio específico de telecom, o candidato tem potencial para se adaptar rapidamente e desempenhar bem o papel.",
+      "main_gap": "Falta de experiência direta no domínio de telecom e gerenciamento de projetos na indústria.",
+      "company": "AireSpring",
+      "location": "",
+      "title": "Dedicated Project Manager Telecom",
+      "url": "https://remotefirstjobs.com/companies/airespring/jobs/dedicated-project-manager-telecom-743041",
+      "id": "a1e9bb648e7686ef697e63a1da290fd85b37b404bf80609ebac2b4836a0c9990",
+      "core_requirements": [
+        {
+          "requirement": "Full ownership of telecom service delivery from order submission through installation and turn-up",
+          "category": "domain",
+          "evidence": "Experience in telecom service delivery, provisioning, or project management",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Manage and enforce carrier timelines, including Firm Order Commitments (FOCs), and proactively address delays",
+          "category": "technical",
+          "evidence": "Strong understanding of carrier processes and timelines",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Drive installations to completion, ensuring all dependencies (site readiness, documentation, access) are met",
+          "category": "technical",
+          "evidence": "Strong understanding of site readiness requirements and installation workflows",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Coordinate cross-functional teams (sales, engineering, vendors, customers) to ensure seamless execution",
+          "category": "leadership",
+          "evidence": "Experience handling escalations and resolving delivery issues under pressure",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Track and manage multiple concurrent projects, maintaining accurate status, milestones, and documentation",
+          "category": "seniority",
+          "evidence": "Demonstrated ability to manage multiple projects simultaneously in a fast-paced environment",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "3-5+ years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui experiência relevante em gestão de produto, programa e entrega, com uso prático de IA. No entanto, a vaga exige 5-8+ anos de experiência, enquanto o candidato possui ~3-4 anos no cargo de PM/TPM. Essa lacuna de senioridade é um risco importante, justificando um score na faixa de 50-69 (improvável passar triagem experiente).",
+      "main_gap": "A principal lacuna é a diferença de senioridade, com o candidato tendo menos experiência que o esperado pela vaga.",
+      "company": "Databricks",
+      "location": "United States",
+      "title": "Learning Product Manager Lead",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8466731002",
+      "id": "5d9e1b7b3b91cfeb86f00851ea5abf999321ea3a03be263fe6d5170254e32c4c",
+      "core_requirements": [
+        {
+          "requirement": "Define and drive the product vision, strategy, and roadmap for AI‑first learning systems on the Databricks platform, anchored on contextual,&amp;nbsp; in the flow of work enablement and a unified skills infrastructure.",
+          "category": "domain",
+          "evidence": "Define and drive the product vision, strategy, and roadmap for AI‑first learning systems on the Databricks platform, anchored on contextual,&amp;nbsp; in the flow of work enablement and a unified skills infrastructure.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Translate learning and pedagogical goals into platform capabilities such as learner models, skills graphs, progress tracking, adaptive learning paths, assessments, and feedback loops.",
+          "category": "domain",
+          "evidence": "Translate learning and pedagogical goals into platform capabilities such as learner models, skills graphs, progress tracking, adaptive learning paths, assessments, and feedback loops.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Collaborate with platform and infrastructure teams to ensure learning and skills systems are reliable, secure, performant, and able to serve global enterprise customers at scale.",
+          "category": "leadership",
+          "evidence": "Collaborate with platform and infrastructure teams to ensure learning and skills systems are reliable, secure, performant, and able to serve global enterprise customers at scale.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Experience with AI-powered learning, adaptive systems, or building products that incorporate LLMs into user workflows",
+          "category": "technical",
+          "evidence": "Diferencial em IA: uso prático com método — documentação como infraestrutura, governança humano-IA por papéis, avaliação por critérios/rúbricas e decomposição em pipelines especializados.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Excellent written and verbal communication skills, with an ability to explain complex concepts simply and advocate for learners across the organization.",
+          "category": "other",
+          "evidence": "Excellent written and verbal communication skills, with an ability to explain complex concepts simply and advocate for learners across the organization.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "5–8+ years of experience in product management, UX-focused product roles, or learning/education platforms",
+        "candidate_has": "~3-4 years of PM/TPM experience in technology",
+        "gap": true
+      }
+    },
+    {
+      "score": 57,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui uma sólida experiência em gerenciamento de programas e projetos, com atuação em diferentes posições como TPM, PM e PO nos últimos anos. No entanto, a vaga específica de gerenciamento de programas de Customer Success exige uma experiência mais direta nesse domínio, que não é totalmente evidenciada no perfil do candidato. Embora algumas habilidades sejam transferíveis, como liderança, coordenação cross-funcional e gerenciamento de entregas, a falta de experiência específica em Customer Success representa um gap que pode impactar o desempenho inicial do candidato na vaga. Por isso, o score é limitado a 57, na faixa de 50-69, indicando que a candidatura é improvável de passar por uma triagem experiente, mas que o candidato possui potencial de longo prazo com o devido desenvolvimento na área.",
+      "main_gap": "Falta de experiência específica no domínio de Customer Success Programs, que é o core da vaga.",
+      "company": "Samsara",
+      "location": "Remote - Canada",
+      "title": "Sr. Program Manager - Customer Success Programs",
+      "url": "https://www.samsara.com/company/careers/roles/7595083?gh_jid=7595083",
+      "id": "f160c69489a7e04f2b378df0c697ec60b8b67320b875f8bcd83769d31f254175",
+      "core_requirements": [
+        {
+          "requirement": "Own and manage core Customer Success cadences, including QBRs, risk reviews, top deal reviews, and internal planning forums, ensuring consistent structure, clear outputs, and strong follow-through.",
+          "category": "leadership",
+          "evidence": "Experience as TPM (Sep/2024-Sep/2025) and PM (Oct/2025-Feb/2026) in managing programs and delivery",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Drive end-to-end coordination of key CS meetings and execution moments, including blitz days and cross-functional cadences, ensuring alignment, accountability, and high-quality execution.",
+          "category": "leadership",
+          "evidence": "Experience as TPM (Sep/2024-Sep/2025) and PM (Oct/2025-Feb/2026) in managing programs and delivery across teams",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Build and maintain the CS operating calendar, including planning cycles, key milestones, and recurring forums, to ensure alignment across teams and visibility into priorities.",
+          "category": "leadership",
+          "evidence": "Experience as TPM (Sep/2024-Sep/2025) and PM (Oct/2025-Feb/2026) in managing programs and delivery",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Partner with Product, Enablement, and CS leadership to manage the new product release calendar, ensuring readiness, communication, and effective rollout to the field.",
+          "category": "domain",
+          "evidence": "Experience as PO (Mar/2026-Current) in refactoring image scanning with IA integration, and as PO (Jul/2022-Sep/2024) in reorganizing components into products",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Partner closely with Customer Success, Sales, and other cross-functional teams to drive strategic initiatives and ensure alignment and accountability.",
+          "category": "leadership",
+          "evidence": "Experience as TPM (Sep/2024-Sep/2025) and PM (Oct/2025-Feb/2026) in managing programs and delivery across teams",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Not explicitly stated",
+        "candidate_has": "~3-4 years as PM/TPM in technology",
+        "gap": true
+      }
+    }
+  ],
+  "eliminated_jobs": [
+    {
+      "id_hash": "b18928a73b2bbfbb379fe543dfe54443dcdb1a10ebacef28416c7f0a6d53b44b",
+      "id": "b18928a73b2bbfbb379fe543dfe54443dcdb1a10ebacef28416c7f0a6d53b44b",
+      "source": "jobicy",
+      "title": "Digital Logistics Portfolio Lead",
+      "company": "ManTech",
+      "location": "USA",
+      "salary": "139700-250700 USD yearly",
+      "jd_full": "<h2> General information </h2>\n<p> Requisition # R66724 Locations USA-Remote Work Posting Date 03/19/2026 Security Clearance Required Secret Remote Type Fully Remote Time Type Full time </p>\n<h2> Description &amp; Requirements </h2>\n<p> Elevate your career with MANTECH International Corporation! Join a dynamic team dedicated to national security through cutting-edge technology. Since 1968, MANTECH has led in delivering advanced solutions to government intelligence, the Department of Defense, and Federal Civilian sectors. Dive into innovation in Digital Transformation, Cybersecurity, IT, Data Analytics and Software Development. Your journey to impactful work and rapid growth starts now—be extraordinary at MANTECH!</p>\n<p><b>MANTECH </b>seeks a motivated, career and customer-oriented <b>Digital Logistics Portfolio Lead </b>to join our Digital Practice. This is a remote position and may require up to 20-25% travel.</p>\n<p><b>Responsibilities include but are not limited to:</b></p>\n<ul>\n<li>Responsible for managing all operational activities for our Logistics and Supply Chain Management (SCM) Program.</li>\n<li>Responsible for definition of Solution Offerings (e.g., Supplier Management; Inventory Management; Forecasting, Allocation, and Replacement; Material Management; Transportation Management; and Acquisition Management) for the practice in alignment with practice, division, and overall corporate strategy.</li>\n<li>Responsible for Logistics growth strategy development to include DoD Contested Logistics.</li>\n<li>Responsible for customer engagement through the stages of the growth process, direct contact with Target Buyers for each Solution Offering, including key stakeholder briefings.</li>\n<li>Responsible for opportunity identification/maturation/movement through gate review process and stages of capture, proposal development and closing.</li>\n<li>Program Execution. Leads team of Project Managers and leverages Digital resources in executing awarded contracts with activities to include:</li>\n<li>Works with external stakeholders to include platform vendors, business partners (subcontractor network), and industry forums to execute responsibilities.</li>\n</ul>\n<p><b>Minimum Qualifications:</b></p>\n<ul>\n<li>Bachelor’s degree in business, Management, Industrial Engineering or related degree.</li>\n<li>15+ years of relevant DoW logistics / supply chain management experience.</li>\n<li>Experience with Federal capture and proposal development with a track record of successful awards.</li>\n<li>Experience managing and executing Federal Logistics / Supply Chain Management programs.</li>\n<li>Proven success in delivering successful outcomes on Federal Logistics organizational, business process, and/or technology transformation projects.</li>\n<li>Experience managing and leading teams larger than 20 people.</li>\n</ul>\n<p><b>Preferred Qualifications:</b></p>\n<ul>\n<li>A master's degree in a relevant business or technical field.</li>\n<li>Strong professional network within the DoD and Federal Logistics / Supply Chain Management community.</li>\n<li>Experience implementing IT solutions within the DOD and other Federal Agencies. </li>\n</ul>\n<p><b>Security Clearance Requirements:</b></p>\n<ul>\n<li>US citizenship with an active Secret clearance</li>\n</ul>\n<p><b>Physical Requirements:</b></p>\n<ul>\n<li>Must be able to remain in a stationary position 50%</li>\n<li>The person in this position frequently communicates with co-workers, management and customers, which may involve delivering presentations. Must be able to exchange accurate information in these situations</li>\n<li>Constantly operates a computer and other office productivity machinery, such as a calculator, copy machine and computer printer</li>\n</ul>\n<p>\nThe projected compensation range for this position is $139,700.00-$250,700.00. There are differentiating factors that can impact a final salary/hourly rate, including, but not limited to, Contract Wage Determination, relevant work experience, skills and competencies that align to the specified role, geographic location (For Remote Opportunities), education and certifications as well as Federal Government Contract Labor categories. In addition, MANTECH invests in its employees beyond just compensation. MANTECH’s benefits offerings include, dependent upon position, Health Insurance, Life Insurance, Paid Time Off, Holiday Pay, short-term and long-term Disability, Retirement and Savings, Learning and Development opportunities, wellness programs as well as other optional benefit elections. <br />\n<em>MANTECH considers all qualified applicants for employment without regard to disability or veteran status or any other status protected under any federal, state, or local law or regulation.<br />If you need a reasonable accommodation to apply for a position with MANTECH, please email us at <a href=\"mailto:careers@mantech.com\" rel=\"nofollow ugc noopener\" target=\"_blank\">careers@mantech.com</a> and provide your name and contact information.</em></p>",
+      "url": "https://jobicy.com/jobs/141031-digital-logistics-portfolio-lead",
+      "collected_at": "2026-03-23T09:50:48.707513+00:00",
+      "date": "2026-03-20T16:29:11+00:00",
+      "filter_reason": "localização"
+    }
+  ]
+}

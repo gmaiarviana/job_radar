@@ -1,0 +1,80 @@
+{
+  "date": "2026-03-23",
+  "discarded_at": "2026-03-23T09:54:13.906000+00:00",
+  "total": 5,
+  "by_reason": {
+    "jd_too_short": 5
+  },
+  "items": [
+    {
+      "id_hash": "f55a15b0b405c3c041b252e8155530a0150dcb9a9f08596d3f63b249a966d3ca",
+      "id": "f55a15b0b405c3c041b252e8155530a0150dcb9a9f08596d3f63b249a966d3ca",
+      "source": "openai_web_search",
+      "title": "Program Manager",
+      "company": "Edward Martin",
+      "location": "Remoto",
+      "salary": null,
+      "jd_full": "Monitorar e relatar métricas de desempenho do produto para orientar melhorias contínuas. Colaborar com equipes multifuncionais para garantir a entrega bem-sucedida de projetos. Gerenciar cronogramas, recursos e riscos para cumprir os objetivos do programa. Desenvolver e manter relacionamentos com stakeholders internos e externos. Garantir a conformidade com os padrões de qualidade e as melhores práticas da indústria.",
+      "url": "https://br.indeed.com/viewjob?jk=1234567890abcdef",
+      "collected_at": "2026-03-23T09:50:48.080582+00:00",
+      "date": "2 dias atrás",
+      "discard_reason": "jd_too_short"
+    },
+    {
+      "id_hash": "e1e7dfda0b9bff0f5db5bbe913feec4d838f25e28e10279c43d6faff16f02ce1",
+      "id": "e1e7dfda0b9bff0f5db5bbe913feec4d838f25e28e10279c43d6faff16f02ce1",
+      "source": "openai_web_search",
+      "title": "Product Manager",
+      "company": "BC Tecnologia",
+      "location": "Santiago, Chile",
+      "salary": "R$ 12.075,00 mensais",
+      "jd_full": "Definir e executar a estratégia de produto alinhada aos objetivos de negócios. Trabalhar em estreita colaboração com as equipes de engenharia, design e marketing para desenvolver e lançar novos recursos. Priorizar o backlog de produtos com base no feedback dos clientes e nas necessidades do mercado. Analisar dados de uso do produto para identificar oportunidades de melhoria. Gerenciar o ciclo de vida do produto desde a concepção até a descontinuação.",
+      "url": "https://www.getonbrd.cl/jobs/product-manager-bc-tecnologia",
+      "collected_at": "2026-03-23T09:50:48.080632+00:00",
+      "date": "1 semana atrás",
+      "discard_reason": "jd_too_short"
+    },
+    {
+      "id_hash": "cb1205b0e136ef03b90ad4b5270407aebc5cd82e1fb83b782641dc285618790a",
+      "id": "cb1205b0e136ef03b90ad4b5270407aebc5cd82e1fb83b782641dc285618790a",
+      "source": "openai_web_search",
+      "title": "Senior Product Manager",
+      "company": "Vodafone",
+      "location": "Lisboa, Portugal",
+      "salary": null,
+      "jd_full": "Definir e executar o roadmap de produtos, recursos e gerenciamento do ciclo de vida. Gerenciar o P&L do portfólio, incluindo receita, margem, precificação e entrega de business case. Liderar a estratégia de go-to-market, incluindo posicionamento, mensagens e lançamento de produtos. Colaborar com equipes multifuncionais para garantir a entrega bem-sucedida de produtos. Monitorar e analisar o desempenho do produto para orientar melhorias contínuas.",
+      "url": "https://www.careerjet.pt/emprego-senior-product-manager-vodafone",
+      "collected_at": "2026-03-23T09:50:48.080641+00:00",
+      "date": "19 dias atrás",
+      "discard_reason": "jd_too_short"
+    },
+    {
+      "id_hash": "61ac5454584ebebb26ff4f6c77e07d8c9d0476861f2bd022e3ecbfe69d82c13c",
+      "id": "61ac5454584ebebb26ff4f6c77e07d8c9d0476861f2bd022e3ecbfe69d82c13c",
+      "source": "openai_web_search",
+      "title": "Delivery Manager",
+      "company": "Mind Source",
+      "location": "Lisboa, Portugal",
+      "salary": null,
+      "jd_full": "Gerenciar projetos de consultoria em diversas áreas dentro do mundo das TI. Coordenar equipes multifuncionais para garantir a entrega bem-sucedida de projetos. Desenvolver e manter relacionamentos com clientes e stakeholders internos. Monitorar e relatar o progresso do projeto, identificando e mitigando riscos. Garantir a conformidade com os padrões de qualidade e as melhores práticas da indústria.",
+      "url": "https://www.careerjet.pt/emprego-delivery-manager-mind-source",
+      "collected_at": "2026-03-23T09:50:48.080648+00:00",
+      "date": "1 mês atrás",
+      "discard_reason": "jd_too_short"
+    },
+    {
+      "id_hash": "00817fd40aa9a8af981eb8c423a746d69546ba8cf430a04238b96d82d73d1933",
+      "id": "00817fd40aa9a8af981eb8c423a746d69546ba8cf430a04238b96d82d73d1933",
+      "source": "openai_web_search",
+      "title": "Program Manager Senior",
+      "company": "BC Tecnologia",
+      "location": "Santiago, Chile",
+      "salary": "R$ 13.295,00 mensais",
+      "jd_full": "Definir e executar a estratégia de programas alinhada aos objetivos de negócios. Gerenciar cronogramas, recursos e riscos para cumprir os objetivos do programa. Colaborar com equipes multifuncionais para garantir a entrega bem-sucedida de projetos. Desenvolver e manter relacionamentos com stakeholders internos e externos. Monitorar e analisar o desempenho do programa para orientar melhorias contínuas.",
+      "url": "https://www.getonbrd.cl/jobs/program-manager-senior-bc-tecnologia",
+      "collected_at": "2026-03-23T09:50:48.080654+00:00",
+      "date": "30 dias atrás",
+      "discard_reason": "jd_too_short"
+    }
+  ]
+}
