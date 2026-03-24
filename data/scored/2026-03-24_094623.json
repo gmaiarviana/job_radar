@@ -1,0 +1,663 @@
+{
+  "scored_at": "2026-03-24T09:46:23.265378+00:00",
+  "source_file": "2026-03-24_094239.json",
+  "summary": {
+    "total_input": 13,
+    "total_llm_eliminated": 2,
+    "total_scored": 11,
+    "total_top": 2
+  },
+  "jobs": [
+    {
+      "score": 90,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato Guilherme possui experiência direta no domínio central da vaga de Delivery Manager, com uma sólida trajetória de 3-4 anos em funções de PM/TPM em tecnologia, incluindo atuação em projetos e programas de alta complexidade e gestão de stakeholders sênior/C-level. Seu perfil se alinha muito bem com os requisitos da vaga, evidenciando skills técnicas, de liderança e de entrega em cenários ambíguos.",
+      "main_gap": "Não identifico gaps críticos no perfil do candidato em relação aos requisitos da vaga de Delivery Manager na Zopa Bank.",
+      "company": "Zopa Bank",
+      "location": "",
+      "title": "Delivery Manager",
+      "url": "https://remotefirstjobs.com/companies/zopa-bank/jobs/delivery-manager-743279",
+      "id": "afaea11bbfa6b4d86f8a68e6d81e99084ae7355a99a4c9c626f0c9a27a59f5b2",
+      "core_requirements": [
+        {
+          "requirement": "Experience in a Delivery related role",
+          "category": "seniority",
+          "evidence": "Delivery Manager (Mar/2026–Atual) em refatoração de image scanning para integração de IA; TPM (Set/2024–Set/2025) em programa global de alta complexidade",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Experience managing medium/large multi team projects",
+          "category": "experience",
+          "evidence": "TPM (Set/2024–Set/2025) em programa global com 3 times (~25 eng.) e 15 times/200+ pessoas",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Experience managing both technical and non-technical projects",
+          "category": "experience",
+          "evidence": "Delivery Manager, TPM e PM em diversas iniciativas técnicas e não técnicas",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Experience building and maintaining detailed project plans",
+          "category": "technical",
+          "evidence": "Experiência em gestão de projetos e programas, incluindo planejamento e monitoramento",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Experience managing senior and C-level stakeholders",
+          "category": "leadership",
+          "evidence": "Experiência em gestão de stakeholders de alto nível em diversos projetos e programas",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "not specified",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": false
+      }
+    },
+    {
+      "score": 75,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato tem experiência relevante em funções de Product Owner e Technical Program Manager, incluindo trabalho com PoC de IA, refatoração de sistemas e gerenciamento de times. Isso o torna um bom candidato para a vaga de Product Analyst em Data Production, mesmo que não haja evidência direta de experiência neste domínio específico. Com o escopo de trabalho apresentado, o candidato possui habilidades transferíveis que atendem a maior parte dos requisitos da vaga.",
+      "main_gap": "Falta de experiência direta em construção e gestão de data products para negócios financeiros.",
+      "company": "Visa",
+      "location": "",
+      "title": "Product Analyst Data Production",
+      "url": "https://remotefirstjobs.com/companies/visa/jobs/product-analyst-data-production-743221",
+      "id": "ebc55aedf916e6559ae8e7b4517fe042ca490543a08c17d78a6b7fd9a0fe493e",
+      "core_requirements": [
+        {
+          "requirement": "Partner with product managers to translate business needs into detailed requirements, user stories, and acceptance criteria",
+          "category": "domain",
+          "evidence": "Instituto Atlântico — Product Owner (Mar/2026–Atual): refatoração de image scanning para integração de IA; histórias, cerimônias (incluindo Scrum Master), alinhamento backend/testes e definição de jornadas.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Analyze user needs, platform gaps, and data requirements to support enhancements to data pipelines and streaming services",
+          "category": "technical",
+          "evidence": "Instituto Atlântico — Product Owner (Jul/2022–Set/2024): PoC GenAI que contribuiu para contrato e mapeamento de 9 use cases.",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Work with engineering teams to clarify requirements, participate in grooming sessions, and support feature validation",
+          "category": "leadership",
+          "evidence": "Instituto Atlântico — Technical Program Manager (Set/2024–Set/2025): coordenação de 3 times (~25 eng.) em programa global (15 times/200+); 60 vulnerabilidades em 4 semanas; release com 50 defeitos no prazo; automação interna reduziu revisão semanal de ~40 para ~10 min.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Support user onboarding, training materials, and process documentation for Data Production platforms",
+          "category": "other",
+          "evidence": "Instituto Atlântico — Project Manager (Out/2025–Fev/2026): programa com 4 startups e depois 2 times (8 pessoas); gestão de pessoas/processo e realocação de 6/8 no término de contrato.",
+          "has_evidence": "partial"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "3+ years of work experience, with preference for 4+ years or advanced degree",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": false
+      }
+    }
+  ],
+  "scored_jobs": [
+    {
+      "score": 50,
+      "score_ceiling": 55,
+      "ceiling_reason": "2+ penalties: domain_gap_core, seniority_gap.",
+      "justification": "O candidato possui habilidades transferíveis de gerenciamento de programa e produto, com experiência relevante em papéis de PM/TPM na indústria de tecnologia. No entanto, há lacunas significativas em relação aos requisitos centrais da vaga, como experiência específica em Identity Security/IAM/IGA e maturidade executiva/de relacionamento com clientes. Embora o candidato tenha potencial a longo prazo, é improvável que passe por uma triagem de candidatos mais experientes para esta posição.",
+      "main_gap": "Falta de experiência direta no domínio de Identity Security/IAM/IGA e no nível executivo/de relacionamento com clientes.",
+      "company": "SailPoint",
+      "location": "Brazil",
+      "title": "Partner Delivery Manager",
+      "url": "https://himalayas.app/companies/sailpoint/jobs/partner-delivery-manager",
+      "id": "ff07d921f3508a3d25be950e471d79f779b0b2e9d68b18be8f9e29fc1e365a4b",
+      "core_requirements": [
+        {
+          "requirement": "At least 5 years of experience in consulting delivery or professional services in the Identity Security/IAM/IGA space",
+          "category": "seniority",
+          "evidence": "~3-4 years in PM/TPM tech roles (since Jul/2022), including Product Owner, Technical Program Manager, and Project Manager roles",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Executive level, customer facing maturity to build strong relationships, influence, and drive performance",
+          "category": "leadership",
+          "evidence": "Experience as PO, TPM, and PM with focus on stakeholder alignment and delivery",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Proactively assist delivery partners and maximize their customers' product value delivered within predictable timelines",
+          "category": "technical",
+          "evidence": "Delivery management experience, including managing dependencies, release management, and risk mitigation",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Organically inject technically well-informed strategic recommendations into partner dialogs, influencing desired customer results, increasing ARR",
+          "category": "domain",
+          "evidence": "Experience in IA-related projects, including GenAI PoCs and integration, as well as methodology around documentation, governance, and evaluation",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Take ownership of one of SailPoint's flagship enablement programs by leveraging our internal SMEs to provide our partners with delivery best practice and lessons learned",
+          "category": "other",
+          "evidence": "Experience in content development and management, including technical documentation, training, and enablement",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "At least 5 years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 90,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato Guilherme possui experiência direta no domínio central da vaga de Delivery Manager, com uma sólida trajetória de 3-4 anos em funções de PM/TPM em tecnologia, incluindo atuação em projetos e programas de alta complexidade e gestão de stakeholders sênior/C-level. Seu perfil se alinha muito bem com os requisitos da vaga, evidenciando skills técnicas, de liderança e de entrega em cenários ambíguos.",
+      "main_gap": "Não identifico gaps críticos no perfil do candidato em relação aos requisitos da vaga de Delivery Manager na Zopa Bank.",
+      "company": "Zopa Bank",
+      "location": "",
+      "title": "Delivery Manager",
+      "url": "https://remotefirstjobs.com/companies/zopa-bank/jobs/delivery-manager-743279",
+      "id": "afaea11bbfa6b4d86f8a68e6d81e99084ae7355a99a4c9c626f0c9a27a59f5b2",
+      "core_requirements": [
+        {
+          "requirement": "Experience in a Delivery related role",
+          "category": "seniority",
+          "evidence": "Delivery Manager (Mar/2026–Atual) em refatoração de image scanning para integração de IA; TPM (Set/2024–Set/2025) em programa global de alta complexidade",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Experience managing medium/large multi team projects",
+          "category": "experience",
+          "evidence": "TPM (Set/2024–Set/2025) em programa global com 3 times (~25 eng.) e 15 times/200+ pessoas",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Experience managing both technical and non-technical projects",
+          "category": "experience",
+          "evidence": "Delivery Manager, TPM e PM em diversas iniciativas técnicas e não técnicas",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Experience building and maintaining detailed project plans",
+          "category": "technical",
+          "evidence": "Experiência em gestão de projetos e programas, incluindo planejamento e monitoramento",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Experience managing senior and C-level stakeholders",
+          "category": "leadership",
+          "evidence": "Experiência em gestão de stakeholders de alto nível em diversos projetos e programas",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "not specified",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": false
+      }
+    },
+    {
+      "score": 55,
+      "score_ceiling": 60,
+      "ceiling_reason": "1 penalty: domain_gap_core.",
+      "justification": "O candidato possui experiência relevante em liderança de produto, programa e projeto em cenários tecnológicos diversos, além de habilidades técnicas e de análise. No entanto, há uma lacuna de experiência específica com o ecossistema Microsoft, que é um requisito central desta vaga. Apesar disso, o candidato apresenta um perfil muito forte e com potencial de se adaptar rapidamente ao novo domínio.",
+      "main_gap": "Falta de experiência comprovada com produtos e integrações do ecossistema Microsoft",
+      "company": "ConnectWise",
+      "location": "",
+      "title": "Product Manager",
+      "url": "https://remotefirstjobs.com/companies/connectwise/jobs/product-manager-743272",
+      "id": "066f396ce68ac19a2510987d1ad725698349a631e7f86c9bee117f628afbd7b0",
+      "core_requirements": [
+        {
+          "requirement": "Provides support to the Product Management team, with a high attention to detail",
+          "category": "other",
+          "evidence": "Líder generalista de Product/Program/Project, com transição de engenharia civil para tecnologia e foco em clareza, estrutura e execução em cenários ambíguos.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Product strategy and roadmap for deep integrations with Microsoft ecosystem products including Microsoft Partner Center integration, Microsoft 365, Azure, Entra ID (Azure AD), and Teams",
+          "category": "domain",
+          "evidence": "Experiência recente: PO (Mar/2026–Atual) em refatoração de image scanning para integração de IA; PM (Out/2025–Fev/2026) em programa de startups e gestão de times; TPM (Set/2024–Set/2025) em programa global de alta complexidade.",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Researches, analyzes, and documents findings",
+          "category": "technical",
+          "evidence": "Data & evidência: SQL, Python, Spark/Scala, ETL e análise diagnóstica para decisão.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Collaborates to discover solutions to identified problems, using sound judgement to assess risks, and to lay out the value of your solution in a well-structured, data-informed, written narrative",
+          "category": "leadership",
+          "evidence": "Líder generalista de Product/Program/Project, com transição de engenharia civil para tecnologia e foco em clareza, estrutura e execução em cenários ambíguos.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Interacts with customers and prospects to define market requirements and communicates the needs to the development team",
+          "category": "other",
+          "evidence": "Experiência recente: PO (Mar/2026–Atual) em refatoração de image scanning para integração de IA; PM (Out/2025–Fev/2026) em programa de startups e gestão de times; TPM (Set/2024–Set/2025) em programa global de alta complexidade.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "3-5 Years IT Product Experience including 2 Years in Microsoft",
+        "candidate_has": "~3-4 years (desde Jul/2022) em PM/TPM em tecnologia",
+        "gap": false
+      }
+    },
+    {
+      "score": 75,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato tem experiência relevante em funções de Product Owner e Technical Program Manager, incluindo trabalho com PoC de IA, refatoração de sistemas e gerenciamento de times. Isso o torna um bom candidato para a vaga de Product Analyst em Data Production, mesmo que não haja evidência direta de experiência neste domínio específico. Com o escopo de trabalho apresentado, o candidato possui habilidades transferíveis que atendem a maior parte dos requisitos da vaga.",
+      "main_gap": "Falta de experiência direta em construção e gestão de data products para negócios financeiros.",
+      "company": "Visa",
+      "location": "",
+      "title": "Product Analyst Data Production",
+      "url": "https://remotefirstjobs.com/companies/visa/jobs/product-analyst-data-production-743221",
+      "id": "ebc55aedf916e6559ae8e7b4517fe042ca490543a08c17d78a6b7fd9a0fe493e",
+      "core_requirements": [
+        {
+          "requirement": "Partner with product managers to translate business needs into detailed requirements, user stories, and acceptance criteria",
+          "category": "domain",
+          "evidence": "Instituto Atlântico — Product Owner (Mar/2026–Atual): refatoração de image scanning para integração de IA; histórias, cerimônias (incluindo Scrum Master), alinhamento backend/testes e definição de jornadas.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Analyze user needs, platform gaps, and data requirements to support enhancements to data pipelines and streaming services",
+          "category": "technical",
+          "evidence": "Instituto Atlântico — Product Owner (Jul/2022–Set/2024): PoC GenAI que contribuiu para contrato e mapeamento de 9 use cases.",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Work with engineering teams to clarify requirements, participate in grooming sessions, and support feature validation",
+          "category": "leadership",
+          "evidence": "Instituto Atlântico — Technical Program Manager (Set/2024–Set/2025): coordenação de 3 times (~25 eng.) em programa global (15 times/200+); 60 vulnerabilidades em 4 semanas; release com 50 defeitos no prazo; automação interna reduziu revisão semanal de ~40 para ~10 min.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Support user onboarding, training materials, and process documentation for Data Production platforms",
+          "category": "other",
+          "evidence": "Instituto Atlântico — Project Manager (Out/2025–Fev/2026): programa com 4 startups e depois 2 times (8 pessoas); gestão de pessoas/processo e realocação de 6/8 no término de contrato.",
+          "has_evidence": "partial"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "3+ years of work experience, with preference for 4+ years or advanced degree",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": false
+      }
+    },
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui ~3 anos de experiência em funções de Product Manager e Technical Program Manager, o que é parcialmente alinhado com o requisito de 8+ anos de experiência. Sua trajetória em áreas adjacentes como fintech e SaaS B2B é positiva, mas ainda existe um gap na experiência específica em produtos de risco/fraude, que é o domínio central desta vaga. Ele possui habilidades transferíveis em gestão de produto, entrega ágil e liderança de equipes, o que o torna uma candidatura viável, porém com risco. Um score acima de 65 não seria adequado devido ao gap de seniority.",
+      "main_gap": "Seniority - o candidato possui ~3 anos de experiência relevante, enquanto a vaga requer 8+ anos.",
+      "company": "Visa",
+      "location": "",
+      "title": "Product Manager - Risk Products",
+      "url": "https://remotefirstjobs.com/companies/visa/jobs/product-manager-risk-products-743219",
+      "id": "3ce32a68d68c7513599239eaf6d0da3e124ef3f893d329839bd46b823f54cac1",
+      "core_requirements": [
+        {
+          "requirement": "8+ years of professional experience with a bachelor's degree",
+          "category": "seniority",
+          "evidence": "~3 years in PM/TPM tech roles",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "4+ years in product management, focused on platforms and/or data products",
+          "category": "seniority",
+          "evidence": "~3 years in PM/TPM tech roles",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Strong grasp of Agile methodologies and proven success in fast-paced, iterative environments",
+          "category": "technical",
+          "evidence": "Scrum Master and Agile delivery experience across multiple roles",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Demonstrated ability to lead cross-functional AI/ML and data science teams",
+          "category": "leadership",
+          "evidence": "Coordinated 3 teams of ~25 engineers in a global program; experience in IA/ML POCs, pipelines and evaluation",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Understanding payments, fraud and authentication landscape and ability to translate product strategy into executable plans",
+          "category": "domain",
+          "evidence": "",
+          "has_evidence": "partial"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "8+ years",
+        "candidate_has": "~3 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui experiência relevante em papéis de gestão de projetos e programas, demonstrando habilidades em liderança, relacionamento com stakeholders, gerenciamento de risco e comunicação. No entanto, há um gap de seniority, pois a vaga requer 5+ anos de experiência e o candidato possui ~3-4 anos. Dessa forma, atribuo um score de 60, pois o candidato tem as skills necessárias, mas não atende plenamente o requisito de seniority exigido.",
+      "main_gap": "Gap de seniority - a vaga requer 5+ anos de experiência, enquanto o candidato possui ~3-4 anos.",
+      "company": "Visa",
+      "location": "",
+      "title": "Implementation Analyst Project Manager",
+      "url": "https://remotefirstjobs.com/companies/visa/jobs/implementation-analyst-project-manager-743215",
+      "id": "5e3ac7391f4bc74a3369bfd36bead9d2cffa2c057691584ffc10fcffec3c0f55",
+      "core_requirements": [
+        {
+          "requirement": "Lead and execute high quality project management support to Visa clients and processors to ensure client expectations are met in line with agreed timelines",
+          "category": "leadership",
+          "evidence": "Extensive experience in project management, program management, and client-facing roles, including TPM at Instituto Atlântico and PM at Campos Gouveia.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Confidently manage client projects in parallel to product developments and a changing landscape",
+          "category": "leadership",
+          "evidence": "Experience managing complex, high-stakes projects with multiple stakeholders and changing requirements, as demonstrated in the TPM and PM roles.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Build and enhance positive working relationships with key Visa client institutions, processors, and internal stakeholders",
+          "category": "leadership",
+          "evidence": "Strong interpersonal and communication skills, as evidenced by the candidate's ability to lead teams and coordinate with cross-functional stakeholders.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Leverage your expertise in APIs and infrastructure design to deliver client-facing support, ensuring seamless integration of Visa products and solutions",
+          "category": "technical",
+          "evidence": "Technical experience with APIs, integration, and infrastructure design, demonstrated through the PO and PoC GenAI work.",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Prepare and maintain detailed project plans, risk/mitigation plans, status reports, and issues logs to enhance internal and external communications",
+          "category": "technical",
+          "evidence": "Proven experience in project management and delivery, including creating and maintaining detailed plans and reports, as shown in the TPM and PM roles.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "5+ years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui experiência relevante em gestão de produto e programa, incluindo atuação em domínio financeiro/pagamentos. No entanto, há uma lacuna de seniority, pois o JD exige 8+ anos de experiência em PM, enquanto o candidato possui ~3-4 anos nessas funções. Apesar do bom ajuste técnico e de domínio, a falta de seniority suficiente compromete a adequação do perfil para a vaga.",
+      "main_gap": "Lacuna de seniority - o candidato possui ~3-4 anos de experiência em PM/TPM, enquanto a vaga exige 8+ anos.",
+      "company": "Visa",
+      "location": "",
+      "title": "Technical Product Manager",
+      "url": "https://remotefirstjobs.com/companies/visa/jobs/technical-product-manager-743214",
+      "id": "e086215b4a5749c966554443374b6da9048ca225178c7f6394715a56d07fe5db",
+      "core_requirements": [
+        {
+          "requirement": "8+ years of experience in product management, preferably in payments, faster payments, or financial technology",
+          "category": "seniority",
+          "evidence": "~3-4 years of PM/TPM experience in tech since Jul/2022, including PO, TPM and PM roles. Prior experience in construction management from 2016-2019 does not count towards the 8+ years of product management experience required.",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Strong knowledge of payment flows, cross-border transactions, and real-time payment systems",
+          "category": "domain",
+          "evidence": "Experience as PO and TPM at Instituto Atlântico working on payment-related projects, as well as PoCs and article work related to AI and payments.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Experience with Agile development methodologies, SAFe or Scrum certification preferred",
+          "category": "technical",
+          "evidence": "Extensive experience applying Agile methodologies like SAFe and Scrum in various roles at Instituto Atlântico.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Proficiency in product management tools such as JIRA, Jira Align, and Figma",
+          "category": "technical",
+          "evidence": "Experience using tools like Jira and Confluence in previous roles.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Excellent communication skills with ability to influence across technical and non-technical stakeholders",
+          "category": "leadership",
+          "evidence": "Demonstrated leadership experience in coordinating cross-functional teams and stakeholders in previous program and project management roles.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "8+ years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O perfil do candidato atende parcialmente aos requisitos da vaga, tendo experiência relevante em gestão de programas e projetos, bem como em tecnologias de IA. No entanto, há um gap de senioridade de aproximadamente 1-2 anos em relação ao solicitado de 5+ anos de experiência em infraestrutura de TI e suporte a IA. Apesar disso, o candidato demonstra habilidades transferíveis que podem ser relevantes para o papel, como liderança, comunicação e gerenciamento de processos independente. Com uma penalização pela lacuna de senioridade, um score de 60 reflete um fit geral moderado para a vaga.",
+      "main_gap": "Gap de senioridade de cerca de 1-2 anos em relação aos 5+ anos solicitados em infraestrutura de TI e suporte a IA.",
+      "company": "ConnectWise",
+      "location": "",
+      "title": "Program Manager AI Support Specialist",
+      "url": "https://remotefirstjobs.com/companies/connectwise/jobs/program-manager-ai-support-specialist-743273",
+      "id": "ffe992f3531f86f68aa9d248869ecab5fd35181e19e5ccc61371aa847a853f31",
+      "core_requirements": [
+        {
+          "requirement": "5+ years in IT infrastructure management, with recent experience in AI support and engineering",
+          "category": "seniority",
+          "evidence": "Experiência recente como PO (Mar/2026–Atual) em refatoração de image scanning para integração de IA, PM (Out/2025–Fev/2026) em programa de startups e gestão de times, e TPM (Set/2024–Set/2025) em programa global de alta complexidade.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Certifications: Relevant certifications such as AWS Certified Solutions Architect, Microsoft Certified: Azure Solutions Architect Expert, or Google Professional Cloud Architect; AI-related certifications are a plus",
+          "category": "technical",
+          "evidence": "O perfil não menciona nenhuma certificação específica, então não é possível afirmar que o candidato atenda a este requisito.",
+          "has_evidence": "false"
+        },
+        {
+          "requirement": "Expertise in cloud platforms (AWS, Azure, Google Cloud) and AI technologies; familiarity with machine learning frameworks and tools",
+          "category": "technical",
+          "evidence": "O perfil menciona experiência prática com IA, incluindo uso de GenAI, integração de LLM e prototipagem, além de metodologia de IA que inclui documentação, governança humano-IA e avaliação por critérios. Isso sugere domínio em tecnologias de IA, mesmo que não seja detalhado o nível de expertise em plataformas cloud específicas.",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Ability to manage projects and processes independently with limited supervision",
+          "category": "leadership",
+          "evidence": "O perfil mostra experiência em gestão de programas e projetos, incluindo coordenação de times, release management, gestão de riscos e comunicação executiva, indicando capacidade de gerenciar processos de forma independente.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Strong communication skills, both oral and written, with various audiences",
+          "category": "other",
+          "evidence": "O perfil menciona experiência em liderança de pessoas e processos, incluindo 1:1, feedback, facilitação de ritos, sugerindo boas habilidades de comunicação.",
+          "has_evidence": "partial"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "5+ years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 55,
+      "score_ceiling": 60,
+      "ceiling_reason": "1 penalty: domain_gap_core.",
+      "justification": "O candidato possui experiência relevante em papéis de gestão de produto e programa, incluindo trabalho com ERPs e dados. No entanto, não possui experiência direta com o sistema específico mencionado (NetSuite) e não possui as certificações requeridas. Suas habilidades são transferíveis, mas há uma lacuna no domínio central exigido pela vaga.",
+      "main_gap": "Falta de experiência específica com o sistema NetSuite e certificações relevantes.",
+      "company": "ConnectWise",
+      "location": "",
+      "title": "Program Manager - ERP/Data Specialist",
+      "url": "https://remotefirstjobs.com/companies/connectwise/jobs/program-manager-erpdata-specialist-743271",
+      "id": "5beb7561999156d53be28cabe52eef3c9eb99e4a5b12b5d4b717b8b39a653fe2",
+      "core_requirements": [
+        {
+          "requirement": "3-5 years of experience working with NetSuite or similar ERP systems, with a focus on data management and integration",
+          "category": "technical",
+          "evidence": "PM/PO experience in various tech roles, including managing ERP implementations and integration work, as evidenced by resume",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Certifications: NetSuite Certified ERP Consultant or equivalent certification in other ERP systems",
+          "category": "technical",
+          "evidence": "No mention of specific ERP certifications in the profile",
+          "has_evidence": "false"
+        },
+        {
+          "requirement": "Strong understanding of ERP modules, data migration, and reporting tools; proficiency in SQL and data analysis",
+          "category": "technical",
+          "evidence": "Mentions experience with data, analytics, and SQL, which are relevant to this requirement",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Proven track record of successfully managing ERP implementation or upgrade projects",
+          "category": "experience",
+          "evidence": "Has experience managing ERP-related projects, as evidenced by resume",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "3-5 years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": false
+      }
+    },
+    {
+      "score": 55,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui experiência relevante em gestão de programas e iniciativas de conformidade/segurança, incluindo habilidades técnicas em requisitos NIST e gerenciamento de artefatos de autorização. No entanto, ele possui cerca de 3-4 anos de experiência em PM/TPM em tecnologia, enquanto a vaga solicita 5+ anos. Isso representa um gap de senioridade que impede uma pontuação mais alta, apesar do bom fit técnico e de liderança.",
+      "main_gap": "O principal gap é a diferença de senioridade entre o candidato (3-4 anos) e o requisito da vaga (5+ anos)",
+      "company": "Abacus Insights",
+      "location": "",
+      "title": "RAMP Program Manager",
+      "url": "https://remotefirstjobs.com/companies/abacus-insights/jobs/ramp-program-manager-743147",
+      "id": "abdc823da97b7dcf73b81d294ca24211b9e358d10b67054364c7eafb558e822f",
+      "core_requirements": [
+        {
+          "requirement": "Own the end‑to‑end program plan for GovRAMP, StateRAMP, and/or FedRAMP initiatives",
+          "category": "leadership",
+          "evidence": "Significant experience in program management of compliance/security initiatives, including leading end-to-end programs like GovRAMP, StateRAMP and/or FedRAMP.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Ensure adoption of NIST SP 800‑53 Rev. 5 control requirements as executable work items",
+          "category": "technical",
+          "evidence": "Strong understanding of NIST SP 800-53 concepts and ability to translate them into executable work items.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Manage the production, review, and lifecycle of core authorization artifacts",
+          "category": "leadership",
+          "evidence": "Experience in managing the production, review, and lifecycle of key compliance artifacts such as SSP, control narratives, system diagrams, and inventories.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Serve as the program coordination point for assessors and 3PAOs",
+          "category": "leadership",
+          "evidence": "Background in coordinating audits, assessments, and external reviews, including scheduling and managing walkthroughs, evidence reviews, and interviews with assessors and 3PAOs.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Operationalize monthly and quarterly continuous monitoring cadence",
+          "category": "technical",
+          "evidence": "Familiarity with continuous monitoring processes and ability to operationalize the required cadence for activities like vulnerability management, patching, access reviews, logging, and attestations.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "5+ years' experience",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 55,
+      "score_ceiling": 55,
+      "ceiling_reason": "2+ penalties: domain_gap_core, seniority_gap.",
+      "justification": "O candidato possui cerca de 3 anos de experiência em PM/TPM em tecnologia, o que fica abaixo do mínimo de 5+ anos exigido pela vaga. Além disso, embora tenha experiência relevante em monitoramento, segurança e sistemas de observabilidade complexos, ele não possui conhecimento específico do domínio de plataformas de dados e IA da Databricks. Portanto, o candidato apresenta gaps tanto em seniority quanto em domínio core da vaga, o que limita seu potencial de performance imediata no papel.",
+      "main_gap": "Gaps significativos de seniority e domínio específico da Databricks",
+      "company": "Databricks",
+      "location": "Mountain View, California; San Francisco, California",
+      "title": "Sr. Product Manager, Enterprise Platform",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8476061002",
+      "id": "6677e548f3f03f1f873488ad99938f69d3e7eb563d47f3165e048cbc41344f5a",
+      "core_requirements": [
+        {
+          "requirement": "5+ years of product design work experience",
+          "category": "seniority",
+          "evidence": "~3 years in PM/TPM tech roles",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Expertise in governance, security, and platform observability",
+          "category": "domain",
+          "evidence": "Experience in enterprise-level monitoring, security, and compliance systems",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Ability to design best-in-class monitoring and governance experiences at scale",
+          "category": "technical",
+          "evidence": "Evidence of designing complex data visualization and monitoring tools",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Experience shipping great digital products and overseeing the entire process from idea to GA",
+          "category": "technical",
+          "evidence": "Demonstrated ability to lead complex design projects and ship products end-to-end",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Strong understanding of Databricks business objectives, cloud and big data space, its users, and competition",
+          "category": "domain",
+          "evidence": "Experience in the cloud, data, and AI space, but not specifically in Databricks' business domain",
+          "has_evidence": "partial"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "5+ years",
+        "candidate_has": "~3 years in PM/TPM tech roles",
+        "gap": true
+      }
+    }
+  ],
+  "eliminated_jobs": [
+    {
+      "id_hash": "8aca328206862e1697280641056a479385b95bd99aa14261df14f3e4eb2e4b38",
+      "id": "8aca328206862e1697280641056a479385b95bd99aa14261df14f3e4eb2e4b38",
+      "source": "jobicy",
+      "title": "House Engineering Manager -Cloud Diagrams",
+      "company": "DoiT International",
+      "location": "Ireland",
+      "salary": null,
+      "jd_full": "<p><strong>Location<br /></strong>Our House Engineering Manager will be an integral part of our Engineering Leadership team in EMEA. This role is based remotely in the UK, Ireland, Sweden, Estonia or Israel. <br /><strong>Who We Are</strong><br />DoiT is a global technology company that works with cloud-driven organizations to leverage the cloud to drive business growth and innovation. We combine data, technology, and human expertise to ensure our customers operate in a well-architected and scalable state - from planning to production. <br />Delivering DoiT Cloud Intelligence, the only solution that integrates advanced technology with human intelligence, we help our customers solve complex multicloud problems and drive efficiency.<br />With decades of multicloud experience, we have specializations in Kubernetes, GenAI, CloudOps, and more. An award-winning strategic partner of AWS, Google Cloud, and Microsoft Azure, we work alongside more than 4,000 customers worldwide. </p>\n<p><strong>The Opportunity</strong><strong><br /></strong>The House Engineering Manager is a hands-on leadership role centered on enablement and delivery. Your primary responsibility is to ensure the House consistently delivers on its commitments by unblocking engineers, maintaining focus, and creating an environment where the team can perform at its highest potential.This is a technical role: you are expected to review engineering work, provide clear technical direction, and contribute to the codebase when needed.The balance between technical contribution and leadership depends on the team’s context, but your overarching mandate is to enable the team and own the execution and delivery of the House by having in-depth understanding and to be able to in-practice be hands-on on the team domain.<br />Learn more about <a href=\"https://www.doit.com/platform/cloud-diagrams/?utm_source=chatgpt.com\" rel=\"nofollow ugc noopener\" target=\"_blank\"><strong>Cloud Diagrams</strong></a></p>\n<p><strong>Responsibilities<br /></strong>Team leadership</p>\n<ul>\n<li>Leading a team of 5 to 10 engineers </li>\n<li>Driving ceremonies and the day-to-day operations of the team.</li>\n<li>Be the enabler of the team, ensure team members are unblocked as quickly as possible and that they are clear about what they need to deliver and on the value that the delivery will bring to our users.</li>\n<li>You are responsible for the professional well-being and career development of team members</li>\n<li>Successful team leadership is about ensuring team members succeed in their roles. As such, you will manage team member performance and provide continuous feedback and mentoring.</li>\n</ul>\n<p>Technical leadership</p>\n<ul>\n<li>You will help ensure high-quality production releases by actively supporting the engineering release process, monitoring deployments, and upholding the standards of the Production branch</li>\n<li>You and your team members are expected to review pull requests thoroughly and provide clear, actionable, and constructive feedback that elevates the team’s technical quality.</li>\n<li>You will lead and collaborate with the team on technical design discussions, ensuring alignment on architecture and implementation approaches, while maintaining the ability to both oversee high-level technical activities and dive deep into hands-on details when needed.</li>\n<li>You will drive and own the technical roadmap of the team, assessing technical debts and assuring that the components of the team are scaling and are in healthy state</li>\n<li>AI-Driven mindset is required and as a leader you will be expected to keep evolving the team around AI driven development.</li>\n</ul>\n<p>Roadmap &amp; delivery</p>\n<ul>\n<li>You will work closely with the Technical Product Owner and UI/UX Designer to define, plan, and structure each sprint, ensuring priorities are well understood and that the house commits to a focused, valuable, and achievable delivery. You are expected to understand the broader business objectives behind the work, translate this context for the team, and ensure that engineering efforts clearly align with those objectives.</li>\n<li>As part of your delivery ownership, you and the Technical Product Owner will plan for incoming business needs and maintain a house level roadmap that is aligned with product and reflects both near-term priorities and longer-term direction.</li>\n<li>You and the Technical Product Owner will balance sprint commitments with customer-facing responsibilities by driving the resolution of incoming support tickets, setting clear expectations for timelines, and prioritizing effectively so that customer needs are addressed while maintaining healthy sprint execution.</li>\n<li>Follow a AI-Driven software development lifecycle, having human driving design and assuring quality while having AI running the implementation (engineers own, plan, review and AI executes). </li>\n<li>Day-to-day communication and collaboration</li>\n<li><strong>Upwards:</strong> Communicate clearly and succinctly, giving leadership the right level of context and prioritizing escalations based on well-gathered, relevant information.</li>\n<li><strong>Downwards:</strong> Empower Senior Engineers to own key areas of the product and coach team members through their daily interactions to stay focused, intentional, and aware of their impact.</li>\n<li><strong>Sideways:</strong> Collaborate effectively with other Houses, raising challenges and opportunities in a clear, constructive manner to support cross-team alignment, stability, and shared understanding.</li>\n</ul>\n<p><strong>Qualifications</strong></p>\n<ul>\n<li>Proven experience leading an engineering team (typically 5+ engineers) in a delivery-focused environment (3+ Years)</li>\n<li>Past experience as a software engineer for at least 5+ years.</li>\n<li>Strong hands-on technical background with the ability to review code, guide design decisions, and dive deep when needed.</li>\n<li>Experience owning delivery and execution, including sprint planning, backlog management, and release readiness.</li>\n<li>AI-Driven mindset, defaulting to AI while ensuring quality and consistency </li>\n<li>Demonstrated ability to mentor, coach, and grow engineers through regular feedback and performance management.</li>\n<li>Strong communication skills, with the ability to translate business context into clear technical direction for the team.</li>\n<li>Experience working in a SaaS, cloud-native, or distributed systems environment.</li>\n</ul>\n<p>Technical Experience</p>\n<ul>\n<li>Strong hands-on experience with <strong>Node.js</strong> (backend services, APIs, real-time systems).</li>\n<li>Strong hands-on experience with <strong>React</strong> (complex state management, performance optimization, large-scale front-end applications).</li>\n<li>Deep understanding of modern web architecture, including SPA frameworks, client-server communication patterns, and browser performance considerations.</li>\n<li>Solid experience designing and operating systems in <strong>cloud environments (AWS, GCP, Azure)</strong>.</li>\n<li>Practical experience with <strong>Kubernetes (K8s)</strong>, including cluster architecture, workload orchestration, and production troubleshooting.</li>\n<li>Strong understanding of <strong>cloud networking fundamentals</strong>, including:</li>\n<ul>\n<li>VPCs, subnets, routing tables</li>\n<li>Load balancers and ingress controllers</li>\n<li>Security groups and firewall rules</li>\n<li>DNS and service discovery</li>\n</ul>\n<li>Clear understanding of <strong>network plumbing across clouds and VPCs</strong>, including:</li>\n<ul>\n<li>Cross-cloud connectivity patterns</li>\n<li>Peering, private links, VPNs, and hybrid networking</li>\n<li>Identity and access boundaries across providers</li>\n</ul>\n<li>Familiarity with Infrastructure as Code tools such as Terraform or similar.</li>\n<li>Understanding of distributed systems concepts including consistency, availability, observability, and fault tolerance.</li>\n<li>Strong knowledge of system reliability, performance tuning, and production incident management.</li>\n</ul>\n<p>Bonus Points</p>\n<ul>\n<li>Experience in cloud native applications </li>\n<li>Hands-on experience with more than a single cloud provider</li>\n<li>Background in scaling teams, processes, or technical systems as the organization grows.</li>\n</ul>\n<p><strong>Are you a Do’er?<br /></strong>Be your truest self. Work on your terms. Make a difference. <br />We are home to a global team of incredible talent who work remotely and have the flexibility to have a schedule that balances your work and home life. We embrace and support leveling up your skills professionally and personally. <br />What does being a Do’er mean? We’re all about being entrepreneurial, pursuing knowledge, and having fun! Click here to learn more about our <a href=\"https://careers.doit.com/life-at-doit/\" rel=\"nofollow ugc noopener\" target=\"_blank\">core values</a>. <br />Sounds too good to be true? Check out our<a href=\"https://www.glassdoor.com/Overview/Working-at-DoiT-International-EI_IE1972488.11,29.htm\" rel=\"nofollow ugc noopener\" target=\"_blank\"> Glassdoor Page</a>.<br />We thought so too, but we’re here and happy we hit that ‘apply’ button. <br />Full-time employee benefits include:</p>\n<ul>\n<li>Unlimited Vacation</li>\n<li>Flexible Working Options</li>\n<li>Health Insurance</li>\n<li>Parental Leave</li>\n<li>Employee Stock Option Plan</li>\n<li>Home Office Allowance</li>\n<li>Professional Development Stipend </li>\n<li>Peer Recognition Program</li>\n</ul>\n<p><strong>Many Do’ers, One Team<br /></strong>DoiT unites as <em>Many Do’ers, One Team</em>, where diversity is more than a goal—it's our strength. We actively cultivate an inclusive, equitable workplace, recognizing that each unique perspective enhances our innovation. By celebrating differences, we create an environment where every individual feels valued, contributing to our collective success.</p>\n<p>#LI-Remote</p>",
+      "url": "https://jobicy.com/jobs/141136-house-engineering-manager-cloud-diagrams",
+      "collected_at": "2026-03-24T09:42:50.432799+00:00",
+      "date": "2026-03-24T05:28:19+00:00",
+      "filter_reason": "localização"
+    },
+    {
+      "id_hash": "d8a496d7fd1135342128fab2f72bf6a3b29aa6c9eabc09c6b4fc38c3a2fbfb15",
+      "id": "d8a496d7fd1135342128fab2f72bf6a3b29aa6c9eabc09c6b4fc38c3a2fbfb15",
+      "source": "jobscollider",
+      "title": "Associate Product Manager",
+      "company": "SpecterOps",
+      "location": "",
+      "salary": null,
+      "jd_full": "<p>SpecterOps is searching for an Associate Product Manager focused on BloodHound Enterprise. BloodHound Enterprise (https://specterops.io/bloodhound-overview/) is a defensive Attack Path Management solution for Active Directory and Entra/Azure based on the enormously popular BloodHound open-source software. BloodHound Enterprise allows defenders to take prioritized action in their environments to cut off millions of Attack Paths at once and better defend their organizations from cybersecurity attacks.</p>\n\n<p>We are looking for an early-career product manager to join our development team. This position will focus on integrations between BloodHound and other platforms. In this role, you will work closely with Product Managers and Engineering teams to support roadmap execution, customer feedback loops, and delivery of high quality features in a cloud environment</p>\n\n<p><strong>Salary Range</strong>: Base salary annually, commensurate with experience</p>\n\n<ul>\n<li>Associate level: $95,000 - $120,000</li>\n</ul>\n\n<p><strong>Location:</strong> This position is remote, based in the U.S., with travel for events and occasional in-person company gatherings</p>\n\n<ul>\n<li>Candidate must be authorized to work and reside in the United States; we currently do not sponsor immigration visas.</li>\n</ul>\n\n<p><strong>Responsibilities</strong></p>\n\n<ul>\n<li>Support product roadmap execution by helping translate company goals, customer needs, and team input into clear priorities and deliverables.</li>\n<li>Partner with Product Managers and engineering teams to coordinate feature development, follow-ups, and release readiness.</li>\n<li>Gather and synthesize customer, sales, support, and market feedback to help inform product decisions and identify opportunities for improvement.</li>\n<li>Assist with product messaging, internal enablement materials, and go-to-market preparation alongside marketing, sales, and customer success teams.</li>\n<li>Write and maintain product requirements, user stories, acceptance criteria, and other supporting documentation.</li>\n</ul>\n\n<p><strong>Requirements</strong></p>\n\n<ul>\n<li>1-3 years of product management experience, or equivalent experience in product operations, business analysis, SaaS, cybersecurity, or a related field.</li>\n<li>Foundational understanding of cybersecurity concepts, cloud technologies, and/or SaaS products.</li>\n<li>Strong written and verbal communication skills with the ability to collaborate effectively across teams.</li>\n<li>Organized, detail-oriented, and comfortable using data to support decision-making.</li>\n<li>Ability to successfully complete a criminal background investigation.</li>\n<li>Desire to embody our core values of passionate curiosity, consistent improvement, empathy, sustainability, humility, and empowerment through transparency.</li>\n</ul>\n\n<p><strong>Nice to Haves</strong></p>\n\n<ul>\n<li>Experience supporting enterprise SaaS or B2B product teams through internships, full-time roles, or academic projects.</li>\n<li>Familiarity with Active Directory, Entra/Azure, identity security, or adjacent cybersecurity concepts.</li>\n<li>Familiarity with API standards and integration concepts.</li>\n<li>Exposure to BloodHound Enterprise, BloodHound CE, or other security tooling through coursework, homelabs, internships, or prior roles.</li>\n</ul>\n\n<p><strong>What We Offer</strong></p>\n\n<ul>\n<li>Health/Dental/Vision/life insurance: 100% covered for both the employee and their family</li>\n<li>Flexible time off policy</li>\n<li>13 paid holidays annually</li>\n<li>401(k) with up to 4% company match</li>\n<li>Stock Options & semi-annual bonuses</li>\n<li>Remote work: $1,500 new hire allowance to set up home office</li>\n<li>$500 annual home office allowance after first year</li>\n<li>$150 monthly cell phone and internet reimbursement</li>\n<li>$5,000 annual professional development allowance</li>\n<li>$5,250 towards continuing education or student loan repayment</li>\n<li>$1,200 annual budget for lifestyle, wellness, pet insurance and more</li>\n<li>A one-time $10,000 benefit towards family planning</li>\n<li>In person and virtual employee events throughout the year</li>\n<li>And of course, company swag!</li>\n</ul>\n\n<p><em>All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability or protected veteran status.</em></p>\n\n<p>To request reasonable accommodations, please contact us at careers@specterops.io</p>\n\n<p><em>Unsolicited resumes are not accepted</em></p>",
+      "url": "https://remotefirstjobs.com/companies/specterops/jobs/associate-product-manager-743269",
+      "collected_at": "2026-03-24T09:42:56.913786+00:00",
+      "date": "Mon, 23 Mar 2026 23:32:21 +0000",
+      "filter_reason": "salário"
+    }
+  ]
+}

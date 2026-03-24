@@ -1,0 +1,52 @@
+{
+  "date": "2026-03-24",
+  "discarded_at": "2026-03-24T09:46:22.562995+00:00",
+  "total": 3,
+  "by_reason": {
+    "jd_too_short": 3
+  },
+  "items": [
+    {
+      "id_hash": "1e1bef4a8466b0373286b5b53b3a4bc437862906b617d17601479da1d83e19e3",
+      "id": "1e1bef4a8466b0373286b5b53b3a4bc437862906b617d17601479da1d83e19e3",
+      "source": "openai_web_search",
+      "title": "Technical Program Manager, Ring AI",
+      "company": "Amazon",
+      "location": "United States",
+      "salary": null,
+      "jd_full": "A Amazon está procurando um Technical Program Manager para liderar o desenvolvimento de soluções de software escaláveis para dispositivos de segurança Ring. O candidato ideal terá experiência em gerenciamento de programas técnicos, coordenação de equipes multifuncionais e entrega de produtos inovadores. É necessário ter habilidades de comunicação fortes, experiência em gerenciamento de riscos e capacidade de resolver problemas complexos.",
+      "url": "https://www.amazon.jobs/jobs/3199280",
+      "collected_at": "2026-03-24T09:42:49.488131+00:00",
+      "date": "1 mês atrás",
+      "discard_reason": "jd_too_short"
+    },
+    {
+      "id_hash": "ac4ab2e60741813f5ab124efdb9ed0ecd7e0975848fd720df7b57c67c77939e7",
+      "id": "ac4ab2e60741813f5ab124efdb9ed0ecd7e0975848fd720df7b57c67c77939e7",
+      "source": "openai_web_search",
+      "title": "Product Owner Senior Consulting Manager",
+      "company": "Cognizant",
+      "location": "Teaneck, United States",
+      "salary": null,
+      "jd_full": "A Cognizant está buscando um Product Owner Senior Consulting Manager para atuar em Teaneck, EUA. O candidato ideal será responsável por definir, priorizar e entregar capacidades de Market Risk que suportem conformidade regulatória, gestão eficaz de riscos e resultados de negócios para grandes clientes bancários. É necessário ter experiência em consultoria, habilidades de liderança e conhecimento profundo em gestão de riscos de mercado.",
+      "url": "https://careers.cognizant.com/latam-pt/vagas/00067737491/product-owner-senior-consulting-manager/",
+      "collected_at": "2026-03-24T09:42:49.488145+00:00",
+      "date": "1 mês atrás",
+      "discard_reason": "jd_too_short"
+    },
+    {
+      "id_hash": "3b3e3483daf1f0bbf8099e23d4dc2eae3280cdd235fffb1ef0b35d5e51583220",
+      "id": "3b3e3483daf1f0bbf8099e23d4dc2eae3280cdd235fffb1ef0b35d5e51583220",
+      "source": "openai_web_search",
+      "title": "Sr. Technical Program Manager, Amazon Customer Service",
+      "company": "Amazon",
+      "location": "United States",
+      "salary": null,
+      "jd_full": "A Amazon está contratando um Sr. Technical Program Manager para a equipe de Data Intelligence do Amazon Customer Service. O candidato ideal será responsável por liderar programas técnicos de alto impacto, traduzindo requisitos de negócios complexos em soluções tecnológicas escaláveis, colaborando com equipes multifuncionais e influenciando a direção técnica de iniciativas críticas.",
+      "url": "https://www.amazon.jobs/en/jobs/3145805/sr-technical-program-manager-amazon-customer-service",
+      "collected_at": "2026-03-24T09:42:49.488151+00:00",
+      "date": "1 mês atrás",
+      "discard_reason": "jd_too_short"
+    }
+  ]
+}
