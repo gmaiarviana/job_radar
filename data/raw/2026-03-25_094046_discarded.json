@@ -1,0 +1,52 @@
+{
+  "date": "2026-03-25",
+  "discarded_at": "2026-03-25T09:44:07.291175+00:00",
+  "total": 3,
+  "by_reason": {
+    "jd_too_short": 3
+  },
+  "items": [
+    {
+      "id_hash": "3051ef823052a4af8ef84908da44197215058106ec72e1ea157a49c40bb75c87",
+      "id": "3051ef823052a4af8ef84908da44197215058106ec72e1ea157a49c40bb75c87",
+      "source": "openai_web_search",
+      "title": "Product Owner – Portafolio de Productos Digitales",
+      "company": "BC Tecnología",
+      "location": "Santiago (Híbrido)",
+      "salary": "null",
+      "jd_full": "A BC Tecnología está buscando um Product Owner para o portfólio de produtos digitais. As responsabilidades incluem gerenciar o portfólio de produtos digitais, colaborar com equipes de desenvolvimento, definir requisitos de produto e priorizar backlog. Requisitos: experiência prévia como Product Owner, conhecimento em metodologias ágeis, habilidades de comunicação e colaboração, capacidade de priorizar tarefas e experiência em desenvolvimento de produtos digitais.",
+      "url": "https://www.getonbrd.cl/jobs-Digital%2BProject%2BManagement",
+      "collected_at": "2026-03-25T09:40:56.598488+00:00",
+      "date": "Jan 30",
+      "discard_reason": "jd_too_short"
+    },
+    {
+      "id_hash": "2a0a8e7bebd78d6911a8aae1c48cc7e3921118af85cd8e443dc2c1890c3295b9",
+      "id": "2a0a8e7bebd78d6911a8aae1c48cc7e3921118af85cd8e443dc2c1890c3295b9",
+      "source": "openai_web_search",
+      "title": "Product Owner – Rubro Seguros",
+      "company": "Coderslab.io",
+      "location": "Remoto (Chile)",
+      "salary": "null",
+      "jd_full": "A Coderslab.io está buscando um Product Owner para o setor de seguros. As responsabilidades incluem definir a visão do produto, priorizar o backlog, colaborar com equipes de desenvolvimento e garantir a entrega de valor ao cliente. Requisitos: experiência como Product Owner, conhecimento em metodologias ágeis, habilidades de comunicação e colaboração, capacidade de priorizar tarefas e experiência no setor de seguros.",
+      "url": "https://www.getonbrd.cl/jobs-Digital%2BProject%2BManagement",
+      "collected_at": "2026-03-25T09:40:56.598497+00:00",
+      "date": "Jun 27",
+      "discard_reason": "jd_too_short"
+    },
+    {
+      "id_hash": "d020daaeeb8e2cc0067e9c1b1fb68a4f90bd706f66253dec6a2aa9709deb73f1",
+      "id": "d020daaeeb8e2cc0067e9c1b1fb68a4f90bd706f66253dec6a2aa9709deb73f1",
+      "source": "openai_web_search",
+      "title": "Product Owner – Canales Digitales",
+      "company": "BICE VIDA",
+      "location": "Santiago (Híbrido)",
+      "salary": "null",
+      "jd_full": "A BICE VIDA está buscando um Product Owner para canais digitais. As responsabilidades incluem gerenciar canais digitais, definir requisitos de produto, colaborar com equipes de desenvolvimento e garantir a entrega de valor ao cliente. Requisitos: experiência como Product Owner, conhecimento em metodologias ágeis, habilidades de comunicação e colaboração, capacidade de priorizar tarefas e experiência em canais digitais.",
+      "url": "https://www.getonbrd.cl/jobs-Digital%2BProject%2BManagement",
+      "collected_at": "2026-03-25T09:40:56.598504+00:00",
+      "date": "Feb 18",
+      "discard_reason": "jd_too_short"
+    }
+  ]
+}

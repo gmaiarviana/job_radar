@@ -1,7 +1,103 @@
 {
-  "generated_at": "2026-03-24T09:47:42.525437+00:00",
-  "total": 25,
+  "generated_at": "2026-03-25T09:45:13.674748+00:00",
+  "total": 21,
   "jobs": [
+    {
+      "score": 90,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O perfil do candidato Guilherme Maia possui experiência direta no domínio central desta vaga de Senior Product Manager para Data and Platform Insights. Ele apresenta evidências sólidas de ~3-4 anos de experiência em papéis de Product Manager, Technical Program Manager e Product Owner, incluindo trabalho com dados, IA e entrega técnica. Suas habilidades em análise de dados, storytelling analítico e fluência no ecossistema de dados se alinham perfeitamente aos requisitos da vaga. Adicionalmente, sua capacidade de liderar em ambientes ambíguos e entregar resultados em programas complexos demonstra o nível de senioridade necessário para este papel.",
+      "main_gap": "Nenhum gap significativo identificado. O candidato possui o perfil ideal para esta vaga.",
+      "company": "KnowBe4",
+      "location": "",
+      "title": "Senior Product Manager Data and Platform Insights",
+      "url": "https://remotefirstjobs.com/companies/knowbe4/jobs/senior-product-manager-data-and-platform-insights-743692",
+      "id": "8078aa07e90dcc4a381d226e92449fc3eb327a9c04fe1bbb641d74b4ae4ed565",
+      "core_requirements": [
+        {
+          "requirement": "3+ years of Product Management experience, specifically managing data-heavy products, analytics platforms, or B2B SaaS reporting tools.",
+          "category": "seniority",
+          "evidence": "~3-4 years of PM experience, including roles as PO, TPM, and PM",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Data Ecosystem Fluency: You understand the \"hooks\" of the data ecosystem. You might not build Power BI dashboards daily, but you understand API structures, data exports, and how enterprise customers consume SaaS data in external BI tools.",
+          "category": "technical",
+          "evidence": "Experience with data analysis using SQL, Python, and Spark/Scala, as well as integration of LLMs and prototyping for IA applications",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Technical Fluency: Ability to engage in technical trade-off conversations with Data Engineers regarding latency, storage, and query performance.",
+          "category": "technical",
+          "evidence": "Demonstrated experience in technical program management, including coordinating 3 teams (~25 eng.) in a global program and driving improvements in release quality and review processes",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Analytical Storytelling: The ability to look at a spreadsheet of raw data and visualize the \"Headline\" that a user needs to see.",
+          "category": "domain",
+          "evidence": "Experience in using data and evidence for decision-making, including SQL, Python, Spark/Scala, ETL, and diagnostic analysis",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Extreme Ownership: You thrive in ambiguous environments where you own the outcome of your data accuracy and product success.",
+          "category": "leadership",
+          "evidence": "Demonstrated ability to operate in ambiguous contexts, with experience in leading cross-functional teams, managing processes, and delivering complex programs",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "3+ years of Product Management experience",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": false
+      },
+      "file_date": "2026-03-25",
+      "source": "pipeline"
+    },
+    {
+      "score": 80,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato possui habilidades e experiência relevantes para a vaga de Digital Project Manager, com evidências de sua capacidade em gerenciar projetos digitais, resolver problemas e liderar equipes. Ele tem aproximadamente 3-4 anos de experiência em funções de Product Manager e Technical Program Manager, o que atende aos requisitos de seniority da vaga. Embora não haja evidência explícita de experiência em gestão completa da presença digital do cliente (website, campanhas, SEO/SEM, etc.), o candidato demonstra habilidades transferíveis que podem ser aplicadas a esse contexto. Portanto, a candidatura é considerada viável, com alguns riscos que podem ser mitigados.",
+      "main_gap": "O candidato não possui experiência explícita na gestão completa da presença digital do cliente, incluindo website, campanhas, SEO/SEM, etc.",
+      "company": "The Experience Design Studio",
+      "location": "",
+      "title": "Digital Project Manager",
+      "url": "https://remotefirstjobs.com/companies/xds-a-customer-experience-agency/jobs/digital-project-manager-743804",
+      "id": "665c1da74bd9ff6ef26eb9024c7470d4d2c94872a88524e7e1a2f9287418fb63",
+      "core_requirements": [
+        {
+          "requirement": "Oversee and manage entire digital presence for clients (e.g. website management, intranet, banner ads, landing pages, paid media campaigns, email campaigns, print flyers, social media, SEO/SEM, etc.)",
+          "category": "domain",
+          "evidence": "Instituto Atlântico — Product Owner (Jul/2022–Set/2024): reorganização component→product (~3 sprints para ~1), deploy 30→15 dias, PoC GenAI que contribuiu para contrato e mapeamento de 9 use cases.",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Proactively troubleshoot, resolve roadblocks, and keep projects moving smoothly—no babysitting needed.",
+          "category": "leadership",
+          "evidence": "Instituto Atlântico — Technical Program Manager (Set/2024–Set/2025): 60 vulnerabilidades em 4 semanas; release com 50 defeitos no prazo; automação interna reduziu revisão semanal de ~40 para ~10 min.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Effectively guide, coach, and mentor peer digital producers to grow their skills and meet project objectives.",
+          "category": "leadership",
+          "evidence": "Instituto Atlântico — Project Manager (Out/2025–Fev/2026): gestão de pessoas/processo e realocação de 6/8 no término de contrato.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Be a self-starter. As a resourceful and resilient self-starter, you'll thrive in a fast-paced environment where initiative and innovation are required.",
+          "category": "other",
+          "evidence": "Nubank — Business Analyst (1 linha): operação de crédito em alta escala (150k/dia) com ganhos em qualidade de dados, custo e eficiência de pipeline.",
+          "has_evidence": "partial"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "3–5 years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": false
+      },
+      "file_date": "2026-03-25",
+      "source": "pipeline"
+    },
     {
       "score": 90,
       "score_ceiling": 100,
@@ -946,319 +1042,9 @@
       },
       "file_date": "2026-03-11",
       "source": "pipeline"
-    },
-    {
-      "score": 95,
-      "score_ceiling": 100,
-      "ceiling_reason": "Nenhuma penalty aplicável.",
-      "justification": "O candidato possui experiência DIRETA no domínio central da vaga, com evidências concretas em seu perfil. Ele tem atuado em funções de liderança técnica, gerenciando projetos de dados e analytics com responsabilidades de gestão de escopo, cronograma, riscos, stakeholders, etc. Suas habilidades em metodologias ágeis, análise de dados e arquitetura técnica se alinham perfeitamente com os requisitos da vaga. Com cerca de 3-4 anos de experiência relevante, o candidato atende plenamente à senioridade exigida. Em geral, o perfil do Guilherme é um excelente ajuste para este cargo de Technical Project Manager na NBCUniversal.",
-      "main_gap": "Nenhum gap crítico identificado. O perfil do candidato se alinha muito bem com os requisitos da vaga.",
-      "company": "NBCUniversal",
-      "location": "",
-      "title": "Technical Project Manager",
-      "url": "https://remotefirstjobs.com/companies/nbcuniversal/jobs/technical-project-manager-728265",
-      "id": "3c71749f8373b7cbdd95cc495a05be122b0d7397c876560a1a3dcb8cbc0411e7",
-      "core_requirements": [
-        {
-          "requirement": "Own end-to-end delivery of multiple data and analytics projects, managing scope, schedule, budget, risks, and dependencies",
-          "category": "leadership",
-          "evidence": "Experienced PM leading delivery of complex, data-driven projects. Recent roles include PO, TPM, and PM managing scope, schedule, dependencies, etc.",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Partner with engineering, product, and business stakeholders to define requirements and translate them into clear, executable project plans",
-          "category": "leadership",
-          "evidence": "Demonstrated experience working cross-functionally with technical, product, and business teams to drive project execution. Skills in translating requirements into plans.",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Drive delivery using Agile/Scrum methodologies, tracking progress in Jira and facilitating project rituals",
-          "category": "technical",
-          "evidence": "Experienced in Agile/Scrum delivery, using tools like Jira. Recent TPM role involved these practices.",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Ensure solutions are technically sound, scalable, and aligned with modern cloud and data architecture best practices",
-          "category": "technical",
-          "evidence": "Solid technical background, with experience in cloud/data architecture patterns. Can provide technical oversight to ensure solutions are robust.",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Analyze data across multiple sources to support planning, prioritization, and budget alignment",
-          "category": "other",
-          "evidence": "Experience in data analysis, including working with datasets and BI tools. Can leverage data to inform decision-making.",
-          "has_evidence": "full"
-        }
-      ],
-      "seniority_comparison": {
-        "jd_asks": "3+ years",
-        "candidate_has": "~3-4 years in PM/TPM tech roles",
-        "gap": false
-      },
-      "file_date": "2026-03-10",
-      "source": "pipeline"
-    },
-    {
-      "score": 92,
-      "score_ceiling": 100,
-      "ceiling_reason": "Nenhuma penalty aplicável.",
-      "justification": "O candidato possui experiência direta em gestão de produtos relacionados a prevenção de crimes financeiros, incluindo AML, KYC, sanções e detecção de fraude. Seus antecedentes em finanças e tecnologia, combinados com habilidades comprovadas em liderança, comunicação e análise de dados, o qualificam plenamente para este cargo. Além disso, sua recente experiência como PO, TPM e PM demonstra a seniority necessária.",
-      "main_gap": "Não há gaps evidentes no perfil do candidato em relação aos requisitos centrais desta vaga.",
-      "company": "BVNK",
-      "location": "",
-      "title": "Financial Crime & Compliance Product Manager",
-      "url": "https://remotefirstjobs.com/companies/bvnk/jobs/financial-crime-compliance-product-manager-728301",
-      "id": "6e42b3aa522382f87469611f5e5bba31aaab395aabb5f55f82fa92122bbfbea7",
-      "core_requirements": [
-        {
-          "requirement": "3+ Years of experience as a Product Manager, preferably within the FinTech, Financial Services, or a related technology-driven environment.",
-          "category": "seniority",
-          "evidence": "Candidate has ~3-4 years of PM/TPM/PO experience in tech since Jul/2022, including roles at Instituto Atlântico and Nubank.",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Strong understanding of financial crime prevention, including Anti-Money Laundering (AML), Know Your Customer (KYC), Sanctions Screening, and Fraud Detection.",
-          "category": "domain",
-          "evidence": "Candidate has experience in financial services (Nubank) and managing financial crime-related products (Instituto Atlântico), showing relevant domain knowledge.",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Excellent communication skills with the ability to articulate complex technical and regulatory concepts to both technical and non-technical audiences.",
-          "category": "other",
-          "evidence": "Candidate has experience in stakeholder management, aligning technical teams with business requirements, and communicating with executives, as evidenced in their PM/TPM/PO roles.",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "A data-driven mindset and a track record of using data to inform product decisions.",
-          "category": "other",
-          "evidence": "Candidate has experience using data and analytics, including SQL, Python, and Spark/Scala, to inform product decisions, as mentioned in their skills.",
-          "has_evidence": "full"
-        }
-      ],
-      "seniority_comparison": {
-        "jd_asks": "3+ years",
-        "candidate_has": "~3-4 years in PM/TPM tech roles",
-        "gap": false
-      },
-      "file_date": "2026-03-10",
-      "source": "pipeline"
-    },
-    {
-      "score": 90,
-      "score_ceiling": 100,
-      "ceiling_reason": "Nenhuma penalty aplicável.",
-      "justification": "O candidato Guilherme Maia possui experiência direta no domínio de gestão de projetos/programas digitais, com aproximadamente 3-4 anos de atuação em papéis de PM/TPM em tecnologia. Ele demonstra ampla evidência de possuir as principais habilidades técnicas e comportamentais exigidas pela vaga, como conhecimento em metodologias ágeis, gerenciamento de dados e análise, integração de IA, liderança de equipes e stakeholders, entre outras. Seu background em tecnologia e sua abrangente experiência em funções de gerenciamento e entrega o tornam um ótimo candidato para a posição de Junior Digital Project Manager na Ogilvy.",
-      "main_gap": "Não há gaps críticos na candidatura de Guilherme Maia em relação aos requisitos da vaga de Junior Digital Project Manager na Ogilvy.",
-      "company": "Ogilvy",
-      "location": "",
-      "title": "Junior Digital Project Manager",
-      "url": "https://remotefirstjobs.com/companies/ogilvy/jobs/junior-digital-project-manager-728328",
-      "id": "997cfa6d28d8279b4541f6d103b2d3dd46b96cd58d53c9c11499a13f8a934346",
-      "core_requirements": [
-        {
-          "requirement": "At least 3 years in a Project Manager role in a digital agency or similar",
-          "category": "seniority",
-          "evidence": "~3 years of experience as PM/TPM in technology roles (Jul/2022–Fev/2026)",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Tech / Data knowledge applied to digital projects: frontend / backend technologies, Google Analytics, automation tools, etc.",
-          "category": "technical",
-          "evidence": "Experience in product discovery/delivery, data & analytics (SQL, Python, Spark/Scala, ETL) and IA applied (GenAI PoCs, integration LLM, prototipagem, avaliação por critérios)",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Knowledge of Agile methodologies",
-          "category": "technical",
-          "evidence": "Experience in Scrum/Agile practices, including as Scrum Master",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Excellent organizational and communication skills",
-          "category": "other",
-          "evidence": "Demonstrated strong leadership, communication and cross-functional collaboration skills, including 1:1, feedback, facilitation of rituals",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Commercially savvy - be comfortable with all levels of commercial conversations covering scoping, budget planning and prioritization, scope negotiation, revenue reporting, resource planning and forecasting and empowering client services team with the right data to have commercial conversations",
-          "category": "domain",
-          "evidence": "Experience in budget control, resource planning and commercial conversations from previous PM/PO/TPM roles",
-          "has_evidence": "full"
-        }
-      ],
-      "seniority_comparison": {
-        "jd_asks": "At least 3 years",
-        "candidate_has": "~3 years in PM/TPM tech roles",
-        "gap": false
-      },
-      "file_date": "2026-03-10",
-      "source": "pipeline"
-    },
-    {
-      "score": 90,
-      "score_ceiling": 100,
-      "ceiling_reason": "Nenhuma penalty aplicável.",
-      "justification": "O candidato apresenta experiência direta e relevante para a vaga de Delivery Manager na Cytora, com sólida trajetória em funções de gerenciamento de projeto, programa e product ownership, incluindo trabalho com tecnologias de IA. Suas habilidades em gestão ágil, solução de problemas e liderança de equipes se alinham perfeitamente aos requisitos da vaga. Embora não tenha mencionado fluência em outros idiomas além do inglês, o escopo da posição parece ser predominantemente voltado para o mercado da América Latina, tornando este um requisito menos crítico.",
-      "main_gap": "Não foram identificados gaps significativos no perfil do candidato em relação aos requisitos essenciais da vaga.",
-      "company": "Cytora",
-      "location": "",
-      "title": "Delivery Manager",
-      "url": "https://remotefirstjobs.com/companies/cytora/jobs/delivery-manager-728319",
-      "id": "2ea44e272ec9c315a13a45242457839507a91637c922fcaa7810228a556cf540",
-      "core_requirements": [
-        {
-          "requirement": "Proven experience in Agile project management, demonstrating successful implementation of methodologies.",
-          "category": "seniority",
-          "evidence": "Extensive experience in PM/TPM roles, including coordinating teams and projects using Agile methodologies.",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Excellent problem-solving and critical-thinking skills, addressing challenges proactively.",
-          "category": "other",
-          "evidence": "Demonstrated track record of proactively addressing issues and challenges, as evidenced by his experience in managing complex global programs.",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Track record of managing multiple projects simultaneously, ensuring timely delivery.",
-          "category": "seniority",
-          "evidence": "Experience managing multiple projects simultaneously, as seen in his roles as PM and TPM.",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Strong understanding of technology and its applications, especially in AI/Data Science products.",
-          "category": "technical",
-          "evidence": "Hands-on experience with AI and data science, including PoCs and integrating LLMs, as well as a strong technical background.",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Multilingual skills: Fluency in English and the ability to write and speak multiple languages - German, French, Dutch Or Swedish.",
-          "category": "other",
-          "evidence": "The candidate's profile does not mention any multilingual skills beyond English proficiency.",
-          "has_evidence": "false"
-        }
-      ],
-      "seniority_comparison": {
-        "jd_asks": "Proven experience in Agile project management",
-        "candidate_has": "~3-4 years in PM/TPM tech roles",
-        "gap": false
-      },
-      "file_date": "2026-03-10",
-      "source": "pipeline"
-    },
-    {
-      "score": 90,
-      "score_ceiling": 100,
-      "ceiling_reason": "Nenhuma penalty aplicável.",
-      "justification": "O candidato possui experiência muito relevante para a vaga de Product Manager em observabilidade e monitoramento de experiência do usuário, com uma sólida trajetória em papéis de Product Owner, Program/Project Manager e uso prático de IA. Sua expertise em engenharia de dados, troubleshooting técnico e liderança de times o torna um ótimo candidato para esta oportunidade na Datadog.",
-      "main_gap": "Não há gaps significativos. O candidato possui o perfil altamente adequado para esta vaga.",
-      "company": "Datadog",
-      "location": "",
-      "title": "Product Manager II Real User Monitoring RUM",
-      "url": "https://remotefirstjobs.com/companies/datadog/jobs/product-manager-ii-real-user-monitoring-rum-728311",
-      "id": "53860f0414249820ff7c2398eedc5b5908d0162e93366d64f050fbeb0491e64e",
-      "core_requirements": [
-        {
-          "requirement": "3+ years of Product Management experience, ideally in enterprise software serving a technical audience",
-          "category": "seniority",
-          "evidence": "~3-4 years as PM/TPM in tech roles since Jul/2022, including PO, TPM, PM positions",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Prior engineering experience or strong understanding of frontend technologies and troubleshooting workflows, such as diagnosing crashes, latency, and performance issues",
-          "category": "technical",
-          "evidence": "Experience with IA applied to product work, including PoCs, LLM integration, prototyping, and quality evaluation. Strong background in data & analytics (SQL, Python, Spark/Scala, ETL, diagnostics).",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Strong ownership and accountability for outcomes, partnering across sales, solutions, marketing, and other teams",
-          "category": "leadership",
-          "evidence": "Demonstrated leadership experience in managing programs, projects, and delivery teams, aligning cross-functional stakeholders and driving outcomes.",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Customer-focused and hold a high bar for product quality and user experience",
-          "category": "domain",
-          "evidence": "Experience as Product Owner and strong focus on user journeys, value delivery, and product quality.",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Communicate clearly and confidently, with the ability to present and defend ideas to technical stakeholders and executives",
-          "category": "other",
-          "evidence": "Strong communication skills, demonstrated in leading teams, managing stakeholders, and presenting technical work.",
-          "has_evidence": "full"
-        }
-      ],
-      "seniority_comparison": {
-        "jd_asks": "3+ years",
-        "candidate_has": "~3-4 years in PM/TPM tech roles",
-        "gap": false
-      },
-      "file_date": "2026-03-10",
-      "source": "pipeline"
-    },
-    {
-      "score": 90,
-      "score_ceiling": 100,
-      "ceiling_reason": "Nenhuma penalty aplicável.",
-      "justification": "O candidato possui experiência direta e relevante para o papel de Technical Product Owner na Tether.io. Ele tem aproximadamente 3-4 anos de experiência em funções de liderança de produto e programa, incluindo responsabilidades de definição de roadmap, priorização com base em demanda do mercado, viabilidade técnica e impacto de negócios, coordenação de ciclos de desenvolvimento e lançamentos de recursos, além de atuar como responsável principal pela evolução da plataforma. O perfil demonstra domínio das habilidades técnicas, de liderança e de gerenciamento exigidas, além de experiência em ambientes complexos e ambíguos, fazendo do candidato um ótimo ajuste para esta vaga.",
-      "main_gap": "Nenhum gap significativo identificado.",
-      "company": "Tether.io",
-      "location": "",
-      "title": "Technical Product Owner",
-      "url": "https://remotefirstjobs.com/companies/tetherto/jobs/technical-product-owner-728298",
-      "id": "f3736b55a716646e9ac720e3bf6f26495a3e82506dc085602b9a44aa3bcb1aab",
-      "core_requirements": [
-        {
-          "requirement": "Define and maintain the Hadron product roadmap",
-          "category": "domain",
-          "evidence": "Extensive experience as Product Owner, Project Manager and Technical Program Manager, including responsibilities around product vision, roadmap definition and delivery execution.",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Prioritize product initiatives based on market demand, technical feasibility, and business impact",
-          "category": "leadership",
-          "evidence": "Proven ability to make difficult prioritization decisions, resolve conflicts between client requests, technical feasibility and compliance constraints, and ensure product development aligns with long-term architecture and scalability.",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Coordinate development cycles and feature releases",
-          "category": "technical",
-          "evidence": "Experience managing teams and coordinating cross-functional delivery, including release management and ensuring timely delivery of roadmap milestones.",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Act as the single point of accountability for the platform's evolution",
-          "category": "leadership",
-          "evidence": "Clear ownership and decision-making authority to set and enforce roadmap priorities, coordinate with external partners, and make go/no-go decisions on integrations, features and releases.",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Resolve conflicts between client requests, technical feasibility, and compliance constraints",
-          "category": "leadership",
-          "evidence": "Experience managing complex, ambiguous environments with diverse and conflicting requirements, and making difficult prioritization decisions to prevent scope creep.",
-          "has_evidence": "full"
-        }
-      ],
-      "seniority_comparison": {
-        "jd_asks": "Not specified",
-        "candidate_has": "~3-4 years in PM/TPM tech roles",
-        "gap": false
-      },
-      "file_date": "2026-03-10",
-      "source": "pipeline"
     }
   ],
   "pipeline_runs": [
-    {
-      "date": "2026-03-10",
-      "filtered_at": "2026-03-10T09:35:22.861862+00:00",
-      "total_input": 24,
-      "total_passed": 17,
-      "discarded_title": 2,
-      "discarded_blocklist": 0,
-      "discarded_location": 5,
-      "discarded_quality": 0
-    },
     {
       "date": "2026-03-11",
       "filtered_at": "2026-03-11T09:34:53.727549+00:00",
@@ -1357,6 +1143,16 @@
       "discarded_title": 0,
       "discarded_blocklist": 1,
       "discarded_location": 2,
+      "discarded_quality": 0
+    },
+    {
+      "date": "2026-03-25",
+      "filtered_at": "2026-03-25T09:44:07.447684+00:00",
+      "total_input": 19,
+      "total_passed": 9,
+      "discarded_title": 2,
+      "discarded_blocklist": 1,
+      "discarded_location": 7,
       "discarded_quality": 0
     }
   ]
