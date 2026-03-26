@@ -3850,5 +3850,107 @@
     "source": "greenhouse",
     "title": "Product Manager, Gateway DNS",
     "company": "Cloudflare"
+  },
+  "722e9a9c0b1a5cb6c719beb98b2897c9abcd021a73da5953709ecd567b962b12": {
+    "first_seen": "2026-03-26",
+    "source": "openai_web_search",
+    "title": "Product Owner / Project Manager - LATAM, Remote",
+    "company": "The SilverLogic"
+  },
+  "27cdc4f3f60cc07e02350f7bdda3af2a49e5c6ec07e2389abed78d3bb174f927": {
+    "first_seen": "2026-03-26",
+    "source": "remotive",
+    "title": "Junior Project Coordinator",
+    "company": "C4Media Inc."
+  },
+  "4cd3a5b7f2887cf367b0b7896b0c9ee613b33f19ce880236013341ef569380b6": {
+    "first_seen": "2026-03-26",
+    "source": "jobicy",
+    "title": "Staff Product Manager, B2B Employers",
+    "company": "Headspace"
+  },
+  "7178377a83239a24e138139b790045e7c462fd4c2abd85fa65234271985a865f": {
+    "first_seen": "2026-03-26",
+    "source": "jobicy",
+    "title": "Principal Product Manager, AI & Data",
+    "company": "phData"
+  },
+  "ca70b49d798f095b6440238b60f7d1e138d36b3afb891b00723f843729950f63": {
+    "first_seen": "2026-03-26",
+    "source": "jobicy",
+    "title": "Senior Product Manager, Enterprise Picking & Tools",
+    "company": "Instacart"
+  },
+  "5ae3eeb4bd4b12e42ca41ca47a58077af0cdd2eabc9d9660e3534154d5159005": {
+    "first_seen": "2026-03-26",
+    "source": "himalayas",
+    "title": "Solution Product Manager, Government",
+    "company": "Nearmap"
+  },
+  "835d7c861e50d3bc0b90fcae4c2b1f6fa8e2bc8a610d0ad4fd03e853b55d932f": {
+    "first_seen": "2026-03-26",
+    "source": "jobscollider",
+    "title": "Senior Product Manager",
+    "company": "Secureframe"
+  },
+  "50beb450a09c88c09367324db87313d48847d500c7e29393777f4381ca5585de": {
+    "first_seen": "2026-03-26",
+    "source": "jobscollider",
+    "title": "Senior Product Manager",
+    "company": "Financeit"
+  },
+  "1ce93a87ceb06e64fa8ccd98c6cf20a254094824d5377e13bc78c78d12b3a4ce": {
+    "first_seen": "2026-03-26",
+    "source": "jobscollider",
+    "title": "Senior Technical Product Manager I",
+    "company": "Housecall Pro"
+  },
+  "c3acc166524dc1d49be82de3bf2faa1009491eb0e09d8b5ed063cbafdb22a810": {
+    "first_seen": "2026-03-26",
+    "source": "jobscollider",
+    "title": "Product Manager Vehicle",
+    "company": "Waymo"
+  },
+  "6cfdb2db7460a7fe83b64791175109a6f1b03fdbf85b1de9b8b49491a2982369": {
+    "first_seen": "2026-03-26",
+    "source": "jobscollider",
+    "title": "IT Service Delivery Manager",
+    "company": "VGW"
+  },
+  "e9092c84cf602cd792030fb60c9abf424240e237a4f86ab5aa4c5a54e7af485d": {
+    "first_seen": "2026-03-26",
+    "source": "jobscollider",
+    "title": "Senior Project Manager",
+    "company": "Intelligent Technical Solutions"
+  },
+  "4a1660b25e7dabf92ed1810d05b759081b5a64b30513e5ca2f88811e033ba135": {
+    "first_seen": "2026-03-26",
+    "source": "jobscollider",
+    "title": "Project Manager",
+    "company": "Minotaur - R"
+  },
+  "9a89da5660ff0bb10106d0def921e11d6f272423b562070d915b5dfcb2336414": {
+    "first_seen": "2026-03-26",
+    "source": "greenhouse",
+    "title": "Technical Program Manager, Enterprise Readiness Programs",
+    "company": "Stripe"
+  },
+  "8e2f7b69f2a8ca5d03fe697f2059eab7a9aa2024f6fe11f73c2bb1812e85c9c3": {
+    "first_seen": "2026-03-26",
+    "source": "greenhouse",
+    "title": "Staff Product Manager - Product Registration",
+    "company": "Nubank"
+  },
+  "a20647dc37dfe3c5efd5d8fc02aaf948dadcca307fd142d3a3a4d6f5474ab8d0": {
+    "first_seen": "2026-03-26",
+    "source": "greenhouse",
+    "title": "Senior Technical Program Manager",
+    "company": "Databricks"
+  },
+  "d053dc15b9159f48ee20c4447706c49f543536f47d01300e84f0ac3a12f21864": {
+    "first_seen": "2026-03-26",
+    "source": "greenhouse",
+    "title": "Senior Program Manager, Talent Attraction",
+    "company": "Samsara"
   }
 }

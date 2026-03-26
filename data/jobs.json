@@ -1,7 +1,58 @@
 {
-  "generated_at": "2026-03-25T09:45:13.674748+00:00",
-  "total": 21,
+  "generated_at": "2026-03-26T09:53:33.424682+00:00",
+  "total": 19,
   "jobs": [
+    {
+      "score": 90,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato Guilherme possui ampla experiência em gerenciamento de programas e projetos complexos envolvendo dados, análises e IA/ML, atendendo plenamente aos requisitos centrais da vaga. Ele demonstra capacidade de liderança, governança estruturada e engajamento com stakeholders sênior. Sua transição bem-sucedida da engenharia civil para a tecnologia, incluindo papéis de Product Owner, Project Manager e Technical Program Manager, evidencia um perfil sólido e alinhado com o que a Databricks busca. Não há gaps críticos no perfil do candidato para esta posição.",
+      "main_gap": "Nenhum gap significativo identificado. O candidato atende plenamente aos requisitos da vaga.",
+      "company": "Databricks",
+      "location": "Remote - India",
+      "title": "Senior Technical Program Manager",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8362733002",
+      "id": "a20647dc37dfe3c5efd5d8fc02aaf948dadcca307fd142d3a3a4d6f5474ab8d0",
+      "core_requirements": [
+        {
+          "requirement": "Proven experience leading complex, enterprise-scale data, analytics, or AI/ML projects in a fast-paced customer-facing environment",
+          "category": "domain",
+          "evidence": "Senior TPM experience at Institute Atlântico in a global program (~15 teams, 200+ engineers) with delivery of complex initiatives like vulnerability remediation and release optimization. Also has PO experience in AI-related work.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Extensive experience successfully managing and overseeing projects with teams of up to 5 people, with contract values in excess of $0.5 million",
+          "category": "seniority",
+          "evidence": "Managed a program with 4 startups and 2 internal teams (total 8 people) as PM at Institute Atlântico. Also had PM and TPM roles managing larger scopes.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Ability to engage, influence, and build trust with senior executive stakeholders on the customer side, including CxOs",
+          "category": "leadership",
+          "evidence": "Experience serving as a trusted advisor to senior stakeholders, driving clarity and alignment, as mentioned in the role description. Background suggests ability to interface with executives.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Skilled in driving structured governance, managing stakeholder expectations, and facilitating executive-level communication",
+          "category": "leadership",
+          "evidence": "Demonstrated ability to navigate complex, cross-functional initiatives and drive successful outcomes, as seen in the TPM and PM roles at Institute Atlântico.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Experience in setting up and managing project delivery frameworks, including Agile, Scrum, or hybrid methodologies, ideally with PMI/PRINCE/AGILE certification",
+          "category": "technical",
+          "evidence": "Experience in program/project management roles, including use of Agile methodologies. However, no explicit mention of certifications.",
+          "has_evidence": "partial"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Extensive experience successfully managing and overseeing projects with teams of up to 5 people, with contract values in excess of $0.5 million",
+        "candidate_has": "~3-4 years in PM/TPM tech roles, including managing a program with 4 startups and 2 internal teams (8 people total)",
+        "gap": false
+      },
+      "file_date": "2026-03-26",
+      "source": "pipeline"
+    },
     {
       "score": 90,
       "score_ceiling": 100,
@@ -889,172 +940,9 @@
       },
       "file_date": "2026-03-12",
       "source": "pipeline"
-    },
-    {
-      "score": 95,
-      "score_ceiling": 100,
-      "ceiling_reason": "Nenhuma penalty aplicável.",
-      "justification": "O candidato possui todas as habilidades e experiências chave exigidas para a vaga de Product Manager - AI Agents na Assembled. Ele tem aproximadamente 3-4 anos de experiência em gestão de produto e programa em ambientes de tecnologia em rápido crescimento, incluindo papéis relevantes no Instituto Atlântico e no Nubank. Além disso, ele tem experiência prática em integrar IA/GenAI em produtos, incluindo a aplicação de uma metodologia estruturada para avaliação de sistemas de IA. O candidato também demonstra habilidades sólidas em liderança de equipes multifuncionais, alinhamento de stakeholders e entrega de produtos. Seu perfil se alinha muito bem com os requisitos centrais da vaga.",
-      "main_gap": "Não há gaps significativos no perfil do candidato em relação aos requisitos da vaga.",
-      "company": "Assembled",
-      "location": "",
-      "title": "Product Manager - AI Agents",
-      "url": "https://weworkremotely.com/remote-jobs/assembled-product-manager-ai-agents",
-      "id": "4823c091a4116eed545ce02050aba0ae3b626a65603ed610767e70eb642a83a5",
-      "core_requirements": [
-        {
-          "requirement": "Minimum of 3 years of product management experience in fast-growing tech environments (Enterprise SaaS experience strongly preferred)",
-          "category": "seniority",
-          "evidence": "~3-4 years of PM/TPM experience in tech since Jul/2022, including roles at Institute Atlântico and Nubank",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Passion for AI and experience either as a deep personal user and/or in work",
-          "category": "technical",
-          "evidence": "Experience in integrating AI/GenAI into products, including PoCs, LLM integration, and methodology for evaluating AI systems",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Collaborate with engineering and design teams to design and deliver impactful solutions. Provide clear requirements and direction, prioritize key features, and remove blockers",
-          "category": "leadership",
-          "evidence": "Experience in leading cross-functional teams, aligning stakeholders, and driving product delivery as PO, PM, and TPM",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Customer orientation, with a passion for translating business problems into product solutions",
-          "category": "domain",
-          "evidence": "Experience in working closely with customers and prospects to understand their problems and needs, and translating them into product solutions",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Technical fluency to drill into complex design and implementation challenges",
-          "category": "technical",
-          "evidence": "Strong technical skills, including SQL, Python, Spark/Scala, and experience in evaluating and integrating AI systems",
-          "has_evidence": "full"
-        }
-      ],
-      "seniority_comparison": {
-        "jd_asks": "Minimum of 3 years of product management experience",
-        "candidate_has": "~3-4 years of PM/TPM experience in tech since Jul/2022",
-        "gap": false
-      },
-      "file_date": "2026-03-11",
-      "source": "pipeline"
-    },
-    {
-      "score": 92,
-      "score_ceiling": 100,
-      "ceiling_reason": "Nenhuma penalty aplicável.",
-      "justification": "O candidato Guilherme Maia possui um perfil altamente qualificado para a vaga de Technical Project Manager I na empresa dv01. Ele tem uma sólida experiência de ~3-4 anos em cargos de gestão de projetos e programas (PM, TPM, PO) na área de tecnologia, incluindo trabalhos relevantes em fintech e empresas de IA. Suas habilidades técnicas, de liderança e de entrega de projetos complexos estão bem alinhadas com os requisitos da vaga, conforme evidenciado em seu histórico profissional. Além disso, ele possui um diferencial em IA, o que é um ativo importante para essa posição. O único ponto a ser considerado é que a vaga menciona 1-3 anos de experiência, enquanto o candidato possui ~3-4 anos, mas isso não é um gap significativo. Portanto, atribuo um score de 92 para essa candidatura.",
-      "main_gap": "Nenhum gap significativo identificado, o perfil do candidato se alinha muito bem com os requisitos da vaga.",
-      "company": "dv01",
-      "location": "United States",
-      "title": "Technical Project Manager I",
-      "url": "https://himalayas.app/companies/dv01/jobs/technical-project-manager-i",
-      "id": "b717e4a400a6a1a021ca950fe642a94accf4e29a9d4481dfe4bff4afc7b6e8ce",
-      "core_requirements": [
-        {
-          "requirement": "Manage all lifecycle stages for a project post ideation with responsibility for ensuring that deliverables are understood and releases are delivered on time",
-          "category": "leadership",
-          "evidence": "Extensive experience as a PM, TPM and PO managing projects and programs from ideation to delivery, including responsibility for defining success metrics, aligning stakeholders, and delivering on time (see 'Experiências Chave')",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Partner with engineering teams to help translate technical requirements and system dependencies into actionable project plans, ensuring workstreams stay aligned and progress is clearly communicated across teams",
-          "category": "leadership",
-          "evidence": "Experience working closely with engineering teams to align technical requirements, dependencies, and project plans, ensuring cross-functional collaboration and clear communication (see 'Experiências Chave' and 'Skills Principais')",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Leverage AI-powered tools to improve project coordination, including synthesizing updates, generating documentation, and helping surface risks or dependencies across technical workstreams to support more efficient execution",
-          "category": "technical",
-          "evidence": "Demonstrated experience in applying AI/ML technologies to improve project management, including documentation, risk identification, and process optimization (see 'Diferencial em IA' and 'Experiências Chave')",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Connect the dots of complex workflows in a fast-paced environment. You will be responsible for engaging key stakeholders across business, technology, and product while working closely with software engineers to build consensus, resolve conflicts, and ensure smooth execution",
-          "category": "leadership",
-          "evidence": "Strong track record in managing complex, cross-functional projects and programs, navigating stakeholder alignment, conflict resolution, and ensuring smooth delivery in fast-paced environments (see 'Experiências Chave')",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Ensure the quality of project deliverables. You will work with all stakeholders to establish quality standards and monitor adherence to quality in day-to-day execution",
-          "category": "leadership",
-          "evidence": "Experience in defining and monitoring quality standards, working closely with stakeholders to ensure adherence and high-quality project deliverables (see 'Experiências Chave')",
-          "has_evidence": "full"
-        }
-      ],
-      "seniority_comparison": {
-        "jd_asks": "1-3 years of work experience successfully managing the launch of projects from end to end",
-        "candidate_has": "~3-4 years in PM/TPM tech roles",
-        "gap": false
-      },
-      "file_date": "2026-03-11",
-      "source": "pipeline"
-    },
-    {
-      "score": 75,
-      "score_ceiling": 100,
-      "ceiling_reason": "Nenhuma penalty aplicável.",
-      "justification": "O candidato possui uma sólida experiência em papéis de gestão de produto e programa, incluindo atuação em iniciativas envolvendo IA. Sua familiaridade com metodologias ágeis, liderança de equipes, análise de dados e práticas de governança para IA o tornam um bom candidato para a vaga de Program Manager AI Programs da Airtable. No entanto, a lacuna está no conhecimento mais aprofundado da plataforma Airtable e suas aplicações verticais, o que pode demandar um período de adaptação e rampup.",
-      "main_gap": "Conhecimento mais aprofundado da plataforma Airtable e suas aplicações verticais.",
-      "company": "Airtable",
-      "location": "",
-      "title": "Program Manager AI Programs",
-      "url": "https://remotefirstjobs.com/companies/airtable/jobs/program-manager-ai-programs-729572",
-      "id": "6443556f30449b57aa66e6fe9faeff95b1cfd2124c036566f93373f53af4d39e",
-      "core_requirements": [
-        {
-          "requirement": "Develop and operationalize industry- and function-specific AI enablement paths",
-          "category": "domain",
-          "evidence": "Experiência recente em PO, PM e TPM, com foco em integração de IA em diferentes contextos (image scanning, programa de startups, programa global de alta complexidade). Conhecimento prático em metodologia de IA, incluindo governança humano-IA, avaliação por critérios e decomposição em pipelines especializados.",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Lead In-Person & Cohort-Based Activation",
-          "category": "leadership",
-          "evidence": "Experiência em liderança de equipes, facilitação de cerimônias e ritos, além de design e operacionalização de programas de capacitação.",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Support Emerging AI Sub-Communities",
-          "category": "domain",
-          "evidence": "Experiência em gestão de comunidades e programas voltados para diferentes grupos-alvo, como startups, aceleradoras e estudantes.",
-          "has_evidence": "partial"
-        },
-        {
-          "requirement": "Data-Informed",
-          "category": "technical",
-          "evidence": "Conhecimento em SQL, Python, Spark/Scala, ETL e análise diagnóstica para tomada de decisão. Também possui experiência em métricas de engajamento e ativação relacionadas a adoção de IA.",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Confident Facilitator & Presenter",
-          "category": "leadership",
-          "evidence": "Experiência em apresentações, facilitação de workshops e programas de capacitação, incluindo habilidades de comunicação e simplificação de conceitos complexos.",
-          "has_evidence": "full"
-        }
-      ],
-      "seniority_comparison": {
-        "jd_asks": "não especificado",
-        "candidate_has": "~3-4 anos em papéis de PM/TPM em tecnologia",
-        "gap": false
-      },
-      "file_date": "2026-03-11",
-      "source": "pipeline"
     }
   ],
   "pipeline_runs": [
-    {
-      "date": "2026-03-11",
-      "filtered_at": "2026-03-11T09:34:53.727549+00:00",
-      "total_input": 33,
-      "total_passed": 17,
-      "discarded_title": 6,
-      "discarded_blocklist": 1,
-      "discarded_location": 9,
-      "discarded_quality": 0
-    },
     {
       "date": "2026-03-12",
       "filtered_at": "2026-03-12T09:35:05.367347+00:00",
@@ -1153,6 +1041,16 @@
       "discarded_title": 2,
       "discarded_blocklist": 1,
       "discarded_location": 7,
+      "discarded_quality": 0
+    },
+    {
+      "date": "2026-03-26",
+      "filtered_at": "2026-03-26T09:52:56.686849+00:00",
+      "total_input": 17,
+      "total_passed": 9,
+      "discarded_title": 3,
+      "discarded_blocklist": 2,
+      "discarded_location": 3,
       "discarded_quality": 0
     }
   ]

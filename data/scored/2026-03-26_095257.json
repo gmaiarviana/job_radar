@@ -1,0 +1,360 @@
+{
+  "scored_at": "2026-03-26T09:52:57.152117+00:00",
+  "source_file": "2026-03-26_094916.json",
+  "summary": {
+    "total_input": 9,
+    "total_llm_eliminated": 4,
+    "total_scored": 5,
+    "total_top": 1
+  },
+  "jobs": [
+    {
+      "score": 90,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato Guilherme possui ampla experiência em gerenciamento de programas e projetos complexos envolvendo dados, análises e IA/ML, atendendo plenamente aos requisitos centrais da vaga. Ele demonstra capacidade de liderança, governança estruturada e engajamento com stakeholders sênior. Sua transição bem-sucedida da engenharia civil para a tecnologia, incluindo papéis de Product Owner, Project Manager e Technical Program Manager, evidencia um perfil sólido e alinhado com o que a Databricks busca. Não há gaps críticos no perfil do candidato para esta posição.",
+      "main_gap": "Nenhum gap significativo identificado. O candidato atende plenamente aos requisitos da vaga.",
+      "company": "Databricks",
+      "location": "Remote - India",
+      "title": "Senior Technical Program Manager",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8362733002",
+      "id": "a20647dc37dfe3c5efd5d8fc02aaf948dadcca307fd142d3a3a4d6f5474ab8d0",
+      "core_requirements": [
+        {
+          "requirement": "Proven experience leading complex, enterprise-scale data, analytics, or AI/ML projects in a fast-paced customer-facing environment",
+          "category": "domain",
+          "evidence": "Senior TPM experience at Institute Atlântico in a global program (~15 teams, 200+ engineers) with delivery of complex initiatives like vulnerability remediation and release optimization. Also has PO experience in AI-related work.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Extensive experience successfully managing and overseeing projects with teams of up to 5 people, with contract values in excess of $0.5 million",
+          "category": "seniority",
+          "evidence": "Managed a program with 4 startups and 2 internal teams (total 8 people) as PM at Institute Atlântico. Also had PM and TPM roles managing larger scopes.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Ability to engage, influence, and build trust with senior executive stakeholders on the customer side, including CxOs",
+          "category": "leadership",
+          "evidence": "Experience serving as a trusted advisor to senior stakeholders, driving clarity and alignment, as mentioned in the role description. Background suggests ability to interface with executives.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Skilled in driving structured governance, managing stakeholder expectations, and facilitating executive-level communication",
+          "category": "leadership",
+          "evidence": "Demonstrated ability to navigate complex, cross-functional initiatives and drive successful outcomes, as seen in the TPM and PM roles at Institute Atlântico.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Experience in setting up and managing project delivery frameworks, including Agile, Scrum, or hybrid methodologies, ideally with PMI/PRINCE/AGILE certification",
+          "category": "technical",
+          "evidence": "Experience in program/project management roles, including use of Agile methodologies. However, no explicit mention of certifications.",
+          "has_evidence": "partial"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Extensive experience successfully managing and overseeing projects with teams of up to 5 people, with contract values in excess of $0.5 million",
+        "candidate_has": "~3-4 years in PM/TPM tech roles, including managing a program with 4 startups and 2 internal teams (8 people total)",
+        "gap": false
+      }
+    }
+  ],
+  "scored_jobs": [
+    {
+      "score": 59,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui experiência relevante em gestão de produto, programa e projeto, com habilidades técnicas sólidas em IA e metodologias ágeis. No entanto, ele possui apenas ~3-4 anos de experiência nessas funções, enquanto a vaga pode exigir um profissional com mais senioridade. Mesmo assim, o candidato demonstra potencial para a posição e suas habilidades transferíveis são significativas.",
+      "main_gap": "O principal gap é a falta de senioridade direta nas funções de Product Owner e Project Manager, embora o candidato tenha experiência relevante em papéis similares.",
+      "company": "The SilverLogic",
+      "location": "Remote, US",
+      "title": "Product Owner / Project Manager - LATAM, Remote",
+      "url": "https://www.ziprecruiter.com/c/SilverLogic/Job/Product-Owner-Project-Manager-LATAM%2C-Remote/-in-Remote%2CUS?jid=b9abaade5b319a1d",
+      "id": "722e9a9c0b1a5cb6c719beb98b2897c9abcd021a73da5953709ecd567b962b12",
+      "core_requirements": [
+        {
+          "requirement": "Own client success from concept to delivery",
+          "category": "leadership",
+          "evidence": "Recent experience as PO, PM and TPM delivering products, programs and projects with accountability for end-to-end results and client satisfaction",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Combine strategic product leadership with hands-on project management",
+          "category": "domain",
+          "evidence": "Balanced profile with experience in both product and project/program management, able to bridge strategy and execution",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Ensure initiatives are on vision, on budget, and on time",
+          "category": "leadership",
+          "evidence": "Demonstrated track record of delivering projects and programs within scope, timeline and budget constraints, with focus on execution and KPIs",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Leverage advanced technologies such as AI, process automation, IoT, and AR",
+          "category": "technical",
+          "evidence": "Experience with practical application of AI, including documentation as infrastructure, human-AI governance, and evaluation by rubrics/criteria",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Work within an Agile Scrum framework",
+          "category": "technical",
+          "evidence": "Familiarity with Agile ceremonies and Scrum Master responsibilities based on PO and TPM experiences",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Not specified",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui habilidades transferíveis para a função de Junior Project Coordinator, como experiência em serviço ao cliente, gerenciamento de projetos/programas e suporte a facilitadores. No entanto, sua senioridade excede o nível júnior especificado na descrição da vaga, resultando em um gap que limita o score máximo a 65.",
+      "main_gap": "O principal gap é a discrepância entre a senioridade do candidato (3-4 anos em PM/TPM) e o nível júnior exigido na vaga.",
+      "company": "C4Media Inc.",
+      "location": "Brazil, Argentina",
+      "title": "Junior Project Coordinator",
+      "url": "https://remotive.com/remote-jobs/project-management/junior-project-coordinator-2088663",
+      "id": "27cdc4f3f60cc07e02350f7bdda3af2a49e5c6ec07e2389abed78d3bb174f927",
+      "core_requirements": [
+        {
+          "requirement": "Act as a first point of contact for learners. You'll help distribute onboarding materials, answer inquiries, and follow up to ensure participants have a smooth experience.",
+          "category": "domain",
+          "evidence": "The candidate has relevant customer service experience from the Nubank role, which involved high-scale customer operations.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Help maintain our digital learning environments, including Zoom room administration, Google Drive organization, and coordinating Slack communications.",
+          "category": "technical",
+          "evidence": "The candidate has experience with various collaboration and productivity tools (Jira, Azure DevOps, Confluence) which are transferable to this requirement.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Support the coordination of \"Capstone\" learning projects by collecting participant bios, tracking deadlines, and sharing information with our internal editorial team.",
+          "category": "domain",
+          "evidence": "The candidate has experience in program/project management, including managing teams and deliverables, which is relevant to this requirement.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Provide administrative support to facilitators by ensuring session materials are organized and sessions are ready to launch.",
+          "category": "leadership",
+          "evidence": "The candidate has experience in leading teams and managing processes, which can be applied to supporting facilitators.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Entry-level/Junior",
+        "candidate_has": "~3 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui experiência relevante em gestão de projetos, programas e produtos, com papéis como TPM, PM e PO. No entanto, a vaga exige 10+ anos de experiência em gerenciamento de projetos, enquanto o candidato possui ~3-4 anos nesse tipo de função. Portanto, o gap de senioridade é a principal limitação, apesar das demais habilidades transferíveis.",
+      "main_gap": "Gap de senioridade - a vaga exige 10+ anos de experiência em gerenciamento de projetos, enquanto o candidato possui ~3-4 anos",
+      "company": "Intelligent Technical Solutions",
+      "location": "",
+      "title": "Senior Project Manager",
+      "url": "https://remotefirstjobs.com/companies/its/jobs/senior-project-manager-745109",
+      "id": "e9092c84cf602cd792030fb60c9abf424240e237a4f86ab5aa4c5a54e7af485d",
+      "core_requirements": [
+        {
+          "requirement": "Own the full lifecycle of high-value or technically complex projects — from scoping and kickoff through deployment and closeout.",
+          "category": "leadership",
+          "evidence": "Experience as TPM, PM, and PO spanning project planning, scoping, execution and delivery.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Lead project teams across departments, managing communication, execution, and stakeholder alignment.",
+          "category": "leadership",
+          "evidence": "Experience managing cross-functional teams and stakeholders, as described in roles like TPM and PM.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Serve as the escalation point for client-facing challenges and scope management during delivery.",
+          "category": "leadership",
+          "evidence": "Managed complex projects, likely acting as an escalation point, as indicated by roles like TPM and Senior PM.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Build strong relationships with client stakeholders and internal sponsors to align technical execution with business outcomes.",
+          "category": "domain",
+          "evidence": "Experience interfacing with clients and aligning technical work to business goals, as described in product and program roles.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Mentor and support less experienced PMs through shadowing, knowledge sharing, and peer reviews.",
+          "category": "leadership",
+          "evidence": "Likely gained experience mentoring and supporting junior PMs through roles like TPM and Senior PM.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "10+ years of experience in project management roles",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "A experiência do candidato é relevante, com cerca de 3-4 anos em funções de PM/TPM em tecnologia, incluindo entrega de projetos globais complexos. No entanto, a vaga requer 3-5 anos de experiência em PM, principalmente em ambientes de saúde/healthtech, o que representa um gap em relação ao perfil do candidato. Portanto, é uma candidatura viável, mas com risco, enquadrando-se na faixa de 50-69 pontos.",
+      "main_gap": "O principal gap é a experiência específica no domínio de saúde/healthtech, uma vez que o candidato tem background predominante em engenharia civil e uma transição mais recente para a área de tecnologia.",
+      "company": "Minotaur - R",
+      "location": "",
+      "title": "Project Manager",
+      "url": "https://remotefirstjobs.com/companies/iknowhow-sa/jobs/project-manager-745076",
+      "id": "4a1660b25e7dabf92ed1810d05b759081b5a64b30513e5ca2f88811e033ba135",
+      "core_requirements": [
+        {
+          "requirement": "Lead the planning, execution, and delivery of healthcare-related projects (e.g., hospital systems, digital health platforms, regulatory initiatives)",
+          "category": "domain",
+          "evidence": "Extensive experience in healthcare, healthtech, or life sciences environments, delivering IT or digital transformation projects",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Act as the primary point of contact between business stakeholders (clinical, operational) and IT teams",
+          "category": "leadership",
+          "evidence": "Experience working with cross-functional teams, including business and technical stakeholders",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Manage project plans, risks, issues, and dependencies, ensuring timely resolution and escalation when needed",
+          "category": "technical",
+          "evidence": "Strong understanding of project management methodologies (Agile, Scrum, Waterfall, or hybrid), experience delivering IT or digital transformation projects",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Ensure compliance with healthcare regulations, data privacy (e.g., GDPR), and quality standards",
+          "category": "domain",
+          "evidence": "Familiarity with healthcare systems (e.g., EHR/EMR, hospital information systems) is highly desirable",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "3-5 years of experience in project management, preferably within healthcare, healthtech, or life sciences environments",
+          "category": "seniority",
+          "evidence": "~3-4 years of experience in PM/TPM roles in technology, but the candidate's background is primarily in the construction industry prior to the transition to tech",
+          "has_evidence": "partial"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "3-5 years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 90,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato Guilherme possui ampla experiência em gerenciamento de programas e projetos complexos envolvendo dados, análises e IA/ML, atendendo plenamente aos requisitos centrais da vaga. Ele demonstra capacidade de liderança, governança estruturada e engajamento com stakeholders sênior. Sua transição bem-sucedida da engenharia civil para a tecnologia, incluindo papéis de Product Owner, Project Manager e Technical Program Manager, evidencia um perfil sólido e alinhado com o que a Databricks busca. Não há gaps críticos no perfil do candidato para esta posição.",
+      "main_gap": "Nenhum gap significativo identificado. O candidato atende plenamente aos requisitos da vaga.",
+      "company": "Databricks",
+      "location": "Remote - India",
+      "title": "Senior Technical Program Manager",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8362733002",
+      "id": "a20647dc37dfe3c5efd5d8fc02aaf948dadcca307fd142d3a3a4d6f5474ab8d0",
+      "core_requirements": [
+        {
+          "requirement": "Proven experience leading complex, enterprise-scale data, analytics, or AI/ML projects in a fast-paced customer-facing environment",
+          "category": "domain",
+          "evidence": "Senior TPM experience at Institute Atlântico in a global program (~15 teams, 200+ engineers) with delivery of complex initiatives like vulnerability remediation and release optimization. Also has PO experience in AI-related work.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Extensive experience successfully managing and overseeing projects with teams of up to 5 people, with contract values in excess of $0.5 million",
+          "category": "seniority",
+          "evidence": "Managed a program with 4 startups and 2 internal teams (total 8 people) as PM at Institute Atlântico. Also had PM and TPM roles managing larger scopes.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Ability to engage, influence, and build trust with senior executive stakeholders on the customer side, including CxOs",
+          "category": "leadership",
+          "evidence": "Experience serving as a trusted advisor to senior stakeholders, driving clarity and alignment, as mentioned in the role description. Background suggests ability to interface with executives.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Skilled in driving structured governance, managing stakeholder expectations, and facilitating executive-level communication",
+          "category": "leadership",
+          "evidence": "Demonstrated ability to navigate complex, cross-functional initiatives and drive successful outcomes, as seen in the TPM and PM roles at Institute Atlântico.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Experience in setting up and managing project delivery frameworks, including Agile, Scrum, or hybrid methodologies, ideally with PMI/PRINCE/AGILE certification",
+          "category": "technical",
+          "evidence": "Experience in program/project management roles, including use of Agile methodologies. However, no explicit mention of certifications.",
+          "has_evidence": "partial"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Extensive experience successfully managing and overseeing projects with teams of up to 5 people, with contract values in excess of $0.5 million",
+        "candidate_has": "~3-4 years in PM/TPM tech roles, including managing a program with 4 startups and 2 internal teams (8 people total)",
+        "gap": false
+      }
+    }
+  ],
+  "eliminated_jobs": [
+    {
+      "id_hash": "50beb450a09c88c09367324db87313d48847d500c7e29393777f4381ca5585de",
+      "id": "50beb450a09c88c09367324db87313d48847d500c7e29393777f4381ca5585de",
+      "source": "jobscollider",
+      "title": "Senior Product Manager",
+      "company": "Financeit",
+      "location": "",
+      "salary": null,
+      "jd_full": "<p><strong>Who we are:</strong></p>\n\n<p>Financeit is a rapidly-growing fintech and enterprise services company serving some of the largest home improvement and retail organizations in the United States and Canada.</p>\n\n<p>Financeit’s point-of-sale financing platform helps businesses of any size close more sales by offering customers affordable monthly payment options for their next big home improvement, vehicle or retail purchase. For larger enterprise businesses, Financeit delivers an integrated suite of home improvement solutions, known as <strong>Centah</strong>, that includes leads and workflow management, live contact agents, financing and promotions, performance assurance and category development.</p>\n\n<p>Financeit is small enough that you can make an impact within the company, and large enough to make an impact in the market. As focused as we are on creating unique, category-defining products, we are also building a distinct and inclusive culture.</p>\n\n<p><strong>About the role:</strong></p>\n\n<p>As the Senior Product Manager at Centah, your goal is to drive the development and success of our products. In this pivotal role, you will lead cross-functional teams to define, design, and deliver innovative solutions that meet the needs of our clients and users while driving business growth.</p>\n\n<p>Reporting to the Director of Product, you will define and communicate a clear product feature vision and roadmap aligned with our business objectives, staying ahead of industry trends to identify new opportunities. Acting as the voice of the customer, you will foster a culture of innovation and ensure our products meet real market needs. This role requires strong product judgment, cross-functional leadership, and deep domain expertise in the home services industry.</p>\n\n<p><strong>What you’ll do:</strong></p>\n\n<ul>\n<li>Drive the product roadmap for your specific domain, expertly balancing near-term feature delivery with long-term platform scalability.</li>\n<li>Communicate clearly with senior leaders, presenting insights, tradeoffs, and recommendations that inform strategy and drive company objectives.</li>\n<li>Act as the ultimate voice of the customer by applying a curious, problem-first mindset to deeply explore root pain points before collaborating on solutions.</li>\n<li>Champion projects from ideation to launch, meticulously defining requirements, finding the edge cases, and owning the final delivery and results.</li>\n<li>Lead development teams in an Agile environment through continuous delivery, organizing estimations, refining scope, and making smart trade-offs to meet deadlines.</li>\n<li>Prioritize product features based on market demand, strategic goals, and robust risk assessment to maximize business impact.</li>\n<li>Monitor product performance metrics after release, making data-driven decisions to iterate and continuously improve the product.</li>\n</ul>\n\n<p><strong>What you’ll need to succeed:</strong></p>\n\n<ul>\n<li>Minimum of 5+ years of experience in product management, business analysis, technical project/program management or software development delivery.</li>\n<li>Direct experience building out complex web/SaaS/enterprise platforms.</li>\n<li>Proven ability to thrive in both the strategic and tactical, building a broad vision for a product area while flawlessly executing the plan.</li>\n<li>Exceptional written communication and story-telling skills.</li>\n<li>Strong detail orientation with a meticulous approach to developing requirements and identifying edge cases.</li>\n<li>Experience championing projects from start to finish, communicating the value to both internal and external stakeholders, mitigating risk and owning the delivery/results.</li>\n<li>Demonstrated ability to act as a self-managed leader who can take ownership of a large scope while remaining highly collaborative with cross-functional pods and technical experts.</li>\n<li>Expertise with common software development tooling like Jira and Figma.</li>\n</ul>\n\n<p>Winner of Canada’s Most Admired Corporate Cultures for two consecutive years. We offer more than just the basics, take advantage of:</p>\n\n<ul>\n<li><p>An award-winning culture with a collaborative & inclusive team.</p></li>\n\n<li><p>Competitive pay and performance-based bonus.</p>\n\n<ul>\n<li>Base salary: $130,000 - $145,000</li>\n<li>Annual bonus: 20%</li>\n</ul></li>\n\n<li><p>Committed to flexible work arrangements, offering hybrid workplace options.</p></li>\n\n<li><p>Comprehensive medical, dental and vision coverage + Lifestyle Account.</p></li>\n\n<li><p>RRSP Matching and Parental Leave Top UP Program.</p></li>\n\n<li><p>In office massage & workout sessions.</p></li>\n\n<li><p>Virtual events such as Lunch & Learns, company parties, fun team activities and charity initiatives.</p></li>\n\n<li><p>Career learning and development programs.</p></li>\n</ul>\n\n<p><strong>Next Steps:</strong></p>\n\n<p>If what you just read excites you, we’d like to hear from you! Please submit your application and we’ll contact you if you become selected for a phone interview.</p>\n\n<p><em>Financeit is an equal opportunity employer. Accommodation is available on request for candidates taking part in all aspects of the selection process.</em></p>",
+      "url": "https://remotefirstjobs.com/companies/financeit/jobs/senior-product-manager-745158",
+      "collected_at": "2026-03-26T09:49:34.365734+00:00",
+      "date": "Thu, 26 Mar 2026 03:25:51 +0000",
+      "filter_reason": "localização"
+    },
+    {
+      "id_hash": "50beb450a09c88c09367324db87313d48847d500c7e29393777f4381ca5585de",
+      "id": "50beb450a09c88c09367324db87313d48847d500c7e29393777f4381ca5585de",
+      "source": "jobscollider",
+      "title": "Senior Product Manager",
+      "company": "Financeit",
+      "location": "",
+      "salary": null,
+      "jd_full": "<p><strong>Who we are:</strong></p>\n\n<p>Financeit is a rapidly-growing fintech and enterprise services company serving some of the largest home improvement and retail organizations in the United States and Canada.</p>\n\n<p>Financeit’s point-of-sale financing platform helps businesses of any size close more sales by offering customers affordable monthly payment options for their next big home improvement, vehicle or retail purchase. For larger enterprise businesses, Financeit delivers an integrated suite of home improvement solutions, known as <strong>Centah</strong>, that includes leads and workflow management, live contact agents, financing and promotions, performance assurance and category development.</p>\n\n<p>Financeit is small enough that you can make an impact within the company, and large enough to make an impact in the market. As focused as we are on creating unique, category-defining products, we are also building a distinct and inclusive culture.</p>\n\n<p><strong>About the role:</strong></p>\n\n<p>As the Senior Product Manager at Centah, your goal is to drive the development and success of our products. In this pivotal role, you will lead cross-functional teams to define, design, and deliver innovative solutions that meet the needs of our clients and users while driving business growth.</p>\n\n<p>Reporting to the Director of Product, you will define and communicate a clear product feature vision and roadmap aligned with our business objectives, staying ahead of industry trends to identify new opportunities. Acting as the voice of the customer, you will foster a culture of innovation and ensure our products meet real market needs. This role requires strong product judgment, cross-functional leadership, and deep domain expertise in the home services industry.</p>\n\n<p><strong>What you’ll do:</strong></p>\n\n<ul>\n<li>Drive the product roadmap for your specific domain, expertly balancing near-term feature delivery with long-term platform scalability.</li>\n<li>Communicate clearly with senior leaders, presenting insights, tradeoffs, and recommendations that inform strategy and drive company objectives.</li>\n<li>Act as the ultimate voice of the customer by applying a curious, problem-first mindset to deeply explore root pain points before collaborating on solutions.</li>\n<li>Champion projects from ideation to launch, meticulously defining requirements, finding the edge cases, and owning the final delivery and results.</li>\n<li>Lead development teams in an Agile environment through continuous delivery, organizing estimations, refining scope, and making smart trade-offs to meet deadlines.</li>\n<li>Prioritize product features based on market demand, strategic goals, and robust risk assessment to maximize business impact.</li>\n<li>Monitor product performance metrics after release, making data-driven decisions to iterate and continuously improve the product.</li>\n</ul>\n\n<p><strong>What you’ll need to succeed:</strong></p>\n\n<ul>\n<li>Minimum of 5+ years of experience in product management, business analysis, technical project/program management or software development delivery.</li>\n<li>Direct experience building out complex web/SaaS/enterprise platforms.</li>\n<li>Proven ability to thrive in both the strategic and tactical, building a broad vision for a product area while flawlessly executing the plan.</li>\n<li>Exceptional written communication and story-telling skills.</li>\n<li>Strong detail orientation with a meticulous approach to developing requirements and identifying edge cases.</li>\n<li>Experience championing projects from start to finish, communicating the value to both internal and external stakeholders, mitigating risk and owning the delivery/results.</li>\n<li>Demonstrated ability to act as a self-managed leader who can take ownership of a large scope while remaining highly collaborative with cross-functional pods and technical experts.</li>\n<li>Expertise with common software development tooling like Jira and Figma.</li>\n</ul>\n\n<p>Winner of Canada’s Most Admired Corporate Cultures for two consecutive years. We offer more than just the basics, take advantage of:</p>\n\n<ul>\n<li><p>An award-winning culture with a collaborative & inclusive team.</p></li>\n\n<li><p>Competitive pay and performance-based bonus.</p>\n\n<ul>\n<li>Base salary: $130,000 - $145,000</li>\n<li>Annual bonus: 20%</li>\n</ul></li>\n\n<li><p>Committed to flexible work arrangements, offering hybrid workplace options.</p></li>\n\n<li><p>Comprehensive medical, dental and vision coverage + Lifestyle Account.</p></li>\n\n<li><p>RRSP Matching and Parental Leave Top UP Program.</p></li>\n\n<li><p>In office massage & workout sessions.</p></li>\n\n<li><p>Virtual events such as Lunch & Learns, company parties, fun team activities and charity initiatives.</p></li>\n\n<li><p>Career learning and development programs.</p></li>\n</ul>\n\n<p><strong>Next Steps:</strong></p>\n\n<p>If what you just read excites you, we’d like to hear from you! Please submit your application and we’ll contact you if you become selected for a phone interview.</p>\n\n<p><em>Financeit is an equal opportunity employer. Accommodation is available on request for candidates taking part in all aspects of the selection process.</em></p>",
+      "url": "https://remotefirstjobs.com/companies/financeit/jobs/senior-product-manager-745158",
+      "collected_at": "2026-03-26T09:49:34.365734+00:00",
+      "date": "Thu, 26 Mar 2026 03:25:51 +0000",
+      "filter_reason": "localização"
+    },
+    {
+      "id_hash": "1ce93a87ceb06e64fa8ccd98c6cf20a254094824d5377e13bc78c78d12b3a4ce",
+      "id": "1ce93a87ceb06e64fa8ccd98c6cf20a254094824d5377e13bc78c78d12b3a4ce",
+      "source": "jobscollider",
+      "title": "Senior Technical Product Manager I",
+      "company": "Housecall Pro",
+      "location": "",
+      "salary": null,
+      "jd_full": "<p><strong>Why Housecall Pro?</strong></p>\n\n<p>Help us build solutions that build better lives. At Housecall Pro, we show up to work every day to make a difference for real people: the home service professionals that support America’s 100 million homes. We’re all about the Pro, and dedicate our days to helping them streamline operations, scale their businesses, and—ultimately—save time so they can be with their families and live well. We care deeply about our customers and foster a culture where our company, employees, and Pros grow and succeed together. Leadership is as focused on growing team members’ careers as they expect their teams to be on creating solutions for Pros.  We also offer:</p>\n\n<ul>\n<li>A generous benefits program that supports the whole you with medical, dental, vision, life, disability, and 401(k)</li>\n<li>Paid holidays and flexible, take-it-as-you-need-it paid time off</li>\n<li>Equity in a rapidly growing startup backed by top-tier VCs</li>\n<li>Monthly tech reimbursements</li>\n<li>A culture built on innovation that values big ideas, no matter where they come from</li>\n</ul>\n\n<p>As a Senior Product Manager I, Search Platform, you are the lead architect of the infrastructure that powers search experiences across HCP. This is a high-impact platform role where your primary customers are internal domain teams, and your success is measured by the speed and quality with which they can build, ship, and evolve sophisticated search experiences. You operate with a dual perspective: strategizing for an elite developer experience while maintaining a relentless focus on Pro outcomes. You don’t just manage a roadmap; you build the long-term vision for search infrastructure, ensuring it scales, evolves, and remains a competitive advantage for the entire organization. You are a key influencer across the Product and Engineering teams, guiding how we leverage retrieval technologies to solve complex business problems at scale.</p>\n\n<p>Our team is passionate, empathetic, hard working, and above all else focused on improving the lives of our service professionals (our Pros). Our success is their success.</p>\n\n<p><strong>What you do Each Day</strong></p>\n\n<ul>\n<li><p>Strategize and define the long-term vision for search infrastructure at HCP</p></li>\n\n<li><p>Build and maintain the Search Platform roadmap, balancing foundational reliability with high-leverage new capabilities</p></li>\n\n<li><p>Identify and execute opportunities to accelerate product velocity across all domain teams</p></li>\n\n<li><p>Lead decisions regarding infrastructure and internal builds that drive the most significant impacts for our Pros and the business</p></li>\n\n<li><p>Drive team efficiency and output quality through the strategic use of AI tools and automation to compress discovery and coordination</p></li>\n\n<li><p>Analyze performance, latency, and search quality to proactively mitigate risks and surface platform-wide improvements</p></li>\n\n<li><p>Define and evolve the technical contracts between the platform and domain teams (i.e. schemas, field standards, APIs…)</p></li>\n\n<li><p>Streamline workflows for schema changes and re-indexing to minimize friction and operational risk</p></li>\n\n<li><p>Partner deeply with Engineering on index design, data pipelines, search APIs, and observability</p></li>\n\n<li><p>Architect abstraction layers that enable domain teams to build search experiences without requiring deep infrastructure expertise</p></li>\n</ul>\n\n<p><strong>Qualifications</strong></p>\n\n<ul>\n<li><p>5+ years of product management experience, specifically within platform, infrastructure, or developer-facing products</p></li>\n\n<li><p>Advanced experience in product management for search systems (i.e. OpenSearch, Elasticsearch, or similar…)</p></li>\n\n<li><p>Proven track record of defining APIs, SDKs, or internal platform contracts consumed by multiple engineering teams</p></li>\n\n<li><p>Strong analytical skills with the ability to define, monitor, and report on platform health and performance metrics</p></li>\n\n<li><p>SaaS product experience, ideally supporting business-critical workflows where search is a primary user action</p></li>\n\n<li><p>Bachelor’s degree or equivalent work experience</p></li>\n</ul>\n\n<p><strong>What will help you succeed in this role</strong></p>\n\n<ul>\n<li><p>Proven experience driving team efficiency or output quality through the strategic use of AI tools and automation</p></li>\n\n<li><p>Genuine motivation to champion the needs of Search Platform’s direct customers (i.e. internal product and engineering teams)</p></li>\n\n<li><p>Experience with hybrid search architectures combining keyword/vector search with AI or LLM-based retrieval (i.e. RAG, semantic search, re-ranking)</p></li>\n\n<li><p>Familiarity with applied ML or LLM integration patterns in production environments</p></li>\n\n<li><p>Ability to operate strategically while unblocking complex tactical infrastructure hurdles</p></li>\n\n<li><p>Clear, persuasive communication style capable of making complex infrastructure tradeoffs understandable for all stakeholders</p></li>\n\n<li><p>Deep commitment to connecting platform investments directly to Pro workflows and outcomes</p></li>\n</ul>\n\n<p>Founded in 2013, Housecall Pro helps home service professionals (Pros) streamline every aspect of their business. With easy-to-use tools for scheduling, dispatching, payments, and more, Housecall Pro enables Pros to save time, grow profitably, and provide best-in-class service.</p>\n\n<p>Housecall Pro’s brand portfolio includes Business Coaching by Housecall Pro, a business coaching solution for home services businesses. Our brands are united by a singular mission to champion our Pros to success.</p>\n\n<p>We support more than 40,000 businesses and have over 1,800 ambitious, mission-driven, genuinely fun-loving teammates across the globe. If you want to do work that impacts real people, supported by a team that will invest in you every step of the way, we’d love to hear from you</p>\n\n<p>Housecall Pro celebrates diversity and we are committed to creating an inclusive environment.  We are an equal opportunity employer and do not discriminate on the basis of gender, race, religion, national origin, ethnicity, disability, gender identity/expression, sexual orientation, veteran or military status, or any other category protected under the law. <strong>#LI-Remote</strong></p>\n\n<p><strong><em>Location Dependent Information</em></strong></p>\n\n<p><em>This role is open to candidates and the expected salary range for this role is $119,000-$149,000. The specific salary for the successful candidate will be determined based on permissible, non-discriminatory factors such as skills, experience, and geographic location. This role is also eligible to participate in Housecall Pro’s equity plan and the following benefits: health care insurance (medical, dental, vision, disability), employee assistance program, 401(K), flexible time off, paid parental leave, tech reimbursement, and other company benefits. Housecall Pro is growing fast and we’re scaling our team to help enable and accelerate our growth.</em></p>\n\n<p><em>Privacy Notice for California Job Candidates - Housecall Pro</em></p>",
+      "url": "https://remotefirstjobs.com/companies/housecall-pro/jobs/senior-technical-product-manager-i-745092",
+      "collected_at": "2026-03-26T09:49:34.365742+00:00",
+      "date": "Thu, 26 Mar 2026 02:14:22 +0000",
+      "filter_reason": "localização"
+    },
+    {
+      "id_hash": "6cfdb2db7460a7fe83b64791175109a6f1b03fdbf85b1de9b8b49491a2982369",
+      "id": "6cfdb2db7460a7fe83b64791175109a6f1b03fdbf85b1de9b8b49491a2982369",
+      "source": "jobscollider",
+      "title": "IT Service Delivery Manager",
+      "company": "VGW",
+      "location": "",
+      "salary": null,
+      "jd_full": "<p><strong>IT Service Delivery Manager</strong></p>\n\n<p><strong>VGW is an interactive entertainment company, harnessing technology and creativity to deliver world-class, free-to-play online social games.</strong></p>\n\n<p><strong>We have an exciting opportunity to join our Technology team in Perth and are currently looking for an IT Service Delivery Manager to join the team.</strong></p>\n\n<p>As a key leadership figure, you will provide global direction for our IT Service Delivery team, ensuring seamless operational execution and driving the transition toward a consistent, global service model.</p>\n\n<p><strong>Key responsibilities will include:</strong></p>\n\n<ul>\n<li>Leading end-user compute services across our global locations, ensuring top-tier connectivity, support, and hardware management.</li>\n<li>Transitioning our regional IT experiences into a unified, high-performing global service model and centralised service catalogue.</li>\n<li>Proposing and executing a transformation plan to align our team structures with our long-term strategy.</li>\n<li>Managing multi-year device lifecycle budgeting and exploring strategic third-party partnerships for global hardware fulfilment.</li>\n</ul>\n\n<p><strong>What you will bring to the role:</strong></p>\n\n<ul>\n<li>At least 5+ years of experience managing large, remote, and culturally diverse IT teams in a global capacity.</li>\n<li>A proven ability to lead teams through rapid organisational change with high resilience and strategic maturity.</li>\n<li>A deep understanding of SaaS technology and modern IT infrastructure, ideally backed by an ITIL certification.</li>\n<li>Experience moving beyond day-to-day ‘firefighting’ to implement proactive scaling, process optimisation, and data-driven dashboards.</li>\n</ul>\n\n<p><strong>About VGW</strong></p>\n\n<p>VGW is an interactive entertainment company, harnessing technology and creativity to deliver world-class, free-to-play online social games.</p>\n\n<p>Our high-quality, acclaimed brands include Chumba Casino, Global Poker and LuckyLand Slots, which are enjoyed by millions of players in North America.</p>\n\n<p>Our games are based on a freemium model, meaning they are available to play at no cost, but include optional in-game purchases to enhance gameplay. We also offer sweepstakes promotions where players can collect free entries for the chance to win real-world prizes.</p>\n\n<p>At VGW, one of our core values is “our players come first”. This means always striving to deliver a safe, responsible and positive player experience.</p>\n\n<p><strong>Why VGW?</strong></p>\n\n<p>At VGW, we’re more than just a team. We’re a diverse and inclusive group of individuals, each playing a vital role in our success.</p>\n\n<p>Our core values are clear and strong; we win together, do what’s right, put our players first and are powered by passion.</p>\n\n<p>We believe in our people and are committed to creating an environment where everyone feels welcome, inspired, and supported. We recognise that life is more than just work - that’s why we’re all about flexibility so you can strike a healthy balance between your personal life and career. We’re also here to champion your growth in your current role and future aspirations, providing opportunities for learning and career advancement. And to top it off, we back this all up with competitive compensation, perks and benefits.</p>\n\n<p>But it’s not all business. We inject fun into the workplace, celebrate together and create lasting memories, from a mix of in-person and online events, to social gatherings and much more.</p>\n\n<p>It’s our combined skills, ideas and visions that drive us forward. Join us on this exciting journey, and together, we’ll achieve remarkable things.</p>\n\n<p>If you want to join a team that does things differently, apply today - we look forward to seeing what you can bring to our team.</p>\n\n<p>Find out more at www.vgw.co</p>\n\n<p>#LI-TP1</p>\n\n<p>#LI-Hybrid</p>\n\n<p>Privacy Policy</p>",
+      "url": "https://remotefirstjobs.com/companies/vgw/jobs/it-service-delivery-manager-745146",
+      "collected_at": "2026-03-26T09:49:34.365754+00:00",
+      "date": "Thu, 26 Mar 2026 03:13:11 +0000",
+      "filter_reason": "localização"
+    }
+  ]
+}
