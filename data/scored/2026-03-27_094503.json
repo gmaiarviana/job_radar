@@ -1,0 +1,423 @@
+{
+  "scored_at": "2026-03-27T09:45:03.178781+00:00",
+  "source_file": "2026-03-27_094138.json",
+  "summary": {
+    "total_input": 11,
+    "total_llm_eliminated": 5,
+    "total_scored": 6,
+    "total_top": 1
+  },
+  "jobs": [
+    {
+      "score": 90,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato possui experiência DIRETA e relevante nos elementos centrais da vaga de IT Project Manager, incluindo a gestão de projetos de TI, definição de escopo e objetivos, liderança de equipes multifuncionais, monitoramento de progresso e indicadores-chave. Seu perfil está plenamente alinhado com os requisitos essenciais da função.",
+      "main_gap": "Nenhum gap identificado. O candidato apresenta um excelente fit para a vaga.",
+      "company": "Vend, a Lightspeed Company",
+      "location": "",
+      "title": "IT Project Manager",
+      "url": "https://remotefirstjobs.com/companies/lightspeed/jobs/it-project-manager-746357",
+      "id": "1df590d3c52ec21f2da19c10331ed0984a0747f6ddbf057d0ff92f1271f80015",
+      "core_requirements": [
+        {
+          "requirement": "Manage the intake of new IT projects, including evaluating requests, prioritizing projects, and maintaining the project backlog.",
+          "category": "leadership",
+          "evidence": "Relevant PM experience in the last 3-4 years, including program management and managing project teams.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Define project scope, objectives, and deliverables in partnership with stakeholders.",
+          "category": "leadership",
+          "evidence": "Relevant PM experience in the last 3-4 years, including defining scope and objectives with stakeholders.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Develop comprehensive project plans, timelines, and budgets.",
+          "category": "technical",
+          "evidence": "Relevant PM experience in the last 3-4 years, including developing project plans, timelines, and budgets.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Lead and manage cross-functional project teams, assigning roles and responsibilities.",
+          "category": "leadership",
+          "evidence": "Relevant PM experience in the last 3-4 years, including leading and managing cross-functional teams.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Monitor project progress, track key performance indicators (KPIs), and implement corrective actions as necessary.",
+          "category": "technical",
+          "evidence": "Relevant PM experience in the last 3-4 years, including monitoring progress, tracking KPIs, and implementing corrective actions.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Minimum of 3 years of experience in IT project management.",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": false
+      }
+    }
+  ],
+  "scored_jobs": [
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui uma boa base de experiência em papéis de PM/PO/TPM em tecnologia, com habilidades relevantes para o cargo de Delivery Manager. No entanto, há um gap de cerca de 1 ano na seniority exigida de 4+ anos, ficando com aproximadamente 3 anos de experiência. Ainda assim, suas competências em liderança de equipes, gestão de entregas e processos ágeis são suficientes para um bom desempenho na vaga, com um risco moderado.",
+      "main_gap": "Seniority de 4+ anos, sendo o candidato com ~3 anos na área de tecnologia.",
+      "company": "Genesis",
+      "location": "Ukraine",
+      "title": "Delivery Manager (JustDone)",
+      "url": "https://himalayas.app/companies/genesis/jobs/delivery-manager-justdone",
+      "id": "6ed66408c72e211001b62b4a76e0ee4afda649ab83e76b0b3b884f8745027a24",
+      "core_requirements": [
+        {
+          "requirement": "4+ years of experience in delivery/project/program management in product or technology companies",
+          "category": "seniority",
+          "evidence": "~3 years in PM/TPM tech roles (since Jul/2022) + previous experience in civil construction (2016-2019)",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "2+ years of experience working with cross-functional engineering teams",
+          "category": "experience",
+          "evidence": "Experience in PO, PM, and TPM roles working with engineering teams",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Practical experience working with Jira (workflow setup, backlog structuring, reporting)",
+          "category": "technical",
+          "evidence": "Experience using Jira for PM/PO/TPM roles",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Deep understanding of SDLC and delivery processes (Scrum, Kanban, hybrid), experience in building and optimizing them",
+          "category": "domain",
+          "evidence": "Experience in PO, PM, and TPM roles, including delivery process optimization",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Experience in managing cross-team dependencies and complex delivery flows in a multi-team environment",
+          "category": "leadership",
+          "evidence": "Experience in TPM role coordinating 3 teams (~25 engineers) in a global program",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "4+ years",
+        "candidate_has": "~3 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 90,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato possui experiência DIRETA e relevante nos elementos centrais da vaga de IT Project Manager, incluindo a gestão de projetos de TI, definição de escopo e objetivos, liderança de equipes multifuncionais, monitoramento de progresso e indicadores-chave. Seu perfil está plenamente alinhado com os requisitos essenciais da função.",
+      "main_gap": "Nenhum gap identificado. O candidato apresenta um excelente fit para a vaga.",
+      "company": "Vend, a Lightspeed Company",
+      "location": "",
+      "title": "IT Project Manager",
+      "url": "https://remotefirstjobs.com/companies/lightspeed/jobs/it-project-manager-746357",
+      "id": "1df590d3c52ec21f2da19c10331ed0984a0747f6ddbf057d0ff92f1271f80015",
+      "core_requirements": [
+        {
+          "requirement": "Manage the intake of new IT projects, including evaluating requests, prioritizing projects, and maintaining the project backlog.",
+          "category": "leadership",
+          "evidence": "Relevant PM experience in the last 3-4 years, including program management and managing project teams.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Define project scope, objectives, and deliverables in partnership with stakeholders.",
+          "category": "leadership",
+          "evidence": "Relevant PM experience in the last 3-4 years, including defining scope and objectives with stakeholders.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Develop comprehensive project plans, timelines, and budgets.",
+          "category": "technical",
+          "evidence": "Relevant PM experience in the last 3-4 years, including developing project plans, timelines, and budgets.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Lead and manage cross-functional project teams, assigning roles and responsibilities.",
+          "category": "leadership",
+          "evidence": "Relevant PM experience in the last 3-4 years, including leading and managing cross-functional teams.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Monitor project progress, track key performance indicators (KPIs), and implement corrective actions as necessary.",
+          "category": "technical",
+          "evidence": "Relevant PM experience in the last 3-4 years, including monitoring progress, tracking KPIs, and implementing corrective actions.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Minimum of 3 years of experience in IT project management.",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": false
+      }
+    },
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui background sólido em gestão de produtos, programas e projetos na área de tecnologia, com experiência em papéis como PO, TPM e PM. Seu perfil demonstra habilidades relevantes para a vaga, como tradução de requisitos de negócios em planos executáveis, liderança de iniciativas cross-funcionais e integração de sistemas. No entanto, a análise indica que sua experiência sênior (5+ anos) não é totalmente atingida, ficando em torno de 3-4 anos em papéis de PM/TPM. Essa lacuna de seniority impede que seu score ultrapasse o limite máximo de 65 pontos.",
+      "main_gap": "Lacuna de experiência sênior (5+ anos) em gestão de programas e integração de sistemas GTM",
+      "company": "GoFasti",
+      "location": "",
+      "title": "GTM Integration Program Manager",
+      "url": "https://remotefirstjobs.com/companies/gofasti/jobs/gtm-integration-program-manager-746323",
+      "id": "654c9b1ceed6c18e108ceea6135755bb15ad6dd96384777e47959b4d24d7afdf",
+      "core_requirements": [
+        {
+          "requirement": "Own end-to-end integration programs for GTM systems, including CRM, CPQ, sales enablement, and marketing platforms",
+          "category": "domain",
+          "evidence": "Experience as PO/TPM/PM with integrating CRM, sales, marketing and other GTM systems",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Lead cross-functional initiatives involving Sales, Marketing, Revenue Operations, IT, and external vendors",
+          "category": "leadership",
+          "evidence": "Experience leading cross-functional teams and initiatives as PO/TPM/PM",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Translate business requirements into executable program plans and integration roadmaps",
+          "category": "technical",
+          "evidence": "Experience in translating requirements into roadmaps and execution plans as PO/TPM/PM",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "5+ Senior Program Manager / Technical Program Manager / Delivery Lead experience",
+          "category": "seniority",
+          "evidence": "~3-4 years experience as PO/TPM/PM in tech roles",
+          "has_evidence": "partial"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "5+ years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui experiência relevante em gestão de programa/projeto e em segurança, demonstrando capacidades técnicas e de liderança. No entanto, há um pequeno gap de seniority em relação ao requerido pela vaga (3-5 anos), o que limita o score máximo possível a 65.",
+      "main_gap": "Seniority ligeiramente abaixo do ideal, mas ainda dentro do aceitável para a vaga.",
+      "company": "GLOBALIZATION PARTNERS LTD.",
+      "location": "",
+      "title": "Technical Program Manager (Security)",
+      "url": "https://remotefirstjobs.com/companies/g-p/jobs/technical-program-manager-security-746294",
+      "id": "a6f6f03c63b30bab703340c88dff5e76f6ae08f4c3b04c13dd4644eeb077a58f",
+      "core_requirements": [
+        {
+          "requirement": "3-5 years of experience in technical program management, project management, or a related analyst role",
+          "category": "seniority",
+          "evidence": "~3-4 years of PM/TPM experience since Jul/2022, including PO, TPM, and PM roles",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Understanding of security principles, technologies, and best practices",
+          "category": "technical",
+          "evidence": "Experience in security-focused roles, including incident response and security roadmap execution",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Proficiency in Agile methodologies and tools like Jira or Rally",
+          "category": "technical",
+          "evidence": "Experience in Agile practices and tools as part of PM/TPM roles",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Bachelor's degree in Computer Science, Information Security, or related field, or equivalent work experience",
+          "category": "education",
+          "evidence": "No explicit details on educational background, but the profile demonstrates relevant work experience",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Agile certification (e.g., CSM, SAFe) and experience with security frameworks such as NIST, ISO 27001, or SOC 2 are a plus",
+          "category": "other",
+          "evidence": "No information on specific certifications or security framework experience",
+          "has_evidence": "false"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "3-5 years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 52,
+      "score_ceiling": 55,
+      "ceiling_reason": "2+ penalties: domain_gap_core, seniority_gap.",
+      "justification": "O candidato possui uma experiência relevante em papéis de gestão de produto e programa, com destaque para sua transição de engenharia civil para tecnologia. No entanto, ele carece de experiência específica no domínio governamental/público (civilian, DoD, IC) e não atinge os 5+ anos de experiência exigidos pela vaga. Portanto, seu perfil é parcialmente alinhado com os requisitos centrais da vaga, justificando um score no limite superior da faixa de 50-69.",
+      "main_gap": "O principal gap é a falta de experiência direta no domínio governamental/público, além da lacuna de seniority em comparação ao solicitado.",
+      "company": "Collibra NV",
+      "location": "",
+      "title": "Account Program Manager",
+      "url": "https://remotefirstjobs.com/companies/collibra/jobs/account-program-manager-746293",
+      "id": "3fdb6b6f257c0ca9752f394b5a0dfec3ba4f261a660815b7d06f788072db1633",
+      "core_requirements": [
+        {
+          "requirement": "5+ years of experience in a technical customer-facing role (TAM, Solutions Engineer, Systems Engineer, or similar)",
+          "category": "seniority",
+          "evidence": "~3-4 years as PM/TPM in technology, including some customer-facing roles (PO, TPM, PM)",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Experience supporting U.S. federal government customers (civilian, DoD, or IC)",
+          "category": "domain",
+          "evidence": "",
+          "has_evidence": "false"
+        },
+        {
+          "requirement": "Strong understanding of enterprise software, SaaS, or cloud-based solutions",
+          "category": "technical",
+          "evidence": "Experience as PO, TPM, PM in technology companies, including work with SaaS and cloud",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Ability to explain complex technical concepts to both technical and non-technical audiences",
+          "category": "leadership",
+          "evidence": "Experience in customer-facing roles, including coordination with technical and non-technical stakeholders",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Experience working in regulated or high-security environments",
+          "category": "domain",
+          "evidence": "Experience in fintech (Nubank) and potentially some regulated environments in previous roles",
+          "has_evidence": "partial"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "5+ years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui experiência relevante em papéis de gerenciamento de produto, programa e entrega, incluindo uso prático de IA. No entanto, a exigência de 'experiência significativa' não é totalmente atendida, com cerca de 3-4 anos de experiência nessas funções. Portanto, uma pontuação na faixa de 50-69 é apropriada, refletindo que o candidato possui habilidades transferíveis, mas com um gap no requisito central de seniority.",
+      "main_gap": "Seniority abaixo do nível 'experiência significativa' exigido pela vaga",
+      "company": "GitLab",
+      "location": "Remote",
+      "title": "CX Services Program Manager",
+      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8481256002",
+      "id": "15346ea74a4fc32f59789f5ca8240bf8f1757f132640b88e3eee9622bbd2187d",
+      "core_requirements": [
+        {
+          "requirement": "Significant experience in professional services, customer success, solutions architecture, or product management within a SaaS environment.",
+          "category": "seniority",
+          "evidence": "Significant experience in: PO (Mar/2026–Atual), PM (Out/2025–Fev/2026), TPM (Set/2024–Set/2025) roles in tech/SaaS, as well as Business Analyst role at Nubank (Feb/2021–Mai/2022) and Project Manager role in construction (2016–2019).",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Strong foundation in DevOps, application development, software development lifecycle, or security concepts, with the ability to apply that knowledge when designing credible services for a technical product space.",
+          "category": "technical",
+          "evidence": "Experienced in applying technical concepts in product roles, including refactoring of image scanning with IA integration (as PO), delivering a program of global complexity (as TPM), and using IA in R&D work.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Familiarity with AI and machine learning workflows, large language models, and integrating AI into daily workflows to drive efficiency, innovation, and impact.",
+          "category": "technical",
+          "evidence": "Demonstrated experience with AI/ML, including PoCs with GenAI, LLM integration, and methodological approach to AI with documentation, governance, evaluation, and specialized pipelines.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Ability to design service offerings, frameworks, tooling requirements, and enablement that help field teams deliver those services effectively at scale.",
+          "category": "domain",
+          "evidence": "Experience in designing services, frameworks, and enablement as a PO, PM, and TPM, including creating field enablement materials such as playbooks, training resources, and managing tooling requirements.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Ability to map and continuously improve the customer journey, defining how customers move across digital experiences, Customer Success tiers, Professional Services, and Education and Training.",
+          "category": "domain",
+          "evidence": "Experience in owning end-to-end customer journeys, defining value anchors, and improving service delivery across various customer touchpoints and channels.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Significant experience",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    }
+  ],
+  "eliminated_jobs": [
+    {
+      "id_hash": "db22c345567b17ff00a20580e39c5db7ba4fe229d591b7831d211dcf587d04ea",
+      "id": "db22c345567b17ff00a20580e39c5db7ba4fe229d591b7831d211dcf587d04ea",
+      "source": "jobicy",
+      "title": "Senior Product Operations Manager",
+      "company": "Clickhouse",
+      "location": "UK",
+      "salary": null,
+      "jd_full": "<h2>About ClickHouse</h2>\n<p>Recognized on the 2025 Forbes Cloud 100 list, ClickHouse is one of the most innovative and fast-growing private cloud companies. With more than 3,000 customers and ARR that has grown over 250 percent year over year, ClickHouse leads the market in real-time analytics, data warehousing, observability, and AI workloads.</p>\n<p>The company’s sustained, accelerating momentum was recently validated by a $400M Series D financing round. Over the past three months, customers including Capital One, Lovable, Decagon, Polymarket, and Airwallex have adopted the platform or expanded existing deployments. These customers join an established base of AI innovators and global brands such as Meta, Cursor, Sony, and Tesla.</p>\n<p>We’re on a mission to transform how companies use data. Come be a part of our journey!</p>\n<p>NOTE: this position can be remote anywhere within the United Kingdom.</p>\n<p>We're looking for a Senior Product Operations Manager to bring structure, tooling, and operational clarity to ClickHouse's Product Management organization. This is a greenfield role — you'll be the first person dedicated to product ops — which means you'll have the opportunity to build workflows and systems from scratch rather than maintain someone else's.</p>\n<p>This role sits within the Product Management organization. You'll work day-to-day alongside PMs and Engineering to reduce operational overhead, establish meaningful metrics, and make sure the right information reaches the right people at the right time. You're someone who gets energy from making systems work — whether that's building automations, leveraging AI to eliminate repetitive work, or designing reporting cadences that people actually look forward to.</p>\n<h2><strong>What You'll Do</strong></h2>\n<p><strong>Tooling &amp; Automation</strong></p>\n<ul>\n<li>Own and continuously improve the PM tooling stack: Linear for issue and roadmap tracking, GitHub for engineering alignment, and Notion as the team's knowledge and documentation hub.</li>\n<li>Build lightweight automations and integrations across Linear, GitHub, and Notion — syncing issue states, triggering notifications, and surfacing relevant signals and dependencies, and auto-generate roadmaps.</li>\n<li>Identify opportunities to apply AI tools to product operations workflows — from drafting status updates to accelerating research synthesis and reducing repetitive coordination overhead.</li>\n<li>Evaluate and pilot new tools or integrations as the product org grows, with a bias toward practical solutions that reduce friction.</li>\n</ul>\n<p><strong>Strategy Translation &amp; Initiative Structuring</strong></p>\n<ul>\n<li>Translate company priorities into structured Linear projects with defined scope, owners, milestones, and success criteria.</li>\n<li>Partner with PM and engineering leads to map priorities to team capacity, surface conflicts early, and ensure cross-functional execution is coordinated rather than siloed.</li>\n<li>Maintain a single source of truth in Linear and Notion with self-serve dashboards giving stakeholders real-time visibility into execution vs. goals.</li>\n<li>Establish repeatable processes for how new initiatives get ingested, decomposed, and divided into clearly owned workstreams across the full product lifecycle: new product introductions, major feature updates, iterative improvements, and deprecations.</li>\n<li>Own a launch readiness process and checklist that coordinates pre-launch responsibilities across Legal, Sales Enablement, Support Enablement, Marketing, and other stakeholders — ensuring nothing falls through the cracks when shipping.</li>\n</ul>\n<h2><strong>What We're Looking For</strong></h2>\n<ul>\n<li>3–5 years of experience in product operations, technical program management, or a closely related operational role at a relevant SaaS company. Start-up experience preferred.</li>\n<li>Demonstrated ability to take high-level company goals or strategic priorities and decompose them into structured, actionable projects that cross-functional teams can execute against.</li>\n<li>Hands-on proficiency with Linear, GitHub, and Notion — you understand how these tools work individually and how to make them work together.</li>\n<li>Experience building automations or integrations (using no-code tools, webhooks, or scripting) to solve real operational problems without engineering support.</li>\n<li>Comfortable working with metrics and data: you can define what to measure, set up tracking, and communicate findings clearly to both technical and non-technical audiences.</li>\n<li>Strong written communication skills — you produce documentation and status updates that are clear, concise, and actually get read.</li>\n<li>Organized and detail-oriented, with the ability to manage multiple workstreams across Product and Engineering simultaneously.</li>\n<li>Collaborative by default — you're energized by making others more effective and thrive in a role where your impact shows up in the work of those around you.</li>\n</ul>\n<p>#LI-remote</p>\n<h2><strong>Compensation</strong></h2>\n<p>For roles based in the <strong>United States</strong>, the typical starting salary range for this position is listed above. In certain locations, such as the San Francisco Bay Area and the New York City Metro Area, a premium market range may apply, as listed.</p>\n<p>These salary ranges reflect what we reasonably and in good faith believe to be the minimum and maximum pay for this role at the time of posting. The actual compensation may be higher or lower than the amounts listed, and the ranges may be subject to future adjustments.</p>\n<p>An individual’s placement within the range will depend on various factors, including (but not limited to) education, qualifications, certifications, experience, skills, location, performance, and the needs of the business or organization.</p>\n<p>If you have any questions or comments about compensation as a candidate, please get in touch with us at <a href=\"mailto:paytransparency@clickhouse.com\" rel=\"nofollow ugc noopener\" target=\"_blank\">paytransparency@clickhouse.com</a>.</p>\n<h2><strong>Perks</strong></h2>\n<ul>\n<li><strong>Flexible work environment</strong> - ClickHouse is a globally distributed company and remote-friendly. We currently operate in 20 countries.</li>\n<li><strong>Healthcare</strong> - Employer contributions towards your healthcare.</li>\n<li><strong>Equity in the company</strong> - Every new team member who joins our company receives stock options.</li>\n<li><strong>Time off</strong> - Flexible time off in the US, generous entitlement in other countries.</li>\n<li><strong>A $500 Home office setup </strong>if you’re a remote employee.</li>\n<li><strong>Global Gatherings </strong>– We believe in the power of in-person connection and offer opportunities to engage with colleagues at company-wide offsites.</li>\n</ul>\n<p><strong>Culture - We All Shape It</strong></p>\n<p>As part of our first 500 employees, you will be instrumental in shaping our culture. </p>\n<p>Are you interested in finding out more about our culture? Learn more about our values <a href=\"https://clickhouse.com/company/careers\" rel=\"nofollow ugc noopener\" target=\"_blank\">here</a>. Check out our<a href=\"https://clickhouse.com/blog\" rel=\"nofollow ugc noopener\" target=\"_blank\"> blog posts</a> or follow us on <a href=\"https://www.linkedin.com/company/clickhouseinc/life/0c1ee7f4-2129-488d-b413-e7f6270659fd/?viewAsMember=true\" rel=\"nofollow ugc noopener\" target=\"_blank\">LinkedIn</a> to find out more about what’s happening at ClickHouse.</p>\n<p><strong>Equal Opportunity &amp; Privacy </strong></p>\n<p>ClickHouse provides equal employment opportunities to all employees and applicants and prohibits discrimination and harassment of any type based on factors such as race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state or local laws. </p>\n<p>Please see <a href=\"https://clickhouse.com/legal/applicant-privacy-notice\" target=\"_blank\" rel=\"nofollow ugc noopener\">here</a> for our Privacy Statement.</p>",
+      "url": "https://jobicy.com/jobs/141247-senior-product-operations-manager",
+      "collected_at": "2026-03-27T09:41:49.353206+00:00",
+      "date": "2026-03-26T08:59:28+00:00",
+      "filter_reason": "localização"
+    },
+    {
+      "id_hash": "fa3f49e3cf7ddf5dc071e4e5149da89a8b0e543bf4d5ba7d1e4cd35b8b3f7a73",
+      "id": "fa3f49e3cf7ddf5dc071e4e5149da89a8b0e543bf4d5ba7d1e4cd35b8b3f7a73",
+      "source": "jobscollider",
+      "title": "Delivery Manager Public Sector Consultant Analyst",
+      "company": "PA Consulting",
+      "location": "",
+      "salary": null,
+      "jd_full": "<h3>Company Description</h3>\n\n<p>We believe in the power of ingenuity to build a positive human future.</p>\n\n<p>As strategies, technologies, and innovation collide, we create opportunity from complexity.</p>\n\n<p>Our teams of interdisciplinary experts combine innovative thinking and breakthrough technologies to progress further, faster. Our clients adapt and transform, and together we achieve enduring results.</p>\n\n<p>We are over 4,000 strategists, innovators, designers, consultants, digital experts, scientists, engineers, and technologists. And we have deep expertise in consumer and manufacturing, defence and security, energy and utilities, financial services, government and public services, health and life sciences, and transport.</p>\n\n<p>Our teams operate globally from offices across the UK, Ireland, US, Nordics, and Netherlands.</p>\n\n<p><strong>PA. Bringing Ingenuity to Life.</strong></p>\n\n<h3>Job Description</h3>\n\n<p>Ready to take charge and steer projects towards success with your proven delivery expertise?</p>\n\n<p>Our Major Programme Services (MPS) team is looking for exceptional Delivery Managers.</p>\n\n<p>As part of PA’s Delivery stream, PA’s Centre of Excellence for all project, programme, and portfolio capability, the MPS team works across the defence, major projects & infrastructure, transport, and public sector domains in client-facing roles on long-term assignments. Having experienced repeated successes in delivering value and excellence for our clients, most of whom are within daily commuting range from home, we are in high demand and are now expanding further across the UK.</p>\n\n<p>As a Delivery Manager, you will play a pivotal role in supporting our clients to delivering some of the UK’s most complex products and services. Your expertise in delivery management will be crucial in supporting the successful achievement of outcomes for our clients.  You’ll set the team up for success, support them in problem solving and planning and enable them to come up with their own insights within the complex constraints our clients face today. You’ll be fully client-facing, harnessing the metrics coming from the team, both to help the team improve its own throughput and to inform clients and others about how the teams are delivering. You’ll be an experienced delivery practitioner, getting into the detail to make things happen at pace.</p>\n\n<p><strong>Location</strong></p>\n\n<p>Hybrid working - our approach is to be on client site 2 days per week.</p>\n\n<p><strong>You will have opportunity to</strong>:</p>\n\n<ul>\n<li>Play a role in the formation and running of high performing cross functional teams, where people are excited about the work they are undertaking. This means you are not set in one process or way of thinking but willing to learn new skills and blend approaches to solve our client challenges.</li>\n<li>Deliver products and projects using the appropriate methodology, learning and iterating frequently, sharing and re-applying skills and knowledge, and bringing in best practice with a view to continuous performance improvement.</li>\n<li>Set the bar/example of what great Delivery Management looks like, ensuring quality and attention to detail is embedded throughout our work.</li>\n<li>Lead stakeholder engagement activities, facilitating collaboration and communication among all participants.</li>\n<li>Develop your own delivery expertise even further through a range of on-the-job learning, training, and formal qualifications.</li>\n</ul>\n\n<p>Please note: We like to recruit lots of great people into this role, across all ranks. You will see this advertised year-round and you will be individually reviewed by our recruiting team who will reach out to you dependent on your suitability at this time or in the future.</p>\n\n<h3>Qualifications</h3>\n\n<p><strong>About You</strong></p>\n\n<ul>\n<li>At least 2 years’ experience in agile delivery consulting or related roles.</li>\n<li>Experience and knowledge of estimating, scoping and delivering products, services, and outcomes using a variety of delivery techniques and methods.</li>\n<li>Experience of working in technical/engineering projects using Agile Delivery methods.</li>\n<li>Experience or certification in project management or project controls methodologies (PMQ, Prince2 etc) is desirable.</li>\n<li>Analytical mindset with the ability to identify and solve problems, and to make informed decisions.</li>\n<li>Excellent communication skills, both written and verbal, with the ability to present complex information to clients and stakeholders in a clear and concise manner.</li>\n<li>Strong interpersonal skills, enabling successful collaboration with stakeholders across all levels.</li>\n</ul>\n\n<p>We know the skill-gap and ‘somewhat need to tick every box’ can get in the way of meeting brilliant candidates, so please don’t hesitate to apply – we’d love to hear from you.</p>\n\n<p><strong>Apply today by completing our online application</strong></p>\n\n<h3>Additional Information</h3>\n\n<p>Life At PA encompasses our peoples’ experience at PA. It’s about how we enrich peoples’ working lives by giving them access to unique people and growth opportunities and purpose led meaningful work.</p>\n\n<p>Our purpose guides how we work with our clients and our teams, and support our communities, to deliver insight and impact, solving the world’s most complex challenges. We’re focused on building a workplace that values human difference and diverse mindsets, and a culture of inclusion and equality that unlocks the potential in our people so everyone can be their best self.</p>\n\n<p>Find out more about Life at PA here.</p>\n\n<p>We are dedicated to supporting the physical, emotional, social and financial well-being of our people. Check out some of our extensive benefits:</p>\n\n<ul>\n<li>Health and lifestyle perks accompanying private healthcare</li>\n<li>25 days annual leave (plus a bonus half day on Christmas Eve) with the opportunity to buy 5 additional days</li>\n<li>Generous company pension scheme</li>\n<li>Opportunity to get involved with community and charity-based initiatives</li>\n<li>Annual performance-based bonus</li>\n<li>PA share ownership</li>\n<li>Tax efficient benefits (cycle to work, give as you earn)</li>\n</ul>\n\n<p>We’re committed to advancing equality. We recruit, retain, reward and develop our people based solely on their abilities and contributions and without reference to their age, background, disability, genetic information, parental or family status, religion or belief, race, ethnicity, nationality, sex, sexual orientation, gender identity (or expression), political belief veteran status, or other by any other range of human difference brought about by identity and experience. We welcome applications from underrepresented groups.</p>\n\n<p>Adjustments or accommodations - Should you need any adjustments or accommodations to the recruitment process, at either application or interview, please contact us on [email protected]</p>\n\n<p>#LI-LD1</p>\n\n<p>#LI-Hybrid</p>",
+      "url": "https://remotefirstjobs.com/companies/pa-consulting/jobs/delivery-manager-public-sector-consultant-analyst-746410",
+      "collected_at": "2026-03-27T09:41:54.388628+00:00",
+      "date": "Fri, 27 Mar 2026 02:09:35 +0000",
+      "filter_reason": "localização"
+    },
+    {
+      "id_hash": "beac694856c3bc8d891d7a607f7edd3d51d774ad91f252ec89490beb19108f1b",
+      "id": "beac694856c3bc8d891d7a607f7edd3d51d774ad91f252ec89490beb19108f1b",
+      "source": "jobscollider",
+      "title": "Senior Product Manager Automation & Data Applications",
+      "company": "Keboola",
+      "location": "",
+      "salary": null,
+      "jd_full": "<p>Keboola raised $32M (Central Europe’s largest Series A in 2023) to redefine how companies work with data. Our platform delivers 10x results for customers and now we’re scaling globally to help every data team move faster, think smarter, and build with impact.</p>\n\n<p>We are looking for a Senior Product Manager to own Automation & Data Applications at Keboola. This is where users design and schedule automated data workflows, manage complex orchestration logic, query data interactively, and build customer-facing data applications that run on Keboola infrastructure.</p>\n\n<p>This role sits at the intersection of developer tooling and business accessibility. Your users range from data engineers building complex pipelines and managing Git-synced code, to business analysts who need to create workflows and data apps without writing a line. You need to speak both languages fluently - and obsess over making the experience work for both. The best product here isn’t the one with the most features; it’s the one where more people successfully build things.</p>\n\n<p>The competitive landscape is evolving fast - from app-building tools like Lovable and Base44 to workflow platforms like Zapier, Make, and n8n. You need to understand not just what competitors ship, but why users choose them.</p>\n\n<p>We want someone who is AI-native by default - prototyping, analyzing, and writing specs with AI as a matter of course - and who can shape how AI transforms our product, from assisted flow building to intelligent automation. You take full ownership of your domain, prioritize through data over gut feeling, and have a sharp commercial instinct - understanding what drives expansion and how product decisions connect to business outcomes.</p>\n\n<p>This is not an engineering management position. We need someone with deep user empathy - a PM who spends time understanding real pain points, talks to users constantly, and translates those insights into a product strategy that moves metrics. You need to care equally about the data engineer who wants fine-grained control and the business analyst who just wants to get a workflow running without asking for help. If you lean more toward writing specs than talking to customers, this is not the right fit.</p>\n\n<h3>What You Will Own</h3>\n\n<ul>\n<li><p><strong>Data Workflow & Orchestration:</strong> The workflow scheduling and flow-building experience—how users design, trigger, condition, and monitor automated data pipelines. This needs to work for data engineers building complex multi-step flows and for business users setting up straightforward automations. You will inherit an active migration from legacy orchestrations to our next-generation conditional flows system, including driving adoption, managing the deprecation timeline, and getting the new system to GA.</p></li>\n\n<li><p><strong>Data Applications:</strong> Customer-facing applications built on Keboola data using JavaScript frameworks, custom container images, and modern app-building tools. For technical users, this means a solid developer workflow—building locally, syncing via Git, deploying from repositories. For business users, it means an experience simple enough that they can create and publish a data application without needing a developer.</p></li>\n\n<li><p><strong>SQL Editor & Interactive Query:</strong> The in-platform experience for writing, running, and exploring SQL queries against Keboola-managed data—including sessions, profiling, and documentation.</p></li>\n\n<li><p><strong>Developer Experience for Data Apps:</strong> The end-to-end workflow for technical users building data applications—from writing code locally to syncing via Git to deploying and running on Keboola’s cloud infrastructure.</p></li>\n\n<li><p><strong>Usage & Engagement Metrics:</strong> You own the numbers. How many workflows are being built? How often are data applications used? Where do users drop off, and why?</p></li>\n\n<li><p><strong>Commercial Impact:</strong> You connect your product area to revenue—understanding how automation and data applications drive expansion, reduce churn, and create upsell opportunities.</p></li>\n</ul>\n\n<h3>Requirements</h3>\n\n<ul>\n<li><p>5–8+ years of product management experience, with at least 2–3 years on technical or developer-facing products.</p></li>\n\n<li><p>Direct experience with workflow automation platforms, data applications, developer tools, or orchestration products (think Zapier, Make, n8n, Retool, or similar).</p></li>\n\n<li><p>Hands-on familiarity with Python, SQL, Git, and cloud-native development workflows.</p></li>\n\n<li><p>Familiarity with JavaScript frameworks or other tools for building data-driven applications.</p></li>\n\n<li><p>Demonstrated ability to drive product adoption and engagement metrics—not just ship features.</p></li>\n\n<li><p>Track record of connecting product decisions to commercial outcomes—expansion revenue, retention, or monetization.</p></li>\n\n<li><p>Strong communication skills in English (written and spoken). Czech is a plus but not required.</p></li>\n\n<li><p>Familiarity with the emerging AI-powered app-building landscape (Lovable, Hugging Face Spaces, Base44, v0).</p></li>\n\n<li><p>Experience working in a product-led growth or usage-driven environment.</p></li>\n</ul>\n\n<p><strong>Nice to Have</strong></p>\n\n<ul>\n<li><p>Previous experience as a data engineer, developer, or in a technical role before transitioning to product.</p></li>\n\n<li><p>Experience with Keboola or comparable platforms (Airflow, Dagster, Prefect, dbt).</p></li>\n\n<li><p>Background in building or managing products that involve GitHub integrations or local-to-cloud sync workflows.</p></li>\n</ul>\n\n<h3>You can look forward to the following benefits</h3>\n\n<ul>\n<li>Competitive salary + equity package.</li>\n<li>Budget for education.</li>\n<li>25 PTO’s plus 3 sick days.</li>\n<li>Cool new offices in the heart of Holesovice in Prague. You need to be 3 times a week in the office.</li>\n<li>No set office hours and flexibility.</li>\n</ul>\n\n<h3>Keboola’s Core Values</h3>\n\n<ul>\n<li>Care, love and respect</li>\n<li>No BS</li>\n<li>Get your stuff done and do a bit more</li>\n<li>Create and innovate</li>\n<li>Learn!</li>\n<li>One team</li>\n</ul>\n\n<p><strong>Equal Opportunity Statement</strong></p>\n\n<p>Keboola is an Equal Opportunity Employer. We are committed to fostering an inclusive, equitable, and diverse workplace where everyone, regardless of race, colour, religion, gender, national origin, age, disability, veteran status, genetic information, or any other protected status, is given equal opportunity to thrive.</p>\n\n<p>We value the unique perspectives and experiences of all employees and applicants, and we strive to ensure that all employment decisions are based on merit, qualifications, and business needs.</p>\n\n<p><strong>More About Keboola</strong></p>\n\n<p>Every day, Keboola connects data, systems, and people to do their best work all in one place. Keboola is a hybrid, multi-cloud data platform that reduces data complexity by streamlining and automating processes. Hundreds of innovative companies rely on Keboola to unlock the power of their data, bringing the potential of AI and advanced analytics to life. For more information, visit keboola.com or connect with us on LinkedIn, Twitter, and Facebook.</p>\n\n<p>We may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses. These tools assist our recruitment team but do not replace human judgment. Final hiring decisions are ultimately made by humans. If you would like more information about how your data is processed, please contact us.</p>",
+      "url": "https://remotefirstjobs.com/companies/keboola/jobs/senior-product-manager-automation-data-applications-746398",
+      "collected_at": "2026-03-27T09:41:54.388648+00:00",
+      "date": "Fri, 27 Mar 2026 01:56:37 +0000",
+      "filter_reason": "localização"
+    },
+    {
+      "id_hash": "d965fab33da531b0f8cbb3410c96b20abd1feaeb569ecedbf493a59bec8ff22e",
+      "id": "d965fab33da531b0f8cbb3410c96b20abd1feaeb569ecedbf493a59bec8ff22e",
+      "source": "jobscollider",
+      "title": "Senior Technical Project Manager Mobile",
+      "company": "360Learning",
+      "location": "",
+      "salary": null,
+      "jd_full": "<p><strong>Introduction to the Team & Role</strong></p>\n\n<p>Our Mobile team is organized into 3 squads, 2 feature squads, and 1 technical squad, supported by an Engineering Manager and Technical Leads. Together, they execute on an ambitious roadmap in close coordination with 10+ web product squads to deliver a seamless experience and reinforce our leadership in collaborative learning.</p>\n\n<p>As the platform scales to meet growing product and technical ambitions, the team faces exciting challenges, including expanding a portfolio of over 160 custom apps while strengthening scalability, maintainability, and technical foundations.</p>\n\n<p>To support this journey, we are looking for a <strong>Senior Technical Project Manager</strong> to lead delivery and execution across mobile squads. This role sits at the intersection of product, engineering, design, and business, translating strategy into execution while ensuring alignment, smooth coordination, reduction of technical debt, and high-quality delivery of features and apps across multiple teams in a fast-paced, evolving environment</p>\n\n<p>Other key initiatives ahead include a full UI revamp and evolution of the Mobile Design System, the launch of a modern single-page Player with Kotlin MultiPlatform (KMP) migration, new client-facing web features for managing custom app requests, and the integration of AI-powered capabilities across the mobile ecosystem.</p>\n\n<h3>Within 1 month, you will:</h3>\n\n<ul>\n<li><p>Get onboarded on our mobile ecosystem, team structure, and current roadmap.</p></li>\n\n<li><p>Build a clear understanding of ongoing projects, delivery processes, and squad dynamics.</p></li>\n\n<li><p>Establish relationships with key stakeholders across product, engineering, design, and business.</p></li>\n\n<li><p>Gain visibility into current priorities, risks, and dependencies across the mobile squads.</p></li>\n</ul>\n\n<h3>Within 3 months, you will:</h3>\n\n<ul>\n<li><p>Take ownership of delivery coordination across all mobile squads (2 feature squads and 1 technical squad).</p></li>\n\n<li><p>Implement and refine a clear execution framework to ensure predictable and transparent delivery.</p></li>\n\n<li><p>Start managing roadmap arbitration across multiple product streams, balancing priorities and capacity.</p></li>\n\n<li><p>Proactively identify and manage risks, dependencies, and cross-team coordination needs</p></li>\n\n<li><p>Act as the main point of contact for stakeholders, aligning on timelines, trade-offs, and delivery expectations.</p></li>\n</ul>\n\n<h3>Within 6 months, you will:</h3>\n\n<ul>\n<li><p>Fully own the mobile delivery lifecycle, from planning to execution and continuous improvement.</p></li>\n\n<li><p>Establish strong prioritization frameworks to support decision-making across stakeholders.</p></li>\n\n<li><p>Lead technical impact assessments for incoming initiatives, ensuring feasibility and scalability.</p></li>\n\n<li><p>Improve delivery processes to increase team efficiency, autonomy, and quality.</p></li>\n\n<li><p>Strengthen collaboration between mobile, backend, and frontend teams.</p></li>\n</ul>\n\n<h3>Within 12 months, you will:</h3>\n\n<ul>\n<li><p>Drive operational excellence across the mobile organization with scalable and efficient delivery practices.</p></li>\n\n<li><p>Contribute to the evolution of the mobile platform’s technical foundations and long-term strategy.</p></li>\n\n<li><p>Enable the successful delivery of key initiatives (UI revamp, new Player, KMP migration, AI features).</p></li>\n\n<li><p>Foster a culture of ownership, collaboration, and continuous improvement within the squads.</p></li>\n\n<li><p>Be recognized as a strategic partner to leadership, helping shape roadmap decisions and execution at scale.</p></li>\n</ul>\n\n<h3>The Skill Set:</h3>\n\n<ul>\n<li><p>5+ years of experience in Technical Project Management or Technical Program Management</p></li>\n\n<li><p>Strong understanding of the mobile development lifecycle (iOS / Android) with ideally a background in mobile engineering and/or mobile development</p></li>\n\n<li><p>Experience coordinating work across multiple engineering teams or technical projects (e.g platform teams, DevOps, CI/CD pipelines or DX)</p></li>\n\n<li><p>Strong prioritization and roadmap management skills.</p></li>\n\n<li><p>Ability to manage multiple stakeholders and show great communication skills</p></li>\n\n<li><p>Fluent English (US/UK) / B2 level or equivalent (FR)</p></li>\n\n<li><p>Enthusiasm for our working environment explained here:  https://bit.ly/Convexity_360L</p></li>\n</ul>\n\n<h3>Interview Process:</h3>\n\n<ul>\n<li>Phone Screen with our Talent Acquisition Manager</li>\n<li>Discovery Meeting with a Group Product Manager or our CPO</li>\n<li>Case study with our Mobile Engineering Manager and a Product Manager</li>\n<li>Clarification Meeting with a Mobile Developer and our VP Engineering</li>\n<li>Culture Fit Meeting with our CEO</li>\n<li>Offer!</li>\n</ul>\n\n<p>Get ready using our Knowledge Base: <em>https://bit.ly/42H1ggC</em></p>\n\n<p>Who We Are</p>\n\n<p>360Learning enables companies to upskill from within by turning their experts into champions for employee, customer, and partner growth. With our LMS for collaborative learning, Learning & Development teams can accelerate upskilling with the help of internal experts instead of slow top-down training. 360Learning is the easiest way to onboard and upskill employees, train customer-facing teams, and enable customers and partners–all from one place.</p>\n\n<p>360Learning powers the future of work at 1,700 organizations. Founded in 2013, 360Learning has raised $240 million with 400+ team members across North America and EMEA.</p>\n\n<p>Learning Includes Everyone.</p>\n\n<p>In concert with our culture, 360Learning believes learning includes everyone and that means embracing the strengths of diversity, connectedness, and inclusion. Through conscientious efforts, our global footprint celebrates cultures, perspectives, and experiences from all over the world to support our platform that is built for all regardless of race, ethnicity, gender identity or expression, sexual orientation, religion, age, neurodiversity, disability status, citizenship, veteran status or any other aspect which makes an individual unique or protected by laws and regulations in the locations where we operate. Thus, 360Learning is proud to be an equal opportunity workplace, and we commit to continue this throughout our processes for recruitment, compensation, benefits, performance, promotion, and all other conditions and terms of employment. We want to learn from and with you!</p>",
+      "url": "https://remotefirstjobs.com/companies/360learning/jobs/senior-technical-project-manager-mobile-746397",
+      "collected_at": "2026-03-27T09:41:54.388654+00:00",
+      "date": "Fri, 27 Mar 2026 01:55:33 +0000",
+      "filter_reason": "localização"
+    },
+    {
+      "id_hash": "26de4e8637eb9177fab07c25f297076a75afea16889291a83fba2b3cbef7d1be",
+      "id": "26de4e8637eb9177fab07c25f297076a75afea16889291a83fba2b3cbef7d1be",
+      "source": "jobscollider",
+      "title": "Project Manager",
+      "company": "United States Department of Defense",
+      "location": "",
+      "salary": null,
+      "jd_full": "<p><strong>Project Manager</strong> Toronto, hybrid</p>\n\n<p><em>DEPT® is a Growth Invention company built to help the world’s most ambitious brands grow faster. Operating at the intersection of technology and marketing, our 4,000+ specialists deliver growth invention services across Brand & Media, Experience, Commerce, CRM, and Technology & Data. We’re 50|50 tech and marketing, partner-led, and first to move. Clients include Google, Lufthansa, Meta, eBay, and OpenAI. We have been certified B Corp and Climate Neutral since 2021.</em></p>\n\n<p><em>This is a 6 month fixed term employee contract.</em></p>\n\n<p><em>This posting reflects an existing vacancy.</em></p>\n\n<p><strong>JOB PURPOSE</strong></p>\n\n<p><em>This role is part of our</em> <strong><em>Global Studios</em></strong> <em>team. We create emotive yet conversion-focused ideas, products and campaigns at scale and speed. Our specialty is hyper-personalised, digital communications that change perceptions, shape new behaviours, and shift market share for our clients.</em></p>\n\n<p>DEPT is looking for a rockstar, seasoned Project Manager. This person will lead creation of high-valued digital experiences that inspire, educate and convert consumers. They will be responsible for oversight of a key business unit within a significant ecommerce platform. Activities will include launching products, support of marketing initiatives and innovative digital experience.</p>\n\n<p>Candidates for this position must have a track record of best-in-class delivery. In addition to being a critical part of our client’s product marketing strategy, the site is a showcase for web design standards. Candidates should have experience in measured marketing and development engagement. You’re obsessed with latest in internet advancements and technology, and are prepared to take a leadership role in our client’s overall digital presence across all products.</p>\n\n<p><strong>WHAT YOU’LL DO:</strong></p>\n\n<ul>\n<li>Strategic: The ability to communicate high-level concepts and overall business direction</li>\n<li>Innovative: Putting forth new solutions that break ground in digital interaction</li>\n<li>Results-oriented: A proven track record of delivering results</li>\n<li>Collaborative: With multiple stakeholders, communication and teamwork is critical</li>\n<li>Leadership: The candidate must be able to lead a multi-disciplinary team to a desired result, including high-profile launches, campaigns, and corporate initiatives</li>\n<li>Structure and scope complex digital and interactive projects, with multiple work streams</li>\n<li>Lead development of marketing content for multiple digital platforms and stakeholders</li>\n<li>Prioritize projects and ongoing changes in real-time</li>\n<li>Refine interactive process based on project requirements</li>\n<li>Provide interactive marketing insights and strategy</li>\n<li>Own project management start to finish</li>\n</ul>\n\n<p><strong>WHAT YOU BRING:</strong></p>\n\n<ul>\n<li>Experience and deep understanding with graphic design, web design, prototyping, user experience, motion graphics, content production, and online campaign tentpoles</li>\n<li>Comfort navigating a complex organization with multiple stakeholders</li>\n<li>Rigorous organization and management skills; conscientious and adept in solving issues at all levels of a project</li>\n<li>Ability to inspire, support and understand the interplay between people, clients, processes and systems</li>\n<li>Sharp attention to detail and an ongoing drive for perfection</li>\n<li>Excellent analytical and numeracy skills</li>\n<li>Excellent, easy going and inspiring team player</li>\n<li>Managing interactive projects across multiple digital platforms</li>\n<li>Working effectively with creative, development, and cross functional teams</li>\n<li>Ability to build strong relationships with colleagues and business partners</li>\n<li>Familiarity with internet communication platforms and technologies, particularly HTML5 and mobile</li>\n<li>Organizing information quickly and summarizing it succinctly</li>\n<li>Accommodating rapid change</li>\n<li>Defining process efficiencies</li>\n<li>Working under tight deadlines</li>\n<li>Communicating effectively one on one and in large groups</li>\n<li>The position requires a minimum of four years of experience in digital project management, with at least three years of experience contributing and leading complex projects.</li>\n<li>Interactive agency experience is preferred</li>\n</ul>\n\n<p><em>The anticipated annual salary range for this position is $60,000 – $70,000 CAD. Salary is based on relevant experience, expertise, and organizational impact.</em></p>\n\n<p><strong>WE OFFER</strong></p>\n\n<ul>\n<li>A flexible, hybrid working policy.</li>\n<li>An excellent salary based on experience and equal pay policies.</li>\n<li>Mental health support, and company sick pay scheme.</li>\n<li>15 days paid holiday annually (plus Public Holidays).</li>\n<li>Refreshments are provided in the office all week.</li>\n<li>Enhanced family friendly policies to support new parents.</li>\n<li>Social and Cultural Events, plenty of opportunities to connect with colleagues through organised activities and celebrations.</li>\n<li>Inspirational Talks, bringing the outside in with regular guest speakers and events.</li>\n<li>Learning and Development, supporting your growth with continuous opportunities to learn and advance.</li>\n<li>Buddy Programme: You will be paired with a ‘Buddy’ to help you through your first weeks’ at DEPT®.</li>\n<li>A reputation for doing good. DEPT® has been a Certified B Corp® since 2021 and named ‘Agency of the Year’ at both The Lovies and The Webby Awards.</li>\n<li>Awesome clients. Whether big or small, local or global — at DEPT® you’ll get the opportunity to work with clients of all sizes and across all industries. And we celebrate all of our successes together!</li>\n<li>The opportunity for possibility. We want to enable you to do what you do best and help you develop your skills further with training, development and certifications.</li>\n</ul>\n\n<p><strong>WHY DEPT®?</strong></p>\n\n<p>We are a Growth Invention company built to help the world’s most ambitious brands grow faster. Operating at the intersection of technology and marketing, we create what is next by pioneering ideas, acting fast, and moving further because standing still just is not in our DNA.</p>\n\n<p>We are drawn to people who stay curious, move with intent, and never stop inventing. Our culture runs on three values: better together, relentlessly curious, and get sh*t done. It is how we work, how we grow, and how we make things that matter.</p>\n\n<p>At DEPT®, you will find the freedom to explore, the space to collaborate, and the trust to make a real impact for our clients, for each other, and for the world we are helping to build.</p>\n\n<p><strong>AI Disclosure</strong>: At DEPT®, we use AI-assisted technology (Metaview) to capture notes and summarize interview conversations, so our interviewers can stay fully focused. Using the AI is optional, just let us know if you’d prefer it not be used.</p>\n\n<p><strong>DIVERSITY, EQUITY & INCLUSION</strong></p>\n\n<p>At DEPT®, we take pride in creating an inclusive workplace where everyone has an equal opportunity to thrive. We actively seek to recruit, develop, nurture, and retain talented individuals from diverse backgrounds, with varying skills and perspectives.</p>\n\n<p>Not sure you meet all qualifications? Apply, and let us decide! Research shows that women and members of underrepresented groups tend not to apply for jobs when they think they may not meet every requirement, when in fact they do. We believe in giving everyone a fair chance to shine.</p>\n\n<p>We also encourage you to reach out to us and discuss any reasonable adjustments we can make to support you throughout the recruitment process and your time with us.</p>\n\n<p><strong>Want to know more about our dedication to diversity, equity, and inclusion? Check out our efforts here.</strong></p>",
+      "url": "https://remotefirstjobs.com/companies/united-states-department-of-defense/jobs/project-manager-746378",
+      "collected_at": "2026-03-27T09:41:54.388659+00:00",
+      "date": "Fri, 27 Mar 2026 01:35:11 +0000",
+      "filter_reason": "localização"
+    }
+  ]
+}

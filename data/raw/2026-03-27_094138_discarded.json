@@ -1,0 +1,80 @@
+{
+  "date": "2026-03-27",
+  "discarded_at": "2026-03-27T09:45:02.505716+00:00",
+  "total": 5,
+  "by_reason": {
+    "jd_too_short": 5
+  },
+  "items": [
+    {
+      "id_hash": "2d7a5ddd38f74df2092b0f3ee5494566216d8538194eb46d3b4c6f0eda69af1c",
+      "id": "2d7a5ddd38f74df2092b0f3ee5494566216d8538194eb46d3b4c6f0eda69af1c",
+      "source": "openai_web_search",
+      "title": "Product Manager (Pass)",
+      "company": "Proton",
+      "location": "Barcelona",
+      "salary": null,
+      "jd_full": "Proton está buscando um Product Manager para liderar o desenvolvimento de novos produtos e recursos, com foco em melhorar a experiência do usuário e a privacidade. O candidato ideal terá experiência em gerenciamento de produtos, habilidades analíticas e paixão por privacidade e segurança online. Responsabilidades incluem definir a visão do produto, colaborar com equipes multifuncionais e analisar dados para orientar decisões de produto.",
+      "url": "https://proton.me/careers/positions/33012270",
+      "collected_at": "2026-03-27T09:41:48.792158+00:00",
+      "date": "2 dias atrás",
+      "discard_reason": "jd_too_short"
+    },
+    {
+      "id_hash": "c3f8c4f8b774f83f0a6810eefa1abb0a5aeb1298ec897e301408ddff04a28986",
+      "id": "c3f8c4f8b774f83f0a6810eefa1abb0a5aeb1298ec897e301408ddff04a28986",
+      "source": "openai_web_search",
+      "title": "Product Manager (Lisbon, Portugal)",
+      "company": "Spin.AI",
+      "location": "Lisbon, Portugal",
+      "salary": null,
+      "jd_full": "Spin.AI está contratando um Product Manager para liderar o desenvolvimento de soluções de segurança em SaaS. O candidato ideal terá experiência em gerenciamento de produtos, conhecimento em segurança cibernética e habilidades de liderança. Responsabilidades incluem definir a estratégia do produto, trabalhar com equipes de engenharia e design, e garantir que os produtos atendam às necessidades dos clientes e aos padrões de segurança.",
+      "url": "https://spin.ai/careers/positions/33012333",
+      "collected_at": "2026-03-27T09:41:48.792186+00:00",
+      "date": "3 horas atrás",
+      "discard_reason": "jd_too_short"
+    },
+    {
+      "id_hash": "dddc5328e6b999256b86f52b89262943a88d68413193d96ea237f25f89c760f3",
+      "id": "dddc5328e6b999256b86f52b89262943a88d68413193d96ea237f25f89c760f3",
+      "source": "openai_web_search",
+      "title": "Product Manager (m/f/d)",
+      "company": "FMC Corporation",
+      "location": "Sindelfingen (Stadt)",
+      "salary": null,
+      "jd_full": "FMC Corporation está buscando um Product Manager para um projeto emocionante em Stuttgart. O candidato ideal será responsável por criar o backlog do produto, colaborar com a equipe de desenvolvimento e o Scrum Master, e definir os requisitos do produto. É necessário ter experiência em gerenciamento de produtos, habilidades de comunicação e conhecimento em metodologias ágeis.",
+      "url": "https://www.aldaba.com/detalle_empresa.php?cod_empresa=31&empresa=31&enom=FMC+Corporation&f=1&or=&pais=&q=",
+      "collected_at": "2026-03-27T09:41:48.792195+00:00",
+      "date": "7 horas atrás",
+      "discard_reason": "jd_too_short"
+    },
+    {
+      "id_hash": "f9dce21853245321d13caf837d9c732fd044d9d06efe8fe610f2f4de6a9297f2",
+      "id": "f9dce21853245321d13caf837d9c732fd044d9d06efe8fe610f2f4de6a9297f2",
+      "source": "openai_web_search",
+      "title": "Senior Data Engineer - Qualified Pipeline",
+      "company": "Data Meaning",
+      "location": "São Paulo",
+      "salary": null,
+      "jd_full": "Data Meaning está contratando um Senior Data Engineer para liderar análises pesadas em SQL, relatórios e estruturação de dados. O candidato ideal terá experiência em engenharia de dados, habilidades avançadas em SQL e capacidade de trabalhar com grandes volumes de dados. Responsabilidades incluem desenvolver e manter pipelines de dados, criar relatórios e dashboards, e colaborar com equipes multifuncionais para atender às necessidades de dados da empresa.",
+      "url": "https://www.aldaba.com/detalle_empresa.php?cod_empresa=31&empresa=31&enom=Data+Meaning&f=1&or=&pais=&q=",
+      "collected_at": "2026-03-27T09:41:48.792202+00:00",
+      "date": "24 horas atrás",
+      "discard_reason": "jd_too_short"
+    },
+    {
+      "id_hash": "d697bb5148504e24cc2705a7868403aac6d4099286ed25a0d5d8260a7d176a1b",
+      "id": "d697bb5148504e24cc2705a7868403aac6d4099286ed25a0d5d8260a7d176a1b",
+      "source": "openai_web_search",
+      "title": "Delivery Manager",
+      "company": "Emmi AI",
+      "location": "Paris",
+      "salary": null,
+      "jd_full": "Emmi AI está buscando um Delivery Manager para apoiar os clientes na aplicação de modelos de IA de ponta em inovações industriais. O candidato ideal terá experiência em gerenciamento de projetos, conhecimento em IA e habilidades de liderança. Responsabilidades incluem coordenar equipes multifuncionais, garantir a entrega pontual de projetos e atuar como ponto de contato principal para os clientes.",
+      "url": "https://www.aldaba.com/detalle_empresa.php?cod_empresa=31&empresa=31&enom=Emmi+AI&f=1&or=&pais=&q=",
+      "collected_at": "2026-03-27T09:41:48.792209+00:00",
+      "date": "20 horas atrás",
+      "discard_reason": "jd_too_short"
+    }
+  ]
+}
