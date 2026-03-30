@@ -4096,5 +4096,149 @@
     "source": "greenhouse",
     "title": "Technical Program Manager - Towers",
     "company": "Zipline"
+  },
+  "522a29ca58cee6f54a469cecb76d1324fc9fdb87a24da39e6a5a8232e01c0815": {
+    "first_seen": "2026-03-30",
+    "source": "openai_web_search",
+    "title": "Senior Product Manager - Data & Interoperability",
+    "company": "CareMessage"
+  },
+  "ac2fbfa095349b73d5532265dd2d613f55f345e25f30ec1e26608f6449b7b6be": {
+    "first_seen": "2026-03-30",
+    "source": "openai_web_search",
+    "title": "Senior Product Manager - Tech",
+    "company": "Amazon"
+  },
+  "bc28f0ce4cbbbe904809d63ba5a2ef1d45f9ef6a53d4e349cb37cbe3336251df": {
+    "first_seen": "2026-03-30",
+    "source": "openai_web_search",
+    "title": "Principal Tech Program Manager, Quick Commerce",
+    "company": "Amazon"
+  },
+  "5858ec218ad570f907b88f77e6871c5100f694b664c77aecc68c9bd1dc44ec9c": {
+    "first_seen": "2026-03-30",
+    "source": "remoteok",
+    "title": "Senior Product Manager Checkout & Post Booking",
+    "company": "Tripadvisor"
+  },
+  "8a84738d56e3feb4b9fd13daf2fbcf0031306abb99b3d26fbe388934fa9cba4c": {
+    "first_seen": "2026-03-30",
+    "source": "getonboard",
+    "title": "Agile Delivery Manager",
+    "company": "{'data': {'id': 19061, 'type': 'company'}}"
+  },
+  "b560623c4205ab9bed7a4025b5365490d6deec8ee8a5ad6eb9cc65b9b226e700": {
+    "first_seen": "2026-03-30",
+    "source": "himalayas",
+    "title": "Forward Deployed Product Manager, AI Agent",
+    "company": "Cresta"
+  },
+  "24f1a6fdca86618fe41eee1274c407b27625d05abcdb0fab1d8a18475c2f26eb": {
+    "first_seen": "2026-03-30",
+    "source": "jobscollider",
+    "title": "Product Manager Analytics",
+    "company": "AccelOne"
+  },
+  "61c546d4d55b8e12d2fd85baddec43890862640b89e0e2a9334625a3d36bee93": {
+    "first_seen": "2026-03-30",
+    "source": "jobscollider",
+    "title": "Senior Product Manager",
+    "company": "Genomics England"
+  },
+  "6271567a7357c572ed5c6f2dc8037ba223e7c2971fd83dafcdf0bb7ae0e001d9": {
+    "first_seen": "2026-03-30",
+    "source": "jobscollider",
+    "title": "Senior Staff Principal Product Manager",
+    "company": "Skylight"
+  },
+  "b2760b00f74e9be6db0c6d4879069b3d675365809d6cabbbdab46f6aa9535502": {
+    "first_seen": "2026-03-30",
+    "source": "jobscollider",
+    "title": "Product Manager - Scheduler",
+    "company": "Zinier"
+  },
+  "4164ee21c11c5aeac9480c1db08532cd423f77d5196ccf899ebc9d1fe0373a52": {
+    "first_seen": "2026-03-30",
+    "source": "jobscollider",
+    "title": "Project Manager",
+    "company": "Huge"
+  },
+  "084824befb858e47098dae7c494f75a51069fa0e37fd961d34e8abce3a168e84": {
+    "first_seen": "2026-03-30",
+    "source": "jobscollider",
+    "title": "Technical Program Manager AI Performance",
+    "company": "Figma"
+  },
+  "8c5afe7e04417e6bacc254d82606e70eb718fcbe7caee450dbaa42fd80f2fa1b": {
+    "first_seen": "2026-03-30",
+    "source": "jobscollider",
+    "title": "Principal Product Manager, Member-Facing Products",
+    "company": "Thyme Care"
+  },
+  "6f1f3323aeb2fc76afe7371f2818cc1790311496c7cda8deb8d3816502467ea2": {
+    "first_seen": "2026-03-30",
+    "source": "jobscollider",
+    "title": "Senior AI Product Manager",
+    "company": "Zego"
+  },
+  "d5efd350d0f30ceed69dca92fce431dc3b8707927e1f2f6166b9bf5c7549d5ba": {
+    "first_seen": "2026-03-30",
+    "source": "jobscollider",
+    "title": "Clinical Program Manager",
+    "company": "Foodsmart"
+  },
+  "22687e9b92c970078fe125accf21c1ff1fa4c26078bff112f05564eec765d079": {
+    "first_seen": "2026-03-30",
+    "source": "jobscollider",
+    "title": "Technical Program Manager - Security",
+    "company": "Outreach"
+  },
+  "a405140048ec19accf15c66b996cc1ab23dd80306bbb96052b301b4788190668": {
+    "first_seen": "2026-03-30",
+    "source": "jobscollider",
+    "title": "Principal Technical Project Manager",
+    "company": "Genomics England"
+  },
+  "7623458cbb458a3b045fa2968ee7b09c7c1adb166f9c2efc8f5b947412d5cdbf": {
+    "first_seen": "2026-03-30",
+    "source": "jobscollider",
+    "title": "Project Manager, Electrical",
+    "company": "Turner & Townsend"
+  },
+  "50993ac4b5d7236822b64d77051739ed5c48c747e1537a21d9904a82305a9fce": {
+    "first_seen": "2026-03-30",
+    "source": "jobscollider",
+    "title": "Project Manager",
+    "company": "Passion for Life, Inc."
+  },
+  "b5111c8136e2c063c4fcaa7afb8b28b1387b1e29f0111dd5eb3b7cba773b2aae": {
+    "first_seen": "2026-03-30",
+    "source": "jobscollider",
+    "title": "Project Manager Tax & Legal",
+    "company": "The Voleon Group"
+  },
+  "b59bcd10e7cfda0df78ff3a4de23da87083c98e40f0a714c41501d717a5c8d0b": {
+    "first_seen": "2026-03-30",
+    "source": "jobscollider",
+    "title": "Technical Program Manager",
+    "company": "Aimpoint Digital"
+  },
+  "52cd0c34d3f11245c23cc1a69e3a1432d43a6d54274d8ccacc31eaee48087116": {
+    "first_seen": "2026-03-30",
+    "source": "greenhouse",
+    "title": "Lead Product Manager, Data Management",
+    "company": "Klaviyo"
+  },
+  "7e5ce5e4589163fad9e661bd400287d952e05119b8008b356aca5884cbb7dc50": {
+    "first_seen": "2026-03-30",
+    "source": "greenhouse",
+    "title": "Senior Product Manager - Cloudflare One Appliance",
+    "company": "Cloudflare"
+  },
+  "3e8fd4985f39a28e80712d3b8d332f8f9ea06997545fa02c6b398f00f87f1c4a": {
+    "first_seen": "2026-03-30",
+    "source": "ashby",
+    "title": "Senior Product Manager - Equity",
+    "company": "Deel"
   }
 }

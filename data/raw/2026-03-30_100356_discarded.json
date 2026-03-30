@@ -1,0 +1,38 @@
+{
+  "date": "2026-03-30",
+  "discarded_at": "2026-03-30T10:07:38.162480+00:00",
+  "total": 2,
+  "by_reason": {
+    "jd_too_short": 2
+  },
+  "items": [
+    {
+      "id_hash": "bc266192e07fe09dfde5a8b563d3fa8de6e62e88f7e135c2adc2b0f1c76efb89",
+      "id": "bc266192e07fe09dfde5a8b563d3fa8de6e62e88f7e135c2adc2b0f1c76efb89",
+      "source": "openai_web_search",
+      "title": "Senior Product Manager - Technical, Agentic AI DevOps",
+      "company": "Amazon",
+      "location": "Remoto",
+      "salary": null,
+      "jd_full": "A Amazon está procurando um Senior Product Manager Técnico para a equipe Agentic AI DevOps. O candidato ideal deve ter experiência em produtos de IA que transformam operações de software, com habilidades em estratégia de produto, definição de roadmap e colaboração com equipes de engenharia. As responsabilidades incluem contribuir para a estratégia de produto, definir e priorizar recursos e trabalhar com equipes de engenharia para entregar soluções de alta qualidade.",
+      "url": "https://amazon.jobs/jobs/3115955",
+      "collected_at": "2026-03-30T10:04:05.027417+00:00",
+      "date": "Data de publicação não especificada",
+      "discard_reason": "jd_too_short"
+    },
+    {
+      "id_hash": "7d8e6acbeb7d9ddf586c5695e205854f838b3fe4d4d216c565f854db2fc88fbe",
+      "id": "7d8e6acbeb7d9ddf586c5695e205854f838b3fe4d4d216c565f854db2fc88fbe",
+      "source": "openai_web_search",
+      "title": "Technical Program Manager – Product Operations",
+      "company": "Nubank",
+      "location": "São Paulo, SP",
+      "salary": null,
+      "jd_full": "O Nubank está buscando um Technical Program Manager para atuar na equipe Legal. O candidato ideal deve ser capaz de traduzir metas legais estratégicas em roadmaps técnicos acionáveis, implementar metodologias ágeis e gerenciar dependências entre sistemas legais e bancários. As responsabilidades incluem liderança técnica de programas, estratégia de dados e implementação de IA, além de colaboração com equipes multifuncionais.",
+      "url": "https://employed.com.br/vagas/sao-paulo/tecnologia/technical-program-manager-product-operations/",
+      "collected_at": "2026-03-30T10:04:05.027427+00:00",
+      "date": "2 de Março de 2026",
+      "discard_reason": "jd_too_short"
+    }
+  ]
+}
