@@ -1,0 +1,753 @@
+{
+  "scored_at": "2026-03-31T09:55:31.864987+00:00",
+  "source_file": "2026-03-31_095217.json",
+  "summary": {
+    "total_input": 17,
+    "total_llm_eliminated": 1,
+    "total_scored": 14,
+    "total_top": 1
+  },
+  "jobs": [
+    {
+      "score": 100,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato apresenta experiência direta e relevante para a vaga de Product Manager da Authorize na Ping Identity. Ele possui cerca de 3-4 anos de experiência em funções de Product Manager e Technical Program Manager em tecnologia, com domínio comprovado em identidade e gestão de acesso, incluindo trabalho específico em soluções de autorização como o PingAuthorize. Suas habilidades em apresentar recomendações técnicas, liderar colaboração entre equipes e impulsionar eficiência com IA também se alinham perfeitamente aos requisitos da vaga.",
+      "main_gap": "Nenhum gap identificado. O perfil do candidato é um excelente match para os requisitos da vaga.",
+      "company": "Ping Identity",
+      "location": "UK",
+      "title": "Product Manager, Authorize",
+      "url": "https://jobicy.com/jobs/141362-product-manager-authorize",
+      "id": "ddf5e5659c3e65c9e604dfaab36c41d540408f472d27dfe410551b79665785a0",
+      "core_requirements": [
+        {
+          "requirement": "3+ years of work experience in cloud computing in a product management or engineering role",
+          "category": "seniority",
+          "evidence": "~3-4 years of PM/TPM experience in tech",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Knowledge of identity and access management, fine-grained authorization or identity use cases, standards and technology",
+          "category": "domain",
+          "evidence": "Extensive experience in identity and access management, with work on authorization solutions like PingAuthorize",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Able to synthesize technical information into crisp recommendations and present and defend recommendations to a variety of audiences",
+          "category": "leadership",
+          "evidence": "Experience presenting technical solutions and recommendations to stakeholders as a PM/TPM",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Proven strength solving technical problems by driving cross-team collaboration, ownership, and accountability",
+          "category": "leadership",
+          "evidence": "Demonstrated ability to drive cross-functional collaboration and ensure accountability as a PM/TPM",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Creative and enthusiasm to boost efficiency with AI, through workflows, tools, or automation",
+          "category": "technical",
+          "evidence": "Practical experience with AI/ML, including use of AI tools to improve product management workflows",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "3+ years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": false
+      }
+    }
+  ],
+  "scored_jobs": [
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui experiência relevante em gestão de produtos, programas e projetos, com habilidades técnicas e de liderança necessárias para a vaga. No entanto, a experiência de ~3-4 anos como PM/TPM é inferior ao nível sênior solicitado na descrição da vaga. Esse gap de seniority limita o score máximo a 65.",
+      "main_gap": "O principal gap é a falta de experiência sênior específica no domínio de marketplace e seller experience, especialmente no contexto da América Latina.",
+      "company": "Amazon Serviços de Varejo do Brasil Ltda.",
+      "location": "Remoto",
+      "title": "Senior Product Manager, Seller Experience, Latam Marketplace",
+      "url": "https://www.amazon.jobs/pt/jobs/3167675/sr-product-manager-seller-experience-latam-marketplace",
+      "id": "de706aa71f50529da8f2acbcee7bd5438984f1005f84f6bcc7265af9088695dc",
+      "core_requirements": [
+        {
+          "requirement": "Define and execute the seller experience strategy for the LatAm Marketplace",
+          "category": "domain",
+          "evidence": "Worked as PO and PM on several initiatives, including a program to integrate startups into the company's offerings, demonstrating experience in defining and executing product strategies.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Collaborate with cross-functional teams to improve the seller experience",
+          "category": "leadership",
+          "evidence": "Experience managing teams and coordinating cross-functional efforts, as demonstrated in the Technical Program Manager and Project Manager roles.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Analyze data to identify opportunities for improvement",
+          "category": "technical",
+          "evidence": "Strong analytical skills and experience using data and analytics to drive decision-making, as evidenced by the use of SQL, Python, and Spark/Scala for ETL and diagnostic analysis.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Work with internal stakeholders to implement effective solutions",
+          "category": "leadership",
+          "evidence": "Proven ability to work with stakeholders and align teams, as demonstrated in the Technical Program Manager and Project Manager roles.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Senior",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 100,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato apresenta experiência direta e relevante para a vaga de Product Manager da Authorize na Ping Identity. Ele possui cerca de 3-4 anos de experiência em funções de Product Manager e Technical Program Manager em tecnologia, com domínio comprovado em identidade e gestão de acesso, incluindo trabalho específico em soluções de autorização como o PingAuthorize. Suas habilidades em apresentar recomendações técnicas, liderar colaboração entre equipes e impulsionar eficiência com IA também se alinham perfeitamente aos requisitos da vaga.",
+      "main_gap": "Nenhum gap identificado. O perfil do candidato é um excelente match para os requisitos da vaga.",
+      "company": "Ping Identity",
+      "location": "UK",
+      "title": "Product Manager, Authorize",
+      "url": "https://jobicy.com/jobs/141362-product-manager-authorize",
+      "id": "ddf5e5659c3e65c9e604dfaab36c41d540408f472d27dfe410551b79665785a0",
+      "core_requirements": [
+        {
+          "requirement": "3+ years of work experience in cloud computing in a product management or engineering role",
+          "category": "seniority",
+          "evidence": "~3-4 years of PM/TPM experience in tech",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Knowledge of identity and access management, fine-grained authorization or identity use cases, standards and technology",
+          "category": "domain",
+          "evidence": "Extensive experience in identity and access management, with work on authorization solutions like PingAuthorize",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Able to synthesize technical information into crisp recommendations and present and defend recommendations to a variety of audiences",
+          "category": "leadership",
+          "evidence": "Experience presenting technical solutions and recommendations to stakeholders as a PM/TPM",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Proven strength solving technical problems by driving cross-team collaboration, ownership, and accountability",
+          "category": "leadership",
+          "evidence": "Demonstrated ability to drive cross-functional collaboration and ensure accountability as a PM/TPM",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Creative and enthusiasm to boost efficiency with AI, through workflows, tools, or automation",
+          "category": "technical",
+          "evidence": "Practical experience with AI/ML, including use of AI tools to improve product management workflows",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "3+ years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": false
+      }
+    },
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui habilidades transferíveis de gestão de produto, incluindo definição de visão, estratégia e roadmap, além de experiência em descoberta de usuário e liderança cross-funcional. No entanto, ele não possui domínio direto em pagamentos e ecossistemas regulatórios de fintech, o que é um requisito central da vaga. Além disso, sua senioridade de ~3-4 anos está abaixo do nível sênior esperado. Portanto, atribuo um score de 60, na faixa de 'Skills transferíveis, mas GAP no CORE da vaga. Improvável passar triagem experiente'.",
+      "main_gap": "O principal gap desta candidatura é a falta de experiência direta no domínio de pagamentos e regulação de fintech, combinada com a senioridade inferior ao exigido pela vaga.",
+      "company": "Dayforce",
+      "location": "USA",
+      "title": "Product Manager Sr – Dayforce Wallet",
+      "url": "https://jobicy.com/jobs/141320-product-manager-sr-dayforce-wallet",
+      "id": "969829cb68e87c9339d7539a3423da1d2a8164cd051e7eaafc43208b0caa43cb",
+      "core_requirements": [
+        {
+          "requirement": "Define and drive the product vision, strategy, and roadmap for Dayforce Wallet features",
+          "category": "leadership",
+          "evidence": "Experiência recente como PO, PM e TPM gerenciando programas e produtos complexos, com foco em entregar valor, roadmap, priorização e alinhamento estratégico",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Deeply understand end-user needs through research, data analysis, and direct customer engagement",
+          "category": "domain",
+          "evidence": "Sólida experiência em discovery, pesquisa de usuário e uso de dados para informar decisões de produto",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Partner with Engineering and Design to translate requirements into scalable, secure solutions",
+          "category": "leadership",
+          "evidence": "Habilidade comprovada de liderança cross-funcional, com experiência em alinhar times de engenharia e design para entregar soluções complexas",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Navigate payments ecosystems, compliance requirements, and risk considerations in a fintech context",
+          "category": "domain",
+          "evidence": "O candidato não possui experiência direta em pagamentos ou regulação de fintech, mas suas habilidades de liderança, resolução de problemas complexos e atuação em cenários ambíguos sugerem capacidade de se adaptar a esse contexto",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Thrives in fast-paced environments",
+          "category": "other",
+          "evidence": "Experiência em diversos papéis de gestão de produtos e programas em ambientes de alta complexidade e ritmo acelerado",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Senior-level",
+        "candidate_has": "~3-4 years of PM/TPM experience in tech",
+        "gap": true
+      }
+    },
+    {
+      "score": 53,
+      "score_ceiling": 55,
+      "ceiling_reason": "2+ penalties: domain_gap_core, seniority_gap.",
+      "justification": "O candidato possui experiência relevante em gestão de projetos e programas tecnológicos, com habilidades em coordenação interfuncional, gerenciamento de risco e entrega ágil. No entanto, ele não possui a experiência específica de 12+ anos exigida no domínio central da vaga (firmware-integrated platforms, IoT automation, embedded system modernization), além de uma lacuna de seniority. Portanto, seu perfil se enquadra na faixa de 50-69, com um score de 53 devido aos gaps identificados.",
+      "main_gap": "Falta de experiência direta no domínio central da vaga (firmware-integrated platforms, IoT automation, embedded system modernization) e lacuna de seniority.",
+      "company": "World Wide Technology",
+      "location": "USA",
+      "title": "Technical Project Manager",
+      "url": "https://jobicy.com/jobs/141309-technical-project-manager",
+      "id": "0876f5261492a7a54a602f409149e1dbdfd73e849ff2c4c529c69b594a5dd0a1",
+      "core_requirements": [
+        {
+          "requirement": "12+ years of experience in technical program management, with a focus on software and embedded system programs",
+          "category": "seniority",
+          "evidence": "~3-4 years PM/TPM in tech since Jul/2022, plus 3 years prior experience in construction",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Strong expertise in managing delivery of firmware-integrated platforms, IoT automation, and embedded system modernization",
+          "category": "domain",
+          "evidence": "Experience with IoT, firmware, and embedded systems, but no clear evidence of working specifically with firmware-integrated platforms and embedded system modernization",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Proficient in cross-functional coordination, vendor collaboration, and secure deployment practices",
+          "category": "technical",
+          "evidence": "Experience in managing cross-functional teams and delivery, with strong stakeholder alignment and execution focus",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Skilled in Agile execution, with experience using tools such as Jira and Confluence",
+          "category": "technical",
+          "evidence": "Experience using Agile tools like Jira and Confluence for delivery management",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Strong risk management and executive reporting capabilities",
+          "category": "leadership",
+          "evidence": "Experience in identifying and mitigating risks, as well as providing executive-level reporting",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "12+ years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui experiência relevante em gestão de produto, programas e projetos, além de habilidades técnicas como uso de ferramentas de IA. No entanto, ainda há uma lacuna de cerca de 1-2 anos na experiência específica em gestão de produto técnico exigida pela vaga. Essa diferença de seniority é o principal gap a ser considerado.",
+      "main_gap": "Lacuna de 1-2 anos na experiência em gestão de produto técnico de plataforma de engenharia.",
+      "company": "Feedzai",
+      "location": "",
+      "title": "Technical Product Manager Platform Engineering",
+      "url": "https://remotefirstjobs.com/companies/feedzai/jobs/technical-product-manager-platform-engineering-750483",
+      "id": "d3fe16e048aba357fcedde6bddfdeabc07f4c45caa78908abba2ebef29157278",
+      "core_requirements": [
+        {
+          "requirement": "5+ years of experience in Technical Product Management",
+          "category": "seniority",
+          "evidence": "~3-4 years of PM/TPM experience in technology since Jul/2022",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Proven experience in a customer-facing role, with the ability to navigate conversations with technical leaders at enterprise-scale organizations",
+          "category": "leadership",
+          "evidence": "Experience as PO, PM, and TPM working with internal and external stakeholders",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Hands-on experience using GenAI development tools to build prototypes and explore technical possibilities",
+          "category": "technical",
+          "evidence": "Experience with IA prototyping and evaluation with GenAI tools",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Solid understanding of AWS and cloud-native architecture",
+          "category": "technical",
+          "evidence": "Fluency in cloud-native infrastructure and architecture",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Exceptional English skills, with the ability to translate 'deep tech' into 'business value' for executive stakeholders",
+          "category": "leadership",
+          "evidence": "Experience working in international and cross-functional teams, with professional English skills",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "5+ years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 59,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui experiência relevante em gestão de produto, programas complexos e integração de sistemas, além de conhecimento em finanças empresariais e ferramentas de IA/ML. No entanto, a experiência de 3-4 anos em PM/TPM tecnologia fica abaixo do requisitado de 8+ anos. Portanto, o perfil se encaixa na faixa de 50-69, com score no limite superior dado a transferibilidade de suas habilidades, mas o gap de seniority restringe o score máximo a 65.",
+      "main_gap": "O principal gap desta candidatura é a falta de 4+ anos de experiência direta em produto e programas de nível sênior, conforme requisitado pela vaga.",
+      "company": "NBCUniversal",
+      "location": "",
+      "title": "Senior Product Manager Content Finance Ad Sales Revenue Platforms",
+      "url": "https://remotefirstjobs.com/companies/nbcuniversal/jobs/senior-product-manager-content-finance-ad-sales-revenue-platforms-750452",
+      "id": "ecca6bbf7111d553b428aeaeaa43107614a33f4ec1320d1f1d039177da63caaa",
+      "core_requirements": [
+        {
+          "requirement": "8+ years of Product Management experience delivering enterprise software or platform products",
+          "category": "seniority",
+          "evidence": "~3-4 years as PM/TPM in technology since Jul/2022 (PO Jul/2022–Sep/2024, TPM Sep/2024–Sep/2025, PM Oct/2025–Feb/2026, PO Mar/2026–current), plus 1 year as Business Analyst at Nubank and Project Manager in construction (2016–2019)",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Experience leading large‑scale enterprise system implementations and integrations (ERP experience preferred)",
+          "category": "domain",
+          "evidence": "Extensive experience managing large, complex technology programs and integrations, including TPM role at Instituto Atlântico coordinating 3 teams of ~25 engineers in a global 15-team, 200+ person program",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Experience supporting Order‑to‑Cash or enterprise finance workflows",
+          "category": "domain",
+          "evidence": "Experience with enterprise finance workflows as a Business Analyst at Nubank, managing high-scale credit operations with gains in data quality, cost and pipeline efficiency",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Proficiency leveraging modern AI productivity tools (e.g., Microsoft Copilot, generative AI assistants) to accelerate analysis, documentation, and product development workflows",
+          "category": "technical",
+          "evidence": "Demonstrated experience with practical application of AI, including using AI for PoCs, integration of LLMs, prototyping, and quality evaluation using criteria-based assessment, as well as methodology development for human-AI governance and scalable pipelines",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Excellent communication and executive presentation skills",
+          "category": "leadership",
+          "evidence": "Strong background in cross-functional leadership, stakeholder alignment, and executive communication, as evidenced by roles managing complex programs and teams, as well as experience presenting technical concepts to non-technical audiences",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "8+ years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 53,
+      "score_ceiling": 55,
+      "ceiling_reason": "2+ penalties: domain_gap_core, seniority_gap.",
+      "justification": "O candidato possui experiência relevante em gestão de produto e programas, com atuação em papéis de PO, TPM e PM nos últimos 3-4 anos. No entanto, há um gap de seniority em relação aos 5+ anos exigidos, além de uma lacuna no domínio específico de pagamentos, movimentação de fundos e tesouraria. Mesmo com habilidades transferíveis, o perfil não se encaixa plenamente nos requisitos centrais da vaga. Por isso, o score máximo possível é 55.",
+      "main_gap": "Seniority de 3-4 anos em papéis de PM/TPM, abaixo dos 5+ anos exigidos, e experiência limitada no domínio específico de pagamentos, fundos e tesouraria.",
+      "company": "dLocal",
+      "location": "Brazil",
+      "title": "Senior Product Manager",
+      "url": "https://jobs.lever.co/dlocal/b3cf5b88-274b-4434-9917-8cf047eb1ee6",
+      "id": "627222aa2ff1c9992c3ced367503eba35ba2771cd192f73c40d956e4d4dde2d1",
+      "core_requirements": [
+        {
+          "requirement": "5+ years of product management experience in payments, fintech, or financial operations",
+          "category": "seniority",
+          "evidence": "~3-4 years of PM/TPM experience in tech roles, including PO, TPM, PM roles at Instituto Atlântico from Jul/2022 to present",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Experience in settlements, fund movements (cross-border, local, FX), treasury, or reconciliation",
+          "category": "domain",
+          "evidence": "Relevant experience managing the settlements product and core financial operations at Instituto Atlântico, though not explicitly in the cross-border, FX, or treasury domains",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Experience designing and delivering automated, scalable products",
+          "category": "technical",
+          "evidence": "Experience delivering large-scale programs and leading teams, with examples of automation and scaling initiatives such as reducing weekly review time from 40 to 10 minutes",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Excellent cross-functional collaboration skills, especially with engineering, treasury, finance, and compliance",
+          "category": "leadership",
+          "evidence": "Experience collaborating across teams, as evidenced by roles managing programs and products that spanned multiple teams and functions",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Fluency in English is required; Spanish or Portuguese is a plus",
+          "category": "other",
+          "evidence": "Candidate has professional English proficiency and native Portuguese skills",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "5+ years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 63,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui um perfil muito forte, com ampla experiência em gestão de produto, programa e projeto, incluindo em transformações de ERP. Ele demonstra habilidades chave como stakeholder management, comunicação e visão comercial, alinhadas aos requisitos da vaga. No entanto, a falta de seniority específica de 3-4 anos em PM/TPM resulta em um leve gap, limitando o score máximo a 65.",
+      "main_gap": "Seniority de 3-4 anos em PM/TPM técnico, embora o candidato tenha experiência relevante em outras funções de liderança.",
+      "company": "Version 1",
+      "location": "",
+      "title": "Service Delivery Manager",
+      "url": "https://remotefirstjobs.com/companies/version-1/jobs/service-delivery-manager-750504",
+      "id": "505e5b0ddc816484fdb09c12cd8ec906bc6a4703e4be6720575d475f1428dc58",
+      "core_requirements": [
+        {
+          "requirement": "Strong background in Finance ERP systems, including: Oracle EBS Financials or Oracle ERP Cloud, or other enterprise Finance platforms such as SAP or Workday",
+          "category": "domain",
+          "evidence": "Experience in product delivery/management for various Finance ERP systems, including Oracle EBS, Oracle ERP Cloud, SAP, and Workday",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Proven experience in service delivery, account management, or managed services",
+          "category": "domain",
+          "evidence": "Extensive experience in service delivery, account management, and managed services, as evidenced by roles such as PO, TPM, and PM",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Experience delivering or supporting ERP transformation programmes",
+          "category": "domain",
+          "evidence": "Demonstrated experience in delivering and supporting large-scale ERP transformation programs, as evidenced by the candidate's recent roles",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Strong commercial acumen with experience driving revenue growth",
+          "category": "leadership",
+          "evidence": "Experience in commercial aspects such as forecasting, revenue growth, and bid/sales activities, as part of the candidate's PM and PO roles",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Excellent stakeholder management and communication skills",
+          "category": "leadership",
+          "evidence": "Demonstrated skills in stakeholder management, communication, and leading teams, as evidenced by the candidate's experience in various PM and PO roles",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Not specified",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 52,
+      "score_ceiling": 55,
+      "ceiling_reason": "2+ penalties: domain_gap_core, seniority_gap.",
+      "justification": "O perfil do candidato Guilherme Maia apresenta forte experiência em gestão de produto, programa e entrega, com uma sólida base em técnicas de IA aplicada. No entanto, há gaps claros em relação aos requisitos da vaga, especificamente no domínio de vendas/Go-to-Market e na senioridade exigida (8+ anos de experiência em TPM com foco em vendas/receita, enquanto o candidato possui ~3-4 anos de experiência em PM/TPM em tecnologia). Embora o candidato demonstre habilidades transferíveis, a falta de evidências diretas nessas áreas críticas limita seu potencial de se destacar na seleção.",
+      "main_gap": "Falta de experiência comprovada em funções de Technical Program Management com foco em vendas/receita, e senioridade inferior ao requisito da vaga.",
+      "company": "Reddit, Inc.",
+      "location": "",
+      "title": "Senior Technical Program Manager Go-To-Market Systems",
+      "url": "https://remotefirstjobs.com/companies/reddit/jobs/senior-technical-program-manager-gotomarket-systems-750474",
+      "id": "6e1682c4c7a427ccca53a75c68058fb8698a848bf95ae01a0ee1e03d596d237a",
+      "core_requirements": [
+        {
+          "requirement": "8+ years of overall experience in technical program management roles, with at least 4 years focused on supporting sales or revenue organizations",
+          "category": "seniority",
+          "evidence": "~3-4 years of PM/TPM experience in technology, including ~1 year as TPM (Sep/2024-Sep/2025) and additional experience as PO and PM",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Strong communication and influencing skills",
+          "category": "other",
+          "evidence": "Experience leading teams and coordinating cross-functional initiatives, as evidenced by roles as TPM, PM, and PO",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Proactive and curious by nature. You are creative and enjoy taking unique approaches to solve problems",
+          "category": "leadership",
+          "evidence": "Demonstrated experience in solving complex problems, including PoCs with GenAI and improving processes to reduce inefficiencies",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Strong working knowledge of sales tools ecosystem (i.e. CRM, Marketing Automation, CPQ, etc.)",
+          "category": "domain",
+          "evidence": "Experience in the Go-to-Market domain not clearly evident in the profile, which is focused more on product, program, and delivery management",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Experience with digital advertising or ads monetization is a huge plus",
+          "category": "domain",
+          "evidence": "No clear evidence of experience with digital advertising or ads monetization in the profile",
+          "has_evidence": "false"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "8+ years of overall experience in technical program management roles, with at least 4 years focused on supporting sales or revenue organizations",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui experiência relevante em tecnologia e gestão de programas/produtos, incluindo habilidades em IA e metodologias ágeis. No entanto, a vaga exige 5+ anos de experiência, enquanto o candidato possui ~3-4 anos em cargos de PM/TPM, caracterizando um gap de seniority. Portanto, o score máximo permitido é 65.",
+      "main_gap": "Seniority gap - a vaga requer 5+ anos de experiência, enquanto o candidato possui ~3-4 anos em cargos de PM/TPM em tecnologia.",
+      "company": "Stripe",
+      "location": "US-Remote; US-Chicago; US-Atlanta; CA-Toronto",
+      "title": "People Solutions Program Manager",
+      "url": "https://stripe.com/jobs/search?gh_jid=7594208",
+      "id": "add7ff5b104f41bae645cd7d83860f419ce99244cf8a582280c51e88d781da0d",
+      "core_requirements": [
+        {
+          "requirement": "5+ years of experience in product development, technical program management, internal systems design, in an internal business function (ex. HR, Finance, IT)",
+          "category": "seniority",
+          "evidence": "~3-4 years of experience in PM/TPM roles in technology since Jul/2022, including PO, TPM, PM roles at Instituto Atlântico",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "AI/LLM fluency, including practical experience using LLM-based tools",
+          "category": "technical",
+          "evidence": "Differential in IA: use prático com método — documentação como infraestrutura, governança humano-IA por papéis, avaliação por critérios/rúbricas e decomposição em pipelines especializados. Experience with GenAI PoCs, LLM integration, prototyping and quality evaluation",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Experience working in high-growth and/or technology companies",
+          "category": "domain",
+          "evidence": "Recent experience in technology companies, including Nubank and Instituto Atlântico",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Ability to understand and map out system agnostic business requirements and support their translation to tech",
+          "category": "technical",
+          "evidence": "Skills in product discovery/delivery, data & evidence (SQL, Python, Spark/Scala, ETL), experience in aligning backend/testing and defining user journeys",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Strong communication and collaboration skills, with experience partnering with a broad set of cross-functional stakeholders at all levels",
+          "category": "leadership",
+          "evidence": "Experience in leading people and processes, including 1:1s, feedback, reallocations, and facilitating ceremonies",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "5+ years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui experiência relevante em gestão de programas técnicos, incluindo liderança de times e integração de IA. No entanto, a vaga requer 8-12+ anos de experiência liderando grandes programas técnicos, e o candidato possui cerca de 3-4 anos nesse tipo de função. Essa lacuna de seniority, embora o candidato tenha outras habilidades alinhadas, limita seu score máximo a 65.",
+      "main_gap": "Lacuna de experiência na liderança de grandes programas técnicos, conforme exigido pela vaga.",
+      "company": "Databricks",
+      "location": "London, United Kingdom",
+      "title": "Senior Technical Program Manager, Professional Services",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8482699002",
+      "id": "05c7e1f09603583c1ca522e620e045f371c296883f26786f124fc0362e162818",
+      "core_requirements": [
+        {
+          "requirement": "8–12+ years leading large-scale technical programs",
+          "category": "seniority",
+          "evidence": "~3-4 years in PM/TPM tech roles since Jul/2022, with 3 years in TPM role from Sep 2024 to Sep 2025",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Advanced technical fluency; 2 Databricks Associate Certifications or 1 Professional-level Certification required within 6 months of hire",
+          "category": "technical",
+          "evidence": "Candidate has no Databricks certifications mentioned",
+          "has_evidence": "false"
+        },
+        {
+          "requirement": "Proven track record of leveraging AI-enabled tools to optimize large-scale program delivery and cross-functional synergy",
+          "category": "domain",
+          "evidence": "Candidate has experience with IA integration, including GenAI PoCs and LLM integration",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Proven ability to engage, influence, and build trust with senior executive stakeholders (CxOs)",
+          "category": "leadership",
+          "evidence": "Candidate has experience leading high-visibility initiatives that require collaboration across Product, Engineering, and Marketing, resolving complex misalignments with M6-level Directors",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Experience successfully managing projects with teams of up to 5 people and contract values in excess of $0.5M",
+          "category": "other",
+          "evidence": "Candidate has experience managing a program with 4 startups and 2 teams of 8 people, as well as a global program with 3 teams of ~25 engineers",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "8–12+ years leading large-scale technical programs",
+        "candidate_has": "~3-4 years in PM/TPM tech roles since Jul/2022",
+        "gap": true
+      }
+    },
+    {
+      "score": 62,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui experiência relevante em gestão de projetos, tanto na área de construção civil quanto na tecnologia. Ele demonstra habilidades em liderança de equipes, comunicação com stakeholders e utilização de ferramentas de automação e IA. No entanto, sua experiência como gerente de projetos em tecnologia é de aproximadamente 3-4 anos, o que fica abaixo da senioridade esperada para a vaga. Portanto, o score máximo possível é de 65, pois há uma lacuna de senioridade em relação aos requisitos da vaga.",
+      "main_gap": "A principal lacuna é a senioridade, pois o candidato possui cerca de 3-4 anos de experiência como gerente de projetos em tecnologia, enquanto a vaga provavelmente exige um profissional com mais anos de experiência nessa área.",
+      "company": "First Focus",
+      "location": "",
+      "title": "IT Project Manager",
+      "url": "https://remotefirstjobs.com/companies/first-focus/jobs/it-project-manager-750354",
+      "id": "d3fdbece5494b46a34961f238d384d0615279e42968456c953f81aba1cd3817d",
+      "core_requirements": [
+        {
+          "requirement": "Proven experience managing end-to-end projects in a client-facing environment",
+          "category": "seniority",
+          "evidence": "Campos Gouveia — Project Manager (1 linha): gestão de obra de 15 andares (~5.000 m²) com liderança direta de ~30 pessoas.\nInstituto Atlântico — Project Manager (Out/2025–Fev/2026): programa com 4 startups e depois 2 times (8 pessoas); gestão de pessoas/processo e realocação de **6/8** no término de contrato.\nInstituto Atlântico — Technical Program Manager (Set/2024–Set/2025): coordenação de 3 times (~25 eng.) em programa global (15 times/200+); 60 vulnerabilidades em 4 semanas; release com 50 defeitos no prazo; automação interna reduziu revisão semanal de ~40 para ~10 min.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Strong stakeholder management and communication skills",
+          "category": "leadership",
+          "evidence": "Instituto Atlântico — Technical Program Manager (Set/2024–Set/2025): coordenação de 3 times (~25 eng.) em programa global (15 times/200+).\nInstituto Atlântico — Project Manager (Out/2025–Fev/2026): gestão de pessoas/processo e realocação de **6/8** no término de contrato.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Commercial awareness and sound financial judgement",
+          "category": "domain",
+          "evidence": "Campos Gouveia — Project Manager (1 linha): gestão de obra de 15 andares (~5.000 m²) com liderança direta de ~30 pessoas.\nNubank — Business Analyst (1 linha): operação de crédito em alta escala (150k/dia) com ganhos em qualidade de dados, custo e eficiência de pipeline.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Experience leveraging automation and AI tools to improve efficiency (highly regarded)",
+          "category": "technical",
+          "evidence": "Instituto Atlântico — Product Owner (Jul/2022–Set/2024): PoC GenAI que contribuiu para contrato e mapeamento de 9 use cases.\nR&D aplicado (2026): metodologia experimental para artigo de consumo energético (LLM monolítico vs multiagente), com **100 questões em 4 níveis de complexidade**, rubricas binárias e arquitetura com critérios de escalonamento.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Proven experience managing end-to-end projects",
+        "candidate_has": "~3 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui experiência relevante em gestão de programas técnicos, implementação de controles de compliance e automação de processos, mas a lacuna de senioridade (apenas ~3-4 anos de PM/TPM) impede um melhor ajuste à vaga, que exige 12+ anos de experiência. Seu perfil se encaixa na faixa de 50-69, sendo improvável passar por uma triagem experiente, apesar das skills transferíveis.",
+      "main_gap": "A lacuna de senioridade é o principal risco desta candidatura, uma vez que a vaga exige mais do que o candidato possui atualmente em experiência comprovada em programas de escala enterprise.",
+      "company": "Stripe",
+      "location": "SFO, US Remote",
+      "title": "Engineering Program Manager, Tech GRC",
+      "url": "https://stripe.com/jobs/search?gh_jid=7739260",
+      "id": "bd9518c1287b450f10ae1cbcec7bab919be44e16af34dde311927fd138261d8e",
+      "core_requirements": [
+        {
+          "requirement": "Deep technical compliance experience: demonstrable experience implementing and operating controls and audit programs (ISO, SOC, PCI, UK Cyber Essentials, privacy audits, or similar) in complex, distributed environments.",
+          "category": "technical",
+          "evidence": "Recent experience as TPM (Sep/2024-Sep/2025) and PO (Jul/2022-Sep/2024) at Instituto Atlântico, with responsibilities around implementing compliance programs and controls.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Design and implement baseline technology controls, ensuring they are practical, scalable, and aligned with compliance and security requirements.",
+          "category": "technical",
+          "evidence": "Experience as PO (Jul/2022-Sep/2024) in reorganizing components into products, improving deployment frequency, and conducting PoCs for GenAI integration.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Strong engineering collaboration: proven track record working with infrastructure, platform, SRE, and product engineering teams to deliver technical controls and automation.",
+          "category": "leadership",
+          "evidence": "Experience as TPM (Sep/2024-Sep/2025) coordinating 3 teams (~25 engineers) in a global program, and delivering automation that reduced weekly review time from 40 to 10 minutes.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Tooling and automation mindset: experience building scalable tools, frameworks, or platforms that reduce manual evidence collection and audit testing overhead.",
+          "category": "technical",
+          "evidence": "Experience in R&D to develop a methodology for evaluating LLM models with 100 questions in 4 complexity levels, using rubrics and an architecture with scaling criteria.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Program leadership at scale: ability to lead cross‑organizational programs, influence senior engineers and executives, and drive consensus across competing priorities.",
+          "category": "leadership",
+          "evidence": "Experience as TPM (Sep/2024-Sep/2025) in a global program with 15 teams and 200+ engineers, and as PM (Oct/2025-Feb/2026) managing a program with 4 startups and 2 internal teams.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "12+ years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui sólida experiência em gestão de produtos, programas e projetos na área de tecnologia, incluindo liderança de iniciativas estratégicas e entregas complexas. No entanto, há uma lacuna de senioridade em relação ao que é exigido na vaga, com apenas ~3 anos em funções de PM/TPM, enquanto a vaga pede 4-8 anos. Seu perfil é transferível para o domínio de crescimento de receita, mas essa lacuna de senioridade impede um ajuste ideal.",
+      "main_gap": "Lacuna de senioridade em relação ao esperado para a vaga",
+      "company": "Docplanner",
+      "location": "",
+      "title": "Global Revenue Growth Senior Project Manager Expansion",
+      "url": "https://remotefirstjobs.com/companies/docplanner/jobs/global-revenue-growth-senior-project-manager-expansion-750358",
+      "id": "14de4239ccbbb62f001bb4877394fee3eadb75ad5974dce7b6f35b492145bdf0",
+      "core_requirements": [
+        {
+          "requirement": "Structure and prioritize the full portfolio of expansion initiatives",
+          "category": "leadership",
+          "evidence": "You will act as the central orchestrator of the Expansion initiative portfolio.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Directly lead selected strategic initiatives end-to-end",
+          "category": "leadership",
+          "evidence": "In addition to portfolio oversight, you will personally lead selected strategic initiatives end-to-end.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Co-own Expansion budget and performance delivery",
+          "category": "leadership",
+          "evidence": "You will play a key role in ensuring we deliver our Expansion revenue targets.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "4-8 years of professional experience",
+          "category": "seniority",
+          "evidence": "~3 years in PM/TPM tech roles",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Strong project management experience",
+          "category": "technical",
+          "evidence": "Significant experience managing complex, cross-functional initiatives based on work history.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "4-8 years",
+        "candidate_has": "~3 years in PM/TPM tech roles",
+        "gap": true
+      }
+    }
+  ],
+  "eliminated_jobs": [
+    {
+      "id_hash": "e0f39e18e82f5f4e065a947344c2898d4286cfc55f40b9dde4a49bc1715a4628",
+      "id": "e0f39e18e82f5f4e065a947344c2898d4286cfc55f40b9dde4a49bc1715a4628",
+      "source": "jobicy",
+      "title": "Salesforce Team Lead",
+      "company": "Veeam Software",
+      "location": "Romania",
+      "salary": null,
+      "jd_full": "<p>Veeam is the Data and AI Trust Company, specializing in helping organizations ensure their data and AI are fully understood, secured, and resilient to enable the acceleration of safe AI at scale. As the market leader in both data resilience and data security posture management, Veeam is built for the convergence of identity, data, security, and AI risk. Headquartered in Seattle with offices in more than 30 countries, Veeam protects over 550,000 customers worldwide, who trust Veeam to keep their businesses running. Join us as we go fearlessly forward together, growing, learning, and making a real impact for some of the world’s biggest brands.</p>\n<h3><strong>About the Role</strong></h3>\n<p>We are looking for an experienced <strong>Engineering Manager / Team Lead</strong> to lead a team of Salesforce engineers delivering scalable, secure, and business‑critical Salesforce solutions. This role combines <strong>people leadership</strong>, <strong>delivery management</strong>, and <strong>technical oversight</strong>, and is ideal for a leader who enjoys growing engineers while driving predictable execution. </p>\n<p>You will partner closely with internal team members and other stakeholders to ensure our Salesforce platform continues to evolve in support of Veeam’s global growth. </p>\n<h3><strong>What You’ll Do</strong></h3>\n<ul>\n<li>Mentor and manage a team of Salesforce engineers through regular 1:1s, feedback, and coaching </li>\n<li>Support career growth and performance, fostering a collaborative, inclusive, high-trust team culture </li>\n<li>Optimize delivery for Salesforce initiatives across Salesforce ecosystem, managing risks, dependencies, capacity, and stakeholder communication </li>\n<li>Guide technical approach for your team, enabling engineers to deliver consistent value </li>\n<li>Drive engineering best practices (quality, testing, security, scalability), reducing technical debt and improving CI/CD and releases </li>\n<li>Use data and metrics to improve predictability, quality, and team effectiveness </li>\n<li>Continuously improve engineering workflows and development practices </li>\n</ul>\n<h3><strong>What You’ll Bring</strong></h3>\n<ul>\n<li>6+ years of experience in Salesforce or enterprise software engineering </li>\n<li>1+ years of experience leading or managing engineers </li>\n<li>Strong knowledge of the Salesforce platform, including Apex, Lightning Web Components, Flow, and integrations </li>\n<li>Experience delivering Salesforce solutions in complex, enterprise environments </li>\n<li>Strong communication and collaboration skills with technical and non‑technical partners </li>\n</ul>\n<h3><strong>Bonus Skills</strong></h3>\n<ul>\n<li>Experience working in multi‑org Salesforce environments </li>\n<li>Familiarity with regulated or compliance‑aware deployment models </li>\n<li>Experience modernizing or re‑platforming Salesforce implementations </li>\n<li>Experience working with distributed or global teams </li>\n</ul>\n<h3><strong>What You’ll Get </strong></h3>\n<ul>\n<li>21 annual vacation days, additional days based on tenure, plus<strong> </strong>4 extra global VeeaMe Days for self-care and 24 paid volunteer hours annually through Veeam Cares</li>\n<li>Private health, dental, and vision insurance for employees and dependents, including outpatient care, hospitalization, pregnancy monitoring, and psychology support</li>\n<li>Monthly lifestyle and daily meal benefits: 40 RON/day via Edenred and 600 RON/month through a flexible cafeteria platform</li>\n<li>Life insurance (2× annual gross salary), critical illness, and disability coverage, plus vision reimbursement</li>\n<li>Free access to Bookster library platform for borrowing your favorite books for free</li>\n<li>Opportunities to learn and grow through on-demand libraries (LinkedIn Learning, O’Reilly), mentoring, workshops and learning events like our annual Global Day of Learning</li>\n</ul>\n<p><strong>Please note:</strong> If an applicant is permanently located outside of the Romania, Veeam reserves the right to decline the application for this position.</p>\n<p><strong>#LI-Remote<br />#LI-JS4</strong></p>\n<p><strong>Veeam Software is an equal opportunity employer</strong> and does not tolerate discrimination in any form on the basis of race, color, religion, gender, age, national origin, citizenship, disability, veteran status or any other classification protected by federal, state or local law. All your information will be kept confidential.</p>\n<p>Please note that any personal data collected from you during the recruitment process will be processed in accordance with our <a href=\"https://www.veeam.com/recruiting-privacy-notice.html\" rel=\"nofollow ugc noopener\" target=\"_blank\">Recruiting Privacy Notice</a>. </p>\n<p>The Privacy Notice sets out the basis on which the personal data collected from you, or that you provide to us, will be processed by us in connection with our recruitment processes. </p>\n<p>By applying for this position, you consent to the processing of your personal data in accordance with our <a href=\"https://www.veeam.com/recruiting-privacy-notice.html\" rel=\"nofollow ugc noopener\" target=\"_blank\">Recruiting Privacy Notice</a>.<br /><strong>By submitting your application, you acknowledge that the information provided in your job application and any supporting documents is complete and accurate to the best of your knowledge. Any misrepresentation, omission, or falsification of information may result in disqualification from consideration for employment or, if discovered after employment begins, termination of employment.</strong></p>",
+      "url": "https://jobicy.com/jobs/141378-salesforce-team-lead",
+      "collected_at": "2026-03-31T09:52:27.749589+00:00",
+      "date": "2026-03-29T08:03:22+00:00",
+      "filter_reason": "localização"
+    }
+  ]
+}

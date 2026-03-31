@@ -1,7 +1,58 @@
 {
-  "generated_at": "2026-03-30T10:07:44.296675+00:00",
-  "total": 13,
+  "generated_at": "2026-03-31T09:57:24.448397+00:00",
+  "total": 14,
   "jobs": [
+    {
+      "score": 100,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato apresenta experiência direta e relevante para a vaga de Product Manager da Authorize na Ping Identity. Ele possui cerca de 3-4 anos de experiência em funções de Product Manager e Technical Program Manager em tecnologia, com domínio comprovado em identidade e gestão de acesso, incluindo trabalho específico em soluções de autorização como o PingAuthorize. Suas habilidades em apresentar recomendações técnicas, liderar colaboração entre equipes e impulsionar eficiência com IA também se alinham perfeitamente aos requisitos da vaga.",
+      "main_gap": "Nenhum gap identificado. O perfil do candidato é um excelente match para os requisitos da vaga.",
+      "company": "Ping Identity",
+      "location": "UK",
+      "title": "Product Manager, Authorize",
+      "url": "https://jobicy.com/jobs/141362-product-manager-authorize",
+      "id": "ddf5e5659c3e65c9e604dfaab36c41d540408f472d27dfe410551b79665785a0",
+      "core_requirements": [
+        {
+          "requirement": "3+ years of work experience in cloud computing in a product management or engineering role",
+          "category": "seniority",
+          "evidence": "~3-4 years of PM/TPM experience in tech",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Knowledge of identity and access management, fine-grained authorization or identity use cases, standards and technology",
+          "category": "domain",
+          "evidence": "Extensive experience in identity and access management, with work on authorization solutions like PingAuthorize",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Able to synthesize technical information into crisp recommendations and present and defend recommendations to a variety of audiences",
+          "category": "leadership",
+          "evidence": "Experience presenting technical solutions and recommendations to stakeholders as a PM/TPM",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Proven strength solving technical problems by driving cross-team collaboration, ownership, and accountability",
+          "category": "leadership",
+          "evidence": "Demonstrated ability to drive cross-functional collaboration and ensure accountability as a PM/TPM",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Creative and enthusiasm to boost efficiency with AI, through workflows, tools, or automation",
+          "category": "technical",
+          "evidence": "Practical experience with AI/ML, including use of AI tools to improve product management workflows",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "3+ years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": false
+      },
+      "file_date": "2026-03-31",
+      "source": "pipeline"
+    },
     {
       "score": 90,
       "score_ceiling": 100,
@@ -656,16 +707,6 @@
   ],
   "pipeline_runs": [
     {
-      "date": "2026-03-16",
-      "filtered_at": "2026-03-16T09:55:12.835768+00:00",
-      "total_input": 18,
-      "total_passed": 11,
-      "discarded_title": 1,
-      "discarded_blocklist": 2,
-      "discarded_location": 4,
-      "discarded_quality": 0
-    },
-    {
       "date": "2026-03-17",
       "filtered_at": "2026-03-17T09:46:33.739162+00:00",
       "total_input": 23,
@@ -763,6 +804,16 @@
       "discarded_title": 4,
       "discarded_blocklist": 1,
       "discarded_location": 6,
+      "discarded_quality": 0
+    },
+    {
+      "date": "2026-03-31",
+      "filtered_at": "2026-03-31T09:55:31.401833+00:00",
+      "total_input": 32,
+      "total_passed": 17,
+      "discarded_title": 6,
+      "discarded_blocklist": 1,
+      "discarded_location": 8,
       "discarded_quality": 0
     }
   ]
