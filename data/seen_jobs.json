@@ -4432,5 +4432,155 @@
     "source": "lever",
     "title": "Senior Product Manager",
     "company": "dLocal"
+  },
+  "7f1e30f5eb00c0f55bb334f4e91a8df701773e9fa6a33eb4d2b304ac144bb76c": {
+    "first_seen": "2026-04-01",
+    "source": "openai_web_search",
+    "title": "Senior Technical Program Manager (TPM), Items and Offers Platform - Product Relationships",
+    "company": "Amazon.com Services LLC"
+  },
+  "077c3a5954c1e5f70b1afbbd47c24749df7d9e0faa02e74ac6df8b35ce2af62c": {
+    "first_seen": "2026-04-01",
+    "source": "openai_web_search",
+    "title": "Sr Technical Program Manager, Last Mile Delivery Automation",
+    "company": "Amazon.com Services LLC"
+  },
+  "1445f571cedbd82a1b83c0c9da5f0de51d3c17a4d04d56e839883b288b094e5d": {
+    "first_seen": "2026-04-01",
+    "source": "openai_web_search",
+    "title": "Senior Product Manager - Technical, Agentic AI DevOps",
+    "company": "Amazon Development Center U.S., Inc."
+  },
+  "1742557168b6363429d44533fbe936549c74b0c19d153fe8016a274375f3febe": {
+    "first_seen": "2026-04-01",
+    "source": "openai_web_search",
+    "title": "Product Manager Sênior",
+    "company": "Afya"
+  },
+  "b1e80428e8b105885d32f8096ee5b9918794b88cc4e8a7db5869f185b1d7608e": {
+    "first_seen": "2026-04-01",
+    "source": "jobicy",
+    "title": "Strategic Feasibility Senior Manager – Europe/US",
+    "company": "Worldwide Clinical Trials"
+  },
+  "e3c8f684fafaf594d942d82b08ee01b2e29b91d92200e9d769f0ebeea075159e": {
+    "first_seen": "2026-04-01",
+    "source": "jobicy",
+    "title": "Data Integration Manager",
+    "company": "Abbott"
+  },
+  "d065ae3285a18126c8e621157767d51e08fa8fcaa0a438b5a679f577ad9fc99e": {
+    "first_seen": "2026-04-01",
+    "source": "jobicy",
+    "title": "Product Manager, Partner Rewards",
+    "company": "HubSpot"
+  },
+  "4f1d24ffe9360e781bd5e94bfb82d8bc0458f26067bf4ace55964d2d0dd96990": {
+    "first_seen": "2026-04-01",
+    "source": "jobicy",
+    "title": "Shared Services Project Manager",
+    "company": "House Rx"
+  },
+  "3fdff933e3545454bcd50ab73f6d973f61f976a2b26e8ad23c222f5a5bf0458e": {
+    "first_seen": "2026-04-01",
+    "source": "remoteok",
+    "title": "Program Manager Major Deployments",
+    "company": "Skydio"
+  },
+  "62b917141657d6691710c9ea7f6e282fd1790d8b843baba88199a97c0f81706e": {
+    "first_seen": "2026-04-01",
+    "source": "remoteok",
+    "title": "Customer Program Manager",
+    "company": "Nexxa.AI"
+  },
+  "8f1985978a8cdde695bb8077177b04d015bd2612275ba884c7ce2e3dbfc638ad": {
+    "first_seen": "2026-04-01",
+    "source": "himalayas",
+    "title": "Project Manager (Cycle Hire) - Break Something",
+    "company": "Break Something"
+  },
+  "ec72f5624f92e60a0f4fdc7d8c89742b45c6251cd4c61e3c27f2166d40a2d6f8": {
+    "first_seen": "2026-04-01",
+    "source": "himalayas",
+    "title": "Project Manager CPQ",
+    "company": "Revalize"
+  },
+  "adb7f3c0865d7edb71c185bad574af18e1577f2dfd3e6077e34c8117928ee80f": {
+    "first_seen": "2026-04-01",
+    "source": "himalayas",
+    "title": "Technical Project/Program Manager III",
+    "company": "Astreya"
+  },
+  "93d0d243e76991729ac8eeb6bd3438ca50cc136cd4f06c1a2a92f7ead9abe23c": {
+    "first_seen": "2026-04-01",
+    "source": "himalayas",
+    "title": "Sr. Product Manager",
+    "company": "vCluster Labs"
+  },
+  "89a597801b7732682488caddb940379cac4021eb624051749f4f699b99201175": {
+    "first_seen": "2026-04-01",
+    "source": "himalayas",
+    "title": "Senior Product Manager",
+    "company": "SmartRecruiters"
+  },
+  "3a5d303f0fa538857928775ba77d7d198e1e66d919b34e7d9dda946e27430b44": {
+    "first_seen": "2026-04-01",
+    "source": "himalayas",
+    "title": "SAP/ERP Project Manager",
+    "company": "PradeepIT Consulting Services Pvt Ltd"
+  },
+  "9022d01a466af53cbd73f60bb639b815d21b5d3c1e165aeb012832038358102c": {
+    "first_seen": "2026-04-01",
+    "source": "himalayas",
+    "title": "Senior Product Manager, Digital Assessment Experience",
+    "company": "College Board"
+  },
+  "01006974d5bb0dc698d2894c00c7c9b281085c5433c9aca55488481496eecbbd": {
+    "first_seen": "2026-04-01",
+    "source": "jobscollider",
+    "title": "Senior Product Manager Design Systems",
+    "company": "Dandy"
+  },
+  "553043d76e7c659727e77d283a22e2ddd6774b0ae69b5eac6949743c718d7b83": {
+    "first_seen": "2026-04-01",
+    "source": "jobscollider",
+    "title": "Program Manager - Program Operations",
+    "company": "Nearsure"
+  },
+  "4364b5519d42e536982ff75ce2ab5340fd254790a0be857bb0223a36956395f9": {
+    "first_seen": "2026-04-01",
+    "source": "jobscollider",
+    "title": "Product Manager - Data & Analytics",
+    "company": "NBCUniversal"
+  },
+  "225a65d1e340ee8b6c140d2c87954fe8f05c33e5d3ee70881105ae1366f47bf7": {
+    "first_seen": "2026-04-01",
+    "source": "jobscollider",
+    "title": "Technical Enablement Program Manager",
+    "company": "BlueCat"
+  },
+  "ec99540496c8a4ed724abb98da7b01763925abeb8da9e86d73208172106b94d8": {
+    "first_seen": "2026-04-01",
+    "source": "jobscollider",
+    "title": "Product Manager Credit Scores",
+    "company": "Experian"
+  },
+  "f683967b6d3a446b1058e8418eb827bd210c7f75bdc7b056469b443cc4f04034": {
+    "first_seen": "2026-04-01",
+    "source": "jobscollider",
+    "title": "Project Manager GTM Operations",
+    "company": "Docplanner"
+  },
+  "3bf96e4e4e8edd2589d08c1fae18a6d7d3d19c069cdfaf065391437df59095dc": {
+    "first_seen": "2026-04-01",
+    "source": "jobscollider",
+    "title": "Project Manager",
+    "company": "Turner & Townsend"
+  },
+  "223572e7d29fef6505e474495b6296f74bf95d6694a7582b9e59435c87d39507": {
+    "first_seen": "2026-04-01",
+    "source": "jobscollider",
+    "title": "Client Services Project Manager",
+    "company": "NiCE"
   }
 }
