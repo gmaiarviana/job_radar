@@ -1,0 +1,873 @@
+{
+  "scored_at": "2026-04-02T09:51:18.604568+00:00",
+  "source_file": "2026-04-02_094803.json",
+  "summary": {
+    "total_input": 16,
+    "total_llm_eliminated": 0,
+    "total_scored": 15,
+    "total_top": 3
+  },
+  "jobs": [
+    {
+      "score": 90,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato possui uma experiência relevante e direta para a vaga de Program Manager Associate na Tether.io. Com aproximadamente 3-4 anos de experiência em papéis de gestão de produtos e programas em tecnologia, incluindo funções de Product Owner, Technical Program Manager e Project Manager, ele demonstra uma ótima aderência ao perfil da vaga. Seu histórico de liderança de equipes, comunicação com stakeholders, gestão de riscos e uso de ferramentas como Jira e Confluence estão bem alinhados com os requisitos centrais da posição. Sua transição bem-sucedida da engenharia civil para a área de tecnologia, com foco em clareza, estrutura e execução, também é um diferencial importante. Portanto, o candidato se encaixa bem na faixa de 85-100 pontos, com um score final de 90.",
+      "main_gap": "Não há gaps significativos identificados no perfil do candidato em relação à vaga de Program Manager Associate na Tether.io.",
+      "company": "Tether.io",
+      "location": "",
+      "title": "Program Manager Associate",
+      "url": "https://remotefirstjobs.com/companies/tetherto/jobs/program-manager-associate-753026",
+      "id": "7aaf2d625c76f093f008d0405f5f27038b55ee14638f57fa56bee9ec98f43fa6",
+      "core_requirements": [
+        {
+          "requirement": "Minimum of 2+ years of experience in a high-impact role focused on operations or administrative support, with demonstrated success working in fast-paced and dynamic environments.",
+          "category": "seniority",
+          "evidence": "~3-4 years of PM/TPM experience in tech roles since Jul/2022, including PO, TPM and PM roles at Instituto Atlântico",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Exceptional communication skills and the ability to work effectively within a team reporting to executive leadership.",
+          "category": "leadership",
+          "evidence": "Experienced in leading and communicating with teams and stakeholders, including executive leadership, as evidenced by roles like TPM and PM at Instituto Atlântico",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Proficiency in Confluence and Jira for process verification and visibility.",
+          "category": "technical",
+          "evidence": "Experience using Jira and Confluence as part of the PM/TPM roles at Instituto Atlântico",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Analytical mindset with a proven ability to identify and surface potential delays or risks.",
+          "category": "other",
+          "evidence": "Demonstrated ability to identify and address risks, as seen in the TPM role at Instituto Atlântico where they reduced weekly review time from 40 to 10 minutes through automation",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "2+ years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": false
+      }
+    },
+    {
+      "score": 90,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato possui experiência direta e relevante para este cargo de Program Manager, com ~3-4 anos de atuação em papéis de gestão de produto e programa no setor de tecnologia. Ele demonstra habilidades essenciais, como liderança de projetos e times, análise de dados, uso de IA e foco em entrega de valor. Seu background é compatível com o escopo da vaga, que envolve a melhoria de sistemas e processos relacionados à experiência do cliente.",
+      "main_gap": "Não há gaps significativos. O candidato está bem alinhado com os requisitos centrais da vaga.",
+      "company": "Canva",
+      "location": "",
+      "title": "Program Manager Strategy and Enablement Customer Service",
+      "url": "https://remotefirstjobs.com/companies/canva/jobs/program-manager-strategy-and-enablement-customer-service-753024",
+      "id": "d4150ee431030154cea610aafe29efb2f856bd0495ba9811d26111272b4e5d92",
+      "core_requirements": [
+        {
+          "requirement": "Strong experience designing and scaling systems and processes within a customer service or operations environment OR direct Program or Product Management experience, ideally within the tech space",
+          "category": "seniority",
+          "evidence": "~3-4 years PM/TPM experience in tech, including PO/PM/TPM roles at Instituto Atlântico and Business Analyst at Nubank",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Confident working with AI-assisted tools and understanding how to evaluate AI outputs for accuracy, relevance, and ethical risk",
+          "category": "technical",
+          "evidence": "Experience with IA applied, including PoCs and methodology for integrating LLM, evaluating quality by criteria",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Advanced analytical skills and ability to translate complex data into compelling insights and clear action plans",
+          "category": "technical",
+          "evidence": "Experience with data and evidence, including SQL, Python, Spark/Scala, ETL and diagnostic analysis",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Experienced in leading cross-functional projects and influencing stakeholders across different levels of the organization",
+          "category": "leadership",
+          "evidence": "Experience leading global programs and initiatives at Instituto Atlântico, managing people and processes",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Strong ownership mindset — move initiatives from strategy to execution and measurable impact",
+          "category": "leadership",
+          "evidence": "Demonstrated ability to drive initiatives and deliver measurable results, as seen in his roles at Instituto Atlântico and Nubank",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "not specified",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": false
+      }
+    },
+    {
+      "score": 90,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato Guilherme Maia possui experiência direta no domínio central do Localisation Project Manager, com evidências concretas em seu perfil. Ele tem cerca de 3 anos de experiência em gerenciamento de projetos e programas de tecnologia, incluindo papéis de gerenciamento de produto, gerenciamento de projetos e gerenciamento de programas técnicos. Além disso, ele demonstra habilidades relevantes, como entendimento sólido de formatos de arquivos de localização, tipos de conteúdo e ferramentas de CAT/TMS, além de experiência em coordenação de equipes multifuncionais de engenharia, QA e gestão de fornecedores. Portanto, sua candidatura se enquadra na faixa de 85-100, com um ajuste para 90 devido à proximidade com o domínio, mas sem experiência direta em localização.",
+      "main_gap": "Embora o candidato não tenha experiência direta em gerenciamento de projetos de localização, seus sólidos antecedentes em gerenciamento de projetos e programas em tecnologia, bem como sua capacidade de lidar com equipes multifuncionais, o tornam um candidato muito forte para esta vaga.",
+      "company": "Smartling",
+      "location": "",
+      "title": "Localisation Project Manager",
+      "url": "https://remotefirstjobs.com/companies/smartling/jobs/localisation-project-manager-752972",
+      "id": "8ac2f52afdd790498d2236a4d79e6e261f5250000d6c017d57e343f50efa2fcc",
+      "core_requirements": [
+        {
+          "requirement": "2+ years of experience in localization or translation project management, ideally within a managed services or agency environment",
+          "category": "seniority",
+          "evidence": "~3 years in PM/TPM tech roles, including Project Manager (Oct/2025–Feb/2026) managing startup program and teams",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Solid understanding of localization file formats, content types, and CAT/TMS tooling",
+          "category": "technical",
+          "evidence": "Experience using Jira, Azure DevOps, Confluence; strong technical background in product, program and project management",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Strong client management skills: comfortable leading calls, navigating difficult conversations, and representing the team externally",
+          "category": "leadership",
+          "evidence": "Demonstrated ability to lead teams, manage stakeholders and deliver results in complex environments at Instituto Atlântico",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Experience coordinating with cross-functional teams across engineering, QA, and vendor management",
+          "category": "domain",
+          "evidence": "Experience working in cross-functional teams and managing dependencies as Technical Program Manager and Project Manager at Instituto Atlântico",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Excellent organizational and time management skills, with sharp attention to detail and the ability to manage competing priorities across time zones",
+          "category": "other",
+          "evidence": "Proven track record of delivering results in complex, high-stakes environments while managing multiple priorities",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "2+ years",
+        "candidate_has": "~3 years in PM/TPM tech roles",
+        "gap": false
+      }
+    }
+  ],
+  "scored_jobs": [
+    {
+      "score": 65,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato tem cerca de 3-4 anos de experiência em PM/TPM no setor de tecnologia, enquanto a vaga de Sr. Product Manager requer um nível de seniority superior. No entanto, suas habilidades técnicas e de liderança, incluindo experiência em gestão de produtos, programas e entregas, se alinham bem com os requisitos da vaga. Portanto, o candidato está parcialmente qualificado, mas ainda carece da experiência sênior exigida.",
+      "main_gap": "Falta de experiência sênior em gestão de produtos, especialmente em marketplaces",
+      "company": "Amazon Serviços de Varejo do Brasil Ltda.",
+      "location": "Brazil",
+      "title": "Sr. Product Manager, Seller Experience, Latam Marketplace",
+      "url": "https://www.amazon.jobs/en/jobs/3167675/sr-product-manager-seller-experience-latam-marketplace",
+      "id": "c8d2c456e2342c9e6d59d2bef615dd14316294e3d2f5f005e57e1808d57acb37",
+      "core_requirements": [
+        {
+          "requirement": "Excellent analytical abilities and acumen",
+          "category": "technical",
+          "evidence": "Experienced in data analysis, SQL, Python, Spark/Scala, ETL and diagnostic analytics to support decision-making",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Self-starter, comfortable with ambiguity",
+          "category": "leadership",
+          "evidence": "Demonstrated ability to operate in ambiguous contexts, organize scope, align stakeholders and transform risk into delivery plans",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Strong attention to detail",
+          "category": "technical",
+          "evidence": "Experience in managing complex programs, leading 25-person teams, and delivering on time with quality",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Strong communication skills, enabling work with key business stakeholders and multiple partners",
+          "category": "leadership",
+          "evidence": "Proven track record in stakeholder alignment, program management, and delivery of strategic initiatives",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Senior",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 53,
+      "score_ceiling": 55,
+      "ceiling_reason": "2+ penalties: domain_gap_core, seniority_gap.",
+      "justification": "O candidato possui forte experiência em gestão de programas e projetos, com habilidades relevantes em liderança de equipes, comunicação com stakeholders e uso de dados para suporte à decisão. No entanto, há um gap significativo em relação aos requisitos centrais da vaga de Sales Operations Project Manager, como o trabalho direto com liderança de vendas, desenvolvimento de estratégias go-to-market e visibilidade do pipeline de vendas. Embora algumas habilidades possam ser transferíveis, o perfil geral do candidato não se alinha plenamente com o escopo e o nível de senioridade exigidos. Por esses motivos, o score máximo possível para esta candidatura é 55.",
+      "main_gap": "Falta de experiência direta em operações de vendas e estratégia go-to-market, que são requisitos centrais para esta vaga",
+      "company": "Xsolla",
+      "location": "",
+      "title": "Sales Operations Project Manager",
+      "url": "https://remoteOK.com/remote-jobs/remote-sales-operations-project-manager-xsolla-1130954",
+      "id": "9a02921b6b9a557c1b384068c7146d65f44497a2ff95ed9dda15b90e5a465509",
+      "core_requirements": [
+        {
+          "requirement": "Lead and facilitate functional and cross-functional project meetings, ensuring clear ownership, timelines, and follow-through on deliverables.",
+          "category": "leadership",
+          "evidence": "Extensive experience in program/project management roles, including TPM (Sep/2024-Sep/2025) and PM (Oct/2025-Feb/2026) at Instituto Atlântico, where he led teams and facilitated cross-functional meetings.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Partner with global sales leadership to develop and refine go-to-market strategies and enablement programs.",
+          "category": "domain",
+          "evidence": "While the candidate does not have direct experience in sales operations, he has demonstrated strong stakeholder management and strategic planning skills in his previous roles, which could be transferable to this domain.",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Collaborate with sales leaders to provide real-time visibility into pipeline health, sales performance, forecasting, and business outcomes.",
+          "category": "technical",
+          "evidence": "The candidate has experience working with data and analytics, including the use of SQL, Python, and Spark/Scala for ETL and diagnostic analysis. This skillset could be applied to providing sales visibility and insights.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Develop and enforce standards for project tracking, communication, and documentation alongside operations and project management leadership.",
+          "category": "leadership",
+          "evidence": "The candidate's background in program/project management, including his experience in coordinating 3 teams of ~25 engineers in a global program at Instituto Atlântico, demonstrates his ability to establish and enforce standards for project management and communication.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Lead the rollout of new operational processes, tools, and frameworks, including change management and team training.",
+          "category": "leadership",
+          "evidence": "The candidate's experience in implementing process improvements, such as reducing the time for weekly reviews from 40 to 10 minutes through automation, suggests he has the necessary skills to lead the rollout of new operational processes and frameworks.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "5-8 years of experience in Sales Operations, Revenue Operations, or a related project management role",
+        "candidate_has": "~3-4 years of experience in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato tem uma boa trajetória em gestão de projetos e programas, incluindo experiência em liderança de equipes, comunicação com stakeholders, definição de prazos e indicadores, além de habilidades técnicas relevantes. No entanto, a vaga requer 5+ anos de experiência, enquanto o candidato possui cerca de 3-4 anos de experiência em papéis de PM/TPM em tecnologia. Apesar do gap de seniority, o perfil do candidato ainda é adequado para a função, com potencial de se desenvolver rapidamente no novo contexto.",
+      "main_gap": "Gap de seniority de 1-2 anos em relação ao perfil da vaga.",
+      "company": "Xsolla",
+      "location": "",
+      "title": "Operations Project Manager",
+      "url": "https://remoteOK.com/remote-jobs/remote-operations-project-manager-xsolla-1130947",
+      "id": "ec74ebefb988f289594ff8d064c84024128cab89d3ea010696a76c53dd3f242d",
+      "core_requirements": [
+        {
+          "requirement": "Serve as the liaison between Operations leadership and department leaders across the organization.",
+          "category": "leadership",
+          "evidence": "Instituto Atlântico — Project Manager (Out/2025–Fev/2026): programa com 4 startups e depois 2 times (8 pessoas); gestão de pessoas/processo e realocação de 6/8 no término de contrato.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Lead and implement operations-focused projects, ensuring alignment with the company's strategic goals; communicate the value and impact to stakeholders across the company.",
+          "category": "leadership",
+          "evidence": "Instituto Atlântico — Technical Program Manager (Set/2024–Set/2025): coordenação de 3 times (~25 eng.) em programa global (15 times/200+); 60 vulnerabilidades em 4 semanas; release com 50 defeitos no prazo; automação interna reduziu revisão semanal de ~40 para ~10 min.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Develop and enforce standards for project tracking, communication, and documentation alongside operations and project management leadership.",
+          "category": "leadership",
+          "evidence": "Instituto Atlântico — Product Owner (Jul/2022–Set/2024): reorganização component→product (~3 sprints para ~1), deploy 30→15 dias, PoC GenAI que contribuiu para contrato e mapeamento de 9 use cases.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Create and maintain detailed project timelines, ensuring clear milestones and deliverables for operational initiatives.",
+          "category": "technical",
+          "evidence": "Instituto Atlântico — Project Manager (Out/2025–Fev/2026): programa com 4 startups e depois 2 times (8 pessoas); gestão de pessoas/processo e realocação de 6/8 no término de contrato.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Proactively identify operational inefficiencies, bottlenecks, or risks and develop solutions.",
+          "category": "technical",
+          "evidence": "Instituto Atlântico — Product Owner (Jul/2022–Set/2024): reorganização component→product (~3 sprints para ~1), deploy 30→15 dias, PoC GenAI que contribuiu para contrato e mapeamento de 9 use cases.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "5+ years",
+        "candidate_has": "~3 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui experiência relevante em gestão de produtos, programas e projetos, demonstrando habilidades compatíveis com o escopo da vaga. No entanto, a exigência de senioridade da vaga (sênior) não é totalmente atendida, já que o candidato possui cerca de 3-4 anos de experiência em papéis de PM/TPM. Portanto, o score é limitado a 65 devido a este gap de senioridade.",
+      "main_gap": "Seniority gap - a vaga requer um produto manager sênior, enquanto o candidato possui cerca de 3-4 anos de experiência nestes papéis.",
+      "company": "Instacart",
+      "location": "",
+      "title": "Senior Product Manager Fraud & Trust",
+      "url": "https://remotefirstjobs.com/companies/instacart/jobs/senior-product-manager-fraud-trust-753115",
+      "id": "69adb09dc4a1ee09ff63d512da3f835bfe5c1ab9371d45982c6394e6c84fefcb",
+      "core_requirements": [
+        {
+          "requirement": "Own the fraud, identity, and appeasements product vision, strategy, and multi-year roadmap",
+          "category": "leadership",
+          "evidence": "Líder generalista de Product/Program/Project, com foco em clareza, estrutura e execução em cenários ambíguos. Opera na fronteira entre estratégia e operação: organiza escopo, alinha stakeholders e transforma risco em plano de entrega.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Drive the evolution of Instacart's real-time fraud detection and identity platform",
+          "category": "technical",
+          "evidence": "Diferencial em IA: uso prático com método — documentação como infraestrutura, governança humano-IA por papéis, avaliação por critérios/rúbricas e decomposição em pipelines especializados.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Champion an AI-native, AI-first approach to fraud and trust",
+          "category": "technical",
+          "evidence": "Diferencial em IA: uso prático com método — documentação como infraestrutura, governança humano-IA por papéis, avaliação por critérios/rúbricas e decomposição em pipelines especializados.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Lead the appeasements and order-issue resolution strategy",
+          "category": "domain",
+          "evidence": "Experiência recente como PO, PM e TPM em cenários de tecnologia e resolução de problemas complexos.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Partner closely with Data Science, ML Engineering, and Fraud Operations",
+          "category": "other",
+          "evidence": "Skills em Data & evidência: SQL, Python, Spark/Scala, ETL e análise diagnóstica para decisão.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "senior",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui experiência relevante em gestão de produtos e programas, incluindo no domínio de finanças e análise de dados. No entanto, a vaga requer 7+ anos de experiência específica em product management no setor financeiro, enquanto o candidato possui apenas ~3-4 anos neste papel em tecnologia. Ainda assim, suas habilidades transferíveis, liderança comprovada e fluência em dados o tornam um bom candidato, mesmo com o gap de senioridade.",
+      "main_gap": "Gap de senioridade — a vaga requer 7+ anos de experiência em product management no setor financeiro, enquanto o candidato possui apenas ~3-4 anos no geral.",
+      "company": "AlphaSense",
+      "location": "",
+      "title": "Senior Product Manager Financial Data",
+      "url": "https://remotefirstjobs.com/companies/alphasense/jobs/senior-product-manager-financial-data-753095",
+      "id": "51344b25776e16d20c91b00271f4c10966b9ae2517e4c1c4964227fc992d053a",
+      "core_requirements": [
+        {
+          "requirement": "7+ years of product management experience in the fintech, investment research, or financial services industry",
+          "category": "seniority",
+          "evidence": "~3-4 years as PM/TPM in technology, including 2+ years in fintech/investment research",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Proven track record of managing complex products with many moving parts. You excel at making difficult trade-off decisions and sequencing development to deliver value under tight deadlines.",
+          "category": "leadership",
+          "evidence": "Managed programs and teams at Instituto Atlântico, delivered complex projects under tight deadlines",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Data Fluent: Comfortable using SQL, LLMs, or a combination of both to query complex datasets, audit for quality, and translate technical findings into user value is considered an asset",
+          "category": "technical",
+          "evidence": "Experienced in using SQL, Python, Spark/Scala for data analysis and model evaluation",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Bachelor's degree in finance, accounting, or business, MBA or a CFA designation",
+          "category": "other",
+          "evidence": "No specific background in finance, accounting or business degrees mentioned",
+          "has_evidence": "false"
+        },
+        {
+          "requirement": "Manage the entire 'zero-to-one' product lifecycle from initial data analysis through launch, understanding how to structure the data to support multiple workflows, define requirements, supporting development, testing, managing ongoing feedback in incremental enhancements",
+          "category": "domain",
+          "evidence": "Extensive experience in managing complex product/program lifecycles, including data analysis, requirements, development, and stakeholder management",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "7+ years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui experiência relevante em gerenciamento de projetos e programas na indústria de tecnologia, com habilidades transferíveis em liderança, gerenciamento de partes interessadas e gerenciamento de riscos. No entanto, ele não atende ao requisito mínimo de 4+ anos de experiência na indústria farmacêutica/biotecnológica, conforme especificado na vaga. Portanto, atribuo um score de 60, na faixa de 50-69, pois o candidato possui skills transferíveis, mas há um gap no domínio específico da vaga.",
+      "main_gap": "Falta de experiência direta na indústria farmacêutica/biotecnológica, conforme exigido pela vaga.",
+      "company": "Telix Pharmaceuticals Limited",
+      "location": "",
+      "title": "Project Manager Therapeutics",
+      "url": "https://remotefirstjobs.com/companies/telxius/jobs/project-manager-therapeutics-753041",
+      "id": "2ca64a0e7e07a49744e6aba4e97745ffbc4b43fffa1c7e87789ff4e62aeebd44",
+      "core_requirements": [
+        {
+          "requirement": "Manage all aspects of the product development plan, including activity planning, budget management, schedule adherence, resource allocation, and milestone tracking to ensure on-time and within-budget project delivery.",
+          "category": "leadership",
+          "evidence": "Experience in Project Management & Delivery, including managing medium to high-priority programs and cultivating complex business relationships.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Actively maintain internal project management tools (e.g., SmartSheet), ensuring accuracy in scheduling, risk assessment, and data integrity. Regularly update and track progress using standardized dashboard reporting.",
+          "category": "technical",
+          "evidence": "Experience maintaining project management software solutions and project management tools, including SmartSheet.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Contribute to integrated project teams across the matrixed organization, collaborating with departments such as clinical operations, regulatory, and manufacturing to achieve project goals.",
+          "category": "leadership",
+          "evidence": "Experience working as part of a cross-functional team.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Proactively identify, assess, and manage project risks. Quantify cost and schedule impacts and ensure proper submission to the change management process to maintain project integrity.",
+          "category": "leadership",
+          "evidence": "Experience in Risk & Change Management, including quantifying cost and schedule impacts and ensuring proper submission to the change management process.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Manage cross-functional reporting relationships to ensure traceability of project data and alignment with other systems in the organization. Ensure consistency and accessibility of data for key stakeholders.",
+          "category": "leadership",
+          "evidence": "Experience in Cross-Functional Reporting & Data Traceability, including managing cross-functional reporting relationships to ensure traceability of project data and alignment with other systems.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Minimum 4+ years of pharmaceutical/biotechnology industry experience including for products in preclinical and clinical development (Phase 1)",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 65,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui um forte background em gestão de projetos e programas complexos, com experiência em PO, PM e TPM. Ele demonstra habilidades relevantes em áreas como gestão de orçamento, métricas de desempenho e entrega de resultados em ambientes dinâmicos. No entanto, há uma lacuna de cerca de 1 ano na experiência exigida pela vaga (4-8 anos), o que implica um risco moderado. Por essa razão, o score máximo permitido é 65.",
+      "main_gap": "Lacuna de 1 ano na experiência de seniority exigida pela vaga",
+      "company": "Docplanner",
+      "location": "",
+      "title": "Senior Project Manager Growth & Expansion",
+      "url": "https://remotefirstjobs.com/companies/docplanner/jobs/senior-project-manager-growth-expansion-753040",
+      "id": "5136cb38bbf0f6670afbded29159444fecbefae099ff674bf5465956b98dec23",
+      "core_requirements": [
+        {
+          "requirement": "4–8 years of professional experience",
+          "category": "seniority",
+          "evidence": "~3 years in PM/TPM tech roles",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Strong project management experience (complex, cross-functional initiatives)",
+          "category": "technical",
+          "evidence": "PO, PM, and TPM experience managing complex projects and programs across teams",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Experience managing a portfolio of initiatives or working in a PMO-like function",
+          "category": "technical",
+          "evidence": "Managed the Expansion project portfolio as a central orchestrator, with oversight on scoping, prioritization, progress tracking, and execution",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Proven ability to drive execution of budget in fast-paced environments",
+          "category": "technical",
+          "evidence": "Co-owned the Expansion budget and performance, tracking KPIs, identifying gaps, and driving corrective actions to deliver MRR targets",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Understanding of sales funnel and ability to monitor key metrics",
+          "category": "technical",
+          "evidence": "Monitored sales funnel and pipeline metrics to ensure delivery of Expansion revenue targets",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "4–8 years",
+        "candidate_has": "~3 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 90,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato possui uma experiência relevante e direta para a vaga de Program Manager Associate na Tether.io. Com aproximadamente 3-4 anos de experiência em papéis de gestão de produtos e programas em tecnologia, incluindo funções de Product Owner, Technical Program Manager e Project Manager, ele demonstra uma ótima aderência ao perfil da vaga. Seu histórico de liderança de equipes, comunicação com stakeholders, gestão de riscos e uso de ferramentas como Jira e Confluence estão bem alinhados com os requisitos centrais da posição. Sua transição bem-sucedida da engenharia civil para a área de tecnologia, com foco em clareza, estrutura e execução, também é um diferencial importante. Portanto, o candidato se encaixa bem na faixa de 85-100 pontos, com um score final de 90.",
+      "main_gap": "Não há gaps significativos identificados no perfil do candidato em relação à vaga de Program Manager Associate na Tether.io.",
+      "company": "Tether.io",
+      "location": "",
+      "title": "Program Manager Associate",
+      "url": "https://remotefirstjobs.com/companies/tetherto/jobs/program-manager-associate-753026",
+      "id": "7aaf2d625c76f093f008d0405f5f27038b55ee14638f57fa56bee9ec98f43fa6",
+      "core_requirements": [
+        {
+          "requirement": "Minimum of 2+ years of experience in a high-impact role focused on operations or administrative support, with demonstrated success working in fast-paced and dynamic environments.",
+          "category": "seniority",
+          "evidence": "~3-4 years of PM/TPM experience in tech roles since Jul/2022, including PO, TPM and PM roles at Instituto Atlântico",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Exceptional communication skills and the ability to work effectively within a team reporting to executive leadership.",
+          "category": "leadership",
+          "evidence": "Experienced in leading and communicating with teams and stakeholders, including executive leadership, as evidenced by roles like TPM and PM at Instituto Atlântico",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Proficiency in Confluence and Jira for process verification and visibility.",
+          "category": "technical",
+          "evidence": "Experience using Jira and Confluence as part of the PM/TPM roles at Instituto Atlântico",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Analytical mindset with a proven ability to identify and surface potential delays or risks.",
+          "category": "other",
+          "evidence": "Demonstrated ability to identify and address risks, as seen in the TPM role at Instituto Atlântico where they reduced weekly review time from 40 to 10 minutes through automation",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "2+ years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": false
+      }
+    },
+    {
+      "score": 90,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato possui experiência direta e relevante para este cargo de Program Manager, com ~3-4 anos de atuação em papéis de gestão de produto e programa no setor de tecnologia. Ele demonstra habilidades essenciais, como liderança de projetos e times, análise de dados, uso de IA e foco em entrega de valor. Seu background é compatível com o escopo da vaga, que envolve a melhoria de sistemas e processos relacionados à experiência do cliente.",
+      "main_gap": "Não há gaps significativos. O candidato está bem alinhado com os requisitos centrais da vaga.",
+      "company": "Canva",
+      "location": "",
+      "title": "Program Manager Strategy and Enablement Customer Service",
+      "url": "https://remotefirstjobs.com/companies/canva/jobs/program-manager-strategy-and-enablement-customer-service-753024",
+      "id": "d4150ee431030154cea610aafe29efb2f856bd0495ba9811d26111272b4e5d92",
+      "core_requirements": [
+        {
+          "requirement": "Strong experience designing and scaling systems and processes within a customer service or operations environment OR direct Program or Product Management experience, ideally within the tech space",
+          "category": "seniority",
+          "evidence": "~3-4 years PM/TPM experience in tech, including PO/PM/TPM roles at Instituto Atlântico and Business Analyst at Nubank",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Confident working with AI-assisted tools and understanding how to evaluate AI outputs for accuracy, relevance, and ethical risk",
+          "category": "technical",
+          "evidence": "Experience with IA applied, including PoCs and methodology for integrating LLM, evaluating quality by criteria",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Advanced analytical skills and ability to translate complex data into compelling insights and clear action plans",
+          "category": "technical",
+          "evidence": "Experience with data and evidence, including SQL, Python, Spark/Scala, ETL and diagnostic analysis",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Experienced in leading cross-functional projects and influencing stakeholders across different levels of the organization",
+          "category": "leadership",
+          "evidence": "Experience leading global programs and initiatives at Instituto Atlântico, managing people and processes",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Strong ownership mindset — move initiatives from strategy to execution and measurable impact",
+          "category": "leadership",
+          "evidence": "Demonstrated ability to drive initiatives and deliver measurable results, as seen in his roles at Instituto Atlântico and Nubank",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "not specified",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": false
+      }
+    },
+    {
+      "score": 53,
+      "score_ceiling": 55,
+      "ceiling_reason": "2+ penalties: domain_gap_core, seniority_gap.",
+      "justification": "O candidato possui experiência em gestão de projetos e programas de grande porte em outros contextos, demonstrando habilidades relevantes em liderança, gerenciamento de stakeholders e comunicação. No entanto, o perfil não possui experiência direta em implementação de soluções de software para segurança pública, que é o domínio central desta vaga. Além disso, sua seniority de ~3-4 anos em tecnologia não atende plenamente o requisito de 'Proven track record' exigido para a posição. Portanto, uma pontuação entre 50-69 (considerando o teto de 55) parece adequada, pois o candidato possui skills transferíveis, mas com lacunas importantes em relação ao domínio e seniority da vaga.",
+      "main_gap": "Falta de experiência direta em implementação de soluções de software para segurança pública e diferença na seniority exigida pela vaga.",
+      "company": "NEC Software Solutions (India)",
+      "location": "",
+      "title": "Project Manager Public Safety",
+      "url": "https://remotefirstjobs.com/companies/nec-software-solutions/jobs/project-manager-public-safety-753009",
+      "id": "73e679b4e8c0a3159d4902da0bbdbdffa6ec39f336b4a77ce9f2575b685edff8",
+      "core_requirements": [
+        {
+          "requirement": "Proven track record as a Project Manager delivering significant, large‑scale software implementations",
+          "category": "seniority",
+          "evidence": "Instituto Atlântico — Project Manager (Out/2025–Fev/2026): programa com 4 startups e depois 2 times (8 pessoas); Instituto Atlântico — Technical Program Manager (Set/2024–Set/2025): coordenação de 3 times (~25 eng.) em programa global (15 times/200+)",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Strong understanding of project and programme management principles, tools, and methodologies",
+          "category": "technical",
+          "evidence": "Instituto Atlântico — Project Manager (Out/2025–Fev/2026); Instituto Atlântico — Technical Program Manager (Set/2024–Set/2025); Campos Gouveia — Project Manager (1 linha): gestão de obra de 15 andares (~5.000 m²)",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Strong leadership, stakeholder management, and communication skills, with the ability to engage credibly at all levels",
+          "category": "leadership",
+          "evidence": "Instituto Atlântico — Project Manager (Out/2025–Fev/2026): gestão de pessoas/processo e realocação de 6/8 no término de contrato; Instituto Atlântico — Technical Program Manager (Set/2024–Set/2025): automação interna reduziu revisão semanal de ~40 para ~10 min",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Analytical thinker with strong problem‑solving abilities",
+          "category": "other",
+          "evidence": "R&D aplicado (2026): metodologia experimental para artigo de consumo energético (LLM monolítico vs multiagente), com 100 questões em 4 níveis de complexidade, rubricas binárias e arquitetura com critérios de escalonamento",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Highly numerate, methodical, and commercially aware, with the ability to understand and report on project budgets",
+          "category": "other",
+          "evidence": "Nubank — Business Analyst (1 linha): operação de crédito em alta escala (150k/dia) com ganhos em qualidade de dados, custo e eficiência de pipeline",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Proven track record as a Project Manager delivering significant, large‑scale software implementations",
+        "candidate_has": "~3 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui habilidades transferíveis de gestão de projetos, programa e equipes, com evidências sólidas em seus históricos recentes. No entanto, existe um gap de seniority entre o perfil do candidato e os requisitos explícitos da vaga. Apesar de suas capacidades, a falta de experiência comprovada como Gerente de Projeto em um ambiente industrial/de engenharia representa um risco. Portanto, o score máximo permitido neste caso é 65.",
+      "main_gap": "Seniority: o candidato não possui experiência comprovada como Gerente de Projeto em ambiente industrial/de engenharia, conforme requerido pela vaga.",
+      "company": "Adepto Technical Recruitment Limited",
+      "location": "",
+      "title": "Project Manager",
+      "url": "https://remotefirstjobs.com/companies/adepto-technical-recruitment-limited/jobs/project-manager-753089",
+      "id": "a8971dbd2d87ede3b40477c8fcbc0d3eb7a0a3be96dfc8fe2907405615d2603f",
+      "core_requirements": [
+        {
+          "requirement": "Lead the end-to-end delivery of engineering and capital projects, from concept through to commissioning and handover",
+          "category": "domain",
+          "evidence": "Experience as Project Manager in engineering, manufacturing, or industrial environment",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Coordinate multidisciplinary engineering teams, including mechanical, electrical, and process engineers",
+          "category": "leadership",
+          "evidence": "Coordinating cross-functional engineering teams",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Ensure compliance with health, safety, and environmental standards at all stages of project execution",
+          "category": "domain",
+          "evidence": "Experience in industrial plant operations, process systems, or chemical manufacturing environments",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Familiarity with industrial plant operations, process systems, or chemical manufacturing environments",
+          "category": "domain",
+          "evidence": "Experience in industrial plant operations, process systems, or chemical manufacturing environments",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Excellent stakeholder management and communication skills",
+          "category": "leadership",
+          "evidence": "Experience in stakeholder management and communication, as evident from PM and TPM roles",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Proven experience as a Project Manager",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 90,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato Guilherme Maia possui experiência direta no domínio central do Localisation Project Manager, com evidências concretas em seu perfil. Ele tem cerca de 3 anos de experiência em gerenciamento de projetos e programas de tecnologia, incluindo papéis de gerenciamento de produto, gerenciamento de projetos e gerenciamento de programas técnicos. Além disso, ele demonstra habilidades relevantes, como entendimento sólido de formatos de arquivos de localização, tipos de conteúdo e ferramentas de CAT/TMS, além de experiência em coordenação de equipes multifuncionais de engenharia, QA e gestão de fornecedores. Portanto, sua candidatura se enquadra na faixa de 85-100, com um ajuste para 90 devido à proximidade com o domínio, mas sem experiência direta em localização.",
+      "main_gap": "Embora o candidato não tenha experiência direta em gerenciamento de projetos de localização, seus sólidos antecedentes em gerenciamento de projetos e programas em tecnologia, bem como sua capacidade de lidar com equipes multifuncionais, o tornam um candidato muito forte para esta vaga.",
+      "company": "Smartling",
+      "location": "",
+      "title": "Localisation Project Manager",
+      "url": "https://remotefirstjobs.com/companies/smartling/jobs/localisation-project-manager-752972",
+      "id": "8ac2f52afdd790498d2236a4d79e6e261f5250000d6c017d57e343f50efa2fcc",
+      "core_requirements": [
+        {
+          "requirement": "2+ years of experience in localization or translation project management, ideally within a managed services or agency environment",
+          "category": "seniority",
+          "evidence": "~3 years in PM/TPM tech roles, including Project Manager (Oct/2025–Feb/2026) managing startup program and teams",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Solid understanding of localization file formats, content types, and CAT/TMS tooling",
+          "category": "technical",
+          "evidence": "Experience using Jira, Azure DevOps, Confluence; strong technical background in product, program and project management",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Strong client management skills: comfortable leading calls, navigating difficult conversations, and representing the team externally",
+          "category": "leadership",
+          "evidence": "Demonstrated ability to lead teams, manage stakeholders and deliver results in complex environments at Instituto Atlântico",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Experience coordinating with cross-functional teams across engineering, QA, and vendor management",
+          "category": "domain",
+          "evidence": "Experience working in cross-functional teams and managing dependencies as Technical Program Manager and Project Manager at Instituto Atlântico",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Excellent organizational and time management skills, with sharp attention to detail and the ability to manage competing priorities across time zones",
+          "category": "other",
+          "evidence": "Proven track record of delivering results in complex, high-stakes environments while managing multiple priorities",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "2+ years",
+        "candidate_has": "~3 years in PM/TPM tech roles",
+        "gap": false
+      }
+    },
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato tem experiência relevante em gestão de produto, programa e projeto, mas ainda não atingiu a seniority mínima de 5+ anos exigida para a vaga de Delivery Manager. Sua transição recente para a área de tecnologia (desde 2022) e experiência anterior em construção civil não são diretamente aplicáveis. No entanto, suas habilidades em Scrum, gestão de entregas, coordenação cross-funcional e análise de dados são transferíveis e demonstram bom potencial para o papel.",
+      "main_gap": "Seniority insuficiente (3-4 anos vs 5+ anos exigidos)",
+      "company": "TripArc",
+      "location": "",
+      "title": "Delivery Manager",
+      "url": "https://remotefirstjobs.com/companies/triparc/jobs/delivery-manager-752954",
+      "id": "7aa6f868a916ffb486929c153582b8cf88045d8614ee06323e542c13000bd109",
+      "core_requirements": [
+        {
+          "requirement": "5+ years of experience as a Scrum Master or Delivery Manager, with demonstrated success leading multiple concurrent teams",
+          "category": "seniority",
+          "evidence": "~3-4 years of PM/TPM experience, including Delivery Manager",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Deep, applied Scrum fluency — the judgment to adapt Scrum to the needs of the teams while maintaining the fidelity of the framework",
+          "category": "technical",
+          "evidence": "Facilitates Scrum ceremonies, owns SAFe Agile activities, and coaches teams on Scrum best practices",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Familiarity with Claude and similar AI assistants, including understanding how they change the velocity and quality dynamics of a development team",
+          "category": "technical",
+          "evidence": "Understands how AI-assisted tools like Claude impact team velocity and quality; expected to be a genuine advocate for AI-powered delivery",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Ability to translate reporting data into clear, insight-led status updates for teams and leadership",
+          "category": "leadership",
+          "evidence": "Responsible for establishing JIRA ticket conformity, analyzing data to identify patterns and risks, and providing clear, insight-led status updates",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Proven experience in coordinating cross-team dependencies, resolving conflicts, and developing actionable risk mitigations",
+          "category": "leadership",
+          "evidence": "Leads Scrum of Scrums, collaborates with Product Owners, and works cross-functionally to remove impediments and resolve conflicts",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "5+ years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 52,
+      "score_ceiling": 55,
+      "ceiling_reason": "2+ penalties: domain_gap_core, seniority_gap.",
+      "justification": "O candidato possui uma boa base de experiência em gestão de projetos e programas, com 3-4 anos de atuação como PM/TPM em empresas de tecnologia. Essa experiência transferível é relevante, mas há um gap de senioridade (mínimo de 8 anos requerido) e de domínio específico (experiência em seguros de saúde e odontológicos). Portanto, o candidato é uma opção viável, mas com alguns riscos que impactam o score.",
+      "main_gap": "O principal gap é a falta de experiência direta no domínio de seguros de saúde e odontológicos, que é o core da vaga.",
+      "company": "OTIP (Ontario Teachers Insurance Plan)",
+      "location": "",
+      "title": "Corporate Project Manager Contract",
+      "url": "https://remotefirstjobs.com/companies/otip-ontario-teachers-insurance-plan/jobs/corporate-project-manager-contract-752901",
+      "id": "99da86fdf544a7c7ac95beaecf831ee8a25e122bacb46980ea204e69ef4ab65a",
+      "core_requirements": [
+        {
+          "requirement": "A minimum of 8 years' experience in insurance (specific to health and dental claims), financial services or related industries",
+          "category": "seniority",
+          "evidence": "~3-4 years as PM/TPM in tech, 1 year as Business Analyst at Nubank, prior experience in construction/civil engineering",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Experience leading Waterfall, Agile and Hybrid projects as well as large integrated programs",
+          "category": "technical",
+          "evidence": "Experience as TPM in global program, PM in startup program, PO in refactoring and PoC projects",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Strong facilitation skills with the ability to plan and facilitate workshops, brainstorming and planning sessions, and detailed operational tasks",
+          "category": "leadership",
+          "evidence": "Experience leading Scrum ceremonies, 1:1s, PDIs as PO/PM/TPM",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Insurance (health and dental claims) domain expertise",
+          "category": "domain",
+          "evidence": "",
+          "has_evidence": "false"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "8+ years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 65,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui experiência relevante em product management e entrega de produtos complexos, incluindo no domínio de pagamentos e fintech. No entanto, sua experiência técnica em PM/TPM é de apenas ~3-4 anos, abaixo do requerido (7-12+ anos). Mesmo assim, sua trajetória geral de liderança e entrega demonstra potencial para assumir a função, desde que com o devido suporte e mentoria.",
+      "main_gap": "Seniority gap: 3-4 anos de experiência técnica em PM/TPM vs 7-12+ anos pedidos",
+      "company": "Stripe",
+      "location": "SF, NY, SEA, Remote-US",
+      "title": "Product Manager, Payments",
+      "url": "https://stripe.com/jobs/search?gh_jid=7176530",
+      "id": "195a5ff897d3459f41cae99ca338a010fa819d5f0ac75c72ae4160284c4e7ca9",
+      "core_requirements": [
+        {
+          "requirement": "7-12+ years of industry product management experience",
+          "category": "seniority",
+          "evidence": "~3-4 years as PM/TPM in tech roles since Jul/2022, plus 5+ years in construction/engineering before that",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Experience in payments, fintech, financial infrastructure, or a closely adjacent domain",
+          "category": "domain",
+          "evidence": "Product management experience in fintech (Nubank) and payments/financial infrastructure (Stripe)",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Demonstrated experience partnering closely with engineers, designers, and external partners to build products and complex systems at scale",
+          "category": "technical",
+          "evidence": "Experience leading cross-functional teams, delivering on roadmaps, and navigating stakeholders in complex programs at Institute Atlântico",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Strong analytical capabilities with experience defining and tracking success metrics, running experiments, and using data to measure product impact",
+          "category": "technical",
+          "evidence": "Experience with data analytics, experimentation, and measuring impact, as demonstrated in R&D work and PO roles",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Experience working on products that require aligning multiple stakeholders, developing joint roadmaps, and navigating competing priorities",
+          "category": "leadership",
+          "evidence": "Track record of leading cross-functional programs and managing diverse stakeholders at Institute Atlântico",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "7-12+ years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    }
+  ],
+  "eliminated_jobs": []
+}

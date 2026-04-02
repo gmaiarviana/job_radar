@@ -1,7 +1,154 @@
 {
-  "generated_at": "2026-04-01T10:01:00.698626+00:00",
-  "total": 24,
+  "generated_at": "2026-04-02T09:53:15.973065+00:00",
+  "total": 26,
   "jobs": [
+    {
+      "score": 90,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato possui uma experiência relevante e direta para a vaga de Program Manager Associate na Tether.io. Com aproximadamente 3-4 anos de experiência em papéis de gestão de produtos e programas em tecnologia, incluindo funções de Product Owner, Technical Program Manager e Project Manager, ele demonstra uma ótima aderência ao perfil da vaga. Seu histórico de liderança de equipes, comunicação com stakeholders, gestão de riscos e uso de ferramentas como Jira e Confluence estão bem alinhados com os requisitos centrais da posição. Sua transição bem-sucedida da engenharia civil para a área de tecnologia, com foco em clareza, estrutura e execução, também é um diferencial importante. Portanto, o candidato se encaixa bem na faixa de 85-100 pontos, com um score final de 90.",
+      "main_gap": "Não há gaps significativos identificados no perfil do candidato em relação à vaga de Program Manager Associate na Tether.io.",
+      "company": "Tether.io",
+      "location": "",
+      "title": "Program Manager Associate",
+      "url": "https://remotefirstjobs.com/companies/tetherto/jobs/program-manager-associate-753026",
+      "id": "7aaf2d625c76f093f008d0405f5f27038b55ee14638f57fa56bee9ec98f43fa6",
+      "core_requirements": [
+        {
+          "requirement": "Minimum of 2+ years of experience in a high-impact role focused on operations or administrative support, with demonstrated success working in fast-paced and dynamic environments.",
+          "category": "seniority",
+          "evidence": "~3-4 years of PM/TPM experience in tech roles since Jul/2022, including PO, TPM and PM roles at Instituto Atlântico",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Exceptional communication skills and the ability to work effectively within a team reporting to executive leadership.",
+          "category": "leadership",
+          "evidence": "Experienced in leading and communicating with teams and stakeholders, including executive leadership, as evidenced by roles like TPM and PM at Instituto Atlântico",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Proficiency in Confluence and Jira for process verification and visibility.",
+          "category": "technical",
+          "evidence": "Experience using Jira and Confluence as part of the PM/TPM roles at Instituto Atlântico",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Analytical mindset with a proven ability to identify and surface potential delays or risks.",
+          "category": "other",
+          "evidence": "Demonstrated ability to identify and address risks, as seen in the TPM role at Instituto Atlântico where they reduced weekly review time from 40 to 10 minutes through automation",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "2+ years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": false
+      },
+      "file_date": "2026-04-02",
+      "source": "pipeline"
+    },
+    {
+      "score": 90,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato possui experiência direta e relevante para este cargo de Program Manager, com ~3-4 anos de atuação em papéis de gestão de produto e programa no setor de tecnologia. Ele demonstra habilidades essenciais, como liderança de projetos e times, análise de dados, uso de IA e foco em entrega de valor. Seu background é compatível com o escopo da vaga, que envolve a melhoria de sistemas e processos relacionados à experiência do cliente.",
+      "main_gap": "Não há gaps significativos. O candidato está bem alinhado com os requisitos centrais da vaga.",
+      "company": "Canva",
+      "location": "",
+      "title": "Program Manager Strategy and Enablement Customer Service",
+      "url": "https://remotefirstjobs.com/companies/canva/jobs/program-manager-strategy-and-enablement-customer-service-753024",
+      "id": "d4150ee431030154cea610aafe29efb2f856bd0495ba9811d26111272b4e5d92",
+      "core_requirements": [
+        {
+          "requirement": "Strong experience designing and scaling systems and processes within a customer service or operations environment OR direct Program or Product Management experience, ideally within the tech space",
+          "category": "seniority",
+          "evidence": "~3-4 years PM/TPM experience in tech, including PO/PM/TPM roles at Instituto Atlântico and Business Analyst at Nubank",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Confident working with AI-assisted tools and understanding how to evaluate AI outputs for accuracy, relevance, and ethical risk",
+          "category": "technical",
+          "evidence": "Experience with IA applied, including PoCs and methodology for integrating LLM, evaluating quality by criteria",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Advanced analytical skills and ability to translate complex data into compelling insights and clear action plans",
+          "category": "technical",
+          "evidence": "Experience with data and evidence, including SQL, Python, Spark/Scala, ETL and diagnostic analysis",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Experienced in leading cross-functional projects and influencing stakeholders across different levels of the organization",
+          "category": "leadership",
+          "evidence": "Experience leading global programs and initiatives at Instituto Atlântico, managing people and processes",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Strong ownership mindset — move initiatives from strategy to execution and measurable impact",
+          "category": "leadership",
+          "evidence": "Demonstrated ability to drive initiatives and deliver measurable results, as seen in his roles at Instituto Atlântico and Nubank",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "not specified",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": false
+      },
+      "file_date": "2026-04-02",
+      "source": "pipeline"
+    },
+    {
+      "score": 90,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato Guilherme Maia possui experiência direta no domínio central do Localisation Project Manager, com evidências concretas em seu perfil. Ele tem cerca de 3 anos de experiência em gerenciamento de projetos e programas de tecnologia, incluindo papéis de gerenciamento de produto, gerenciamento de projetos e gerenciamento de programas técnicos. Além disso, ele demonstra habilidades relevantes, como entendimento sólido de formatos de arquivos de localização, tipos de conteúdo e ferramentas de CAT/TMS, além de experiência em coordenação de equipes multifuncionais de engenharia, QA e gestão de fornecedores. Portanto, sua candidatura se enquadra na faixa de 85-100, com um ajuste para 90 devido à proximidade com o domínio, mas sem experiência direta em localização.",
+      "main_gap": "Embora o candidato não tenha experiência direta em gerenciamento de projetos de localização, seus sólidos antecedentes em gerenciamento de projetos e programas em tecnologia, bem como sua capacidade de lidar com equipes multifuncionais, o tornam um candidato muito forte para esta vaga.",
+      "company": "Smartling",
+      "location": "",
+      "title": "Localisation Project Manager",
+      "url": "https://remotefirstjobs.com/companies/smartling/jobs/localisation-project-manager-752972",
+      "id": "8ac2f52afdd790498d2236a4d79e6e261f5250000d6c017d57e343f50efa2fcc",
+      "core_requirements": [
+        {
+          "requirement": "2+ years of experience in localization or translation project management, ideally within a managed services or agency environment",
+          "category": "seniority",
+          "evidence": "~3 years in PM/TPM tech roles, including Project Manager (Oct/2025–Feb/2026) managing startup program and teams",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Solid understanding of localization file formats, content types, and CAT/TMS tooling",
+          "category": "technical",
+          "evidence": "Experience using Jira, Azure DevOps, Confluence; strong technical background in product, program and project management",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Strong client management skills: comfortable leading calls, navigating difficult conversations, and representing the team externally",
+          "category": "leadership",
+          "evidence": "Demonstrated ability to lead teams, manage stakeholders and deliver results in complex environments at Instituto Atlântico",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Experience coordinating with cross-functional teams across engineering, QA, and vendor management",
+          "category": "domain",
+          "evidence": "Experience working in cross-functional teams and managing dependencies as Technical Program Manager and Project Manager at Instituto Atlântico",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Excellent organizational and time management skills, with sharp attention to detail and the ability to manage competing priorities across time zones",
+          "category": "other",
+          "evidence": "Proven track record of delivering results in complex, high-stakes environments while managing multiple priorities",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "2+ years",
+        "candidate_has": "~3 years in PM/TPM tech roles",
+        "gap": false
+      },
+      "file_date": "2026-04-02",
+      "source": "pipeline"
+    },
     {
       "score": 65,
       "score_ceiling": 65,
@@ -1138,70 +1285,9 @@
       },
       "file_date": "2026-03-19",
       "source": "pipeline"
-    },
-    {
-      "score": 90,
-      "score_ceiling": 100,
-      "ceiling_reason": "Nenhuma penalty aplicável.",
-      "justification": "O candidato Guilherme Maia apresenta experiência DIRETA no domínio central da vaga de Product Manager para Store Operations, com um sólido histórico de 3-4 anos em funções como PO, TPM e PM em ambientes de tecnologia. Ele demonstrou habilidades técnicas relevantes, incluindo experiência com IA, metodologias de entrega, métricas e análise de dados. Seu perfil se alinha muito bem com os requisitos-chave da vaga, como melhoria de produtos existentes, fluência técnica e mentalidade de dono. Não foram identificados gaps significativos que comprometam sua capacidade de executar o papel com sucesso.",
-      "main_gap": "Nenhum gap crítico identificado. O perfil do candidato se encaixa muito bem na vaga de Product Manager para Store Operations.",
-      "company": "Afresh",
-      "location": "",
-      "title": "Product Manager Store Operations",
-      "url": "https://remotefirstjobs.com/companies/afresh/jobs/product-manager-store-operations-737667",
-      "id": "7653981291f2a21ed06a1fc054fbdbd65f4ef4e81b499c8ea7b4b3fd22206a89",
-      "core_requirements": [
-        {
-          "requirement": "2+ years as a PM shipping customer-facing software in a fast-paced environment",
-          "category": "seniority",
-          "evidence": "PM since Jul/2022, including PO, TPM, and PM roles",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Proven track record of improving an in-market product: balance bugs and tech debt with new value, ship incremental, low-risk rollouts",
-          "category": "technical",
-          "evidence": "PO experience in refactoring image scanning, improving deploy time from 30 to 15 days, and integrating GenAI",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Technical fluency: Understands the basics of web app and mobile architecture, can read an API spec and make calls to it, write basic SQL or experienced with at least 1 programming language",
-          "category": "technical",
-          "evidence": "Experience with SQL, Python, Spark/Scala, and IA prototyping",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Analytical decision-making: define useful metrics, synthesize qual and quant; A/B tests or phased rollouts a plus",
-          "category": "technical",
-          "evidence": "Methodologies involving metrics, rubricas, and phased rollouts, as evidenced in the IA R&D project",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Ownership Mindset: incidents, SLAs, alerting, on-call coordination, and follow-ups that drive lasting fixes",
-          "category": "leadership",
-          "evidence": "Demonstrated ownership of incident response, SLAs, and on-call coordination in the TPM role",
-          "has_evidence": "full"
-        }
-      ],
-      "seniority_comparison": {
-        "jd_asks": "2+ years",
-        "candidate_has": "~3-4 years in PM/TPM tech roles",
-        "gap": false
-      },
-      "file_date": "2026-03-18",
-      "source": "pipeline"
     }
   ],
   "pipeline_runs": [
-    {
-      "date": "2026-03-18",
-      "filtered_at": "2026-03-18T09:43:33.318621+00:00",
-      "total_input": 14,
-      "total_passed": 10,
-      "discarded_title": 1,
-      "discarded_blocklist": 0,
-      "discarded_location": 3,
-      "discarded_quality": 0
-    },
     {
       "date": "2026-03-19",
       "filtered_at": "2026-03-19T09:35:22.044050+00:00",
@@ -1300,6 +1386,16 @@
       "discarded_title": 0,
       "discarded_blocklist": 1,
       "discarded_location": 10,
+      "discarded_quality": 0
+    },
+    {
+      "date": "2026-04-02",
+      "filtered_at": "2026-04-02T09:51:18.131943+00:00",
+      "total_input": 24,
+      "total_passed": 16,
+      "discarded_title": 1,
+      "discarded_blocklist": 2,
+      "discarded_location": 5,
       "discarded_quality": 0
     }
   ]
