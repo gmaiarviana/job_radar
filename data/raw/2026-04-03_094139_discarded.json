@@ -1,0 +1,24 @@
+{
+  "date": "2026-04-03",
+  "discarded_at": "2026-04-03T09:44:47.795807+00:00",
+  "total": 1,
+  "by_reason": {
+    "jd_too_short": 1
+  },
+  "items": [
+    {
+      "id_hash": "cb7645d007e5973919340e9677e456c931ae4ff1099559d1ae4193ee90e8211b",
+      "id": "cb7645d007e5973919340e9677e456c931ae4ff1099559d1ae4193ee90e8211b",
+      "source": "openai_web_search",
+      "title": "Sr. Product Manager, Seller Experience, Latam Marketplace",
+      "company": "Amazon",
+      "location": "São Paulo, SP",
+      "salary": null,
+      "jd_full": "A Amazon está buscando um Gerente de Produto Sênior para a experiência do vendedor no Marketplace da América Latina. As responsabilidades incluem definir a estratégia de produto para a experiência do vendedor, coordenar com equipes multifuncionais, gerenciar o roadmap de produtos e garantir a entrega bem-sucedida de iniciativas de experiência do vendedor. Requisitos incluem experiência em gerenciamento de produtos, habilidades de liderança e capacidade de trabalhar com equipes multifuncionais.",
+      "url": "https://www.amazon.jobs/pt/jobs/3167675/sr-product-manager-seller-experience-latam-marketplace",
+      "collected_at": "2026-04-03T09:41:47.818891+00:00",
+      "date": "1 week ago",
+      "discard_reason": "jd_too_short"
+    }
+  ]
+}

@@ -1,7 +1,58 @@
 {
-  "generated_at": "2026-04-02T09:53:15.973065+00:00",
+  "generated_at": "2026-04-03T09:46:24.803271+00:00",
   "total": 26,
   "jobs": [
+    {
+      "score": 90,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato possui experiência direta no domínio central de produto e de gestão de entrega de soluções de software complexas em um contexto similar. Seu perfil apresenta evidências concretas de aproximadamente 3-4 anos de experiência em papéis de PM/TPM, incluindo coordenação de múltiplas equipes, liderança de processos, foco em usuários e impacto mensurável. O candidato atende plenamente aos requisitos fundamentais da vaga.",
+      "main_gap": "Nenhum gap crítico identificado. O candidato possui o perfil sênior adequado para a posição.",
+      "company": "Axon Spain",
+      "location": "",
+      "title": "Product Manager II Software",
+      "url": "https://remotefirstjobs.com/companies/axon/jobs/product-manager-ii-software-754326",
+      "id": "19986c9b7ef7a306f1b14fa6b9314bb5b56cc41959b28f9373d10de261cb42f7",
+      "core_requirements": [
+        {
+          "requirement": "3 - 5 years in software product management, with a proven track record of delivering complex, multi-team SaaS or enterprise software solutions.",
+          "category": "seniority",
+          "evidence": "~3-4 years in PM/TPM tech roles (PO Jul/2022–Sep/2024, TPM Sep/2024–Sep/2025, PM Oct/2025–Feb/2026, PO Mar/2026–current), including delivery of complex, multi-team software solutions (e.g. TPM in global program, PM in startup program)",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Ability to guide cross-functional teams through influence, not just authority.",
+          "category": "leadership",
+          "evidence": "Experience in leading teams (as TPM, PM, PO) and coordinating across multiple teams (e.g. ~25 engineers in global program as TPM)",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Deep commitment to solving user problems and delivering measurable impact.",
+          "category": "domain",
+          "evidence": "Demonstrated focus on user outcomes and data-driven decision making (e.g. as PO, contributing to product discovery, roadmap, and measuring impact)",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Excellent written and verbal communication skills, able to simplify complexity and inspire alignment.",
+          "category": "other",
+          "evidence": "Strong communication skills highlighted across various roles, including aligning stakeholders (e.g. as TPM in global program)",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Natural collaborator who thrives in cross-functional environments and engages proactively with stakeholders.",
+          "category": "leadership",
+          "evidence": "Experience in cross-functional collaboration and stakeholder management, as demonstrated in various PM/TPM/PO roles",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "3 - 5 years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": false
+      },
+      "file_date": "2026-04-03",
+      "source": "pipeline"
+    },
     {
       "score": 90,
       "score_ceiling": 100,
@@ -1234,70 +1285,9 @@
       },
       "file_date": "2026-03-20",
       "source": "pipeline"
-    },
-    {
-      "score": 90,
-      "score_ceiling": 100,
-      "ceiling_reason": "Nenhuma penalty aplicável.",
-      "justification": "O perfil do candidato Guilherme Maia possui EVIDÊNCIA DIRETA no domínio central da vaga de Senior Product Manager App Founder na empresa Miter. Ele tem experiência relevante em product discovery, prototipagem rápida, validação com clientes e lançamento/escalabilidade de produtos, alinhado com os requisitos-chave da vaga. Sua seniority de 3-4 anos em PM/TPM em tecnologia também é compatível com o nível sênior esperado. Portanto, o candidato se enquadra bem na faixa de 85-100 pontos.",
-      "main_gap": "Nenhum gap relevante identificado. O perfil do candidato atende amplamente aos requisitos da vaga.",
-      "company": "Miter",
-      "location": "",
-      "title": "Senior Product Manager App Founder",
-      "url": "https://remotefirstjobs.com/companies/miter/jobs/senior-product-manager-app-founder-738862",
-      "id": "dd2a788a760175990df10bd9a521ffe5b0a84431f4521689c51a5646a43c7c25",
-      "core_requirements": [
-        {
-          "requirement": "Run deep customer discovery across 2–3 candidate problem areas and identify the most compelling app opportunity",
-          "category": "domain",
-          "evidence": "Extensive experience in product discovery and customer interviews, leading to successful product launches (e.g. 'a track record of launching 0→1 products — you've started something, shipped it, and learned from it')",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Build a working prototype within your first 90 days — using AI coding tools, no-code platforms, or whatever it takes",
-          "category": "technical",
-          "evidence": "Comfort working with AI coding tools to build and ship prototypes independently",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Pitch and demo your app to real prospects, incorporate their feedback, and iterate rapidly to find product-market fit",
-          "category": "domain",
-          "evidence": "Sharp customer instincts — you can run great discovery interviews and know a real pain point when you hear one",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Own the commercial motion: pricing, packaging, early sales, and customer expansion",
-          "category": "leadership",
-          "evidence": "High ownership mindset — you treat this like a business, not a project",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Graduate the app through Miter's stage-gated investment framework (Discovery → Pre-Seed → Seed → Series A)",
-          "category": "other",
-          "evidence": "Extensive experience in product launch and scaling, including milestones and funding rounds",
-          "has_evidence": "full"
-        }
-      ],
-      "seniority_comparison": {
-        "jd_asks": "3+ years",
-        "candidate_has": "~3-4 years in PM/TPM tech roles",
-        "gap": false
-      },
-      "file_date": "2026-03-19",
-      "source": "pipeline"
     }
   ],
   "pipeline_runs": [
-    {
-      "date": "2026-03-19",
-      "filtered_at": "2026-03-19T09:35:22.044050+00:00",
-      "total_input": 23,
-      "total_passed": 10,
-      "discarded_title": 2,
-      "discarded_blocklist": 2,
-      "discarded_location": 9,
-      "discarded_quality": 0
-    },
     {
       "date": "2026-03-20",
       "filtered_at": "2026-03-20T09:33:14.906745+00:00",
@@ -1396,6 +1386,16 @@
       "discarded_title": 1,
       "discarded_blocklist": 2,
       "discarded_location": 5,
+      "discarded_quality": 0
+    },
+    {
+      "date": "2026-04-03",
+      "filtered_at": "2026-04-03T09:44:47.969024+00:00",
+      "total_input": 25,
+      "total_passed": 16,
+      "discarded_title": 0,
+      "discarded_blocklist": 1,
+      "discarded_location": 8,
       "discarded_quality": 0
     }
   ]

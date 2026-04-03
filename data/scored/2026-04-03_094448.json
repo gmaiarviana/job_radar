@@ -1,0 +1,675 @@
+{
+  "scored_at": "2026-04-03T09:44:48.433547+00:00",
+  "source_file": "2026-04-03_094139.json",
+  "summary": {
+    "total_input": 16,
+    "total_llm_eliminated": 2,
+    "total_scored": 12,
+    "total_top": 1
+  },
+  "jobs": [
+    {
+      "score": 90,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato possui experiência direta no domínio central de produto e de gestão de entrega de soluções de software complexas em um contexto similar. Seu perfil apresenta evidências concretas de aproximadamente 3-4 anos de experiência em papéis de PM/TPM, incluindo coordenação de múltiplas equipes, liderança de processos, foco em usuários e impacto mensurável. O candidato atende plenamente aos requisitos fundamentais da vaga.",
+      "main_gap": "Nenhum gap crítico identificado. O candidato possui o perfil sênior adequado para a posição.",
+      "company": "Axon Spain",
+      "location": "",
+      "title": "Product Manager II Software",
+      "url": "https://remotefirstjobs.com/companies/axon/jobs/product-manager-ii-software-754326",
+      "id": "19986c9b7ef7a306f1b14fa6b9314bb5b56cc41959b28f9373d10de261cb42f7",
+      "core_requirements": [
+        {
+          "requirement": "3 - 5 years in software product management, with a proven track record of delivering complex, multi-team SaaS or enterprise software solutions.",
+          "category": "seniority",
+          "evidence": "~3-4 years in PM/TPM tech roles (PO Jul/2022–Sep/2024, TPM Sep/2024–Sep/2025, PM Oct/2025–Feb/2026, PO Mar/2026–current), including delivery of complex, multi-team software solutions (e.g. TPM in global program, PM in startup program)",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Ability to guide cross-functional teams through influence, not just authority.",
+          "category": "leadership",
+          "evidence": "Experience in leading teams (as TPM, PM, PO) and coordinating across multiple teams (e.g. ~25 engineers in global program as TPM)",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Deep commitment to solving user problems and delivering measurable impact.",
+          "category": "domain",
+          "evidence": "Demonstrated focus on user outcomes and data-driven decision making (e.g. as PO, contributing to product discovery, roadmap, and measuring impact)",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Excellent written and verbal communication skills, able to simplify complexity and inspire alignment.",
+          "category": "other",
+          "evidence": "Strong communication skills highlighted across various roles, including aligning stakeholders (e.g. as TPM in global program)",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Natural collaborator who thrives in cross-functional environments and engages proactively with stakeholders.",
+          "category": "leadership",
+          "evidence": "Experience in cross-functional collaboration and stakeholder management, as demonstrated in various PM/TPM/PO roles",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "3 - 5 years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": false
+      }
+    }
+  ],
+  "scored_jobs": [
+    {
+      "score": 55,
+      "score_ceiling": 55,
+      "ceiling_reason": "2+ penalties: domain_gap_core, seniority_gap.",
+      "justification": "O candidato possui experiência relevante em gestão de projetos, liderança de equipes, coordenação com stakeholders e entrega de projetos, o que indica uma boa base técnica para a função. No entanto, a falta de experiência específica na indústria de localização é um gap importante, pois a vaga exige conhecimento do domínio. Mesmo com as habilidades transferíveis, o candidato provavelmente terá dificuldades em se adaptar rapidamente ao contexto da vaga. Por isso, o score máximo permitido é 55, pois existem gaps críticos na compatibilidade de domínio e seniority.",
+      "main_gap": "Falta de experiência específica na indústria de localização, o que representa um gap de domínio central para a vaga.",
+      "company": "Welocalize",
+      "location": "Mexico",
+      "title": "Localization Project Manager",
+      "url": "https://himalayas.app/companies/welocalize/jobs/localization-project-manager-5220805820",
+      "id": "9892bc70cbf488e1bf822c7c3152db85157b39c90e28e03768a25a779c0aa362",
+      "core_requirements": [
+        {
+          "requirement": "Assist Project teams with planning, scoping, requirements gathering and validation with client.",
+          "category": "leadership",
+          "evidence": "Extensive experience in PM roles, including managing projects, coordinating teams, and working with clients and stakeholders.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Liaising with the internal and external team to successful coordinate the delivery of client projects.",
+          "category": "leadership",
+          "evidence": "Experience in managing cross-functional teams and coordinating deliveries with internal and external stakeholders.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Creating schedule and monitoring timeliness of delivery.",
+          "category": "technical",
+          "evidence": "Demonstrated skills in project planning, scheduling, and monitoring project progress and delivery.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Assisting with the management of the budget and controlling project costs.",
+          "category": "technical",
+          "evidence": "Experience in managing project budgets and controlling costs.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Reporting, both in written and verbal form, to internal and external stakeholders regarding Project scope, financials, progress and status, formally and on an ad-hoc basis as required.",
+          "category": "leadership",
+          "evidence": "Strong communication skills, both written and verbal, and experience in reporting to stakeholders on project progress and status.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Previous experience in the localization industry is preferred.",
+        "candidate_has": "~3-4 years of PM/TPM experience in technology, including some experience in localization-related projects.",
+        "gap": true
+      }
+    },
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui boa experiência em gestão de produto, programa e entrega, com evidências relevantes em refatoração, integração de IA, gerenciamento de times e liberação de software. No entanto, sua experiência direta em cibersegurança é limitada, portanto seu perfil apenas se encaixa parcialmente no domínio central da vaga. Além disso, a exigência de 5+ anos de experiência relevante representa um gap significativo em relação ao perfil do candidato.",
+      "main_gap": "Diferença de senioridade - a vaga exige 5+ anos de experiência relevante, enquanto o candidato possui ~3-4 anos.",
+      "company": "Visa",
+      "location": "",
+      "title": "Product Manager for Cyber Products",
+      "url": "https://remotefirstjobs.com/companies/visa/jobs/product-manager-for-cyber-products-754444",
+      "id": "4f507c4b811eb8b1cf806f0894cc60a2063a34f76e4f314f1dedffe5adcaa8d0",
+      "core_requirements": [
+        {
+          "requirement": "Contribute to the development and delivery of innovative products and capabilities that are future-proof and accessible.",
+          "category": "domain",
+          "evidence": "Instituto Atlântico — Product Owner (Mar/2026–Atual): refatoração de image scanning para integração de IA; histórias, cerimônias (incluindo Scrum Master), alinhamento backend/testes e definição de jornadas.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Liaise with multiple teams across Visa to launch, commercialize, and scale cyber solutions innovatively and serve as a bridge between business and technology.",
+          "category": "leadership",
+          "evidence": "Instituto Atlântico — Technical Program Manager (Set/2024–Set/2025): coordenação de 3 times (~25 eng.) em programa global (15 times/200+); 60 vulnerabilidades em 4 semanas; release com 50 defeitos no prazo; automação interna reduziu revisão semanal de ~40 para ~10 min.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Translate customer and regional needs into comprehensive requirements, synthesize those requirements into a common set of platform and service capabilities with detailed user stories, and debate their rationale for roadmap prioritization.",
+          "category": "domain",
+          "evidence": "Instituto Atlântico — Product Owner (Jul/2022–Set/2024): reorganização component→product (~3 sprints para ~1), deploy 30→15 dias, PoC GenAI que contribuiu para contrato e mapeamento de 9 use cases.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Oversee product execution through all phases of development through implementation and user adoption, representing customer points of view in planning and technical discussions.",
+          "category": "domain",
+          "evidence": "Instituto Atlântico — Project Manager (Out/2025–Fev/2026): programa com 4 startups e depois 2 times (8 pessoas); gestão de pessoas/processo e realocação de **6/8** no término de contrato.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Identify potential issues early, determine resolutions, communicate status, and track and resolve issues promptly.",
+          "category": "leadership",
+          "evidence": "Instituto Atlântico — Technical Program Manager (Set/2024–Set/2025): 60 vulnerabilidades em 4 semanas; release com 50 defeitos no prazo; automação interna reduziu revisão semanal de ~40 para ~10 min.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "5 or more years of relevant work experience with a Bachelor's Degree or at least 2 years of work experience with an Advanced degree (e.g. Masters, MBA, JD, MD) or 0 years of work experience with a PhD",
+        "candidate_has": "~3-4 years as PM/TPM in technology (since Jul/2022)",
+        "gap": true
+      }
+    },
+    {
+      "score": 55,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui skills transferíveis de gerenciamento de produto, programa e entrega, com foco em clareza, estrutura e execução. No entanto, há um gap de senioridade em relação aos 8-10+ anos solicitados pela vaga. Embora o perfil seja viável, o risco de alinhar as expectativas da vaga com a experiência do candidato é alto. Por isso, atribuo um score na faixa de 50-69.",
+      "main_gap": "Déficit de senioridade (3-4 anos em PM/TPM vs 8-10+ anos solicitados)",
+      "company": "Altium®",
+      "location": "",
+      "title": "Marketing Program Manager",
+      "url": "https://remotefirstjobs.com/companies/altium/jobs/marketing-program-manager-754434",
+      "id": "ac11ff89ebe34e95e80f2405ca898335b435f87117e702ad113499c5e5cf2721",
+      "core_requirements": [
+        {
+          "requirement": "Develop and execute comprehensive marketing strategies to grow Altium's presence within education and professional training markets.",
+          "category": "domain",
+          "evidence": "Extensive experience in marketing, partnership management, and program management within the education, training, and technology sectors.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Design and implement integrated marketing campaigns targeting educators, students, academic leaders, and industry professionals.",
+          "category": "technical",
+          "evidence": "Proven success in developing and executing integrated marketing programs that drive measurable growth.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Build and manage marketing relationships with academic institutions, professional training organizations, and industry partners.",
+          "category": "leadership",
+          "evidence": "Demonstrated experience in leading cross-functional initiatives and collaborative projects.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Define KPIs and success metrics for marketing programs and partnerships, and leverage marketing automation, CRM, and analytics tools to continuously optimize program performance.",
+          "category": "technical",
+          "evidence": "Strong experience with marketing automation platforms, CRM systems, and digital marketing tools. Proven analytical skills with the ability to translate data into strategic action.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "8-10+ years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 52,
+      "score_ceiling": 55,
+      "ceiling_reason": "2+ penalties: domain_gap_core, seniority_gap.",
+      "justification": "The candidate has relevant skills and experience in product management, program management, and data analysis. However, the job requires 8+ years of experience, and the candidate only has ~3-4 years in PM/TPM roles. Additionally, while the candidate has experience in fintech, construction, and technology, the specific domain of pricing and transportation marketplace is not a direct match. The candidate's profile fits the 50-69 'Skills transferíveis, mas GAP no CORE da vaga' range, and the maximum score is capped at 55 due to the seniority and domain gaps.",
+      "main_gap": "The main gap is the lack of 8+ years of experience in product management, as well as the specific domain experience in pricing and transportation marketplace.",
+      "company": "Lyft",
+      "location": "",
+      "title": "Group Product Manager II Pricing",
+      "url": "https://remotefirstjobs.com/companies/lyft/jobs/group-product-manager-ii-pricing-754423",
+      "id": "073aba27fb2cfd9cb40f1ed17119bb55a5a524cdf5a17c5460afae2720abadc5",
+      "core_requirements": [
+        {
+          "requirement": "8+ years of product management or relevant experience, with significant time spent on algorithmic, data-driven, or marketplace products",
+          "category": "seniority",
+          "evidence": "~3-4 years of experience as PM/TPM in technology, including roles at Nubank, Instituto Atlântico, and Campos Gouveia",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "2+ years of experience managing product managers",
+          "category": "leadership",
+          "evidence": "Managed 6/8 people in a project manager role at Instituto Atlântico",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "A deep technical understanding of microeconomics, and ideally a background in Operations Research, Machine Learning, or algorithmic systems",
+          "category": "technical",
+          "evidence": "Experience in using Python, Spark/Scala, and SQL for data analysis, as well as practical application of AI/ML with a focus on methodology and documentation",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Demonstrated experience managing and growing a high performing team of product managers while providing development, mentorship, and excitement to exceed team and department goals",
+          "category": "leadership",
+          "evidence": "Managed a team of product managers at Instituto Atlântico, providing mentorship and helping the team exceed goals",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Experience working in deep product domains — using data and experimentation to guide a large cross-functional team towards a long-term vision",
+          "category": "domain",
+          "evidence": "Experience in product management roles in fintech, construction, and technology, with a focus on using data and experimentation to drive product decisions",
+          "has_evidence": "partial"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "8+ years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui experiência relevante como Product Owner, Technical Program Manager e Project Manager, demonstrando habilidades em gestão de produto, entrega e operações. No entanto, ele não atinge a faixa de 3-5 anos de experiência em Product Management exigida para a vaga, resultando em um gap de senioridade. Mesmo assim, suas habilidades transferíveis e experiência em domínios adjacentes o tornam um candidato viável, com potencial de se adaptar à função.",
+      "main_gap": "Gap de senioridade em relação aos anos de experiência em Product Management específica na área de tecnologia/SaaS.",
+      "company": "Cosuno",
+      "location": "",
+      "title": "Senior Product Manager",
+      "url": "https://remotefirstjobs.com/companies/cosuno/jobs/senior-product-manager-754278",
+      "id": "14fc540cca69371ff1262cd5a1822182f9c6a1006d620870c9c393c403590a21",
+      "core_requirements": [
+        {
+          "requirement": "3–5 years of experience in product management in the B2B SaaS or marketplace/platform business model",
+          "category": "seniority",
+          "evidence": "~3-4 years of PM/TPM experience in technology since Jul/2022, including PO, TPM, PM roles",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Understanding of marketplace dynamics and the ability to align the supply and demand side",
+          "category": "domain",
+          "evidence": "Experience as PM in fintech (Nubank) and construction/real estate (Campos Gouveia) domains, which have marketplace-like dynamics",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Proficient in using AI tools like LLM-based assistants, MCPs, and no-code prototyping in your daily work",
+          "category": "technical",
+          "evidence": "Practical experience with AI, including PoCs with generative AI, documented in the profile",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Experience with product roadmaps, user stories, and the full product lifecycle",
+          "category": "technical",
+          "evidence": "Extensive experience managing product delivery, including roadmaps, backlogs, user journeys, and full product lifecycle in various roles",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Fluent German and English skills, both written and spoken",
+          "category": "other",
+          "evidence": "Native Portuguese speaker, with professional proficiency in English",
+          "has_evidence": "partial"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "3-5 years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 59,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui experiência relevante em gestão de projetos, programas e entregas, com destaque para sua atuação como Delivery Manager, Project Manager e Technical Program Manager no Instituto Atlântico. No entanto, a vaga exige 10+ anos de experiência em Enterprise SaaS, enquanto o candidato possui cerca de 3-4 anos em papéis de PM/TPM em tecnologia. Embora suas habilidades de liderança, gerenciamento de riscos e colaboração com stakeholders sejam evidentes, o gap de seniority e de domínio específico do Enterprise SaaS representa um risco para a vaga.",
+      "main_gap": "Gap de seniority - a vaga exige 10+ anos de experiência, enquanto o candidato possui cerca de 3-4 anos em papéis de PM/TPM em tecnologia.",
+      "company": "Shift Technology",
+      "location": "",
+      "title": "Delivery Manager",
+      "url": "https://remotefirstjobs.com/companies/shift-technology/jobs/delivery-manager-754321",
+      "id": "bcabfab271b4f99873bbce616dfe3875268187b919091029acbdec554ef719f5",
+      "core_requirements": [
+        {
+          "requirement": "Manage the entire delivery lifecycle of our portfolio of projects including participating in pre-sales as well as project inception, planning , execution, monitoring, and closure.",
+          "category": "leadership",
+          "evidence": "Instituto Atlântico — Project Manager (Out/2025–Fev/2026): programa com 4 startups e depois 2 times (8 pessoas); gestão de pessoas/processo e realocação de 6/8 no término de contrato.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Develop, coach and empower a highly skilled team of project managers with a focus on operational excellence, personal accountability, resilience, #MakeItHappen attitude, and spirit of collaboration",
+          "category": "leadership",
+          "evidence": "Instituto Atlântico — Technical Program Manager (Set/2024–Set/2025): coordenação de 3 times (~25 eng.) em programa global (15 times/200+); 60 vulnerabilidades em 4 semanas; release com 50 defeitos no prazo; automação interna reduziu revisão semanal de ~40 para ~10 min.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Coordinate and collaborate with leaders from across both the UK, Ireland & Nordics region and broader Shift to align strategy, priorities, resources and execution across your portfolio",
+          "category": "leadership",
+          "evidence": "Instituto Atlântico — Technical Program Manager (Set/2024–Set/2025): coordenação de 3 times (~25 eng.) em programa global (15 times/200+)",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Develop and maintain strong relationships with key client stakeholders, understanding their business context and needs, and providing regular updates on project progress, addressing any concerns or issues, ensuring overall client satisfaction",
+          "category": "leadership",
+          "evidence": "Instituto Atlântico — Product Owner (Mar/2026–Atual): refatoração de image scanning para integração de IA; histórias, cerimônias (incluindo Scrum Master), alinhamento backend/testes e definição de jornadas.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Proactively identify risks and issues that may impact project delivery and work with internal teams to mitigate them effectively.",
+          "category": "leadership",
+          "evidence": "Instituto Atlântico — Technical Program Manager (Set/2024–Set/2025): 60 vulnerabilidades em 4 semanas; release com 50 defeitos no prazo; automação interna reduziu revisão semanal de ~40 para ~10 min.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "10+ years in delivery management role within the Enterprise SaaS industry",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui experiência relevante em gestão de projetos de dados e BI, incluindo habilidades em metodologias ágeis, gerenciamento de stakeholders e entrega de resultados. No entanto, ele não atinge o nível de seniority mínimo exigido pela vaga (4+ anos), possuindo cerca de 3-4 anos de experiência em papéis de PM/TPM. Essa deficiência em seniority impõe um teto de 65 no score máximo permitido para a candidatura.",
+      "main_gap": "O principal gap desta candidatura é a falta de 1 ano de experiência adicional em gestão de projetos de dados e entrega de soluções em nível sênior.",
+      "company": "Emojipedia",
+      "location": "",
+      "title": "Data Project Manager",
+      "url": "https://remotefirstjobs.com/companies/emojipedia/jobs/data-project-manager-754429",
+      "id": "ff3cfc3b3430d59183d5f66fc4f538bec4854fc8f6c8a6240a7a7999342cc278",
+      "core_requirements": [
+        {
+          "requirement": "Own delivery of multiple data/BI projects across different clients",
+          "category": "domain",
+          "evidence": "Extensive experience as PO, PM, and TPM in various tech projects, including data and BI components. Specifically mentions 'program with 4 startups' and 'release management in a global program'.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Manage timelines, budgets, risks, and dependencies",
+          "category": "leadership",
+          "evidence": "Experience as PO, PM, and TPM managing projects, teams, and programs. Specifically mentions skills in 'release management, risk, communication executive'.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Ability to manage multiple projects and stakeholders at once",
+          "category": "leadership",
+          "evidence": "Experienced in managing multiple teams and projects simultaneously, as seen in the TPM role 'coordinating 3 teams (~25 eng.) in a global program (15 teams/200+)'.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Experience with Power BI, Excel, or similar tools",
+          "category": "technical",
+          "evidence": "Experienced in using data tools like 'SQL, Python, Spark/Scala, ETL and diagnostic analysis'.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Experience with methodologies such as Agile, Waterfall, Scrum, or hybrid approaches",
+          "category": "technical",
+          "evidence": "Experienced in applying Agile methodologies, including Scrum ceremonies, as a PO and Scrum Master.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "4+ years of relevant experience",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 90,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato possui experiência direta no domínio central de produto e de gestão de entrega de soluções de software complexas em um contexto similar. Seu perfil apresenta evidências concretas de aproximadamente 3-4 anos de experiência em papéis de PM/TPM, incluindo coordenação de múltiplas equipes, liderança de processos, foco em usuários e impacto mensurável. O candidato atende plenamente aos requisitos fundamentais da vaga.",
+      "main_gap": "Nenhum gap crítico identificado. O candidato possui o perfil sênior adequado para a posição.",
+      "company": "Axon Spain",
+      "location": "",
+      "title": "Product Manager II Software",
+      "url": "https://remotefirstjobs.com/companies/axon/jobs/product-manager-ii-software-754326",
+      "id": "19986c9b7ef7a306f1b14fa6b9314bb5b56cc41959b28f9373d10de261cb42f7",
+      "core_requirements": [
+        {
+          "requirement": "3 - 5 years in software product management, with a proven track record of delivering complex, multi-team SaaS or enterprise software solutions.",
+          "category": "seniority",
+          "evidence": "~3-4 years in PM/TPM tech roles (PO Jul/2022–Sep/2024, TPM Sep/2024–Sep/2025, PM Oct/2025–Feb/2026, PO Mar/2026–current), including delivery of complex, multi-team software solutions (e.g. TPM in global program, PM in startup program)",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Ability to guide cross-functional teams through influence, not just authority.",
+          "category": "leadership",
+          "evidence": "Experience in leading teams (as TPM, PM, PO) and coordinating across multiple teams (e.g. ~25 engineers in global program as TPM)",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Deep commitment to solving user problems and delivering measurable impact.",
+          "category": "domain",
+          "evidence": "Demonstrated focus on user outcomes and data-driven decision making (e.g. as PO, contributing to product discovery, roadmap, and measuring impact)",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Excellent written and verbal communication skills, able to simplify complexity and inspire alignment.",
+          "category": "other",
+          "evidence": "Strong communication skills highlighted across various roles, including aligning stakeholders (e.g. as TPM in global program)",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Natural collaborator who thrives in cross-functional environments and engages proactively with stakeholders.",
+          "category": "leadership",
+          "evidence": "Experience in cross-functional collaboration and stakeholder management, as demonstrated in various PM/TPM/PO roles",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "3 - 5 years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": false
+      }
+    },
+    {
+      "score": 58,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui aproximadamente 3-4 anos de experiência em funções de PM/TPM em tecnologia, o que é inferior aos requisitos sólidos de experiência em um ambiente B2B SaaS de crescimento rápido esperados para esta vaga. Apesar de possuir habilidades técnicas relevantes e experiência em liderança de equipes, processos e coordenação cross-funcional, o gap de senioridade limita seu fit imediato para este cargo específico. Portanto, um score de 58 é apropriado, posicionando-o na faixa de 50-69, onde as skills são transferíveis, mas há um gap no core da vaga.",
+      "main_gap": "Gap de senioridade em relação aos requisitos da vaga",
+      "company": "Wellhub",
+      "location": "Brazil (São Paulo - Hybrid)",
+      "title": "ENT GTM Program Manager",
+      "url": "https://job-boards.greenhouse.io/gympass/jobs/8474726002",
+      "id": "ff947a5eea67007fd41decc9a995e31f69ba91e080638664ec2d050a2dd60b59",
+      "core_requirements": [
+        {
+          "requirement": "Design and develop GTM automations and AI-powered systems to identify prospects that match the company's Ideal Customer Profile, and deliver prospects to sales development and sales teams",
+          "category": "technical",
+          "evidence": "Experience with tools like Clay, Zapier, n8n, Salesforce, Python, SQL in a B2B SaaS GTM environment",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Build workflows within our existing tools, including Clay, Salesloft, and Salesforce, that enrich data and automate personalized messaging creation for target accounts",
+          "category": "technical",
+          "evidence": "Experience with tools like Clay, Salesloft, Salesforce in a B2B SaaS GTM environment",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Act as the highest point of technical escalation for regional sales/marketing teams when an automation breaks or a data sync fails",
+          "category": "leadership",
+          "evidence": "Experience as the internal operational expert and day-to-day operator for tools like Clay and Salesloft",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Coordinate closely with Marketing and Sales Ops teams, to monitor and track performance, and deliver insights to demand gen and revenue teams",
+          "category": "leadership",
+          "evidence": "Experience working with and influencing cross-functional stakeholders from commercial and product teams",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Ability to manage multiple workstreams, handle pressures and meet targets in hyper-growth environment, while having a keen eye for details",
+          "category": "other",
+          "evidence": "Experience working in a fast-growing organization and delivering on targets and metrics in a team environment",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Solid experience in a B2B SaaS GTM environment",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui experiência relevante em papéis de PM/TPM na área de tecnologia, com habilidades técnicas comprovadas em análise de dados, A/B testing e visualização. No entanto, ele não atende completamente o requisito de 6+ anos de experiência em análise de produtos digitais em larga escala, que é um gap crítico para essa vaga. Portanto, o score máximo permitido é 65, dada a restrição de seniority.",
+      "main_gap": "Seniority gap - o candidato não possui 6+ anos de experiência em análise de produtos digitais em larga escala, como exigido pela vaga.",
+      "company": "Age of Learning",
+      "location": "",
+      "title": "Senior Product Analyst",
+      "url": "https://remotefirstjobs.com/companies/age-of-learning/jobs/senior-product-analyst-754331",
+      "id": "7d1dd505ec19c65173582edf2a932d43f0efaff6b5bddc5486e4f087520ef3b9",
+      "core_requirements": [
+        {
+          "requirement": "6+ years of experience in a product analytics, data analytics, or related role supporting large-scale digital products",
+          "category": "seniority",
+          "evidence": "~3-4 years as PM/TPM in tech since Jul/2022; previous non-tech experience in civil construction doesn't count for seniority",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Strong experience designing, executing, and analyzing A/B tests to inform product decisions",
+          "category": "technical",
+          "evidence": "Experience in designing and analyzing A/B tests as PO, PM and TPM",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Ability to conduct exploratory data analyses and synthesize complex datasets and ambiguous questions into clear, actionable insights",
+          "category": "technical",
+          "evidence": "Experience in conducting exploratory data analysis, using SQL, Python, and data visualization tools",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Advanced proficiency in SQL for querying large datasets; experience with data transformation and modeling (e.g., dbt) is a plus",
+          "category": "technical",
+          "evidence": "Experience in using SQL, Python, and data modeling tools like Spark/Scala for data analytics",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Ability to perform statistical analyses and create visualizations using R or Python",
+          "category": "technical",
+          "evidence": "Experience in using Python and R for statistical analysis and data visualization",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "6+ years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 50,
+      "score_ceiling": 55,
+      "ceiling_reason": "2+ penalties: domain_gap_core, seniority_gap.",
+      "justification": "O candidato possui experiência transferível em gestão de produto/programa, mas há gaps significativos no domínio específico da indústria farmacêutica e regulatório do Reino Unido. Apesar da forte bagagem em liderança e estratégia, a lacuna de contexto e senioridade exigida impede que o candidato alcance um score mais alto.",
+      "main_gap": "Falta de experiência direta na indústria farmacêutica e no contexto regulatório do Reino Unido.",
+      "company": "AbbVie",
+      "location": "",
+      "title": "Senior Project Manager Regulatory Affairs",
+      "url": "https://remotefirstjobs.com/companies/abbvie/jobs/senior-project-manager-regulatory-affairs-754329",
+      "id": "d9f3af249e74029b2d3eef8413d9173011c0bc2e2de62f2f9feaf994f909c737",
+      "core_requirements": [
+        {
+          "requirement": "Acts as the primary Regulatory contact for UK Oncology",
+          "category": "domain",
+          "evidence": "Regulatory Affairs portfolio in oncology is a domain gap, though candidate has some regulatory experience from previous roles.",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Supports lifecycle management of applicable products, management of paediatric investigation plans and clinical trial activities with the Medicines and Healthcare Products Regulatory Agency (MHRA)",
+          "category": "technical",
+          "evidence": "Candidate has experience in regulatory strategy and submissions, but specific evidence for UK regulatory activities with MHRA is not clear.",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Develops regulatory strategies and updates to cross functional team",
+          "category": "leadership",
+          "evidence": "Candidate has experience in developing regulatory strategies and working cross-functionally, as evidenced by their prior roles in program/product management.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Serves as Health Authority liaison and interface for Health Authority meetings to obtain optimal outcomes for patients and AbbVie's portfolio",
+          "category": "leadership",
+          "evidence": "Candidate has experience in stakeholder management and interfacing with regulatory authorities, though specific evidence for the UK market is not clear.",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Supports the business in planning for and execution of product launches, acquisitions and divestitures, as required",
+          "category": "domain",
+          "evidence": "Candidate has experience in product delivery and lifecycle management, but the specific domain of the pharmaceutical industry is a gap.",
+          "has_evidence": "partial"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Not specified",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 61,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui experiência relevante em papéis de gerenciamento de produto e programa, incluindo experiência em integração de IA e metodologias avançadas. No entanto, a lacuna de seniority (3-4 anos vs 5-8 anos solicitados) é um gap importante que não pode ser ignorado. Mesmo assim, o perfil do candidato ainda é relevante e transferível para a posição, portanto um score na faixa de 50-69 é justificado.",
+      "main_gap": "Lacuna na seniority mínima exigida para o cargo, apesar do perfil ser relevante e transferível.",
+      "company": "Marqeta",
+      "location": "",
+      "title": "Senior Product Manager SDKs Developer Platform & Documentation",
+      "url": "https://remotefirstjobs.com/companies/marqeta/jobs/senior-product-manager-sdks-developer-platform-documentation-754367",
+      "id": "4a92b4be708abbe5d9d5c2dd0349829127592c39299508e421ef684931b8d028",
+      "core_requirements": [
+        {
+          "requirement": "5-8+ years building products developers love — proven track record shipping SDKs, APIs, or developer platforms that scale and delight technical audiences",
+          "category": "seniority",
+          "evidence": "~3-4 years as PM/TPM in tech since Jul/2022, including TPM in global program and PM in startup program",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Deep technical fluency across modern ecosystems — strong working knowledge of mobile (iOS/Android), web frameworks, and API-first architectures that power today's digital experiences",
+          "category": "technical",
+          "evidence": "Hands-on experience with IA, including PoCs, LLM integration, and methodology with architecture/governance/evaluation",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "SDK and API expertise — hands-on experience with SDK architecture, lifecycle management, and crafting intuitive APIs that developers actually want to integrate",
+          "category": "technical",
+          "evidence": "Experience as PO, including refactoring image scanning and defining user journeys/stories, and as TPM in global program",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Developer experience obsessed — proven ability to improve onboarding flows, enhance API usability, and create documentation that turns complexity into clarity",
+          "category": "domain",
+          "evidence": "Experience in PO and TPM roles focused on developer/engineer experience, including onboarding, documentation, and productivity",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "External developer engagement — experience building for and collaborating with external developer communities, including partnerships with DevRel teams to drive adoption and advocacy",
+          "category": "leadership",
+          "evidence": "Experience as TPM in global program with coordination of multiple teams and stakeholders, indicating ability to work with external communities",
+          "has_evidence": "partial"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "5-8+ years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    }
+  ],
+  "eliminated_jobs": [
+    {
+      "id_hash": "4eae1822a49235c2309b28b617b0811ae690cb716ac8b629336eff68645f3b35",
+      "id": "4eae1822a49235c2309b28b617b0811ae690cb716ac8b629336eff68645f3b35",
+      "source": "jobscollider",
+      "title": "Senior Platform Product Manager",
+      "company": "Pindrop",
+      "location": "",
+      "salary": null,
+      "jd_full": "<h3><strong>Who We Are</strong></h3>\n\n<p>Pindrop is the Real Human + Right Human® Identity Trust Platform for the AI era. As AI-driven fraud and deepfakes erode trust in digital communication, Pindrop delivers continuous identity verification and deepfake detection across voice, video, and digital interactions in real time.</p>\n\n<p>Enterprises rely on Pindrop to secure billions of high-risk customer interactions each year, including top U.S. banks, as well as leading insurers and healthcare providers. Powered by models trained on more than 1.5 billion real-world interactions annually and protected by 300+ patents, Pindrop restores trust while reducing fraud, lowering operational costs, and improving customer experience.</p>\n\n<p>Recognized by TIME as one of 2025’s Best Inventions and by Inc. for Best in Business for Innovation, Pindrop is backed by leading investors including Andreessen Horowitz, IVP, and CapitalG.</p>\n\n<h3>What you’ll do</h3>\n\n<p>Pindrop is looking for a high-performing Senior Platform Product Manager to drive strategy and development for the Pindrop Platform — the shared foundation that powers our products (Protect, Passport, and Pulse) and a set of platform capabilities exposed directly to customers, such as Pindrop Intelligence. You’ll ensure that our platform is scalable, reliable, easy to build on, and delivers differentiated value both to internal product teams and to customers consuming platform features directly.</p>\n\n<p><strong><em>Market analysis & customer insight</em></strong></p>\n\n<ul>\n<li>Stay ahead of competitive and industry trends in platforms, data products, and developer ecosystems.Partner with Product and GTM teams to understand how Protect, Passport, Pulse and other product lines depend on the Pindrop Platform today and what they will need next.</li>\n<li>Regularly engage with customers and partners who consume platform capabilities (e.g., Pindrop Intelligence APIs, data services) to understand use cases, workflows, and unmet needs.</li>\n<li>Manage organization goals, business metrics, and KPIs for the platform, including adoption, reliability, performance, and developer experience.</li>\n<li>Operate internal and external steering forums to align stakeholders on priorities and investments for the platform.</li>\n</ul>\n\n<p><strong><em>Vision & roadmap for the Pindrop Platform</em></strong></p>\n\n<ul>\n<li>Set the overall vision, strategy, and success measures for the Pindrop Platform as a product in its own right.</li>\n<li>Define how shared platform capabilities (data, AI/ML services, APIs, integrations, observability, security, entitlements, and configuration) evolve to support Protect, Passport, Pulse and future products.</li>\n<li>Own and maintain prioritized platform roadmaps, balancing foundational investments (scalability, reliability, security, cost efficiency) with new capabilities and externalized features like Pindrop Intelligence.</li>\n<li>Write clear user and system narratives that describe how internal product teams, and end customers will interact with Pindrop Platform capabilities.</li>\n<li>Define, document, and communicate objectives, requirements, and constraints for platform initiatives and releases.</li>\n<li>Engage with executive and cross-functional stakeholders to obtain buy-in, make tradeoffs, and raise escalations when needed.</li>\n</ul>\n\n<p><strong><em>Execution & delivery</em></strong></p>\n\n<ul>\n<li>Drive end-to-end execution for platform initiatives, from discovery and design through delivery and launch.</li>\n<li>Work with engineering and engineering leadership to design and deliver high-quality, continuous releases of platform services, APIs, and data products.</li>\n<li>Manage platform capabilities across their lifecycle, from initial MVPs to scaled, hardened services adopted across multiple products.</li>\n<li>Integrate new technology from research and product teams into the platform in a way that is reusable, well-abstracted, and easy to adopt.</li>\n<li>Collaborate with go-to-market partners to position platform capabilities (such as Pindrop Intelligence) and accelerate customer adoption and time to value.</li>\n<li>Partner with marketing to set positioning and develop market-facing materials, demos, and content for platform features where they are directly consumed by customers.</li>\n<li>Grow platform adoption and influence by assisting Sales, Customer Success, and Solutions Engineering with identifying key customer segments, building pipeline, and closing opportunities where platform capabilities are a differentiator.</li>\n</ul>\n\n<h3><strong>Who you are</strong></h3>\n\n<ul>\n<li>You are passionate about <strong>platforms</strong>, <strong>APIs</strong>, and <strong>developer experiences</strong>, and you understand how strong platform strategy accelerates product teams and unlocks new customer value.</li>\n<li>You care deeply about security, reliability, and performance, and you are comfortable working in a space that spans voice, identity, fraud, and AI/ML-powered intelligence.</li>\n<li>You have a high degree of integrity and trustworthiness.</li>\n<li>You have a strong sense of personal ownership and responsibility in accomplishing the organization’s goals.</li>\n<li>You are entrepreneurial with a high level of energy, dedication, and an unrelenting drive to succeed and win.</li>\n<li>You are resilient in the face of challenges, change, and ambiguity.</li>\n<li>You are optimistic and believe that you can make a problem into a solution.</li>\n<li>You are resourceful, excited to uncover innovative solutions and teach yourself something new when needed.</li>\n<li>You take accountability, do the things you say you’ll do, under-promise and over-deliver.</li>\n<li>You are nimble and adaptable when priorities change and continue to see the “forest through the trees”.</li>\n</ul>\n\n<h3><strong>Your skill-set</strong></h3>\n\n<ul>\n<li>5–7 years of product management experience in B2B SaaS, with significant time spent on platform, infrastructure, or shared services (e.g., data platforms, API platforms, developer platforms, or similar).</li>\n<li>Experience working with cloud-native architectures and highly distributed systems; familiarity with how platform decisions impact reliability, performance, cost, and security.</li>\n<li>Proven experience <strong>defining and executing go-to-market strategy</strong> for platform or API / data products, including positioning, packaging, pricing, and launch planning.</li>\n<li>Demonstrated ability to partner closely with <strong>Sales, Marketing, Customer Success, and Solutions Engineering</strong> to translate platform capabilities into clear value propositions, customer narratives, and enablement.</li>\n<li>Experience creating and scaling internal platforms that serve multiple product teams or business units, OR externalized platforms / APIs used directly by customers and partners.</li>\n<li>Technical background or strong technical fluency; you can work closely with engineering on APIs, data models, integration patterns, and system tradeoffs would be a big plus.</li>\n<li>Experience within a SaaS company required; experience in security, identity, fraud, or risk is a plus but not required.</li>\n<li>Proven track record of <strong>successful product or platform launches</strong> and meaningful impact on adoption, usage, or business outcomes.</li>\n<li>Comfortable rolling up your sleeves to dig into details, understand edge cases, or help unblock teams.</li>\n<li>Strong leadership and communication skills — you can bring clarity to complex technical topics and drive alignment across engineering, product, GTM, and executive stakeholders.</li>\n<li>Transparent and open about what works and what doesn’t; you use data and feedback to iterate quickly.</li>\n</ul>\n\n<h3><strong>Within 30 days, you’ll</strong></h3>\n\n<ul>\n<li>Complete onboarding and understand Pindrop as a product portfolio and the voice security space.</li>\n<li>Learn the core capabilities of the Pindrop Platform and how Protect, Passport, and Pulse are built on top of it.</li>\n<li>Meet your key partners across Product, Platform Engineering, Protect/Passport/Pulse teams, Sales, Marketing, Customer Success, and Solutions Engineering.</li>\n<li>Review existing platform roadmaps, customer feedback, and GTM materials for platform features (including Pindrop Intelligence).</li>\n</ul>\n\n<h3><strong>Within 60 days, you’ll</strong></h3>\n\n<ul>\n<li>Refine and socialize a clear problem/opportunity framing for your initial focus areas on the Pindrop Platform.</li>\n<li>Own and update a portion of the platform roadmap, aligning it with product needs and GTM priorities.</li>\n<li>Lead discovery with internal product teams and select customers/partners to validate requirements for upcoming platform initiatives.</li>\n<li>Collaborate with GTM partners to shape positioning, messaging, and launch plans for at least one upcoming platform or Pindrop Intelligence enhancement.</li>\n</ul>\n\n<h3><strong>Within 90 days, you’ll</strong></h3>\n\n<ul>\n<li>Fully own a meaningful slice of the Pindrop Platform roadmap and associated KPIs.</li>\n<li>Drive at least one platform initiative from definition through execution, partnering closely with engineering and GTM teams.</li>\n<li>Establish lightweight rituals (reviews, steering, reporting) that bring clarity to platform priorities, tradeoffs, and status.</li>\n<li>Identify and propose medium-term platform and GTM bets that can unlock new value for products and customers.</li>\n</ul>\n\n<h3><strong>What’s in it for you</strong></h3>\n\n<p>As a Pindropper, you join a rapidly growing company making technology more human with the power of voice. You will work alongside some of the best and brightest. We’re a passionate group committed to excellence - but that doesn’t stop us from enjoying the journey as a team with chess and poker tournaments, catered lunches and happy hours, wellness programming, and more. Because we take our jobs seriously, we add in time for rest with Unlimited PTO, Focus Thursday, and Company-wide Rest Days.</p>\n\n<h3><strong>What we offer</strong></h3>\n\n<p>As part of Pindrop, you’ll directly influence our products and contribute to shaping the future of voice security. We invest in great people and support them with great benefits:</p>\n\n<ul>\n<li>Competitive compensation, including equity for all employees</li>\n<li>Unlimited Paid Time Off (PTO)</li>\n<li>Remote-first culture</li>\n</ul>\n\n<h3><strong>This position is contracted through Alcor BPO.</strong></h3>\n\n<h3><strong>Not sure if this is you?</strong></h3>\n\n<p>We want a diverse, global team, with a broad range of experience and perspectives. If this job sounds great, but you’re not sure if you qualify, apply anyway! We carefully consider every application and will either move forward with you, find another team that might be a better fit, keep in touch for future opportunities, or thank you for your time.</p>\n\n<h3><strong>AI - A Transformative Force</strong></h3>\n\n<p>At Pindrop, we view artificial intelligence as a transformative force that, when harnessed responsibly, can unlock unprecedented value for our customers, partners and society and enable and empower us to continue to deliver cutting-edge technology to combat fraud and unblur the lines between what it means to be human versus machine.</p>\n\n<p>Pindrop may use AI tools to help prioritize job applications for human review. The AI tool may analyze your work experience and skills to assess fit for the role, but does not consider your name or contact details. Applications with the strongest match to job requirements are prioritized for human review; not all applications may be individually reviewed.</p>\n\n<h3><strong>Pindrop is an Equal Opportunity Employer</strong></h3>\n\n<p>Here at Pindrop, it is our mission to create and maintain a diverse and inclusive work environment. As an equal opportunity employer, all qualified applicants receive consideration for employment without regard to race, color, age, religion, sex, gender, gender identity or expression, sexual orientation, national origin, genetic information, disability, marital and/or veteran status.</p>",
+      "url": "https://remotefirstjobs.com/companies/pindrop/jobs/senior-platform-product-manager-754399",
+      "collected_at": "2026-04-03T09:41:54.093554+00:00",
+      "date": "Fri, 03 Apr 2026 02:52:29 +0000",
+      "filter_reason": "localização"
+    },
+    {
+      "id_hash": "4eae1822a49235c2309b28b617b0811ae690cb716ac8b629336eff68645f3b35",
+      "id": "4eae1822a49235c2309b28b617b0811ae690cb716ac8b629336eff68645f3b35",
+      "source": "jobscollider",
+      "title": "Senior Platform Product Manager",
+      "company": "Pindrop",
+      "location": "",
+      "salary": null,
+      "jd_full": "<h3><strong>Who We Are</strong></h3>\n\n<p>Pindrop is the Real Human + Right Human® Identity Trust Platform for the AI era. As AI-driven fraud and deepfakes erode trust in digital communication, Pindrop delivers continuous identity verification and deepfake detection across voice, video, and digital interactions in real time.</p>\n\n<p>Enterprises rely on Pindrop to secure billions of high-risk customer interactions each year, including top U.S. banks, as well as leading insurers and healthcare providers. Powered by models trained on more than 1.5 billion real-world interactions annually and protected by 300+ patents, Pindrop restores trust while reducing fraud, lowering operational costs, and improving customer experience.</p>\n\n<p>Recognized by TIME as one of 2025’s Best Inventions and by Inc. for Best in Business for Innovation, Pindrop is backed by leading investors including Andreessen Horowitz, IVP, and CapitalG.</p>\n\n<h3>What you’ll do</h3>\n\n<p>Pindrop is looking for a high-performing Senior Platform Product Manager to drive strategy and development for the Pindrop Platform — the shared foundation that powers our products (Protect, Passport, and Pulse) and a set of platform capabilities exposed directly to customers, such as Pindrop Intelligence. You’ll ensure that our platform is scalable, reliable, easy to build on, and delivers differentiated value both to internal product teams and to customers consuming platform features directly.</p>\n\n<p><strong><em>Market analysis & customer insight</em></strong></p>\n\n<ul>\n<li>Stay ahead of competitive and industry trends in platforms, data products, and developer ecosystems.Partner with Product and GTM teams to understand how Protect, Passport, Pulse and other product lines depend on the Pindrop Platform today and what they will need next.</li>\n<li>Regularly engage with customers and partners who consume platform capabilities (e.g., Pindrop Intelligence APIs, data services) to understand use cases, workflows, and unmet needs.</li>\n<li>Manage organization goals, business metrics, and KPIs for the platform, including adoption, reliability, performance, and developer experience.</li>\n<li>Operate internal and external steering forums to align stakeholders on priorities and investments for the platform.</li>\n</ul>\n\n<p><strong><em>Vision & roadmap for the Pindrop Platform</em></strong></p>\n\n<ul>\n<li>Set the overall vision, strategy, and success measures for the Pindrop Platform as a product in its own right.</li>\n<li>Define how shared platform capabilities (data, AI/ML services, APIs, integrations, observability, security, entitlements, and configuration) evolve to support Protect, Passport, Pulse and future products.</li>\n<li>Own and maintain prioritized platform roadmaps, balancing foundational investments (scalability, reliability, security, cost efficiency) with new capabilities and externalized features like Pindrop Intelligence.</li>\n<li>Write clear user and system narratives that describe how internal product teams, and end customers will interact with Pindrop Platform capabilities.</li>\n<li>Define, document, and communicate objectives, requirements, and constraints for platform initiatives and releases.</li>\n<li>Engage with executive and cross-functional stakeholders to obtain buy-in, make tradeoffs, and raise escalations when needed.</li>\n</ul>\n\n<p><strong><em>Execution & delivery</em></strong></p>\n\n<ul>\n<li>Drive end-to-end execution for platform initiatives, from discovery and design through delivery and launch.</li>\n<li>Work with engineering and engineering leadership to design and deliver high-quality, continuous releases of platform services, APIs, and data products.</li>\n<li>Manage platform capabilities across their lifecycle, from initial MVPs to scaled, hardened services adopted across multiple products.</li>\n<li>Integrate new technology from research and product teams into the platform in a way that is reusable, well-abstracted, and easy to adopt.</li>\n<li>Collaborate with go-to-market partners to position platform capabilities (such as Pindrop Intelligence) and accelerate customer adoption and time to value.</li>\n<li>Partner with marketing to set positioning and develop market-facing materials, demos, and content for platform features where they are directly consumed by customers.</li>\n<li>Grow platform adoption and influence by assisting Sales, Customer Success, and Solutions Engineering with identifying key customer segments, building pipeline, and closing opportunities where platform capabilities are a differentiator.</li>\n</ul>\n\n<h3><strong>Who you are</strong></h3>\n\n<ul>\n<li>You are passionate about <strong>platforms</strong>, <strong>APIs</strong>, and <strong>developer experiences</strong>, and you understand how strong platform strategy accelerates product teams and unlocks new customer value.</li>\n<li>You care deeply about security, reliability, and performance, and you are comfortable working in a space that spans voice, identity, fraud, and AI/ML-powered intelligence.</li>\n<li>You have a high degree of integrity and trustworthiness.</li>\n<li>You have a strong sense of personal ownership and responsibility in accomplishing the organization’s goals.</li>\n<li>You are entrepreneurial with a high level of energy, dedication, and an unrelenting drive to succeed and win.</li>\n<li>You are resilient in the face of challenges, change, and ambiguity.</li>\n<li>You are optimistic and believe that you can make a problem into a solution.</li>\n<li>You are resourceful, excited to uncover innovative solutions and teach yourself something new when needed.</li>\n<li>You take accountability, do the things you say you’ll do, under-promise and over-deliver.</li>\n<li>You are nimble and adaptable when priorities change and continue to see the “forest through the trees”.</li>\n</ul>\n\n<h3><strong>Your skill-set</strong></h3>\n\n<ul>\n<li>5–7 years of product management experience in B2B SaaS, with significant time spent on platform, infrastructure, or shared services (e.g., data platforms, API platforms, developer platforms, or similar).</li>\n<li>Experience working with cloud-native architectures and highly distributed systems; familiarity with how platform decisions impact reliability, performance, cost, and security.</li>\n<li>Proven experience <strong>defining and executing go-to-market strategy</strong> for platform or API / data products, including positioning, packaging, pricing, and launch planning.</li>\n<li>Demonstrated ability to partner closely with <strong>Sales, Marketing, Customer Success, and Solutions Engineering</strong> to translate platform capabilities into clear value propositions, customer narratives, and enablement.</li>\n<li>Experience creating and scaling internal platforms that serve multiple product teams or business units, OR externalized platforms / APIs used directly by customers and partners.</li>\n<li>Technical background or strong technical fluency; you can work closely with engineering on APIs, data models, integration patterns, and system tradeoffs would be a big plus.</li>\n<li>Experience within a SaaS company required; experience in security, identity, fraud, or risk is a plus but not required.</li>\n<li>Proven track record of <strong>successful product or platform launches</strong> and meaningful impact on adoption, usage, or business outcomes.</li>\n<li>Comfortable rolling up your sleeves to dig into details, understand edge cases, or help unblock teams.</li>\n<li>Strong leadership and communication skills — you can bring clarity to complex technical topics and drive alignment across engineering, product, GTM, and executive stakeholders.</li>\n<li>Transparent and open about what works and what doesn’t; you use data and feedback to iterate quickly.</li>\n</ul>\n\n<h3><strong>Within 30 days, you’ll</strong></h3>\n\n<ul>\n<li>Complete onboarding and understand Pindrop as a product portfolio and the voice security space.</li>\n<li>Learn the core capabilities of the Pindrop Platform and how Protect, Passport, and Pulse are built on top of it.</li>\n<li>Meet your key partners across Product, Platform Engineering, Protect/Passport/Pulse teams, Sales, Marketing, Customer Success, and Solutions Engineering.</li>\n<li>Review existing platform roadmaps, customer feedback, and GTM materials for platform features (including Pindrop Intelligence).</li>\n</ul>\n\n<h3><strong>Within 60 days, you’ll</strong></h3>\n\n<ul>\n<li>Refine and socialize a clear problem/opportunity framing for your initial focus areas on the Pindrop Platform.</li>\n<li>Own and update a portion of the platform roadmap, aligning it with product needs and GTM priorities.</li>\n<li>Lead discovery with internal product teams and select customers/partners to validate requirements for upcoming platform initiatives.</li>\n<li>Collaborate with GTM partners to shape positioning, messaging, and launch plans for at least one upcoming platform or Pindrop Intelligence enhancement.</li>\n</ul>\n\n<h3><strong>Within 90 days, you’ll</strong></h3>\n\n<ul>\n<li>Fully own a meaningful slice of the Pindrop Platform roadmap and associated KPIs.</li>\n<li>Drive at least one platform initiative from definition through execution, partnering closely with engineering and GTM teams.</li>\n<li>Establish lightweight rituals (reviews, steering, reporting) that bring clarity to platform priorities, tradeoffs, and status.</li>\n<li>Identify and propose medium-term platform and GTM bets that can unlock new value for products and customers.</li>\n</ul>\n\n<h3><strong>What’s in it for you</strong></h3>\n\n<p>As a Pindropper, you join a rapidly growing company making technology more human with the power of voice. You will work alongside some of the best and brightest. We’re a passionate group committed to excellence - but that doesn’t stop us from enjoying the journey as a team with chess and poker tournaments, catered lunches and happy hours, wellness programming, and more. Because we take our jobs seriously, we add in time for rest with Unlimited PTO, Focus Thursday, and Company-wide Rest Days.</p>\n\n<h3><strong>What we offer</strong></h3>\n\n<p>As part of Pindrop, you’ll directly influence our products and contribute to shaping the future of voice security. We invest in great people and support them with great benefits:</p>\n\n<ul>\n<li>Competitive compensation, including equity for all employees</li>\n<li>Unlimited Paid Time Off (PTO)</li>\n<li>Remote-first culture</li>\n</ul>\n\n<h3><strong>This position is contracted through Alcor BPO.</strong></h3>\n\n<h3><strong>Not sure if this is you?</strong></h3>\n\n<p>We want a diverse, global team, with a broad range of experience and perspectives. If this job sounds great, but you’re not sure if you qualify, apply anyway! We carefully consider every application and will either move forward with you, find another team that might be a better fit, keep in touch for future opportunities, or thank you for your time.</p>\n\n<h3><strong>AI - A Transformative Force</strong></h3>\n\n<p>At Pindrop, we view artificial intelligence as a transformative force that, when harnessed responsibly, can unlock unprecedented value for our customers, partners and society and enable and empower us to continue to deliver cutting-edge technology to combat fraud and unblur the lines between what it means to be human versus machine.</p>\n\n<p>Pindrop may use AI tools to help prioritize job applications for human review. The AI tool may analyze your work experience and skills to assess fit for the role, but does not consider your name or contact details. Applications with the strongest match to job requirements are prioritized for human review; not all applications may be individually reviewed.</p>\n\n<h3><strong>Pindrop is an Equal Opportunity Employer</strong></h3>\n\n<p>Here at Pindrop, it is our mission to create and maintain a diverse and inclusive work environment. As an equal opportunity employer, all qualified applicants receive consideration for employment without regard to race, color, age, religion, sex, gender, gender identity or expression, sexual orientation, national origin, genetic information, disability, marital and/or veteran status.</p>",
+      "url": "https://remotefirstjobs.com/companies/pindrop/jobs/senior-platform-product-manager-754399",
+      "collected_at": "2026-04-03T09:41:54.093554+00:00",
+      "date": "Fri, 03 Apr 2026 02:52:29 +0000",
+      "filter_reason": "localização"
+    }
+  ]
+}
