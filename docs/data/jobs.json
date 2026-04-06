@@ -1,7 +1,58 @@
 {
-  "generated_at": "2026-04-03T09:46:24.803271+00:00",
-  "total": 26,
+  "generated_at": "2026-04-06T10:02:23.554569+00:00",
+  "total": 25,
   "jobs": [
+    {
+      "score": 93,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O perfil de Guilherme se alinha muito bem aos requisitos-chave desta vaga de Product Manager para o time de Engagement Platform. Ele possui experiência direta em gestão de produtos, estratégia de engajamento do cliente, implementação de workflows ágeis e orquestração inteligente para reduzir esforço manual e aumentar a qualidade de ativação. Suas habilidades em definir padrões e frameworks para acelerar o time-to-value, construir programas de engajamento contínuo e gamificado, além de trabalhar com dados e analytics para personalização, são um excelente fit para os principais desafios dessa posição. Com cerca de 3-4 anos de experiência como PM/TPM em tecnologia, Guilherme possui a senioridade adequada para o cargo. Não há gaps significativos em seu perfil em relação aos requisitos da vaga.",
+      "main_gap": "Não há gaps significativos a destacar para esta posição.",
+      "company": "Denmark in USA",
+      "location": "",
+      "title": "Product Manager - Customer Engagement",
+      "url": "https://remotefirstjobs.com/companies/denmark-in-usa/jobs/product-manager-customer-engagement-756831",
+      "id": "ded6f149a3eef6684b245156eb9d6b0147a69e366d084c2f112383d8532fadee",
+      "core_requirements": [
+        {
+          "requirement": "Contribute to the Engagement Platform Strategy: Support the architecture of a product strategy that uses agentic workflows and intelligent orchestration to replace manual onboarding effort — reducing the ~7-8 hours of human touch per customer while increasing activation quality.",
+          "category": "domain",
+          "evidence": "Experience with product strategy, customer engagement, and adoption programs to reduce manual effort while increasing activation and retention.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Play a key role in solving the Cold Start Problem: Assist in defining the 'wizardification' strategy — define standard wizard patterns that every product team builds for their area, starting with PTO, EOR, and ATS. You own the framework, the design patterns, and the accountability for getting customers to first value fast.",
+          "category": "domain",
+          "evidence": "Experience with customer onboarding, first value delivery, and using standard patterns/frameworks to accelerate time-to-value.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Support the building of the Continuous Discovery Layer: Contribute to extending one-time engagement events into a persistent, gamified experience — badging, challenges, in-product nudges — that helps customers discover and adopt features they didn't know they had. The New Year Summit proved this works; you'll make it continuous.",
+          "category": "domain",
+          "evidence": "Experience with building continuous, gamified customer engagement programs to drive discovery and adoption of product features.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Learn and Apply Agent-First Design: Work to ensure every wizard, engagement flow, and behavioral signal is structured so an agent environment can query 'what should this customer do next?' You're building for the agent-led HRIS of tomorrow.",
+          "category": "domain",
+          "evidence": "Experience with designing agent-assisted workflows and operational systems to drive customer success.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Support Data Foundations: Assist the team in partnering with Data Engineering and the Supernovas team to ensure segment definitions, zero-party data, and Pendo behavioral data flow into personalized engagement experiences.",
+          "category": "technical",
+          "evidence": "Experience with data-driven customer segmentation, zero-party data, and behavioral analytics to power personalized engagement.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "3+ years of PM experience",
+        "candidate_has": "~3-4 years of PM/TPM experience in technology",
+        "gap": false
+      },
+      "file_date": "2026-04-06",
+      "source": "pipeline"
+    },
     {
       "score": 90,
       "score_ceiling": 100,
@@ -1183,121 +1234,9 @@
       },
       "file_date": "2026-03-23",
       "source": "pipeline"
-    },
-    {
-      "score": 90,
-      "score_ceiling": 100,
-      "ceiling_reason": "Nenhuma penalty aplicável.",
-      "justification": "O candidato possui experiência abrangente e diretamente relevante para a função de Senior Product Manager Endpoint. Ele demonstra sólida experiência em liderança de produtos, gestão de programas complexos, implementação de soluções de IA e capacidade de traduzir requisitos técnicos em definições de produto claras. Seu perfil se encaixa plenamente no escopo da vaga, atendendo a todos os requisitos essenciais.",
-      "main_gap": "Não há gaps ou riscos significativos identificados nesta candidatura.",
-      "company": "Nexthink",
-      "location": "",
-      "title": "Senior Product Manager Endpoint",
-      "url": "https://remotefirstjobs.com/companies/nexthink/jobs/senior-product-manager-endpoint-740225",
-      "id": "8a842529c3a3d596a6945158578e10076c8709f2a12940d4e922994804cedc52",
-      "core_requirements": [
-        {
-          "requirement": "Define and drive the roadmap for endpoint troubleshooting capabilities, aligned with customer needs, business priorities, and platform direction.",
-          "category": "domain",
-          "evidence": "Experience as a Product Manager in a product-led company, ideally in enterprise software or another technical domain. Strong ability to understand complex technical systems and work closely with engineering teams while staying focused on customer value and outcomes.",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Lead delivery of capabilities that improve how endpoint issues are detected, understood, and resolved.",
-          "category": "domain",
-          "evidence": "Experience as a Product Manager in a product-led company, ideally in enterprise software or another technical domain. Strong ability to understand complex technical systems and work closely with engineering teams while staying focused on customer value and outcomes.",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Translate complex technical topics into clear product requirements, priorities, and trade-offs.",
-          "category": "technical",
-          "evidence": "Strong technical foundation, with a Master's degree in computer science, engineering, or equivalent practical experience. Solid understanding of platform architecture, APIs, integrations, backend systems, and endpoint-related technical concepts.",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Identify opportunities to apply AI in practical ways that improve troubleshooting effectiveness and user experience.",
-          "category": "technical",
-          "evidence": "Strong interest in AI-driven product experiences, with familiarity in how AI can be applied to troubleshooting, data-driven workflows, and product capabilities, and good judgment on where it creates real value.",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Define and track metrics to measure adoption, troubleshooting effectiveness, and product impact.",
-          "category": "leadership",
-          "evidence": "Experience as a Product Manager in a product-led company, ideally in enterprise software or another technical domain. Able to operate effectively in a fast-paced environment with changing priorities, clear trade-offs, and disciplined choices about what not to build.",
-          "has_evidence": "full"
-        }
-      ],
-      "seniority_comparison": {
-        "jd_asks": "3+ years of experience as a Product Manager",
-        "candidate_has": "~3-4 years in PM/TPM tech roles",
-        "gap": false
-      },
-      "file_date": "2026-03-20",
-      "source": "pipeline"
-    },
-    {
-      "score": 80,
-      "score_ceiling": 100,
-      "ceiling_reason": "Nenhuma penalty aplicável.",
-      "justification": "O candidato possui experiência relevante em posições de PM/TPM, com boa evidência técnica e de liderança. Embora o domínio específico de healthcare/home care não seja uma especialidade, suas habilidades transferíveis em gestão de produto, programa e entrega são adequadas para a vaga. O gap principal é a falta de experiência direta no setor, mas suas competências gerais de PM e a disposição para aprender o novo domínio compensam esse risco.",
-      "main_gap": "Falta de experiência direta no domínio de healthcare/home care",
-      "company": "AlayaCare",
-      "location": "",
-      "title": "Product Manager",
-      "url": "https://remotefirstjobs.com/companies/alayacare/jobs/product-manager-740187",
-      "id": "82279672e78e1e934693a952d18d33a1523cfeeb0098fad7cc1e73d30b08d6df",
-      "core_requirements": [
-        {
-          "requirement": "Owns the strategy and success of our embedded analytics offering, Data Exploration",
-          "category": "domain",
-          "evidence": "PO in image scanning + IA integration; PM in startups + team management program; TPM in global high-complexity program",
-          "has_evidence": "partial"
-        },
-        {
-          "requirement": "Balances customer needs, technical complexity, and business priorities to deliver solutions that are both impactful and easy to use",
-          "category": "technical",
-          "evidence": "Experience in product discovery/delivery, program/delivery management, data & evidence, IA applied with methodology",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Serves as the main representative for Data Exploration, engaging with clients, partners, and internal teams",
-          "category": "leadership",
-          "evidence": "Experience in program and project management, with stakeholder management and communication",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Defines roles and responsibilities for data stewardship, ownership, and accuracy",
-          "category": "domain",
-          "evidence": "Experience in data governance, metadata processes, and data literacy enablement",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Partners with engineering to define feature requirements and deliver on scope and timelines",
-          "category": "technical",
-          "evidence": "Experience in agile/scrum processes and feature development collaboration",
-          "has_evidence": "full"
-        }
-      ],
-      "seniority_comparison": {
-        "jd_asks": "Not specified",
-        "candidate_has": "~3-4 years in PM/TPM tech roles",
-        "gap": false
-      },
-      "file_date": "2026-03-20",
-      "source": "pipeline"
     }
   ],
   "pipeline_runs": [
-    {
-      "date": "2026-03-20",
-      "filtered_at": "2026-03-20T09:33:14.906745+00:00",
-      "total_input": 19,
-      "total_passed": 11,
-      "discarded_title": 2,
-      "discarded_blocklist": 0,
-      "discarded_location": 6,
-      "discarded_quality": 0
-    },
     {
       "date": "2026-03-23",
       "filtered_at": "2026-03-23T09:54:14.128643+00:00",
@@ -1395,6 +1334,16 @@
       "total_passed": 16,
       "discarded_title": 0,
       "discarded_blocklist": 1,
+      "discarded_location": 8,
+      "discarded_quality": 0
+    },
+    {
+      "date": "2026-04-06",
+      "filtered_at": "2026-04-06T10:01:20.307355+00:00",
+      "total_input": 24,
+      "total_passed": 11,
+      "discarded_title": 2,
+      "discarded_blocklist": 3,
       "discarded_location": 8,
       "discarded_quality": 0
     }

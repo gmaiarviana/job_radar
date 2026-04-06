@@ -1,0 +1,465 @@
+{
+  "scored_at": "2026-04-06T10:01:20.779053+00:00",
+  "source_file": "2026-04-06_095715.json",
+  "summary": {
+    "total_input": 11,
+    "total_llm_eliminated": 1,
+    "total_scored": 8,
+    "total_top": 1
+  },
+  "jobs": [
+    {
+      "score": 93,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O perfil de Guilherme se alinha muito bem aos requisitos-chave desta vaga de Product Manager para o time de Engagement Platform. Ele possui experiência direta em gestão de produtos, estratégia de engajamento do cliente, implementação de workflows ágeis e orquestração inteligente para reduzir esforço manual e aumentar a qualidade de ativação. Suas habilidades em definir padrões e frameworks para acelerar o time-to-value, construir programas de engajamento contínuo e gamificado, além de trabalhar com dados e analytics para personalização, são um excelente fit para os principais desafios dessa posição. Com cerca de 3-4 anos de experiência como PM/TPM em tecnologia, Guilherme possui a senioridade adequada para o cargo. Não há gaps significativos em seu perfil em relação aos requisitos da vaga.",
+      "main_gap": "Não há gaps significativos a destacar para esta posição.",
+      "company": "Denmark in USA",
+      "location": "",
+      "title": "Product Manager - Customer Engagement",
+      "url": "https://remotefirstjobs.com/companies/denmark-in-usa/jobs/product-manager-customer-engagement-756831",
+      "id": "ded6f149a3eef6684b245156eb9d6b0147a69e366d084c2f112383d8532fadee",
+      "core_requirements": [
+        {
+          "requirement": "Contribute to the Engagement Platform Strategy: Support the architecture of a product strategy that uses agentic workflows and intelligent orchestration to replace manual onboarding effort — reducing the ~7-8 hours of human touch per customer while increasing activation quality.",
+          "category": "domain",
+          "evidence": "Experience with product strategy, customer engagement, and adoption programs to reduce manual effort while increasing activation and retention.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Play a key role in solving the Cold Start Problem: Assist in defining the 'wizardification' strategy — define standard wizard patterns that every product team builds for their area, starting with PTO, EOR, and ATS. You own the framework, the design patterns, and the accountability for getting customers to first value fast.",
+          "category": "domain",
+          "evidence": "Experience with customer onboarding, first value delivery, and using standard patterns/frameworks to accelerate time-to-value.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Support the building of the Continuous Discovery Layer: Contribute to extending one-time engagement events into a persistent, gamified experience — badging, challenges, in-product nudges — that helps customers discover and adopt features they didn't know they had. The New Year Summit proved this works; you'll make it continuous.",
+          "category": "domain",
+          "evidence": "Experience with building continuous, gamified customer engagement programs to drive discovery and adoption of product features.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Learn and Apply Agent-First Design: Work to ensure every wizard, engagement flow, and behavioral signal is structured so an agent environment can query 'what should this customer do next?' You're building for the agent-led HRIS of tomorrow.",
+          "category": "domain",
+          "evidence": "Experience with designing agent-assisted workflows and operational systems to drive customer success.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Support Data Foundations: Assist the team in partnering with Data Engineering and the Supernovas team to ensure segment definitions, zero-party data, and Pendo behavioral data flow into personalized engagement experiences.",
+          "category": "technical",
+          "evidence": "Experience with data-driven customer segmentation, zero-party data, and behavioral analytics to power personalized engagement.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "3+ years of PM experience",
+        "candidate_has": "~3-4 years of PM/TPM experience in technology",
+        "gap": false
+      }
+    }
+  ],
+  "scored_jobs": [
+    {
+      "score": 50,
+      "score_ceiling": 55,
+      "ceiling_reason": "2+ penalties: domain_gap_core, seniority_gap.",
+      "justification": "O candidato possui uma boa base em gestão de programas e projetos, com experiência recente em papéis de liderança e coordenação transversal, o que é relevante para a vaga. No entanto, ele carece de experiência específica no domínio de resposta a emergências, coordenação com agências federais e compliance com estruturas de preparação e resposta do governo. Além disso, sua senioridade de ~3-4 anos em tecnologia fica aquém do mínimo esperado de 7+ anos. Portanto, o candidato apresenta um perfil com boa transferibilidade, porém com gaps críticos na vaga, justificando um score na faixa de 50-69.",
+      "main_gap": "Falta de experiência específica no domínio de resposta a emergências e coordenação com agências federais, além da lacuna de senioridade",
+      "company": "SOSi",
+      "location": "United States",
+      "title": "Program Manager III",
+      "url": "https://himalayas.app/companies/sosi/jobs/program-manager-iii",
+      "id": "6a3c9202ee0d56245ea301483721b866ffd8acf76afd4dfe7417350bd7a715dc",
+      "core_requirements": [
+        {
+          "requirement": "Leads the program's daily operations, ensuring readiness, compliance, and mission alignment. Develops program plans, performance metrics, and operational frameworks to support rapid deployment. Conducts program reviews, risk assessments, and continuous‑improvement initiatives.",
+          "category": "leadership",
+          "evidence": "Recent experience as TPM and PM at Institute Atlântico, with responsibilities for program leadership, delivery coordination, and continuous improvement.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Maintains deployable readiness of contractor personnel, equipment, and logistical assets. Coordinates company and team mobilization and demobilization activities during emergency activations. Oversees resource tracking, supply‑chain coordination, and integration with federal response assets such as the Strategic National Stockpile (SNS).",
+          "category": "domain",
+          "evidence": "While the candidate does not have direct experience in emergency response and federal program coordination, the skills in program/project management, resource tracking, and cross-functional coordination are transferable.",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Liaison with federal, state, local, tribal, territorial, and private‑sector partners. Supports operational planning and information sharing during incidents and exercises. Represents ERSS and SOSi in working groups, planning sessions, and interagency coordination forums.",
+          "category": "domain",
+          "evidence": "The candidate has experience in stakeholder management and cross-functional coordination, but not specifically in the context of emergency response and federal agency interactions.",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Develops and maintains standard operating procedures, policies, and readiness documentation. Prepares briefings, reports, and decision‑support materials for ASPR leadership. Ensures program compliance with federal preparedness and response frameworks.",
+          "category": "domain",
+          "evidence": "While the candidate has experience in product/program documentation and reporting, there is no evidence of specific knowledge of federal preparedness and response frameworks.",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Manages program budgets, procurement actions, and contract deliverables. Coordinates with SOSi contracting and financial officers to ensure timely and compliant task execution. Monitors performance and ensure alignment with mission requirements.",
+          "category": "domain",
+          "evidence": "The candidate has experience in budget management, procurement, and contract/vendor coordination from their previous roles, which are transferable to this requirement.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "7+ years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui uma forte bagagem em gerenciamento de produto e entrega em diversas áreas da tecnologia, incluindo alguns trabalhos relacionados a e-commerce e marketplace. No entanto, a experiência específica no domínio de e-commerce não é tão clara em seu perfil. Embora suas habilidades em análise de dados, experimentação e liderança de projetos sejam relevantes, o gap de seniority (3-4 anos vs. 5+ anos solicitados) limita o score final a uma faixa entre 50-69, pois a vaga exige um nível de experiência mais avançado.",
+      "main_gap": "Gap de seniority - a vaga requer 5+ anos de experiência em gerenciamento de produto, enquanto o candidato possui cerca de 3-4 anos nessa área.",
+      "company": "Forma",
+      "location": "",
+      "title": "Senior Product Manager E-Commerce",
+      "url": "https://remotefirstjobs.com/companies/forma/jobs/senior-product-manager-ecommerce-756832",
+      "id": "f0443293128f95ba2e192fbe611ab587b400ea4fd6640ba27f14a8b3e247b8dd",
+      "core_requirements": [
+        {
+          "requirement": "5+ years of PM experience, preferred e-commerce and marketplace experience",
+          "category": "seniority",
+          "evidence": "~3-4 years of PM/TPM experience in technology since Jul/2022, including PO, TPM, and PM roles",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Capability to analyze historical user behaviors and spend data to create product-first hypothesis",
+          "category": "technical",
+          "evidence": "Experience with data analysis using SQL, Python, Spark/Scala for decision-making",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Design and implement user experiments to optimize specific outcomes",
+          "category": "technical",
+          "evidence": "Experience with experimental design and evaluation using criteria/rubrics, as shown in the R&D project",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Proven track record of pushing ambitious products that met the organization's goals and timeline",
+          "category": "leadership",
+          "evidence": "Successful delivery of complex programs and projects, including release management, risk mitigation, and stakeholder alignment",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Superb prioritization, communication and problem-solving skills. Able to understand deeply about complex problems and develop clear rationale to bring people onboard",
+          "category": "other",
+          "evidence": "Strong track record in program/project management, stakeholder alignment, and people leadership",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "5+ years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 93,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O perfil de Guilherme se alinha muito bem aos requisitos-chave desta vaga de Product Manager para o time de Engagement Platform. Ele possui experiência direta em gestão de produtos, estratégia de engajamento do cliente, implementação de workflows ágeis e orquestração inteligente para reduzir esforço manual e aumentar a qualidade de ativação. Suas habilidades em definir padrões e frameworks para acelerar o time-to-value, construir programas de engajamento contínuo e gamificado, além de trabalhar com dados e analytics para personalização, são um excelente fit para os principais desafios dessa posição. Com cerca de 3-4 anos de experiência como PM/TPM em tecnologia, Guilherme possui a senioridade adequada para o cargo. Não há gaps significativos em seu perfil em relação aos requisitos da vaga.",
+      "main_gap": "Não há gaps significativos a destacar para esta posição.",
+      "company": "Denmark in USA",
+      "location": "",
+      "title": "Product Manager - Customer Engagement",
+      "url": "https://remotefirstjobs.com/companies/denmark-in-usa/jobs/product-manager-customer-engagement-756831",
+      "id": "ded6f149a3eef6684b245156eb9d6b0147a69e366d084c2f112383d8532fadee",
+      "core_requirements": [
+        {
+          "requirement": "Contribute to the Engagement Platform Strategy: Support the architecture of a product strategy that uses agentic workflows and intelligent orchestration to replace manual onboarding effort — reducing the ~7-8 hours of human touch per customer while increasing activation quality.",
+          "category": "domain",
+          "evidence": "Experience with product strategy, customer engagement, and adoption programs to reduce manual effort while increasing activation and retention.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Play a key role in solving the Cold Start Problem: Assist in defining the 'wizardification' strategy — define standard wizard patterns that every product team builds for their area, starting with PTO, EOR, and ATS. You own the framework, the design patterns, and the accountability for getting customers to first value fast.",
+          "category": "domain",
+          "evidence": "Experience with customer onboarding, first value delivery, and using standard patterns/frameworks to accelerate time-to-value.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Support the building of the Continuous Discovery Layer: Contribute to extending one-time engagement events into a persistent, gamified experience — badging, challenges, in-product nudges — that helps customers discover and adopt features they didn't know they had. The New Year Summit proved this works; you'll make it continuous.",
+          "category": "domain",
+          "evidence": "Experience with building continuous, gamified customer engagement programs to drive discovery and adoption of product features.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Learn and Apply Agent-First Design: Work to ensure every wizard, engagement flow, and behavioral signal is structured so an agent environment can query 'what should this customer do next?' You're building for the agent-led HRIS of tomorrow.",
+          "category": "domain",
+          "evidence": "Experience with designing agent-assisted workflows and operational systems to drive customer success.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Support Data Foundations: Assist the team in partnering with Data Engineering and the Supernovas team to ensure segment definitions, zero-party data, and Pendo behavioral data flow into personalized engagement experiences.",
+          "category": "technical",
+          "evidence": "Experience with data-driven customer segmentation, zero-party data, and behavioral analytics to power personalized engagement.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "3+ years of PM experience",
+        "candidate_has": "~3-4 years of PM/TPM experience in technology",
+        "gap": false
+      }
+    },
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui um conjunto de habilidades relevantes para a posição, com boa experiência em descoberta de produto, alinhamento de equipes, geração de insights e experimentação com IA. No entanto, sua seniority de ~3-4 anos em PM/TPM é ligeiramente inferior ao que a vaga solicita, que é de um 'profissional de produto experiente'. Portanto, embora o candidato possua as principais competências técnicas, há um pequeno gap de seniority que justifica um score na faixa de 50-69, com um teto máximo de 65.",
+      "main_gap": "O principal gap desta candidatura é a seniority ligeiramente abaixo do que a vaga solicita, apesar da forte base de habilidades técnicas.",
+      "company": "ACLU Racial Justice Project",
+      "location": "",
+      "title": "Product Manager II Discovery",
+      "url": "https://remotefirstjobs.com/companies/aclu/jobs/product-manager-ii-discovery-756829",
+      "id": "ee9f0eb1a6fb065b794b78865d7fd962dea4476d74094e304190e03cc1966f0a",
+      "core_requirements": [
+        {
+          "requirement": "Lead Deep Product Discovery for Priority Workstreams",
+          "category": "domain",
+          "evidence": "Extensive experience in discovery and early validation of emerging technologies, including conducting structured discovery through interviews, workshops and stakeholder sessions, clarifying underlying needs, constraints, risks and success criteria.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Facilitate Alignment Without Formal Authority",
+          "category": "leadership",
+          "evidence": "Proven ability to navigate competing perspectives and organizational constraints, build shared understanding across technical and non-technical teams, and support decision-making through facilitation and structured framing.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Produce Clear, Actionable Discovery Outputs",
+          "category": "technical",
+          "evidence": "Strong skills in assessing and prioritizing build vs. buy solutions, developing validated problem statements, opportunity briefs and solution assessments, and providing recommendations for next steps.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Support Strategic Experimentation & AI Prototyping",
+          "category": "technical",
+          "evidence": "Familiar with exploring and shaping internal AI tooling concepts for various use cases, and supporting low-risk experiments or pilots.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Contribute to Tech Team Planning and Learning",
+          "category": "leadership",
+          "evidence": "Proven ability to influence broader technology strategy by sharing insights, contribute to building a stronger discovery practice, and develop business cases, strategies and monitoring frameworks for new technology tools.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Experienced product professional",
+        "candidate_has": "~3-4 years as PM/TPM in technology",
+        "gap": true
+      }
+    },
+    {
+      "score": 65,
+      "score_ceiling": 55,
+      "ceiling_reason": "2+ penalties: domain_gap_core, seniority_gap.",
+      "justification": "O candidato possui uma sólida experiência em gestão de projetos, programas e produtos, com histórico recente em tecnologia. No entanto, falta evidência de experiência prévia em empresas do setor de CPG, bem como de paixão por sustentabilidade e meio ambiente, que são requisitos centrais para a vaga. Dessa forma, o candidato possui skills transferíveis, mas não se encaixa completamente no perfil ideal para a função.",
+      "main_gap": "Falta de experiência comprovada no domínio específico de CPG e em iniciativas relacionadas a sustentabilidade e meio ambiente.",
+      "company": "成都蓝麦田旅游策划设计有限公司",
+      "location": "",
+      "title": "Senior Project Manager",
+      "url": "https://remotefirstjobs.com/companies/blueland/jobs/senior-project-manager-756737",
+      "id": "e534861458b005922a3980a2cde34ab75c8e5e47635f27a7e30a66f93fec39ea",
+      "core_requirements": [
+        {
+          "requirement": "7 years of experience in Project Management, Business, or Operations for CPG companies",
+          "category": "seniority",
+          "evidence": "~3-4 years of PM/TPM experience in tech, prior experience in construction",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Must have prior experience leading cross functional teams to deliver against project based objectives",
+          "category": "leadership",
+          "evidence": "Experiences as PM, TPM and PO leading cross-functional teams",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Strong project management skills, with the ability to manage multiple projects simultaneously",
+          "category": "technical",
+          "evidence": "Experiences as PM, TPM and PO managing multiple concurrent projects",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Passionate about the environment, sustainability and Blueland's mission",
+          "category": "domain",
+          "evidence": "No direct evidence of passion for sustainability/environment in the profile",
+          "has_evidence": "false"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "7+ years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 52,
+      "score_ceiling": 55,
+      "ceiling_reason": "2+ penalties: domain_gap_core, seniority_gap.",
+      "justification": "O candidato possui experiência relevante em papéis de gerenciamento de projetos e programas técnicos, com cerca de 3 anos de atuação nessa área. No entanto, há uma lacuna em relação à experiência específica com implementações de Microsoft Dynamics 365 e Power Platform, que é um requisito central da vaga. Além disso, o candidato não atende ao requisito mínimo de 6 anos de experiência em gerenciamento de projetos/programas. Portanto, o score é limitado a 52, pois há gaps significativos em relação aos requisitos principais da vaga.",
+      "main_gap": "Falta de experiência específica com implementações de Microsoft Dynamics 365 e Power Platform, bem como a lacuna de seniority em relação ao mínimo de 6 anos exigido.",
+      "company": "CapTech",
+      "location": "",
+      "title": "Senior Technical Project Manager",
+      "url": "https://remotefirstjobs.com/companies/captech/jobs/senior-technical-project-manager-756701",
+      "id": "ba2cde19069d9ef1c7ba05a168141933adfd292768430007829dd14e44207046",
+      "core_requirements": [
+        {
+          "requirement": "Serve as a delivery lead for cross-functional team(s), bringing together the business, the delivery team, and other stakeholders to deliver impactful business outcomes and ensure successful project delivery.",
+          "category": "leadership",
+          "evidence": "Experience in both agile and traditional project or program management roles; Demonstrated track record of successful management of large and complex technology projects; Experience in successfully facilitating stakeholder discussions and driving towards specific outcomes.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Develop and communicate integrated project plans and/or roadmaps to establish, monitor, manage, and report key milestones, risks, and deliverables.",
+          "category": "technical",
+          "evidence": "Develop and communicate integrated project plans and/or roadmaps to establish, monitor, manage, and report key milestones, risks, and deliverables.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Implement creative thinking and seek innovative solutions to complex technical/business problems.",
+          "category": "other",
+          "evidence": "Creative thinking and seeking innovative solutions to complex technical/business problems.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Demonstrated success in leading Microsoft Dynamics 365 and Power Platform implementations, with a robust portfolio of CRM and ERP projects.",
+          "category": "domain",
+          "evidence": "",
+          "has_evidence": "false"
+        },
+        {
+          "requirement": "Minimum 6 years of experience in project or program management role, preferably with full agile development life cycle experience.",
+          "category": "seniority",
+          "evidence": "~3 years in PM/TPM tech roles",
+          "has_evidence": "partial"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Minimum 6 years",
+        "candidate_has": "~3 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 58,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui experiência relevante em liderança de programas complexos, especialmente em temas de IA e integração de produtos. No entanto, a experiência de ~3-4 anos em papéis de PM/TPM está abaixo do requisitado de 5+ anos pela vaga. Além disso, falta experiência direta em domínios como plataformas de desenvolvedores, APIs e sistemas de pagamento, que são centrais para a posição na Stripe. Portanto, o candidato é um bom fit parcial, mas com gaps significativos que o impedem de atingir um score mais alto.",
+      "main_gap": "Experiência de seniority abaixo do requerido (~3-4 anos vs. 5+ anos) e falta de domínio específico em plataformas de desenvolvedores, APIs e sistemas de pagamento.",
+      "company": "Stripe",
+      "location": "Remote in the US, Chicago, Atlanta",
+      "title": "Technical Program Manager,  Extensibility Programs",
+      "url": "https://stripe.com/jobs/search?gh_jid=7778643",
+      "id": "2b12a94ab1428266f06b0cc9b008674ed9842f12a1638fcc5639b0b4a1fae7cc",
+      "core_requirements": [
+        {
+          "requirement": "5+ years of technical program management experience with demonstrated success in driving complex cross organizational programs.",
+          "category": "seniority",
+          "evidence": "~3-4 years of PM/TPM experience in technology since Jul/2022, including TPM role in a global program at Instituto Atlântico",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Strong product sense and ability to understand enterprise customer needs",
+          "category": "domain",
+          "evidence": "Experience as PO and PM at Instituto Atlântico, with focus on integrating AI into products and managing a startup program",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Demonstrated ability to communicate with precision and credibility across engineering, product, and executive audiences, translating complex technical trade-offs into strategic decisions, and driving alignment.",
+          "category": "leadership",
+          "evidence": "Demonstrated ability to align cross-functional teams, resolve conflict and build consensus in complex technical environments at Instituto Atlântico",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Demonstrated ability to lead and align cross-functional teams — driving decisions, resolving conflict, and building consensus across organizations with competing priorities",
+          "category": "leadership",
+          "evidence": "Experience leading cross-functional teams and managing dependencies in global programs at Instituto Atlântico",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Proven track record of successful program delivery in complex technical environments",
+          "category": "technical",
+          "evidence": "Successful delivery of global programs at Instituto Atlântico, including resolving 60 vulnerabilities in 4 weeks and reducing weekly review time from 40 to 10 minutes through automation",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "5+ years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 55,
+      "score_ceiling": 55,
+      "ceiling_reason": "2+ penalties: domain_gap_core, seniority_gap.",
+      "justification": "O candidato possui experiência relevante em gestão de programas, projetos e produtos, demonstrando habilidades de liderança, colaboração e execução. No entanto, há uma lacuna significativa em relação à experiência específica no domínio de tecnologia educacional e treinamento de clientes, o que é um requisito central para esta vaga. Além disso, o candidato não atinge a exigência de 6+ anos de experiência neste tipo de função, possuindo aproximadamente 3-4 anos. Dessa forma, o candidato possui um perfil adequado, porém com gaps importantes para esta oportunidade.",
+      "main_gap": "Falta de experiência direta no domínio de tecnologia educacional e treinamento de clientes, além da diferença de 2+ anos na exigência de senioridade.",
+      "company": "Databricks",
+      "location": "United States",
+      "title": "Senior Customer Enablement Program Manager",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8194599002",
+      "id": "c03d218cd2bb3cc73465226912c2cbaa3147ad60cc6f28f9419cf7f1cc21170f",
+      "core_requirements": [
+        {
+          "requirement": "6+ years of experience in Sales Enablement, GTM Program Management, or Sales Operations in a high-growth SaaS environment.",
+          "category": "seniority",
+          "evidence": "~3-4 years (since Jul/2022) as PM/TPM in tech roles, including program management, project management, and product ownership. Likely not enough direct experience in sales enablement or operations.",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Proven track record of managing complex workstreams and delivering global field motions with measurable adoption.",
+          "category": "leadership",
+          "evidence": "Experience in TPM role managing a global program with 3 teams and 25+ engineers, as well as PM role managing a program with 4 startups and 2 internal teams. Demonstrates ability to manage complex workstreams and deliver global initiatives.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Comfortable working with RAG-based AI tools (such as Glean) and understanding how data inputs and hierarchies affect AI-generated outputs.",
+          "category": "technical",
+          "evidence": "Experience in using AI and data tools, including use of GenAI PoCs, LLM integration, and working with data pipelines and analytics. Likely has transferable skills, but specific experience with RAG-based AI tools is unclear.",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Exceptional ability to work cross-functionally across Sales, Marketing, and Technical teams to ensure a unified enablement vision.",
+          "category": "leadership",
+          "evidence": "Demonstrated experience in cross-functional collaboration and aligning stakeholders, particularly in the TPM and PM roles. Likely has the necessary skills to work across teams effectively.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Familiarity with the education technology or customer training landscape is a significant plus.",
+          "category": "domain",
+          "evidence": "No direct evidence of experience in the education technology or customer training domain. The profile is more focused on general product, program, and project management experience.",
+          "has_evidence": "false"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "6+ years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    }
+  ],
+  "eliminated_jobs": [
+    {
+      "id_hash": "b71c3a7a021ee523dafa45a6ce36be345564c0f2c8b50d0d86e5d5bb00035a25",
+      "id": "b71c3a7a021ee523dafa45a6ce36be345564c0f2c8b50d0d86e5d5bb00035a25",
+      "source": "himalayas",
+      "title": "Product Manager",
+      "company": "HealthEquity",
+      "location": "United States",
+      "salary": "USD 104500–136000",
+      "jd_full": "<h3>Our Mission</h3><p><strong>Our mission is to SAVE AND IMPROVE LIVES BY EMPOWERING HEALTHCARE CONSUMERS. </strong><strong>Come be part of remarkable.</strong></p><h3>Overview</h3><h3>How you can make a difference </h3><p> We are seeking a dynamic and experienced Product Manager to join our team and suppport the development and management of our consumer-directed health (CDH) benefit administration services. The ideal candidate will have a strong background in product management and consumer-directed health benefits, with a passion for creating innovative solutions that meet the needs of our clients and their employees.</p><h3>What you’ll be doing</h3><ul><li>Develop and execute the product strategy for your assigned CDH product line(s), ensuring alignment with company goals and customer needs.</li><li>Collaborate with cross-functional teams, including engineering, design, marketing, and sales, to deliver high-quality products on time and within budget.</li><li>Conduct market research and competitive analysis to identify trends, opportunities, and threats in the CDH benefits landscape.</li><li>Define product requirements, create detailed specifications, and prioritize features based on customer feedback and business objectives.</li><li>Monitor product performance, gather user feedback, and iterate on product features to continuously improve the user experience.</li><li>Communicate product vision, strategy, and progress to stakeholders at all levels of the organization.</li><li>Stay up-to-date with industry trends, regulations, and best practices to ensure compliance and maintain a competitive edge.</li></ul><h3>What you will need to be successful</h3><ul><li>Bachelor's degree in Business, Marketing, Healthcare Management, or a related field; MBA or advanced degree preferred.</li><li>5+ years of experience in product management, preferably in the healthcare benefits or financial services industry.</li><li>Knowledge of consumer-directed health benefit programs, regulations, and industry standards is a must.</li><li>Proven track record of successfully launching and managing products from concept to market.</li><li>Strong analytical, problem-solving, and decision-making skills.</li><li>Excellent communication and interpersonal skills, with the ability to work effectively with diverse teams.</li><li>Ability to thrive in a fast-paced, dynamic environment and adapt to changing priorities</li></ul><h3>This is a remote position.</h3><h3>Salary Range</h3>$104500.00 To $136000.00 / year<h3>Benefits &amp; Perks</h3><p>The actual compensation offer is determined based on job-related knowledge, education, skills, experience, and work location. This position will be eligible for performance-based incentives as part of the total compensation package, in addition to a full range of benefits including:  </p><ul><li>Medical, dental, and vision </li></ul><ul><li>HSA contribution and match </li></ul><ul><li>Dependent care FSA match </li></ul><ul><li>Uncapped paid time off </li></ul><ul><li>Paid parental leave </li></ul><ul><li>401(k) match </li></ul><ul><li>Personal and healthcare financial literacy programs </li></ul><ul><li>Ongoing education &amp; tuition assistance </li></ul><ul><li>Gym and fitness reimbursement </li></ul><ul><li>Wellness program incentives </li></ul><h3>Onboarding &amp; Travel</h3><p>This is a remote role, with an in-person onboarding training component. New team members must participate in <em>Trailhead</em>, <a href=\"https://himalayas.app/companies/healthequity\">HealthEquity</a>’s immersive onboarding experience <em>Trailhead</em> is designed to foster meaningful connections, support your integration into the organization, and equip you with a strong understanding of our business. <em>Trailhead</em> participation is a key expectation of this role. <em>Trailhead</em> is held onsite at our headquarters once per quarter. <a href=\"https://himalayas.app/companies/healthequity\">HealthEquity</a> covers all required travel and accommodations. </p><p>This role may begin with a virtual, self-paced onboarding experience, followed by a mandatory onsite <em>Trailhead</em> session at a later date.</p><p><a href=\"https://himalayas.app/companies/healthequity\">HealthEquity</a> is committed to providing reasonable accommodations to team members with qualifying disabilities. Should you be selected for this role and require an accommodation, we will put you in touch with our Benefits Team so you can begin the accommodation request process.</p><h3>Why work with <a href=\"https://himalayas.app/companies/healthequity\">HealthEquity</a> </h3><p><a href=\"https://himalayas.app/companies/healthequity\">HealthEquity</a> has a vision that <strong><em>by 2030 we will make HSAs as wide-spread and popular as retirement accounts. </em></strong>We are passionate about providing a solution that allows American families to connect<strong><em> health and wealth</em></strong>. Join us and discover a work experience where the person is valued more than the position. Click here to learn more. </p><h3>You belong at <a href=\"https://himalayas.app/companies/healthequity\">HealthEquity</a>!</h3><p><a href=\"https://himalayas.app/companies/healthequity\">HealthEquity</a>, Inc. is an equal opportunity employer, and we are committed to being an employer where no matter your background or identity – you feel welcome and included. We ensure equal opportunity for all applicants and employees without regard to race, age, color, religion, sex, sexual orientation, gender identity, national origin, status as a qualified individual with a disability, veteran status, or other legally protected characteristics. <a href=\"https://himalayas.app/companies/healthequity\">HealthEquity</a> is a drug-free workplace. For more information about our EEO policy, or about <a href=\"https://himalayas.app/companies/healthequity\">HealthEquity</a>’s applicant disability accommodation, drug-free-workplace, background check, and E-Verify policies, please visit our Careers page.</p><p><a href=\"https://himalayas.app/companies/healthequity\">HealthEquity</a> uses Microsoft Copilot to transcribe screening interviews between candidates and their direct Talent Partner for note taking and interview summaries. By scheduling a screening interview with us, you consent to Microsoft Copilot’s AI technology recording and transcribing your interview with your Talent Partner. This information will be reviewed for accuracy and then used by <a href=\"https://himalayas.app/companies/healthequity\">HealthEquity</a> to summarize the interview, ensure accuracy, and facilitate our hiring process. We take privacy seriously. You have the option to opt out. If you wish to opt out of this Microsoft Copilot transcription, please notify your Talent Partner in advance of the interview. If we do not receive an opt-out request from you, we will assume that you consent to the use of Microsoft Copilot.</p><p>At <a href=\"https://himalayas.app/companies/healthequity\">HealthEquity</a>, our goal is to save and improve lives by empowering healthcare consumers. This shared purpose inspires everything we do, including how we approach hiring. Our process is designed to get to know the real you: your skills, experiences, and potential to make a difference. We value honesty, originality, and the courage to do the right thing, even when it is not the easiest path. Showing up as your authentic self reflects these values and helps us build something truly remarkable together.</p><p>As AI is becoming a common tool throughout the application process, we want to be clear about its appropriate use at <a href=\"https://himalayas.app/companies/healthequity\">HealthEquity</a>. Using AI to support resume writing, research, or interview preparation is perfectly acceptable, provided the content is accurate and genuinely represents your qualifications and skills.  For other key parts of our interview process, however, it is important that the ideas, communication, and work you share reflect your own voice, experiences, and thinking. We ask that you participate in our live interviews and complete any assessments without AI assistance unless instructions explicitly indicate otherwise or a specific exception is discussed and approved in advance. This approach ensures fairness, celebrates your individuality, and allows your authentic perspective to shine. Behaviors that do not align with these guidelines may result in disqualification from the hiring process or termination of employment if later discovered. We appreciate your understanding and look forward to learning about the unique contributions only you can bring to <a href=\"https://himalayas.app/companies/healthequity\">HealthEquity</a>.</p><p><a href=\"https://himalayas.app/companies/healthequity\">HealthEquity</a> is committed to your privacy as an applicant for employment.  For information on our privacy policies and practices, please visit <a href=\"https://himalayas.app/companies/healthequity\">HealthEquity</a> Privacy.</p><p>Originally posted on <a href=\"https://himalayas.app\">Himalayas</a></p>",
+      "url": "https://himalayas.app/companies/healthequity/jobs/product-manager",
+      "collected_at": "2026-04-06T09:57:35.209531+00:00",
+      "date": "1775422465",
+      "filter_reason": "localização"
+    }
+  ]
+}
