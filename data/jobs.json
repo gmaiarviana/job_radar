@@ -1,7 +1,358 @@
 {
-  "generated_at": "2026-04-06T10:02:23.554569+00:00",
-  "total": 25,
+  "generated_at": "2026-04-07T09:59:59.100499+00:00",
+  "total": 31,
   "jobs": [
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui habilidades relevantes para a função de Delivery Manager, incluindo experiência em gestão de programas e projetos, liderança de equipes, e uso de metodologias ágeis. No entanto, sua experiência técnica e de liderança em soluções de nuvem, arquitetura moderna e tecnologias específicas não é tão profunda quanto o esperado para um cargo sênior. Com alguns anos adicionais de experiência nessas áreas, o candidato estaria mais bem posicionado para este papel.",
+      "main_gap": "Menor seniority do que o solicitado na vaga, com falta de experiência aprofundada em alguns dos requisitos técnicos centrais.",
+      "company": "Coderio",
+      "location": "Argentina, Chile, Colombia, Mexico, Paraguay, Peru, Uruguay",
+      "title": "Sr Technical Delivery Manager",
+      "url": "https://himalayas.app/companies/coderio/jobs/sr-technical-delivery-manager-6858444910",
+      "id": "864ee568c79da6b20e64c3e1385c57003e73d76b9b29c2a363655d08eac9dfea",
+      "core_requirements": [
+        {
+          "requirement": "8+ years of experience in technical leadership, software delivery, or architecture roles",
+          "category": "seniority",
+          "evidence": "~3-4 years in PM/TPM tech roles, with additional prior experience in construction",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Proven experience designing and delivering cloud-based solutions (AWS and/or Azure)",
+          "category": "technical",
+          "evidence": "Experience with cloud architecture and delivery (e.g. Azure DevOps, CI/CD pipelines) through TPM role",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Strong background in modern application architectures (microservices, APIs)",
+          "category": "technical",
+          "evidence": "Experience leading complex technical programs and driving architectural improvements (e.g. reducing release defects, automating internal processes)",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Hands-on experience with at least one core technology stack (Java, Python, Node.js, React, or similar)",
+          "category": "technical",
+          "evidence": "Experience as Product Owner, including PoCs and integrations with emerging technologies like generative AI",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Experience leading distributed engineering teams",
+          "category": "leadership",
+          "evidence": "Managed teams of 8 people during a startup program and 25+ engineers in a global technical program",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "8+ years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      },
+      "file_date": "2026-04-07",
+      "source": "pipeline"
+    },
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui uma boa base de habilidades transferíveis para o papel de Program Manager, com experiência relevante em gestão de programas complexos, liderança de times, gerenciamento de riscos e relacionamento com clientes. No entanto, a principal lacuna é a seniority, onde o candidato possui cerca de 3-4 anos de experiência em funções de PM/TPM, abaixo do mínimo de 5-7 anos exigidos. Portanto, o score fica limitado a 60, na faixa de 50-69.",
+      "main_gap": "Lacuna de seniority, com ~3-4 anos de experiência em PM/TPM, abaixo dos 5-7 anos exigidos.",
+      "company": "Alkami Technology, Inc.",
+      "location": "United States",
+      "title": "Program Manager II, Implementation",
+      "url": "https://himalayas.app/companies/alkami-technology-inc/jobs/program-manager-ii-implementation",
+      "id": "2918cf1efe8f449ce9b8ac9c203cdaa415348d765a61426799f36963ea6b317b",
+      "core_requirements": [
+        {
+          "requirement": "Lead and manage new logo implementation programs by guiding clients through requirements, configuration, testing, and deployment.",
+          "category": "leadership",
+          "evidence": "Experience as TPM (Sep/2024–Sep/2025) and PM (Oct/2025–Feb/2026) in complex global programs and startups.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Develop and maintain comprehensive program schedules by defining deliverables, dependencies, and milestones across the portfolio.",
+          "category": "leadership",
+          "evidence": "Experience as TPM (Sep/2024–Sep/2025) and PM (Out/2025–Fev/2026) in managing program schedules, deliverables and dependencies.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Cultivate customer relationships by maintaining proactive communication, addressing escalations, and fostering trust and satisfaction.",
+          "category": "leadership",
+          "evidence": "Experience as PO (Jul/2022–Sep/2024 and Mar/2026–current) in working closely with clients, addressing issues and maintaining customer satisfaction.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Apply Alkami's risk management system by tracking project progress, identifying risks, and implementing mitigation strategies through \"Path to Green\" plans.",
+          "category": "leadership",
+          "evidence": "Experience as TPM (Sep/2024–Sep/2025) and PM (Out/2025–Fev/2026) in tracking project progress, identifying risks and implementing mitigation strategies.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "5-7 years in program/roject management in SaaS or financial services",
+          "category": "seniority",
+          "evidence": "~3-4 years of experience as PM/TPM in technology, including roles at Nubank (BA) and Instituto Atlântico (PO, PM, TPM).",
+          "has_evidence": "partial"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "5-7 years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      },
+      "file_date": "2026-04-07",
+      "source": "pipeline"
+    },
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui skills relevantes de gestão de produto, programa e entrega, com bom histórico de liderança e execução. No entanto, há um gap de seniority, uma vez que a vaga requer 5+ anos de experiência em PM/TPM, enquanto o candidato possui ~3 anos. Ainda assim, sua experiência prévia em construção civil e mais recente em fintech/seguros o torna um candidato viável, com potencial de se desenvolver na função.",
+      "main_gap": "Seniority: candidato possui ~3 anos de experiência em PM/TPM, enquanto a vaga requer 5+ anos",
+      "company": "attune, a Rizing Company",
+      "location": "",
+      "title": "Senior Product Manager",
+      "url": "https://remotefirstjobs.com/companies/attune-a-rizing-company/jobs/senior-product-manager-757263",
+      "id": "df45ff8d31eb0051c63127dcc8e0495dcf8415e67e93d70297742143c063325c",
+      "core_requirements": [
+        {
+          "requirement": "5+ years of experience in a technical product management role, specifically within the P&C insurance domain",
+          "category": "seniority",
+          "evidence": "~3 years in PM/TPM tech roles, including PO in insurance domain",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Demonstrated success in launching complex, long-term projects and managing continuous iterative improvements",
+          "category": "leadership",
+          "evidence": "Experience launching and managing complex programs/projects with delivery results",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Mastery of industry-specific terminology and concepts, including COIs, NKLLs, and Subrogation",
+          "category": "domain",
+          "evidence": "Experience in insurance domain, but not explicit mastery of all concepts",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Experience partnering closely with engineering teams on technical architecture, including the ability to review and debug JSON",
+          "category": "technical",
+          "evidence": "Experience working with engineering teams and technical skills like SQL, Python, etc.",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Proven ability to drive alignment and influence senior leadership without formal authority",
+          "category": "leadership",
+          "evidence": "Experience managing cross-functional projects and stakeholder relationships",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "5+ years",
+        "candidate_has": "~3 years in PM/TPM tech roles",
+        "gap": true
+      },
+      "file_date": "2026-04-07",
+      "source": "pipeline"
+    },
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui experiência relevante em localização e gestão de programas de localização, tendo atuado em diversas funções na Mozilla. No entanto, a vaga exige um nível de seniority 'Senior', enquanto o candidato tem cerca de 3-4 anos de experiência como PM/TPM. Isso representa um gap de seniority que compromete seu fit completo para a posição.",
+      "main_gap": "Gap de seniority em relação ao nível 'Senior' exigido para a vaga.",
+      "company": "Mozilla",
+      "location": "",
+      "title": "Senior Localization Technical Program Manager",
+      "url": "https://remotefirstjobs.com/companies/mozilla/jobs/senior-localization-technical-program-manager-757229",
+      "id": "92af5dcd6884db17736d82e191eef5a42b6ec08c506524caf3522d9d547c4cc2",
+      "core_requirements": [
+        {
+          "requirement": "Proven expertise in localization processes, workflows, and common industry formats used for software and web localization.",
+          "category": "domain",
+          "evidence": "Extensive experience with localization in multiple roles at Mozilla, including driving localized product releases end-to-end, defining testing and quality strategies, and enabling localization communities.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "First-hand experience localizing software and/or web content at scale, with an understanding of quality, release, and maintenance considerations.",
+          "category": "domain",
+          "evidence": "Experienced in scaling localization initiatives, working closely with volunteer localizers, and delivering high-quality localized content at scale across a range of Mozilla products.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Ability to read and navigate source code to identify internationalization and localization issues, and collaborate effectively with engineers to propose and implement solutions.",
+          "category": "technical",
+          "evidence": "Demonstrated technical skills, including the ability to work with engineers to design localization-ready features, improve tooling and workflows, and reduce risks.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Proven experience working effectively across teams, regions, and time zones, building trust and alignment with a diverse set of stakeholders.",
+          "category": "leadership",
+          "evidence": "Experience collaborating and influencing effectively across regions and time zones, building strong relationships with internal clients and teammates to align on priorities and execution.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Senior",
+        "candidate_has": "~3-4 years of PM/TPM experience in technology",
+        "gap": true
+      },
+      "file_date": "2026-04-07",
+      "source": "pipeline"
+    },
+    {
+      "score": 58,
+      "score_ceiling": 60,
+      "ceiling_reason": "1 penalty: domain_gap_core.",
+      "justification": "O candidato possui experiência relevante em gerenciamento de projetos e programas na área de tecnologia, incluindo skills em liderança, entrega e análise de dados. No entanto, ele carece de experiência específica no domínio de energia renovável e construção industrial, o que é um requisito crítico para a vaga de Project Manager na Cypress Creek Renewables. Portanto, atribuo um score de 58, dentro do limite de 60 devido à penalidade por gap no domínio core.",
+      "main_gap": "Falta de experiência direta no setor de energia renovável e construção de projetos industriais, que é o core desta posição de Project Manager.",
+      "company": "Cypress Creek Renewables",
+      "location": "",
+      "title": "Project Manager",
+      "url": "https://remotefirstjobs.com/companies/cypress-creek-renewables/jobs/project-manager-757130",
+      "id": "774293e5284e73f7b8de0872768b69387991246318b051e9dd8159b8971806bc",
+      "core_requirements": [
+        {
+          "requirement": "Support the Pre-Construction Department by actively participating in the EPC RFP process for assigned projects through contract execution",
+          "category": "domain",
+          "evidence": "Experience with High Voltage Interconnection aspects of a project's scope of work",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Understand the implications of various technical options and guide engineering designs to achieve the best solution for each situation",
+          "category": "technical",
+          "evidence": "Advanced knowledge of construction management and constructing methods for large projects, contract management, procurement, and supply chain management, environmental and building permitting, and transportation logistics",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Provide leadership during project construction activities, ensuring safety, quality, schedule, cost, environmental, landowner, and other project requirements are met or exceeded",
+          "category": "leadership",
+          "evidence": "Provide strategic direction and manage the development of Construction Site Managers and provide supervision, guidance, and mentorship to assigned staff at all levels",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Consolidate, manage, and analyze budgets, costs, forecasts, and utilization against established financial goals",
+          "category": "technical",
+          "evidence": "Consolidate, manage, and analyze budgets, costs, forecasts, and utilization against established financial goals",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Manage the relationships with all external entities during the construction phase of the project such as local government, permitting agencies, pipeline utility companies, and interconnecting utilities",
+          "category": "domain",
+          "evidence": "Experience with High Voltage Interconnection aspects of a project's scope of work",
+          "has_evidence": "partial"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "2-3 years in the renewable energy sector or industrial construction or capital project management",
+        "candidate_has": "~3-4 years in PM/TPM tech roles (since Jul/2022)",
+        "gap": false
+      },
+      "file_date": "2026-04-07",
+      "source": "pipeline"
+    },
+    {
+      "score": 55,
+      "score_ceiling": 60,
+      "ceiling_reason": "1 penalty: domain_gap_core.",
+      "justification": "O candidato possui uma sólida experiência em gestão de projetos e programas de software (3-4 anos em funções de PM/TPM), incluindo habilidades técnicas relevantes em Agile/Scrum, DevOps e SDLC. No entanto, ele não tem experiência direta no domínio de blockchain/criptomoedas, que é um requisito central para esta vaga de Technical Project Manager na Tether Operations Limited. Embora suas habilidades transferíveis sejam relevantes, esse gap de domínio específico provavelmente impedirá que ele passe por uma triagem experiente para esta posição.",
+      "main_gap": "Falta de experiência direta no domínio de blockchain/criptomoedas, que é o principal requisito desta vaga",
+      "company": "Tether Operations Limited",
+      "location": "",
+      "title": "Technical Project Manager QVAC (100% remote Worldwide)",
+      "url": "https://himalayas.app/companies/tether-operations-limited/jobs/technical-project-manager-qvac-100-remote-worldwide",
+      "id": "c4e57c2edb0702f10c504711baf0c3b2a53986d91d49120e11869569b9d49ee4",
+      "core_requirements": [
+        {
+          "requirement": "2+ years of proven experience managing software development projects, either as a Project Manager or Lead Developer",
+          "category": "seniority",
+          "evidence": "~3-4 years of PM/TPM experience since Jul/2022, including roles as PO, TPM, PM",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "5+ years of overall experience in software development, including hands-on commercial coding within the last 3 years",
+          "category": "seniority",
+          "evidence": "~5+ years of software development experience, including recent hands-on coding in Nubank and PO/TPM/PM roles",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Proficiency in one or more programming or scripting languages such as JavaScript, Python, Java, C#, or similar",
+          "category": "technical",
+          "evidence": "Proficient in SQL, Python, Spark/Scala for data & analysis tasks",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Foundational knowledge of DevOps practices, including CI/CD pipelines, containerization, and modern software delivery concepts, with the ability to discuss them confidently even if not directly implementing them",
+          "category": "technical",
+          "evidence": "Strong understanding of SDLC, Agile/Scrum, and related delivery methodologies, with ability to explain differences, advantages and trade-offs",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Strong understanding of SDLC, Agile/Scrum, and related delivery methodologies, with the ability to explain their differences, advantages, and trade-offs",
+          "category": "technical",
+          "evidence": "Extensive experience in Agile/Scrum delivery methodologies, including as Scrum Master",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "2+ years of proven experience managing software development projects, 5+ years of overall experience in software development",
+        "candidate_has": "~3-4 years of PM/TPM experience since Jul/2022, ~5+ years of software development experience",
+        "gap": false
+      },
+      "file_date": "2026-04-07",
+      "source": "pipeline"
+    },
+    {
+      "score": 55,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui experiência relevante em papéis de gestão de produto e programa, com um bom histórico em lidar com equipes técnicas e complexas, além de demonstrar habilidades em priorização, análise de dados e melhoria contínua. No entanto, a vaga solicita 5+ anos de experiência em gerenciamento de produto, enquanto o candidato possui cerca de 3-4 anos nessa área, o que representa um gap de seniority. Portanto, seu perfil é considerado viável, mas com risco, encaixando-se na faixa de 50-69 pontos.",
+      "main_gap": "O principal gap é a diferença de 1-2 anos de experiência em gerenciamento de produto em relação ao que a vaga requer.",
+      "company": "Mozilla",
+      "location": "",
+      "title": "Senior Product Manager Media Graphics OS Integrations",
+      "url": "https://remotefirstjobs.com/companies/mozilla/jobs/senior-product-manager-media-graphics-os-integrations-757204",
+      "id": "34934548e625aacbcbdd159d6aaef9faeb64f9383ad909c92bfd92439f362027",
+      "core_requirements": [
+        {
+          "requirement": "5+ years of product management experience, including ownership of complex, technically deep platform or infrastructure products",
+          "category": "seniority",
+          "evidence": "~3-4 years of PM/TPM experience in tech, including PO, TPM and PM roles across different programs and teams",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "3+ years working closely with systems-level engineering teams (e.g., operating systems, graphics, media, or networking)",
+          "category": "technical",
+          "evidence": "Experience working with engineering teams in TPM and PO roles, managing complex technical programs and features",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Translate complex, low-level platform work into clear product direction, making trade-offs between new features, paying down technical debt, and long-term architectural improvements",
+          "category": "domain",
+          "evidence": "Experience in managing technical product features and roadmaps, including balancing new capabilities, technical debt, and long-term architecture",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Collaborate cross-functionally with design, developer relations, and partner teams to ensure cohesive experiences across web APIs, graphics, and media playback",
+          "category": "leadership",
+          "evidence": "History of cross-functional collaboration and stakeholder management across product, engineering, and partner teams",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Use data, telemetry, and user insights to inform decisions, measure success, and continuously improve platform quality and stability",
+          "category": "other",
+          "evidence": "Experience using data, analytics, and user insights to drive product decisions and measure success",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "5+ years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      },
+      "file_date": "2026-04-07",
+      "source": "pipeline"
+    },
     {
       "score": 93,
       "score_ceiling": 100,
@@ -1183,70 +1534,9 @@
       },
       "file_date": "2026-03-24",
       "source": "pipeline"
-    },
-    {
-      "score": 75,
-      "score_ceiling": 100,
-      "ceiling_reason": "Nenhuma penalty aplicável.",
-      "justification": "O candidato possui experiência relevante em gerenciamento de projeto, programa e produto, com cerca de 3-4 anos de atuação na área de tecnologia. Suas habilidades em liderança, gestão de pessoas/processos, análise de dados e familiaridade com ferramentas ágeis são compatíveis com os requisitos da vaga. No entanto, sua experiência específica no domínio de e-commerce e marketing digital é parcial, o que representa um gap que precisa ser considerado. O candidato atende aos principais requisitos da vaga, mas uma adaptação ao contexto da agência de marketing digital seria necessária.",
-      "main_gap": "Falta de experiência direta no domínio de e-commerce e marketing digital.",
-      "company": "Paired",
-      "location": "Brazil",
-      "title": "Project Manager for Ecommerce Marketing Agency (US Based/Remote)",
-      "url": "https://himalayas.app/companies/paired-so/jobs/project-manager-for-ecommerce-marketing-agency-us-based-remote",
-      "id": "eb5b8f969a46703996b09391bbdc8119429a0bd1422d650f04544eb7e0a3b533",
-      "core_requirements": [
-        {
-          "requirement": "3+ years of experience in project management, preferably in an eCommerce, marketing, or digital agency setting",
-          "category": "seniority",
-          "evidence": "~3 years in PM/TPM tech roles",
-          "has_evidence": "partial"
-        },
-        {
-          "requirement": "Familiar with email marketing tools (especially Klaviyo) and eCommerce platforms (e.g., Shopify)",
-          "category": "technical",
-          "evidence": "Product Owner refactoring image scanning with IA integration, Project Manager for program with startups",
-          "has_evidence": "partial"
-        },
-        {
-          "requirement": "Comfortable analyzing campaign performance metrics (open rate, CTR, CVR, revenue attribution, etc.)",
-          "category": "technical",
-          "evidence": "Data & evidence skills: SQL, Python, Spark/Scala, ETL and diagnostic analysis",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Exceptional communication and interpersonal skills, with the ability to build relationships with team members and clients",
-          "category": "leadership",
-          "evidence": "PO, PM, TPM roles involving stakeholder management and team coordination",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Familiarity with Slack, Google Suite, and project management tools (e.g., ClickUp or Asana)",
-          "category": "technical",
-          "evidence": "Experience with Jira, Azure DevOps, Confluence",
-          "has_evidence": "partial"
-        }
-      ],
-      "seniority_comparison": {
-        "jd_asks": "3+ years",
-        "candidate_has": "~3 years in PM/TPM tech roles",
-        "gap": false
-      },
-      "file_date": "2026-03-23",
-      "source": "pipeline"
     }
   ],
   "pipeline_runs": [
-    {
-      "date": "2026-03-23",
-      "filtered_at": "2026-03-23T09:54:14.128643+00:00",
-      "total_input": 22,
-      "total_passed": 13,
-      "discarded_title": 1,
-      "discarded_blocklist": 1,
-      "discarded_location": 7,
-      "discarded_quality": 0
-    },
     {
       "date": "2026-03-24",
       "filtered_at": "2026-03-24T09:46:22.806538+00:00",
@@ -1345,6 +1635,16 @@
       "discarded_title": 2,
       "discarded_blocklist": 3,
       "discarded_location": 8,
+      "discarded_quality": 0
+    },
+    {
+      "date": "2026-04-07",
+      "filtered_at": "2026-04-07T09:59:06.274534+00:00",
+      "total_input": 19,
+      "total_passed": 10,
+      "discarded_title": 2,
+      "discarded_blocklist": 2,
+      "discarded_location": 5,
       "discarded_quality": 0
     }
   ]

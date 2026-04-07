@@ -1,0 +1,394 @@
+{
+  "scored_at": "2026-04-07T09:59:06.766110+00:00",
+  "source_file": "2026-04-07_095533.json",
+  "summary": {
+    "total_input": 10,
+    "total_llm_eliminated": 3,
+    "total_scored": 7,
+    "total_top": 0
+  },
+  "jobs": [],
+  "scored_jobs": [
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui habilidades relevantes para a função de Delivery Manager, incluindo experiência em gestão de programas e projetos, liderança de equipes, e uso de metodologias ágeis. No entanto, sua experiência técnica e de liderança em soluções de nuvem, arquitetura moderna e tecnologias específicas não é tão profunda quanto o esperado para um cargo sênior. Com alguns anos adicionais de experiência nessas áreas, o candidato estaria mais bem posicionado para este papel.",
+      "main_gap": "Menor seniority do que o solicitado na vaga, com falta de experiência aprofundada em alguns dos requisitos técnicos centrais.",
+      "company": "Coderio",
+      "location": "Argentina, Chile, Colombia, Mexico, Paraguay, Peru, Uruguay",
+      "title": "Sr Technical Delivery Manager",
+      "url": "https://himalayas.app/companies/coderio/jobs/sr-technical-delivery-manager-6858444910",
+      "id": "864ee568c79da6b20e64c3e1385c57003e73d76b9b29c2a363655d08eac9dfea",
+      "core_requirements": [
+        {
+          "requirement": "8+ years of experience in technical leadership, software delivery, or architecture roles",
+          "category": "seniority",
+          "evidence": "~3-4 years in PM/TPM tech roles, with additional prior experience in construction",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Proven experience designing and delivering cloud-based solutions (AWS and/or Azure)",
+          "category": "technical",
+          "evidence": "Experience with cloud architecture and delivery (e.g. Azure DevOps, CI/CD pipelines) through TPM role",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Strong background in modern application architectures (microservices, APIs)",
+          "category": "technical",
+          "evidence": "Experience leading complex technical programs and driving architectural improvements (e.g. reducing release defects, automating internal processes)",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Hands-on experience with at least one core technology stack (Java, Python, Node.js, React, or similar)",
+          "category": "technical",
+          "evidence": "Experience as Product Owner, including PoCs and integrations with emerging technologies like generative AI",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Experience leading distributed engineering teams",
+          "category": "leadership",
+          "evidence": "Managed teams of 8 people during a startup program and 25+ engineers in a global technical program",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "8+ years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 55,
+      "score_ceiling": 60,
+      "ceiling_reason": "1 penalty: domain_gap_core.",
+      "justification": "O candidato possui uma sólida experiência em gestão de projetos e programas de software (3-4 anos em funções de PM/TPM), incluindo habilidades técnicas relevantes em Agile/Scrum, DevOps e SDLC. No entanto, ele não tem experiência direta no domínio de blockchain/criptomoedas, que é um requisito central para esta vaga de Technical Project Manager na Tether Operations Limited. Embora suas habilidades transferíveis sejam relevantes, esse gap de domínio específico provavelmente impedirá que ele passe por uma triagem experiente para esta posição.",
+      "main_gap": "Falta de experiência direta no domínio de blockchain/criptomoedas, que é o principal requisito desta vaga",
+      "company": "Tether Operations Limited",
+      "location": "",
+      "title": "Technical Project Manager QVAC (100% remote Worldwide)",
+      "url": "https://himalayas.app/companies/tether-operations-limited/jobs/technical-project-manager-qvac-100-remote-worldwide",
+      "id": "c4e57c2edb0702f10c504711baf0c3b2a53986d91d49120e11869569b9d49ee4",
+      "core_requirements": [
+        {
+          "requirement": "2+ years of proven experience managing software development projects, either as a Project Manager or Lead Developer",
+          "category": "seniority",
+          "evidence": "~3-4 years of PM/TPM experience since Jul/2022, including roles as PO, TPM, PM",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "5+ years of overall experience in software development, including hands-on commercial coding within the last 3 years",
+          "category": "seniority",
+          "evidence": "~5+ years of software development experience, including recent hands-on coding in Nubank and PO/TPM/PM roles",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Proficiency in one or more programming or scripting languages such as JavaScript, Python, Java, C#, or similar",
+          "category": "technical",
+          "evidence": "Proficient in SQL, Python, Spark/Scala for data & analysis tasks",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Foundational knowledge of DevOps practices, including CI/CD pipelines, containerization, and modern software delivery concepts, with the ability to discuss them confidently even if not directly implementing them",
+          "category": "technical",
+          "evidence": "Strong understanding of SDLC, Agile/Scrum, and related delivery methodologies, with ability to explain differences, advantages and trade-offs",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Strong understanding of SDLC, Agile/Scrum, and related delivery methodologies, with the ability to explain their differences, advantages, and trade-offs",
+          "category": "technical",
+          "evidence": "Extensive experience in Agile/Scrum delivery methodologies, including as Scrum Master",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "2+ years of proven experience managing software development projects, 5+ years of overall experience in software development",
+        "candidate_has": "~3-4 years of PM/TPM experience since Jul/2022, ~5+ years of software development experience",
+        "gap": false
+      }
+    },
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui uma boa base de habilidades transferíveis para o papel de Program Manager, com experiência relevante em gestão de programas complexos, liderança de times, gerenciamento de riscos e relacionamento com clientes. No entanto, a principal lacuna é a seniority, onde o candidato possui cerca de 3-4 anos de experiência em funções de PM/TPM, abaixo do mínimo de 5-7 anos exigidos. Portanto, o score fica limitado a 60, na faixa de 50-69.",
+      "main_gap": "Lacuna de seniority, com ~3-4 anos de experiência em PM/TPM, abaixo dos 5-7 anos exigidos.",
+      "company": "Alkami Technology, Inc.",
+      "location": "United States",
+      "title": "Program Manager II, Implementation",
+      "url": "https://himalayas.app/companies/alkami-technology-inc/jobs/program-manager-ii-implementation",
+      "id": "2918cf1efe8f449ce9b8ac9c203cdaa415348d765a61426799f36963ea6b317b",
+      "core_requirements": [
+        {
+          "requirement": "Lead and manage new logo implementation programs by guiding clients through requirements, configuration, testing, and deployment.",
+          "category": "leadership",
+          "evidence": "Experience as TPM (Sep/2024–Sep/2025) and PM (Oct/2025–Feb/2026) in complex global programs and startups.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Develop and maintain comprehensive program schedules by defining deliverables, dependencies, and milestones across the portfolio.",
+          "category": "leadership",
+          "evidence": "Experience as TPM (Sep/2024–Sep/2025) and PM (Out/2025–Fev/2026) in managing program schedules, deliverables and dependencies.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Cultivate customer relationships by maintaining proactive communication, addressing escalations, and fostering trust and satisfaction.",
+          "category": "leadership",
+          "evidence": "Experience as PO (Jul/2022–Sep/2024 and Mar/2026–current) in working closely with clients, addressing issues and maintaining customer satisfaction.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Apply Alkami's risk management system by tracking project progress, identifying risks, and implementing mitigation strategies through \"Path to Green\" plans.",
+          "category": "leadership",
+          "evidence": "Experience as TPM (Sep/2024–Sep/2025) and PM (Out/2025–Fev/2026) in tracking project progress, identifying risks and implementing mitigation strategies.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "5-7 years in program/roject management in SaaS or financial services",
+          "category": "seniority",
+          "evidence": "~3-4 years of experience as PM/TPM in technology, including roles at Nubank (BA) and Instituto Atlântico (PO, PM, TPM).",
+          "has_evidence": "partial"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "5-7 years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui skills relevantes de gestão de produto, programa e entrega, com bom histórico de liderança e execução. No entanto, há um gap de seniority, uma vez que a vaga requer 5+ anos de experiência em PM/TPM, enquanto o candidato possui ~3 anos. Ainda assim, sua experiência prévia em construção civil e mais recente em fintech/seguros o torna um candidato viável, com potencial de se desenvolver na função.",
+      "main_gap": "Seniority: candidato possui ~3 anos de experiência em PM/TPM, enquanto a vaga requer 5+ anos",
+      "company": "attune, a Rizing Company",
+      "location": "",
+      "title": "Senior Product Manager",
+      "url": "https://remotefirstjobs.com/companies/attune-a-rizing-company/jobs/senior-product-manager-757263",
+      "id": "df45ff8d31eb0051c63127dcc8e0495dcf8415e67e93d70297742143c063325c",
+      "core_requirements": [
+        {
+          "requirement": "5+ years of experience in a technical product management role, specifically within the P&C insurance domain",
+          "category": "seniority",
+          "evidence": "~3 years in PM/TPM tech roles, including PO in insurance domain",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Demonstrated success in launching complex, long-term projects and managing continuous iterative improvements",
+          "category": "leadership",
+          "evidence": "Experience launching and managing complex programs/projects with delivery results",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Mastery of industry-specific terminology and concepts, including COIs, NKLLs, and Subrogation",
+          "category": "domain",
+          "evidence": "Experience in insurance domain, but not explicit mastery of all concepts",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Experience partnering closely with engineering teams on technical architecture, including the ability to review and debug JSON",
+          "category": "technical",
+          "evidence": "Experience working with engineering teams and technical skills like SQL, Python, etc.",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Proven ability to drive alignment and influence senior leadership without formal authority",
+          "category": "leadership",
+          "evidence": "Experience managing cross-functional projects and stakeholder relationships",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "5+ years",
+        "candidate_has": "~3 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui experiência relevante em localização e gestão de programas de localização, tendo atuado em diversas funções na Mozilla. No entanto, a vaga exige um nível de seniority 'Senior', enquanto o candidato tem cerca de 3-4 anos de experiência como PM/TPM. Isso representa um gap de seniority que compromete seu fit completo para a posição.",
+      "main_gap": "Gap de seniority em relação ao nível 'Senior' exigido para a vaga.",
+      "company": "Mozilla",
+      "location": "",
+      "title": "Senior Localization Technical Program Manager",
+      "url": "https://remotefirstjobs.com/companies/mozilla/jobs/senior-localization-technical-program-manager-757229",
+      "id": "92af5dcd6884db17736d82e191eef5a42b6ec08c506524caf3522d9d547c4cc2",
+      "core_requirements": [
+        {
+          "requirement": "Proven expertise in localization processes, workflows, and common industry formats used for software and web localization.",
+          "category": "domain",
+          "evidence": "Extensive experience with localization in multiple roles at Mozilla, including driving localized product releases end-to-end, defining testing and quality strategies, and enabling localization communities.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "First-hand experience localizing software and/or web content at scale, with an understanding of quality, release, and maintenance considerations.",
+          "category": "domain",
+          "evidence": "Experienced in scaling localization initiatives, working closely with volunteer localizers, and delivering high-quality localized content at scale across a range of Mozilla products.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Ability to read and navigate source code to identify internationalization and localization issues, and collaborate effectively with engineers to propose and implement solutions.",
+          "category": "technical",
+          "evidence": "Demonstrated technical skills, including the ability to work with engineers to design localization-ready features, improve tooling and workflows, and reduce risks.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Proven experience working effectively across teams, regions, and time zones, building trust and alignment with a diverse set of stakeholders.",
+          "category": "leadership",
+          "evidence": "Experience collaborating and influencing effectively across regions and time zones, building strong relationships with internal clients and teammates to align on priorities and execution.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Senior",
+        "candidate_has": "~3-4 years of PM/TPM experience in technology",
+        "gap": true
+      }
+    },
+    {
+      "score": 55,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui experiência relevante em papéis de gestão de produto e programa, com um bom histórico em lidar com equipes técnicas e complexas, além de demonstrar habilidades em priorização, análise de dados e melhoria contínua. No entanto, a vaga solicita 5+ anos de experiência em gerenciamento de produto, enquanto o candidato possui cerca de 3-4 anos nessa área, o que representa um gap de seniority. Portanto, seu perfil é considerado viável, mas com risco, encaixando-se na faixa de 50-69 pontos.",
+      "main_gap": "O principal gap é a diferença de 1-2 anos de experiência em gerenciamento de produto em relação ao que a vaga requer.",
+      "company": "Mozilla",
+      "location": "",
+      "title": "Senior Product Manager Media Graphics OS Integrations",
+      "url": "https://remotefirstjobs.com/companies/mozilla/jobs/senior-product-manager-media-graphics-os-integrations-757204",
+      "id": "34934548e625aacbcbdd159d6aaef9faeb64f9383ad909c92bfd92439f362027",
+      "core_requirements": [
+        {
+          "requirement": "5+ years of product management experience, including ownership of complex, technically deep platform or infrastructure products",
+          "category": "seniority",
+          "evidence": "~3-4 years of PM/TPM experience in tech, including PO, TPM and PM roles across different programs and teams",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "3+ years working closely with systems-level engineering teams (e.g., operating systems, graphics, media, or networking)",
+          "category": "technical",
+          "evidence": "Experience working with engineering teams in TPM and PO roles, managing complex technical programs and features",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Translate complex, low-level platform work into clear product direction, making trade-offs between new features, paying down technical debt, and long-term architectural improvements",
+          "category": "domain",
+          "evidence": "Experience in managing technical product features and roadmaps, including balancing new capabilities, technical debt, and long-term architecture",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Collaborate cross-functionally with design, developer relations, and partner teams to ensure cohesive experiences across web APIs, graphics, and media playback",
+          "category": "leadership",
+          "evidence": "History of cross-functional collaboration and stakeholder management across product, engineering, and partner teams",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Use data, telemetry, and user insights to inform decisions, measure success, and continuously improve platform quality and stability",
+          "category": "other",
+          "evidence": "Experience using data, analytics, and user insights to drive product decisions and measure success",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "5+ years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 58,
+      "score_ceiling": 60,
+      "ceiling_reason": "1 penalty: domain_gap_core.",
+      "justification": "O candidato possui experiência relevante em gerenciamento de projetos e programas na área de tecnologia, incluindo skills em liderança, entrega e análise de dados. No entanto, ele carece de experiência específica no domínio de energia renovável e construção industrial, o que é um requisito crítico para a vaga de Project Manager na Cypress Creek Renewables. Portanto, atribuo um score de 58, dentro do limite de 60 devido à penalidade por gap no domínio core.",
+      "main_gap": "Falta de experiência direta no setor de energia renovável e construção de projetos industriais, que é o core desta posição de Project Manager.",
+      "company": "Cypress Creek Renewables",
+      "location": "",
+      "title": "Project Manager",
+      "url": "https://remotefirstjobs.com/companies/cypress-creek-renewables/jobs/project-manager-757130",
+      "id": "774293e5284e73f7b8de0872768b69387991246318b051e9dd8159b8971806bc",
+      "core_requirements": [
+        {
+          "requirement": "Support the Pre-Construction Department by actively participating in the EPC RFP process for assigned projects through contract execution",
+          "category": "domain",
+          "evidence": "Experience with High Voltage Interconnection aspects of a project's scope of work",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Understand the implications of various technical options and guide engineering designs to achieve the best solution for each situation",
+          "category": "technical",
+          "evidence": "Advanced knowledge of construction management and constructing methods for large projects, contract management, procurement, and supply chain management, environmental and building permitting, and transportation logistics",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Provide leadership during project construction activities, ensuring safety, quality, schedule, cost, environmental, landowner, and other project requirements are met or exceeded",
+          "category": "leadership",
+          "evidence": "Provide strategic direction and manage the development of Construction Site Managers and provide supervision, guidance, and mentorship to assigned staff at all levels",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Consolidate, manage, and analyze budgets, costs, forecasts, and utilization against established financial goals",
+          "category": "technical",
+          "evidence": "Consolidate, manage, and analyze budgets, costs, forecasts, and utilization against established financial goals",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Manage the relationships with all external entities during the construction phase of the project such as local government, permitting agencies, pipeline utility companies, and interconnecting utilities",
+          "category": "domain",
+          "evidence": "Experience with High Voltage Interconnection aspects of a project's scope of work",
+          "has_evidence": "partial"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "2-3 years in the renewable energy sector or industrial construction or capital project management",
+        "candidate_has": "~3-4 years in PM/TPM tech roles (since Jul/2022)",
+        "gap": false
+      }
+    }
+  ],
+  "eliminated_jobs": [
+    {
+      "id_hash": "5c894eca4f969839b46d7327f93786f8eeaa876309b8114671f57bef661c50ac",
+      "id": "5c894eca4f969839b46d7327f93786f8eeaa876309b8114671f57bef661c50ac",
+      "source": "jobscollider",
+      "title": "Digital Health Program Manager",
+      "company": "MCD Global Health",
+      "location": "",
+      "salary": null,
+      "jd_full": "<h3>Description</h3>\n\n<p><strong>Our Vision & Mission</strong></p>\n\n<p>We envision a world in which all people have access to high quality and enduring solutions to improve and maintain their health and well-being. MCD Global Health aspires to be a premier partner of choice and a recognized leader, innovator, and trusted partner in healthcare and public health program development, implementation and evaluation. Our mission is to improve the health and well-being of people worldwide through enduring, high-quality, cost-effective, and universally accessible public health solutions. MCD operates impactful programs both in the U.S.A. and internationally.</p>\n\n<p>In anticipation of a potential award focused on strengthening rural health systems through digital health strategies, MCD Global Health is soliciting applications from individuals who are interested and available for employment in early 2026. We are also interested in receiving CVs for potential consulting opportunities under this program in 2026. MCD offers competitive salaries, a comprehensive benefits program, and a remote-first work environment. While the majority of these positions and work activities will be Maine-based, remote candidates will be considered in some instances. Relocation expenses to Maine will not be covered.</p>\n\n<p>Core competencies sought for these positions include telehealth and technology, RFP and grants administration, rural health and health systems strengthening, workforce development and quality improvement, oral health and chronic disease prevention. <strong>All positions are contingent on confirmation of funding.</strong></p>\n\n<p>Salary offers may be higher or lower than the anticipated salary listed due to various factors including the successful candidates’ qualifications and geography within or outside of Maine.</p>\n\n<h3>Requirements</h3>\n\n<p><strong>Digital Health Program Managers</strong></p>\n\n<p>Grade Level: 6</p>\n\n<p>Anticipated Salary: $74,000-$88,000</p>\n\n<p>Reporting Relationship: Director, Digital Health Initiative</p>\n\n<p><strong>Digital Health Program Managers</strong> will partner with sub-awardees and contractors to implement digital health projects and programs in varying topic areas and technical approaches, including but not limited to: telehealth integration in schools, long-term care facilities, acute care, oral health, maternal and perinatal behavioral health, implementation of peer-to-peer telehealth models, remote patient monitoring programs and digital health navigation. This will include provision of technical assistance and training where relevant and ensuring that sub-awardees are achieving project milestones on time and within budget allowances.</p>\n\n<p>The essential functions of the position include:</p>\n\n<p><strong>Program Management:</strong></p>\n\n<ul>\n<li><p>Support sub-awardees and contractors in implementing digital health projects across multiple domains.</p></li>\n\n<li><p>Provide technical assistance and training to ensure effective adoption of digital health tools.</p></li>\n\n<li><p>Monitor and report on project milestones, budgets, and deliverables.</p></li>\n\n<li><p>Facilitate integration of telehealth and digital health solutions into diverse healthcare environments.</p></li>\n\n<li><p>Contribute to continuous improvement and innovation in Maine’s digital health initiatives.</p></li>\n</ul>\n\n<p><strong>Teamwork:</strong></p>\n\n<ul>\n<li><p>Participate in relevant workgroups and/or committees</p></li>\n\n<li><p>Participate in MCD Global Health strategic planning as required.</p></li>\n\n<li><p>Lead by example, foster a sense of teamwork, inspire a sense of personal and professional accountability and promote positive morale that supports productivity and high quality of work for the individual team, the US Programs and MCD Global Health as a whole.</p></li>\n\n<li><p>Work to ensure that project activities and planning are directed toward the advancement of the US Programs and MCD Global Health as a whole.</p></li>\n</ul>\n\n<p><strong>Business Development:</strong></p>\n\n<ul>\n<li><p>Partner with the US Programs Business Development team to assist in the development and submission of grant and contract requests to sustain and grow MCD activities pertaining to telehealth and other areas of interest, including both US Programs and international.</p></li>\n\n<li><p>Stay current in the field by participating in available trainings related to current grants and contracts, reading and reviewing relevant literature, and subscribing to relevant listserv(s) as appropriate. Strive to ensure that project implementation is responsive to the latest research and innovations and facilities growth in MCD Global Health’s portfolio.</p></li>\n\n<li><p>Participate regularly in conferences and meetings to develop and maintain relationships with current and prospective donors, clients, contractors, or government officials while keeping abreast of trends in the field.</p></li>\n</ul>\n\n<p><strong>Position Requirements:</strong></p>\n\n<ul>\n<li><p>Bachelor’s or Master’s degree in Public Health, Health Informatics, Healthcare Administration, or a related field.</p></li>\n\n<li><p>Training or certification in project/program management (e.g., PMP, CAPM) preferred.</p></li>\n\n<li><p>Familiarity with digital health technologies and telehealth integration strongly desired.</p></li>\n</ul>\n\n<p>Experience:</p>\n\n<ul>\n<li><p>5–7 years of experience in program management within healthcare, public health, or digital health initiatives.</p></li>\n\n<li><p>Demonstrated success managing multi-stakeholder projects with contractors, sub-awardees, and provider organizations.</p></li>\n\n<li><p>Experience implementing telehealth programs across diverse settings (schools, long-term care, acute care, oral health, maternal/perinatal behavioral health).</p></li>\n\n<li><p>Background in providing technical assistance and training to healthcare organizations or community partners.</p></li>\n</ul>",
+      "url": "https://remotefirstjobs.com/companies/mcd-global-health/jobs/digital-health-program-manager-757149",
+      "collected_at": "2026-04-07T09:55:52.894128+00:00",
+      "date": "Tue, 07 Apr 2026 00:13:44 +0000",
+      "filter_reason": "localização"
+    },
+    {
+      "id_hash": "81e349e98ef17d957ed2c24e36a908f6881f2b598cd85109a619f338d61c183b",
+      "id": "81e349e98ef17d957ed2c24e36a908f6881f2b598cd85109a619f338d61c183b",
+      "source": "jobscollider",
+      "title": "Senior Product Manager Governance",
+      "company": "Box Inc Deutschland",
+      "location": "",
+      "salary": null,
+      "jd_full": "<p><strong>WHAT IS BOX?</strong></p>\n\n<p>Box (NYSE:BOX) is the leader in Intelligent Content Management. Our platform enables organizations to fuel collaboration, manage the entire content lifecycle, secure critical content, and transform business workflows with enterprise AI. We help companies thrive in the new AI-first era of business. Founded in 2005, Box simplifies work for leading global organizations, including JLL, Morgan Stanley, and Nationwide. Box is headquartered in Redwood City, CA, with offices across the United States, Europe, and Asia.</p>\n\n<p>By joining Box, you will have the unique opportunity to continue driving our platform forward. Content powers how we work. It’s the billions of files and information flowing across teams, departments, and key business processes every single day: contracts, invoices, employee records, financials, product specs, marketing assets, and more. Our mission is to bring intelligence to the world of content management and empower our customers to completely transform workflows across their organizations. With the combination of AI and enterprise content, the opportunity has never been greater to transform how the world works together and at Box you will be on the front lines of this massive shift.</p>\n\n<p><strong>WHY BOX NEEDS YOU</strong></p>\n\n<p>Box is looking to hire a Senior Product Manager for eDiscovery products to enhance its offerings in legal hold, content collection, and future legal compliance products. As organizations increasingly prioritize data security and compliance, the need for effective eDiscovery tools has never been greater. This role will focus on developing strategies that ensure users can manage their content efficiently while adhering to legal requirements. By leading these initiatives, the Senior Product Manager will play a crucial part in helping businesses efficiently comply with their legal requirements.</p>\n\n<p><strong>WHAT YOU’LL DO</strong></p>\n\n<ul>\n<li><strong>Product Strategy Development</strong>: Define and refine the product vision and strategy for Legal Holds, Content Collection and future eDiscovery strategies.</li>\n<li><strong>Stakeholder Collaboration</strong>: Work closely with cross-functional teams including engineering, design, marketing, and sales to gather requirements and ensure successful product delivery.</li>\n<li><strong>Market Research</strong>: Conduct research on industry trends, customer needs, and competitor offerings to inform product decisions and identify opportunities for innovation.</li>\n<li><strong>Roadmap Management</strong>: Create and maintain the product roadmap, prioritizing features based on customer feedback, business impact, and resource availability.</li>\n<li><strong>User Experience Oversight</strong>: Collaborate with UX/UI designers to create intuitive user interfaces that enhance user experience while meeting compliance standards.</li>\n<li><strong>Performance Analysis</strong>: Monitor key performance indicators (KPIs) related to eDiscovery products; analyze data to drive improvements in functionality or user engagement.</li>\n<li><strong>Customer Engagement</strong>: Engage with customers through interviews or surveys to gather insights about their experiences with the products; use this feedback for continuous improvement.</li>\n<li><strong>Compliance Monitoring</strong>: Stay updated on regulatory changes affecting eDiscovery and legal operations; ensure that products meet the rigorous legal standards required by organizations.</li>\n</ul>\n\n<p><strong>WHO YOU ARE</strong></p>\n\n<ul>\n<li><p>2+ years of experience in eDiscovery - regardless of industry (software, consulting, law firms, etc.) with a strong understanding of matter management frameworks and best practices for end to end legal matter management.”</p></li>\n\n<li><p>5+ years of experience in product management, with a proven track record of developing and launching successful products that meet market needs.</p></li>\n\n<li><p>Ability to analyze data, user feedback, and market trends to inform product decisions, optimize features, and drive strategic initiatives.</p></li>\n\n<li><p>Proven ability to work effectively with diverse teams—including engineering, design, marketing, and sales—to ensure alignment on product goals and deliverables.</p></li>\n\n<li><p>Experience applying user-centered design principles to create intuitive products that enhance the user experience while addressing customer pain points.</p></li>\n\n<li><p>Strong project management abilities to oversee product development timelines, budgets, resources efficiently while ensuring timely delivery of high-quality products.</p></li>\n\n<li><p>Excellent verbal and written communication skills for articulating product vision clearly to stakeholders at all levels and facilitating productive discussions.</p></li>\n\n<li><p>Familiarity with the eDiscovery Reference Model and it’s impact to content providers.</p></li>\n\n<li><p>Understanding of technology stacks related to cloud storage solutions or enterprise software applications relevant to eDiscovery products enhances collaboration with technical teams.</p></li>\n\n<li><p>Ability to develop long-term strategies for product growth while aligning them with the company’s overall goals ensures sustained success in a competitive landscape.</p></li>\n</ul>\n\n<p>Box lives its values, with community and in-person collaboration being a core part of our culture. Boxers are expected to work from their assigned office a minimum of 3 days per week, with a focus on Tuesdays, Wednesdays, and Thursdays. Your recruiter will share more about how we work and company culture during the hiring process.</p>\n\n<p>Head-over-heels about this role — but not sure you meet all the requirements? Apply anyway! Studies have shown that women and people of color are less likely to apply to jobs unless they meet every single qualification. At Box, we take a big-picture approach to hiring that fosters authenticity, diversity, and inclusion. If you’re passionate about this opportunity, chances are, you shine pretty bright.</p>\n\n<p>#LI-HYBRID</p>\n\n<p><strong>EQUAL OPPORTUNITY</strong></p>\n\n<p>We are an equal opportunity employer and value diversity at our company. We do not discriminate on the basis of race, religion, color, national origin, gender, sexual orientation, age, marital status, veteran status, disability, and any other protected ground of discrimination under applicable human rights legislation. Box strives to respect the dignity and ‎‎independence of people with disabilities and is committed to giving them the same ‎‎opportunity to succeed as all other employees. Inclusiveness is core to our culture at Box, and we strive to ensure you get the most from your interview experience.</p>\n\n<p>Box makes reasonable accommodations for applicants with disabilities. If a reasonable accommodation is needed to participate in the job application or interview process, please complete this form. Reasonable accommodations may include scheduling adjustments, document dictation and beyond.</p>\n\n<p>Notice to applicants in Los Angeles:  Box, Inc and its related branches will consider for employment, qualified applicants with criminal histories in a manner consistent with the Los Angeles Fair Chair Ordinance.  The Fair Chance Ordinance is provided here.</p>\n\n<p>Notice to applicants in San Francisco:  Box, Inc and its related branches will consider for employment, qualified applicants with criminal histories in a manner consistent with the San Francisco Fair Chair Ordinance.  The Fair Chance Ordinance is provided here.</p>\n\n<p>For details on how we protect your information when you apply, please see our Personnel Privacy Notice. If you are a California-resident, please read our California Applicant & Candidate Privacy Notice here.</p>\n\n<p><em>Box is committed to fair and equitable compensation practices. Actual base salary (or OTE if commissionable role) is dependent upon factors such as: knowledge, skill level, experience, and work location. This role is also eligible for equity and benefits. For more information, check out our benefits and perks.</em></p>\n\n<p><em>In accordance with OFCCP compliance, here is the Pay Transparency Provision.</em></p>\n\n<p>United States Pay Range</p>\n\n<p>$181,000—$226,500 USD</p>",
+      "url": "https://remotefirstjobs.com/companies/box-inc-deutschland/jobs/senior-product-manager-governance-757135",
+      "collected_at": "2026-04-07T09:55:52.894133+00:00",
+      "date": "Mon, 06 Apr 2026 23:38:30 +0000",
+      "filter_reason": "salário"
+    },
+    {
+      "id_hash": "5f4edf973ce135e68f39a547052da872250d117f441e7d800068f65168c80fd6",
+      "id": "5f4edf973ce135e68f39a547052da872250d117f441e7d800068f65168c80fd6",
+      "source": "jobscollider",
+      "title": "Program Manager Diversity Equity and Inclusion",
+      "company": "OSCAR ASSOCIATES (AMERICAS), LLC",
+      "location": "",
+      "salary": null,
+      "jd_full": "<p>Hi, we’re Oscar. We’re hiring a Program Manager of Diversity, Equity and Inclusion to join our Talent Engagement team.</p>\n\n<p>Oscar is the first health insurance company built around a full stack technology platform and a relentless focus on serving our members. We started Oscar in 2012 to create the kind of health insurance company we would want for ourselves—one that behaves like a doctor in the family.</p>\n\n<p><strong>About the role:</strong></p>\n\n<p>The Diversity, Equity, and Inclusion Program Manager serves as both a strategic builder and operational lead, responsible for advocating for and delivering on increasing equity and inclusion across the entire employee lifecycle and throughout Oscar’s People policies and processes. By combining high-level consultancy with hands-on execution, this cross-functional lead operates seamlessly between senior leadership strategy and the operational leadership of our Employee Resource Groups (ERGs). This role is the primary engine behind the programs and initiatives that ensure Oscar’s commitment to diversity and inclusion translates into measurable outcomes and a truly equitable culture.</p>\n\n<p>You will report into the Head of Talent Engagement.</p>\n\n<p><strong>Work Location:</strong> This position is based in our New York City office, requiring a hybrid work schedule with 3 days of in-office work per week. Thursdays are a required in-office day for team meetings and events, while your other two office days are flexible to suit your schedule. #LI-Hybrid</p>\n\n<p><strong>Pay Transparency:</strong> The base pay for this role is: $117,576-$154,319 per year. You are also eligible for employee benefits, participation in Oscar’s unlimited vacation program, and annual performance bonuses.</p>\n\n<p><strong>Responsibilities:</strong></p>\n\n<ul>\n<li>Partner across the People Team to operationalize and integrate DEI best practices throughout all policies and workflows.</li>\n<li>Collaborate across People Team functions (e.g., Recruiting, Compensation, People Ops, Performance, L&D) to help define, integrate, and own their respective Diversity, Equity, Inclusion (DEI) responsibilities, and provide them with support.</li>\n<li>Partner with business leads and teams across the organization to audit operations and policies to ensure they have integrated DEI best practices and guidelines.</li>\n<li>Work with recruiting to ensure processes lead to diverse talent pipelines, and to review and monitor hiring practices, then expand or change them to meet the objective of recruiting candidates from diverse backgrounds.</li>\n<li>Develop and implement co-wide central programs that promote diversity within the company or an organization. This Includes partnership with Programming colleagues (L&D, Culture & Engagement) to ensure employee and culture development opportunities.</li>\n<li>Create and Execute Oscar’s Employee Resource / Business Resource Group Strategy</li>\n<li>Serve as the central resource and primary contact for Oscar’s Employee Resource Groups (ERGs) by overseeing their day-to-day operations.</li>\n<li>Collaborate with Oscar’s ERGs to create and execute executive annual strategic plans that foster community, connection, access and opportunities for professional and personal development.</li>\n<li>Drive ERG success by securing executive sponsors and equipping co-chairs with the strategic influence to lead effectively.</li>\n<li>Be a starting point and facilitator to help kick-off the inclusion and equity-related issues. Step in to be a central point of coordination for solutions/programs.</li>\n<li>Plan, procure and lead live and virtual programming for Oscar employees, including specific groups or communities that focus on inclusive best practices for managers, teams and individual contributors.</li>\n<li>Direct the annual Culturally Competent Care Grant Initiative, including applicant auditing and program evolution to align community impact with Oscar’s core health equity and business objectives.</li>\n<li>Work with technology teams or vendors to assess, onboard, or enhance technology</li>\n<li>Measure/monitor important DEI metrics, including working with applicable partners to define relevant benchmarks, thresholds, and targets.</li>\n<li>Compliance with all applicable laws and regulations</li>\n<li>Other duties as assigned</li>\n</ul>\n\n<p><strong>Requirements:</strong></p>\n\n<ul>\n<li>5+ years of professional experience, with at least 4 years specifically building and executing integrated DEI strategies in a fast-paced or matrixed environment.</li>\n<li>Demonstrated success in integrating DEI best practices within HR functions (Recruiting, Comp, L&D).</li>\n<li>Proven experience scaling ERG/BRGs by aligning them with business objectives and engaging executive sponsors.</li>\n<li>Strong analytical acumen, with experience defining benchmarks and using data to tell a compelling story of progress and ROI.</li>\n<li>Advanced interpersonal and influence skills, with a track record of advising HR partners and senior business leaders.</li>\n</ul>\n\n<p><strong>Bonus points:</strong></p>\n\n<ul>\n<li>Prior experience in building and leading professional development sessions focused on operationalizing inclusive leadership best practices and psychological safety across diverse teams.</li>\n<li>Master’s degree or advanced certifications.</li>\n</ul>\n\n<p>This is an authentic Oscar Health job opportunity. Learn more about how you can safeguard yourself from recruitment fraudhere.</p>\n\n<p>At Oscar, being an Equal Opportunity Employer means more than upholding discrimination-free hiring practices. It means that we cultivate an environment where people can be their most authentic selves and find both belonging and support. We’re on a mission to change health care – an experience made whole by our unique backgrounds and perspectives.</p>\n\n<p><strong>Pay Transparency:</strong> Final offer amounts, within the base pay set forth above, are determined by factors including your relevant skills, education, and experience. Full-time employees are eligible for benefits including: medical, dental, and vision benefits, 11 paid holidays, paid sick time, paid parental leave, 401(k) plan participation, life and disability insurance, and paid wellness time and reimbursements.</p>\n\n<p><strong>Artificial Intelligence (AI):</strong> Our AI Guidelines outline the acceptable use of artificial intelligence for candidates and detail how we use AI to support our recruiting efforts.</p>\n\n<p><strong>Reasonable Accommodation:</strong> Oscar applicants are considered solely based on their qualifications, without regard to applicant’s disability or need for accommodation. Any Oscar applicant who requires reasonable accommodations during the application process should contact the Oscar Benefits Team (accommodations@hioscar.com) to make the need for an accommodation known.</p>\n\n<p><strong>California Residents:</strong> For information about our collection, use, and disclosure of applicants’ personal information as well as applicants’ rights over their personal information, please see our Privacy Policy.</p>",
+      "url": "https://remotefirstjobs.com/companies/oscar/jobs/program-manager-diversity-equity-and-inclusion-757059",
+      "collected_at": "2026-04-07T09:55:52.894143+00:00",
+      "date": "Mon, 06 Apr 2026 20:06:01 +0000",
+      "filter_reason": "localização"
+    }
+  ]
+}
