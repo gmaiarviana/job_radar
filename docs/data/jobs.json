@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-07T09:59:59.100499+00:00",
-  "total": 31,
+  "generated_at": "2026-04-08T09:59:33.027326+00:00",
+  "total": 29,
   "jobs": [
     {
       "score": 60,
@@ -1438,115 +1438,9 @@
       },
       "file_date": "2026-03-25",
       "source": "pipeline"
-    },
-    {
-      "score": 90,
-      "score_ceiling": 100,
-      "ceiling_reason": "Nenhuma penalty aplicável.",
-      "justification": "O candidato Guilherme possui experiência direta no domínio central da vaga de Delivery Manager, com uma sólida trajetória de 3-4 anos em funções de PM/TPM em tecnologia, incluindo atuação em projetos e programas de alta complexidade e gestão de stakeholders sênior/C-level. Seu perfil se alinha muito bem com os requisitos da vaga, evidenciando skills técnicas, de liderança e de entrega em cenários ambíguos.",
-      "main_gap": "Não identifico gaps críticos no perfil do candidato em relação aos requisitos da vaga de Delivery Manager na Zopa Bank.",
-      "company": "Zopa Bank",
-      "location": "",
-      "title": "Delivery Manager",
-      "url": "https://remotefirstjobs.com/companies/zopa-bank/jobs/delivery-manager-743279",
-      "id": "afaea11bbfa6b4d86f8a68e6d81e99084ae7355a99a4c9c626f0c9a27a59f5b2",
-      "core_requirements": [
-        {
-          "requirement": "Experience in a Delivery related role",
-          "category": "seniority",
-          "evidence": "Delivery Manager (Mar/2026–Atual) em refatoração de image scanning para integração de IA; TPM (Set/2024–Set/2025) em programa global de alta complexidade",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Experience managing medium/large multi team projects",
-          "category": "experience",
-          "evidence": "TPM (Set/2024–Set/2025) em programa global com 3 times (~25 eng.) e 15 times/200+ pessoas",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Experience managing both technical and non-technical projects",
-          "category": "experience",
-          "evidence": "Delivery Manager, TPM e PM em diversas iniciativas técnicas e não técnicas",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Experience building and maintaining detailed project plans",
-          "category": "technical",
-          "evidence": "Experiência em gestão de projetos e programas, incluindo planejamento e monitoramento",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Experience managing senior and C-level stakeholders",
-          "category": "leadership",
-          "evidence": "Experiência em gestão de stakeholders de alto nível em diversos projetos e programas",
-          "has_evidence": "full"
-        }
-      ],
-      "seniority_comparison": {
-        "jd_asks": "not specified",
-        "candidate_has": "~3-4 years in PM/TPM tech roles",
-        "gap": false
-      },
-      "file_date": "2026-03-24",
-      "source": "pipeline"
-    },
-    {
-      "score": 75,
-      "score_ceiling": 100,
-      "ceiling_reason": "Nenhuma penalty aplicável.",
-      "justification": "O candidato tem experiência relevante em funções de Product Owner e Technical Program Manager, incluindo trabalho com PoC de IA, refatoração de sistemas e gerenciamento de times. Isso o torna um bom candidato para a vaga de Product Analyst em Data Production, mesmo que não haja evidência direta de experiência neste domínio específico. Com o escopo de trabalho apresentado, o candidato possui habilidades transferíveis que atendem a maior parte dos requisitos da vaga.",
-      "main_gap": "Falta de experiência direta em construção e gestão de data products para negócios financeiros.",
-      "company": "Visa",
-      "location": "",
-      "title": "Product Analyst Data Production",
-      "url": "https://remotefirstjobs.com/companies/visa/jobs/product-analyst-data-production-743221",
-      "id": "ebc55aedf916e6559ae8e7b4517fe042ca490543a08c17d78a6b7fd9a0fe493e",
-      "core_requirements": [
-        {
-          "requirement": "Partner with product managers to translate business needs into detailed requirements, user stories, and acceptance criteria",
-          "category": "domain",
-          "evidence": "Instituto Atlântico — Product Owner (Mar/2026–Atual): refatoração de image scanning para integração de IA; histórias, cerimônias (incluindo Scrum Master), alinhamento backend/testes e definição de jornadas.",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Analyze user needs, platform gaps, and data requirements to support enhancements to data pipelines and streaming services",
-          "category": "technical",
-          "evidence": "Instituto Atlântico — Product Owner (Jul/2022–Set/2024): PoC GenAI que contribuiu para contrato e mapeamento de 9 use cases.",
-          "has_evidence": "partial"
-        },
-        {
-          "requirement": "Work with engineering teams to clarify requirements, participate in grooming sessions, and support feature validation",
-          "category": "leadership",
-          "evidence": "Instituto Atlântico — Technical Program Manager (Set/2024–Set/2025): coordenação de 3 times (~25 eng.) em programa global (15 times/200+); 60 vulnerabilidades em 4 semanas; release com 50 defeitos no prazo; automação interna reduziu revisão semanal de ~40 para ~10 min.",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Support user onboarding, training materials, and process documentation for Data Production platforms",
-          "category": "other",
-          "evidence": "Instituto Atlântico — Project Manager (Out/2025–Fev/2026): programa com 4 startups e depois 2 times (8 pessoas); gestão de pessoas/processo e realocação de 6/8 no término de contrato.",
-          "has_evidence": "partial"
-        }
-      ],
-      "seniority_comparison": {
-        "jd_asks": "3+ years of work experience, with preference for 4+ years or advanced degree",
-        "candidate_has": "~3-4 years in PM/TPM tech roles",
-        "gap": false
-      },
-      "file_date": "2026-03-24",
-      "source": "pipeline"
     }
   ],
   "pipeline_runs": [
-    {
-      "date": "2026-03-24",
-      "filtered_at": "2026-03-24T09:46:22.806538+00:00",
-      "total_input": 16,
-      "total_passed": 13,
-      "discarded_title": 0,
-      "discarded_blocklist": 1,
-      "discarded_location": 2,
-      "discarded_quality": 0
-    },
     {
       "date": "2026-03-25",
       "filtered_at": "2026-03-25T09:44:07.447684+00:00",
@@ -1644,6 +1538,16 @@
       "total_passed": 10,
       "discarded_title": 2,
       "discarded_blocklist": 2,
+      "discarded_location": 5,
+      "discarded_quality": 0
+    },
+    {
+      "date": "2026-04-08",
+      "filtered_at": "2026-04-08T09:59:29.643498+00:00",
+      "total_input": 12,
+      "total_passed": 5,
+      "discarded_title": 1,
+      "discarded_blocklist": 1,
       "discarded_location": 5,
       "discarded_quality": 0
     }
