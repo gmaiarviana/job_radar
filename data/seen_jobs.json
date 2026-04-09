@@ -5206,5 +5206,77 @@
     "source": "ashby",
     "title": "Senior product manager, datasets & objects",
     "company": "Watershed"
+  },
+  "d6e7007770f3510374eed8c22fd296de02c35ed2526b4d855473d26415623e9b": {
+    "first_seen": "2026-04-09",
+    "source": "openai_web_search",
+    "title": "Senior Principal Technical Program Manager, OCI",
+    "company": "Oracle"
+  },
+  "17009f058d8c8e3c7e6ad2e4894099abf6fb0d06f42dc8136ff846e95e4ffce2": {
+    "first_seen": "2026-04-09",
+    "source": "openai_web_search",
+    "title": "Product Manager Sênior (Remoto)",
+    "company": "Zenvia Jobs"
+  },
+  "4c1de55ca420df1c02c0792f302063a6da6441816a74837731d600a3759fea96": {
+    "first_seen": "2026-04-09",
+    "source": "jobicy",
+    "title": "Senior Program Manager, EPMO",
+    "company": "Chime"
+  },
+  "bf2ea806a98882f13354cbb7550d8d55cf623a52e162adbf25185c83a250ae46": {
+    "first_seen": "2026-04-09",
+    "source": "himalayas",
+    "title": "Technical Product Marketing Manager - USA",
+    "company": "Storyblok"
+  },
+  "ecab0787ce8d75e522f01f7d1659fa5930042bdb4d20b06dc1fec6ba331d824f": {
+    "first_seen": "2026-04-09",
+    "source": "himalayas",
+    "title": "Senior Program Manager",
+    "company": "VSP Vision"
+  },
+  "95bdce9414eb90f8f38a256d3b9281e5bd202db39099a3d35a916f934f69232f": {
+    "first_seen": "2026-04-09",
+    "source": "jobscollider",
+    "title": "Senior Technical Product Manager - Health Records",
+    "company": "Flo Health Inc."
+  },
+  "713d297a5f6a3069cbc99bdc38d9b02b397ae6dc4d83a6d200e6c636c8878a11": {
+    "first_seen": "2026-04-09",
+    "source": "jobscollider",
+    "title": "Staff Product Manager Trading",
+    "company": "Altruist"
+  },
+  "335264e65fdab582581b6d4e6c2ba93c30605cd0543b13f708da3685d0b3733a": {
+    "first_seen": "2026-04-09",
+    "source": "jobscollider",
+    "title": "Principal Product Manager - Consumer",
+    "company": "OfferUp"
+  },
+  "77fcad8656fe6fd64040645d7aca846498aac2abe004e5069db11ec2a28a6a45": {
+    "first_seen": "2026-04-09",
+    "source": "jobscollider",
+    "title": "Commercial Project Manager",
+    "company": "Utility Warehouse"
+  },
+  "e8748551a14c17c8bd2959d602cfd7f1913ae53159717ae48f75aaa78595f80a": {
+    "first_seen": "2026-04-09",
+    "source": "jobscollider",
+    "title": "Senior Product Manager- AI",
+    "company": "ConnectWise"
+  },
+  "69292067ff36cb31a664953799678fd9f9c415f0c281038db15fe3b23c4e430f": {
+    "first_seen": "2026-04-09",
+    "source": "greenhouse",
+    "title": "Engineering Program Manager, Infrastructure",
+    "company": "Stripe"
+  },
+  "f5a48099f77f32986bcf0edfc4ab44cd7866f146b4b36ef3b942aa1d335e68c9": {
+    "first_seen": "2026-04-09",
+    "source": "greenhouse",
+    "title": "Senior Web Program Manager",
+    "company": "Samsara"
   }
 }

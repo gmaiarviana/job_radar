@@ -1,0 +1,309 @@
+{
+  "scored_at": "2026-04-09T10:04:06.661560+00:00",
+  "source_file": "2026-04-09_100028.json",
+  "summary": {
+    "total_input": 5,
+    "total_llm_eliminated": 0,
+    "total_scored": 5,
+    "total_top": 1
+  },
+  "jobs": [
+    {
+      "score": 90,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato Guilherme Maia possui experiência direta no domínio central desta vaga, com histórico de liderança em programas complexos de infraestrutura e entrega de projetos. Seus principais diferenciais incluem: ~3-4 anos de experiência em funções de gerenciamento de programa/projeto/entrega, comprovada capacidade de liderar equipes e stakeholders multifuncionais, habilidades analíticas e de comunicação robustas, e expertise em melhorias de processos e introdução de melhores práticas. O perfil do candidato se alinha de forma muito próxima aos requisitos centrais da vaga, com evidências claras em seu histórico.",
+      "main_gap": "Nenhum gap significativo identificado. O candidato possui o perfil ideal para a função de Engineering Program Manager, Infrastructure na Stripe.",
+      "company": "Stripe",
+      "location": "Remote in the US",
+      "title": "Engineering Program Manager, Infrastructure",
+      "url": "https://stripe.com/jobs/search?gh_jid=7747178",
+      "id": "69292067ff36cb31a664953799678fd9f9c415f0c281038db15fe3b23c4e430f",
+      "core_requirements": [
+        {
+          "requirement": "2+ years of software engineering, systems engineering and/or program management experience",
+          "category": "seniority",
+          "evidence": "~3-4 years in PM/TPM tech roles since Jul/2022",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Excellent analytical skills; you digest complex information, can distill it and make recommendations and proposals",
+          "category": "technical",
+          "evidence": "Experience in program/project/delivery management with evidence of leading complex efforts, delivering analysis and proposals",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Experience operating autonomously and rapidly and leading large-scale efforts across multiple teams and functions, with stakeholders in different disciplines across time zones",
+          "category": "leadership",
+          "evidence": "Managed distributed teams and large-scale programs (15+ teams, 200+ people) with demonstrated success in leading cross-functional efforts",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "You have very strong written and verbal communication skills, building strong relationships with stakeholders, teams and senior leaders around the organization",
+          "category": "leadership",
+          "evidence": "Experienced in stakeholder management, executive communication, and relationship building across the organization",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "You can drive internal and external process improvements across multiple teams and functions and bring a wealth of experience, opinions, proposals and best practices",
+          "category": "other",
+          "evidence": "Demonstrated experience in driving process improvements and introducing best practices across multiple teams and functions",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "2+ years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": false
+      }
+    }
+  ],
+  "scored_jobs": [
+    {
+      "score": 58,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui uma sólida experiência em gestão de programas e projetos, incluindo liderança de equipes, alinhamento de stakeholders e uso de dados e IA para apoiar a tomada de decisões. No entanto, há uma lacuna significativa em termos de senioridade, uma vez que a vaga exige 8+ anos de experiência, enquanto o candidato possui cerca de 3-4 anos. Isso limita o seu fit para a função, embora suas habilidades técnicas e de liderança sejam relevantes. Portanto, atribuo um score de 58, que se enquadra na faixa de 50-69, indicando que o candidato possui skills transferíveis, mas há um gap no core da vaga, o que torna sua contratação improvável na triagem por parte de um recrutador experiente.",
+      "main_gap": "Lacuna significativa em termos de senioridade, com o candidato possuindo cerca de 3-4 anos de experiência, enquanto a vaga exige 8+ anos.",
+      "company": "Chime",
+      "location": "USA",
+      "title": "Senior Program Manager, EPMO",
+      "url": "https://jobicy.com/jobs/141660-senior-program-manager-epmo",
+      "id": "4c1de55ca420df1c02c0792f302063a6da6441816a74837731d600a3759fea96",
+      "core_requirements": [
+        {
+          "requirement": "Lead high-impact programs",
+          "category": "leadership",
+          "evidence": "Líder generalista de Product/Program/Project, com transição de engenharia civil para tecnologia e foco em clareza, estrutura e execução em cenários ambíguos. Opera na fronteira entre estratégia e operação: organiza escopo, alinha stakeholders e transforma risco em plano de entrega.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Drive data-informed decisions",
+          "category": "technical",
+          "evidence": "Diferencial em IA: uso prático com método — documentação como infraestrutura, governança humano-IA por papéis, avaliação por critérios/rúbricas e decomposição em pipelines especializados. Habilidades em SQL, Python, Spark/Scala, ETL e análise diagnóstica para decisão.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Leverage AI to improve how we work",
+          "category": "technical",
+          "evidence": "Diferencial em IA: uso prático com método — documentação como infraestrutura, governança humano-IA por papéis, avaliação por critérios/rúbricas e decomposição em pipelines especializados.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Influence and align stakeholders",
+          "category": "leadership",
+          "evidence": "Líder generalista de Product/Program/Project, com transição de engenharia civil para tecnologia e foco em clareza, estrutura e execução em cenários ambíguos. Opera na fronteira entre estratégia e operação: organiza escopo, alinha stakeholders e transforma risco em plano de entrega.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Own outcomes and execution",
+          "category": "leadership",
+          "evidence": "Líder generalista de Product/Program/Project, com transição de engenharia civil para tecnologia e foco em clareza, estrutura e execução em cenários ambíguos. Opera na fronteira entre estratégia e operação: organiza escopo, alinha stakeholders e transforma risco em plano de entrega.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "8+ years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 55,
+      "score_ceiling": 55,
+      "ceiling_reason": "2+ penalties: domain_gap_core, seniority_gap.",
+      "justification": "O candidato possui habilidades técnicas e de liderança relevantes, com experiência em gestão de produtos e programas. No entanto, há gaps significativos em relação à exigência de seniority (7+ anos) e ao domínio específico da saúde, com ausência de experiência em ambientes regulados e colaboração com stakeholders clínicos, legais e de privacidade. Dessa forma, o perfil do candidato se enquadra na faixa de 50-69, com score máximo de 55 dadas as restrições da vaga.",
+      "main_gap": "Falta de experiência direta em produto de saúde e em ambientes regulados, bem como a diferença de 3-4 anos na seniority exigida.",
+      "company": "Flo Health Inc.",
+      "location": "",
+      "title": "Senior Technical Product Manager - Health Records",
+      "url": "https://remotefirstjobs.com/companies/flo-health-inc/jobs/senior-technical-product-manager-health-records-759512",
+      "id": "95bdce9414eb90f8f38a256d3b9281e5bd202db39099a3d35a916f934f69232f",
+      "core_requirements": [
+        {
+          "requirement": "7+ years of experience in product management, including experience in platform, data, or infrastructure products",
+          "category": "seniority",
+          "evidence": "~3-4 years PM/TPM in tech since Jul/2022",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Strong technical background, with experience working on APIs, data pipelines, or distributed systems",
+          "category": "technical",
+          "evidence": "Experience with data pipelines, APIs, and distributed systems through technical roles in PO and TPM positions",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Experience integrating third-party vendors, APIs, or complex ecosystems (healthcare experience is a strong plus)",
+          "category": "domain",
+          "evidence": "Experience integrating third-party APIs and ecosystems through PO and TPM roles, but no explicit healthcare experience",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Proven passion for building high-quality user experiences, with a track record of partnering closely with design to ship intuitive and elegant products",
+          "category": "leadership",
+          "evidence": "Strong focus on user experience, collaboration with design teams, and delivering intuitive products based on past roles",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Experience working in regulated environments and collaborating with clinical, legal, privacy, and security stakeholders",
+          "category": "domain",
+          "evidence": "No explicit experience in regulated environments or collaboration with clinical, legal, privacy, and security stakeholders",
+          "has_evidence": "false"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "7+ years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui experiência relevante em gerenciamento de projetos e entrega em ambientes complexos, incluindo atuação na indústria de tecnologia. No entanto, a vaga requer experiência mais extensa, com 'Extensive experience' em projetos de alto perfil, o que o candidato não apresenta completamente, ficando um pouco aquém do nível de sênior esperado. Ainda assim, suas habilidades transferíveis o posicionam como um bom candidato com potencial de se desenvolver no papel, com risco moderado.",
+      "main_gap": "O principal gap é a seniority, com o candidato possuindo aproximadamente 3-4 anos de experiência em papéis de PM/TPM, quando a vaga requer 'Extensive experience'.",
+      "company": "Utility Warehouse",
+      "location": "",
+      "title": "Commercial Project Manager",
+      "url": "https://remotefirstjobs.com/companies/utility-warehouse/jobs/commercial-project-manager-759367",
+      "id": "77fcad8656fe6fd64040645d7aca846498aac2abe004e5069db11ec2a28a6a45",
+      "core_requirements": [
+        {
+          "requirement": "Extensive experience running high-profile projects and creating dynamic, collaborative work environments.",
+          "category": "seniority",
+          "evidence": "3-4 years PM/TPM experience, including significant projects such as the 3-team program management (TPM role), the startup program management, and the PO role leading the image scanning refactoring with IA integration",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "A track record of landing complex operational changes in fast-paced corporate settings.",
+          "category": "domain",
+          "evidence": "Experience leading major changes and initiatives in the tech industry, including the TPM role managing a complex global program, the PO role overseeing the image scanning refactoring, and the PM role in the startup program",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "The ability to interface with Product and Engineering teams to translate requirements into technical specifications.",
+          "category": "technical",
+          "evidence": "Extensive experience working cross-functionally with product, engineering, and other teams, demonstrated through the PO and TPM roles",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Experience in the energy sector or a proven ability to adapt quickly to new, complex industries.",
+          "category": "domain",
+          "evidence": "The candidate has experience across multiple industries, including tech, fintech, and construction. While the energy sector is a new domain, the candidate's ability to adapt to complex environments is evident from the roles held.",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "The ability to break down complex data flows or bottlenecks into actionable plans.",
+          "category": "technical",
+          "evidence": "The candidate has demonstrated strong analytical and problem-solving skills, including the use of data and analytics to drive decision-making, as evidenced by the roles in Nubank and the IA methodology work",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Extensive experience",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui experiência relevante em gestão de produtos e programas, com evidências em áreas como descoberta de requisitos, planejamento de entregas, análise de dados e integração de IA. No entanto, a vaga para Senior Product Manager exige um nível de senioridade maior do que os ~3-4 anos de experiência do candidato. Apesar das habilidades técnicas e de liderança, esse gap de seniority é um risco a ser considerado.",
+      "main_gap": "Gap de senioridade entre o perfil do candidato (~3-4 anos como PM/TPM) e o nível sênior exigido pela vaga.",
+      "company": "ConnectWise",
+      "location": "",
+      "title": "Senior Product Manager- AI",
+      "url": "https://remotefirstjobs.com/companies/connectwise/jobs/senior-product-manager-ai-759327",
+      "id": "e8748551a14c17c8bd2959d602cfd7f1913ae53159717ae48f75aaa78595f80a",
+      "core_requirements": [
+        {
+          "requirement": "Establishes operational plans for the Product Management team",
+          "category": "leadership",
+          "evidence": "Experience as PO, PM, and TPM, with leadership responsibilities",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Develops and implements new products, processes, standards, and/or operational plans that will have an impact on the achievement of functional results",
+          "category": "domain",
+          "evidence": "Experience in product delivery and process improvement, with impact on business results",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Defines and drives the business plan, strategy, and positioning of the products to align to corporate growth strategy",
+          "category": "leadership",
+          "evidence": "Experience in strategic planning and alignment with organizational goals",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Interacts with customers and prospects to define market requirements and communicates the needs to the development team",
+          "category": "domain",
+          "evidence": "Experience in gathering customer requirements and communicating them to engineering teams",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Monitors product performance to evaluate adoption rates, user experience, and production issues",
+          "category": "technical",
+          "evidence": "Experience in product analytics, user research, and issue management",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Senior Product Manager",
+        "candidate_has": "~3-4 years as PM/TPM in tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 90,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato Guilherme Maia possui experiência direta no domínio central desta vaga, com histórico de liderança em programas complexos de infraestrutura e entrega de projetos. Seus principais diferenciais incluem: ~3-4 anos de experiência em funções de gerenciamento de programa/projeto/entrega, comprovada capacidade de liderar equipes e stakeholders multifuncionais, habilidades analíticas e de comunicação robustas, e expertise em melhorias de processos e introdução de melhores práticas. O perfil do candidato se alinha de forma muito próxima aos requisitos centrais da vaga, com evidências claras em seu histórico.",
+      "main_gap": "Nenhum gap significativo identificado. O candidato possui o perfil ideal para a função de Engineering Program Manager, Infrastructure na Stripe.",
+      "company": "Stripe",
+      "location": "Remote in the US",
+      "title": "Engineering Program Manager, Infrastructure",
+      "url": "https://stripe.com/jobs/search?gh_jid=7747178",
+      "id": "69292067ff36cb31a664953799678fd9f9c415f0c281038db15fe3b23c4e430f",
+      "core_requirements": [
+        {
+          "requirement": "2+ years of software engineering, systems engineering and/or program management experience",
+          "category": "seniority",
+          "evidence": "~3-4 years in PM/TPM tech roles since Jul/2022",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Excellent analytical skills; you digest complex information, can distill it and make recommendations and proposals",
+          "category": "technical",
+          "evidence": "Experience in program/project/delivery management with evidence of leading complex efforts, delivering analysis and proposals",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Experience operating autonomously and rapidly and leading large-scale efforts across multiple teams and functions, with stakeholders in different disciplines across time zones",
+          "category": "leadership",
+          "evidence": "Managed distributed teams and large-scale programs (15+ teams, 200+ people) with demonstrated success in leading cross-functional efforts",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "You have very strong written and verbal communication skills, building strong relationships with stakeholders, teams and senior leaders around the organization",
+          "category": "leadership",
+          "evidence": "Experienced in stakeholder management, executive communication, and relationship building across the organization",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "You can drive internal and external process improvements across multiple teams and functions and bring a wealth of experience, opinions, proposals and best practices",
+          "category": "other",
+          "evidence": "Demonstrated experience in driving process improvements and introducing best practices across multiple teams and functions",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "2+ years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": false
+      }
+    }
+  ],
+  "eliminated_jobs": []
+}
