@@ -5278,5 +5278,101 @@
     "source": "greenhouse",
     "title": "Senior Web Program Manager",
     "company": "Samsara"
+  },
+  "09c19bce4697e00ca297e7eeb594d468db90ee0ea6fade6ee51da85323194a23": {
+    "first_seen": "2026-04-10",
+    "source": "openai_web_search",
+    "title": "Sr. Product Manager Technical - External Services, AWS Applied AI Solutions",
+    "company": "Amazon Development Center U.S., Inc."
+  },
+  "e56e072bc62961a3580a528f95e2a9ee94ad90a60194343603a7af66d0980d01": {
+    "first_seen": "2026-04-10",
+    "source": "openai_web_search",
+    "title": "Sr. Product Manager - Tech",
+    "company": "ADCI - Karnataka"
+  },
+  "3d46215f9ed65b9791b1ebcb0660197f6bb1785a8be22aaae8b58f445e3da02d": {
+    "first_seen": "2026-04-10",
+    "source": "openai_web_search",
+    "title": "Sr. Technical Program Manager",
+    "company": "Amazon.com Services LLC"
+  },
+  "355a89d9f292356879a8cc1088b46d5527b39bcef3e85dc292de93504836f8d0": {
+    "first_seen": "2026-04-10",
+    "source": "himalayas",
+    "title": "ServiceNow Product Manager - HRSD Lifecycle Events",
+    "company": "RTX"
+  },
+  "a79d9d09dca5c07f7df47bf6b2ea5c5843fc3eb13c51ef671ec55aeda2be2c89": {
+    "first_seen": "2026-04-10",
+    "source": "himalayas",
+    "title": "Onboarding Project Manager",
+    "company": "Ylopo, LLC"
+  },
+  "7eb8a2ae3da01c38fef0be03c078d0d1e96e8b3e8aeca8cd281630e975df0803": {
+    "first_seen": "2026-04-10",
+    "source": "jobscollider",
+    "title": "Technical Product Manager",
+    "company": "Flywire"
+  },
+  "3e8c9cbfdb45fe1b450e1f68aaff720d0644f356576c6f681dd7ea7150920557": {
+    "first_seen": "2026-04-10",
+    "source": "jobscollider",
+    "title": "Security Compliance Technical Program Manager",
+    "company": "CoreWeave"
+  },
+  "88e0e93b4775aadaaa2f59ed63aac3ab87caeab750160f90e8720d9f52c59951": {
+    "first_seen": "2026-04-10",
+    "source": "jobscollider",
+    "title": "Lead Product Manager",
+    "company": "NBCUniversal"
+  },
+  "7cf15114018835dae6b58f298ca06f9d29bb0070f68655182da7d0183efd964e": {
+    "first_seen": "2026-04-10",
+    "source": "jobscollider",
+    "title": "Staff Product Manager",
+    "company": "Platform Science"
+  },
+  "2829f692d863de345f8c31cbf3b91c2b5818cbcb800427ad3830b46a0e784c8a": {
+    "first_seen": "2026-04-10",
+    "source": "jobscollider",
+    "title": "Project Manager",
+    "company": "qode.world"
+  },
+  "1b1fb7304f9899e456ff1c0c53929169479d2a07ecd68b1f645b4f1f2e52fcb0": {
+    "first_seen": "2026-04-10",
+    "source": "greenhouse",
+    "title": "Program Manager - Dubai",
+    "company": "GitLab"
+  },
+  "6bdf326ef5770bf9fb26dde9e0652380f06f1e07bb4304348241936be702161e": {
+    "first_seen": "2026-04-10",
+    "source": "greenhouse",
+    "title": "Product Manager, Internationalization",
+    "company": "Klaviyo"
+  },
+  "18b4b49ad2a08c5342dd8aea71781d2cca010fb57803d44f25bc3e06c1eb1003": {
+    "first_seen": "2026-04-10",
+    "source": "greenhouse",
+    "title": "Staff Technical Product Manager",
+    "company": "Scale AI"
+  },
+  "56e15c406c1d2a705200688dd9b505391716cfd2b52852476765e62ee4a2cf72": {
+    "first_seen": "2026-04-10",
+    "source": "greenhouse",
+    "title": "Senior Product Manager, Music",
+    "company": "Duolingo"
+  },
+  "27189f511cc65d59a07b9fbbca012c0cffaa85a4f889c11b15bf3d8305758b96": {
+    "first_seen": "2026-04-10",
+    "source": "greenhouse",
+    "title": "Senior Product Manager, Notifications",
+    "company": "Duolingo"
+  },
+  "378d095caf42e24e4ea71aedc046b4caa3855f9015844e1c9055445732b4486d": {
+    "first_seen": "2026-04-10",
+    "source": "lever",
+    "title": "Senior Product Manager — Balance",
+    "company": "dLocal"
   }
 }

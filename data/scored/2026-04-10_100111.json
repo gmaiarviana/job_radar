@@ -1,0 +1,289 @@
+{
+  "scored_at": "2026-04-10T10:01:11.580026+00:00",
+  "source_file": "2026-04-10_095738.json",
+  "summary": {
+    "total_input": 6,
+    "total_llm_eliminated": 2,
+    "total_scored": 4,
+    "total_top": 1
+  },
+  "jobs": [
+    {
+      "score": 90,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato possui experiência direta e relevante no domínio central desta vaga de Program Manager na GitLab. Sua atuação prévia como TPM e PM em programas globais complexos, envolvendo gestão de equipes, stakeholders e metodologias ágeis/de projeto, evidencia uma forte aderência aos requisitos-chave do cargo. Além disso, suas habilidades em liderança, gestão de relacionamento com clientes e definição de estratégia de programa também se alinham bem ao escopo esperado. Portanto, o candidato se apresenta como um ótimo fit para esta oportunidade.",
+      "main_gap": "Não há gaps críticos identificados no perfil do candidato em relação aos requisitos da vaga.",
+      "company": "GitLab",
+      "location": "Remote, United Arab Emirates",
+      "title": "Program Manager - Dubai",
+      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8481645002",
+      "id": "1b1fb7304f9899e456ff1c0c53929169479d2a07ecd68b1f645b4f1f2e52fcb0",
+      "core_requirements": [
+        {
+          "requirement": "Lead delivery of multi-workstream professional services engagements with some of the largest and most strategic customers.",
+          "category": "leadership",
+          "evidence": "Experience as Program/Project Manager with global programs and complex customer engagements (TPM and PM at Instituto Atlântico)",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Build strong relationships with key customer stakeholders including executive leaders, counterpart program/project managers, engineering, development, and security and teams.",
+          "category": "leadership",
+          "evidence": "Experience in leading cross-functional teams and aligning stakeholders (TPM and PM at Instituto Atlântico)",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Develop a delivery methodology that leverages agile and project management best practices. Communicate how this methodology will be used to key customer stakeholders. Lead the execution of the methodology by bringing together customer and GitLab team members.",
+          "category": "technical",
+          "evidence": "Experience in leading agile/project management practices and aligning teams (TPM and PM at Instituto Atlântico)",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Define program strategy to include program justification, program benefits, in/out of scope projects, timeline and schedule, resources, and identify stakeholders.",
+          "category": "domain",
+          "evidence": "Experience in defining program strategy and managing complex customer engagements (TPM and PM at Instituto Atlântico)",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "GitLab Project Management Certified within 2 months of the role.",
+          "category": "technical",
+          "evidence": "",
+          "has_evidence": "false"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Not specified",
+        "candidate_has": "~3-4 years as PM/TPM in technology",
+        "gap": false
+      }
+    }
+  ],
+  "scored_jobs": [
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui uma boa experiência em gestão de programas técnicos e compliance, incluindo liderança de iniciativas de HITRUST e HIPAA. Seus conhecimentos técnicos e de liderança se alinham bem com os requisitos centrais da vaga. No entanto, a vaga exige uma senioridade mais avançada em um domínio tão específico, enquanto o candidato tem cerca de 3-4 anos de experiência como PM/TPM em tecnologia. Portanto, o score máximo permitido é 65, com o candidato apresentando um bom, mas não excelente, fit para a posição.",
+      "main_gap": "A senioridade do candidato está abaixo do nível ideal para uma posição tão especializada em compliance de saúde.",
+      "company": "CoreWeave",
+      "location": "",
+      "title": "Security Compliance Technical Program Manager",
+      "url": "https://remotefirstjobs.com/companies/coreweave/jobs/security-compliance-technical-program-manager-760824",
+      "id": "3e8c9cbfdb45fe1b450e1f68aaff720d0644f356576c6f681dd7ea7150920557",
+      "core_requirements": [
+        {
+          "requirement": "Own and drive the HITRUST program end-to-end, ensuring alignment with HIPAA Security, Privacy, and Breach Notification Rules and obligations under Business Associate Agreements (BAAs)",
+          "category": "domain",
+          "evidence": "Extensive experience leading HITRUST certification and readiness programs, including control implementation, gap remediation, and audit support in HIPAA-regulated environments",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Define, document, and continuously refine the HITRUST control environment, including data flows, system boundaries, and trust zones for systems that store, process, or transmit electronic Protected Health Information (ePHI)",
+          "category": "technical",
+          "evidence": "Strong understanding of HIPAA Security, Privacy, and Breach Notification Rules, with hands-on experience implementing safeguards for ePHI in cloud and distributed systems",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Partner closely with Product, Engineering, Infrastructure, and Security teams to design and implement secure, scalable, and HIPAA-aligned solutions that meet HITRUST CSF requirements",
+          "category": "leadership",
+          "evidence": "Proven ability to design and scale compliance programs in high-growth or hyperscale environments, balancing regulatory requirements with engineering velocity",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Translate HITRUST CSF, HIPAA, and contractual (BAA) requirements into actionable technical and operational controls, enabling secure-by-design architectures",
+          "category": "technical",
+          "evidence": "Deep knowledge of cloud-native security controls, including IAM, encryption (at rest and in transit), logging and monitoring, network segmentation, and container/Kubernetes security",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Mentor and guide junior team members and control owners on HITRUST, HIPAA, and healthcare compliance best practices",
+          "category": "leadership",
+          "evidence": "Demonstrated ability to drive continuous compliance, automation, and compliance-as-code initiatives in engineering-driven environments",
+          "has_evidence": "partial"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Not specified",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 55,
+      "score_ceiling": 55,
+      "ceiling_reason": "2+ penalties: domain_gap_core, seniority_gap.",
+      "justification": "O candidato possui 3-4 anos de experiência em papéis de PM/TPM na indústria de tecnologia, mas não possui experiência direta no domínio de mídia e entretenimento (Ad Tech/Ad Sales) requerido para esta vaga. Embora tenha habilidades transferíveis em gestão de produtos e programas, o gap de seniority e domínio central da vaga limita o fit a uma pontuação máxima de 55.",
+      "main_gap": "Falta de experiência específica no domínio de mídia e entretenimento (Ad Tech/Ad Sales) e gap de seniority de 12+ anos em Product Management técnico.",
+      "company": "NBCUniversal",
+      "location": "",
+      "title": "Lead Product Manager",
+      "url": "https://remotefirstjobs.com/companies/nbcuniversal/jobs/lead-product-manager-760759",
+      "id": "88e0e93b4775aadaaa2f59ed63aac3ab87caeab750160f90e8720d9f52c59951",
+      "core_requirements": [
+        {
+          "requirement": "12+ years in Technical Product Management with deep experience delivering enterprise data, analytics, or BI products end-to-end",
+          "category": "seniority",
+          "evidence": "~3-4 years PM/TPM in technology (since Jul/2022), including PO, TPM, and PM roles",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "7+ years of hands-on experience with modern data stacks—including Snowflake, Databricks, Redshift, BigQuery, AWS/Azure, dbt, and distributed computing frameworks",
+          "category": "technical",
+          "evidence": "Demonstrated experience in data and analytics, including SQL, data modeling, and building BI solutions",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Experience building scalable data products and BI solutions using tools such as Tableau, Power BI, MicroStrategy, Looker, or similar platforms",
+          "category": "technical",
+          "evidence": "Experience in building BI solutions, with tools like Tableau and Looker",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Familiarity with AI/ML workflows (feature engineering, model evaluation, inference pipelines) and pragmatic application of AI in analytics products",
+          "category": "technical",
+          "evidence": "Experience in applying AI/ML in analytics products, including PoCs and prototyping",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Experience in Ad Tech and Ad Sales domain",
+          "category": "domain",
+          "evidence": "",
+          "has_evidence": "false"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "12+ years in Technical Product Management",
+        "candidate_has": "~3-4 years in PM/TPM roles in technology",
+        "gap": true
+      }
+    },
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui experiência relevante em gerenciamento de projetos e programas em tecnologia, incluindo atuação em papéis como PM, TPM e PO. No entanto, a vaga requer 5+ anos em gerenciamento de projetos de TI, com pelo menos 2 projetos entregues para bancos ou empresas de títulos valores, o que o candidato não atende completamente. Ainda assim, seu perfil é forte o suficiente para uma candidatura viável, com risco moderado.",
+      "main_gap": "Falta de experiência específica em projetos para o setor financeiro por 2+ anos.",
+      "company": "qode.world",
+      "location": "",
+      "title": "Project Manager",
+      "url": "https://remotefirstjobs.com/companies/qode-world/jobs/project-manager-760601",
+      "id": "2829f692d863de345f8c31cbf3b91c2b5818cbcb800427ad3830b46a0e784c8a",
+      "core_requirements": [
+        {
+          "requirement": "5+ years project management in IT; at least 2 projects delivered for banks or securities firms",
+          "category": "seniority",
+          "evidence": "~3-4 years in PM/TPM tech roles, including TPM in program for banking/finance, PM in program with startups, and current PO role in IA",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Proven experience managing multi-vendor integrations (APIs, batch feeds, middleware)",
+          "category": "domain",
+          "evidence": "Experience as TPM in complex global program with 3 teams and 25+ engineers, including release management, dependencies, and risk mitigation",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Strong vendor negotiation experience (cloud providers, data vendors, third-party SI)",
+          "category": "technical",
+          "evidence": "Experience as PM in program with startups, including contract negotiation and team reallocations",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Excellent stakeholder management - able to interact confidently with bank CTOs/PMOs",
+          "category": "leadership",
+          "evidence": "Extensive experience leading cross-functional teams, stakeholder alignment, and executive-level communication as TPM and PM",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Familiar with Agile and Waterfall; able to pick the right approach for the client",
+          "category": "technical",
+          "evidence": "Experience applying both Agile and Waterfall methodologies, including Scrum Master responsibilities as PO",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "5+ years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      }
+    },
+    {
+      "score": 90,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato possui experiência direta e relevante no domínio central desta vaga de Program Manager na GitLab. Sua atuação prévia como TPM e PM em programas globais complexos, envolvendo gestão de equipes, stakeholders e metodologias ágeis/de projeto, evidencia uma forte aderência aos requisitos-chave do cargo. Além disso, suas habilidades em liderança, gestão de relacionamento com clientes e definição de estratégia de programa também se alinham bem ao escopo esperado. Portanto, o candidato se apresenta como um ótimo fit para esta oportunidade.",
+      "main_gap": "Não há gaps críticos identificados no perfil do candidato em relação aos requisitos da vaga.",
+      "company": "GitLab",
+      "location": "Remote, United Arab Emirates",
+      "title": "Program Manager - Dubai",
+      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8481645002",
+      "id": "1b1fb7304f9899e456ff1c0c53929169479d2a07ecd68b1f645b4f1f2e52fcb0",
+      "core_requirements": [
+        {
+          "requirement": "Lead delivery of multi-workstream professional services engagements with some of the largest and most strategic customers.",
+          "category": "leadership",
+          "evidence": "Experience as Program/Project Manager with global programs and complex customer engagements (TPM and PM at Instituto Atlântico)",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Build strong relationships with key customer stakeholders including executive leaders, counterpart program/project managers, engineering, development, and security and teams.",
+          "category": "leadership",
+          "evidence": "Experience in leading cross-functional teams and aligning stakeholders (TPM and PM at Instituto Atlântico)",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Develop a delivery methodology that leverages agile and project management best practices. Communicate how this methodology will be used to key customer stakeholders. Lead the execution of the methodology by bringing together customer and GitLab team members.",
+          "category": "technical",
+          "evidence": "Experience in leading agile/project management practices and aligning teams (TPM and PM at Instituto Atlântico)",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Define program strategy to include program justification, program benefits, in/out of scope projects, timeline and schedule, resources, and identify stakeholders.",
+          "category": "domain",
+          "evidence": "Experience in defining program strategy and managing complex customer engagements (TPM and PM at Instituto Atlântico)",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "GitLab Project Management Certified within 2 months of the role.",
+          "category": "technical",
+          "evidence": "",
+          "has_evidence": "false"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Not specified",
+        "candidate_has": "~3-4 years as PM/TPM in technology",
+        "gap": false
+      }
+    }
+  ],
+  "eliminated_jobs": [
+    {
+      "id_hash": "09c19bce4697e00ca297e7eeb594d468db90ee0ea6fade6ee51da85323194a23",
+      "id": "09c19bce4697e00ca297e7eeb594d468db90ee0ea6fade6ee51da85323194a23",
+      "source": "openai_web_search",
+      "title": "Sr. Product Manager Technical - External Services, AWS Applied AI Solutions",
+      "company": "Amazon Development Center U.S., Inc.",
+      "location": "United States",
+      "salary": null,
+      "jd_full": "As part of the AWS Applied AI Solutions organization, we have a vision to provide business applications, leveraging Amazon's unique experience and expertise, that are used by millions of companies worldwide to manage day-to-day operations. We accomplish this by accelerating our customers' businesses through delivery of intuitive and differentiated technology solutions that solve enduring business challenges. We blend vision with curiosity and Amazon's real-world experience to build opinionated, turnkey solutions. Where customers prefer to buy over build, we become their trusted partner with solutions that are no-brainers to buy and easy to use. Join the AWS Decisioning and Planning team to revolutionize how global enterprises make supply chain decisions through AI-powered innovation. As a Senior Product Manager, you will own the end-to-end product experience for how AI agents identify root causes, generate recommendations, and take autonomous actions — transforming complex supply chain data into clear, evidence-backed decisions.",
+      "url": "https://www.amazon.jobs/pt/jobs/3196208/sr-product-manager-technical-external-services-aws-applied-ai-solutions",
+      "collected_at": "2026-04-10T09:57:56.697992+00:00",
+      "date": "4 days ago",
+      "filter_reason": "localização"
+    },
+    {
+      "id_hash": "355a89d9f292356879a8cc1088b46d5527b39bcef3e85dc292de93504836f8d0",
+      "id": "355a89d9f292356879a8cc1088b46d5527b39bcef3e85dc292de93504836f8d0",
+      "source": "himalayas",
+      "title": "ServiceNow Product Manager - HRSD Lifecycle Events",
+      "company": "RTX",
+      "location": "United States",
+      "salary": "USD 132400–251600",
+      "jd_full": "<h3>Date Posted:</h3>2026-04-07<h3>Country:</h3>United States of America<h3>Location:</h3>US-CT-REMOTE<h3>Position Role Type:</h3>Remote<p><b>U.S. Citizen, U.S. Person, or Immigration Status Requirements:</b></p>U.S. citizenship is required, as only U.S. citizens are authorized to access information under this program/contract.<h3>Security Clearance Type: </h3>None/Not Required<h3>Security Clearance Status: </h3>Not Required<p>At <a href=\"https://himalayas.app/companies/rtx\">RTX</a>, the world largest aerospace and defense company, 185,000 great minds are united by purpose and inspired to make a difference solving the world’s most complex problems. With our three market leading businesses, world-class operations and investments in research and development, we offer capabilities and opportunity no one else can. Together, we push the boundaries of known science and find new ways to connect and protect our world. Join us and help shape the future of aerospace and defense.</p><p><a href=\"https://himalayas.app/companies/rtx\">RTX</a> Corporation is an Aerospace and Defense company that provides advanced systems and services for commercial, military and government customers worldwide. It comprises three industry-leading businesses – Collins Aerospace Systems, Pratt &amp; Whitney, and Raytheon. Its 185,000 employees enable the company to operate at the edge of known science as they imagine and deliver solutions that push the boundaries in quantum physics, electric propulsion, directed energy, hypersonics, avionics and cybersecurity. The company, formed in 2020 through the combination of Raytheon Company and the United Technologies Corporation aerospace businesses, is headquartered in Arlington, VA.</p><p><b>The following position is to join our <a href=\"https://himalayas.app/companies/rtx\">RTX</a> Enterprise Services team:</b></p><p>The ServiceNow Product Manager for HR Service Delivery (HRSD) – Lifecycle Events is responsible for the strategic ownership, evolution, and delivery of ServiceNow’s onboarding, offboarding, and employee transition capabilities. This role blends product management discipline, hands-on business analysis, and delivery oversight to ensure employee transitions are seamless, automated, secure, and scalable across a large, global enterprise.</p><p>This role serves as the primary bridge between HR stakeholders, Enterprise Services, platform teams, developers, and vendors—owning the full product lifecycle from demand intake through roadmap execution and post-release optimization.</p><p>The scope for this role includes Onboarding, Preboarding, Offboarding, Cross-boarding (internal transfers), and the associated automation delivered through ServiceNow HRSD Lifecycle Events.</p><h3>What You Will Do:</h3><ul><li><h3>Product Strategy &amp; Vision</h3></li><li><p>Own and articulate the product vision and strategy for ServiceNow HRSD Lifecycle Events.</p></li><li><p>Conduct market research, platform benchmarking, and trend analysis to identify best practices and new capabilities in employee lifecycle automation.</p></li><li><p>Define and maintain a multi‑year product roadmap aligned to enterprise HR priorities, compliance requirements, and the broader ServiceNow platform strategy.</p></li><li><p>Establish and enforce product governance, including intake standards, prioritization frameworks, lifecycle management, and value realization metrics.</p></li><li><h3>Business Partnership &amp; Leadership</h3></li><li><p>Serve as the primary executive-facing point of contact for the end-to-end employee transition experience delivered through ServiceNow.</p></li><li><p>Build and sustain trusted partnerships with HR business leaders, COEs, IT, Security, and cross-functional teams.</p></li><li><p>Lead strategic discovery sessions to identify opportunities for automation, standardization, user experience improvement, and risk reduction within onboarding and offboarding processes.</p></li><li><p>Act as a thought partner on ServiceNow HRSD Lifecycle capabilities and best practices, guiding leaders toward the right investments.</p></li><li><h3>Demand, Stakeholder &amp; Value Management</h3></li><li><p>Lead demand management, ensuring transparent and outcome‑driven prioritization across global HR stakeholders.</p></li><li><p>Balance strategic initiatives, compliance mandates, operational priorities, and platform health.</p></li><li><p>Define and track product success metrics including cycle‑time improvement, automation effectiveness, adoption, and user satisfaction.</p></li><li><p>Deliver regular reporting on outcomes, risks, value delivered, and roadmap progress to senior leadership.</p></li><li><h3>Product Development &amp; Backlog Ownership</h3></li><li><p>Translate product strategy into epics, features, and a prioritized product backlog for HRSD Lifecycle Events.</p></li><li><p>Define feature-level functional requirements, employee journey flows, business rules, and service design in partnership with architects and platform engineering.</p></li><li><p>Lead backlog refinement to ensure user stories are well defined, estimated, and sequenced for development.</p></li><li><p>Maintain clear and high‑quality documentation to support development, testing, support teams, and ongoing operations.</p></li><li><p>Platform Stewardship &amp; Continuous Improvement</p></li><li><p>Stay current on ServiceNow HRSD and Lifecycle Events capabilities, releases, roadmaps, and best practices.</p></li><li><p>Identify opportunities to simplify, standardize, or retire legacy onboarding/offboarding workflows and customizations.</p></li><li><p>Promote intuitive, employee-centered design across all transition experiences.</p></li><li><p>Ensure all solutions align to platform standards, architectural principles, and long-term scalability.</p></li><li><p>Business Analysis, Delivery &amp; Project Oversight</p></li><li><p>Perform hands‑on business analysis, translating HR business needs into story‑level functional and technical requirements with clear acceptance criteria.</p></li><li><p>Partner closely with developers throughout story development, providing clarification and iterative solution design support.</p></li><li><p>Lead or coordinate functional testing, test case management, and defect triage specific to transition workflows and Lifecycle Events automation.</p></li><li><p>Coordinate and support User Acceptance Testing (UAT) with HR, IT, and cross-functional stakeholders.</p></li><li><p>Oversee story implementation, release readiness, and post‑deployment validation.</p></li><li><p>Provide light project oversight, managing risks, dependencies, timelines, and cross‑team coordination.</p></li><li><h3>What Success Looks Like</h3></li><li><p>A clear, outcome‑driven roadmap for preboarding, onboarding, offboarding, and transitions.</p></li><li><p>Predictable delivery with minimal rework due to strong upstream analysis and requirements.</p></li><li><p>High stakeholder confidence and satisfaction.</p></li><li><p>Increased automation and reduced manual, off-platform, or email-based processes.</p></li><li><p>Standardized transition workflows with strong adoption and measurable experience improvements.</p></li><li><p>Transparent, well‑governed backlog and intake process.</p></li></ul><h3>Qualifications You Must Have:</h3><ul><li><p>Bachelor’s degree in Computer Science, Information Technology, or a related field (or equivalent experience) and a minimum of 10 years prior relevant experience, including 5 as a Product Manager.</p></li><li><p>Hands-on experience with ServiceNow HR Service Delivery, preferably including Lifecycle Events.</p></li><li><p>Strong understanding of product management practices, including roadmap planning, prioritization, and value measurement.</p></li><li><p>Proven ability to perform business analysis, write high‑quality requirements, and support delivery teams.</p></li><li><p>Experience working in Agile or hybrid delivery models.</p></li><li><p>Excellent communication and stakeholder management skills.</p></li></ul><h3>Qualifications We Prefer:</h3><ul><li><p>ServiceNow certifications (CSA, CIS, or domain-specific certifications)</p></li><li><p>Experience in large, highly regulated, or global organizations</p></li><li><h3>Experience with ServiceNow platform</h3></li><li><p>Experience partnering with system integrators or managed service providers</p></li><li><p>Experience or certification with Agile or Scaled Agile Framework</p></li></ul><h3>Learn More &amp; Apply Now</h3><h3>What We Offer: </h3><p>Whether you’re just starting out on your career journey or are an experienced professional, we offer a robust total rewards package with compensation; healthcare, wellness, retirement and work/life benefits; career development and recognition programs. Some of the benefits we offer include parental (including paternal) leave, flexible work schedules, achievement awards, educational assistance and child/adult backup</p><h3>Work Location:</h3><p>Remote: Employees who are working in Remote roles will work primarily offsite (from home). If you live within a reasonable commute of an <a href=\"https://himalayas.app/companies/rtx\">RTX</a> site with other colleagues you interact with, your manager will discuss whether there is a degree of onsite presence associated with this role.</p><p><i><b>As part of our commitment to maintaining a secure hiring process, candidates may be asked to attend select steps of the interview process in-person at one of our office locations, regardless of whether the role is designated as on-site, hybrid or remote.</b></i></p>The salary range for this role is 132,400 USD - 251,600 USD. The salary range provided is a good faith estimate representative of all experience levels.  <a href=\"https://himalayas.app/companies/rtx\">RTX</a> considers several factors when extending an offer, including but not limited to, the role, function and associated responsibilities, a candidate’s work experience, location, education/training, and key skills.Hired applicants may be eligible for benefits, including but not limited to, medical, dental, vision, life insurance, short-term disability, long-term disability, 401(k) match, flexible spending accounts, flexible work schedules, employee assistance program, Employee Scholar Program, parental leave, paid time off, and holidays. Specific benefits are dependent upon the specific business unit as well as whether or not the position is covered by a collective-bargaining agreement.Hired applicants may be eligible for annual short-term and/or long-term incentive compensation programs depending on the level of the position and whether or not it is covered by a collective-bargaining agreement. Payments under these annual programs are not guaranteed and are dependent upon a variety of factors including, but not limited to, individual performance, business unit performance, and/or the company’s performance.This role is a U.S.-based role. If the successful candidate resides in a U.S. territory, the appropriate pay structure and benefits will apply.<a href=\"https://himalayas.app/companies/rtx\">RTX</a> anticipates the application window closing approximately 40 days from the date the notice was posted. However, factors such as candidate flow and business necessity may require <a href=\"https://himalayas.app/companies/rtx\">RTX</a> to shorten or extend the application window.<p style=\"text-align:left\"><i><a href=\"https://himalayas.app/companies/rtx\">RTX</a> is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, age, disability or veteran status, or any other applicable state or federal protected class. <a href=\"https://himalayas.app/companies/rtx\">RTX</a> provides affirmative action in employment for qualified Individuals with a Disability and Protected Veterans in compliance with Section 503 of the Rehabilitation Act and the Vietnam Era Veterans’ Readjustment Assistance Act.</i></p><h3>Privacy Policy and Terms:</h3><p style=\"text-align:left\">Click on this <a href=\"http://www.rtx.com/privacy/Job-Applicant-Privacy-Notice\" rel=\"nofollow ugc noopener noreferrer\" target=\"_blank\">link</a> to read the Policy and Terms</p><p>Originally posted on <a href=\"https://himalayas.app\">Himalayas</a></p>",
+      "url": "https://himalayas.app/companies/rtx/jobs/servicenow-product-manager-hrsd-lifecycle-events",
+      "collected_at": "2026-04-10T09:58:01.748597+00:00",
+      "date": "1775793234",
+      "filter_reason": "localização"
+    }
+  ]
+}
