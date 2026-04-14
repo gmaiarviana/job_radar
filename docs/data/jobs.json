@@ -1,7 +1,307 @@
 {
-  "generated_at": "2026-04-13T10:27:55.685185+00:00",
-  "total": 32,
+  "generated_at": "2026-04-14T10:08:33.231862+00:00",
+  "total": 38,
   "jobs": [
+    {
+      "score": 60,
+      "score_ceiling": 60,
+      "ceiling_reason": "1 penalty: domain_gap_core.",
+      "justification": "O candidato possui experiência relevante em gestão de produto, programa e projeto, com habilidades técnicas e de liderança bem desenvolvidas. No entanto, a falta de exposição direta ao domínio específico da indústria de veículos elétricos e infraestrutura de energia representa um gap significativo que limita o ajuste ideal ao escopo da vaga. Mesmo com a capacidade geral transferível, é improvável que o candidato passe por uma triagem experiente sem um investimento adicional em construir conhecimento do setor.",
+      "main_gap": "Conhecimento limitado do domínio de veículos elétricos e infraestrutura de energia, que é fundamental para os principais requisitos da vaga.",
+      "company": "EV Realty",
+      "location": "",
+      "title": "Associate Strategy & Operations",
+      "url": "https://remotefirstjobs.com/companies/ev-realty/jobs/associate-strategy-operations-763742",
+      "id": "c1c4a6d0cb2878c5037e86c43140e9c628e21a5a4131fa9cf68f456a4629c9e3",
+      "core_requirements": [
+        {
+          "requirement": "Develop and drive EV Realty's strategic planning frameworks, including the long-term business plan, objectives and goal setting, and initiative roadmaps",
+          "category": "leadership",
+          "evidence": "Experience as TPM in program management, with responsibility for strategic alignment and execution oversight.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Conduct market and competitive research to sharpen EV Realty's positioning and identify emerging opportunities across its medium and heavy-duty vehicle and autonomous vehicle strategies",
+          "category": "domain",
+          "evidence": "Experience in conducting market research and analysis, especially in the transportation/logistics domain, as evidenced by the PoC work with autonomous vehicle methodologies.",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Build financial models and business cases to evaluate new opportunities and inform investment decisions, including new market entry, strategic partnerships, and new products",
+          "category": "technical",
+          "evidence": "Strong analytical and financial modeling skills demonstrated through the business case work and product evaluations.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Support geographic expansion efforts, including market sizing, site selection criteria, and go-to-market planning for new markets",
+          "category": "domain",
+          "evidence": "Experience in supporting expansion efforts and go-to-market planning, as evidenced by the TPM role in the global program.",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Translate research and analysis into clear, structured outputs that inform decisions by senior leadership and the board",
+          "category": "leadership",
+          "evidence": "Strong communication and presentation skills, as demonstrated by the ability to distill complex information for executive stakeholders.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "2-4 years of experience",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": false
+      },
+      "file_date": "2026-04-14",
+      "source": "pipeline"
+    },
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui experiência relevante em papéis de Product Manager/Technical Program Manager na indústria de tecnologia, com destaque para sua atuação em projetos de IA. No entanto, a vaga exige 3-5 anos de experiência direta em papéis de Product Manager, enquanto o candidato possui cerca de 3-4 anos nesse tipo de função, o que configura um gap de senioridade. Apesar de ter skills transferíveis, o candidato não atende plenamente aos requisitos centrais da vaga, sendo mais provável que seja considerado em um processo de seleção experiente.",
+      "main_gap": "O principal gap é a diferença de senioridade entre o perfil do candidato (3-4 anos em PM/TPM) e o requisito da vaga (3-5 anos de experiência direta como Product Manager).",
+      "company": "Collibra NV",
+      "location": "",
+      "title": "Senior Product Manager",
+      "url": "https://remotefirstjobs.com/companies/collibra/jobs/senior-product-manager-763733",
+      "id": "46010849bb114f1ad93b339c775a7a49f19d39e020d8ce7e9cf23872a66c964e",
+      "core_requirements": [
+        {
+          "requirement": "Shape the problem before the solution by researching customer needs, market signals, and the evolving agentic AI landscape to develop well-informed, clearly articulated pitches that the team can act on",
+          "category": "domain",
+          "evidence": "Extensive experience in product management, with hands-on experience exploring or building with AI tools, and the ability to form his own views on the evolving AI landscape",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Bring clarity to complexity by translating the nuances of AI governance (agentic systems, runtime controls, compliance frameworks like the EU AI Act or standards like AIUC-1) into product thinking that engineers, designers, and go-to-market teams can all work from",
+          "category": "domain",
+          "evidence": "Familiarity with compliance, risk, data governance, or security, and the ability to hold substantive conversations with specialists in these areas",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Prototype and validate on your own initiative by getting hands-on to test ideas early, whether that means building a rough prototype, running a customer session, or stress-testing an assumption before it becomes a commitment",
+          "category": "technical",
+          "evidence": "Experience in product management in B2B enterprise software, with a hands-on approach to exploring and building with AI tools",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Own outcomes end to end from the first spark of an idea through to delivery and adoption, staying close to what ships and honest about what it achieves",
+          "category": "leadership",
+          "evidence": "Experience working effectively in environments where the problem is still being defined, and the ability to make meaningful progress anyway",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Connect across the business by collaborating with marketing, sales, customer success, and professional services to ensure the product lands well and creates shared value",
+          "category": "leadership",
+          "evidence": "Experience in product management in B2B enterprise software, with the ability to collaborate across different teams and functions",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "not explicitly stated",
+        "candidate_has": "~3-4 years in PM/TPM roles in technology",
+        "gap": true
+      },
+      "file_date": "2026-04-14",
+      "source": "pipeline"
+    },
+    {
+      "score": 60,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui experiência relevante em gestão de programas e entregas complexas em diferentes contextos, incluindo startups e empresas de tecnologia. No entanto, a JD não especifica o nível de seniority esperado e o candidato possui cerca de 3-4 anos de experiência em PM/TPM, abaixo do ideal esperado para o nível de Program Manager na GitLab. Portanto, o score é limitado a 60, pois o candidato possui skills transferíveis, mas há um gap no core da vaga em relação à senioridade.",
+      "main_gap": "O principal gap desta candidatura é a seniority, uma vez que o candidato possui cerca de 3-4 anos de experiência em PM/TPM, abaixo do nível esperado para a vaga de Program Manager na GitLab.",
+      "company": "GitLab",
+      "location": "Remote, United Kingdom",
+      "title": "Program Manager - London",
+      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8481626002",
+      "id": "90426155521d45c444414311305ebf1e164bc2a8438dac3a8c7d2c7787e7a68e",
+      "core_requirements": [
+        {
+          "requirement": "Lead delivery of multi-workstream professional services engagements with some of the largest and most strategic customers.",
+          "category": "leadership",
+          "evidence": "Experiência recente como PM (Out/2025–Fev/2026) em programa com 4 startups e depois 2 times (8 pessoas); TPM (Set/2024–Set/2025) em programa global de alta complexidade com 3 times (~25 eng.) em 15 times/200+.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Build strong relationships with key customer stakeholders including executive leaders, counterpart program/project managers, engineering, development, and security and teams.",
+          "category": "leadership",
+          "evidence": "Experiência como PO (Jul/2022–Set/2024) e PO (Mar/2026–Atual) em alinhamento com equipes técnicas e de negócios.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Develop a delivery methodology that leverages agile and project management best practices. Communicate how this methodology will be used to key customer stakeholders. Lead the execution of the methodology by bringing together customer and GitLab team members.",
+          "category": "technical",
+          "evidence": "Experiência em PI Planning (SAFe), gerenciamento de dependências, release management, risco e comunicação executiva, além de liderança de pessoas/processo.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Define program strategy to include program justification, program benefits, in scope / out of scope projects, timeline and schedule, resources (how many teams, PMs, PSEs, TAs etc), identify stakeholders.",
+          "category": "leadership",
+          "evidence": "Experiência em definição de estratégia de programa, incluindo justificativa, benefícios, escopo, timeline, recursos e identificação de stakeholders.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Create a program level RACI chart, define program success criteria, create program level WBS (work breakdown structure) for all the projects, create communication plans between projects with stakeholders, and define program escalation path.",
+          "category": "technical",
+          "evidence": "Experiência em criar estruturas de governança, métricas de sucesso, planos de comunicação e fluxos de escalação em nível de programa.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "not specified",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      },
+      "file_date": "2026-04-14",
+      "source": "pipeline"
+    },
+    {
+      "score": 58,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O candidato possui ~3 anos de experiência em papéis técnicos de produto e gestão, incluindo PO, PM e TPM, o que é parcialmente relevante para a vaga. No entanto, a vaga requer mínimo de 5 anos de experiência avançada em suporte de produto, o que representa um gap de senioridade significativo. Apesar da boa transferência de skills em gestão de produto e entrega, a falta de experiência específica no domínio de serviços corporativos da Comcast também representa um risco. A pontuação final é limitada a 58 pela penalidade de gap de senioridade.",
+      "main_gap": "Falta de experiência específica no domínio de serviços empresariais da Comcast, além do gap de senioridade em relação ao mínimo exigido de 5 anos.",
+      "company": "Comcast",
+      "location": "Australia, Austria, Brazil, Canada, China, Denmark, Finland, France, Germany, India, Italy, Japan, Netherlands, Norway, Poland, Spain, Sweden, Switzerland, United Kingdom, United States",
+      "title": "Coordinator 3, Technical Product Sales - Business Support",
+      "url": "https://himalayas.app/companies/comcast/jobs/coordinator-3-technical-product-sales-business-support-8164003213",
+      "id": "124c4379a173c50f05303f85c8287a65da33408b7a747959ccbdc9d18bf7a875",
+      "core_requirements": [
+        {
+          "requirement": "Minimum 5 years of advanced product support experience, with demonstrated experience supporting Comcast business services, sales and enterprise-level support.",
+          "category": "seniority",
+          "evidence": "~3 years in PM/TPM tech roles; Business Analyst experience at Nubank; Project Manager in construction",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Ensure order coordination, verification and corrections are completed within defined service level agreements.",
+          "category": "domain",
+          "evidence": "Experience in PO, PM and TPM roles, with focus on delivery and product operations",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Work with the senior sales team to ensure customer orders are processed appropriately.",
+          "category": "domain",
+          "evidence": "Background in program and delivery management, with experience in cross-functional coordination",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Serve as primary interface with identified customer IT/technical personnel/vendor/VAR.",
+          "category": "domain",
+          "evidence": "Track record of stakeholder management and customer-facing roles",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Minimum 5 years of advanced product support experience",
+        "candidate_has": "~3 years in PM/TPM tech roles",
+        "gap": true
+      },
+      "file_date": "2026-04-14",
+      "source": "pipeline"
+    },
+    {
+      "score": 55,
+      "score_ceiling": 65,
+      "ceiling_reason": "1 penalty: seniority_gap.",
+      "justification": "O perfil do candidato demonstra experiência relevante em gerenciamento técnico de programas e produtos, incluindo habilidades em coordenação de equipes, comunicação técnica e resolução de problemas. No entanto, a lacuna de seniority (3-4 anos vs. 5+ anos exigidos) torna difícil atribuir um score mais alto, mesmo com os pontos fortes nas demais áreas. Portanto, um score na faixa de 50-69 (com teto de 65) parece apropriado, pois o candidato tem skills transferíveis, mas um gap central na experiência requerida.",
+      "main_gap": "Lacuna de seniority — a vaga exige 5+ anos de experiência, enquanto o candidato possui ~3-4 anos em papéis de PM/TPM.",
+      "company": "CG Tech Services",
+      "location": "",
+      "title": "Assistant Technical Services Delivery Manager",
+      "url": "https://remotefirstjobs.com/companies/cg-tech-services/jobs/assistant-technical-services-delivery-manager-763714",
+      "id": "ced9aaf93d325c1173517611ae79e97b531dd442c1114d2209b6420c699e55c6",
+      "core_requirements": [
+        {
+          "requirement": "Strong Level 2/3 technical skills in Windows Server environments (Active Directory, DNS, DHCP)",
+          "category": "technical",
+          "evidence": "Extensive experience with Windows environments, servers, and networking based on profile",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Experience with virtualization technologies (VMware, Hyper-V) and networking fundamentals (TCP/IP, routing, switching, firewalls)",
+          "category": "technical",
+          "evidence": "Experience with virtualization and networking technologies based on profile",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Ability to coordinate technical teams and act as a trusted escalation point",
+          "category": "leadership",
+          "evidence": "Experience as a Technical Program Manager and Product Owner, leading and coordinating technical teams",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Excellent communication skills, with the ability to relay advanced technical information to a technical audience",
+          "category": "other",
+          "evidence": "Demonstrated communication skills through various roles, including managing stakeholders and clients",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Minimum 5+ years in technical support roles, including hands-on troubleshooting and project work",
+          "category": "seniority",
+          "evidence": "Approximately 3-4 years of relevant experience in technical roles, including troubleshooting and project work",
+          "has_evidence": "partial"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "5+ years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      },
+      "file_date": "2026-04-14",
+      "source": "pipeline"
+    },
+    {
+      "score": 50,
+      "score_ceiling": 55,
+      "ceiling_reason": "2+ penalties: domain_gap_core, seniority_gap.",
+      "justification": "O candidato possui experiência relevante em gestão de projetos e programas, com histórico em transformação digital e startups. No entanto, há lacunas em relação à experiência específica no domínio de gestão de capital humano, que é um requisito central da vaga. Além disso, sua seniority é ligeiramente inferior ao mínimo exigido. Portanto, o score máximo possível neste caso é 55, dentro da faixa de 50-69 ('Skills transferíveis, mas GAP no CORE da vaga. Improvável passar triagem experiente').",
+      "main_gap": "Falta de experiência comprovada em gestão de capital humano, que é um requisito central da vaga.",
+      "company": "Allegis Global Solutions",
+      "location": "",
+      "title": "Project Manager Business Operations",
+      "url": "https://remotefirstjobs.com/companies/allegis-global-solutions/jobs/project-manager-business-operations-763589",
+      "id": "e64a2599060c6319c06e3541af2858aacd2141a12ffc85404ea5bedabdbd36ee",
+      "core_requirements": [
+        {
+          "requirement": "Manages small to medium-sized projects under a larger program of work, or standalone",
+          "category": "leadership",
+          "evidence": "- Instituto Atlântico — Project Manager (Out/2025–Fev/2026): programa com 4 startups e depois 2 times (8 pessoas); gestão de pessoas/processo e realocação de 6/8 no término de contrato.\n- Instituto Atlântico — Technical Program Manager (Set/2024–Set/2025): coordenação de 3 times (~25 eng.) em programa global (15 teams/200+)",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Clarifies project scope, goals and deliverables that support business goals in collaboration with senior management and executive stakeholders",
+          "category": "leadership",
+          "evidence": "- Instituto Atlântico — Project Manager (Out/2025–Fev/2026): gestão de pessoas/processo e realocação de 6/8 no término de contrato.\n- Instituto Atlântico — Technical Program Manager (Set/2024–Set/2025): release com 50 defeitos no prazo; automação interna reduziu revisão semanal de ~40 para ~10 min.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Adheres to Product Development Life Cycle and in some cases a version of the Agile methodology for systems development",
+          "category": "technical",
+          "evidence": "- Instituto Atlântico — Product Owner (Mar/2026–Atual): histórias, cerimônias (incluindo Scrum Master), alinhamento backend/testes e definição de jornadas.\n- Instituto Atlântico — Product Owner (Jul/2022–Set/2024): reorganização component→product (~3 sprints para ~1), deploy 30→15 dias",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Knowledge of change management principals, and ability to plan and execute change management in collaboration with our clients",
+          "category": "domain",
+          "evidence": "- Instituto Atlântico — Project Manager (Out/2025–Fev/2026): gestão de pessoas/processo e realocação de 6/8 no término de contrato.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Domain expertise within human capital management required",
+          "category": "domain",
+          "evidence": "",
+          "has_evidence": "partial"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "4+ years project management experience or equivalent business management experience",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": true
+      },
+      "file_date": "2026-04-14",
+      "source": "pipeline"
+    },
     {
       "score": 60,
       "score_ceiling": 65,
@@ -1595,16 +1895,6 @@
   ],
   "pipeline_runs": [
     {
-      "date": "2026-03-30",
-      "filtered_at": "2026-03-30T10:07:38.325528+00:00",
-      "total_input": 24,
-      "total_passed": 13,
-      "discarded_title": 4,
-      "discarded_blocklist": 1,
-      "discarded_location": 6,
-      "discarded_quality": 0
-    },
-    {
       "date": "2026-03-31",
       "filtered_at": "2026-03-31T09:55:31.401833+00:00",
       "total_input": 32,
@@ -1701,6 +1991,16 @@
       "total_passed": 11,
       "discarded_title": 0,
       "discarded_blocklist": 2,
+      "discarded_location": 7,
+      "discarded_quality": 0
+    },
+    {
+      "date": "2026-04-14",
+      "filtered_at": "2026-04-14T10:07:43.539863+00:00",
+      "total_input": 18,
+      "total_passed": 8,
+      "discarded_title": 3,
+      "discarded_blocklist": 0,
       "discarded_location": 7,
       "discarded_quality": 0
     }

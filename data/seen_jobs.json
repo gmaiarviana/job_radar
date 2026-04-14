@@ -5494,5 +5494,113 @@
     "source": "greenhouse",
     "title": "Lead Product Manager, Groups Platform",
     "company": "Klaviyo"
+  },
+  "58711012fae4a408e908f3a17a3298896dbd87967e8bd1e4c8c5b934b02ff95b": {
+    "first_seen": "2026-04-14",
+    "source": "openai_web_search",
+    "title": "Principal Product Manager, ASA",
+    "company": "Amazon"
+  },
+  "bfcb85959497991eeafb8d091606f6fa20585e16ff689885771516b8f56a6f48": {
+    "first_seen": "2026-04-14",
+    "source": "openai_web_search",
+    "title": "Sr Technical Program Manager, Last Mile Delivery Automation",
+    "company": "Amazon"
+  },
+  "057c11d06d6992241b7b361947e506b06821f61a94fc472f6927a3ee8962bdfc": {
+    "first_seen": "2026-04-14",
+    "source": "openai_web_search",
+    "title": "Sr. Product Manager Technical - External Services, AWS Applied AI Solutions",
+    "company": "Amazon"
+  },
+  "c2fe478e6a59aa5cd6d5a4e757313f115f95dda7094a6107d76b82a340a2531b": {
+    "first_seen": "2026-04-14",
+    "source": "openai_web_search",
+    "title": "Product Manager - Airline Mobile Application, Consulting",
+    "company": "Cognizant"
+  },
+  "caba5e09f07d8a1c5f92814c7ae4884cb30313ef4670b341fa6ca394ad4be59c": {
+    "first_seen": "2026-04-14",
+    "source": "jobicy",
+    "title": "Project Management Lead",
+    "company": "Astreya"
+  },
+  "431aa06d0d387fe47ab1a39e644d8a56d1215d7832a7057faf7d1167ed35740e": {
+    "first_seen": "2026-04-14",
+    "source": "jobicy",
+    "title": "Safeguarding Programme Manager – Emergency Cash (EC)",
+    "company": "GiveDirectly"
+  },
+  "3d90a56c3ccd462a333b20a4a830459842289c5cb35ae30aeccce787b91f2330": {
+    "first_seen": "2026-04-14",
+    "source": "jobicy",
+    "title": "Project Manager, Enterprise Merchandise",
+    "company": "Quince"
+  },
+  "3832954ccb707e2a260504f6a0b7c00f82fdd99aa122864027bea94f3a703690": {
+    "first_seen": "2026-04-14",
+    "source": "jobicy",
+    "title": "Product Director, Common Voice (12 month Fixed-Term)",
+    "company": "Mozilla"
+  },
+  "124c4379a173c50f05303f85c8287a65da33408b7a747959ccbdc9d18bf7a875": {
+    "first_seen": "2026-04-14",
+    "source": "himalayas",
+    "title": "Coordinator 3, Technical Product Sales - Business Support",
+    "company": "Comcast"
+  },
+  "c1c4a6d0cb2878c5037e86c43140e9c628e21a5a4131fa9cf68f456a4629c9e3": {
+    "first_seen": "2026-04-14",
+    "source": "jobscollider",
+    "title": "Associate Strategy & Operations",
+    "company": "EV Realty"
+  },
+  "e7af9396da33f0b5793e143df2a220b70785100e2b35653e4119a022fd435c62": {
+    "first_seen": "2026-04-14",
+    "source": "jobscollider",
+    "title": "Analyst Strategy & Operations",
+    "company": "EV Realty"
+  },
+  "46010849bb114f1ad93b339c775a7a49f19d39e020d8ce7e9cf23872a66c964e": {
+    "first_seen": "2026-04-14",
+    "source": "jobscollider",
+    "title": "Senior Product Manager",
+    "company": "Collibra NV"
+  },
+  "ced9aaf93d325c1173517611ae79e97b531dd442c1114d2209b6420c699e55c6": {
+    "first_seen": "2026-04-14",
+    "source": "jobscollider",
+    "title": "Assistant Technical Services Delivery Manager",
+    "company": "CG Tech Services"
+  },
+  "1662ad4a4767b4d0f1ebe7ea87cd49377d95b8a193058fa57a2f2ca7493e325e": {
+    "first_seen": "2026-04-14",
+    "source": "jobscollider",
+    "title": "Principal Program Manager",
+    "company": "Torc Robotics"
+  },
+  "e64a2599060c6319c06e3541af2858aacd2141a12ffc85404ea5bedabdbd36ee": {
+    "first_seen": "2026-04-14",
+    "source": "jobscollider",
+    "title": "Project Manager Business Operations",
+    "company": "Allegis Global Solutions"
+  },
+  "0f23a1f54e9b30e8c737ad1a46b7c755ac58df10c3067513a8e888e64aed1bb4": {
+    "first_seen": "2026-04-14",
+    "source": "greenhouse",
+    "title": "Operations Program Manager",
+    "company": "Stripe"
+  },
+  "4922afde49d2f143032d4f822aa3abb0348980c1f6270db6b56639f302f51bb1": {
+    "first_seen": "2026-04-14",
+    "source": "greenhouse",
+    "title": "Product Manager IC-02",
+    "company": "Stripe"
+  },
+  "90426155521d45c444414311305ebf1e164bc2a8438dac3a8c7d2c7787e7a68e": {
+    "first_seen": "2026-04-14",
+    "source": "greenhouse",
+    "title": "Program Manager - London",
+    "company": "GitLab"
   }
 }
