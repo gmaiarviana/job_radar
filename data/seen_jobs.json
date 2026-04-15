@@ -5602,5 +5602,113 @@
     "source": "greenhouse",
     "title": "Program Manager - London",
     "company": "GitLab"
+  },
+  "ee7ac1fceb52467a168b5b397c502921cb80a6b355b45ca72780036762b2c734": {
+    "first_seen": "2026-04-15",
+    "source": "openai_web_search",
+    "title": "Senior Consulting Biz Product Manager – AI",
+    "company": "Cognizant"
+  },
+  "2d99ee3df531bba3ade0bb0004c3ea5ef7a87ef73c308ba1eea91b1ff9cc368f": {
+    "first_seen": "2026-04-15",
+    "source": "remoteok",
+    "title": "Product Manager",
+    "company": "WorkOS"
+  },
+  "e9729f97cd63e73298b1b033126abf6fc93c3845c98ba8a4db36b5803d01de06": {
+    "first_seen": "2026-04-15",
+    "source": "remoteok",
+    "title": "Product Manager Market Platform",
+    "company": "Voltus"
+  },
+  "1ae670c24b75283ab1dfc390acb77c54be98e513e8a5bbbdb6b647e9616fffc2": {
+    "first_seen": "2026-04-15",
+    "source": "getonboard",
+    "title": "Technical Program Manager",
+    "company": "{'data': {'id': 7101, 'type': 'company'}}"
+  },
+  "730f7dd20b278cc73459af016b53d722561c7f463480abaf11c22d19869d7320": {
+    "first_seen": "2026-04-15",
+    "source": "himalayas",
+    "title": "Principal Technical Program Manager (Residence Based, Residence Based, US)",
+    "company": "Bayer"
+  },
+  "470d9fdbde8270765f3d5cc67df51a717874e2a6661d0502e16ab014198492f2": {
+    "first_seen": "2026-04-15",
+    "source": "himalayas",
+    "title": "Product Analyst (Data Insights Analyst)",
+    "company": "HelloConnect Inc."
+  },
+  "efa42345c1a98250e93f19b60fc2fa3723746cd6ccec16bdffbe2502a54bf7f5": {
+    "first_seen": "2026-04-15",
+    "source": "himalayas",
+    "title": "IT Project Manager (f/m/d)",
+    "company": "Freudenberg Group"
+  },
+  "7836dde0ccb491a72033d3e4ab1abbc848ab35e10712c2053170a5c4665b3e4f": {
+    "first_seen": "2026-04-15",
+    "source": "jobscollider",
+    "title": "Technical Project Manager",
+    "company": "ALTEN Technology USA"
+  },
+  "c3ad0b16c2b5d65dbe0626d9edec3a0acd4368101d60b6a019e63cdb699bc06b": {
+    "first_seen": "2026-04-15",
+    "source": "jobscollider",
+    "title": "Product Manager Agentic AI",
+    "company": "NewRocket"
+  },
+  "65cedc9eb0d2d9d83f0f71db9df34340d56fa80404e1c95331c6e7a99e9fa464": {
+    "first_seen": "2026-04-15",
+    "source": "jobscollider",
+    "title": "Product Manager, Data & Insights",
+    "company": "The Job Sauce"
+  },
+  "43510e7d3d4a0d20a6c1a97f248ee6c2d0901db90880e689b7c7233bdacb4b52": {
+    "first_seen": "2026-04-15",
+    "source": "jobscollider",
+    "title": "Project Manager",
+    "company": "Unlock Health"
+  },
+  "9aa804edd4c5a089e3dd07498b23b5ba0b4e25c94655f5b0e50bd9b35c4835bf": {
+    "first_seen": "2026-04-15",
+    "source": "jobscollider",
+    "title": "Principal Program Manager Product Design",
+    "company": "Qualtrics"
+  },
+  "dd26cb916856cc627a2ff8590402ea2131e5430888ddcdfb7516dba4912a8e53": {
+    "first_seen": "2026-04-15",
+    "source": "jobscollider",
+    "title": "Senior Product Manager",
+    "company": "Experian"
+  },
+  "585dabd1b72cb9d50781220a79cf4736291e531e6a37fca0806bc6f4cc1016b6": {
+    "first_seen": "2026-04-15",
+    "source": "jobscollider",
+    "title": "Technical Program Manager",
+    "company": "GLOBALIZATION PARTNERS LTD."
+  },
+  "1168e5f7908b00c7eb9504c54eed96cd2763e1cca828a00eb3b89c4e53c48211": {
+    "first_seen": "2026-04-15",
+    "source": "jobscollider",
+    "title": "Senior Project Manager",
+    "company": "Unlock Health"
+  },
+  "eb00502c177ded9cf5bd2955f7a8e8a84ee76d7cfe3681cd27c108cff415edb1": {
+    "first_seen": "2026-04-15",
+    "source": "greenhouse",
+    "title": "Sr. Product Manager I, In-vehicle Experience",
+    "company": "Samsara"
+  },
+  "037df80281304050b55c14d69ef90db3c8b8cd3fc14e3bb453923013e1919bce": {
+    "first_seen": "2026-04-15",
+    "source": "greenhouse",
+    "title": "Program Manager, Talent Acquisition Operations",
+    "company": "Zipline"
+  },
+  "c93a4b7ac8ea344ec0ab3c75ae5d40892bdd7fe7397f00e1b3e91e9e78b0934d": {
+    "first_seen": "2026-04-15",
+    "source": "lever",
+    "title": "Senior Product Manager - Payins Service",
+    "company": "dLocal"
   }
 }
