@@ -5710,5 +5710,143 @@
     "source": "lever",
     "title": "Senior Product Manager - Payins Service",
     "company": "dLocal"
+  },
+  "bc407cfb2989f98bd52f8b3636b02a04e31a7cfcc7ee803c02ce6c81f0270f45": {
+    "first_seen": "2026-04-16",
+    "source": "openai_web_search",
+    "title": "Product Manager",
+    "company": "Sur Global Services"
+  },
+  "066bc5e5b70dff8303804b41d1f66a07bb1778dad0df85500a7fedeb94fc3463": {
+    "first_seen": "2026-04-16",
+    "source": "jobicy",
+    "title": "Payroll Manager LATAM",
+    "company": "Varicent"
+  },
+  "e8d9c0d5f4ff3d51ac95464c3c0111388c0e508d7bf010379dabbe4b6e862967": {
+    "first_seen": "2026-04-16",
+    "source": "jobicy",
+    "title": "Principal, Product Manager – AI / LLM",
+    "company": "Twilio"
+  },
+  "53db389202e880b52f69c24911fcb5cdb0113ddaaa77670c2d68a6e1f1ccf767": {
+    "first_seen": "2026-04-16",
+    "source": "jobicy",
+    "title": "Area Project Controls Lead, Leased Data Centers",
+    "company": "Meta"
+  },
+  "0432adf724ab740a4fb4b219149788e7864e9f3dcd9b6044c90a31fc5ba7f72a": {
+    "first_seen": "2026-04-16",
+    "source": "jobicy",
+    "title": "Area Schedule Lead, Leased Data Centers",
+    "company": "Meta"
+  },
+  "29f505ee9e2fd012c266776bfe9a80621aee66000e21949a8bbaa46008a195b7": {
+    "first_seen": "2026-04-16",
+    "source": "remoteok",
+    "title": "Senior Manager Associate Director Strategy & Operations",
+    "company": "Natera"
+  },
+  "f884cb1e414166e5fa1feb6104d44dce93f94e22f0df695bf118014e1231f84f": {
+    "first_seen": "2026-04-16",
+    "source": "getonboard",
+    "title": "Senior Product Manager",
+    "company": "{'data': {'id': 7101, 'type': 'company'}}"
+  },
+  "686fb97ebac1a8ee105c2559f57015f949036d44f7a0a6c7945fafeff69fee3e": {
+    "first_seen": "2026-04-16",
+    "source": "himalayas",
+    "title": "Technical Program Manager",
+    "company": "Blueprint"
+  },
+  "306660915ffd8043bf920d39c34bac985e80c549cea2ed00b7c7c1133ff67fa5": {
+    "first_seen": "2026-04-16",
+    "source": "himalayas",
+    "title": "Middle Project Manager",
+    "company": "NineTwoThree AI Studio"
+  },
+  "792127f0ec95f886db535ba2c925f60b7b198bd8f4ae186bedb53a24ff6f3a7d": {
+    "first_seen": "2026-04-16",
+    "source": "jobscollider",
+    "title": "Technical Program Manager",
+    "company": "Unstructured"
+  },
+  "76e6d6cff8049c60ea231b7663f0b5ed0dbad4b54259be9cf8308a30f3dd1651": {
+    "first_seen": "2026-04-16",
+    "source": "jobscollider",
+    "title": "Senior Product Manager",
+    "company": "Nexamp"
+  },
+  "02cf5685fca9093e182a0e50eb018ebd5af1f2c2cf437b3facdffd9c5fead9fe": {
+    "first_seen": "2026-04-16",
+    "source": "jobscollider",
+    "title": "Senior Technical Project Manager",
+    "company": "Red Ventures"
+  },
+  "9a814c29ec7f14a0c229eb1fddb827903b981e59447a73e412342323e77e5e95": {
+    "first_seen": "2026-04-16",
+    "source": "jobscollider",
+    "title": "Project Manager Medical Publications",
+    "company": "Lockwood™"
+  },
+  "f19a4ef16175c7e8d9e52b93f85db2d5c96684ce8b7d99a14243e194991f0f8c": {
+    "first_seen": "2026-04-16",
+    "source": "jobscollider",
+    "title": "Marketing Project Manager",
+    "company": "Fresh Prints"
+  },
+  "84895f4f36ff8a90caf6e999602700b8b3dc269ef775aca12a0c0acb8ab38e65": {
+    "first_seen": "2026-04-16",
+    "source": "jobscollider",
+    "title": "Engineering Program Manager",
+    "company": "Butterfly Network, Inc."
+  },
+  "466d4b1b6c9d7f122c8282107285cd619c6f50eefd75b42ad16b5ccac379ef35": {
+    "first_seen": "2026-04-16",
+    "source": "jobscollider",
+    "title": "Senior Product Manager HR Labs",
+    "company": "Gusto"
+  },
+  "516710f78ce7201a8dce45539ea1e966f7cf0d8436acfa7bf39b5b08770d621f": {
+    "first_seen": "2026-04-16",
+    "source": "jobscollider",
+    "title": "Project Lead/Senior Project Manager Architect",
+    "company": "DISHER"
+  },
+  "008e971b1a54c99e23210d18874699a7f9fb982317ced525ed66f230de97bfa7": {
+    "first_seen": "2026-04-16",
+    "source": "jobscollider",
+    "title": "Associate Project Manager Medical Publications",
+    "company": "Lockwood™"
+  },
+  "38502ebf3880fb6771ea536fc80fe8406995d29c446d7353b272ffd1319407f4": {
+    "first_seen": "2026-04-16",
+    "source": "jobscollider",
+    "title": "Client Service Project Manager",
+    "company": "Guidepoint"
+  },
+  "e17bc552feb19c70b017309b89eb98f3cec494ccb1a2e9a6dc2fb630fbb7e5ba": {
+    "first_seen": "2026-04-16",
+    "source": "greenhouse",
+    "title": "Compensation Program Manager",
+    "company": "Stripe"
+  },
+  "4c337545f296e53d5af31e4343f33a304004c1938bd5aa1c08c7f965571996f6": {
+    "first_seen": "2026-04-16",
+    "source": "greenhouse",
+    "title": "Operations Program Manager, Managed Operations",
+    "company": "Stripe"
+  },
+  "8554f08fbcea637b72e95638a5355a68d7c24731e1d71590505d6108248a3b8f": {
+    "first_seen": "2026-04-16",
+    "source": "greenhouse",
+    "title": "Staff Product Manager, Payments",
+    "company": "Stripe"
+  },
+  "87a90d6adda12b95ea67ed18bd44d5d856ced07dc66f57ae944ea51cff72a77f": {
+    "first_seen": "2026-04-16",
+    "source": "greenhouse",
+    "title": "Principal Product Manager, Security - GTM",
+    "company": "GitLab"
   }
 }
