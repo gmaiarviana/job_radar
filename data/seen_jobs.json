@@ -5848,5 +5848,113 @@
     "source": "greenhouse",
     "title": "Principal Product Manager, Security - GTM",
     "company": "GitLab"
+  },
+  "7c9c972ca4603b0e49b9e4835e2394f30bca0f2898fa654b417b282d2acc8fc5": {
+    "first_seen": "2026-04-17",
+    "source": "openai_web_search",
+    "title": "Sr. Technical Program Manager, Strategic programs, PRISM, Last Mile Delivery Tech",
+    "company": "Amazon"
+  },
+  "f4fc4627b94f3a246f5cb3f363b2a3ade892eff9fa12edec25d8a3f11af63056": {
+    "first_seen": "2026-04-17",
+    "source": "remoteok",
+    "title": "Product Manager",
+    "company": "Lively"
+  },
+  "60141d37f386bbf7e470bcb7bfd95b458b95f74254cebba0c1fec9deafcbff08": {
+    "first_seen": "2026-04-17",
+    "source": "jobscollider",
+    "title": "Lead Product Manager",
+    "company": "Red Ventures"
+  },
+  "e4943f59816e6c64154d59c2c9c61646aa1159664ebfa3a42d61c48a8eb0c4f1": {
+    "first_seen": "2026-04-17",
+    "source": "jobscollider",
+    "title": "Senior Product Manager AI",
+    "company": "CompanyCam"
+  },
+  "16936191805c120f76593dcca4b7ffeb026683beef462532b6ef8b6b524d47d8": {
+    "first_seen": "2026-04-17",
+    "source": "jobscollider",
+    "title": "Retouching Project Manager",
+    "company": "Industrial Color"
+  },
+  "2ca9b58fa77b4afee7ee2dcd4eafe8bcead06c96f84b7f5a50a0849770b5765b": {
+    "first_seen": "2026-04-17",
+    "source": "jobscollider",
+    "title": "Project Manager V",
+    "company": "CannonDesign"
+  },
+  "2ae2d63633ebbd025ccb5ed7feb034fbc2f9b293813b8f789b3d01278cc08e3d": {
+    "first_seen": "2026-04-17",
+    "source": "jobscollider",
+    "title": "Senior Technical Product Manager Platform Services",
+    "company": "Forge"
+  },
+  "67ee2f8d7b173cdd06f69bcea0f973df8bc2efe12a8e73a5ca8b40df7571a69e": {
+    "first_seen": "2026-04-17",
+    "source": "jobscollider",
+    "title": "Project Manager Medical Communications",
+    "company": "Lockwood™"
+  },
+  "de52d69b5414326cb30b598ea7ce589b6ccfb5dfbedc927429c40095f3220971": {
+    "first_seen": "2026-04-17",
+    "source": "jobscollider",
+    "title": "Head of GTM Strategy & Operations",
+    "company": "applike group"
+  },
+  "f2db429930b144210c00a8829dc0aa39d87e8c743b30206f4567ed0cc9407df1": {
+    "first_seen": "2026-04-17",
+    "source": "jobscollider",
+    "title": "Senior Product Manager Smart Data Products",
+    "company": "Actian"
+  },
+  "b88dfda70ff4c1601e5cb04a92f1ed5cadd9412423367164e4339ca6dd7ead27": {
+    "first_seen": "2026-04-17",
+    "source": "jobscollider",
+    "title": "Lead Technical Program Manager",
+    "company": "Visa"
+  },
+  "24e30a0c4181a9bbb54f6ebabe10d42bdb3cd66ac1c83500c85e229a302110a7": {
+    "first_seen": "2026-04-17",
+    "source": "jobscollider",
+    "title": "Staff Technical Program Manager Mergers & Acquisition",
+    "company": "Lyft"
+  },
+  "ffa98f7ec5134fb26a30a678235c8e218ef05ebdcc8bc4735e430daee51d201e": {
+    "first_seen": "2026-04-17",
+    "source": "greenhouse",
+    "title": "Collections Program Manager",
+    "company": "Stripe"
+  },
+  "b96a6520a2921baff268529e54c0ce39e60cdb80aa38bcaf8dd7dfd6eb939232": {
+    "first_seen": "2026-04-17",
+    "source": "greenhouse",
+    "title": "Program Manager, GTM Planning",
+    "company": "Stripe"
+  },
+  "d44ddf055041572aa4b72d72cad5419d79239313d5d1aaacec5ab7f64f219d95": {
+    "first_seen": "2026-04-17",
+    "source": "greenhouse",
+    "title": "Sr. Technical Program Manager, Professional Services - Public Sector",
+    "company": "Databricks"
+  },
+  "9cd160aa9d3f4acd38225de0b9c1a829326eb692e46b1f7dcf5b19c9ecce6eae": {
+    "first_seen": "2026-04-17",
+    "source": "greenhouse",
+    "title": "Principal Product Manager - AI Platform",
+    "company": "Samsara"
+  },
+  "d136be1bf9c568854c7e37635634828132f7c50f08c84e2328a429a9d686558c": {
+    "first_seen": "2026-04-17",
+    "source": "greenhouse",
+    "title": "Staff Product Manager | Billing&Payments",
+    "company": "Wellhub"
+  },
+  "8daf856474fdcbb5321173f68102a4c28cd55753fa7d399e173b2a7e6c539ce0": {
+    "first_seen": "2026-04-17",
+    "source": "greenhouse",
+    "title": "Technical Program Manager, Autonomy",
+    "company": "Zipline"
   }
 }
