@@ -1,7 +1,160 @@
 {
-  "generated_at": "2026-04-17T10:06:43.849812+00:00",
-  "total": 28,
+  "generated_at": "2026-04-20T10:30:46.241829+00:00",
+  "total": 30,
   "jobs": [
+    {
+      "score": 95,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato Guilherme Maia possui experiência sólida e direta nos principais requisitos da vaga de Delivery Manager Core Technology Platform. Ele tem histórico comprovado de liderança em organizações lideradas por engenharia, aplicando métodos ágeis modernos como Scrum e Kanban. Sua experiência em gerenciar a entrega de serviços tecnológicos fundamentais, como infraestrutura, dados e engenharia de plataforma, é um ótimo ajuste para o domínio desta vaga. Ele também demonstra profundo entendimento de gerenciamento de incidentes e manutenção de níveis de serviço, além de liderança em QA e automação estratégica. Suas habilidades de pensamento crítico e influência sem autoridade direta também se alinham perfeitamente com as necessidades desta posição. Em resumo, o candidato possui um ajuste excelente e experiência direta no domínio central da vaga.",
+      "main_gap": "Não há gaps significativos identificados no perfil do candidato em relação aos requisitos da vaga.",
+      "company": "Keyrock",
+      "location": "",
+      "title": "Delivery Manager Core Technology Platform",
+      "url": "https://remotefirstjobs.com/companies/keyrock/jobs/delivery-manager-core-technology-platform-770078",
+      "id": "ef1efe512500a13519df9d6bc08c2a7a7e364b17504ec11d4c80e2b7c22faf5c",
+      "core_requirements": [
+        {
+          "requirement": "Proven track record in an engineering-led organization applying modern Agile methods (Scrum, Kanban, Lean)",
+          "category": "leadership",
+          "evidence": "Extensive experience in Agile leadership roles (PO, TPM, PM) at Instituto Atlântico, including Scrum Master responsibilities",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Specific experience managing the delivery of foundational technology services (Infrastructure, Data, or Platform Engineering)",
+          "category": "domain",
+          "evidence": "As PO, PM, and TPM at Instituto Atlântico, managed delivery of foundational technology services in areas like image scanning, IA integration, global programs, and startups",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Deep understanding of incident management and maintaining service levels for internal stakeholders",
+          "category": "technical",
+          "evidence": "Experience leading incident response and post-mortems to ensure rapid resolution and continuous reliability improvements, as evidenced in the TPM role",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Experience leading QA professionals and driving strategic automation roadmaps within a foundational tech context",
+          "category": "leadership",
+          "evidence": "Led QA engineers and owned the QA automation roadmap for foundational services, driving improvements in automated regression and integrated testing",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Exceptional critical thinking and the ability to influence without direct authority",
+          "category": "leadership",
+          "evidence": "Demonstrated ability to navigate complex dependencies, align cross-divisional priorities, and drive consensus across teams with differing objectives, as described in the profile",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "Not specified",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": false
+      },
+      "file_date": "2026-04-20",
+      "source": "pipeline"
+    },
+    {
+      "score": 90,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato possui experiência relevante de ~3-4 anos em funções de Product Manager, Technical Program Manager e Product Owner, incluindo trabalho em ambientes de consultoria/agência e uso prático de IA. Isso atende plenamente aos requisitos centrais da vaga. Ele também demonstra habilidades em liderança de entrega de produto, uso de dados e análise, alinhamento com stakeholders, e familiaridade com produtos e plataformas digitais. Portanto, o candidato é um ótimo fit para a vaga de Product Manager na Orium.",
+      "main_gap": "Não há gaps significativos no perfil do candidato em relação aos requisitos da vaga.",
+      "company": "Orium",
+      "location": "",
+      "title": "Product Manager",
+      "url": "https://remotefirstjobs.com/companies/orium/jobs/product-manager-769943",
+      "id": "cc5e696737a9cac5276af5fd36807127fd5a886dcccc7d2ee6b953a9bda37dfd",
+      "core_requirements": [
+        {
+          "requirement": "3+ years of Product Management experience in Agile/Scrum environments",
+          "category": "seniority",
+          "evidence": "Experiência recente: PO (Mar/2026–Atual) em refatoração de image scanning para integração de IA; PM (Out/2025–Fev/2026) em programa de startups e gestão de times; TPM (Set/2024–Set/2025) em programa global de alta complexidade.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "At least 1 year of experience in a client-facing, consulting, or agency setting",
+          "category": "domain",
+          "evidence": "Experiência recente: PO (Mar/2026–Atual), PM (Out/2025–Fev/2026), TPM (Set/2024–Set/2025) em Instituto Atlântico, atuando em ambiente de consultoria/agência",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Proven ability to lead end-to-end product delivery from discovery through launch",
+          "category": "leadership",
+          "evidence": "Experiência recente: PO (Mar/2026–Atual) em refatoração de image scanning para integração de IA; PM (Out/2025–Fev/2026) em programa com startups e gestão de times; TPM (Set/2024–Set/2025) em programa global de alta complexidade",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Comfortable using AI tools in everyday workflows and collaborating with teams who use agentic development tools",
+          "category": "technical",
+          "evidence": "Diferencial em IA: uso prático com método — documentação como infraestrutura, governança humano-IA por papéis, avaliação por critérios/rúbricas e decomposição em pipelines especializados.",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Familiarity with modern digital products and platforms",
+          "category": "domain",
+          "evidence": "Experiência recente: PO (Jul/2022–Set/2024) em reorganização component→product, PoC GenAI que contribuiu para contrato e mapeamento de 9 use cases.",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "3+ years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": false
+      },
+      "file_date": "2026-04-20",
+      "source": "pipeline"
+    },
+    {
+      "score": 80,
+      "score_ceiling": 100,
+      "ceiling_reason": "Nenhuma penalty aplicável.",
+      "justification": "O candidato possui experiência relevante em gestão de programa e projetos, com atuação em papéis de PO, TPM e PM nos últimos ~3-4 anos. Sua experiência em liderança de iniciativas complexas, análise de dados e gestão de stakeholders é compatível com os requisitos da vaga. Além disso, o candidato demonstra expertise em metodologias ágeis e habilidades técnicas que podem ser aplicadas em um contexto de Customer Experience. Embora a experiência específica em CX não seja evidente, o perfil apresenta as competências necessárias para assumir essa função com sucesso.",
+      "main_gap": "Falta de experiência prática em iniciativas relacionadas à melhoria da jornada do cliente (onboarding, suporte, retenção, etc.), que é o domínio central da vaga.",
+      "company": "Sprinto",
+      "location": "",
+      "title": "Program Manager Customer Experience",
+      "url": "https://remotefirstjobs.com/companies/sprinto/jobs/program-manager-customer-experience-769964",
+      "id": "ced01259ff07992bf33c0b7a0fe2747678281855e6b373fca35f909ec0185857",
+      "core_requirements": [
+        {
+          "requirement": "2-5 years in Program Management, Customer Success Operations, Service Delivery, Implementations, Business Operations, or a similar cross-functional role in B2B SaaS",
+          "category": "seniority",
+          "evidence": "~3-4 years in PM/TPM roles at Instituto Atlântico since Jul/2022, including PO, TPM, and PM",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "Proven experience leading complex initiatives with multiple stakeholders, competing priorities, and measurable business outcomes",
+          "category": "leadership",
+          "evidence": "Led program with 4 startups and 2 internal teams at Instituto Atlântico, managed dependencies and coordinated cross-functional stakeholders",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Data fluency with Excel / Google Sheets and strong comfort with dashboards, KPI design, and operational analysis; SQL / BI skills are a plus",
+          "category": "technical",
+          "evidence": "Demonstrated experience with SQL, Python, Spark/Scala, ETL, and data analysis for decision-making",
+          "has_evidence": "full"
+        },
+        {
+          "requirement": "Experience improving customer lifecycle motions such as onboarding, adoption, support, renewals, handoffs, or enablement",
+          "category": "domain",
+          "evidence": "Experience as PO at Instituto Atlântico, including work on PoCs for customer-facing integrations and process improvements",
+          "has_evidence": "partial"
+        },
+        {
+          "requirement": "High ownership and change-management capability: can influence without formal authority and drive adoption across teams",
+          "category": "leadership",
+          "evidence": "Managed teams and drove process changes in different roles at Instituto Atlântico, including reducing review time by automating internal processes",
+          "has_evidence": "full"
+        }
+      ],
+      "seniority_comparison": {
+        "jd_asks": "2-5 years",
+        "candidate_has": "~3-4 years in PM/TPM tech roles",
+        "gap": false
+      },
+      "file_date": "2026-04-20",
+      "source": "pipeline"
+    },
     {
       "score": 60,
       "score_ceiling": 65,
@@ -1354,70 +1507,9 @@
       },
       "file_date": "2026-04-06",
       "source": "pipeline"
-    },
-    {
-      "score": 90,
-      "score_ceiling": 100,
-      "ceiling_reason": "Nenhuma penalty aplicável.",
-      "justification": "O candidato possui experiência direta no domínio central de produto e de gestão de entrega de soluções de software complexas em um contexto similar. Seu perfil apresenta evidências concretas de aproximadamente 3-4 anos de experiência em papéis de PM/TPM, incluindo coordenação de múltiplas equipes, liderança de processos, foco em usuários e impacto mensurável. O candidato atende plenamente aos requisitos fundamentais da vaga.",
-      "main_gap": "Nenhum gap crítico identificado. O candidato possui o perfil sênior adequado para a posição.",
-      "company": "Axon Spain",
-      "location": "",
-      "title": "Product Manager II Software",
-      "url": "https://remotefirstjobs.com/companies/axon/jobs/product-manager-ii-software-754326",
-      "id": "19986c9b7ef7a306f1b14fa6b9314bb5b56cc41959b28f9373d10de261cb42f7",
-      "core_requirements": [
-        {
-          "requirement": "3 - 5 years in software product management, with a proven track record of delivering complex, multi-team SaaS or enterprise software solutions.",
-          "category": "seniority",
-          "evidence": "~3-4 years in PM/TPM tech roles (PO Jul/2022–Sep/2024, TPM Sep/2024–Sep/2025, PM Oct/2025–Feb/2026, PO Mar/2026–current), including delivery of complex, multi-team software solutions (e.g. TPM in global program, PM in startup program)",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Ability to guide cross-functional teams through influence, not just authority.",
-          "category": "leadership",
-          "evidence": "Experience in leading teams (as TPM, PM, PO) and coordinating across multiple teams (e.g. ~25 engineers in global program as TPM)",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Deep commitment to solving user problems and delivering measurable impact.",
-          "category": "domain",
-          "evidence": "Demonstrated focus on user outcomes and data-driven decision making (e.g. as PO, contributing to product discovery, roadmap, and measuring impact)",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Excellent written and verbal communication skills, able to simplify complexity and inspire alignment.",
-          "category": "other",
-          "evidence": "Strong communication skills highlighted across various roles, including aligning stakeholders (e.g. as TPM in global program)",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Natural collaborator who thrives in cross-functional environments and engages proactively with stakeholders.",
-          "category": "leadership",
-          "evidence": "Experience in cross-functional collaboration and stakeholder management, as demonstrated in various PM/TPM/PO roles",
-          "has_evidence": "full"
-        }
-      ],
-      "seniority_comparison": {
-        "jd_asks": "3 - 5 years",
-        "candidate_has": "~3-4 years in PM/TPM tech roles",
-        "gap": false
-      },
-      "file_date": "2026-04-03",
-      "source": "pipeline"
     }
   ],
   "pipeline_runs": [
-    {
-      "date": "2026-04-03",
-      "filtered_at": "2026-04-03T09:44:47.969024+00:00",
-      "total_input": 25,
-      "total_passed": 16,
-      "discarded_title": 0,
-      "discarded_blocklist": 1,
-      "discarded_location": 8,
-      "discarded_quality": 0
-    },
     {
       "date": "2026-04-06",
       "filtered_at": "2026-04-06T10:01:20.307355+00:00",
@@ -1515,6 +1607,16 @@
       "total_passed": 11,
       "discarded_title": 4,
       "discarded_blocklist": 0,
+      "discarded_location": 3,
+      "discarded_quality": 0
+    },
+    {
+      "date": "2026-04-20",
+      "filtered_at": "2026-04-20T10:28:51.206858+00:00",
+      "total_input": 25,
+      "total_passed": 17,
+      "discarded_title": 4,
+      "discarded_blocklist": 1,
       "discarded_location": 3,
       "discarded_quality": 0
     }

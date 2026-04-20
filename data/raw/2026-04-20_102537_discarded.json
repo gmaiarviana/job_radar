@@ -1,0 +1,38 @@
+{
+  "date": "2026-04-20",
+  "discarded_at": "2026-04-20T10:28:51.047629+00:00",
+  "total": 2,
+  "by_reason": {
+    "jd_too_short": 2
+  },
+  "items": [
+    {
+      "id_hash": "82f45abef3eed726d310d9eb3b6a965afad6a81654232a80f3760dcc52cc98d2",
+      "id": "82f45abef3eed726d310d9eb3b6a965afad6a81654232a80f3760dcc52cc98d2",
+      "source": "openai_web_search",
+      "title": "Senior Product Manager - Delivery Management",
+      "company": "Dragos",
+      "location": "Remote Worldwide",
+      "salary": "$180,000 per year",
+      "jd_full": "The Senior Product Manager - Delivery Management role involves leading the product vision, strategy, and roadmap for Delivery Management capabilities focusing on OT/ICS environments. Responsibilities include customer engagement, product feature development, stakeholder collaboration, and go-to-market strategy. Requires 5+ years of product management experience in enterprise security or related domains, cloud, DevOps, hardware appliances, and excellent analytical and communication skills.",
+      "url": "https://www.mentorhoodlatam.com/en/oportunidades",
+      "collected_at": "2026-04-20T10:25:46.298933+00:00",
+      "date": "4 days ago",
+      "discard_reason": "jd_too_short"
+    },
+    {
+      "id_hash": "8f6f6b40103f5247f3a08fd2b1361607490a7eace1ef92c04566101359a51b5c",
+      "id": "8f6f6b40103f5247f3a08fd2b1361607490a7eace1ef92c04566101359a51b5c",
+      "source": "openai_web_search",
+      "title": "Product Manager Engagement",
+      "company": "Sparteo",
+      "location": "Remote Worldwide",
+      "salary": null,
+      "jd_full": "Sparteo is a European AI-powered advertising technology company seeking a Product Manager Engagement. The role involves defining and implementing optimization strategies for core product solutions, focusing on ad format optimization, A/B testing, native advertising, UX enhancement, and compliance.",
+      "url": "https://www.mentorhoodlatam.com/en/oportunidades",
+      "collected_at": "2026-04-20T10:25:46.298955+00:00",
+      "date": "4 days ago",
+      "discard_reason": "jd_too_short"
+    }
+  ]
+}
