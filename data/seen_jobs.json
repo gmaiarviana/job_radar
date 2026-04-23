@@ -6328,5 +6328,113 @@
     "source": "lever",
     "title": "Senior Product Manager - Finance Core",
     "company": "dLocal"
+  },
+  "c97d280892049a8c54e53dcb9e99fa54056b0f50691b317426d815812f9d535c": {
+    "first_seen": "2026-04-23",
+    "source": "openai_web_search",
+    "title": "Senior Product Manager - Search Quality and Query Interpretation",
+    "company": "Constructor"
+  },
+  "b367ae2e25f1a4870721bb9a48a81583a66d02e6cde1c4596c271b8af6eef8f6": {
+    "first_seen": "2026-04-23",
+    "source": "openai_web_search",
+    "title": "Product Manager, Tracking & Insights (Senior/Staff)",
+    "company": "Monarch Money"
+  },
+  "b1ca999857ffd830c0d8bd6bd1e16c54fe021b9f81d805b8eca4cbfb2989acd7": {
+    "first_seen": "2026-04-23",
+    "source": "remotive",
+    "title": "Content Reviewer - US",
+    "company": "TELUS Digital"
+  },
+  "7061312a215dc9b3f5235db2f1a5bf740a64dff71d057a118c5cdf1f0e1475c9": {
+    "first_seen": "2026-04-23",
+    "source": "remotive",
+    "title": "AI Engineer",
+    "company": "Dry Ground AI"
+  },
+  "c65538651c025a6d438f044e3a8f7f2c801874f9b9f0c016d2ed770f2fe5e783": {
+    "first_seen": "2026-04-23",
+    "source": "remotive",
+    "title": "Crypto Trader (Full Training Provided)",
+    "company": "Elemental Terra Capital Ltd"
+  },
+  "078f31a4b475749dfeaaa91f19c69694347c32f137f01d027a18aac850e22d89": {
+    "first_seen": "2026-04-23",
+    "source": "remoteok",
+    "title": "Principal Product Manager",
+    "company": "Oportun"
+  },
+  "911f11c89efb565d41f9eab5f31d1e3c2c119bc6eb71c36ab84ca9ea44807d1f": {
+    "first_seen": "2026-04-23",
+    "source": "remoteok",
+    "title": "Associate Product Manager",
+    "company": "Automox"
+  },
+  "3c2425daa7a09d7e2c304f24ea55031872d45b7355392b1628b261d41388662c": {
+    "first_seen": "2026-04-23",
+    "source": "himalayas",
+    "title": "Senior Technical Product Manager, Token Factory",
+    "company": "Nebius"
+  },
+  "34481f5ba4798bac6ed9cc756205b73c4080b52b7866cb8bfd714143330dc95a": {
+    "first_seen": "2026-04-23",
+    "source": "himalayas",
+    "title": "Project Manager",
+    "company": "Syke Legal Engineering"
+  },
+  "d548b0b64222a8a7e494e032beca7ef49118e6b639f601a485c1e0b486f413af": {
+    "first_seen": "2026-04-23",
+    "source": "himalayas",
+    "title": "Senior Technical Project Manager",
+    "company": "ICON"
+  },
+  "0f43de7703ba5eb648d7c6250767fcae9cd07cb67b855104069a8b5db1ebc94a": {
+    "first_seen": "2026-04-23",
+    "source": "himalayas",
+    "title": "Product Manager (AI Adoption)",
+    "company": "Multiverse"
+  },
+  "483021faedfc233d987746db53afb2519bb4d8b65b2cf1e1460df12d2b43b15e": {
+    "first_seen": "2026-04-23",
+    "source": "jobscollider",
+    "title": "People Operations Program Manager",
+    "company": "Waymo"
+  },
+  "3b655d76d384a6f1599546da40f75129670dd02de0ef600c836423b3ae6ef367": {
+    "first_seen": "2026-04-23",
+    "source": "jobscollider",
+    "title": "Project Manager",
+    "company": "OLIVER Agency"
+  },
+  "43e3a773b3ebefa19ec259586d21192006503548a8fdb56bb5f2f4f1e99b7289": {
+    "first_seen": "2026-04-23",
+    "source": "jobscollider",
+    "title": "Program Manager",
+    "company": "Foresight Diagnostics"
+  },
+  "bad37a63e8bfca9e02c90f60eb8c0946353df882f86686d66e2db52c354b153c": {
+    "first_seen": "2026-04-23",
+    "source": "jobscollider",
+    "title": "Integration Project Manager",
+    "company": "Upwork"
+  },
+  "33d81125305c66f82ec6f50fbd7d407abca8b313e59c856ebc1f86ff12460d8f": {
+    "first_seen": "2026-04-23",
+    "source": "jobscollider",
+    "title": "Technical Project Manager",
+    "company": "Foresight Diagnostics"
+  },
+  "fd4eca9697a81838d10594feb43b9a2db73b6dfd99b54ef9da2df522acdb62cd": {
+    "first_seen": "2026-04-23",
+    "source": "jobscollider",
+    "title": "Program Manager Data & AI",
+    "company": "Data Coach"
+  },
+  "1f171eb09a343bf669bc15572b18a5be5972251903f20f54154a17a8be287b09": {
+    "first_seen": "2026-04-23",
+    "source": "jobscollider",
+    "title": "Project Manager - EDI",
+    "company": "Sysco"
   }
 }
