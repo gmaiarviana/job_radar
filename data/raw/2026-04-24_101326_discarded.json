@@ -1,0 +1,24 @@
+{
+  "date": "2026-04-24",
+  "discarded_at": "2026-04-24T10:16:50.014311+00:00",
+  "total": 1,
+  "by_reason": {
+    "jd_too_short": 1
+  },
+  "items": [
+    {
+      "id_hash": "19b74b26068ab5d75413b5491c71b261695a3d3b7fc3a4dd49928d519e4c2d6d",
+      "id": "19b74b26068ab5d75413b5491c71b261695a3d3b7fc3a4dd49928d519e4c2d6d",
+      "source": "remoteok",
+      "title": "Product Manager ChartCheck",
+      "company": "Radformation",
+      "location": "",
+      "salary": "0",
+      "jd_full": "<br/><br/>Please mention the word **UPGRADEABLE** and tag RMTM2LjEwNy4xMzQuMTU3 when applying to show you read the job post completely (#RMTM2LjEwNy4xMzQuMTU3). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+      "url": "https://remoteOK.com/remote-jobs/remote-product-manager-chartcheck-radformation-1131246",
+      "collected_at": "2026-04-24T10:13:40.102023+00:00",
+      "date": "2026-04-21T16:00:22+00:00",
+      "discard_reason": "jd_too_short"
+    }
+  ]
+}

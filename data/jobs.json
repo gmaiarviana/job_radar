@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-23T10:14:53.911327+00:00",
-  "total": 22,
+  "generated_at": "2026-04-24T10:16:52.246647+00:00",
+  "total": 21,
   "jobs": [
     {
       "score": 95,
@@ -1054,70 +1054,9 @@
       },
       "file_date": "2026-04-10",
       "source": "pipeline"
-    },
-    {
-      "score": 90,
-      "score_ceiling": 100,
-      "ceiling_reason": "Nenhuma penalty aplicável.",
-      "justification": "O candidato Guilherme Maia possui experiência direta no domínio central desta vaga, com histórico de liderança em programas complexos de infraestrutura e entrega de projetos. Seus principais diferenciais incluem: ~3-4 anos de experiência em funções de gerenciamento de programa/projeto/entrega, comprovada capacidade de liderar equipes e stakeholders multifuncionais, habilidades analíticas e de comunicação robustas, e expertise em melhorias de processos e introdução de melhores práticas. O perfil do candidato se alinha de forma muito próxima aos requisitos centrais da vaga, com evidências claras em seu histórico.",
-      "main_gap": "Nenhum gap significativo identificado. O candidato possui o perfil ideal para a função de Engineering Program Manager, Infrastructure na Stripe.",
-      "company": "Stripe",
-      "location": "Remote in the US",
-      "title": "Engineering Program Manager, Infrastructure",
-      "url": "https://stripe.com/jobs/search?gh_jid=7747178",
-      "id": "69292067ff36cb31a664953799678fd9f9c415f0c281038db15fe3b23c4e430f",
-      "core_requirements": [
-        {
-          "requirement": "2+ years of software engineering, systems engineering and/or program management experience",
-          "category": "seniority",
-          "evidence": "~3-4 years in PM/TPM tech roles since Jul/2022",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Excellent analytical skills; you digest complex information, can distill it and make recommendations and proposals",
-          "category": "technical",
-          "evidence": "Experience in program/project/delivery management with evidence of leading complex efforts, delivering analysis and proposals",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Experience operating autonomously and rapidly and leading large-scale efforts across multiple teams and functions, with stakeholders in different disciplines across time zones",
-          "category": "leadership",
-          "evidence": "Managed distributed teams and large-scale programs (15+ teams, 200+ people) with demonstrated success in leading cross-functional efforts",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "You have very strong written and verbal communication skills, building strong relationships with stakeholders, teams and senior leaders around the organization",
-          "category": "leadership",
-          "evidence": "Experienced in stakeholder management, executive communication, and relationship building across the organization",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "You can drive internal and external process improvements across multiple teams and functions and bring a wealth of experience, opinions, proposals and best practices",
-          "category": "other",
-          "evidence": "Demonstrated experience in driving process improvements and introducing best practices across multiple teams and functions",
-          "has_evidence": "full"
-        }
-      ],
-      "seniority_comparison": {
-        "jd_asks": "2+ years",
-        "candidate_has": "~3-4 years in PM/TPM tech roles",
-        "gap": false
-      },
-      "file_date": "2026-04-09",
-      "source": "pipeline"
     }
   ],
   "pipeline_runs": [
-    {
-      "date": "2026-04-09",
-      "filtered_at": "2026-04-09T10:04:06.142084+00:00",
-      "total_input": 12,
-      "total_passed": 5,
-      "discarded_title": 3,
-      "discarded_blocklist": 1,
-      "discarded_location": 3,
-      "discarded_quality": 0
-    },
     {
       "date": "2026-04-10",
       "filtered_at": "2026-04-10T10:01:11.038552+00:00",
@@ -1206,6 +1145,16 @@
       "discarded_title": 2,
       "discarded_blocklist": 2,
       "discarded_location": 6,
+      "discarded_quality": 0
+    },
+    {
+      "date": "2026-04-24",
+      "filtered_at": "2026-04-24T10:16:50.176310+00:00",
+      "total_input": 24,
+      "total_passed": 18,
+      "discarded_title": 3,
+      "discarded_blocklist": 1,
+      "discarded_location": 2,
       "discarded_quality": 0
     }
   ]
