@@ -1,0 +1,38 @@
+{
+  "date": "2026-04-27",
+  "discarded_at": "2026-04-27T10:53:59.547058+00:00",
+  "total": 2,
+  "by_reason": {
+    "jd_too_short": 2
+  },
+  "items": [
+    {
+      "id_hash": "3e839799e4beecda3a8ac32a046f48f454214d946efd93fa3cdd4472fd50ab72",
+      "id": "3e839799e4beecda3a8ac32a046f48f454214d946efd93fa3cdd4472fd50ab72",
+      "source": "openai_web_search",
+      "title": "Senior Deal Operations Specialist (East and Central Coast Preferred)",
+      "company": "Docker",
+      "location": "Remote - Canada",
+      "salary": "122K - 152K USD/ano",
+      "jd_full": "Docker está buscando um Senior Deal Operations Specialist para liderar operações de negócios relacionadas a acordos. As responsabilidades incluem gerenciar processos de negociação, coordenar com equipes de vendas e jurídico, analisar dados de desempenho de acordos, e otimizar processos de negociação. Requer experiência significativa em operações de negócios, habilidades analíticas, e capacidade de trabalhar de forma colaborativa em equipes multifuncionais.",
+      "url": "https://jobmeerkat.com/",
+      "collected_at": "2026-04-27T10:51:13.460770+00:00",
+      "date": "há 2 dias",
+      "discard_reason": "jd_too_short"
+    },
+    {
+      "id_hash": "19b74b26068ab5d75413b5491c71b261695a3d3b7fc3a4dd49928d519e4c2d6d",
+      "id": "19b74b26068ab5d75413b5491c71b261695a3d3b7fc3a4dd49928d519e4c2d6d",
+      "source": "remoteok",
+      "title": "Product Manager ChartCheck",
+      "company": "Radformation",
+      "location": "",
+      "salary": "0",
+      "jd_full": "<br/><br/>Please mention the word **UPGRADEABLE** and tag RMTc0LjEyOS4xODUuMjE2 when applying to show you read the job post completely (#RMTc0LjEyOS4xODUuMjE2). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+      "url": "https://remoteOK.com/remote-jobs/remote-product-manager-chartcheck-radformation-1131246",
+      "collected_at": "2026-04-27T10:51:13.973885+00:00",
+      "date": "2026-04-21T16:00:22+00:00",
+      "discard_reason": "jd_too_short"
+    }
+  ]
+}

@@ -6580,5 +6580,113 @@
     "source": "greenhouse",
     "title": "Staff Technical Program Manager- Unity Catalog",
     "company": "Databricks"
+  },
+  "e531f647645bcab628b7b9f1fbf16589de37b698666d979901e0f36ffede5564": {
+    "first_seen": "2026-04-27",
+    "source": "openai_web_search",
+    "title": "Product Manager - Prospect Data Teams",
+    "company": "Constructor"
+  },
+  "5b9ae346944f56179b97af69e6a46aab46d7fb5fa496233f1aa5182f4ce90d15": {
+    "first_seen": "2026-04-27",
+    "source": "openai_web_search",
+    "title": "Senior Technical Product Manager",
+    "company": "Axiom"
+  },
+  "d4b49f702fbb4d2d7b5a982e8eab59ec8a0920c9860f2334bfefee5a2170b760": {
+    "first_seen": "2026-04-27",
+    "source": "openai_web_search",
+    "title": "Senior Program Manager, Information Security",
+    "company": "Airbnb"
+  },
+  "dffee9999fb3824172f8f9886cdd39463f7e28fc3943aec20a5ea7bc5f2bd70d": {
+    "first_seen": "2026-04-27",
+    "source": "remotive",
+    "title": "Head of Engineering",
+    "company": "Lemon.io"
+  },
+  "bb830db94434f2de4ea16b137ed4dd5a185795c5e7fd2efca872312e905069cc": {
+    "first_seen": "2026-04-27",
+    "source": "remotive",
+    "title": "Mid/Senior AI Video Artist",
+    "company": "EverAI"
+  },
+  "c06860f15b570d81894299265f2e215cc5d18430974c65f427973fa32a2fc4d1": {
+    "first_seen": "2026-04-27",
+    "source": "remoteok",
+    "title": "Strategy & Operations",
+    "company": "TLDR"
+  },
+  "a0cd22d12b5a1517e06c97df30f311f23314bd0830bc77de6cd21476e476914b": {
+    "first_seen": "2026-04-27",
+    "source": "himalayas",
+    "title": "Delivery Manager",
+    "company": "Moro Tech"
+  },
+  "8092c47679301c08089db7c6d9bd17c7bdfafc9c591a2a119d6e35ed5e32c584": {
+    "first_seen": "2026-04-27",
+    "source": "jobscollider",
+    "title": "Project Manager",
+    "company": "MyHeritage"
+  },
+  "d760ea24360701ba58cb81f0daee1f9f598548ab8e2cf68a838b206d01b559d8": {
+    "first_seen": "2026-04-27",
+    "source": "jobscollider",
+    "title": "Product Manager",
+    "company": "Blue State"
+  },
+  "b0935dd9fab90321a485acf9240419683cbbee1a65b256765ec7fa8fc50ab477": {
+    "first_seen": "2026-04-27",
+    "source": "jobscollider",
+    "title": "Staff Product Manager Value Realization",
+    "company": "SentinelOne"
+  },
+  "86a64ce95657bf41f2fb0897e1f3b54f00067ab87fea1564232b4c1497c0e222": {
+    "first_seen": "2026-04-27",
+    "source": "jobscollider",
+    "title": "Senior Digital Product Manager",
+    "company": "SquareTrade"
+  },
+  "0d36e54edd08f23dffe8ea52015aeade8e341c18a1098c71bc31b6ad169e4e75": {
+    "first_seen": "2026-04-27",
+    "source": "jobscollider",
+    "title": "Senior Product Manager Project Management",
+    "company": "BuildOps"
+  },
+  "c8240d5e24a4e76117dc01c1c633a881aed3e6f408ba4d122da85a7ec85c10f2": {
+    "first_seen": "2026-04-27",
+    "source": "jobscollider",
+    "title": "Technical Product Manager, Developer Platform",
+    "company": "dv01"
+  },
+  "d434abfe59b1411c15131b5e0c67e2bcbc295afe057a6126e869f9b1551511bc": {
+    "first_seen": "2026-04-27",
+    "source": "jobscollider",
+    "title": "Service Delivery Manager",
+    "company": "Avertium"
+  },
+  "5af721ea4c8e86e9f69bc445cc614051b6eee3362c42019cb1670fd84ddf8670": {
+    "first_seen": "2026-04-27",
+    "source": "greenhouse",
+    "title": "Staff Program Manager, Enterprise Technology & AI",
+    "company": "GitLab"
+  },
+  "6f20f2b12f5b36dfeb692553f02f6a17bd047d93b55fbd508164b51762ed1d47": {
+    "first_seen": "2026-04-27",
+    "source": "greenhouse",
+    "title": "Pricing Product Manager",
+    "company": "Vercel"
+  },
+  "c4284ccf1bd5006c02d64d7e9d34c9147f5dd508eea5f7766ec66cd859ec2a76": {
+    "first_seen": "2026-04-27",
+    "source": "greenhouse",
+    "title": "Product Manager, Public Sector GenAI Test & Evaluation (T&E)",
+    "company": "Scale AI"
+  },
+  "b47958cca0a05182215706d5eb560f654a76cc7af4c9e7d3fa3dc7a749aabb3e": {
+    "first_seen": "2026-04-27",
+    "source": "greenhouse",
+    "title": "Technical Program Manager - Autonomy Data & Map Operations",
+    "company": "Zipline"
   }
 }

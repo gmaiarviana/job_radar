@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-24T10:16:52.246647+00:00",
-  "total": 21,
+  "generated_at": "2026-04-27T10:54:01.713157+00:00",
+  "total": 20,
   "jobs": [
     {
       "score": 95,
@@ -1003,70 +1003,9 @@
       },
       "file_date": "2026-04-13",
       "source": "pipeline"
-    },
-    {
-      "score": 90,
-      "score_ceiling": 100,
-      "ceiling_reason": "Nenhuma penalty aplicável.",
-      "justification": "O candidato possui experiência direta e relevante no domínio central desta vaga de Program Manager na GitLab. Sua atuação prévia como TPM e PM em programas globais complexos, envolvendo gestão de equipes, stakeholders e metodologias ágeis/de projeto, evidencia uma forte aderência aos requisitos-chave do cargo. Além disso, suas habilidades em liderança, gestão de relacionamento com clientes e definição de estratégia de programa também se alinham bem ao escopo esperado. Portanto, o candidato se apresenta como um ótimo fit para esta oportunidade.",
-      "main_gap": "Não há gaps críticos identificados no perfil do candidato em relação aos requisitos da vaga.",
-      "company": "GitLab",
-      "location": "Remote, United Arab Emirates",
-      "title": "Program Manager - Dubai",
-      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8481645002",
-      "id": "1b1fb7304f9899e456ff1c0c53929169479d2a07ecd68b1f645b4f1f2e52fcb0",
-      "core_requirements": [
-        {
-          "requirement": "Lead delivery of multi-workstream professional services engagements with some of the largest and most strategic customers.",
-          "category": "leadership",
-          "evidence": "Experience as Program/Project Manager with global programs and complex customer engagements (TPM and PM at Instituto Atlântico)",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Build strong relationships with key customer stakeholders including executive leaders, counterpart program/project managers, engineering, development, and security and teams.",
-          "category": "leadership",
-          "evidence": "Experience in leading cross-functional teams and aligning stakeholders (TPM and PM at Instituto Atlântico)",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Develop a delivery methodology that leverages agile and project management best practices. Communicate how this methodology will be used to key customer stakeholders. Lead the execution of the methodology by bringing together customer and GitLab team members.",
-          "category": "technical",
-          "evidence": "Experience in leading agile/project management practices and aligning teams (TPM and PM at Instituto Atlântico)",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "Define program strategy to include program justification, program benefits, in/out of scope projects, timeline and schedule, resources, and identify stakeholders.",
-          "category": "domain",
-          "evidence": "Experience in defining program strategy and managing complex customer engagements (TPM and PM at Instituto Atlântico)",
-          "has_evidence": "full"
-        },
-        {
-          "requirement": "GitLab Project Management Certified within 2 months of the role.",
-          "category": "technical",
-          "evidence": "",
-          "has_evidence": "false"
-        }
-      ],
-      "seniority_comparison": {
-        "jd_asks": "Not specified",
-        "candidate_has": "~3-4 years as PM/TPM in technology",
-        "gap": false
-      },
-      "file_date": "2026-04-10",
-      "source": "pipeline"
     }
   ],
   "pipeline_runs": [
-    {
-      "date": "2026-04-10",
-      "filtered_at": "2026-04-10T10:01:11.038552+00:00",
-      "total_input": 16,
-      "total_passed": 6,
-      "discarded_title": 2,
-      "discarded_blocklist": 2,
-      "discarded_location": 6,
-      "discarded_quality": 0
-    },
     {
       "date": "2026-04-13",
       "filtered_at": "2026-04-13T10:27:20.751887+00:00",
@@ -1155,6 +1094,16 @@
       "discarded_title": 3,
       "discarded_blocklist": 1,
       "discarded_location": 2,
+      "discarded_quality": 0
+    },
+    {
+      "date": "2026-04-27",
+      "filtered_at": "2026-04-27T10:53:59.720486+00:00",
+      "total_input": 18,
+      "total_passed": 11,
+      "discarded_title": 3,
+      "discarded_blocklist": 0,
+      "discarded_location": 4,
       "discarded_quality": 0
     }
   ]
