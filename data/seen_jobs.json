@@ -6784,5 +6784,95 @@
     "source": "greenhouse",
     "title": "Associate Engineer Program Manager",
     "company": "Cloudflare"
+  },
+  "7af72fd5669f9b60be0f7e742ea10a2daabc34e12929f59ca00c6150dfd2a738": {
+    "first_seen": "2026-04-29",
+    "source": "openai_web_search",
+    "title": "Sr. Technical Program Manager, Special Projects",
+    "company": "Amazon.com Services LLC"
+  },
+  "d8fe1b1b0dcb29278bb1c86099462339cd3e9aca1a75119146ca792fadb38ab1": {
+    "first_seen": "2026-04-29",
+    "source": "openai_web_search",
+    "title": "Sr. Technical Program Manager, Sponsored Products - Off-Search",
+    "company": "Amazon.com Services LLC"
+  },
+  "bbcdf0227f7d83e1ddc19c8412cffcda6f453d875faefa35fa3fbfb5480c536b": {
+    "first_seen": "2026-04-29",
+    "source": "openai_web_search",
+    "title": "Sr Technical Product Marketing Manager, AI/ML Product Marketing",
+    "company": "Amazon.com Services LLC"
+  },
+  "f97c0e0702f83a7d806c92f202fd627aab17ca50f29a6933a7c3ac5bd039f3c3": {
+    "first_seen": "2026-04-29",
+    "source": "jobicy",
+    "title": "Technical Program Manager, Security",
+    "company": "Figma"
+  },
+  "7509c1d4d52cc9bd4fe03eaff0841e382fc7949f536dfb1ce1eece39a28563a0": {
+    "first_seen": "2026-04-29",
+    "source": "himalayas",
+    "title": "Senior Product Manager, Servicing",
+    "company": "Nesto Cloud"
+  },
+  "0d20fc248e357e617322c89bb33edefb6cefe95e8a5b9ad763a91b055cb1c938": {
+    "first_seen": "2026-04-29",
+    "source": "himalayas",
+    "title": "Artificial Intelligence (AI) Project Manager - Colombia or Kenya",
+    "company": "Mercy Corps"
+  },
+  "720c0f04b2657a7795447b5e10e8b407394917e099abdda98fd496362a3bcb9e": {
+    "first_seen": "2026-04-29",
+    "source": "himalayas",
+    "title": "Technical Program Manager, Data Analytics, Measured Work",
+    "company": "wewe"
+  },
+  "26d21c8d0dac339545f08a9a01f676832eb9f7f37fdf934a6d366daa2d706ae0": {
+    "first_seen": "2026-04-29",
+    "source": "jobscollider",
+    "title": "Product Analyst",
+    "company": "Fundraise Up"
+  },
+  "60c0ce2cd6bb6cfd7864fe666ace6ec6b547c19623687bbbcb5e2683346e4357": {
+    "first_seen": "2026-04-29",
+    "source": "jobscollider",
+    "title": "Senior Project Manager ERP",
+    "company": "Datacom"
+  },
+  "dea191b28e176bd49e7c57e2f26ec382763949bc6c47b38e5ab901256dbaa00b": {
+    "first_seen": "2026-04-29",
+    "source": "jobscollider",
+    "title": "Product Manager",
+    "company": "DECA Games"
+  },
+  "e663f2c029462673c6e49e61f87f6a244a073e15b682bf4e9d6f71f52f09e12d": {
+    "first_seen": "2026-04-29",
+    "source": "jobscollider",
+    "title": "Accelerator Program Product Manager (Search/Trading Insights)",
+    "company": "Binance"
+  },
+  "8d3b53d1e155d07e34b1b433205933507720f3d88183417dcbb5f18e92896ca8": {
+    "first_seen": "2026-04-29",
+    "source": "jobscollider",
+    "title": "Principal Project Manager",
+    "company": "Assystem"
+  },
+  "7b8b7b690e1a7a6dfce0184aef4478b292e959ce72b0c042545c97bf5abdf11b": {
+    "first_seen": "2026-04-29",
+    "source": "jobscollider",
+    "title": "Senior Product Manager",
+    "company": "Orchard"
+  },
+  "379979735519edd1940791a08b523264215e9f266eaf6ffbcfe1adf68cfacac8": {
+    "first_seen": "2026-04-29",
+    "source": "greenhouse",
+    "title": "Senior Director, Technical Program Management",
+    "company": "GitLab"
+  },
+  "37f55274824baa1a9f89693bb67acd5196524783d2498994e2d9d25581fe0348": {
+    "first_seen": "2026-04-29",
+    "source": "greenhouse",
+    "title": "Senior Product Manager, Core Data",
+    "company": "Klaviyo"
   }
 }
