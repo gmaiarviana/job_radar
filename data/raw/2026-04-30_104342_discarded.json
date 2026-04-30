@@ -1,0 +1,24 @@
+{
+  "date": "2026-04-30",
+  "discarded_at": "2026-04-30T10:46:47.119902+00:00",
+  "total": 1,
+  "by_reason": {
+    "jd_too_short": 1
+  },
+  "items": [
+    {
+      "id_hash": "e84fb9628aa29ea59055f75a82f1423154ea7d0927983a165e0b72c42cb70f58",
+      "id": "e84fb9628aa29ea59055f75a82f1423154ea7d0927983a165e0b72c42cb70f58",
+      "source": "himalayas",
+      "title": "Freelance Clinical Project Manager - Mandarin and Early Phase Oncology Required",
+      "company": "ERGOMED",
+      "location": "France",
+      "salary": null,
+      "jd_full": "<p>Ergomed is looking for a freelance clinical project manager who is fluent in Mandarin and has early phase oncology experience to support bid defense activities initially on a 30 hours per month contract.</p><h3>Requirements</h3><ul><li>Fluency in Mandarin and English</li><li>Strong analytical, organizational and communication skills</li><li>Bachelors’ Degree in a science related discipline</li></ul><p>Originally posted on <a href=\"https://himalayas.app\">Himalayas</a></p>",
+      "url": "https://himalayas.app/companies/ergomedcro/jobs/freelance-clinical-project-manager-mandarin-and-early-phase-oncology-required",
+      "collected_at": "2026-04-30T10:43:59.052513+00:00",
+      "date": "1777543089",
+      "discard_reason": "jd_too_short"
+    }
+  ]
+}
