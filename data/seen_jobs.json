@@ -7054,5 +7054,71 @@
     "source": "lever",
     "title": "Senior Product Manager - Pix Squad",
     "company": "dLocal"
+  },
+  "b2dec0ef83ee524518aedd971274232a5c13f649492d1b84dc29d0acf077094f": {
+    "first_seen": "2026-05-01",
+    "source": "jobscollider",
+    "title": "Senior Product Manager",
+    "company": "Azul"
+  },
+  "e6a040e39a0b48194f48c6a5fc97b2be28092030dee4558cc3f922ea725eb6c3": {
+    "first_seen": "2026-05-01",
+    "source": "jobscollider",
+    "title": "Senior Product Manager",
+    "company": "MongoDB"
+  },
+  "e27ca999f61e7410fab41115f7f376eaf639fa311a50526d1ddbc690b376caf2": {
+    "first_seen": "2026-05-01",
+    "source": "jobscollider",
+    "title": "Project Manager MICE",
+    "company": "Kuoni Tumlare"
+  },
+  "aae1e1d1b4c85d0c9df4ab2536e26b29096aa79a538122c68f6ade144684bc4b": {
+    "first_seen": "2026-05-01",
+    "source": "jobscollider",
+    "title": "Senior Product Manager I",
+    "company": "Axon Spain"
+  },
+  "e9413b372082807eaa7899816ed5eb8eaaa917345c12cdb1d32768ce1c779925": {
+    "first_seen": "2026-05-01",
+    "source": "jobscollider",
+    "title": "Project Manager",
+    "company": "Oxfam America"
+  },
+  "df6a8f38f5d31feb77568daa6603e3bcda4f6b185f17b713ca4deff94aea8d26": {
+    "first_seen": "2026-05-01",
+    "source": "jobscollider",
+    "title": "SRE Technical Project Manager",
+    "company": "HHAeXchange"
+  },
+  "0116ff7323fbba080cf70820d13152fbddb0ab8bc963d10bdcdd3f0379a9ed30": {
+    "first_seen": "2026-05-01",
+    "source": "jobscollider",
+    "title": "Supply Chain Master Data Project Manager",
+    "company": "Veolia"
+  },
+  "30dbf4b8e59d4fda5bca13ec0c286bf6f6c9663094f70f0a99d64b43144bfbc3": {
+    "first_seen": "2026-05-01",
+    "source": "jobscollider",
+    "title": "Senior Inbound Product Manager",
+    "company": "ServiceNow"
+  },
+  "7cd0c955bf4e18d87dc3c1e2d1585619f2cc28b4bcaf761e9e00d6ba8e6406e2": {
+    "first_seen": "2026-05-01",
+    "source": "greenhouse",
+    "title": "Design Program Manager, AI",
+    "company": "Stripe"
+  },
+  "336a5b422571e4b8f782c166445a62b9dbca44bc3f8d179f25bafac68de897db": {
+    "first_seen": "2026-05-01",
+    "source": "greenhouse",
+    "title": "Program Manager, Intake & Portfolio Management",
+    "company": "Stripe"
+  },
+  "5aee65689c3faceb8cec131dc7a25c962992d9fc210e9817502228c28c06ece3": {
+    "first_seen": "2026-05-01",
+    "source": "greenhouse",
+    "title": "Senior Enablement Program Manager — Customer Success",
+    "company": "Amplitude"
   }
 }
