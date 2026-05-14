@@ -7900,5 +7900,125 @@
     "source": "greenhouse",
     "title": "Product Manager, Tanager",
     "company": "Planet Labs"
+  },
+  "e13a1c606eedc4672c549c48106fafef41ce359146f6a423e647e2d4b7745c23": {
+    "first_seen": "2026-05-14",
+    "source": "remotive",
+    "title": "Office Assistant",
+    "company": "Coalition Technologies"
+  },
+  "e645f3b700b952957fda384f45d2075458e811cf1e5f7f9b57f49cd3f7b7c7b2": {
+    "first_seen": "2026-05-14",
+    "source": "jobicy",
+    "title": "Director of Vendor Management Operations",
+    "company": "Claritev"
+  },
+  "cc14f36a15b6d6abd9e31a3d66b64648ba1e7113b713efa3db6f892248a01e3a": {
+    "first_seen": "2026-05-14",
+    "source": "jobicy",
+    "title": "Senior Digital Assortment Manager",
+    "company": "Rithum"
+  },
+  "ae973f457d8826d2666c3c8afa503107a0684cfecd6e97b9e8c5ddde8df65637": {
+    "first_seen": "2026-05-14",
+    "source": "jobicy",
+    "title": "Sr. Staff Product Manager – Trade, Payward Services",
+    "company": "Kraken"
+  },
+  "51ff3079bcad08c0508be421e93e5b4e342bfa29341b6ee24b6e4ed07cad6ae5": {
+    "first_seen": "2026-05-14",
+    "source": "himalayas",
+    "title": "Senior Technical Program Manager",
+    "company": "Cotiviti"
+  },
+  "aeafec10b0faefd4e12a84c6a29db69d1090753b0117cd52abdbe0ad5ed4d221": {
+    "first_seen": "2026-05-14",
+    "source": "himalayas",
+    "title": "Lead Product Manager",
+    "company": "PT. PERTAMINA Persero"
+  },
+  "bf2ca214a1886df6e12b59e7e174d91e2f7e47429e51526abb94d116267ef2fe": {
+    "first_seen": "2026-05-14",
+    "source": "jobscollider",
+    "title": "Technical Product Manager",
+    "company": "Tether.io"
+  },
+  "0956c3fa8622ee249bcc4a0c3905ada30bdbdeed56636b80c3fab8c81da27a3b": {
+    "first_seen": "2026-05-14",
+    "source": "jobscollider",
+    "title": "Technical Project Manager",
+    "company": "Tether.io"
+  },
+  "193c25f501f8c4d88e853466b45ceff0ada282310ff1d4f76f76c222b8b310e5": {
+    "first_seen": "2026-05-14",
+    "source": "jobscollider",
+    "title": "Prospecting Product Manager",
+    "company": "Experian"
+  },
+  "762f6c78eff0b148d798412901f0da670245e10306962b04a4625e7a002b40ff": {
+    "first_seen": "2026-05-14",
+    "source": "jobscollider",
+    "title": "Lead Product Manager Enterprise API",
+    "company": "Red Ventures"
+  },
+  "038223b7565eacb46fa1da89d64f588037ee2b7cccd04ee59bc74a271572690a": {
+    "first_seen": "2026-05-14",
+    "source": "jobscollider",
+    "title": "Staff Product Manager",
+    "company": "Lyft"
+  },
+  "7a5b8720f7d7c59f315bc48e3022287fc1a533db9f6dbb75b9010728ccf1ef48": {
+    "first_seen": "2026-05-14",
+    "source": "jobscollider",
+    "title": "Lead Product Manager Platform Product Onboarding",
+    "company": "Experian"
+  },
+  "7fb1348762c6940c1ed675a37a41996e486106ec235bac3595cecccd68e88dd4": {
+    "first_seen": "2026-05-14",
+    "source": "jobscollider",
+    "title": "Product Manager",
+    "company": "OSCAR ASSOCIATES (AMERICAS), LLC"
+  },
+  "cce7d0efa4fcd5caa2963e910b5482ffdd7ecd353ff1634e60b7a0f683cf58b2": {
+    "first_seen": "2026-05-14",
+    "source": "jobscollider",
+    "title": "Marketing Project Manager",
+    "company": "Blend"
+  },
+  "9ef63d40f3ff534cdaa6741a9e8cbf4e832f95e310b320abe25d8a7dde9b983f": {
+    "first_seen": "2026-05-14",
+    "source": "jobscollider",
+    "title": "IT Project Manager",
+    "company": "NETZSCH Group"
+  },
+  "0289b93aa66e4f0d26d351bafee25db64d894ad8ffb311a0f6191ef5abf1c164": {
+    "first_seen": "2026-05-14",
+    "source": "jobscollider",
+    "title": "Technical Program Manager",
+    "company": "Doximity"
+  },
+  "cf7fe1bd8585436c249cd683dee7a95170894bccb36798affdebb9d4dfcc2bca": {
+    "first_seen": "2026-05-14",
+    "source": "jobscollider",
+    "title": "Junior Project Manager",
+    "company": "Destination Sport Group"
+  },
+  "9ddc6f078876b295a1ed0ae2154ea672e3f97e713c3c9023d8874739695f7eb9": {
+    "first_seen": "2026-05-14",
+    "source": "jobscollider",
+    "title": "Staff Product Manager Enterprise AI",
+    "company": "Twilio"
+  },
+  "3a5a66ef280cfc91d69607aada5feb42f096f6c82970eef22de32b19d64b97e4": {
+    "first_seen": "2026-05-14",
+    "source": "jobscollider",
+    "title": "Technical Program Manager",
+    "company": "Experian"
+  },
+  "066ae8665413092a3f20f35bb9c00679793ce41280080bcbf18a7699d7744a63": {
+    "first_seen": "2026-05-14",
+    "source": "greenhouse",
+    "title": "Staff Technical Program Manager- Platform Features",
+    "company": "Databricks"
   }
 }
