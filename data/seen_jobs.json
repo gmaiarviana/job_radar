@@ -8812,5 +8812,137 @@
     "source": "greenhouse",
     "title": "Staff Product Manager, Local Processor Acquiring",
     "company": "Stripe"
+  },
+  "71fe2ed38e80beb014dc812bbd2a37038188f812fc26ff7d1c9da3d98c025f7d": {
+    "first_seen": "2026-05-25",
+    "source": "remotive",
+    "title": "Staff Product Engineer",
+    "company": "LawnStarter"
+  },
+  "96412999f3b76d8dd38a541346193542b1aab5ff7414f657542fea75fab7e76f": {
+    "first_seen": "2026-05-25",
+    "source": "jobicy",
+    "title": "Senior Product Manager, Payments",
+    "company": "Monzo"
+  },
+  "66ba5b159a010417d4d56da790e9b7a7aa660ed027a157b25c4b84cbeac90fc9": {
+    "first_seen": "2026-05-25",
+    "source": "jobicy",
+    "title": "Product Operations Director",
+    "company": "Zone &#038; Co"
+  },
+  "d34a8a88d25bd8842ee58f8f2e9c3fb3b262b3439270945d92b6f57ee112c058": {
+    "first_seen": "2026-05-25",
+    "source": "jobicy",
+    "title": "Principal Product Manager, AI Native (Engagement)",
+    "company": "Life360"
+  },
+  "ad3ff3c72655d34056d07310ca208f93f93e8b8d3399bef069113b2084328477": {
+    "first_seen": "2026-05-25",
+    "source": "jobicy",
+    "title": "Customer Project Manager, Imaging Systems / Construction – Arizona",
+    "company": "Philips"
+  },
+  "e9597509a9841e9f86c3c2975c0e791a433433f1e72a9fd237d15919e7bb5e91": {
+    "first_seen": "2026-05-25",
+    "source": "himalayas",
+    "title": "Business Product Manager",
+    "company": "Assurant"
+  },
+  "56400cc21fe536dc055a731ee74698bf16d92ec221506f6b1e4308e2d428e9f1": {
+    "first_seen": "2026-05-25",
+    "source": "himalayas",
+    "title": "Program Manager",
+    "company": "Cencora"
+  },
+  "e51f2bfc296ef82620d7035ebc92050331eb6a9e933d994a3124d9d2a17aa487": {
+    "first_seen": "2026-05-25",
+    "source": "himalayas",
+    "title": "Principal Technical Product Owner - DoiT Partner Platform",
+    "company": "DoiT International"
+  },
+  "f2b74f25d0e2915d3c5de1c07f38b9eb64dfd5f34a565467baec829fe7b67d87": {
+    "first_seen": "2026-05-25",
+    "source": "himalayas",
+    "title": "National Account Project Manager",
+    "company": "Allegion"
+  },
+  "6aff29b1e2d6db6349f095b424d6d0542081ff55c4d43536bd490e0d0b47d865": {
+    "first_seen": "2026-05-25",
+    "source": "himalayas",
+    "title": "Senior Technical Product Manager, Core Engine",
+    "company": "Unity"
+  },
+  "afd9c3de91dc5ac463c1f158c45fdbee34d5b5ffc1586dd300b9ba4cb9284b85": {
+    "first_seen": "2026-05-25",
+    "source": "jobscollider",
+    "title": "Associate Customer Program Manager",
+    "company": "Fictiv"
+  },
+  "50a2d955100dc1fd914adcbd0b0c7a2a1baf4ade3d6c21864163a0ea4c36f808": {
+    "first_seen": "2026-05-25",
+    "source": "jobscollider",
+    "title": "Technical Product Marketing Manager",
+    "company": "Bloomreach"
+  },
+  "12d2d1ccc74e322e74f964cf44f5739ae603a2de926706e00965ad0909eb83b3": {
+    "first_seen": "2026-05-25",
+    "source": "jobscollider",
+    "title": "Client Services Project Manager CX",
+    "company": "NiCE"
+  },
+  "fe7e64185e7565fe06db8f3a7a03fb6593118df2891df25742a3e9c5d1f009e7": {
+    "first_seen": "2026-05-25",
+    "source": "jobscollider",
+    "title": "AI Product Manager",
+    "company": "Alasco"
+  },
+  "bf6d4ebcd50a7458dcf131e92a3146193b8a29915d90ae9e271a18612b7935a4": {
+    "first_seen": "2026-05-25",
+    "source": "jobscollider",
+    "title": "Technical Project Manager",
+    "company": "Mind Foundry"
+  },
+  "59c220489a3ce4f21f96e4aa8903c0c71efa2300a72060a3f321426ea3da7b1e": {
+    "first_seen": "2026-05-25",
+    "source": "jobscollider",
+    "title": "Technical Product Manager",
+    "company": "Insurify"
+  },
+  "5b1ab2b783d6eccb664720d952366e25afe34a58f3aa00a4e60a635e2ed1709b": {
+    "first_seen": "2026-05-25",
+    "source": "jobscollider",
+    "title": "Senior Program Manager Multi-State Field Program",
+    "company": "Movement Labs"
+  },
+  "77c23279ddc28d2c1162e9737be6f8f9b7c93e591fed14970050a28361e2f903": {
+    "first_seen": "2026-05-25",
+    "source": "jobscollider",
+    "title": "Assistant Project Manager",
+    "company": "Brightcore Energy"
+  },
+  "53c11dc1404a18707b8e7355f65434503b2909247d52d8065d2fe01815993178": {
+    "first_seen": "2026-05-25",
+    "source": "greenhouse",
+    "title": "Program Manager, Engineering",
+    "company": "Stripe"
+  },
+  "bb6f6ca1a2469264db22f5123ad6e3b8c868a8283c87db33d43efc38379519cc": {
+    "first_seen": "2026-05-25",
+    "source": "greenhouse",
+    "title": "Support Process Program Manager",
+    "company": "Stripe"
+  },
+  "fc76ec79c73ef5257bd6f868e99b5a87dee9ff6fb580c288cf18a088aba8d2b9": {
+    "first_seen": "2026-05-25",
+    "source": "greenhouse",
+    "title": "Senior Product Manager, Monetization Platform",
+    "company": "Fivetran"
+  },
+  "80e1daa925724d77aa163cde2c40715a229a01de49184e5af0a34e23f16381ab": {
+    "first_seen": "2026-05-25",
+    "source": "greenhouse",
+    "title": "Technical Program Manager, Gen AI Operations Planning",
+    "company": "Scale AI"
   }
 }
