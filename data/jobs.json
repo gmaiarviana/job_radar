@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-09T11:53:25.283472+00:00",
+  "generated_at": "2026-06-10T12:13:27.038199+00:00",
   "total": 0,
   "jobs": [],
   "pipeline_runs": [
@@ -101,6 +101,16 @@
       "discarded_title": 1,
       "discarded_blocklist": 1,
       "discarded_location": 2,
+      "discarded_quality": 0
+    },
+    {
+      "date": "2026-06-10",
+      "filtered_at": "2026-06-10T12:13:24.612256+00:00",
+      "total_input": 19,
+      "total_passed": 11,
+      "discarded_title": 5,
+      "discarded_blocklist": 0,
+      "discarded_location": 3,
       "discarded_quality": 0
     }
   ]
