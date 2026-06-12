@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-12",
+  "discarded_at": "2026-06-12T12:11:40.097344+00:00",
+  "total": 1,
+  "by_reason": {
+    "jd_too_short": 1
+  },
+  "items": [
+    {
+      "id_hash": "165a54292e6200850a13fce2299521cef0ae73fbe43700ec928c411b5f1b126b",
+      "id": "165a54292e6200850a13fce2299521cef0ae73fbe43700ec928c411b5f1b126b",
+      "source": "remoteok",
+      "title": "Learning Project Manager",
+      "company": "Learnlight",
+      "location": "",
+      "salary": "0",
+      "jd_full": "Join Our MissionLearnlight is an EdTech company that believes in putting people first. We takeâ¦<br/><br/>Please mention the word **REVIVE** and tag RMjAuMTE5Ljg3LjEwMg== when applying to show you read the job post completely (#RMjAuMTE5Ljg3LjEwMg==). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+      "url": "https://remoteOK.com/remote-jobs/remote-learning-project-manager-learnlight-1133233",
+      "collected_at": "2026-06-12T12:09:19.950743+00:00",
+      "date": "2026-06-11T06:10:57+00:00",
+      "discard_reason": "jd_too_short"
+    }
+  ]
+}
