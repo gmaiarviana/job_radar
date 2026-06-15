@@ -10600,5 +10600,197 @@
     "source": "greenhouse",
     "title": "Technical Program Manager, Engineering",
     "company": "Scale AI"
+  },
+  "7861eda3c3fbc8b99208408032987dbd86216c94179a3e12f1ae7def4c953e04": {
+    "first_seen": "2026-06-15",
+    "source": "remotive",
+    "title": "Assistant Account Payable",
+    "company": "The Obesity Society"
+  },
+  "531fec13077b5f4c130b55988cf9ddcde52175bbaa6d648c59aff2ec6be1b5dc": {
+    "first_seen": "2026-06-15",
+    "source": "remotive",
+    "title": "Quality Assurance Rater - German (Germany)",
+    "company": "TELUS Digital"
+  },
+  "4c66b896be3e775d8cda32eaa9505e159bf9c7959f431b708d4f629c7ad45c94": {
+    "first_seen": "2026-06-15",
+    "source": "remotive",
+    "title": "Senior Data Scientist",
+    "company": "Lemon.io"
+  },
+  "4a40dc24822bbb66fbea1da4ece1b92f34df6851ffab027bb4a2dcaf3bf88727": {
+    "first_seen": "2026-06-15",
+    "source": "jobicy",
+    "title": "Technical Product Manager",
+    "company": "Autodesk"
+  },
+  "5a41a54dad56d9e321035455a161b1a63a4957a3ccb115036e7c6229cb2badf2": {
+    "first_seen": "2026-06-15",
+    "source": "jobicy",
+    "title": "Product Manager",
+    "company": "Remote"
+  },
+  "c3312b0056e9017f627fb062c64bdd0682f5da3c7a3c31ddb89654f66e0318ee": {
+    "first_seen": "2026-06-15",
+    "source": "jobicy",
+    "title": "Data Product Manager",
+    "company": "YipitData"
+  },
+  "b37c3bf46c2d8cd315039c770344d49fbc6d182b93bd1a6369b6a86d7b589069": {
+    "first_seen": "2026-06-15",
+    "source": "jobicy",
+    "title": "Senior Product Manager, Shopping Experiences",
+    "company": "Affirm"
+  },
+  "1693dd19a7120ddaf6ddfa76b8133b3dc76dfa08abb3b336859e3c519d7612c5": {
+    "first_seen": "2026-06-15",
+    "source": "jobicy",
+    "title": "Data Center Lease Development Manager",
+    "company": "Meta"
+  },
+  "620e2e977841b3dfee9db178bf18fda588a35bdf1649dd2b8d57b7837a4e6684": {
+    "first_seen": "2026-06-15",
+    "source": "jobicy",
+    "title": "Data Center Lease Portfolio Manager",
+    "company": "Meta"
+  },
+  "37555aac4368b932c1576c9376c01ff3c76e6c579dfda439ba00b86832dd24b1": {
+    "first_seen": "2026-06-15",
+    "source": "jobicy",
+    "title": "Principal, Strategic Data Center Partnerships",
+    "company": "Meta"
+  },
+  "914b688b482a08865a3bf54575a1baf5068e254aa507ca6e1a1843ce3d98712c": {
+    "first_seen": "2026-06-15",
+    "source": "jobicy",
+    "title": "Principal Strategist, Leased Data Center Operations",
+    "company": "Meta"
+  },
+  "8166dc19cb68684695c3a079c39e2222ad3ad82dce452bb7308068f31a4ad4d2": {
+    "first_seen": "2026-06-15",
+    "source": "jobicy",
+    "title": "Manager, Mobility – APAC",
+    "company": "Remote"
+  },
+  "b411fc76a46e87d5315be65ac8f60f790f96fef6bea37feb7ab9d4d82dd508e6": {
+    "first_seen": "2026-06-15",
+    "source": "jobicy",
+    "title": "Engagement Manager- Management Consulting",
+    "company": "World Wide Technology"
+  },
+  "d93ca142c5f0624602724c3b6713d5b50c85e4ce0e16a73fdbbaad6c84c8563f": {
+    "first_seen": "2026-06-15",
+    "source": "remoteok",
+    "title": "Implementation Project Manager",
+    "company": "Intellum, Inc."
+  },
+  "b8fb35f1f57df11630a7f28d8df83bbfae702d1ce5c2378e89cdf2019d240a20": {
+    "first_seen": "2026-06-15",
+    "source": "remoteok",
+    "title": "Product Manager",
+    "company": "PadSplit"
+  },
+  "aa9fe9b3d7be4f9e7b1e3a06a9e64936c1800a8542e9b1156499fd4b865bc2b4": {
+    "first_seen": "2026-06-15",
+    "source": "remoteok",
+    "title": "Program Manager Fulfillment Operations",
+    "company": "SupplyHouse.com"
+  },
+  "6dc92ac86e324bb0aba6721339682c646275bcd2d87e6e8fba5058c90f6c9b51": {
+    "first_seen": "2026-06-15",
+    "source": "getonboard",
+    "title": "Senior Product Manager",
+    "company": "{'data': {'id': 2963, 'type': 'company'}}"
+  },
+  "cfccdcfd78016ef223f2ae219105cc64628f64cc8525ab19f60e0308481139c6": {
+    "first_seen": "2026-06-15",
+    "source": "himalayas",
+    "title": "Technical Project Manager",
+    "company": "Onebridge"
+  },
+  "3a4f77c84e050d442ddde9ac38e9c8d06733449591b878f538302caebb722346": {
+    "first_seen": "2026-06-15",
+    "source": "himalayas",
+    "title": "Senior Technical Program Manager",
+    "company": "name"
+  },
+  "2ceb0b83c06bebb1d3b986cce25433862ad426b0e1c07b1d6e708dbccf59e865": {
+    "first_seen": "2026-06-15",
+    "source": "himalayas",
+    "title": "Compliance Project Manager",
+    "company": "name"
+  },
+  "76c1df5ca7a3cae2cbf39034158fb3ef83e7c5cc33e27c16ebee675eefbd6f1d": {
+    "first_seen": "2026-06-15",
+    "source": "jobscollider",
+    "title": "Sr. Product Manager",
+    "company": "Bloomerang"
+  },
+  "93ab10c68f1635e01f714d14bf269449ea4050eec11f8ca80304fa512f04c427": {
+    "first_seen": "2026-06-15",
+    "source": "jobscollider",
+    "title": "AML Product Manager",
+    "company": "NiCE"
+  },
+  "246d51945cecda16d1fec07bbf5494800b144239f6199b974b0a0b2ce995f11e": {
+    "first_seen": "2026-06-15",
+    "source": "jobscollider",
+    "title": "Platform Technical Project Manager, Rack-Scale AI Systems",
+    "company": "MatX"
+  },
+  "3ad5aaabad627621ab45099c1e538703476fc19cbbd4ef39a6064d010450568f": {
+    "first_seen": "2026-06-15",
+    "source": "jobscollider",
+    "title": "Project Manager",
+    "company": "Zencore"
+  },
+  "4c1b8b08085e676f4c596c6d49dcd27b4757782bb7c3128fcdcec4aecdfbbd56": {
+    "first_seen": "2026-06-15",
+    "source": "greenhouse",
+    "title": "Product Manager, Link - Consumer Product",
+    "company": "Stripe"
+  },
+  "ac9ce2a5020a86c171afca54acac3a6d7f447c35f5b004d52883fa48c5ef0d19": {
+    "first_seen": "2026-06-15",
+    "source": "greenhouse",
+    "title": "Field Technical Program Manager",
+    "company": "Databricks"
+  },
+  "d2a5713cfaf50f0d1b504183fb26ffbf5a57fcc15479c59bdebc5fec53af540d": {
+    "first_seen": "2026-06-15",
+    "source": "greenhouse",
+    "title": "Program Manager, Product",
+    "company": "Databricks"
+  },
+  "45e26d1c157bfd2bbb014d770e7199867fdac6125ebe168d4696adabe30c8c05": {
+    "first_seen": "2026-06-15",
+    "source": "greenhouse",
+    "title": "Operations Program Manager (Computer Vision), Public Sector",
+    "company": "Scale AI"
+  },
+  "d91623bedf9d3d1c4d5c778e2f9bbfa02074a01efad83877e225186142bcb869": {
+    "first_seen": "2026-06-15",
+    "source": "greenhouse",
+    "title": "Staff Program Manager Brand Campaigns",
+    "company": "Duolingo"
+  },
+  "cf9464a0d4bb7ab976fc39aa2d8686acbf93f4ed31cf0d14f04dce7345c4d330": {
+    "first_seen": "2026-06-15",
+    "source": "greenhouse",
+    "title": "Product Manager, AI Access",
+    "company": "Cloudflare"
+  },
+  "1ba816e03a26efb89c38cc3e47fdaed0e8f72875f5e3fad119fa04878d162ec4": {
+    "first_seen": "2026-06-15",
+    "source": "greenhouse",
+    "title": "Technical Program Manager, GTM Ops",
+    "company": "Planet Labs"
+  },
+  "706c440f8060c31463d0b5962bbc9dc8113026a6452bde2b53a46e316037dbe1": {
+    "first_seen": "2026-06-15",
+    "source": "lever",
+    "title": "Senior Product Manager - Virtual Accounts",
+    "company": "dLocal"
   }
 }
