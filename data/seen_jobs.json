@@ -10870,5 +10870,131 @@
     "source": "greenhouse",
     "title": "Product Manager, Global Payouts – Cross-Border & Enterprise Capabilities",
     "company": "Stripe"
+  },
+  "79368ef9946ebc136104142ccf426d18118d1d36db0c10078af98375181c8761": {
+    "first_seen": "2026-06-17",
+    "source": "remotive",
+    "title": "Frontend Developer",
+    "company": "Quinncia Inc"
+  },
+  "f057db9267ee384ef17850feea0a54be5f4a64530edaaf17fddb310afaccf711": {
+    "first_seen": "2026-06-17",
+    "source": "jobicy",
+    "title": "Senior Product Manager – Product Design Simulation in Fusion",
+    "company": "Autodesk"
+  },
+  "a03a213b34820be93a2785f602b9bc30a775e276b7b04461e0b3481def1ebca1": {
+    "first_seen": "2026-06-17",
+    "source": "jobicy",
+    "title": "Senior Manager, GTM Operational Excellence",
+    "company": "Remote"
+  },
+  "4c5419f7aaab8ce8216d7757d7a41c0562050f833bb1dfd03968c7cea41df556": {
+    "first_seen": "2026-06-17",
+    "source": "jobicy",
+    "title": "Engineering Manager",
+    "company": "QuinStreet"
+  },
+  "2c1c441cf2a67429c3a2b3372ac49f86f66d0beadaa65cf75f95e3a200b0a41f": {
+    "first_seen": "2026-06-17",
+    "source": "jobicy",
+    "title": "Energy Manager, Power Supply",
+    "company": "Meta"
+  },
+  "ad00ee658a7e172ab60dac1c4d219ada3c953cbfec5077b6a1c7d2a214c3f015": {
+    "first_seen": "2026-06-17",
+    "source": "remoteok",
+    "title": "Senior Product Manager",
+    "company": "Distru"
+  },
+  "efbf644e995433e0bbd519c7ce574d8820e9b00306a810084e9b3c9027255d92": {
+    "first_seen": "2026-06-17",
+    "source": "remoteok",
+    "title": "Creative Project Manager",
+    "company": "YunoJuno"
+  },
+  "fe9ed0069a317fb08809b144b46c5d488249f4a8f0138a09d5c482756c581e00": {
+    "first_seen": "2026-06-17",
+    "source": "getonboard",
+    "title": "Project Manager (Ruby on Rails / React)",
+    "company": "{'data': {'id': 9412, 'type': 'company'}}"
+  },
+  "a3f9d1682f5b0ff9c593be92e006c583790132b9aefc37ada33f6ae959f5783b": {
+    "first_seen": "2026-06-17",
+    "source": "himalayas",
+    "title": "Program Manager",
+    "company": "name"
+  },
+  "ea89d6526a6038d55cdf2878507e95fe3f066c2223c66aca29af68f8a74a7389": {
+    "first_seen": "2026-06-17",
+    "source": "himalayas",
+    "title": "Product Manager, US",
+    "company": "name"
+  },
+  "323e8ac6ea2cf04d6a14fc230b3e4ddd1c976b7a5ef3fd96ef0cacf96890c17a": {
+    "first_seen": "2026-06-17",
+    "source": "himalayas",
+    "title": "AI Context & Harness Product Manager",
+    "company": "Hercules"
+  },
+  "1309f4b5180636baee1a82b23145de7f8bcd499ebf4544b038c055aa1e454185": {
+    "first_seen": "2026-06-17",
+    "source": "himalayas",
+    "title": "AI Product Manager",
+    "company": "Unframe"
+  },
+  "73a2cd53062d70d0b0431637c7cf8492564447769440f99372182b4fddad9832": {
+    "first_seen": "2026-06-17",
+    "source": "jobscollider",
+    "title": "Product Manager | Vendor Intelligence & Marketplace",
+    "company": "Ramp"
+  },
+  "be148a29c698c037621d11a4b1b47082ee6e80048a46beab1a10867d0ef78281": {
+    "first_seen": "2026-06-17",
+    "source": "jobscollider",
+    "title": "Cloud Data Delivery Manager",
+    "company": "TAL Australia"
+  },
+  "5a178b0672b38b08412df28cec4f30fe8004d7293a437ef489db5f7c99b7295f": {
+    "first_seen": "2026-06-17",
+    "source": "jobscollider",
+    "title": "Project Manager",
+    "company": "Griffith Institute for Tourism"
+  },
+  "8a13976a2505436a37c7585a225678fc14455bbeb820fd70cc1b61889023d477": {
+    "first_seen": "2026-06-17",
+    "source": "jobscollider",
+    "title": "Product Manager - Contractor",
+    "company": "3Pillar"
+  },
+  "6f930ca982d3470f7ca3a944cf9aa79506c864f91fed6b9a3d1d355215997b41": {
+    "first_seen": "2026-06-17",
+    "source": "jobscollider",
+    "title": "Senior Product Manager - Contractor",
+    "company": "3Pillar"
+  },
+  "84dcf5847137df8c35fd9009276cbc22d422ce7a512d2af17b2516ae2d040133": {
+    "first_seen": "2026-06-17",
+    "source": "jobscollider",
+    "title": "Dynamics 365 BC Project Manager",
+    "company": "Belmont Lavan"
+  },
+  "1a8b9cfaf1404e1a60c18a6515ec7848c0ff21e457b297c9948009e8e67dceb5": {
+    "first_seen": "2026-06-17",
+    "source": "jobscollider",
+    "title": "Product Manager",
+    "company": "NEC Software Solutions (India)"
+  },
+  "bd735685946ad1fc052fce4c8e11c83dc2a09729b59b2e7226d24cd0315200f6": {
+    "first_seen": "2026-06-17",
+    "source": "jobscollider",
+    "title": "(EMR) Implementation Project Manager (British Columbia)",
+    "company": "MEDFAR"
+  },
+  "e32ad6d145bf0d980a6c961e63327ce87423fcc44e5e0a2b727179d0ee337135": {
+    "first_seen": "2026-06-17",
+    "source": "greenhouse",
+    "title": "Senior Product Manager - Ad Fraud (Application Security)",
+    "company": "Cloudflare"
   }
 }
