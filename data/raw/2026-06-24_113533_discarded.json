@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-24",
+  "discarded_at": "2026-06-24T11:38:12.731000+00:00",
+  "total": 1,
+  "by_reason": {
+    "jd_too_short": 1
+  },
+  "items": [
+    {
+      "id_hash": "a626ea2fa5ac0a2ccc3faaff75b5c7dfc07cd4cde9a329be5f0d21ed979b5fe7",
+      "id": "a626ea2fa5ac0a2ccc3faaff75b5c7dfc07cd4cde9a329be5f0d21ed979b5fe7",
+      "source": "remoteok",
+      "title": "Product Manager",
+      "company": "Cambridge Spark",
+      "location": "",
+      "salary": "0",
+      "jd_full": "Department: Product and TechnologyLocation: Home based, UK (with occasional travel to our Londonâ¦<br/><br/>Please mention the word **COMMEND** and tag RMjAuMTY4Ljk4LjQy when applying to show you read the job post completely (#RMjAuMTY4Ljk4LjQy). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+      "url": "https://remoteOK.com/remote-jobs/remote-product-manager-cambridge-spark-1133737",
+      "collected_at": "2026-06-24T11:35:40.807116+00:00",
+      "date": "2026-06-20T02:09:54+00:00",
+      "discard_reason": "jd_too_short"
+    }
+  ]
+}
