@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-26",
+  "discarded_at": "2026-06-26T11:38:12.813972+00:00",
+  "total": 1,
+  "by_reason": {
+    "jd_too_short": 1
+  },
+  "items": [
+    {
+      "id_hash": "ce3beef9f675b755eef9821b6a2c3a0023c7fc5582d90ca8644c5bbf616cc4c3",
+      "id": "ce3beef9f675b755eef9821b6a2c3a0023c7fc5582d90ca8644c5bbf616cc4c3",
+      "source": "remoteok",
+      "title": "Associate Product Manager",
+      "company": "CareTalk Health",
+      "location": "Remote,",
+      "salary": "0",
+      "jd_full": "Posted 12:48:10 PM. Job Title: Associate Product Manager - RemoteLocation: Remote - United StatesEmployment Type: FTâ¦See this and similar jobs on LinkedIn.<br/><br/>Please mention the word **MERRY** and tag RMjAuODQuNDcuMzI= when applying to show you read the job post completely (#RMjAuODQuNDcuMzI=). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+      "url": "https://remoteOK.com/remote-jobs/remote-associate-product-manager-caretalk-health-1133979",
+      "collected_at": "2026-06-26T11:35:45.937867+00:00",
+      "date": "2026-06-23T14:07:02+00:00",
+      "discard_reason": "jd_too_short"
+    }
+  ]
+}
