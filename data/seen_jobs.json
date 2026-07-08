@@ -12586,5 +12586,95 @@
     "source": "greenhouse",
     "title": "Talent Attraction Program Manager",
     "company": "Zipline"
+  },
+  "4cca632292e9d9c32e67dd69af03bf6cf450bc9d2d5fa1f062f54ef71f88b632": {
+    "first_seen": "2026-07-08",
+    "source": "remoteok",
+    "title": "Junior Project Manager",
+    "company": "ASG International"
+  },
+  "7cdfda5ec9a1e2ade2d04e5d25293ea3bbf9ea45397e972fd55bd4b4a3ef3485": {
+    "first_seen": "2026-07-08",
+    "source": "jobscollider",
+    "title": "Senior Project Manager, Events",
+    "company": "Fundraise Up"
+  },
+  "307e2f896527094afb3b78ab259a590d0ccecbf869b75e2386991afaf8744be1": {
+    "first_seen": "2026-07-08",
+    "source": "jobscollider",
+    "title": "Principal Product Manager (Dataplane)",
+    "company": "Tailscale"
+  },
+  "e50a4e3c9c862fe090e58c33875fc35281620998759555b02bb54685fa0b9a32": {
+    "first_seen": "2026-07-08",
+    "source": "jobscollider",
+    "title": "Sr. Principal Technical Product Marketing Manager",
+    "company": "6sense"
+  },
+  "50931add2c1482d9bb3d88856593d73a6d6aa3b86600e6b3bc4e1f759b75a1d3": {
+    "first_seen": "2026-07-08",
+    "source": "jobscollider",
+    "title": "Product Commercialization Program Manager (Faster Payments)",
+    "company": "Pathward"
+  },
+  "9b67b56e23196b473288a25f86178a02cab8c29e9e6d75a52723ac48bcbde944": {
+    "first_seen": "2026-07-08",
+    "source": "jobscollider",
+    "title": "Lead Network Technical Program Manager",
+    "company": "Google Fiber"
+  },
+  "210d96724c8c7786be3d6d9b34f4ad10b89be099999b5c2dea5ab2ad79aa398c": {
+    "first_seen": "2026-07-08",
+    "source": "jobscollider",
+    "title": "Project Manager (North Central)",
+    "company": "GuidePoint Security"
+  },
+  "b32e2889bf1404c33d373957f1c47e879083b9646b27e0fdd0d7b0815627a6f6": {
+    "first_seen": "2026-07-08",
+    "source": "jobscollider",
+    "title": "Program Manager",
+    "company": "Data Coach"
+  },
+  "82e1f607d08e696fe82a0958d494540ee98161153e9875e51b64f6b4dd400346": {
+    "first_seen": "2026-07-08",
+    "source": "jobscollider",
+    "title": "Delivery Manager - Project Delivery",
+    "company": "3Cloud"
+  },
+  "9bd0c6500ec9c249924def262b418a5d03244338ded770551277522131e2dac4": {
+    "first_seen": "2026-07-08",
+    "source": "jobscollider",
+    "title": "Staff Program Manager, Trust & Safety",
+    "company": "Mozilla"
+  },
+  "9758c4ef560778066fa3fe7387b59e6b790cd7353c62345ec567b433f9dae9bc": {
+    "first_seen": "2026-07-08",
+    "source": "jobscollider",
+    "title": "Project Manager (Contract)",
+    "company": "IQ-EQ"
+  },
+  "3ce43888889ca421b6f1e2e1b91d6f12cb1a233b83e9914964a9a99e30f758b8": {
+    "first_seen": "2026-07-08",
+    "source": "jobscollider",
+    "title": "Technical Program Manager, Money-as-a-Service",
+    "company": "Stripe"
+  },
+  "4a4d81536ca8d9d8dd9a77f1f54a49ca84be6f0f4b2de717d5fa92b2b6dcbf41": {
+    "first_seen": "2026-07-08",
+    "source": "greenhouse",
+    "title": "Technical Program Manager, Bridge",
+    "company": "Stripe"
+  },
+  "9113a7a68e2d45439734be0f70fde3da0016bbcfbf3fe0ac5b7c780747036ecb": {
+    "first_seen": "2026-07-08",
+    "source": "greenhouse",
+    "title": "Senior Product Manager, Plan to Code",
+    "company": "GitLab"
+  },
+  "7c8c804fbea7e10740ade1c629553c9f9f7ddf602a77d021e8a1f8afd623827d": {
+    "first_seen": "2026-07-08",
+    "source": "greenhouse",
+    "title": "Senior Technical Program Manager, Robotics",
+    "company": "Scale AI"
   }
 }
