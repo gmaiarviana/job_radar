@@ -12898,5 +12898,167 @@
     "source": "greenhouse",
     "title": "Senior Product Manager - Enterprise (API & SDK)",
     "company": "Cloudflare"
+  },
+  "655f29c2a3f557d3fc253149bdb9c35b94fa22d2a99799e7690bc19fabc158bd": {
+    "first_seen": "2026-07-13",
+    "source": "remotive",
+    "title": "Remote Office Assistant",
+    "company": "Coalition Technologies"
+  },
+  "809e45bc7cfdd4575b778cc5646d953ab626792da1bf26e0af79079fab1c68a8": {
+    "first_seen": "2026-07-13",
+    "source": "remotive",
+    "title": "Staff Software Engineer, Product (Montevideo)",
+    "company": "LawnStarter"
+  },
+  "fe101bc31fd07510d6081400abc2bccc65174a98efe82b93b8a41ce1e3627860": {
+    "first_seen": "2026-07-13",
+    "source": "remotive",
+    "title": "Staff Software Engineer, Product (Mexico City)",
+    "company": "LawnStarter"
+  },
+  "27abb26023820f82e55746fc68243781e7194ab7ecc34acdcf6096782f4f35d9": {
+    "first_seen": "2026-07-13",
+    "source": "remotive",
+    "title": "Staff Product Engineer (Mexico City)",
+    "company": "LawnStarter"
+  },
+  "abb49c77107435349b0dd861d128ec16c67cedf7efe8df84e54a1f6777d60d39": {
+    "first_seen": "2026-07-13",
+    "source": "remotive",
+    "title": "Staff Product Engineer (Montevideo)",
+    "company": "LawnStarter"
+  },
+  "ae2ec200e3aa36290db808a2b30423961fe4a05bf004778d95d0ad5d6bf46339": {
+    "first_seen": "2026-07-13",
+    "source": "jobicy",
+    "title": "Chief of Staff - CTO",
+    "company": "Coursera"
+  },
+  "10b83ed85eb921dc9e8dff6c32706c978ff93be119068398db10174bde693190": {
+    "first_seen": "2026-07-13",
+    "source": "jobicy",
+    "title": "Associate Manager, Strategy and Operations, Fraud",
+    "company": "DoorDash"
+  },
+  "0787c8dc5416de8a193586eaf2be99e0ae96a11c5fb9c191299d4c5a8028a9f7": {
+    "first_seen": "2026-07-13",
+    "source": "getonboard",
+    "title": "Tech Product Manager Platform",
+    "company": "{'data': {'id': 1836, 'type': 'company'}}"
+  },
+  "abcf6f54b1b24f86cd2f074e7263a7cbdd8a75d00d5f4208ce941d6ed5a38d50": {
+    "first_seen": "2026-07-13",
+    "source": "himalayas",
+    "title": "Strategy & Operations Associate",
+    "company": "Bjak"
+  },
+  "024a17a410ac621ac11b60583ceb0ae03200c80a90fa5c6c0087e978dd4d2f08": {
+    "first_seen": "2026-07-13",
+    "source": "himalayas",
+    "title": "Project Manager (Japanese N2 or Expat)",
+    "company": "People Profilers Vietnam"
+  },
+  "d61f741c3dc723160323e1d33380091dae2dc72ca81d92248a2c34bf191031ff": {
+    "first_seen": "2026-07-13",
+    "source": "himalayas",
+    "title": "Strategic Project Manager",
+    "company": "The Global Talent Co."
+  },
+  "40c4fa0c967373d7e0d1360a7d3dac27fc23233af8edf257c26cf7a9f8fa6e0e": {
+    "first_seen": "2026-07-13",
+    "source": "himalayas",
+    "title": "Strategy & Operations Lead",
+    "company": "Bjak"
+  },
+  "d3b12bc33d7767e8f6525035672d2fc05cbfa59af1071ee77ded492c2c79deae": {
+    "first_seen": "2026-07-13",
+    "source": "himalayas",
+    "title": "Senior Product Manager – Reporting & Visualisation",
+    "company": "Kitman Labs"
+  },
+  "4f0eb59478c2b556994517f1ab932da000480687eabaaaa0cca262f7b301d906": {
+    "first_seen": "2026-07-13",
+    "source": "jobscollider",
+    "title": "Product Manager, SEO & Growth (Remote)",
+    "company": "Trellis (A Zaelab Company)"
+  },
+  "7d17ca2654953f42178f6a6d27ca38fa92b40ea9d669e2ce4ac2e5cad0bfa817": {
+    "first_seen": "2026-07-13",
+    "source": "jobscollider",
+    "title": "Product Manager",
+    "company": "Silverfin"
+  },
+  "cf8d84749036612c1952c91f21b411713b453c967569366aa794a4fce9c8840f": {
+    "first_seen": "2026-07-13",
+    "source": "jobscollider",
+    "title": "Principal Technical Program Manager (Product Operations)",
+    "company": "Gather AI"
+  },
+  "765ffae086c62857cd800c02a3ee81bbfe186926794eea74b408229b3f39f3d5": {
+    "first_seen": "2026-07-13",
+    "source": "jobscollider",
+    "title": "Product Manager IV",
+    "company": "Aya Healthcare"
+  },
+  "9d1c56df93c3967f9a522a9d93df72cd9cdb2471af6309c5b20cd2aaad757752": {
+    "first_seen": "2026-07-13",
+    "source": "jobscollider",
+    "title": "Payments Product Manager",
+    "company": "CardFlight"
+  },
+  "9cf4de003ea04894dcbe51406d926334483bd54e73b6194aa66a5212e567fcd5": {
+    "first_seen": "2026-07-13",
+    "source": "jobscollider",
+    "title": "Product Manager (contract)",
+    "company": "Mindgrub"
+  },
+  "9c2a80a8cb54ba8c51bf17bbafedf339d720541273a386d767d9c2bb5d98d0e6": {
+    "first_seen": "2026-07-13",
+    "source": "jobscollider",
+    "title": "Sr Technical Project Manager (Citizen/PR only)",
+    "company": "Ivalua"
+  },
+  "dc64fd017758f3ea94a18be1109f7db9d4a72656fce35e6963c67e451df3f81e": {
+    "first_seen": "2026-07-13",
+    "source": "jobscollider",
+    "title": "Senior Program Manager, Commercial Strategy",
+    "company": "Squarespace"
+  },
+  "42b2a08e108a63a64405b43dabd8ca2166a6d36894d933a621265d4bf9efe50f": {
+    "first_seen": "2026-07-13",
+    "source": "jobscollider",
+    "title": "Delivery Manager (Google Workspace Services)",
+    "company": "66degrees"
+  },
+  "d0ec81ff21199c3313f93183f4b9b4eb609f9087f3b71eb273b6018407d8a429": {
+    "first_seen": "2026-07-13",
+    "source": "jobscollider",
+    "title": "Associate Delivery Manager",
+    "company": "66degrees"
+  },
+  "048df7c611d4a38dd526d857bfc1fc39bcfacb70128fcd594c2a74dd86865d6e": {
+    "first_seen": "2026-07-13",
+    "source": "greenhouse",
+    "title": "Staff Product Manager, Issuing",
+    "company": "Stripe"
+  },
+  "da7ca91b1a6ca3975b89c43a9253065195ce5e22ad4c660f7384aac06439b078": {
+    "first_seen": "2026-07-13",
+    "source": "greenhouse",
+    "title": "AI Enablement Program Manager",
+    "company": "Klaviyo"
+  },
+  "bca6f537c047a5f018ace142b45e37db428962b5618a672a8d458bc60b26b75b": {
+    "first_seen": "2026-07-13",
+    "source": "greenhouse",
+    "title": "IT Technical Program Manager",
+    "company": "Zipline"
+  },
+  "88a2ebe4972d14b6252f8b4843371ed62f8b995a4555b6a73db4775b5fe4fdc5": {
+    "first_seen": "2026-07-13",
+    "source": "greenhouse",
+    "title": "New Product Introduction (NPI) Technical Program Manager",
+    "company": "Zipline"
   }
 }
