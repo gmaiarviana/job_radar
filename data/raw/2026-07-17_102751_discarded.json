@@ -1,0 +1,24 @@
+{
+  "date": "2026-07-17",
+  "discarded_at": "2026-07-17T10:30:49.687637+00:00",
+  "total": 1,
+  "by_reason": {
+    "jd_too_short": 1
+  },
+  "items": [
+    {
+      "id_hash": "92e54145a5b889232b8cc933f5c61f6173129e72bb28df6618c796de51a70a34",
+      "id": "92e54145a5b889232b8cc933f5c61f6173129e72bb28df6618c796de51a70a34",
+      "source": "remoteok",
+      "title": "Project Manager",
+      "company": "Empire Life",
+      "location": "",
+      "salary": "0",
+      "jd_full": "Posted 1:21:26 PM. Project ManagerLocation: Remote, Canada Empire life is looking to hire a Project Manager to joinâ¦See this and similar jobs on LinkedIn.<br/><br/>Please mention the word **COMELY** and tag RNTIuMjI1Ljk3LjIz when applying to show you read the job post completely (#RNTIuMjI1Ljk3LjIz). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+      "url": "https://remoteOK.com/remote-jobs/remote-project-manager-empire-life-1134867",
+      "collected_at": "2026-07-17T10:27:57.658932+00:00",
+      "date": "2026-07-15T15:07:31+00:00",
+      "discard_reason": "jd_too_short"
+    }
+  ]
+}
