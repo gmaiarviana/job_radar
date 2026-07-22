@@ -1,0 +1,24 @@
+{
+  "date": "2026-07-22",
+  "discarded_at": "2026-07-22T10:58:03.876352+00:00",
+  "total": 1,
+  "by_reason": {
+    "jd_too_short": 1
+  },
+  "items": [
+    {
+      "id_hash": "425e602455059e9fca94903a46918f922539c76c17b60359e3cc3d07b7c05eed",
+      "id": "425e602455059e9fca94903a46918f922539c76c17b60359e3cc3d07b7c05eed",
+      "source": "remoteok",
+      "title": "Product Manager",
+      "company": "360Dialog",
+      "location": "",
+      "salary": "0",
+      "jd_full": "About Us360dialog is the leading Whatsapp platform for Independent Software Providers. We areâ¦<br/><br/>Please mention the word **EXCITING** and tag RMTM1LjIzMi4xNzYuMTYy when applying to show you read the job post completely (#RMTM1LjIzMi4xNzYuMTYy). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+      "url": "https://remoteOK.com/remote-jobs/remote-product-manager-360dialog-1135112",
+      "collected_at": "2026-07-22T10:55:26.586199+00:00",
+      "date": "2026-07-20T22:00:50+00:00",
+      "discard_reason": "jd_too_short"
+    }
+  ]
+}
