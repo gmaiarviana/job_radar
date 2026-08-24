@@ -15982,5 +15982,101 @@
     "source": "greenhouse",
     "title": "Program Manager - Growth & Profitability",
     "company": "Zipline"
+  },
+  "42e61ea88ecdb190bab75b0d4fd2e880ba4b07fb93ab7b35b130180896829a9e": {
+    "first_seen": "2026-08-24",
+    "source": "remotive",
+    "title": "Content Reviewer - English US",
+    "company": "TELUS Digital"
+  },
+  "ab0af27efefcf6a575edd6f2690308781db0f08fce4550ef1010273ff3b9dd01": {
+    "first_seen": "2026-08-24",
+    "source": "remotive",
+    "title": "Senior Golang Developer",
+    "company": "Lemon.io"
+  },
+  "f9d56e53b3b1feb34d1679949db8f0775febe5c3679042c74fbc8602ccb4d73f": {
+    "first_seen": "2026-08-24",
+    "source": "remotive",
+    "title": "Vice President, Technology & Digital Strategy",
+    "company": "Shatterproof"
+  },
+  "3f092d7f3d2cad2a8a71de9e0ea9edbaca5298e4688eb97e53efd81425d8cfca": {
+    "first_seen": "2026-08-24",
+    "source": "remotive",
+    "title": "Senior Data Engineer",
+    "company": "Lemon.io"
+  },
+  "ce4f0f55dd07c27abdb53ce54bb70b8656d9236b926d375e07bf142497ea4aa9": {
+    "first_seen": "2026-08-24",
+    "source": "himalayas",
+    "title": "Project Manager, Salesforce",
+    "company": "Offprem Technology"
+  },
+  "97e211b33d4787c4ef43d607f949638718c10e21d10b13af65fa4c51c9a8a06e": {
+    "first_seen": "2026-08-24",
+    "source": "jobscollider",
+    "title": "Project Manager",
+    "company": "Sona (getsona.com)"
+  },
+  "4837f57913136ad707a9d4daccd03e72fd20f734b5a16a618271a7d09bbcf34c": {
+    "first_seen": "2026-08-24",
+    "source": "jobscollider",
+    "title": "Lead Product Manager, Security",
+    "company": "Wikimedia Foundation"
+  },
+  "23a09576c01c408e6578ea5a9954b2ca38e1e098cda60fc49bf9fce5b2f5bb51": {
+    "first_seen": "2026-08-24",
+    "source": "jobscollider",
+    "title": "Network installation project manager EV",
+    "company": "Allego"
+  },
+  "cb7c7e803fd3b2003096d5c17b34e5cdcf371ca1796cb693418d5c1e4ab8b2b1": {
+    "first_seen": "2026-08-24",
+    "source": "jobscollider",
+    "title": "Senior Product Manager",
+    "company": "Two Six Technologies"
+  },
+  "e27a10dd95da8deebbee4e7e784200f6981a54224e5b4b9c15583dbc6981a86d": {
+    "first_seen": "2026-08-24",
+    "source": "jobscollider",
+    "title": "Partner Audit Remediation Program Manager",
+    "company": "Waymo"
+  },
+  "dcac711e79ab186c038dafbb452b75449ec9ef719cf3227a3f6fb6011464d907": {
+    "first_seen": "2026-08-24",
+    "source": "jobscollider",
+    "title": "Project Manager, Marketing",
+    "company": "Chan Zuckerberg Initiative"
+  },
+  "f682be7f2cc8359a864cae921d0e808d608bc41924ca89739a8abbbe19f9b66e": {
+    "first_seen": "2026-08-24",
+    "source": "jobscollider",
+    "title": "Program Manager, GTM Acceleration",
+    "company": "Vercel"
+  },
+  "03eeed788d7caff03375915b043ad33a7408fdc54e8fbc3a44def39ef57cb1a5": {
+    "first_seen": "2026-08-24",
+    "source": "greenhouse",
+    "title": "Staff Product Manager, Billing",
+    "company": "Stripe"
+  },
+  "88a484e910b52dcdf49692081e66f635769105028da07005a79782fd225efa64": {
+    "first_seen": "2026-08-24",
+    "source": "greenhouse",
+    "title": "Senior Product Manager, D&I Tasking Solutions",
+    "company": "Planet Labs"
+  },
+  "729f5eea5168d2d391d7ed1c348ea54a46b2d26728aeed461e9ceb5a74906e06": {
+    "first_seen": "2026-08-24",
+    "source": "greenhouse",
+    "title": "Senior Product Manager, Mission Solutions",
+    "company": "Planet Labs"
+  },
+  "cf0574196ada42aed641b91ba4c9e77bc10e6876d5e246df6ab53de31bfd5adf": {
+    "first_seen": "2026-08-24",
+    "source": "greenhouse",
+    "title": "Technical Program Manager Intern (Summer 2027)",
+    "company": "Zipline"
   }
 }
