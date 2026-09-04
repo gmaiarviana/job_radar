@@ -17128,5 +17128,101 @@
     "source": "greenhouse",
     "title": "Staff Product Manager | BASE",
     "company": "Wellhub"
+  },
+  "38055ea8d04bf615877d190694b71ae791aaafdbe163e16ded6b44f38973ca5e": {
+    "first_seen": "2026-09-04",
+    "source": "jobicy",
+    "title": "Engineering Manager - Python and K8s",
+    "company": "Canonical"
+  },
+  "7125504059dd79f03628a11c616a4d252025dda158a82f82fbb71c752a41ec10": {
+    "first_seen": "2026-09-04",
+    "source": "jobicy",
+    "title": "Senior Product Manager, AI and Endpoint",
+    "company": "Teramind"
+  },
+  "f0d3a1fddb81e20f49ce91938e1645f6aa37b0ef003be60ef5e70cfe32a1a2c5": {
+    "first_seen": "2026-09-04",
+    "source": "himalayas",
+    "title": "[Contractor] Mid-level/Senior Product Manager",
+    "company": "Cheesecake Labs"
+  },
+  "67e95e52bfeb1947673918e927a0e0e94bf393838b7e4b3a825126dcb2d538d9": {
+    "first_seen": "2026-09-04",
+    "source": "himalayas",
+    "title": "Associate Project Manager",
+    "company": "Great Minds"
+  },
+  "c55619e76cfdda562fda6e0e428879c46c1f75c74e76e19a3e616f888dbb57ce": {
+    "first_seen": "2026-09-04",
+    "source": "himalayas",
+    "title": "Senior Product Manager",
+    "company": "Checkfront"
+  },
+  "199c97f15a8534c6d6dc5f89c72cd036bf8c10f149c2f3d0d350da1520413957": {
+    "first_seen": "2026-09-04",
+    "source": "jobscollider",
+    "title": "Product Manager - Imagery and Remote Sensing",
+    "company": "Esri"
+  },
+  "b34f7b49c1f5d2f249edc81d46cc558df18999134207e6cab5fda149e11df529": {
+    "first_seen": "2026-09-04",
+    "source": "jobscollider",
+    "title": "Product Manager",
+    "company": "Gousto"
+  },
+  "f3681cb3ca5f9e8b7464a935700e2ba1bfc05c8961ca835e2c3f53b637922a3b": {
+    "first_seen": "2026-09-04",
+    "source": "jobscollider",
+    "title": "Senior GTM Strategy & Operations Manager",
+    "company": "CircleCI"
+  },
+  "13862cd0e1f1fadfe7202c913b6eb23851421e5718046348151f9e77f518699b": {
+    "first_seen": "2026-09-04",
+    "source": "jobscollider",
+    "title": "Senior Technical Product Marketing Manager",
+    "company": "Collibra NV"
+  },
+  "a5b12bb6ef59466834d3d7e3cacc056d85b792c79a8619635d40c586b4a4b476": {
+    "first_seen": "2026-09-04",
+    "source": "jobscollider",
+    "title": "Staff Product Manager, Ads Signals",
+    "company": "Reddit, Inc."
+  },
+  "3d04c71aab44426e3a730fae8889a693b3c44f8f7007eaeb2893b15d00d5fa26": {
+    "first_seen": "2026-09-04",
+    "source": "jobscollider",
+    "title": "Product Analyst",
+    "company": "DoiT"
+  },
+  "c0d975363b8479078b186cfa5d93dab25957c70cdaff12b9ed8c4a9c3ff499c1": {
+    "first_seen": "2026-09-04",
+    "source": "jobscollider",
+    "title": "Construction Project Manager",
+    "company": "Pavago"
+  },
+  "78f8763d568459c8651fda403bab092964da4d1a02e3f254132e69e2bbdb574f": {
+    "first_seen": "2026-09-04",
+    "source": "jobscollider",
+    "title": "Program Manager",
+    "company": "OpenTeams"
+  },
+  "1143ca7e953b386a0dc465ccb01e3e39ffca5c52e672368ae49c532237df26f5": {
+    "first_seen": "2026-09-04",
+    "source": "greenhouse",
+    "title": "Training Program Manager",
+    "company": "Stripe"
+  },
+  "883c9fd2aee784962bb1a1897b17984f9e1d46d7efa89970cdc930be9d5e3fb4": {
+    "first_seen": "2026-09-04",
+    "source": "greenhouse",
+    "title": "Staff Technical Program Manager, DET",
+    "company": "Duolingo"
+  },
+  "6d2f1341bc9c11061e061573fa15f15ee8b44d2522d3cb92c44e2adfa0df6b5d": {
+    "first_seen": "2026-09-04",
+    "source": "greenhouse",
+    "title": "Staff Technical Program Manager, DevAmp",
+    "company": "Duolingo"
   }
 }
