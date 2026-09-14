@@ -17710,5 +17710,167 @@
     "source": "greenhouse",
     "title": "Senior Technical Program Manager-Platform",
     "company": "Planet Labs"
+  },
+  "22ab543523a9e022500174e0de1bf632b7a027d5e3e5b683515e6a3134fc7309": {
+    "first_seen": "2026-09-14",
+    "source": "remotive",
+    "title": "AI Response Evaluator",
+    "company": "iMerit Technology"
+  },
+  "3e769427fe089006dc6fabd31f0d84151f6a195e677e68ca014b188376e9cd09": {
+    "first_seen": "2026-09-14",
+    "source": "jobicy",
+    "title": "Head of Product, Conversations",
+    "company": "Help Scout"
+  },
+  "316fed39f01623c068b0505d696a34e4bacbb9708030029b362ffc12e06a9891": {
+    "first_seen": "2026-09-14",
+    "source": "jobicy",
+    "title": "Lead/Principal Product Manager, Growth",
+    "company": "Help Scout"
+  },
+  "3304916e579b871abbee832abacdbf065ece1f89fbffbcb2e409a7b4e9f935b4": {
+    "first_seen": "2026-09-14",
+    "source": "remoteok",
+    "title": "Technical Product Lead AI Finance App",
+    "company": "Bjak"
+  },
+  "5f11b702f2485309928fa0fc4b01d5e1886f7b931afe47ec1f26e966c612ad37": {
+    "first_seen": "2026-09-14",
+    "source": "getonboard",
+    "title": "Translation & Interpretation Project Manager",
+    "company": "{'data': {'id': 20521, 'type': 'company'}}"
+  },
+  "69792aec86558a0e1d49ade5eeaa22e38256962a1ff129845d31180100a239eb": {
+    "first_seen": "2026-09-14",
+    "source": "himalayas",
+    "title": "Project Manager",
+    "company": "CSI"
+  },
+  "fd368237aca8635572cc58b309ce5f269bafbca5c2f9ea13840258d07ee142b3": {
+    "first_seen": "2026-09-14",
+    "source": "himalayas",
+    "title": "Commissioning Project Manager (REMOTE - North Carolina - Mid-Atlantic Travel)",
+    "company": "Chinook Systems"
+  },
+  "41669d2e19666e7edb86b375aafca9646a2e1b4e8452bf6521255871080b0a3e": {
+    "first_seen": "2026-09-14",
+    "source": "himalayas",
+    "title": "Project Manager, Design Team",
+    "company": "ManyPixels"
+  },
+  "dd6fe347f938cd4c5f876434db4d00bf3f0d4dacacf6488b5ad631b309545fac": {
+    "first_seen": "2026-09-14",
+    "source": "jobscollider",
+    "title": "Strategy & Operations Lead — Korea",
+    "company": "OpenAI"
+  },
+  "07d48b6d19dc8ea12d7374a21198494b887d03265bf261ba3f59247412d3efec": {
+    "first_seen": "2026-09-14",
+    "source": "jobscollider",
+    "title": "Senior Project Manager",
+    "company": "H2 Performance Consulting"
+  },
+  "0728de12f536b21b57167b070cbc13837b219af71b4e778e8913ea314b64647c": {
+    "first_seen": "2026-09-14",
+    "source": "jobscollider",
+    "title": "Lead Editor Product Manager",
+    "company": "Descript"
+  },
+  "0d176f9c281dedf60a987114b1627e091c057255aabd19f84c6550cb17fbbded": {
+    "first_seen": "2026-09-14",
+    "source": "jobscollider",
+    "title": "Business Operations / Project Manager",
+    "company": "MonetizeMore BR"
+  },
+  "f2ea4ac4ce0e78a641dec26bd2c5b8f90a86003c98810609551348276c67060e": {
+    "first_seen": "2026-09-14",
+    "source": "jobscollider",
+    "title": "Program Manager - Informatics",
+    "company": "Blue Water Thinking"
+  },
+  "c38adc29d657be74dbbf03690502c60d1fc97b65a857ed49f3e7fa98cd996073": {
+    "first_seen": "2026-09-14",
+    "source": "jobscollider",
+    "title": "Senior Product Manager [Remote-US]",
+    "company": "Quanata"
+  },
+  "a09ba26be226e1828b6b3d4553169e976b265b7a97f4b76d5cc15f34d5500065": {
+    "first_seen": "2026-09-14",
+    "source": "jobscollider",
+    "title": "AI-native Product Manager (Remote)",
+    "company": "ShortPoint"
+  },
+  "262b5d775fed3c7ab88e99144964ccb7f720e95b42468c86d25c66192f181d5e": {
+    "first_seen": "2026-09-14",
+    "source": "jobscollider",
+    "title": "Senior Product Manager, Fintech",
+    "company": "LeafLink"
+  },
+  "3788affa1df932866a3b712eab629cf6ebe3253ee2092879eab87133839f50b8": {
+    "first_seen": "2026-09-14",
+    "source": "jobscollider",
+    "title": "Technical Project Manager | Contract | UK, Remote",
+    "company": "Tech Holding"
+  },
+  "e4fbd39d40630628cf9599c4754aca7445e545a210d481030848444418c75ead": {
+    "first_seen": "2026-09-14",
+    "source": "jobscollider",
+    "title": "Technical Project Manager | Contract | Los Angeles, CA | Hybrid",
+    "company": "Tech Holding"
+  },
+  "1034df4d733bb549e4b184cda222ddfd745141b7a5a982d787bd792acdfcd5d5": {
+    "first_seen": "2026-09-14",
+    "source": "jobscollider",
+    "title": "Technical Program Manager - Implementation",
+    "company": "Candid Health"
+  },
+  "d557e40e04dcc165d7b815067ec6fe4d24756949ce95995a15c269c1b97bfe03": {
+    "first_seen": "2026-09-14",
+    "source": "jobscollider",
+    "title": "Program Manager (Customer Success)",
+    "company": "OpenZeppelin"
+  },
+  "9828d4e7dcd3f88e018d5d53f4c0f8f7ad23c652ceee489b86f8ef3d2f3ccdb6": {
+    "first_seen": "2026-09-14",
+    "source": "jobscollider",
+    "title": "Product Manager, Onboarding and Growth",
+    "company": "Ashby"
+  },
+  "5139a342d26a59b0a2b000aac1689daeda878662eea5b331265318fe09dcc671": {
+    "first_seen": "2026-09-14",
+    "source": "jobscollider",
+    "title": "Event Project Manager, Life Sciences (US - Remote)",
+    "company": "SpotMe"
+  },
+  "97bdf971786f71f5d9437b3ade26fb6405276df9a585f1487115d1619ad1a8e8": {
+    "first_seen": "2026-09-14",
+    "source": "greenhouse",
+    "title": "Product Manager, Connect Growth & Monetization",
+    "company": "Stripe"
+  },
+  "4e51f4b0c6dbcfdc8daddbd6f4ed6d3c13e9376238737a1d99c54e337121030b": {
+    "first_seen": "2026-09-14",
+    "source": "greenhouse",
+    "title": "Product Manager, Support Platform",
+    "company": "Stripe"
+  },
+  "2f83c72ba752744f1474804f6065da3e69538b547a979fa964478cd9c282bcac": {
+    "first_seen": "2026-09-14",
+    "source": "greenhouse",
+    "title": "Lead Learning Product Manager",
+    "company": "Databricks"
+  },
+  "1703109be8b70cd3fcd5693617c93ea5e71e876f3030d0406324031b944014a5": {
+    "first_seen": "2026-09-14",
+    "source": "greenhouse",
+    "title": "Staff Product Manager, Physical AI Data & Robotics",
+    "company": "Scale AI"
+  },
+  "44847d29d2dd2997fec191424288866c143b0ff598e831ad0f61d75a7b3ed5e4": {
+    "first_seen": "2026-09-14",
+    "source": "greenhouse",
+    "title": "Senior Product Manager, Email Security",
+    "company": "Cloudflare"
   }
 }
