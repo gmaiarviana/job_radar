@@ -1,0 +1,24 @@
+{
+  "date": "2026-09-24",
+  "discarded_at": "2026-09-24T13:54:17.807212+00:00",
+  "total": 1,
+  "by_reason": {
+    "jd_too_short": 1
+  },
+  "items": [
+    {
+      "id_hash": "7e1c1cc5158852c36cefc723d34c57083b1ffeff61c267fa2e531ed659101b97",
+      "id": "7e1c1cc5158852c36cefc723d34c57083b1ffeff61c267fa2e531ed659101b97",
+      "source": "getonboard",
+      "title": "Product Manager / Product Owner de Plataforma SaaS con IA",
+      "company": "{'data': {'id': 20611, 'type': 'company'}}",
+      "location": "Remote",
+      "salary": null,
+      "jd_full": "<ul><li>experiencia gestionando un producto digital con clientes activos</li><li>criterio demostrado para priorizar junto a ingeniería</li><li>experiencia en discovery, backlog, historias de usuario y criterios de aceptación</li><li>comprensión funcional de APIs e integraciones</li><li>comunicación clara en español, autonomía y disponibilidad para colaborar en horarios compatibles con Ecuador</li><li>No es necesario programar.</li></ul>",
+      "url": "https://www.getonbrd.com/jobs/product-manager-product-owner-de-plataforma-saas-con-ia-agents-booster-remote",
+      "collected_at": "2026-09-24T13:51:13.417778+00:00",
+      "date": "2026-09-23T21:17:44+00:00",
+      "discard_reason": "jd_too_short"
+    }
+  ]
+}
