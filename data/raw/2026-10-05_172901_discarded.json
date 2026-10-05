@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-05",
+  "discarded_at": "2026-10-05T17:32:12.150914+00:00",
+  "total": 1,
+  "by_reason": {
+    "jd_too_short": 1
+  },
+  "items": [
+    {
+      "id_hash": "5d8537df8b871e1c8e7e7c54aa0e33f04e6101b5a3ffe60130e447f1c8ee161d",
+      "id": "5d8537df8b871e1c8e7e7c54aa0e33f04e6101b5a3ffe60130e447f1c8ee161d",
+      "source": "getonboard",
+      "title": "Post Production Project Manager",
+      "company": "{'data': {'id': 20686, 'type': 'company'}}",
+      "location": "Remote",
+      "salary": "2000-2500",
+      "jd_full": "<ul><li>Strong English Fluency. All work will be done in English.</li><li>Experience managing contractors or employees</li><li>A track record of setting clear expectations and getting projects delivered on time</li><li>Clear, confident written communication, since most of the work happens over email</li></ul><p>Video editing experience is a huge plus. You'll know the terminology, know how to give creative notes to editors, and be able to jump in on light edits.</p>",
+      "url": "https://www.getonbrd.com/jobs/post-production-project-manager-jtx-media-remote",
+      "collected_at": "2026-10-05T17:29:05.648114+00:00",
+      "date": "2026-10-03T01:07:01+00:00",
+      "discard_reason": "jd_too_short"
+    }
+  ]
+}
