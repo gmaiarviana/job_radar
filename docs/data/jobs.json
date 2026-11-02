@@ -1,18 +1,8 @@
 {
-  "generated_at": "2026-10-30T15:25:59.698121+00:00",
+  "generated_at": "2026-11-02T18:56:41.528014+00:00",
   "total": 0,
   "jobs": [],
   "pipeline_runs": [
-    {
-      "date": "2026-10-16",
-      "filtered_at": "2026-10-16T13:37:44.286087+00:00",
-      "total_input": 22,
-      "total_passed": 14,
-      "discarded_title": 1,
-      "discarded_blocklist": 1,
-      "discarded_location": 6,
-      "discarded_quality": 0
-    },
     {
       "date": "2026-10-19",
       "filtered_at": "2026-10-19T15:58:15.115465+00:00",
@@ -110,6 +100,16 @@
       "total_passed": 6,
       "discarded_title": 7,
       "discarded_blocklist": 0,
+      "discarded_location": 4,
+      "discarded_quality": 0
+    },
+    {
+      "date": "2026-11-02",
+      "filtered_at": "2026-11-02T18:56:38.254863+00:00",
+      "total_input": 21,
+      "total_passed": 14,
+      "discarded_title": 2,
+      "discarded_blocklist": 1,
       "discarded_location": 4,
       "discarded_quality": 0
     }
