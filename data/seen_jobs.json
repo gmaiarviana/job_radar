@@ -21730,5 +21730,143 @@
     "source": "greenhouse",
     "title": "Grupo QuintoAndar | Senior Product Manager",
     "company": "QuintoAndar"
+  },
+  "6d9182b06925ef2bd3a54c627960b4c54fc234bb6d826c61b0bf43370af26ef2": {
+    "first_seen": "2026-11-03",
+    "source": "jobicy",
+    "title": "Manager, Product Manager",
+    "company": "Canonical"
+  },
+  "41f9ea7fc2313e04b59f617f5d30453a1dde8236b5d45247c91ed0eca25e65cf": {
+    "first_seen": "2026-11-03",
+    "source": "jobicy",
+    "title": "Business Applications Specialist (Order to Cash)",
+    "company": "Pleo"
+  },
+  "c81eb673c524db79d140f24e256c5340e3497c7008c6a74133b90dc4f89dbbc4": {
+    "first_seen": "2026-11-03",
+    "source": "jobicy",
+    "title": "Junior Product Manager",
+    "company": "Canonical"
+  },
+  "fa243fd6b2d5b03242b9cdc1250706ff3149492ceb5a0d1566011b2191ead47b": {
+    "first_seen": "2026-11-03",
+    "source": "jobicy",
+    "title": "Product Manager, Salesforce",
+    "company": "Kaseya"
+  },
+  "fbd474fc11b32d25cd1b6cdcda1ee2879cfa3fa7153d54b8d6c9f4244a3b997e": {
+    "first_seen": "2026-11-03",
+    "source": "jobicy",
+    "title": "Director, New Business Operations",
+    "company": "Cloudinary"
+  },
+  "27723324b9e46d50b3c96bd53ab391418727e3bb8a5df9fa583cc93b821ed8cc": {
+    "first_seen": "2026-11-03",
+    "source": "jobicy",
+    "title": "Chief of Staff",
+    "company": "LaunchDarkly"
+  },
+  "a2f0b285c2d8f354cad290cde0ab4a2bc95437c4ebb93987f48a50cebdecbb1e": {
+    "first_seen": "2026-11-03",
+    "source": "himalayas",
+    "title": "Technical Project Manager remote from EU - Deadline 12/11/26",
+    "company": "AlmavivA de Belgique"
+  },
+  "a24c9bd10c3e017963e10874cfbab8fc656352bd0d80070dd97ee902153aafdc": {
+    "first_seen": "2026-11-03",
+    "source": "himalayas",
+    "title": "Technical Product Manager (AI) - Veeva Quality Cloud",
+    "company": "Lifelancer"
+  },
+  "22eaba084052f0d8583a39fe641e98152cb072993a196af7adde62b50ac06fa4": {
+    "first_seen": "2026-11-03",
+    "source": "himalayas",
+    "title": "Senior Project Manager, eCOA Implementation",
+    "company": "Lifelancer"
+  },
+  "3ddf75490a7f6a03aad612e5ff3102b4fac98dd5f8c278dba5d0a4b3e348d6f7": {
+    "first_seen": "2026-11-03",
+    "source": "himalayas",
+    "title": "Project Manager",
+    "company": "Inizio Partners Corp"
+  },
+  "457f8dda478c3eab9ce40d2284f8e9fb95c1c4fe49a5215c40b1bc6fa1ea89f2": {
+    "first_seen": "2026-11-03",
+    "source": "himalayas",
+    "title": "Senior Product Manager - Safety",
+    "company": "Lifelancer"
+  },
+  "4a262e1db31cdf0f6c04d666695274e86fdbb5c1105f0c619741ee04931c251b": {
+    "first_seen": "2026-11-03",
+    "source": "himalayas",
+    "title": "Sr. Clinical Project Manager, IQVIA Biotech",
+    "company": "Lifelancer"
+  },
+  "942e8c8fe07da35ff03261f7e496a72c16c49122193d4d556202aae6671ddde7": {
+    "first_seen": "2026-11-03",
+    "source": "jobscollider",
+    "title": "Technical Product Manager, Legal AI and Platforms",
+    "company": "ServiceNow"
+  },
+  "d93d47c2616e4a40b1aadd492d31944aae743787993a48e4dd6749437a079881": {
+    "first_seen": "2026-11-03",
+    "source": "jobscollider",
+    "title": "Senior Product Manager (f/m/d)",
+    "company": "Apaleo"
+  },
+  "a5bfce0ecf445cffe4634cf80befa3541c94a5c2ac8193c479b0032d26a87adf": {
+    "first_seen": "2026-11-03",
+    "source": "jobscollider",
+    "title": "Senior Project Manager(Financial Services)",
+    "company": "TechBiz Global"
+  },
+  "0edb0cca5fe922c67225feae35fe34de857d86f453716ccea967d58917394e4c": {
+    "first_seen": "2026-11-03",
+    "source": "jobscollider",
+    "title": "Utilities Infrastructure Project Manager (Water)",
+    "company": "Havenpark Communities"
+  },
+  "270fb558d6c5457ca40149576f8074580f5c7b974a33156e7f609d348a7fbba1": {
+    "first_seen": "2026-11-03",
+    "source": "jobscollider",
+    "title": "Utilities Infrastructure Project Manager (Wastewater)",
+    "company": "Havenpark Communities"
+  },
+  "922bb2776305153bb3104f79741e928e8f48bdaf62369326f7e4fa1cc1122783": {
+    "first_seen": "2026-11-03",
+    "source": "jobscollider",
+    "title": "Senior Project Manager (Intralogistics and Robotics)",
+    "company": "Nomagic"
+  },
+  "b7e47d79709272042f5adb9005040fe370b6830b1e37e872bc94aa1f3a8c80b6": {
+    "first_seen": "2026-11-03",
+    "source": "jobscollider",
+    "title": "Staff Product Manager, Longitudinal Patient Record",
+    "company": "Clover Health"
+  },
+  "3741068dd1c510158b3701f9a8a9033a3fe6d736daed4d9d3b17495ccb5b76cb": {
+    "first_seen": "2026-11-03",
+    "source": "jobscollider",
+    "title": "Program Manager, USACE Latin America & Caribbean",
+    "company": "Dexis Consulting Group"
+  },
+  "a7e958ad683cca18954eff63f1e3b5989986a9d06b64bfb2862e1607eeba9b42": {
+    "first_seen": "2026-11-03",
+    "source": "jobscollider",
+    "title": "Project Manager",
+    "company": "FINN Partners Singapore"
+  },
+  "823a60231d159535e76927601f410140e6ce1aedfabe39434b48e16c3ab086a1": {
+    "first_seen": "2026-11-03",
+    "source": "greenhouse",
+    "title": "Product Manager, Disputes",
+    "company": "Stripe"
+  },
+  "c182be5889ce1335f8c63c746ed3f7dab07c37789d1b0fde3832154e5c38f1a9": {
+    "first_seen": "2026-11-03",
+    "source": "greenhouse",
+    "title": "Staff Product Manager, Tenant Scale",
+    "company": "GitLab"
   }
 }
