@@ -1,0 +1,13 @@
+{
+  "scored_at": "2026-11-19T17:48:25.691502+00:00",
+  "source_file": "2026-11-19_174546.json",
+  "summary": {
+    "total_input": 12,
+    "total_llm_eliminated": 0,
+    "total_scored": 0,
+    "total_top": 0
+  },
+  "jobs": [],
+  "scored_jobs": [],
+  "eliminated_jobs": []
+}
